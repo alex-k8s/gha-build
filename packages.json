@@ -51,7 +51,6 @@
         "multtest"
     ],
     "abseqR": [],
-    "ABSSeq": [],
     "ACE": [
         "Biobase",
         "QDNAseq",
@@ -21003,7 +21002,6 @@
     ],
     "metaseqR2": [
         "DESeq2",
-        "ABSSeq",
         "baySeq",
         "Biobase",
         "biomaRt",
