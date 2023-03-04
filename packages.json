@@ -331,7 +331,6 @@
         "Biostrings",
         "GenomeInfoDb"
     ],
-    "AffymetrixDataTestFiles": [],
     "affyPLM": [
         "affy",
         "Biobase",
