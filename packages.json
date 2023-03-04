@@ -4467,7 +4467,6 @@
     "BumpyMatrix": [
         "IRanges"
     ],
-    "BUS": [],
     "BUScorrect": [
         "SummarizedExperiment",
         "GenomicRanges",
