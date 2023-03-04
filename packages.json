@@ -42264,7 +42264,6 @@
         "seqCNA.annot"
     ],
     "seqCNA.annot": [],
-    "seqcombo": [],
     "SeqGate": [
         "S4Vectors",
         "SummarizedExperiment",
