@@ -10909,7 +10909,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "curatedAdipoArray": [],
     "curatedAdipoChIP": [
         "SummarizedExperiment",
         "ExperimentHub",
