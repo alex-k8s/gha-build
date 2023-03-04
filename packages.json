@@ -14217,7 +14217,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "zlibbioc",
-        "TCGAbiolinksGUI.data",
         "KEGGREST",
         "VariantAnnotation",
         "AnnotationFilter",
@@ -28867,7 +28866,6 @@
         "GenomeInfoDb",
         "DelayedArray",
         "biomaRt",
-        "TCGAbiolinksGUI.data",
         "KEGGREST",
         "BiocFileCache",
         "XVector",
@@ -29758,7 +29756,6 @@
         "GenomeInfoDb",
         "DelayedArray",
         "biomaRt",
-        "TCGAbiolinksGUI.data",
         "KEGGREST",
         "BiocFileCache",
         "ggtree",
@@ -31290,7 +31287,6 @@
         "zlibbioc",
         "MatrixGenerics",
         "DelayedArray",
-        "TCGAbiolinksGUI.data",
         "KEGGREST",
         "BiocFileCache",
         "BiocParallel",
@@ -46485,7 +46481,6 @@
         "MatrixGenerics",
         "DelayedArray",
         "biomaRt",
-        "TCGAbiolinksGUI.data",
         "KEGGREST",
         "Rhtslib"
     ],
@@ -48935,7 +48930,6 @@
         "IRanges",
         "S4Vectors",
         "SummarizedExperiment",
-        "TCGAbiolinksGUI.data",
         "AnnotationDbi",
         "BiocFileCache",
         "BiocGenerics",
@@ -48949,7 +48943,6 @@
         "Biostrings"
     ],
     "TCGAbiolinksGUI": [
-        "TCGAbiolinksGUI.data",
         "maftools",
         "SummarizedExperiment",
         "pathview",
@@ -49011,7 +49004,6 @@
         "ProtGenerics",
         "treeio"
     ],
-    "TCGAbiolinksGUI.data": [],
     "TCGAcrcmiRNA": [
         "Biobase",
         "BiocGenerics"
