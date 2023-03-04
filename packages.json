@@ -20905,9 +20905,7 @@
         "XVector",
         "zlibbioc"
     ],
-    "ibh": [
-        "simpIntLists"
-    ],
+    "ibh": [],
     "iBMQ": [
         "Biobase",
         "BiocGenerics"
@@ -43354,7 +43352,6 @@
         "Rhtslib"
     ],
     "SIMLR": [],
-    "simpIntLists": [],
     "simpleSeg": [
         "BiocParallel",
         "EBImage",
