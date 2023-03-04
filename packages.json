@@ -40718,11 +40718,9 @@
     "ReactomeGraph4R": [
         "ReactomeContentService4R"
     ],
-    "ReactomeGSA": [],
     "ReactomeGSA.data": [
         "limma",
-        "edgeR",
-        "ReactomeGSA"
+        "edgeR"
     ],
     "ReactomePA": [
         "AnnotationDbi",
