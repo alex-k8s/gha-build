@@ -29878,7 +29878,6 @@
     "ompBAM": [
         "zlibbioc"
     ],
-    "OnassisJavaLibs": [],
     "oncomix": [
         "SummarizedExperiment",
         "GenomicRanges",
