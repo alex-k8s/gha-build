@@ -10774,7 +10774,6 @@
         "KEGGREST",
         "Rhtslib"
     ],
-    "FISHalyseR": [],
     "fishpond": [
         "IRanges",
         "SummarizedExperiment",
