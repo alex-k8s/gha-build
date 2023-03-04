@@ -2620,7 +2620,6 @@
     ],
     "bigmelon": [
         "wateRmelon",
-        "gdsfmt",
         "minfi",
         "Biobase",
         "methylumi",
@@ -8747,7 +8746,6 @@
         "SNPRelate",
         "SummarizedExperiment",
         "edgeR",
-        "gdsfmt",
         "DelayedArray",
         "SeqArray",
         "XVector",
@@ -15810,7 +15808,6 @@
     ],
     "GBScleanR": [
         "SeqArray",
-        "gdsfmt",
         "IRanges",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -15907,7 +15904,6 @@
         "zlibbioc"
     ],
     "GDSArray": [
-        "gdsfmt",
         "BiocGenerics",
         "DelayedArray",
         "S4Vectors",
@@ -15920,7 +15916,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "gdsfmt": [],
     "gemma.R": [
         "SummarizedExperiment",
         "Biobase",
@@ -16185,7 +16180,6 @@
         "Biobase",
         "BiocGenerics",
         "GWASTools",
-        "gdsfmt",
         "GenomicRanges",
         "IRanges",
         "S4Vectors",
@@ -16849,7 +16843,6 @@
         "zlibbioc"
     ],
     "ggmanh": [
-        "gdsfmt",
         "SeqArray",
         "IRanges",
         "GenomicRanges",
@@ -17817,12 +17810,10 @@
     "GWASdata": [
         "GWASTools",
         "Biobase",
-        "gdsfmt",
         "BiocGenerics"
     ],
     "GWASTools": [
         "Biobase",
-        "gdsfmt",
         "BiocGenerics"
     ],
     "gwasurvivr": [
@@ -17831,7 +17822,6 @@
         "SummarizedExperiment",
         "SNPRelate",
         "Biobase",
-        "gdsfmt",
         "GenomicRanges",
         "BiocGenerics",
         "S4Vectors",
@@ -23740,7 +23730,6 @@
         "GWASTools",
         "Biobase",
         "BiocGenerics",
-        "gdsfmt",
         "IRanges",
         "GenomicRanges",
         "SummarizedExperiment",
@@ -39875,7 +39864,6 @@
         "zlibbioc"
     ],
     "SAIGEgds": [
-        "gdsfmt",
         "SeqArray",
         "IRanges",
         "GenomicRanges",
@@ -40165,7 +40153,6 @@
         "DelayedArray"
     ],
     "SCArray": [
-        "gdsfmt",
         "DelayedArray",
         "BiocGenerics",
         "S4Vectors",
@@ -41198,7 +41185,6 @@
         "zlibbioc"
     ],
     "SeqArray": [
-        "gdsfmt",
         "IRanges",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -41317,7 +41303,6 @@
         "ExperimentHub",
         "SNPRelate",
         "GenomicRanges",
-        "gdsfmt",
         "IRanges",
         "S4Vectors",
         "BiocGenerics",
@@ -41370,7 +41355,6 @@
         "SeqArray",
         "Biobase",
         "BiocGenerics",
-        "gdsfmt",
         "GenomicRanges",
         "IRanges",
         "S4Vectors",
@@ -42663,9 +42647,7 @@
         "Biobase",
         "DelayedArray"
     ],
-    "SNPRelate": [
-        "gdsfmt"
-    ],
+    "SNPRelate": [],
     "snpStats": [
         "BiocGenerics",
         "zlibbioc"
@@ -47463,7 +47445,6 @@
         "GenomicRanges",
         "GDSArray",
         "DelayedDataFrame",
-        "gdsfmt",
         "SNPRelate",
         "SeqArray",
         "SeqVarTools",
