@@ -15022,7 +15022,6 @@
         "DelayedArray"
     ],
     "hopach": [],
-    "HPiP": [],
     "hs25kresogen.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
