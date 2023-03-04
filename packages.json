@@ -24131,7 +24131,6 @@
         "GenomeInfoDb"
     ],
     "PhenStat": [],
-    "philr": [],
     "PhIPData": [
         "SummarizedExperiment",
         "GenomicRanges",
