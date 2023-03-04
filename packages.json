@@ -2191,7 +2191,6 @@
         "DelayedArray"
     ],
     "BAGS": [
-        "breastCancerVDX",
         "Biobase",
         "BiocGenerics"
     ],
@@ -4262,7 +4261,6 @@
     "breastCancerTRANSBIG": [],
     "breastCancerUNT": [],
     "breastCancerUPP": [],
-    "breastCancerVDX": [],
     "brendaDb": [
         "BiocParallel",
         "BiocFileCache"
