@@ -8356,7 +8356,6 @@
         "BiocFileCache",
         "DelayedArray"
     ],
-    "cisPath": [],
     "CiteFuse": [
         "SingleCellExperiment",
         "SummarizedExperiment",
