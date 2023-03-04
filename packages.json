@@ -16131,7 +16131,6 @@
         "XVector",
         "Rhtslib"
     ],
-    "lungExpression": [],
     "LymphoSeq": [
         "msa",
         "Biostrings",
