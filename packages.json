@@ -22873,7 +22873,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "NPARC": [],
     "npGSEA": [
         "GSEABase",
         "annotate",
