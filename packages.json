@@ -14390,7 +14390,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "EpiDISH": [],
     "epigenomix": [
         "Biobase",
         "S4Vectors",
@@ -48435,7 +48434,6 @@
         "zlibbioc"
     ],
     "TOAST": [
-        "EpiDISH",
         "SummarizedExperiment",
         "MatrixGenerics",
         "GenomicRanges",
