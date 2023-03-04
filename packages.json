@@ -16534,7 +16534,6 @@
     ],
     "FitHiC": [],
     "flagme": [
-        "gcspikelite",
         "xcms",
         "CAMERA",
         "Biobase",
@@ -17589,7 +17588,6 @@
         "IRanges",
         "GenomeInfoDb"
     ],
-    "gcspikelite": [],
     "GCSscore": [
         "Biobase",
         "affxparser",
