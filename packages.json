@@ -1837,7 +1837,6 @@
         "XVector"
     ],
     "BiGGR": [
-        "rsbml",
         "hyperdraw",
         "Rgraphviz"
     ],
@@ -27935,7 +27934,6 @@
         "XVector",
         "Rhtslib"
     ],
-    "rsbml": [],
     "rScudo": [
         "SummarizedExperiment",
         "GenomicRanges",
