@@ -15697,7 +15697,6 @@
         "IRanges",
         "S4Vectors",
         "pcaExplorer",
-        "IHW",
         "goseq",
         "GOstats",
         "GO.db",
@@ -15793,9 +15792,7 @@
         "biomaRt",
         "DelayedArray"
     ],
-    "IHW": [],
     "IHWpaper": [
-        "IHW",
         "DESeq2",
         "SummarizedExperiment",
         "genefilter",
