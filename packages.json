@@ -45080,7 +45080,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "tinesath1cdf": [],
     "tinesath1probe": [
         "AnnotationDbi",
         "BiocGenerics",
@@ -48239,7 +48238,6 @@
     "XhybCasneuf": [
         "affy",
         "ath1121501cdf",
-        "tinesath1cdf",
         "BiocGenerics",
         "Biobase",
         "affyio",
