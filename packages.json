@@ -43054,7 +43054,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "savR": [],
     "SBGNview": [
         "pathview",
         "SBGNview.data",
