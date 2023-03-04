@@ -7219,7 +7219,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "COHCAP": [],
     "cola": [
         "ComplexHeatmap",
         "IRanges",
