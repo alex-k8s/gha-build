@@ -15865,7 +15865,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "iCOBRA": [],
     "ideal": [
         "topGO",
         "DESeq2",
