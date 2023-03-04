@@ -41120,7 +41120,6 @@
         "preprocessCore"
     ],
     "RMassBankData": [],
-    "rmelting": [],
     "RmiR.Hs.miRNA": [
         "AnnotationDbi",
         "BiocGenerics",
