@@ -37656,7 +37656,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "SwathXtend": [],
     "switchde": [
         "SingleCellExperiment",
         "SummarizedExperiment",
