@@ -31362,7 +31362,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "scShapes": [],
     "scTensor": [
         "S4Vectors",
         "reactome.db",
