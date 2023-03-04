@@ -43925,7 +43925,6 @@
         "GenomicAlignments",
         "BiocFileCache"
     ],
-    "SNPhoodData": [],
     "SNPlocs.Hsapiens.dbSNP144.GRCh37": [
         "BSgenome",
         "BiocGenerics",
