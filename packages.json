@@ -9569,7 +9569,6 @@
         "GSVA",
         "genefu",
         "BiocGenerics",
-        "survcomp",
         "biomaRt",
         "AIMS",
         "S4Vectors",
@@ -16557,7 +16556,6 @@
         "zlibbioc"
     ],
     "genefu": [
-        "survcomp",
         "biomaRt",
         "AIMS",
         "Biobase",
@@ -25216,7 +25214,6 @@
         "rtracklayer",
         "S4Vectors",
         "SummarizedExperiment",
-        "survcomp",
         "vsn",
         "AnnotationDbi",
         "BiocFileCache",
@@ -34843,7 +34840,6 @@
         "BiocGenerics",
         "BiocParallel",
         "piano",
-        "survcomp",
         "genefu",
         "switchBox",
         "Biobase",
@@ -43093,7 +43089,6 @@
         "ScaledMatrix",
         "beachmat",
         "XVector",
-        "survcomp",
         "biomaRt",
         "AIMS",
         "BiocIO",
@@ -45299,7 +45294,6 @@
         "KEGGREST",
         "zlibbioc"
     ],
-    "survcomp": [],
     "survtype": [
         "SummarizedExperiment",
         "GenomicRanges",
