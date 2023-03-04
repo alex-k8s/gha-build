@@ -15039,7 +15039,6 @@
         "FCBF",
         "clusterProfiler",
         "SingleCellExperiment",
-        "pathwayPCA",
         "AnnotationDbi",
         "DOSE",
         "enrichplot",
@@ -31814,7 +31813,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "pathwayPCA": [],
     "paxtoolsr": [],
     "pcaExplorer": [
         "DESeq2",
