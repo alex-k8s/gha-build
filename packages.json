@@ -34318,7 +34318,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "synergyfinder": [],
     "SynExtend": [
         "DECIPHER",
         "Biostrings",
