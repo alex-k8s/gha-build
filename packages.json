@@ -9707,7 +9707,6 @@
         "GenomeInfoDbData",
         "zlibbioc"
     ],
-    "ClusterSignificance": [],
     "clusterStab": [
         "Biobase",
         "BiocGenerics"
