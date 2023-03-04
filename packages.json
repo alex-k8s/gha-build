@@ -12495,7 +12495,6 @@
         "frma",
         "frmaTools",
         "hgu133plus2.db",
-        "hgu133plus2frmavecs",
         "sva",
         "ConsensusClusterPlus",
         "siggenes",
@@ -20221,7 +20220,6 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "hgu133plus2frmavecs": [],
     "hgu133plus2probe": [
         "AnnotationDbi",
         "BiocGenerics",
