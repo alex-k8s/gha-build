@@ -19212,7 +19212,6 @@
     "hapmap370k": [],
     "hapmap500knsp": [],
     "hapmapsnp5": [],
-    "hapmapsnp6": [],
     "harbChIP": [
         "IRanges",
         "Biobase",
