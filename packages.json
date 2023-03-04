@@ -13399,7 +13399,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "DriverNet": [],
     "DropletTestFiles": [
         "ExperimentHub",
         "AnnotationHub",
