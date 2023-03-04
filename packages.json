@@ -39594,7 +39594,6 @@
         "BiocParallel",
         "Rhtslib"
     ],
-    "RImmPort": [],
     "Ringo": [
         "Biobase",
         "BiocGenerics",
