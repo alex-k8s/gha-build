@@ -17991,7 +17991,6 @@
         "minet",
         "BiocGenerics"
     ],
-    "GeneticsPed": [],
     "GeneTonic": [
         "AnnotationDbi",
         "ComplexHeatmap",
