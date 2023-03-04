@@ -1558,7 +1558,6 @@
         "Biostrings",
         "GenomeInfoDb"
     ],
-    "arrays": [],
     "ARRmData": [],
     "ARRmNormalization": [
         "ARRmData"
