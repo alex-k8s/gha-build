@@ -13907,7 +13907,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "hca": [],
     "HCAData": [
         "SingleCellExperiment",
         "ExperimentHub",
