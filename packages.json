@@ -22570,7 +22570,6 @@
         "S4Vectors",
         "RProtoBufLib"
     ],
-    "Informeasure": [],
     "InPAS": [
         "AnnotationDbi",
         "Biobase",
