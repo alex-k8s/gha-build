@@ -17019,9 +17019,7 @@
         "Biobase",
         "DelayedArray"
     ],
-    "gcatest": [
-        "lfa"
-    ],
+    "gcatest": [],
     "gCrisprTools": [
         "Biobase",
         "SummarizedExperiment",
@@ -23467,7 +23465,6 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "lfa": [],
     "LiebermanAidenHiC2009": [
         "IRanges",
         "BiocGenerics",
