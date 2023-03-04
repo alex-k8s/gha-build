@@ -3462,7 +3462,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "breastCancerTRANSBIG": [],
     "brendaDb": [
         "BiocFileCache"
     ],
