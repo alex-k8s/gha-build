@@ -4845,7 +4845,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "CCl4": [],
     "ccmap": [
         "AnnotationDbi",
         "IRanges",
