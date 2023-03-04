@@ -19497,7 +19497,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "hgu133afrmavecs": [],
     "hgu133aprobe": [
         "AnnotationDbi",
         "BiocGenerics",
