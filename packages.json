@@ -181,7 +181,6 @@
         "interactiveDisplayBase",
         "Biobase",
         "ProtGenerics",
-        "Rhdf5lib",
         "IRanges",
         "KEGGREST",
         "Biostrings",
@@ -874,7 +873,6 @@
         "XVector",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "KEGGREST",
         "zlibbioc",
         "Biostrings"
@@ -1001,7 +999,6 @@
         "annotate",
         "AnnotationDbi",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "KEGGREST",
         "zlibbioc",
@@ -1385,7 +1382,6 @@
         "BiocVersion",
         "interactiveDisplayBase",
         "rhdf5filters",
-        "Rhdf5lib",
         "graph",
         "RBGL",
         "GenomicAlignments"
@@ -1495,7 +1491,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -1734,7 +1729,6 @@
         "annotate",
         "graph",
         "RBGL",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "Rhtslib",
@@ -1785,7 +1779,6 @@
         "AnnotationFilter",
         "ProtGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "CNEr",
         "DirichletMultinomial",
         "annotate",
@@ -2143,7 +2136,6 @@
         "annotate",
         "genefilter",
         "SummarizedExperiment",
-        "Rhdf5lib",
         "KEGGREST",
         "MatrixGenerics",
         "GenomicRanges",
@@ -2287,7 +2279,6 @@
         "XVector",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "BasicSTARRseq": [
@@ -2373,7 +2364,6 @@
         "BiocParallel",
         "ScaledMatrix",
         "beachmat",
-        "Rhdf5lib",
         "rhdf5filters",
         "scuttle",
         "DelayedMatrixStats",
@@ -2563,7 +2553,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -2673,7 +2662,6 @@
         "DirichletMultinomial",
         "KEGGREST",
         "sparseMatrixStats",
-        "Rhdf5lib",
         "rhdf5filters",
         "beachmat",
         "BiocNeighbors",
@@ -2721,7 +2709,6 @@
         "GenomicRanges",
         "BiocIO",
         "Biobase",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "Rsamtools",
@@ -2835,7 +2822,6 @@
         "biomaRt",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "affy",
         "multtest",
         "affyio",
@@ -3003,7 +2989,6 @@
         "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rsamtools",
         "GenomicAlignments",
@@ -3162,7 +3147,6 @@
     ],
     "biomformat": [
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "BioMM": [
@@ -3452,7 +3436,6 @@
         "annotatr",
         "XVector",
         "rhdf5filters",
-        "Rhdf5lib",
         "AnnotationDbi",
         "OrganismDbi",
         "GenomicFeatures",
@@ -3660,7 +3643,6 @@
         "sva",
         "EBImage",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "MatrixGenerics",
         "Biobase",
@@ -3784,7 +3766,6 @@
         "MatrixGenerics",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -6474,7 +6455,6 @@
         "MatrixGenerics",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -6503,7 +6483,6 @@
         "MatrixGenerics",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -6887,7 +6866,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -7129,7 +7107,6 @@
         "MatrixGenerics",
         "GenomeInfoDb",
         "ScaledMatrix",
-        "Rhdf5lib",
         "sparseMatrixStats",
         "XVector",
         "zlibbioc"
@@ -7692,7 +7669,6 @@
         "ConsensusClusterPlus",
         "XVector",
         "ALL",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "Cepo": [
@@ -7714,7 +7690,6 @@
         "AnnotationDbi",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "GenomeInfoDb",
         "KEGGREST",
@@ -7905,7 +7880,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "rhdf5filters",
-        "Rhdf5lib",
         "affy",
         "FDb.InfiniumMethylation.hg19",
         "multtest",
@@ -8724,7 +8698,6 @@
         "S4Vectors",
         "scran",
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocGenerics",
         "scuttle",
@@ -9003,7 +8976,6 @@
         "affyio",
         "preprocessCore",
         "zlibbioc",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -9062,7 +9034,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "affyio",
         "preprocessCore",
         "zlibbioc"
@@ -9087,7 +9058,6 @@
         "IRanges",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Biobase",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -9184,7 +9154,6 @@
         "cytolib",
         "S4Vectors",
         "RProtoBufLib",
-        "Rhdf5lib",
         "rhdf5filters",
         "MatrixGenerics",
         "GenomicRanges",
@@ -9330,7 +9299,6 @@
         "exomeCopy",
         "BiocIO",
         "biomaRt",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocFileCache",
         "ProtGenerics"
@@ -9387,7 +9355,6 @@
         "BiocIO",
         "biomaRt",
         "BSgenome",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocParallel",
         "MatrixGenerics",
@@ -9508,7 +9475,6 @@
         "MatrixGenerics",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "GenomicAlignments",
         "BiocIO"
@@ -9576,7 +9542,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocGenerics",
         "GenomicRanges",
@@ -9692,7 +9657,6 @@
         "DelayedArray",
         "rhdf5",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -9779,7 +9743,6 @@
         "XVector",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Biostrings",
         "zlibbioc",
         "Rsamtools",
@@ -9939,8 +9902,7 @@
         "cytolib",
         "S4Vectors",
         "RProtoBufLib",
-        "Rgraphviz",
-        "Rhdf5lib"
+        "Rgraphviz"
     ],
     "ConnectivityMap": [],
     "ConsensusClusterPlus": [
@@ -10016,7 +9978,6 @@
         "graph",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "GenomeInfoDb",
         "KEGGREST",
@@ -10131,7 +10092,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest",
         "KEGGREST",
@@ -10198,7 +10158,6 @@
         "AnnotationDbi",
         "BSgenome",
         "Biostrings",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "BiocParallel",
@@ -10356,7 +10315,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -10662,7 +10620,6 @@
         "rtracklayer",
         "Rsamtools",
         "MatrixGenerics",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "BiocParallel",
@@ -10705,7 +10662,6 @@
         "regioneR",
         "MatrixGenerics",
         "BiocParallel",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "Rhtslib",
@@ -10955,7 +10911,6 @@
         "BiocVersion",
         "interactiveDisplayBase",
         "BiocParallel",
-        "Rhdf5lib",
         "rhdf5filters",
         "Biostrings",
         "XVector",
@@ -10985,7 +10940,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -11157,7 +11111,6 @@
         "rhdf5",
         "rhdf5filters",
         "IRanges",
-        "Rhdf5lib",
         "GenomicRanges",
         "Biobase",
         "MatrixGenerics",
@@ -11223,7 +11176,6 @@
         "RProtoBufLib",
         "flowViz",
         "flowWorkspace",
-        "Rhdf5lib",
         "RBGL",
         "Rgraphviz",
         "ncdfFlow",
@@ -11256,7 +11208,6 @@
         "MatrixGenerics",
         "IRanges",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "XVector",
         "zlibbioc"
     ],
@@ -11278,8 +11229,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "CyTOFpower": [
         "CytoGLMM",
@@ -11303,7 +11253,6 @@
         "ConsensusClusterPlus",
         "XVector",
         "ALL",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "cytofWorkflow": [
@@ -11343,7 +11292,6 @@
         "AnnotationDbi",
         "interactiveDisplayBase",
         "ScaledMatrix",
-        "Rhdf5lib",
         "sparseMatrixStats",
         "XVector",
         "KEGGREST",
@@ -11369,8 +11317,7 @@
         "zlibbioc"
     ],
     "cytolib": [
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "cytomapper": [
         "EBImage",
@@ -11386,7 +11333,6 @@
         "MatrixGenerics",
         "IRanges",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "DropletUtils",
         "BiocFileCache",
@@ -11406,8 +11352,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "CytoML": [
         "cytolib",
@@ -11420,7 +11365,6 @@
         "graph",
         "ggcyto",
         "RProtoBufLib",
-        "Rhdf5lib",
         "BiocGenerics",
         "S4Vectors",
         "ncdfFlow",
@@ -11560,8 +11504,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "DAPARdata": [
         "MSnbase",
@@ -11579,8 +11522,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "dasper": [
         "basilisk",
@@ -11674,7 +11616,6 @@
         "RProtoBufLib",
         "flowViz",
         "flowWorkspace",
-        "Rhdf5lib",
         "graph",
         "RBGL",
         "Rgraphviz",
@@ -11858,7 +11799,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicAlignments",
         "BiocIO",
         "multtest",
@@ -12040,8 +11980,7 @@
         "MatrixGenerics",
         "IRanges",
         "rhdf5",
-        "rhdf5filters",
-        "Rhdf5lib"
+        "rhdf5filters"
     ],
     "deltaCaptureC": [
         "IRanges",
@@ -12095,7 +12034,6 @@
         "Rsamtools",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -12130,8 +12068,7 @@
         "affyio",
         "preprocessCore",
         "zlibbioc",
-        "XVector",
-        "Rhdf5lib"
+        "XVector"
     ],
     "DepecheR": [
         "mixOmics",
@@ -12443,8 +12380,7 @@
         "mzR",
         "Biobase",
         "BiocGenerics",
-        "ProtGenerics",
-        "Rhdf5lib"
+        "ProtGenerics"
     ],
     "DiffBind": [
         "GenomicRanges",
@@ -12514,7 +12450,6 @@
         "GenomeInfoDb",
         "DelayedArray",
         "ALL",
-        "Rhdf5lib",
         "XVector",
         "zlibbioc"
     ],
@@ -12557,7 +12492,6 @@
         "XVector",
         "BiocParallel",
         "metapod",
-        "Rhdf5lib",
         "rhdf5filters",
         "GenomicAlignments",
         "BiocIO",
@@ -12761,7 +12695,6 @@
     ],
     "DmelSGI": [
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "DMRcaller": [
@@ -12830,7 +12763,6 @@
         "annotate",
         "BiocIO",
         "rhdf5filters",
-        "Rhdf5lib",
         "FDb.InfiniumMethylation.hg19",
         "zlibbioc",
         "Rhtslib",
@@ -12886,7 +12818,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest"
     ],
     "DMRforPairs": [
@@ -12967,7 +12898,6 @@
         "KEGGREST",
         "biomaRt",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib"
     ],
     "DNABarcodeCompatibility": [
@@ -13183,7 +13113,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "MatrixGenerics",
         "sparseMatrixStats",
         "GenomeInfoDb",
@@ -13353,7 +13282,6 @@
         "MatrixGenerics",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -13828,7 +13756,6 @@
         "MatrixGenerics",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Biostrings",
         "multtest",
         "GenomicRanges",
@@ -13878,7 +13805,6 @@
         "MatrixGenerics",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Biostrings",
         "multtest",
         "GenomicRanges",
@@ -14041,7 +13967,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "BiocIO",
         "rtracklayer",
@@ -14525,7 +14450,6 @@
         "bamsignals",
         "csaw",
         "S4Vectors",
-        "Rhdf5lib",
         "rhdf5",
         "GreyListChIP",
         "BiocGenerics",
@@ -14678,7 +14602,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "graph",
         "RBGL",
         "Rhtslib",
@@ -15108,7 +15031,6 @@
         "XVector",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Biostrings",
         "zlibbioc"
     ],
@@ -15219,7 +15141,6 @@
         "BiocIO",
         "biomaRt",
         "Biobase",
-        "Rhdf5lib",
         "rhdf5filters",
         "GenomicAlignments",
         "MatrixGenerics",
@@ -15430,7 +15351,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "sparseMatrixStats",
         "rhdf5filters",
         "zlibbioc"
@@ -15533,7 +15453,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -15988,7 +15907,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rsamtools",
         "GenomicAlignments",
         "multtest",
@@ -16036,7 +15954,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -16176,7 +16093,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -16207,7 +16123,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -16252,7 +16167,6 @@
         "rhdf5",
         "edgeR",
         "beachmat",
-        "Rhdf5lib",
         "AnnotationDbi",
         "BiocIO",
         "biomaRt",
@@ -16303,8 +16217,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowBeads": [
         "Biobase",
@@ -16312,8 +16225,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowBin": [
         "flowCore",
@@ -16323,8 +16235,7 @@
         "cytolib",
         "S4Vectors",
         "RProtoBufLib",
-        "flowViz",
-        "Rhdf5lib"
+        "flowViz"
     ],
     "flowcatchR": [
         "EBImage",
@@ -16338,8 +16249,7 @@
         "Biobase",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowCL": [
         "Rgraphviz",
@@ -16352,8 +16262,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowClust": [
         "BiocGenerics",
@@ -16362,16 +16271,14 @@
         "flowCore",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowCore": [
         "Biobase",
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowCut": [
         "flowCore",
@@ -16383,7 +16290,6 @@
         "RProtoBufLib",
         "flowViz",
         "flowWorkspace",
-        "Rhdf5lib",
         "graph",
         "RBGL",
         "Rgraphviz",
@@ -16408,7 +16314,6 @@
         "Rgraphviz",
         "ncdfFlow",
         "DelayedArray",
-        "Rhdf5lib",
         "MatrixGenerics",
         "IRanges",
         "zlibbioc"
@@ -16420,8 +16325,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowGraph": [],
     "flowMap": [],
@@ -16431,8 +16335,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowMeans": [
         "Biobase",
@@ -16440,8 +16343,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowMerge": [
         "graph",
@@ -16452,8 +16354,7 @@
         "Biobase",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowPeaks": [],
     "flowPloidy": [
@@ -16462,8 +16363,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowPloidyData": [],
     "flowPlots": [],
@@ -16475,8 +16375,7 @@
         "ALL",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "FlowSorted.Blood.450k": [
         "minfi",
@@ -16505,7 +16404,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -16550,7 +16448,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "BiocIO",
         "rtracklayer",
@@ -16587,7 +16484,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -16634,7 +16530,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "BiocIO",
         "rtracklayer",
@@ -16671,7 +16566,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -16710,7 +16604,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -16729,8 +16622,7 @@
         "flowCore",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowStats": [
         "BiocGenerics",
@@ -16746,7 +16638,6 @@
         "RBGL",
         "Rgraphviz",
         "DelayedArray",
-        "Rhdf5lib",
         "zlibbioc",
         "MatrixGenerics",
         "IRanges"
@@ -16757,8 +16648,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowTrans": [
         "flowCore",
@@ -16769,8 +16659,7 @@
         "graph",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowViz": [
         "flowCore",
@@ -16778,8 +16667,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "flowVS": [
         "flowCore",
@@ -16792,7 +16680,6 @@
         "RProtoBufLib",
         "flowWorkspace",
         "ncdfFlow",
-        "Rhdf5lib",
         "graph",
         "RBGL",
         "Rgraphviz",
@@ -16813,7 +16700,6 @@
         "ncdfFlow",
         "DelayedArray",
         "S4Vectors",
-        "Rhdf5lib",
         "MatrixGenerics",
         "IRanges",
         "zlibbioc"
@@ -16905,7 +16791,6 @@
         "sparseMatrixStats",
         "BiocIO",
         "rhdf5filters",
-        "Rhdf5lib",
         "DESeq2",
         "zlibbioc",
         "Rhtslib",
@@ -16989,7 +16874,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -17146,8 +17030,7 @@
         "cytolib",
         "S4Vectors",
         "RProtoBufLib",
-        "flowViz",
-        "Rhdf5lib"
+        "flowViz"
     ],
     "gatingMLData": [],
     "GBScleanR": [
@@ -17962,7 +17845,6 @@
         "XVector",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "KEGGREST",
         "zlibbioc"
     ],
@@ -18150,7 +18032,6 @@
         "annotate",
         "graph",
         "AnnotationDbi",
-        "Rhdf5lib",
         "rhdf5filters",
         "IRanges",
         "S4Vectors",
@@ -18246,7 +18127,6 @@
         "RBGL",
         "Rgraphviz",
         "DelayedArray",
-        "Rhdf5lib",
         "zlibbioc",
         "MatrixGenerics",
         "IRanges"
@@ -18311,7 +18191,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -18403,7 +18282,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "Biobase",
         "GenomeInfoDb",
@@ -18944,7 +18822,6 @@
     "GSAR": [],
     "GSCA": [
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "gscreend": [
@@ -19133,7 +19010,6 @@
         "AnnotationDbi",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "GenomeInfoDb",
         "KEGGREST",
@@ -19203,7 +19079,6 @@
         "MatrixGenerics",
         "AnnotationFilter",
         "ProtGenerics",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "Guitar": [
@@ -19395,7 +19270,6 @@
         "Rhtslib",
         "BiocGenerics",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -19474,7 +19348,6 @@
         "rhdf5",
         "rhdf5filters",
         "IRanges",
-        "Rhdf5lib",
         "SummarizedExperiment",
         "GenomicRanges",
         "Biobase",
@@ -19556,7 +19429,6 @@
         "BiocVersion",
         "AnnotationDbi",
         "interactiveDisplayBase",
-        "Rhdf5lib",
         "XVector",
         "KEGGREST",
         "zlibbioc",
@@ -19569,7 +19441,6 @@
         "BiocGenerics",
         "S4Vectors",
         "IRanges",
-        "Rhdf5lib",
         "MatrixGenerics"
     ],
     "HDO.db": [
@@ -19605,8 +19476,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "heatmaps": [
         "Biostrings",
@@ -20333,7 +20203,6 @@
         "BiocParallel",
         "BiocGenerics",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -20353,7 +20222,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "Rhdf5lib",
         "rhdf5filters",
         "marray",
         "Biostrings",
@@ -20412,7 +20280,6 @@
         "XVector",
         "HiCcompare",
         "edgeR",
-        "Rhdf5lib",
         "rhdf5filters",
         "MatrixGenerics",
         "Biobase",
@@ -20444,7 +20311,6 @@
         "BiocFileCache",
         "AnnotationHub",
         "SummarizedExperiment",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocVersion",
         "AnnotationDbi",
@@ -20522,7 +20388,6 @@
         "RBGL",
         "Rgraphviz",
         "DelayedArray",
-        "Rhdf5lib",
         "MatrixGenerics",
         "IRanges",
         "zlibbioc"
@@ -20730,7 +20595,6 @@
         "KEGGREST",
         "rhdf5",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -21893,7 +21757,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -22126,7 +21989,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22165,7 +22027,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22204,7 +22065,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22243,7 +22103,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22294,7 +22153,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22333,7 +22191,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22372,7 +22229,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22411,7 +22267,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -22648,7 +22503,6 @@
         "AnnotationHub",
         "BiocFileCache",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "DropletUtils",
         "BiocVersion",
@@ -22691,7 +22545,6 @@
         "GenomeInfoDb",
         "sparseMatrixStats",
         "edgeR",
-        "Rhdf5lib",
         "XVector",
         "rhdf5filters",
         "zlibbioc"
@@ -22719,7 +22572,6 @@
         "Rgraphviz",
         "ncdfFlow",
         "DelayedArray",
-        "Rhdf5lib",
         "MatrixGenerics",
         "IRanges",
         "zlibbioc"
@@ -22730,8 +22582,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "immunotation": [],
     "indac.db": [
@@ -22769,8 +22620,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "Informeasure": [],
     "InPAS": [
@@ -23005,7 +22855,6 @@
         "S4Vectors",
         "IRanges",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters",
         "Rsamtools",
         "GenomicAlignments",
@@ -23069,7 +22918,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -23576,7 +23424,6 @@
         "Rsamtools",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -23862,7 +23709,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -23924,7 +23770,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -23977,7 +23822,6 @@
         "GenomeInfoDb",
         "XVector",
         "rhdf5filters",
-        "Rhdf5lib",
         "Biobase",
         "zlibbioc"
     ],
@@ -24113,7 +23957,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -24159,7 +24002,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -24218,7 +24060,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -24277,7 +24118,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -24336,7 +24176,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -24563,7 +24402,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24595,7 +24433,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24627,7 +24464,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24659,7 +24495,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24691,7 +24526,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24723,7 +24557,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24755,7 +24588,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24787,7 +24619,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24819,7 +24650,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24851,7 +24681,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24883,7 +24712,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24915,7 +24743,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24947,7 +24774,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -24979,7 +24805,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -25007,7 +24832,6 @@
         "AnnotationHub",
         "DelayedArray",
         "rhdf5filters",
-        "Rhdf5lib",
         "BiocVersion",
         "AnnotationDbi",
         "interactiveDisplayBase",
@@ -25039,7 +24863,6 @@
         "AnnotationHub",
         "DelayedArray",
         "rhdf5filters",
-        "Rhdf5lib",
         "BiocVersion",
         "AnnotationDbi",
         "interactiveDisplayBase",
@@ -25072,7 +24895,6 @@
         "rhdf5filters",
         "S4Vectors",
         "IRanges",
-        "Rhdf5lib",
         "GenomicRanges",
         "methylumi",
         "zlibbioc",
@@ -25184,7 +25006,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -25320,7 +25141,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -25366,7 +25186,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -25550,7 +25369,6 @@
         "AnnotationDbi",
         "annotate",
         "KEGGREST",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -25560,7 +25378,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "BiocParallel",
-        "Rhdf5lib",
         "beachmat",
         "BiocGenerics",
         "MatrixGenerics",
@@ -25766,7 +25583,6 @@
         "BiocIO",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "FDb.InfiniumMethylation.hg19",
         "zlibbioc",
         "Rhtslib",
@@ -25807,7 +25623,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "affy",
         "FDb.InfiniumMethylation.hg19",
         "multtest",
@@ -25966,7 +25781,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -26065,7 +25879,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -26193,8 +26006,7 @@
         "S4Vectors",
         "RProtoBufLib",
         "ConsensusClusterPlus",
-        "ALL",
-        "Rhdf5lib"
+        "ALL"
     ],
     "metagene": [
         "GenomicRanges",
@@ -26335,7 +26147,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -26442,8 +26253,7 @@
         "rhdf5",
         "beachmat",
         "sparseMatrixStats",
-        "rhdf5filters",
-        "Rhdf5lib"
+        "rhdf5filters"
     ],
     "metavizr": [
         "metagenomeSeq",
@@ -26482,7 +26292,6 @@
         "DelayedArray",
         "KEGGREST",
         "BiocFileCache",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "BiocParallel",
@@ -26533,7 +26342,6 @@
         "MatrixGenerics",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicAlignments",
         "BiocIO"
     ],
@@ -26618,7 +26426,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "GenomicAlignments",
         "BiocIO",
@@ -26662,7 +26469,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -26702,7 +26508,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -26773,7 +26578,6 @@
         "annotate",
         "BiocIO",
         "rhdf5filters",
-        "Rhdf5lib",
         "FDb.InfiniumMethylation.hg19",
         "zlibbioc",
         "Rhtslib",
@@ -26822,7 +26626,6 @@
         "BiocIO",
         "biomaRt",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "multtest",
@@ -26863,7 +26666,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "Rsamtools",
@@ -26968,7 +26770,6 @@
         "treeio",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "zlibbioc",
         "BiocFileCache",
@@ -27113,7 +26914,6 @@
         "XVector",
         "DelayedArray",
         "rhdf5filters",
-        "Rhdf5lib",
         "MatrixGenerics",
         "Biobase",
         "BiocVersion",
@@ -27147,7 +26947,6 @@
         "rtracklayer",
         "Rsamtools",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -27188,7 +26987,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rsamtools",
         "GenomicAlignments",
@@ -27649,7 +27447,6 @@
         "multtest",
         "rhdf5",
         "zlibbioc",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "MicrobiomeBenchmarkData": [
@@ -27685,7 +27482,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -27733,7 +27529,6 @@
         "AnnotationDbi",
         "GenomeInfoDb",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "MatrixGenerics",
         "DelayedArray",
@@ -27778,7 +27573,6 @@
         "scuttle",
         "scater",
         "DirichletMultinomial",
-        "Rhdf5lib",
         "rhdf5filters",
         "MatrixGenerics",
         "zlibbioc",
@@ -27990,7 +27784,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -28021,7 +27814,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -28062,7 +27854,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -28103,7 +27894,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -28183,7 +27973,6 @@
         "MatrixGenerics",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -28503,7 +28292,6 @@
         "biomaRt",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "zlibbioc",
         "BiocFileCache",
@@ -28759,7 +28547,6 @@
         "affyio",
         "preprocessCore",
         "zlibbioc",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -28914,8 +28701,7 @@
         "MatrixGenerics",
         "S4Vectors",
         "IRanges",
-        "rhdf5filters",
-        "Rhdf5lib"
+        "rhdf5filters"
     ],
     "MOFAdata": [],
     "MOGAMUN": [
@@ -29461,7 +29247,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "KEGGREST",
         "sparseMatrixStats",
@@ -29752,8 +29537,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "msmsTests": [
         "MSnbase",
@@ -29774,8 +29558,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "MSnbase": [
         "BiocGenerics",
@@ -29792,8 +29575,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "MSnID": [
         "MSnbase",
@@ -29823,7 +29605,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "Rhdf5lib",
         "affyio",
         "preprocessCore",
         "zlibbioc"
@@ -29855,8 +29636,7 @@
         "mzR",
         "Biobase",
         "BiocGenerics",
-        "ProtGenerics",
-        "Rhdf5lib"
+        "ProtGenerics"
     ],
     "msPurityData": [],
     "msqc1": [],
@@ -29932,8 +29712,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "MSstatsQCgui": [
         "MSstatsQC",
@@ -29953,8 +29732,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "MSstatsSampleSize": [
         "BiocParallel",
@@ -30246,7 +30024,6 @@
         "IRanges",
         "GenomicRanges",
         "Biobase",
-        "Rhdf5lib",
         "rhdf5filters",
         "GenomeInfoDb",
         "XVector",
@@ -30323,7 +30100,6 @@
         "AnnotationFilter",
         "MatrixGenerics",
         "BiocParallel",
-        "Rhdf5lib",
         "rhdf5filters",
         "ProtGenerics"
     ],
@@ -30375,7 +30151,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "marray",
@@ -30714,7 +30489,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest"
     ],
@@ -30809,8 +30583,7 @@
     "mzR": [
         "Biobase",
         "BiocGenerics",
-        "ProtGenerics",
-        "Rhdf5lib"
+        "ProtGenerics"
     ],
     "NADfinder": [
         "BiocGenerics",
@@ -30858,7 +30631,6 @@
         "HDF5Array",
         "biovizBase",
         "TFBSTools",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocVersion",
         "interactiveDisplayBase",
@@ -30899,7 +30671,6 @@
         "rtracklayer",
         "sparseMatrixStats",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicAlignments",
         "BiocIO"
     ],
@@ -30998,7 +30769,6 @@
         "Biobase",
         "BiocGenerics",
         "zlibbioc",
-        "Rhdf5lib",
         "cytolib",
         "S4Vectors",
         "RProtoBufLib"
@@ -31021,7 +30791,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -31276,7 +31045,6 @@
         "IRanges",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "scuttle",
         "DelayedMatrixStats",
         "beachmat",
@@ -31339,7 +31107,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "zlibbioc",
         "BiocIO",
@@ -31430,7 +31197,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -31730,7 +31496,6 @@
         "annotate",
         "Biobase",
         "rhdf5filters",
-        "Rhdf5lib",
         "ExperimentHub",
         "GenomicAlignments",
         "BiocIO",
@@ -31825,7 +31590,6 @@
         "DelayedMatrixStats",
         "HDF5Array",
         "BiocSingular",
-        "Rhdf5lib",
         "rhdf5filters",
         "KEGGREST",
         "ScaledMatrix",
@@ -32230,8 +31994,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "onlineFDR": [],
     "ontoProc": [
@@ -32271,7 +32034,6 @@
         "RProtoBufLib",
         "Rgraphviz",
         "DelayedArray",
-        "Rhdf5lib",
         "zlibbioc",
         "MatrixGenerics",
         "IRanges"
@@ -32352,7 +32114,6 @@
         "MatrixGenerics",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "GenomeInfoDb",
         "XVector",
@@ -32368,8 +32129,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "optimalFlowData": [],
     "OPWeight": [
@@ -33149,7 +32909,6 @@
         "MatrixGenerics",
         "DelayedArray",
         "KEGGREST",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -36539,7 +36298,6 @@
         "Rgraphviz",
         "ncdfFlow",
         "DelayedArray",
-        "Rhdf5lib",
         "MatrixGenerics",
         "zlibbioc"
     ],
@@ -36557,7 +36315,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "affyio",
         "preprocessCore",
         "zlibbioc"
@@ -36665,7 +36422,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -36744,7 +36500,6 @@
         "SummarizedExperiment",
         "BiocParallel",
         "geneplotter",
-        "Rhdf5lib",
         "rhdf5filters",
         "annotate",
         "GenomeInfoDb",
@@ -36797,7 +36552,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -36829,7 +36583,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -36859,7 +36612,6 @@
         "XVector",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "phastCons35way.UCSC.mm39": [
@@ -36883,7 +36635,6 @@
         "XVector",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "phastCons7way.UCSC.hg38": [
@@ -36909,7 +36660,6 @@
         "interactiveDisplayBase",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "BiocParallel",
         "Rhtslib",
@@ -37034,7 +36784,6 @@
         "XVector",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "PhyloProfile": [
@@ -37090,7 +36839,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -37285,7 +37033,6 @@
         "mzID",
         "GenomicRanges",
         "DelayedArray",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomeInfoDb",
         "affyio",
@@ -37706,7 +37453,6 @@
         "MatrixGenerics",
         "DelayedArray",
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "prebsdata": [],
@@ -37864,7 +37610,6 @@
         "MatrixGenerics",
         "ProtGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib"
     ],
     "PrInCE": [
@@ -37883,8 +37628,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "proActiv": [
         "AnnotationDbi",
@@ -38015,7 +37759,6 @@
         "mzID",
         "GenomicRanges",
         "DelayedArray",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomeInfoDb",
         "affyio",
@@ -38088,7 +37831,6 @@
         "rhdf5",
         "Biobase",
         "BiocGenerics",
-        "Rhdf5lib",
         "rhdf5filters",
         "GenomicRanges",
         "DelayedArray",
@@ -38123,7 +37865,6 @@
         "preprocessCore",
         "zlibbioc",
         "KEGGREST",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -38147,8 +37888,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "pRolocGUI": [
         "pRoloc",
@@ -38175,7 +37915,6 @@
         "annotate",
         "genefilter",
         "SummarizedExperiment",
-        "Rhdf5lib",
         "KEGGREST",
         "MatrixGenerics",
         "GenomicRanges",
@@ -38237,8 +37976,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "prostateCancerCamcap": [
         "Biobase",
@@ -38437,7 +38175,6 @@
     ],
     "ptairData": [
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "ptairMS": [
@@ -38455,7 +38192,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "rhdf5filters",
         "affyio",
         "preprocessCore",
@@ -38483,7 +38219,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -38552,7 +38287,6 @@
         "AnnotationDbi",
         "BiocIO",
         "biomaRt",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "BiocParallel",
@@ -38857,8 +38591,7 @@
         "pcaMethods",
         "mzID",
         "affyio",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "qPLEXdata": [
         "qPLEXanalyzer",
@@ -38880,8 +38613,7 @@
         "affyio",
         "zlibbioc",
         "XVector",
-        "GenomeInfoDb",
-        "Rhdf5lib"
+        "GenomeInfoDb"
     ],
     "qrqc": [
         "Biostrings",
@@ -39037,7 +38769,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -39561,7 +39292,6 @@
         "BiocVersion",
         "interactiveDisplayBase",
         "rhdf5filters",
-        "Rhdf5lib",
         "BiocParallel",
         "GenomicAlignments"
     ],
@@ -39873,7 +39603,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -40003,7 +39732,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -40072,7 +39800,6 @@
         "rhdf5filters",
         "BiocGenerics",
         "IRanges",
-        "Rhdf5lib",
         "GenomicRanges",
         "SummarizedExperiment",
         "Biostrings",
@@ -40445,7 +40172,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest",
         "biomaRt"
@@ -40625,7 +40351,6 @@
         "BiocFileCache",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "Biobase",
         "GenomeInfoDb",
@@ -40675,8 +40400,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "rfPred": [
         "GenomeInfoDb",
@@ -41031,7 +40755,6 @@
         "zlibbioc"
     ],
     "rhdf5": [
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "rhdf5client": [
@@ -41041,10 +40764,7 @@
         "MatrixGenerics",
         "IRanges"
     ],
-    "rhdf5filters": [
-        "Rhdf5lib"
-    ],
-    "Rhdf5lib": [],
+    "rhdf5filters": [],
     "rhesus.db0": [
         "AnnotationDbi",
         "BiocGenerics",
@@ -41221,7 +40941,6 @@
     "ribor": [
         "rhdf5",
         "S4Vectors",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocGenerics"
     ],
@@ -41398,7 +41117,6 @@
         "vsn",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -41536,7 +41254,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "affyio",
         "preprocessCore"
     ],
@@ -42205,7 +41922,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rsamtools",
         "GenomicAlignments",
         "multtest",
@@ -42412,7 +42128,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters"
     ],
     "rprimer": [
@@ -43391,7 +43106,6 @@
         "HDF5Array",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "rhdf5filters",
         "MatrixGenerics",
         "Biobase",
@@ -43421,7 +43135,6 @@
         "AnnotationDbi",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "GenomeInfoDb",
         "KEGGREST",
@@ -43454,7 +43167,6 @@
         "SummarizedExperiment",
         "GenomicRanges",
         "DelayedArray",
-        "Rhdf5lib",
         "MatrixGenerics",
         "IRanges",
         "GenomeInfoDb",
@@ -43626,7 +43338,6 @@
         "Biobase",
         "cytolib",
         "RProtoBufLib",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "scMAGeCK": [],
@@ -43710,7 +43421,6 @@
         "beachmat",
         "MatrixGenerics",
         "rhdf5filters",
-        "Rhdf5lib",
         "KEGGREST",
         "sparseMatrixStats",
         "BiocIO",
@@ -43742,7 +43452,6 @@
         "RUVSeq",
         "MatrixGenerics",
         "SingleCellExperiment",
-        "Rhdf5lib",
         "rhdf5filters",
         "Biobase",
         "EDASeq",
@@ -43773,8 +43482,7 @@
         "BiocGenerics",
         "cytolib",
         "S4Vectors",
-        "RProtoBufLib",
-        "Rhdf5lib"
+        "RProtoBufLib"
     ],
     "SCOPE": [
         "GenomicRanges",
@@ -43917,7 +43625,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "BiocIO",
         "MatrixGenerics",
         "sparseMatrixStats",
@@ -44069,7 +43776,6 @@
         "IRanges",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "Biobase",
         "GenomeInfoDb",
@@ -44764,7 +44470,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rhtslib",
         "multtest",
         "KEGGREST",
@@ -44799,7 +44504,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "KEGGREST",
         "BiocIO",
@@ -44842,7 +44546,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -44997,7 +44700,6 @@
         "annotate",
         "graph",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "GenomeInfoDb",
         "BiocVersion",
@@ -45020,7 +44722,6 @@
         "AnnotationHub",
         "BiocFileCache",
         "S4Vectors",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocVersion",
         "AnnotationDbi",
@@ -45102,7 +44803,6 @@
         "graph",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -45159,8 +44859,7 @@
         "mzR",
         "Biobase",
         "BiocGenerics",
-        "ProtGenerics",
-        "Rhdf5lib"
+        "ProtGenerics"
     ],
     "SimBenchData": [
         "ExperimentHub",
@@ -45219,7 +44918,6 @@
         "DelayedArray",
         "rhdf5",
         "XVector",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -45261,7 +44959,6 @@
         "GenomeInfoDb",
         "XVector",
         "rhdf5filters",
-        "Rhdf5lib",
         "DropletUtils",
         "BiocFileCache",
         "DelayedMatrixStats",
@@ -45342,7 +45039,6 @@
         "rhdf5",
         "rhdf5filters",
         "IRanges",
-        "Rhdf5lib",
         "GenomicRanges",
         "Biobase",
         "DropletUtils",
@@ -45442,7 +45138,6 @@
         "HDF5Array",
         "rhdf5",
         "edgeR",
-        "Rhdf5lib",
         "GenomicFeatures",
         "AnnotationFilter",
         "GenomeInfoDb",
@@ -45613,7 +45308,6 @@
         "graph",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "GenomeInfoDb",
         "XVector",
@@ -45689,7 +45383,6 @@
         "biomaRt",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "affy",
         "multtest",
         "affyio",
@@ -46111,7 +45804,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "BiocNeighbors",
         "BiocSingular",
         "bluster",
@@ -46195,7 +45887,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -46238,7 +45929,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -46294,7 +45984,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "MatrixGenerics",
         "Biobase",
         "GenomeInfoDb",
@@ -46324,7 +46013,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -46404,7 +46092,6 @@
         "sparseMatrixStats",
         "HDF5Array",
         "rhdf5",
-        "Rhdf5lib",
         "Rhtslib",
         "rhdf5filters"
     ],
@@ -46478,7 +46165,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "marray",
@@ -46520,7 +46206,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -46547,7 +46232,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -46665,7 +46349,6 @@
         "annotate",
         "Biobase",
         "rhdf5filters",
-        "Rhdf5lib",
         "ExperimentHub",
         "GenomicAlignments",
         "BiocIO",
@@ -46784,7 +46467,6 @@
         "SummarizedExperiment",
         "SpatialExperiment",
         "rhdf5",
-        "Rhdf5lib",
         "rhdf5filters",
         "BiocGenerics",
         "SingleCellExperiment",
@@ -46868,7 +46550,6 @@
         "XVector",
         "GenomeInfoDb",
         "MatrixGenerics",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc"
     ],
@@ -47069,7 +46750,6 @@
         "rhdf5",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "ShortRead",
         "Rsamtools",
         "biomaRt",
@@ -47183,7 +46863,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "MatrixGenerics",
         "Biobase",
         "GenomeInfoDb",
@@ -47215,7 +46894,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -47567,8 +47245,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "synapterdata": [
         "synapter",
@@ -47593,8 +47270,7 @@
         "mzID",
         "affyio",
         "preprocessCore",
-        "zlibbioc",
-        "Rhdf5lib"
+        "zlibbioc"
     ],
     "synaptome.data": [
         "AnnotationHub",
@@ -47756,7 +47432,6 @@
         "rhdf5",
         "rhdf5filters",
         "IRanges",
-        "Rhdf5lib",
         "GenomicRanges",
         "MatrixGenerics",
         "Biobase",
@@ -47783,7 +47458,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "Rhdf5lib",
         "rhdf5filters",
         "marray",
         "Biostrings",
@@ -47836,8 +47510,7 @@
         "mzR",
         "ProtGenerics",
         "Biobase",
-        "BiocGenerics",
-        "Rhdf5lib"
+        "BiocGenerics"
     ],
     "targetscan.Hs.eg.db": [
         "AnnotationDbi",
@@ -47933,7 +47606,6 @@
         "graph",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "genefilter",
         "KEGGREST",
         "zlibbioc",
@@ -48166,7 +47838,6 @@
         "rhdf5",
         "rhdf5filters",
         "IRanges",
-        "Rhdf5lib",
         "SummarizedExperiment",
         "GenomicRanges",
         "Biobase",
@@ -48224,7 +47895,6 @@
         "rhdf5",
         "rhdf5filters",
         "IRanges",
-        "Rhdf5lib",
         "SummarizedExperiment",
         "GenomicRanges",
         "Biobase",
@@ -48286,7 +47956,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "MatrixGenerics",
         "Biobase",
         "GenomeInfoDb",
@@ -48795,7 +48464,6 @@
         "AnnotationDbi",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "KEGGREST",
         "zlibbioc",
         "Biostrings"
@@ -48883,7 +48551,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "affyio",
         "preprocessCore",
         "zlibbioc"
@@ -48906,7 +48573,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "affyio",
         "preprocessCore",
         "zlibbioc"
@@ -48993,7 +48659,6 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "Rhdf5lib",
         "rhdf5filters",
         "zlibbioc",
         "Rhtslib",
@@ -49095,7 +48760,6 @@
         "beachmat",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "GenomicRanges",
         "Biobase",
         "GenomeInfoDb",
@@ -49246,7 +48910,6 @@
         "GenomeInfoDb",
         "XVector",
         "ALL",
-        "Rhdf5lib",
         "zlibbioc"
     ],
     "TreeSummarizedExperiment": [
@@ -51201,8 +50864,7 @@
         "interactiveDisplayBase",
         "AnnotationFilter",
         "ProtGenerics",
-        "rhdf5filters",
-        "Rhdf5lib"
+        "rhdf5filters"
     ],
     "variants": [
         "VariantAnnotation",
@@ -51386,7 +51048,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "MatrixGenerics",
         "Biobase",
         "GenomeInfoDb",
@@ -51555,7 +51216,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "XVector",
         "sparseMatrixStats",
         "rhdf5filters",
@@ -51742,7 +51402,6 @@
         "sparseMatrixStats",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "Rsamtools",
         "GenomicAlignments",
         "multtest",
@@ -51819,7 +51478,6 @@
         "edgeR",
         "beachmat",
         "scuttle",
-        "Rhdf5lib",
         "GenomeInfoDb",
         "XVector",
         "Biobase",
@@ -51947,7 +51605,6 @@
         "affy",
         "pcaMethods",
         "mzID",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -52222,7 +51879,6 @@
         "mzR",
         "Biobase",
         "ProtGenerics",
-        "Rhdf5lib",
         "MatrixGenerics",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -52302,7 +51958,6 @@
         "annotate",
         "rhdf5",
         "rhdf5filters",
-        "Rhdf5lib",
         "multtest",
         "BiocIO",
         "rtracklayer",
