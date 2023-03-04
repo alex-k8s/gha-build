@@ -17126,7 +17126,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "ldblock": [],
     "LEA": [],
     "leeBamViews": [
         "Rsamtools",
