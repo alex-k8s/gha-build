@@ -23281,7 +23281,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "INPower": [],
     "INSPEcT": [
         "Biobase",
         "BiocParallel",
