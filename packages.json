@@ -24049,7 +24049,6 @@
         "Biostrings"
     ],
     "pcaMethods": [],
-    "PCAN": [],
     "PCAtools": [
         "DelayedMatrixStats",
         "DelayedArray",
