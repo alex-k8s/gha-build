@@ -29842,7 +29842,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DESeq2",
-        "NetActivityData",
         "SummarizedExperiment",
         "BiocGenerics",
         "S4Vectors",
@@ -29860,7 +29859,6 @@
         "zlibbioc",
         "Biostrings"
     ],
-    "NetActivityData": [],
     "netboost": [
         "preprocessCore",
         "GO.db",
