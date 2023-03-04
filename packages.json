@@ -21942,7 +21942,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "multiClust": [],
     "multicrispr": [
         "Biostrings",
         "BSgenome",
