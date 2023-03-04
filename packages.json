@@ -15807,7 +15807,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "fdrame": [],
     "FEAST": [
         "BiocParallel",
         "SummarizedExperiment",
