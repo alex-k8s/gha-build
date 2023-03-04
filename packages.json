@@ -35466,7 +35466,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "proteinProfiles": [],
     "ProteoDisco": [
         "BiocGenerics",
         "Biostrings",
