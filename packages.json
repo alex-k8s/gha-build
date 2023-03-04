@@ -27577,7 +27577,6 @@
     ],
     "mslp": [
         "org.Hs.eg.db",
-        "RankProd",
         "AnnotationDbi",
         "BiocGenerics",
         "Biobase",
@@ -34728,7 +34727,6 @@
         "ComplexHeatmap",
         "DESeq2",
         "mixOmics",
-        "RankProd",
         "SummarizedExperiment",
         "IRanges",
         "S4Vectors",
@@ -36621,7 +36619,6 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "RankProd": [],
     "RareVariantVis": [
         "BiocGenerics",
         "VariantAnnotation",
@@ -44138,9 +44135,7 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "synlet": [
-        "RankProd"
-    ],
+    "synlet": [],
     "SynMut": [
         "Biostrings",
         "BiocGenerics",
@@ -45513,7 +45508,6 @@
         "anota",
         "DESeq2",
         "edgeR",
-        "RankProd",
         "topGO",
         "org.Hs.eg.db",
         "GOSemSim",
