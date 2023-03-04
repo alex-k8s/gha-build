@@ -2643,7 +2643,6 @@
         "DelayedArray",
         "HDF5Array",
         "lumi",
-        "ROC",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "KEGGREST",
         "XVector",
@@ -7305,7 +7304,6 @@
         "methylumi",
         "org.Hs.eg.db",
         "lumi",
-        "ROC",
         "KEGGREST",
         "BSgenome",
         "rhdf5",
@@ -8383,12 +8381,9 @@
         "Biostrings"
     ],
     "Clonality": [],
-    "clst": [
-        "ROC"
-    ],
+    "clst": [],
     "clstutils": [
-        "clst",
-        "ROC"
+        "clst"
     ],
     "CluMSID": [
         "mzR",
@@ -23409,7 +23404,6 @@
     "maPredictDSC": [
         "affy",
         "gcrma",
-        "ROC",
         "hgu133plus2.db",
         "AnnotationDbi",
         "LungCancerACvsSCCGEO",
@@ -23903,7 +23897,6 @@
         "HDF5Array",
         "methylumi",
         "lumi",
-        "ROC",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "XVector",
         "GenomicFeatures",
@@ -39259,7 +39252,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "ROC": [],
     "ROCpAI": [
         "SummarizedExperiment",
         "fission",
@@ -42342,7 +42334,6 @@
         "DelayedArray",
         "HDF5Array",
         "lumi",
-        "ROC",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "KEGGREST",
         "XVector",
@@ -43700,9 +43691,7 @@
         "Biobase",
         "zlibbioc"
     ],
-    "statTarget": [
-        "ROC"
-    ],
+    "statTarget": [],
     "STdeconvolve": [],
     "stepNorm": [
         "marray"
@@ -44448,7 +44437,6 @@
         "DESeq2",
         "edgeR",
         "baySeq",
-        "ROC",
         "GenomicRanges",
         "S4Vectors",
         "IRanges",
@@ -47927,7 +47915,6 @@
         "Biobase",
         "methylumi",
         "lumi",
-        "ROC",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "BiocGenerics",
         "minfi",
