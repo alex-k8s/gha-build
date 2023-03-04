@@ -21224,7 +21224,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "hthgu133afrmavecs": [],
     "hthgu133aprobe": [
         "AnnotationDbi",
         "BiocGenerics",
