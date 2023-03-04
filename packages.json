@@ -38387,7 +38387,6 @@
         "zlibbioc"
     ],
     "SMAD": [],
-    "SMAP": [],
     "SMITE": [
         "GenomicRanges",
         "AnnotationDbi",
