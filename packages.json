@@ -942,7 +942,6 @@
         "zlibbioc",
         "Biostrings"
     ],
-    "AMOUNTAIN": [],
     "AmpAffyExample": [
         "affy",
         "BiocGenerics",
@@ -30742,7 +30741,6 @@
         "XVector"
     ],
     "MODA": [
-        "AMOUNTAIN",
         "impute",
         "preprocessCore",
         "GO.db",
