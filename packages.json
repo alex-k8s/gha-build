@@ -12873,10 +12873,7 @@
         "rhdf5filters",
         "Rhtslib"
     ],
-    "DNABarcodeCompatibility": [
-        "DNABarcodes"
-    ],
-    "DNABarcodes": [],
+    "DNABarcodeCompatibility": [],
     "DNAfusion": [
         "bamsignals",
         "GenomicRanges",
