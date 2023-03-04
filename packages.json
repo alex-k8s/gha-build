@@ -21287,7 +21287,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "ompBAM": [],
     "oncomix": [
         "SummarizedExperiment",
         "GenomicRanges",
@@ -30687,7 +30686,6 @@
     ],
     "SpliceWiz": [
         "NxtIRFdata",
-        "ompBAM",
         "AnnotationHub",
         "Biostrings",
         "BSgenome",
