@@ -17184,7 +17184,6 @@
         "BSgenome",
         "DelayedArray"
     ],
-    "limmaGUI": [],
     "LineagePulse": [
         "ComplexHeatmap",
         "SingleCellExperiment",
