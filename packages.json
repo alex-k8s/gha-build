@@ -12152,7 +12152,6 @@
         "XVector",
         "Biostrings"
     ],
-    "golubEsets": [],
     "GOpro": [
         "AnnotationDbi",
         "org.Hs.eg.db",
