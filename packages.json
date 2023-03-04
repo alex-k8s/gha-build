@@ -28897,7 +28897,6 @@
         "S4Vectors",
         "piano",
         "genefu",
-        "switchBox",
         "Biobase",
         "ALL",
         "BumpyMatrix",
@@ -37662,7 +37661,6 @@
         "GenomeInfoDb"
     ],
     "SwathXtend": [],
-    "switchBox": [],
     "switchde": [
         "SingleCellExperiment",
         "SummarizedExperiment",
