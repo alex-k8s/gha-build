@@ -7589,7 +7589,6 @@
         "Rgraphviz",
         "BiocGenerics"
     ],
-    "cellscape": [],
     "CellScore": [
         "Biobase",
         "BiocGenerics"
