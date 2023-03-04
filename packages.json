@@ -81,7 +81,6 @@
         "XVector",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "Rsamtools",
         "marray",
         "impute",
@@ -102,7 +101,6 @@
     ],
     "ADaCGH2": [
         "GLAD",
-        "DNAcopy",
         "tilingArray",
         "aCGH",
         "snapCGH",
@@ -983,7 +981,6 @@
         "IRanges",
         "Rsamtools",
         "bamsignals",
-        "DNAcopy",
         "Biostrings",
         "GenomicAlignments",
         "zlibbioc",
@@ -3543,7 +3540,6 @@
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "zlibbioc",
         "Rhtslib",
         "GenomicAlignments",
@@ -7929,7 +7925,6 @@
     ],
     "CGHcall": [
         "impute",
-        "DNAcopy",
         "Biobase",
         "CGHbase",
         "BiocGenerics",
@@ -7937,7 +7932,6 @@
         "limma"
     ],
     "cghMCR": [
-        "DNAcopy",
         "CNTools",
         "limma",
         "BiocGenerics",
@@ -7960,7 +7954,6 @@
         "BiocGenerics",
         "marray",
         "impute",
-        "DNAcopy",
         "limma"
     ],
     "CGHregions": [
@@ -7982,7 +7975,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "limma",
-        "DNAcopy",
         "preprocessCore",
         "impute",
         "marray",
@@ -8778,7 +8770,6 @@
     "CIMICE": [
         "maftools",
         "Rhtslib",
-        "DNAcopy",
         "zlibbioc"
     ],
     "CINdex": [
@@ -9185,9 +9176,7 @@
         "Biostrings"
     ],
     "Clomial": [],
-    "Clonality": [
-        "DNAcopy"
-    ],
+    "Clonality": [],
     "clst": [
         "ROC"
     ],
@@ -9350,7 +9339,6 @@
         "oligoClasses",
         "affxparser",
         "oligo",
-        "DNAcopy",
         "preprocessCore",
         "BiocGenerics",
         "Biostrings",
@@ -9380,9 +9368,7 @@
         "BiocParallel",
         "Rhtslib"
     ],
-    "CNAnorm": [
-        "DNAcopy"
-    ],
+    "CNAnorm": [],
     "CNEr": [
         "Biostrings",
         "GenomeInfoDb",
@@ -9599,7 +9585,6 @@
     ],
     "CNVrd2": [
         "VariantAnnotation",
-        "DNAcopy",
         "IRanges",
         "Rsamtools",
         "BiocGenerics",
@@ -10246,7 +10231,6 @@
         "GenomicFiles",
         "rtracklayer",
         "BiocParallel",
-        "DNAcopy",
         "exomeCopy",
         "GenomicAlignments",
         "GenomeInfoDb",
@@ -10273,7 +10257,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
         "IlluminaHumanMethylationEPICmanifest",
-        "DNAcopy",
         "rtracklayer",
         "GenomicRanges",
         "IRanges",
@@ -10396,7 +10379,6 @@
         "chipseq",
         "IRanges",
         "Rsamtools",
-        "DNAcopy",
         "GenomicAlignments",
         "GenomicRanges",
         "CopyhelpeR",
@@ -10696,7 +10678,6 @@
     ],
     "CRImage": [
         "EBImage",
-        "DNAcopy",
         "aCGH",
         "multtest",
         "Biobase",
@@ -13216,7 +13197,6 @@
         "DNABarcodes"
     ],
     "DNABarcodes": [],
-    "DNAcopy": [],
     "DNAfusion": [
         "bamsignals",
         "GenomicRanges",
@@ -17700,7 +17680,6 @@
         "Biobase",
         "marray",
         "impute",
-        "DNAcopy",
         "BiocGenerics",
         "S4Vectors",
         "IRanges",
@@ -17906,7 +17885,6 @@
         "SNPRelate",
         "GenomeInfoDb",
         "XVector",
-        "DNAcopy",
         "quantsmooth",
         "Biostrings",
         "zlibbioc"
@@ -19666,14 +19644,12 @@
         "GWASTools",
         "Biobase",
         "gdsfmt",
-        "DNAcopy",
         "quantsmooth",
         "BiocGenerics"
     ],
     "GWASTools": [
         "Biobase",
         "gdsfmt",
-        "DNAcopy",
         "quantsmooth",
         "BiocGenerics"
     ],
@@ -19684,7 +19660,6 @@
         "SNPRelate",
         "Biobase",
         "gdsfmt",
-        "DNAcopy",
         "quantsmooth",
         "MatrixGenerics",
         "GenomicRanges",
@@ -20732,7 +20707,6 @@
         "Biobase",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "Rsamtools",
         "Rhdf5lib",
         "rhdf5filters",
@@ -20804,7 +20778,6 @@
         "QDNAseq",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "Rsamtools",
         "marray",
         "impute",
@@ -23899,7 +23872,6 @@
         "XVector",
         "Rsamtools",
         "Rhtslib",
-        "DNAcopy",
         "zlibbioc",
         "GenomicAlignments",
         "MatrixGenerics",
@@ -25531,7 +25503,6 @@
     ],
     "maftools": [
         "Rhtslib",
-        "DNAcopy",
         "zlibbioc"
     ],
     "MAGAR": [
@@ -26088,7 +26059,6 @@
         "Biobase",
         "BiocGenerics",
         "gdsfmt",
-        "DNAcopy",
         "quantsmooth",
         "IRanges",
         "GenomicRanges",
@@ -26203,7 +26173,6 @@
         "GenomicRanges",
         "IRanges",
         "Biostrings",
-        "DNAcopy",
         "Rsamtools",
         "BiocGenerics",
         "S4Vectors",
@@ -26376,7 +26345,6 @@
         "Biostrings",
         "IRanges",
         "edgeR",
-        "DNAcopy",
         "biomaRt",
         "rtracklayer",
         "preprocessCore",
@@ -27031,7 +26999,6 @@
         "bsseq",
         "DSS",
         "methylKit",
-        "DNAcopy",
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",
@@ -28689,7 +28656,6 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "oligoClasses",
-        "DNAcopy",
         "XVector",
         "Biostrings",
         "affyio",
@@ -30991,7 +30957,6 @@
         "Biobase",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "Rsamtools",
         "Rhdf5lib",
         "rhdf5filters",
@@ -31258,7 +31223,6 @@
         "biomaRt",
         "Biobase",
         "Rhtslib",
-        "DNAcopy",
         "zlibbioc",
         "MatrixGenerics",
         "DelayedArray",
@@ -37246,7 +37210,6 @@
         "IRanges",
         "S4Vectors",
         "KEGGREST",
-        "DNAcopy",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -38413,7 +38376,6 @@
         "BiocGenerics",
         "GenomeInfoDb",
         "XVector",
-        "DNAcopy",
         "limma",
         "affy",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
@@ -39255,7 +39217,6 @@
         "DelayedArray"
     ],
     "PureCN": [
-        "DNAcopy",
         "VariantAnnotation",
         "GenomicRanges",
         "IRanges",
@@ -39446,7 +39407,6 @@
         "Biobase",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "GenomicRanges",
         "IRanges",
         "Rsamtools",
@@ -39467,7 +39427,6 @@
         "Biobase",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "GenomicRanges",
         "IRanges",
         "Rsamtools",
@@ -39488,7 +39447,6 @@
         "Biobase",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "GenomicRanges",
         "IRanges",
         "Rsamtools",
@@ -40554,7 +40512,6 @@
         "BiocGenerics"
     ],
     "rCGH": [
-        "DNAcopy",
         "limma",
         "affy",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
@@ -41229,7 +41186,6 @@
         "rtracklayer",
         "BSgenome",
         "edgeR",
-        "DNAcopy",
         "Ringo",
         "XVector",
         "limma",
@@ -44605,7 +44561,6 @@
         "Rsamtools",
         "GenomeInfoDb",
         "BSgenome.Hsapiens.UCSC.hg19",
-        "DNAcopy",
         "BSgenome",
         "Biostrings",
         "BiocGenerics",
@@ -46638,7 +46593,6 @@
     "SNAGEEdata": [],
     "snapCGH": [
         "aCGH",
-        "DNAcopy",
         "GLAD",
         "limma",
         "tilingArray",
@@ -47348,7 +47302,6 @@
         "Biobase",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "Rsamtools",
         "Rhdf5lib",
         "rhdf5filters",
@@ -48684,7 +48637,6 @@
         "Biobase",
         "CGHbase",
         "CGHcall",
-        "DNAcopy",
         "Rsamtools",
         "Rhdf5lib",
         "rhdf5filters",
@@ -48928,7 +48880,6 @@
         "rtracklayer",
         "DelayedArray",
         "Rhtslib",
-        "DNAcopy",
         "zlibbioc",
         "KEGGgraph",
         "Rgraphviz",
@@ -49570,7 +49521,6 @@
         "S4Vectors",
         "KEGGREST",
         "Biostrings",
-        "DNAcopy",
         "XVector",
         "GenomeInfoDb",
         "zlibbioc"
