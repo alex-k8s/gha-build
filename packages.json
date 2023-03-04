@@ -2710,7 +2710,6 @@
         "zlibbioc"
     ],
     "BioMVCClass": [
-        "MVCClass",
         "Biobase",
         "graph",
         "Rgraphviz"
@@ -26173,7 +26172,6 @@
         "GenomicAlignments",
         "DelayedArray"
     ],
-    "MVCClass": [],
     "mvoutData": [
         "Biobase",
         "affy",
