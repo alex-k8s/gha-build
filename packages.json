@@ -11418,7 +11418,6 @@
         "IRanges",
         "GenomeInfoDb"
     ],
-    "GCSscore": [],
     "GDCRNATools": [
         "DESeq2",
         "clusterProfiler",
