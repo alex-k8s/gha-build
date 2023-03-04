@@ -8106,8 +8106,7 @@
         "IRanges"
     ],
     "cycle": [
-        "Mfuzz",
-        "tkWidgets"
+        "Mfuzz"
     ],
     "cydar": [
         "SingleCellExperiment",
@@ -19458,9 +19457,7 @@
         "XVector"
     ],
     "mfa": [],
-    "Mfuzz": [
-        "tkWidgets"
-    ],
+    "Mfuzz": [],
     "MGFM": [
         "AnnotationDbi",
         "annotate",
@@ -22889,8 +22886,7 @@
     ],
     "OLINgui": [
         "OLIN",
-        "marray",
-        "tkWidgets"
+        "marray"
     ],
     "omada": [],
     "OmaDB": [
@@ -34558,7 +34554,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "tkWidgets",
         "SummarizedExperiment",
         "GenomicRanges",
         "DelayedArray",
@@ -34624,7 +34619,6 @@
         "GenomicAlignments",
         "DelayedArray"
     ],
-    "tkWidgets": [],
     "tLOH": [
         "VariantAnnotation",
         "GenomicRanges",
