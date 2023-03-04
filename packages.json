@@ -1534,7 +1534,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "MLInterfaces",
         "biomaRt",
         "affyio",
@@ -5036,7 +5035,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -6592,7 +6590,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "SummarizedExperiment",
         "MsFeatures",
         "affyio",
@@ -6629,7 +6626,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "clusterExperiment": [
@@ -7567,7 +7563,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -8413,7 +8408,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "DAPARdata": [
@@ -8425,7 +8419,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "dasper": [
@@ -8819,7 +8812,6 @@
         "S4Vectors",
         "MsCoreUtils",
         "affy",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -11291,7 +11283,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -11773,7 +11764,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -16720,7 +16710,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -17324,7 +17313,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -18240,7 +18228,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -18873,7 +18860,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -19060,7 +19046,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -20864,7 +20849,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "SummarizedExperiment",
         "MsFeatures",
         "affyio",
@@ -21592,7 +21576,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "msmsTests": [
@@ -21605,7 +21588,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "MSnbase": [
@@ -21616,12 +21598,10 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "MSnID": [
         "MSnbase",
-        "mzID",
         "mzR",
         "msmsTests",
         "Biostrings",
@@ -21705,7 +21685,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "MSstatsQCgui": [
@@ -21719,7 +21698,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "MSstatsSampleSize": [
@@ -22356,7 +22334,6 @@
         "GenomicAlignments",
         "DelayedArray"
     ],
-    "mzID": [],
     "mzR": [],
     "NADfinder": [
         "IRanges",
@@ -22505,7 +22482,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -26354,7 +26330,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "PECA": [
@@ -26860,7 +26835,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "DelayedArray",
         "GenomeInfoDb",
@@ -27294,7 +27268,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "proActiv": [
@@ -27389,7 +27362,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "DelayedArray",
         "GenomeInfoDb",
@@ -27463,7 +27435,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio",
         "KEGGREST",
         "GenomicRanges",
@@ -27481,7 +27452,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "pRolocGUI": [
@@ -27494,7 +27464,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "MLInterfaces",
         "biomaRt",
         "affyio",
@@ -27544,7 +27513,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "prostateCancerCamcap": [],
@@ -27694,7 +27662,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "rhdf5filters",
         "affyio"
     ],
@@ -27713,7 +27680,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -27980,7 +27946,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "qPLEXdata": [
@@ -27993,7 +27958,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "Biostrings",
         "affyio",
         "XVector",
@@ -29301,7 +29265,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "rfPred": [
@@ -29838,7 +29801,6 @@
         "MsFeatures",
         "vsn",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -29933,7 +29895,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "RmiR.Hs.miRNA": [
@@ -34272,7 +34233,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "synapterdata": [
@@ -34290,7 +34250,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "synaptome.data": [
@@ -34459,7 +34418,6 @@
         "XVector"
     ],
     "TargetDecoy": [
-        "mzID",
         "mzR"
     ],
     "targetscan.Hs.eg.db": [
@@ -35209,7 +35167,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "topdownrdata": [
@@ -35225,7 +35182,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "affyio"
     ],
     "topGO": [
@@ -37473,7 +37429,6 @@
         "vsn",
         "affy",
         "pcaMethods",
-        "mzID",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
