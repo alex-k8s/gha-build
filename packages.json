@@ -39107,7 +39107,6 @@
         "GenomicRanges",
         "GenomeInfoDb"
     ],
-    "tripr": [],
     "tRNA": [
         "GenomicRanges",
         "Structstrings",
