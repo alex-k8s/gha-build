@@ -16404,7 +16404,6 @@
         "BiocFileCache",
         "Rhtslib"
     ],
-    "FIs": [],
     "FISHalyseR": [
         "EBImage",
         "BiocGenerics"
@@ -47539,7 +47538,6 @@
         "Biobase",
         "limma",
         "GSEABase",
-        "FIs",
         "BiocGenerics",
         "annotate",
         "graph",
