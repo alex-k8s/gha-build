@@ -24007,7 +24007,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "MEEBOdata": [],
     "megadepth": [
         "GenomicRanges",
         "BiocGenerics",
