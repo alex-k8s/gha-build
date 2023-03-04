@@ -3255,7 +3255,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "biotmleData": [],
     "biovizBase": [
         "BiocGenerics",
         "S4Vectors",
