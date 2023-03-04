@@ -42001,7 +42001,6 @@
         "Rhtslib"
     ],
     "rnaseqcomp": [],
-    "RNAseqData.HNRNPC.bam.chr14": [],
     "rnaseqDTU": [
         "DRIMSeq",
         "DEXSeq",
@@ -44586,7 +44585,6 @@
         "VariantAnnotation",
         "AnnotationHub",
         "BSgenome.Hsapiens.UCSC.hg19",
-        "RNAseqData.HNRNPC.bam.chr14",
         "BiocGenerics",
         "BiocFileCache",
         "BiocVersion",
