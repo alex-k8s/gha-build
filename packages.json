@@ -23765,7 +23765,6 @@
         "zlibbioc"
     ],
     "mCSEA": [
-        "mCSEAdata",
         "Homo.sapiens",
         "biomaRt",
         "fgsea",
@@ -23803,7 +23802,6 @@
         "zlibbioc",
         "Rhtslib"
     ],
-    "mCSEAdata": [],
     "mcsurvdata": [
         "ExperimentHub",
         "AnnotationHub",
