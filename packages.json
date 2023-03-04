@@ -12524,7 +12524,6 @@
     "gsean": [
         "PPInfer",
         "biomaRt",
-        "yeastExpData",
         "AnnotationDbi",
         "IRanges",
         "KEGGREST",
@@ -24546,7 +24545,6 @@
     "ppcseq": [],
     "PPInfer": [
         "biomaRt",
-        "yeastExpData",
         "AnnotationDbi",
         "IRanges",
         "KEGGREST",
@@ -34295,7 +34293,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "yeastExpData": [],
     "ygs98.db": [
         "AnnotationDbi",
         "org.Sc.sgd.db",
