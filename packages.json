@@ -13962,7 +13962,6 @@
         "cytolib",
         "S4Vectors"
     ],
-    "flowMap": [],
     "flowMatch": [
         "flowCore",
         "Biobase",
