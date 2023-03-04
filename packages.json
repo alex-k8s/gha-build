@@ -9251,7 +9251,6 @@
         "BiocFileCache",
         "ProtGenerics"
     ],
-    "CNVgears": [],
     "cnvGSA": [
         "GenomicRanges",
         "BiocGenerics",
