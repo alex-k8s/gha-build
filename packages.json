@@ -10111,7 +10111,6 @@
         "Rgraphviz",
         "Rhdf5lib"
     ],
-    "CONFESSdata": [],
     "ConnectivityMap": [],
     "ConsensusClusterPlus": [
         "Biobase",
