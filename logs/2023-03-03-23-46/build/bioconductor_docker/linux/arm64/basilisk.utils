@@ -1,0 +1,39 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''basilisk.utils'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'basilisk.utils'
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/basilisk.utils_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 239861 bytes (234 KB)
+==================================================
+downloaded 234 KB
+
+* installing *source* package ‘basilisk.utils’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘basilisk.utils’ as ‘basilisk.utils_1.10.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (basilisk.utils)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9hmeI0/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	0m49.800s
+user	0m47.505s
+sys	0m1.194s
