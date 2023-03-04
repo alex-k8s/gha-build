@@ -6881,7 +6881,6 @@
         "annotate",
         "graph",
         "AnnotationDbi",
-        "Heatplus",
         "Category",
         "hopach",
         "biomaRt",
@@ -19439,7 +19438,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "Heatplus": [],
     "HEEBOdata": [],
     "HelloRanges": [
         "BiocGenerics",
@@ -36649,7 +36647,6 @@
     "phenoTest": [
         "Biobase",
         "annotate",
-        "Heatplus",
         "Category",
         "AnnotationDbi",
         "hopach",
@@ -48721,7 +48718,6 @@
         "topGO",
         "org.Hs.eg.db",
         "GOSemSim",
-        "Heatplus",
         "Biobase",
         "qvalue",
         "multtest",
