@@ -16086,7 +16086,6 @@
         "Rhtslib",
         "multtest"
     ],
-    "iChip": [],
     "iCNV": [
         "CODEX",
         "Rsamtools",
