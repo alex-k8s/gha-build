@@ -17157,7 +17157,6 @@
         "ChemmineR",
         "BiocGenerics"
     ],
-    "fmrs": [],
     "fobitools": [
         "fgsea",
         "BiocParallel"
