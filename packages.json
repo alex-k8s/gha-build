@@ -10240,7 +10240,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "CORREP": [],
     "coseq": [
         "SummarizedExperiment",
         "S4Vectors",
