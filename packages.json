@@ -5335,7 +5335,6 @@
         "XVector"
     ],
     "ChemmineDrugs": [],
-    "ChemmineOB": [],
     "CHETAH": [
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -27350,7 +27349,6 @@
     "RMassBank": [
         "mzR",
         "MSnbase",
-        "ChemmineOB",
         "MsCoreUtils",
         "IRanges",
         "vsn",
