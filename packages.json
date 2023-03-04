@@ -41085,7 +41085,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "WES.1KG.WUGSC": [],
     "WGSmapp": [
         "GenomicRanges",
         "S4Vectors",
