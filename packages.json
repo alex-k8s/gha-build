@@ -2922,7 +2922,6 @@
         "RBGL",
         "BiocGenerics"
     ],
-    "BiocDockerManager": [],
     "BiocFHIR": [
         "graph",
         "BiocGenerics"
