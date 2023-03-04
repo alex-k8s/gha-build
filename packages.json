@@ -16781,7 +16781,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "frmaExampleData": [],
     "frmaTools": [
         "affy",
         "Biobase",
