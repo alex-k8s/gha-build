@@ -2338,7 +2338,6 @@
         "HDO.db",
         "fgsea",
         "EBarrays",
-        "minet",
         "graphite",
         "ggtree",
         "graph",
@@ -2585,7 +2584,6 @@
     "BioNERO": [
         "sva",
         "ComplexHeatmap",
-        "minet",
         "SummarizedExperiment",
         "IRanges",
         "GenomicRanges",
@@ -2939,7 +2937,6 @@
         "vsn",
         "affyio",
         "RBGL",
-        "minet",
         "Linnorm",
         "genefilter",
         "edgeR",
@@ -5301,9 +5298,7 @@
         "S4Vectors",
         "IRanges"
     ],
-    "BUS": [
-        "minet"
-    ],
+    "BUS": [],
     "BUScorrect": [
         "SummarizedExperiment",
         "GenomicRanges",
@@ -5428,7 +5423,6 @@
         "BioNERO",
         "sva",
         "ComplexHeatmap",
-        "minet",
         "SummarizedExperiment",
         "S4Vectors",
         "XVector",
@@ -5535,7 +5529,6 @@
         "Biobase",
         "phenoTest",
         "EBarrays",
-        "minet",
         "annotate",
         "graph",
         "AnnotationDbi",
@@ -7668,7 +7661,6 @@
         "vsn",
         "Biobase",
         "SummarizedExperiment",
-        "minet",
         "affyio",
         "multtest",
         "GenomicRanges",
@@ -9304,7 +9296,6 @@
         "graphite",
         "Rgraphviz",
         "org.Hs.eg.db",
-        "minet",
         "AnnotationDbi",
         "Linnorm",
         "RBGL",
@@ -11727,7 +11718,6 @@
         "multtest"
     ],
     "epiNEM": [
-        "minet",
         "graph",
         "mnem",
         "Rgraphviz",
@@ -12994,7 +12984,6 @@
         "Fletcher2013a",
         "RTN",
         "Biobase",
-        "minet",
         "viper",
         "IRanges",
         "S4Vectors",
@@ -14012,8 +14001,7 @@
     ],
     "geNetClassifier": [
         "Biobase",
-        "EBarrays",
-        "minet"
+        "EBarrays"
     ],
     "GeneTonic": [
         "AnnotationDbi",
@@ -22317,7 +22305,6 @@
         "Rhtslib",
         "multtest"
     ],
-    "minet": [],
     "minfi": [
         "GenomicRanges",
         "SummarizedExperiment",
@@ -24804,7 +24791,6 @@
     "nempi": [
         "mnem",
         "epiNEM",
-        "minet",
         "graph",
         "Rgraphviz",
         "Linnorm",
@@ -24895,7 +24881,6 @@
         "Biobase"
     ],
     "netOmics": [
-        "minet",
         "AnnotationDbi",
         "GO.db",
         "RandomWalkRestartMH",
@@ -24913,7 +24898,6 @@
     "NetPathMiner": [],
     "netresponse": [
         "Rgraphviz",
-        "minet",
         "graph"
     ],
     "NetSAM": [
@@ -33837,7 +33821,6 @@
         "Rhtslib"
     ],
     "RTN": [
-        "minet",
         "viper",
         "IRanges",
         "S4Vectors",
@@ -33850,7 +33833,6 @@
     ],
     "RTNduals": [
         "RTN",
-        "minet",
         "viper",
         "IRanges",
         "S4Vectors",
@@ -33864,7 +33846,6 @@
     "RTNsurvival": [
         "RTN",
         "RTNduals",
-        "minet",
         "viper",
         "IRanges",
         "S4Vectors",
