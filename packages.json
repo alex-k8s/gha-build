@@ -14006,7 +14006,6 @@
         "rtracklayer",
         "motifmatchr",
         "TFBSTools",
-        "JASPAR2018",
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
@@ -14936,7 +14935,6 @@
         "BiocGenerics",
         "S4Vectors",
         "IRanges",
-        "JASPAR2018",
         "TFBSTools",
         "motifmatchr",
         "Biobase",
@@ -23183,7 +23181,6 @@
         "zlibbioc"
     ],
     "JASPAR2016": [],
-    "JASPAR2018": [],
     "JASPAR2022": [
         "BiocFileCache"
     ],
@@ -37518,7 +37515,6 @@
         "BiocGenerics",
         "IRanges",
         "TFBSTools",
-        "JASPAR2018",
         "XVector",
         "GenomeInfoDb",
         "BSgenome",
