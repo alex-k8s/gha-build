@@ -30201,7 +30201,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "rpx": [],
     "Rqc": [
         "ShortRead",
         "Biostrings",
