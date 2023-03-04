@@ -32127,7 +32127,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "tomoseqr": [],
     "topdownr": [
         "Biostrings",
         "MSnbase",
