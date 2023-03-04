@@ -26827,7 +26827,6 @@
         "IRanges",
         "rhdf5filters"
     ],
-    "MOFAdata": [],
     "MOGAMUN": [
         "RCy3",
         "BiocGenerics",
