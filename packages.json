@@ -29747,7 +29747,6 @@
         "BiocGenerics",
         "Rgraphviz"
     ],
-    "NCIgraphData": [],
     "ncRNAtools": [
         "IRanges",
         "GenomicRanges",
