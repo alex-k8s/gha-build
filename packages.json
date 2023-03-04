@@ -390,7 +390,6 @@
         "GenomeInfoDb"
     ],
     "AffymetrixDataTestFiles": [],
-    "Affymoe4302Expr": [],
     "affyPLM": [
         "BiocGenerics",
         "affy",
