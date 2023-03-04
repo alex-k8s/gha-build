@@ -1886,7 +1886,6 @@
         "mia",
         "SingleCellExperiment",
         "geneplotter",
-        "Wrench",
         "biomformat",
         "Biostrings",
         "GenomeInfoDb",
@@ -10886,8 +10885,7 @@
         "GenomeInfoDb"
     ],
     "etec16s": [
-        "metagenomeSeq",
-        "Wrench"
+        "metagenomeSeq"
     ],
     "eudysbiome": [
         "Rsamtools",
@@ -17496,8 +17494,7 @@
     ],
     "maanova": [],
     "Maaslin2": [
-        "metagenomeSeq",
-        "Wrench"
+        "metagenomeSeq"
     ],
     "Macarron": [
         "SummarizedExperiment",
@@ -17512,7 +17509,6 @@
         "AnnotationDbi",
         "KEGGREST",
         "XVector",
-        "Wrench",
         "Biostrings"
     ],
     "macat": [
@@ -18759,9 +18755,7 @@
         "BiocIO",
         "DelayedArray"
     ],
-    "metagenomeSeq": [
-        "Wrench"
-    ],
+    "metagenomeSeq": [],
     "MetaGxBreast": [
         "AnnotationHub",
         "ExperimentHub",
@@ -18905,7 +18899,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "ensembldb",
-        "Wrench",
         "biomformat",
         "Biostrings",
         "multtest",
@@ -19790,7 +19783,6 @@
     "microbiomeDASim": [
         "phyloseq",
         "metagenomeSeq",
-        "Wrench",
         "biomformat",
         "Biostrings",
         "multtest",
@@ -19827,7 +19819,6 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "geneplotter",
-        "Wrench",
         "annotate",
         "AnnotationDbi",
         "GenomeInfoDb",
@@ -19857,7 +19848,6 @@
         "XVector",
         "GenomeInfoDb",
         "geneplotter",
-        "Wrench",
         "annotate",
         "AnnotationDbi",
         "MultiAssayExperiment",
@@ -20543,8 +20533,7 @@
     ],
     "MMUPHin": [
         "Maaslin2",
-        "metagenomeSeq",
-        "Wrench"
+        "metagenomeSeq"
     ],
     "mnem": [
         "Rgraphviz",
@@ -21190,8 +21179,7 @@
         "S4Vectors"
     ],
     "msd16s": [
-        "metagenomeSeq",
-        "Wrench"
+        "metagenomeSeq"
     ],
     "MsExperiment": [
         "S4Vectors",
@@ -36961,7 +36949,6 @@
         "XVector"
     ],
     "wppi": [],
-    "Wrench": [],
     "xcms": [
         "MSnbase",
         "mzR",
