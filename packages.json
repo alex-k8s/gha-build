@@ -21791,7 +21791,6 @@
         "S4Vectors",
         "RProtoBufLib"
     ],
-    "immunotation": [],
     "indac.db": [
         "AnnotationDbi",
         "org.Dm.eg.db",
