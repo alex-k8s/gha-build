@@ -18658,7 +18658,6 @@
         "multtest"
     ],
     "iChip": [],
-    "iClusterPlus": [],
     "iCNV": [
         "CODEX",
         "Rsamtools",
