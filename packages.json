@@ -788,7 +788,6 @@
         "rtracklayer",
         "VariantAnnotation",
         "Rsamtools",
-        "HybridMTest",
         "IRanges",
         "geneplotter",
         "GenomeInfoDb",
@@ -14210,7 +14209,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "HybridMTest": [],
     "hyperdraw": [],
     "iasva": [
         "SummarizedExperiment",
