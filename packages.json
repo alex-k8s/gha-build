@@ -9140,7 +9140,6 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "cMap2data": [],
     "cmapR": [
         "rhdf5",
         "flowCore",
@@ -13226,7 +13225,6 @@
         "ArrayExpress",
         "GEOquery",
         "DrugVsDiseasedata",
-        "cMap2data",
         "qvalue",
         "annotate",
         "hgu133a.db",
