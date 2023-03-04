@@ -28010,10 +28010,7 @@
     "RUVcorr": [
         "bladderbatch"
     ],
-    "RUVnormalize": [
-        "RUVnormalizeData"
-    ],
-    "RUVnormalizeData": [],
+    "RUVnormalize": [],
     "RUVSeq": [
         "EDASeq",
         "ShortRead",
