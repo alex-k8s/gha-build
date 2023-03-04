@@ -23985,7 +23985,6 @@
         "BiocGenerics"
     ],
     "KEGGlincs": [
-        "KOdata",
         "hgu133a.db",
         "org.Hs.eg.db",
         "AnnotationDbi",
@@ -24089,7 +24088,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "KOdata": [],
     "LACE": [
         "SummarizedExperiment",
         "biomaRt",
