@@ -7598,7 +7598,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "cqn": [],
     "CRCL18": [],
     "CRImage": [
         "aCGH",
@@ -16876,7 +16875,6 @@
         "BiocIO"
     ],
     "KnowSeq": [
-        "cqn",
         "sva",
         "genefilter",
         "AnnotationDbi",
@@ -35194,9 +35192,7 @@
         "KEGGREST",
         "BiocIO"
     ],
-    "tweeDEseq": [
-        "cqn"
-    ],
+    "tweeDEseq": [],
     "tweeDEseqCountData": [],
     "twilight": [],
     "twoddpcr": [
