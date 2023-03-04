@@ -8701,7 +8701,6 @@
         "BiocIO",
         "GenomicAlignments"
     ],
-    "DonaPLLP2013": [],
     "doppelgangR": [
         "sva",
         "SummarizedExperiment",
