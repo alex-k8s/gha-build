@@ -11285,7 +11285,6 @@
         "GenomicAlignments",
         "Rhtslib"
     ],
-    "furrowSeg": [],
     "FuseSOM": [
         "SummarizedExperiment",
         "GenomicRanges",
