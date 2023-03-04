@@ -23270,7 +23270,6 @@
         "XVector",
         "Biostrings"
     ],
-    "oppti": [],
     "optimalFlow": [
         "flowMeans",
         "flowCore",
