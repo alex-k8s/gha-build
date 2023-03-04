@@ -20353,7 +20353,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "hgu2beta7": [],
     "hgu95a.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
