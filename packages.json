@@ -17919,7 +17919,6 @@
         "BiocGenerics"
     ],
     "hapmap370k": [],
-    "hapmap500knsp": [],
     "harbChIP": [
         "IRanges",
         "Biobase",
