@@ -25461,7 +25461,6 @@
         "Biobase",
         "ProtGenerics"
     ],
-    "msqc1": [],
     "msqrob2": [
         "QFeatures",
         "SummarizedExperiment",
