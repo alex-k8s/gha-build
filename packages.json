@@ -1515,10 +1515,7 @@
         "Biostrings",
         "GenomeInfoDb"
     ],
-    "ARRmData": [],
-    "ARRmNormalization": [
-        "ARRmData"
-    ],
+    "ARRmNormalization": [],
     "artMS": [
         "AnnotationDbi",
         "MSstats",
