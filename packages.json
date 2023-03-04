@@ -7822,7 +7822,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "celarefData": [],
     "celda": [
         "SingleCellExperiment",
         "S4Vectors",
