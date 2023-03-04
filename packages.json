@@ -37237,7 +37237,6 @@
         "cytolib",
         "zlibbioc"
     ],
-    "scMAGeCK": [],
     "scmap": [
         "Biobase",
         "SingleCellExperiment",
