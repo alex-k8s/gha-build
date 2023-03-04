@@ -47364,7 +47364,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "TargetScore": [],
     "TargetSearchData": [],
     "TarSeqQC": [
         "GenomicRanges",
