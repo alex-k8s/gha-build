@@ -25920,7 +25920,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "MEDIPSData": [],
     "MEDME": [
         "Biostrings",
         "BiocGenerics",
