@@ -32969,7 +32969,6 @@
         "Biostrings",
         "zlibbioc"
     ],
-    "ontoProcData": [],
     "openCyto": [
         "Biobase",
         "BiocGenerics",
