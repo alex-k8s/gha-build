@@ -59,8 +59,7 @@
         "BiocGenerics"
     ],
     "abseqR": [
-        "BiocParallel",
-        "BiocStyle"
+        "BiocParallel"
     ],
     "ABSSeq": [],
     "ACE": [
@@ -1556,7 +1555,6 @@
         "Gviz",
         "S4Vectors",
         "Rsamtools",
-        "BiocStyle",
         "Biobase",
         "KEGGREST",
         "GenomeInfoDb",
@@ -2052,7 +2050,6 @@
         "pRoloc",
         "pRolocdata",
         "BiocParallel",
-        "BiocStyle",
         "BiocGenerics",
         "mzR",
         "ProtGenerics",
@@ -2957,7 +2954,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "BiocStyle": [],
     "BiocVersion": [],
     "biocViews": [
         "Biobase",
@@ -2965,9 +2961,7 @@
         "RBGL",
         "BiocGenerics"
     ],
-    "BiocWorkflowTools": [
-        "BiocStyle"
-    ],
+    "BiocWorkflowTools": [],
     "biodb": [
         "BiocFileCache"
     ],
@@ -3704,7 +3698,6 @@
         "GenomicRanges",
         "IRanges",
         "S4Vectors",
-        "BiocStyle",
         "BiocGenerics",
         "GenomeInfoDb",
         "XVector",
@@ -6270,7 +6263,6 @@
         "IRanges",
         "GenomicRanges",
         "BiocGenerics",
-        "BiocStyle",
         "Biobase",
         "biovizBase",
         "S4Vectors",
@@ -7725,7 +7717,6 @@
         "org.Mm.eg.db",
         "graph",
         "Rgraphviz",
-        "BiocStyle",
         "BiocGenerics",
         "Biobase",
         "KEGGREST",
@@ -9393,9 +9384,7 @@
         "Biobase",
         "Rhtslib"
     ],
-    "COMPASS": [
-        "BiocStyle"
-    ],
+    "COMPASS": [],
     "compcodeR": [
         "edgeR"
     ],
@@ -10613,7 +10602,6 @@
     ],
     "curatedBreastData": [
         "Biobase",
-        "BiocStyle",
         "BiocGenerics"
     ],
     "curatedCRCData": [
@@ -10839,7 +10827,6 @@
         "zlibbioc"
     ],
     "cytofWorkflow": [
-        "BiocStyle",
         "CATALYST",
         "diffcyt",
         "HDCytoData",
@@ -11262,7 +11249,6 @@
         "AnnotationDbi",
         "BiocParallel",
         "SummarizedExperiment",
-        "BiocStyle",
         "Biobase",
         "made4",
         "BiocGenerics",
@@ -12110,7 +12096,6 @@
         "BiocGenerics"
     ],
     "DiscoRhythm": [
-        "BiocStyle",
         "SummarizedExperiment",
         "BiocGenerics",
         "S4Vectors",
@@ -14782,7 +14767,6 @@
         "Biobase",
         "SummarizedExperiment",
         "S4Vectors",
-        "BiocStyle",
         "BiocGenerics",
         "GenomicRanges",
         "IRanges",
@@ -15366,7 +15350,6 @@
         "BiocGenerics"
     ],
     "FieldEffectCrc": [
-        "BiocStyle",
         "SummarizedExperiment",
         "ExperimentHub",
         "AnnotationHub",
@@ -16851,7 +16834,6 @@
         "rtracklayer",
         "GO.db",
         "AnnotationDbi",
-        "BiocStyle",
         "org.Rn.eg.db",
         "BiocGenerics",
         "Biobase",
@@ -17322,7 +17304,6 @@
         "Biobase",
         "S4Vectors",
         "BiocGenerics",
-        "BiocStyle",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -24813,7 +24794,6 @@
     "Melissa": [
         "BPRMeth",
         "GenomicRanges",
-        "BiocStyle",
         "IRanges",
         "S4Vectors",
         "BiocGenerics",
@@ -24905,7 +24885,6 @@
         "zlibbioc"
     ],
     "meshr": [
-        "BiocStyle",
         "MeSHDbi",
         "Category",
         "S4Vectors",
@@ -25573,7 +25552,6 @@
         "Rhtslib"
     ],
     "methylationArrayAnalysis": [
-        "BiocStyle",
         "minfi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylation450kmanifest",
@@ -28547,7 +28525,6 @@
         "Biobase",
         "ProtGenerics",
         "mzR",
-        "BiocStyle",
         "msmsTests",
         "BiocGenerics",
         "Biostrings",
@@ -29922,7 +29899,6 @@
     "NetPathMiner": [],
     "netprioR": [],
     "netresponse": [
-        "BiocStyle",
         "Rgraphviz",
         "minet",
         "graph",
@@ -31226,7 +31202,6 @@
     "org.Mxanthus.db": [
         "AnnotationHub",
         "AnnotationDbi",
-        "BiocStyle",
         "BiocFileCache",
         "BiocGenerics",
         "Biobase",
@@ -31746,7 +31721,6 @@
     "PathNetData": [],
     "PathoStat": [
         "phyloseq",
-        "BiocStyle",
         "edgeR",
         "DESeq2",
         "ComplexHeatmap",
@@ -35453,7 +35427,6 @@
     ],
     "PhyloProfile": [
         "bioDist",
-        "BiocStyle",
         "Biostrings",
         "ExperimentHub",
         "OmaDB",
@@ -35478,7 +35451,6 @@
     "PhyloProfileData": [
         "ExperimentHub",
         "Biostrings",
-        "BiocStyle",
         "BiocGenerics",
         "S4Vectors",
         "IRanges",
@@ -35558,7 +35530,6 @@
     ],
     "Pigengene": [
         "graph",
-        "BiocStyle",
         "Rgraphviz",
         "GO.db",
         "preprocessCore",
@@ -36091,7 +36062,6 @@
         "Rsamtools",
         "BiocParallel",
         "XVector",
-        "BiocStyle",
         "phyloseq",
         "biomformat",
         "multtest",
@@ -38284,7 +38254,6 @@
     ],
     "REBET": [],
     "rebook": [
-        "BiocStyle",
         "graph",
         "BiocGenerics"
     ],
@@ -38441,7 +38410,6 @@
         "XVector",
         "AnnotationHub",
         "GEOquery",
-        "BiocStyle",
         "DEFormats",
         "KEGGREST",
         "BiocFileCache",
@@ -38615,7 +38583,6 @@
         "DelayedArray"
     ],
     "regionReport": [
-        "BiocStyle",
         "derfinder",
         "DEFormats",
         "DESeq2",
@@ -39830,7 +39797,6 @@
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "org.Mm.eg.db",
         "DESeq2",
-        "BiocStyle",
         "IRanges",
         "BiocGenerics",
         "Biobase",
@@ -40178,7 +40144,6 @@
         "edgeR",
         "Mus.musculus",
         "BiocWorkflowTools",
-        "BiocStyle",
         "DESeq2",
         "SummarizedExperiment",
         "S4Vectors",
@@ -40241,7 +40206,6 @@
         "DelayedArray"
     ],
     "rnaseqGene": [
-        "BiocStyle",
         "airway",
         "tximeta",
         "DESeq2",
@@ -40309,7 +40273,6 @@
         "edgeR",
         "org.Mm.eg.db",
         "GO.db",
-        "BiocStyle",
         "AnnotationDbi",
         "BiocGenerics",
         "Biobase",
@@ -40629,7 +40592,6 @@
     "RPA": [
         "affy",
         "BiocGenerics",
-        "BiocStyle",
         "phyloseq",
         "Biobase",
         "affyio",
@@ -40665,7 +40627,6 @@
         "Biostrings",
         "IRanges",
         "S4Vectors",
-        "BiocStyle",
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
@@ -41190,7 +41151,6 @@
         "Biostrings",
         "DECIPHER",
         "sangerseqR",
-        "BiocStyle",
         "BiocGenerics",
         "S4Vectors",
         "IRanges",
@@ -41838,7 +41798,6 @@
         "zlibbioc"
     ],
     "scMET": [
-        "BiocStyle",
         "SummarizedExperiment",
         "SingleCellExperiment",
         "S4Vectors",
@@ -42234,7 +42193,6 @@
         "AnnotationDbi",
         "SummarizedExperiment",
         "SingleCellExperiment",
-        "BiocStyle",
         "AnnotationHub",
         "MeSHDbi",
         "Category",
@@ -42277,7 +42235,6 @@
         "GSEABase",
         "Biobase",
         "SingleCellExperiment",
-        "BiocStyle",
         "S4Vectors",
         "SummarizedExperiment",
         "schex",
@@ -43369,7 +43326,6 @@
         "sparseMatrixStats"
     ],
     "simpleSingleCell": [
-        "BiocStyle",
         "graph",
         "BiocGenerics"
     ],
@@ -44921,7 +44877,6 @@
         "GenomicAlignments",
         "Gviz",
         "BiocParallel",
-        "BiocStyle",
         "BiocGenerics",
         "Biobase",
         "geneplotter",
