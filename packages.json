@@ -1940,7 +1940,6 @@
         "biocViews",
         "RBGL"
     ],
-    "BiocFHIR": [],
     "biocGraph": [
         "Rgraphviz",
         "geneplotter",
