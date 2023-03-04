@@ -2107,7 +2107,6 @@
         "HDO.db",
         "EBarrays",
         "graphite",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -5159,7 +5158,6 @@
     "cardelino": [
         "GenomeInfoDb",
         "GenomicRanges",
-        "ggtree",
         "snpStats",
         "S4Vectors",
         "VariantAnnotation",
@@ -5620,7 +5618,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -5681,7 +5678,6 @@
         "DelayedArray",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "annotate",
         "XVector",
         "Biostrings"
@@ -6102,7 +6098,6 @@
         "KEGGREST",
         "DOSE",
         "GOSemSim",
-        "ggtree",
         "XVector",
         "Biostrings",
         "BiocIO",
@@ -6691,7 +6686,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -7039,7 +7033,6 @@
     ],
     "cogena": [],
     "cogeqc": [
-        "ggtree",
         "Biostrings",
         "S4Vectors",
         "IRanges",
@@ -7259,7 +7252,6 @@
         "ScaledMatrix",
         "sparseMatrixStats",
         "HDO.db",
-        "ggtree",
         "XVector",
         "Biostrings"
     ],
@@ -8557,7 +8549,6 @@
         "GOSemSim",
         "geneplotter",
         "HDO.db",
-        "ggtree",
         "GenomeInfoDb",
         "XVector",
         "KEGGgraph",
@@ -9823,7 +9814,6 @@
         "GO.db",
         "GOSemSim",
         "HDO.db",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -10025,7 +10015,6 @@
         "SummarizedExperiment",
         "geneplotter",
         "HDO.db",
-        "ggtree",
         "annotate",
         "GenomeInfoDb",
         "XVector",
@@ -10268,7 +10257,6 @@
     "enrichplot": [
         "DOSE",
         "GOSemSim",
-        "ggtree",
         "AnnotationDbi",
         "HDO.db",
         "GO.db",
@@ -10306,7 +10294,6 @@
         "KEGGREST",
         "annotate",
         "HDO.db",
-        "ggtree",
         "Rhtslib",
         "DelayedArray"
     ],
@@ -10546,7 +10533,6 @@
         "geneplotter",
         "DOSE",
         "GOSemSim",
-        "ggtree",
         "biomaRt",
         "Rhtslib",
         "DelayedArray",
@@ -10621,7 +10607,6 @@
         "KEGGREST",
         "HDO.db",
         "GOSemSim",
-        "ggtree",
         "Biostrings"
     ],
     "EpiMix": [
@@ -11000,7 +10985,6 @@
         "DirichletMultinomial",
         "annotate",
         "HDO.db",
-        "ggtree",
         "DelayedArray"
     ],
     "escape": [
@@ -11122,7 +11106,6 @@
         "S4Vectors",
         "IRanges",
         "ExperimentHub",
-        "ggtree",
         "GenomicRanges",
         "GenomeInfoDb",
         "AnnotationHub",
@@ -11375,8 +11358,7 @@
         "S4Vectors",
         "XVector",
         "GenomeInfoDb",
-        "HDO.db",
-        "ggtree"
+        "HDO.db"
     ],
     "farms": [
         "affy",
@@ -11460,7 +11442,6 @@
         "IRanges",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "GenomeInfoDb",
         "XVector",
         "Biostrings"
@@ -12529,7 +12510,6 @@
         "KEGGgraph",
         "Rgraphviz",
         "KEGGREST",
-        "ggtree",
         "annotate",
         "GenomeInfoDb",
         "XVector",
@@ -13279,7 +13259,6 @@
     "ggmsa": [
         "Biostrings",
         "R4RNA",
-        "ggtree",
         "S4Vectors",
         "IRanges",
         "XVector",
@@ -13304,13 +13283,8 @@
         "sparseMatrixStats",
         "rhdf5filters"
     ],
-    "ggtree": [],
-    "ggtreeDendro": [
-        "ggtree"
-    ],
-    "ggtreeExtra": [
-        "ggtree"
-    ],
+    "ggtreeDendro": [],
+    "ggtreeExtra": [],
     "girafe": [
         "S4Vectors",
         "Rsamtools",
@@ -13595,7 +13569,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -16810,7 +16783,6 @@
         "ScaledMatrix",
         "sparseMatrixStats",
         "HDO.db",
-        "ggtree",
         "GenomeInfoDb",
         "XVector",
         "Biostrings"
@@ -17284,7 +17256,6 @@
         "S4Vectors",
         "Biostrings",
         "IRanges",
-        "ggtree",
         "XVector",
         "GenomeInfoDb"
     ],
@@ -17717,7 +17688,6 @@
     ],
     "lungExpression": [],
     "LymphoSeq": [
-        "ggtree",
         "msa",
         "Biostrings",
         "S4Vectors",
@@ -18263,7 +18233,6 @@
         "ExperimentHub",
         "AnnotationHub",
         "HDO.db",
-        "ggtree",
         "KEGGgraph",
         "Rgraphviz",
         "org.Hs.eg.db",
@@ -18895,7 +18864,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "GO.db",
         "Biostrings",
         "XVector",
@@ -19154,7 +19122,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -19587,7 +19554,6 @@
         "methylumi",
         "SummarizedExperiment",
         "HDO.db",
-        "ggtree",
         "GenomeInfoDb",
         "XVector",
         "Biostrings",
@@ -20084,7 +20050,6 @@
         "S4Vectors",
         "DelayedArray",
         "scater",
-        "ggtree",
         "DirichletMultinomial",
         "IRanges",
         "SingleCellExperiment",
@@ -20180,7 +20145,6 @@
     ],
     "microbiomeMarker": [
         "phyloseq",
-        "ggtree",
         "IRanges",
         "metagenomeSeq",
         "DESeq2",
@@ -20225,7 +20189,6 @@
         "DOSE",
         "GO.db",
         "GOSemSim",
-        "ggtree",
         "IRanges",
         "S4Vectors",
         "KEGGREST",
@@ -20236,7 +20199,6 @@
     ],
     "MicrobiotaProcess": [
         "Biostrings",
-        "ggtree",
         "SummarizedExperiment",
         "ggtreeExtra",
         "S4Vectors",
@@ -20690,7 +20652,6 @@
         "graphite",
         "biomaRt",
         "ComplexHeatmap",
-        "ggtree",
         "RBGL",
         "Rgraphviz",
         "Biostrings"
@@ -20713,7 +20674,6 @@
         "IRanges",
         "S4Vectors",
         "KEGGREST",
-        "ggtree",
         "RBGL",
         "Rgraphviz",
         "Biostrings",
@@ -21229,7 +21189,6 @@
         "DelayedArray",
         "biomaRt",
         "KEGGREST",
-        "ggtree",
         "XVector",
         "Biostrings"
     ],
@@ -22150,7 +22109,6 @@
         "IRanges",
         "GenomicRanges",
         "geneplotter",
-        "ggtree",
         "reactome.db",
         "graphite",
         "KEGGREST",
@@ -22698,7 +22656,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -23803,7 +23760,6 @@
     ],
     "orthogene": [
         "DelayedArray",
-        "ggtree",
         "S4Vectors",
         "IRanges"
     ],
@@ -23998,7 +23954,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "multtest",
         "Biostrings",
         "XVector",
@@ -26555,7 +26510,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -26735,9 +26689,7 @@
         "GenomeInfoDb"
     ],
     "PhenStat": [],
-    "philr": [
-        "ggtree"
-    ],
+    "philr": [],
     "PhIPData": [
         "SummarizedExperiment",
         "GenomicRanges",
@@ -26859,7 +26811,6 @@
         "IRanges",
         "S4Vectors",
         "KEGGREST",
-        "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -27517,7 +27468,6 @@
         "ShortRead",
         "DOSE",
         "GOSemSim",
-        "ggtree",
         "HDO.db"
     ],
     "profileScoreDist": [],
@@ -28859,7 +28809,6 @@
         "KEGGREST",
         "HDO.db",
         "GOSemSim",
-        "ggtree",
         "GO.db",
         "Biostrings",
         "XVector",
@@ -28996,7 +28945,6 @@
         "DEFormats",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "annotate",
         "Biostrings",
         "BiocIO",
@@ -30471,7 +30419,6 @@
         "KEGGREST",
         "Rhtslib",
         "ShortRead",
-        "ggtree",
         "annotate",
         "GenomicAlignments",
         "BiocIO",
@@ -31353,9 +31300,7 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "scBubbletree": [
-        "ggtree"
-    ],
+    "scBubbletree": [],
     "scCB2": [
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -31889,7 +31834,6 @@
         "GenomicRanges",
         "DelayedArray",
         "GenomeInfoDb",
-        "ggtree",
         "XVector",
         "Biostrings"
     ],
@@ -31999,7 +31943,6 @@
         "KEGGREST",
         "DOSE",
         "GOSemSim",
-        "ggtree",
         "Biostrings",
         "BiocIO",
         "biomaRt",
@@ -32526,7 +32469,6 @@
         "rhdf5filters",
         "GenomicRanges",
         "GenomeInfoDb",
-        "ggtree",
         "XVector",
         "Biostrings"
     ],
@@ -32811,7 +32753,6 @@
         "DESeq2",
         "ExperimentHub",
         "ensembldb",
-        "ggtree",
         "GSVA",
         "GSVAdata",
         "MAST",
@@ -32996,9 +32937,7 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "sitePath": [
-        "ggtree"
-    ],
+    "sitePath": [],
     "skewr": [
         "methylumi",
         "wateRmelon",
@@ -34469,7 +34408,6 @@
     "systemPipeTools": [
         "DESeq2",
         "SummarizedExperiment",
-        "ggtree",
         "S4Vectors",
         "IRanges",
         "GenomicRanges",
@@ -34531,9 +34469,7 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "tanggle": [
-        "ggtree"
-    ],
+    "tanggle": [],
     "TAPseq": [
         "GenomicAlignments",
         "GenomicRanges",
@@ -34709,7 +34645,6 @@
         "KEGGREST",
         "sesameData",
         "HDO.db",
-        "ggtree",
         "XVector",
         "Biostrings",
         "BiocIO",
@@ -35140,7 +35075,6 @@
         "IRanges",
         "KEGGREST",
         "HDO.db",
-        "ggtree",
         "GenomeInfoDb",
         "XVector",
         "Biostrings"
@@ -35560,7 +35494,6 @@
     "TreeAndLeaf": [],
     "treekoR": [
         "hopach",
-        "ggtree",
         "SingleCellExperiment",
         "diffcyt",
         "flowCore",
