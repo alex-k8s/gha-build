@@ -21504,7 +21504,6 @@
         "zlibbioc"
     ],
     "HumanTranscriptomeCompendium": [
-        "ssrch",
         "S4Vectors",
         "SummarizedExperiment",
         "BiocGenerics",
@@ -46496,7 +46495,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "ssrch": [],
     "ssviz": [
         "Rsamtools",
         "Biostrings",
