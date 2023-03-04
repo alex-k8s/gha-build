@@ -990,7 +990,6 @@
     "antiProfilesData": [
         "Biobase"
     ],
-    "AnVILPublish": [],
     "APAlyzer": [
         "GenomicRanges",
         "GenomicFeatures",
