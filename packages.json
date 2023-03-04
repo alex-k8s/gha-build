@@ -10570,7 +10570,6 @@
         "XVector",
         "DelayedArray"
     ],
-    "epistasisGA": [],
     "EpiTxDb": [
         "AnnotationDbi",
         "Modstrings",
