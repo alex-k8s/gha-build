@@ -29370,7 +29370,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "RGSEA": [],
     "rgsepd": [
         "DESeq2",
         "goseq",
