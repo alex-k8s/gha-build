@@ -1978,7 +1978,6 @@
     ],
     "biodbHmdb": [],
     "biodbKegg": [],
-    "biodbNcbi": [],
     "biodbNci": [],
     "BioImageDbs": [
         "ExperimentHub",
