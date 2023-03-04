@@ -16940,7 +16940,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "gageData": [],
     "gaggle": [
         "graph",
         "BiocGenerics"

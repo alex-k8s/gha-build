@@ -1,0 +1,36 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''gageData'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'gageData'
+trying URL 'https://bioconductor.org/packages/3.16/data/experiment/src/contrib/gageData_2.36.0.tar.gz'
+Content type 'application/x-gzip' length 11099289 bytes (10.6 MB)
+==================================================
+downloaded 10.6 MB
+
+* installing *source* package ‘gageData’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gageData’ as ‘gageData_2.36.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gageData)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp6wz5Lh/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	1m16.974s
+user	1m13.444s
+sys	0m1.291s
