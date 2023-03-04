@@ -38604,7 +38604,6 @@
     "sojourner": [
         "EBImage"
     ],
-    "SomatiCAData": [],
     "SomaticCancerAlterations": [
         "GenomicRanges",
         "IRanges",
