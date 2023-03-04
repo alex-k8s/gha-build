@@ -51964,7 +51964,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "UniProtKeywords": [],
     "Uniquorn": [
         "GenomicRanges",
         "IRanges",
