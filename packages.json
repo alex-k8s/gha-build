@@ -38707,7 +38707,6 @@
         "DelayedArray"
     ],
     "QUBIC": [],
-    "QUBICdata": [],
     "qusage": [
         "Biobase",
         "BiocGenerics"
