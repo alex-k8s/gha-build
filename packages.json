@@ -41812,7 +41812,6 @@
         "GenomicAlignments",
         "BiocFileCache"
     ],
-    "sigPathway": [],
     "SigsPack": [
         "Biobase",
         "BSgenome",
@@ -45515,7 +45514,6 @@
         "zlibbioc"
     ],
     "tRanslatome": [
-        "sigPathway",
         "anota",
         "DESeq2",
         "edgeR",
