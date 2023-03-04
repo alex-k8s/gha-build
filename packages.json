@@ -8546,7 +8546,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "HSMMSingleCell",
         "biocViews",
         "KEGGREST",
         "graph",
@@ -20516,7 +20515,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "HSMMSingleCell": [],
     "Hspec": [
         "AnnotationDbi",
         "BiocGenerics",
@@ -28692,7 +28690,6 @@
     "monocle": [
         "Biobase",
         "BiocGenerics",
-        "HSMMSingleCell",
         "biocViews",
         "graph",
         "RBGL"
@@ -50388,7 +50385,6 @@
         "Biobase",
         "BiocGenerics",
         "monocle",
-        "HSMMSingleCell",
         "biocViews",
         "graph",
         "RBGL"
