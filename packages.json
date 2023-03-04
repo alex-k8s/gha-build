@@ -18666,7 +18666,6 @@
         "graph",
         "BiocGenerics"
     ],
-    "GSAR": [],
     "GSCA": [
         "rhdf5",
         "rhdf5filters"
