@@ -15974,7 +15974,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "gpaExample": [],
     "gpuMagic": [],
     "GRaNIE": [
         "GenomicRanges",
