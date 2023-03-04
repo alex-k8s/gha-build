@@ -26280,7 +26280,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "ReactomeGraph4R": [],
     "ReactomeGSA.data": [],
     "ReactomePA": [
         "AnnotationDbi",
