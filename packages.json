@@ -23673,10 +23673,7 @@
         "biomaRt",
         "Rhtslib"
     ],
-    "LPE": [],
-    "LPEadj": [
-        "LPE"
-    ],
+    "LPEadj": [],
     "lpNet": [],
     "LRBaseDbi": [
         "AnnotationDbi",
@@ -36877,7 +36874,6 @@
     "plotgardenerData": [],
     "PLPE": [
         "Biobase",
-        "LPE",
         "BiocGenerics"
     ],
     "plyranges": [
