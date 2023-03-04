@@ -46439,7 +46439,6 @@
         "mixOmics",
         "BiocParallel"
     ],
-    "TimerQuant": [],
     "TimiRGeN": [
         "Mfuzz",
         "MultiAssayExperiment",
