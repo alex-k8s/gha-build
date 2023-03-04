@@ -8398,7 +8398,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "chromhmmData": [],
     "chromPlot": [
         "biomaRt",
         "GenomicRanges",
@@ -43782,7 +43781,6 @@
         "S4Vectors",
         "bamsignals",
         "ComplexHeatmap",
-        "chromhmmData",
         "BiocGenerics",
         "zlibbioc",
         "Rhtslib",
