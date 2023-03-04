@@ -15925,7 +15925,6 @@
         "zlibbioc"
     ],
     "gdsfmt": [],
-    "GEM": [],
     "gemma.R": [
         "SummarizedExperiment",
         "Biobase",
