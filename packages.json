@@ -43914,7 +43914,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "semisup": [],
     "SEPIRA": [],
     "seq2pathway": [
         "biomaRt",
