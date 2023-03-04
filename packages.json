@@ -22575,7 +22575,6 @@
         "SingleCellExperiment",
         "DelayedArray",
         "BiocSingular",
-        "SharedObject",
         "S4Vectors",
         "ScaledMatrix",
         "beachmat",
@@ -31966,7 +31965,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "SharedObject": [],
     "SHDZ.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
