@@ -4601,7 +4601,6 @@
         "annotate",
         "AnnotationDbi",
         "Category",
-        "hopach",
         "biomaRt",
         "genefilter",
         "hgu133a.db",
@@ -13539,7 +13538,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "hopach": [],
     "hs25kresogen.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
@@ -23799,7 +23797,6 @@
         "annotate",
         "Category",
         "AnnotationDbi",
-        "hopach",
         "biomaRt",
         "GSEABase",
         "genefilter",
@@ -27988,7 +27985,6 @@
         "XVector"
     ],
     "scClassify": [
-        "hopach",
         "Cepo",
         "GSEABase",
         "DelayedMatrixStats",
@@ -31733,7 +31729,6 @@
         "XVector"
     ],
     "treekoR": [
-        "hopach",
         "SingleCellExperiment",
         "diffcyt",
         "flowCore",
