@@ -1626,7 +1626,6 @@
         "XVector",
         "Biostrings"
     ],
-    "beadarraySNP": [],
     "BeadArrayUseCases": [
         "beadarray",
         "AnnotationDbi",
