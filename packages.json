@@ -16432,7 +16432,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "genArise": [],
     "genbankr": [
         "BiocGenerics",
         "IRanges",
