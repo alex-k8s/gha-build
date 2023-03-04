@@ -21527,7 +21527,6 @@
         "org.Hs.eg.db",
         "GenomeInfoDb"
     ],
-    "mapscape": [],
     "MAQCsubset": [
         "affy",
         "Biobase",
