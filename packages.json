@@ -11601,7 +11601,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "geneRecommender": [],
     "GeneRegionScan": [
         "Biostrings",
         "IRanges",
