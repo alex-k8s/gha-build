@@ -26862,7 +26862,6 @@
         "Biobase",
         "minfi",
         "preprocessCore",
-        "planet",
         "BiocGenerics",
         "AnnotationHub",
         "BiocFileCache",
@@ -37295,7 +37294,6 @@
         "RBGL",
         "BiocGenerics"
     ],
-    "planet": [],
     "plasFIA": [
         "proFIA",
         "xcms",
