@@ -3039,7 +3039,6 @@
         "zlibbioc"
     ],
     "BiocStyle": [],
-    "biocthis": [],
     "BiocVersion": [],
     "biocViews": [
         "Biobase",
@@ -21244,9 +21243,7 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "HubPub": [
-        "biocthis"
-    ],
+    "HubPub": [],
     "huex10stprobeset.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
