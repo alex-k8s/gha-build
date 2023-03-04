@@ -20152,7 +20152,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "NanoStringDiff": [],
     "NanoStringNCTools": [
         "Biostrings",
         "IRanges",
