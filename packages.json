@@ -6141,7 +6141,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "CausalR": [],
     "cbaf": [
         "cBioPortalData",
         "genefilter",
