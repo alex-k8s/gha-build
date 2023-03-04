@@ -2029,7 +2029,6 @@
     "biodbNcbi": [],
     "biodbNci": [],
     "biodbUniprot": [],
-    "bioDist": [],
     "BioImageDbs": [
         "ExperimentHub",
         "AnnotationHub",
@@ -5347,7 +5346,6 @@
     "ChemmineOB": [],
     "CHETAH": [
         "SingleCellExperiment",
-        "bioDist",
         "SummarizedExperiment",
         "GenomicRanges",
         "DelayedArray",
@@ -24404,7 +24402,6 @@
         "XVector"
     ],
     "PhyloProfile": [
-        "bioDist",
         "Biostrings",
         "ExperimentHub",
         "OmaDB",
