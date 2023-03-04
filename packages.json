@@ -24036,7 +24036,6 @@
         "zlibbioc"
     ],
     "M3C": [],
-    "M3DExampleData": [],
     "m6Aboost": [
         "S4Vectors",
         "GenomicRanges",
