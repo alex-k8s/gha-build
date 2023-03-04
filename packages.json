@@ -37308,10 +37308,7 @@
         "KEGGREST",
         "biomaRt"
     ],
-    "seqCNA": [
-        "seqCNA.annot"
-    ],
-    "seqCNA.annot": [],
+    "seqCNA": [],
     "SeqGate": [
         "S4Vectors",
         "SummarizedExperiment",
