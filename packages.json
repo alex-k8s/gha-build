@@ -41549,7 +41549,6 @@
     "yeastExpData": [
         "graph"
     ],
-    "yeastGSData": [],
     "ygs98.db": [
         "AnnotationDbi",
         "org.Sc.sgd.db",
