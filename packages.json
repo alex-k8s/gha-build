@@ -26345,7 +26345,6 @@
         "zlibbioc"
     ],
     "NetPathMiner": [],
-    "netprioR": [],
     "netresponse": [
         "Rgraphviz",
         "minet",
