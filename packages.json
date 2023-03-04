@@ -33888,7 +33888,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "SMAD": [],
     "SMITE": [
         "GenomicRanges",
         "AnnotationDbi",
