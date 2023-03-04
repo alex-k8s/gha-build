@@ -3952,7 +3952,6 @@
     ],
     "breakpointR": [
         "GenomicRanges",
-        "breakpointRdata",
         "S4Vectors",
         "GenomeInfoDb",
         "IRanges",
@@ -3969,7 +3968,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "breakpointRdata": [],
     "breastCancerMAINZ": [],
     "breastCancerNKI": [],
     "breastCancerTRANSBIG": [],
