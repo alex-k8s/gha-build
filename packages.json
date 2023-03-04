@@ -485,7 +485,6 @@
         "XVector",
         "DelayedArray"
     ],
-    "alevinQC": [],
     "ALL": [],
     "AllelicImbalance": [
         "GenomicRanges",
