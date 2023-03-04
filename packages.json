@@ -21290,7 +21290,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "mistyR": [],
     "mitoClone2": [
         "GenomicRanges",
         "deepSNV",
