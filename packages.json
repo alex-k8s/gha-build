@@ -1869,7 +1869,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "bioassayR": [],
     "bioCancer": [
         "AnnotationDbi",
         "geNetClassifier",
