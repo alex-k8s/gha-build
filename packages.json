@@ -3200,7 +3200,6 @@
         "BSgenome",
         "BiocFileCache"
     ],
-    "BiRewire": [],
     "biscuiteer": [
         "biscuiteerData",
         "bsseq",
