@@ -33655,7 +33655,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "SUITOR": [],
     "SummarizedBenchmark": [
         "SummarizedExperiment",
         "S4Vectors",
