@@ -33488,7 +33488,6 @@
         "BrowserViz",
         "graph"
     ],
-    "Rdisop": [],
     "reactome.db": [
         "AnnotationDbi",
         "Biobase",
