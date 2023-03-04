@@ -26389,7 +26389,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "Path2PPI": [],
     "PathoStat": [
         "phyloseq",
         "edgeR",
