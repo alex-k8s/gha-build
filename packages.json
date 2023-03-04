@@ -17401,7 +17401,6 @@
         "biomaRt",
         "Rhtslib"
     ],
-    "LPEadj": [],
     "LRBaseDbi": [
         "AnnotationDbi",
         "IRanges",
