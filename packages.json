@@ -27925,7 +27925,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "miRBaseConverter": [],
     "miRBaseVersions.db": [
         "AnnotationDbi",
         "BiocGenerics",
@@ -28129,7 +28128,6 @@
         "reactome.db",
         "graphite",
         "biomaRt",
-        "miRBaseConverter",
         "ComplexHeatmap",
         "BiocFileCache",
         "ggtree",
@@ -28157,7 +28155,6 @@
         "graphite",
         "Biobase",
         "biomaRt",
-        "miRBaseConverter",
         "ComplexHeatmap",
         "BiocGenerics",
         "IRanges",
@@ -46353,7 +46350,6 @@
     "SPONGE": [
         "Biobase",
         "biomaRt",
-        "miRBaseConverter",
         "ComplexHeatmap",
         "BiocGenerics",
         "AnnotationDbi",
