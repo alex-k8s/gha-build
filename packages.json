@@ -2495,7 +2495,6 @@
     ],
     "beadarraySNP": [
         "Biobase",
-        "quantsmooth",
         "BiocGenerics"
     ],
     "BeadArrayUseCases": [
@@ -17381,7 +17380,6 @@
         "SNPRelate",
         "GenomeInfoDb",
         "XVector",
-        "quantsmooth",
         "Biostrings",
         "zlibbioc"
     ],
@@ -19102,13 +19100,11 @@
         "GWASTools",
         "Biobase",
         "gdsfmt",
-        "quantsmooth",
         "BiocGenerics"
     ],
     "GWASTools": [
         "Biobase",
         "gdsfmt",
-        "quantsmooth",
         "BiocGenerics"
     ],
     "gwasurvivr": [
@@ -19118,7 +19114,6 @@
         "SNPRelate",
         "Biobase",
         "gdsfmt",
-        "quantsmooth",
         "MatrixGenerics",
         "GenomicRanges",
         "BiocGenerics",
@@ -25315,7 +25310,6 @@
         "Biobase",
         "BiocGenerics",
         "gdsfmt",
-        "quantsmooth",
         "IRanges",
         "GenomicRanges",
         "SummarizedExperiment",
@@ -38659,7 +38653,6 @@
         "GenomicAlignments",
         "Rhtslib"
     ],
-    "quantsmooth": [],
     "QuartPAC": [
         "iPAC",
         "GraphPAC",
@@ -44708,7 +44701,6 @@
     ],
     "SIM": [
         "globaltest",
-        "quantsmooth",
         "Biobase",
         "AnnotationDbi",
         "annotate",
