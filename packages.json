@@ -24487,7 +24487,6 @@
         "GenomicAlignments"
     ],
     "MetaVolcanoR": [
-        "topconfects",
         "multtest",
         "BiocGenerics",
         "Biobase"
@@ -45163,7 +45162,6 @@
     "tomoseqr": [
         "BiocFileCache"
     ],
-    "topconfects": [],
     "topdownr": [
         "BiocGenerics",
         "ProtGenerics",
@@ -47907,7 +47905,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "BiocGenerics",
-        "topconfects",
         "IRanges",
         "sparseMatrixStats",
         "GenomicRanges",
