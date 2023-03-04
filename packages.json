@@ -28388,7 +28388,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "miRNApath": [],
     "miRNAtap": [
         "AnnotationDbi",
         "BiocGenerics",
