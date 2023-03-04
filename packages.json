@@ -29301,7 +29301,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "SEPIRA": [],
     "seq2pathway": [
         "biomaRt",
         "GenomicRanges",
