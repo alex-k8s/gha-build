@@ -1977,7 +1977,6 @@
         "RBGL"
     ],
     "biodbKegg": [],
-    "biodbNci": [],
     "BioImageDbs": [
         "ExperimentHub",
         "AnnotationHub",
