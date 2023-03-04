@@ -2751,7 +2751,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "BGmix": [],
     "bgx": [
         "Biobase",
         "affy",
