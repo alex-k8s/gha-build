@@ -3380,9 +3380,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "bridge": [
-        "rama"
-    ],
+    "bridge": [],
     "bronchialIL13": [
         "affy",
         "Biobase",
@@ -33125,7 +33123,6 @@
         "multtest",
         "Biobase"
     ],
-    "rama": [],
     "ramr": [
         "GenomicRanges",
         "IRanges",
