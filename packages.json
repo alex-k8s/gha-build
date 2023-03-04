@@ -16247,7 +16247,6 @@
         "S4Vectors",
         "RProtoBufLib"
     ],
-    "flowPlots": [],
     "FlowSOM": [
         "ConsensusClusterPlus",
         "flowCore",
