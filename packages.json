@@ -38080,7 +38080,6 @@
     "TCGAcrcmRNA": [
         "Biobase"
     ],
-    "TCGAMethylation450k": [],
     "TCGAutils": [
         "AnnotationDbi",
         "GenomeInfoDb",
