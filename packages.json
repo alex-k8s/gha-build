@@ -8289,7 +8289,6 @@
         "affyio"
     ],
     "curatedBreastData": [],
-    "curatedCRCData": [],
     "curatedMetagenomicData": [
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
