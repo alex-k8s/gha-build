@@ -50231,7 +50231,6 @@
         "Rhtslib",
         "GenomicAlignments"
     ],
-    "tximportData": [],
     "u133aaofav2cdf": [
         "AnnotationDbi",
         "BiocGenerics",
