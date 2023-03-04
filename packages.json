@@ -1254,11 +1254,8 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "AnVIL": [],
     "AnVILBilling": [],
-    "AnVILPublish": [
-        "AnVIL"
-    ],
+    "AnVILPublish": [],
     "APAlyzer": [
         "GenomicRanges",
         "GenomicFeatures",
@@ -7184,7 +7181,6 @@
         "BiocFileCache",
         "cBioPortalData",
         "genefilter",
-        "AnVIL",
         "MultiAssayExperiment",
         "GenomeInfoDb",
         "GenomicRanges",
@@ -7237,7 +7233,6 @@
         "zlibbioc"
     ],
     "cBioPortalData": [
-        "AnVIL",
         "MultiAssayExperiment",
         "BiocFileCache",
         "GenomeInfoDb",
@@ -23998,7 +23993,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "AnVIL",
         "MultiAssayExperiment",
         "BiocFileCache",
         "GenomicRanges",
@@ -48323,7 +48317,6 @@
         "BiocParallel"
     ],
     "terraTCGAdata": [
-        "AnVIL",
         "MultiAssayExperiment",
         "BiocFileCache",
         "GenomicRanges",
