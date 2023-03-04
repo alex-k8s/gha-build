@@ -18066,7 +18066,6 @@
         "ggtree"
     ],
     "GIGSEA": [],
-    "GIGSEAdata": [],
     "girafe": [
         "BiocGenerics",
         "S4Vectors",
