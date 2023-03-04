@@ -8419,7 +8419,6 @@
         "flowClust",
         "flowMeans",
         "flowMerge",
-        "SamSPECTRAL",
         "Biobase",
         "graph",
         "cytolib",
@@ -9849,7 +9848,6 @@
     "ddPCRclust": [
         "flowCore",
         "flowDensity",
-        "SamSPECTRAL",
         "Biobase",
         "cytolib",
         "S4Vectors",
@@ -36094,7 +36092,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "SamSPECTRAL": [],
     "sangeranalyseR": [
         "Biostrings",
         "DECIPHER",
