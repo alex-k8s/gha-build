@@ -48177,7 +48177,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "xmapbridge": [],
     "XNAString": [
         "Biostrings",
         "BSgenome",
