@@ -2025,7 +2025,6 @@
     "biodbKegg": [],
     "biodbNcbi": [],
     "biodbNci": [],
-    "biodbUniprot": [],
     "BioImageDbs": [
         "ExperimentHub",
         "AnnotationHub",
