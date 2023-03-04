@@ -10387,8 +10387,7 @@
         "Mfuzz",
         "Biobase",
         "BiocGenerics",
-        "tkWidgets",
-        "widgetTools"
+        "tkWidgets"
     ],
     "cydar": [
         "SingleCellExperiment",
@@ -25162,8 +25161,7 @@
     "Mfuzz": [
         "Biobase",
         "tkWidgets",
-        "BiocGenerics",
-        "widgetTools"
+        "BiocGenerics"
     ],
     "MGFM": [
         "AnnotationDbi",
@@ -29642,8 +29640,7 @@
     "OLINgui": [
         "OLIN",
         "marray",
-        "tkWidgets",
-        "widgetTools"
+        "tkWidgets"
     ],
     "omada": [
         "Biobase",
@@ -44961,7 +44958,6 @@
         "ggtree",
         "GenomeInfoDb",
         "XVector",
-        "widgetTools",
         "Biostrings",
         "zlibbioc"
     ],
@@ -45034,9 +45030,7 @@
         "DelayedArray",
         "BiocFileCache"
     ],
-    "tkWidgets": [
-        "widgetTools"
-    ],
+    "tkWidgets": [],
     "tLOH": [
         "VariantAnnotation",
         "GenomicRanges",
@@ -47958,7 +47952,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "widgetTools": [],
     "wiggleplotr": [
         "GenomicRanges",
         "rtracklayer",
