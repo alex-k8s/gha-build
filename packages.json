@@ -6829,7 +6829,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "Chicago": [],
     "chicken.db": [
         "AnnotationDbi",
         "org.Gg.eg.db",
@@ -28369,9 +28368,7 @@
         "IRanges",
         "sparseMatrixStats"
     ],
-    "PCHiCdata": [
-        "Chicago"
-    ],
+    "PCHiCdata": [],
     "pcxn": [
         "pcxnData"
     ],
