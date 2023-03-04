@@ -15929,7 +15929,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "fastreeR": [],
     "fastseg": [
         "GenomicRanges",
         "Biobase",
