@@ -19136,7 +19136,6 @@
         "S4Vectors",
         "BiocGenerics"
     ],
-    "HMMcopy": [],
     "HMP16SData": [
         "SummarizedExperiment",
         "AnnotationHub",
@@ -36093,7 +36092,6 @@
     ],
     "qsea": [
         "Biostrings",
-        "HMMcopy",
         "rtracklayer",
         "BSgenome",
         "GenomicRanges",
