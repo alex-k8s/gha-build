@@ -1,0 +1,36 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Illumina450ProbeVariants.db'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'Illumina450ProbeVariants.db'
+trying URL 'https://bioconductor.org/packages/3.16/data/experiment/src/contrib/Illumina450ProbeVariants.db_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 6725592 bytes (6.4 MB)
+==================================================
+downloaded 6.4 MB
+
+* installing *source* package ‘Illumina450ProbeVariants.db’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Illumina450ProbeVariants.db’ as ‘Illumina450ProbeVariants.db_1.34.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Illumina450ProbeVariants.db)
+
+The downloaded source packages are in
+	‘/tmp/RtmpkUVmmB/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	0m48.319s
+user	0m46.160s
+sys	0m0.806s
