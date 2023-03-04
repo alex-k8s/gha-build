@@ -2020,7 +2020,6 @@
     "biocViews": [
         "RBGL"
     ],
-    "biodbChebi": [],
     "biodbExpasy": [],
     "biodbHmdb": [],
     "biodbKegg": [],
@@ -24322,7 +24321,6 @@
     ],
     "phenomis": [
         "SummarizedExperiment",
-        "biodbChebi",
         "MultiAssayExperiment",
         "MultiDataSet",
         "ropls",
