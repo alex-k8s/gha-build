@@ -10585,7 +10585,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "COSNet": [],
     "COTAN": [
         "ComplexHeatmap",
         "IRanges",
