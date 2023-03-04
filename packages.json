@@ -8691,7 +8691,6 @@
         "preprocessCore",
         "zlibbioc"
     ],
-    "CluMSIDdata": [],
     "clusterExperiment": [
         "SingleCellExperiment",
         "SummarizedExperiment",
