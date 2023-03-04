@@ -14662,7 +14662,6 @@
         "DelayedArray"
     ],
     "epivizr": [
-        "epivizrServer",
         "epivizrData",
         "GenomicRanges",
         "S4Vectors",
@@ -14697,7 +14696,6 @@
     ],
     "epivizrChart": [
         "epivizrData",
-        "epivizrServer",
         "BiocGenerics",
         "Biobase",
         "S4Vectors",
@@ -14729,7 +14727,6 @@
         "GenomicAlignments"
     ],
     "epivizrData": [
-        "epivizrServer",
         "Biobase",
         "S4Vectors",
         "GenomicRanges",
@@ -14760,10 +14757,8 @@
         "Rhtslib",
         "GenomicAlignments"
     ],
-    "epivizrServer": [],
     "epivizrStandalone": [
         "epivizr",
-        "epivizrServer",
         "GenomeInfoDb",
         "BiocGenerics",
         "GenomicFeatures",
@@ -26085,7 +26080,6 @@
         "Biobase",
         "epivizr",
         "epivizrData",
-        "epivizrServer",
         "epivizrStandalone",
         "GenomeInfoDb",
         "phyloseq",
@@ -43615,7 +43609,6 @@
         "S4Vectors",
         "scran",
         "epivizrData",
-        "epivizrServer",
         "scater",
         "SingleCellExperiment",
         "GenomicRanges",
