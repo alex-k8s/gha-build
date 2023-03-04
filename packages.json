@@ -18688,7 +18688,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "miRcomp": [],
     "mirIntegrator": [
         "ROntoTools",
         "org.Hs.eg.db",
