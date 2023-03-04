@@ -6359,7 +6359,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "cogena": [],
     "cogeqc": [
         "Biostrings",
         "IRanges",
