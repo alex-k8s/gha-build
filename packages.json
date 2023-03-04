@@ -152,16 +152,13 @@
         "XVector"
     ],
     "affy": [],
-    "affycomp": [],
     "AffyCompatible": [
         "Biostrings",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
     ],
-    "affycompData": [
-        "affycomp"
-    ],
+    "affycompData": [],
     "affyContam": [
         "affy",
         "affydata"
