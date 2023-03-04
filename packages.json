@@ -532,7 +532,6 @@
         "affy",
         "affyio"
     ],
-    "AlphaBeta": [],
     "alpine": [
         "Biostrings",
         "IRanges",
