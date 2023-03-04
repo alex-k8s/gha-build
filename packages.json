@@ -9773,7 +9773,6 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "cMAP": [],
     "cMap2data": [],
     "cmapR": [
         "rhdf5",
@@ -35458,7 +35457,6 @@
     "pathRender": [
         "graph",
         "Rgraphviz",
-        "cMAP",
         "AnnotationDbi",
         "BiocGenerics",
         "Biobase",
