@@ -17542,7 +17542,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "genomewidesnp5Crlmm": [],
     "genomewidesnp6Crlmm": [],
     "GenomicAlignments": [
         "BiocGenerics",
