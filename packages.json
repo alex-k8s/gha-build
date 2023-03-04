@@ -41817,7 +41817,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "TrajectoryGeometry": [],
     "TrajectoryUtils": [
         "SingleCellExperiment",
         "S4Vectors",
