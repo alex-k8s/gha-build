@@ -28263,10 +28263,8 @@
     ],
     "miRcomp": [
         "Biobase",
-        "miRcompData",
         "BiocGenerics"
     ],
-    "miRcompData": [],
     "mirIntegrator": [
         "graph",
         "ROntoTools",
