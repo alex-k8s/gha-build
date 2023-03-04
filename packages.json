@@ -46390,7 +46390,6 @@
         "S4Vectors",
         "BiocGenerics"
     ],
-    "SQUADD": [],
     "sRACIPE": [
         "SummarizedExperiment",
         "S4Vectors",
