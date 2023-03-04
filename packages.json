@@ -7326,7 +7326,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "cellxgenedp": [],
     "CEMiTool": [
         "clusterProfiler",
         "fgsea",
