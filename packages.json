@@ -14425,7 +14425,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "iBMQ": [],
     "icetea": [
         "GenomicFeatures",
         "ShortRead",
