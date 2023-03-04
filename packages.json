@@ -52,7 +52,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "marray",
         "Biostrings",
         "Rhtslib"
     ],
@@ -1057,9 +1056,7 @@
         "Rhtslib",
         "multtest"
     ],
-    "arrayQuality": [
-        "marray"
-    ],
+    "arrayQuality": [],
     "arrayQualityMetrics": [
         "affy",
         "affyPLM",
@@ -1085,7 +1082,6 @@
         "IRanges",
         "S4Vectors",
         "KEGGREST",
-        "marray",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -1921,9 +1917,7 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "beta7": [
-        "marray"
-    ],
+    "beta7": [],
     "BgeeCall": [
         "GenomicFeatures",
         "Biostrings",
@@ -2427,7 +2421,6 @@
         "BiocIO",
         "KEGGREST",
         "regioneR",
-        "marray",
         "biomaRt",
         "RBGL"
     ],
@@ -5645,12 +5638,9 @@
         "BiocIO",
         "DelayedArray"
     ],
-    "CGHbase": [
-        "marray"
-    ],
+    "CGHbase": [],
     "CGHcall": [
-        "CGHbase",
-        "marray"
+        "CGHbase"
     ],
     "cghMCR": [
         "CNTools",
@@ -5666,12 +5656,10 @@
     ],
     "CGHnormaliter": [
         "CGHcall",
-        "CGHbase",
-        "marray"
+        "CGHbase"
     ],
     "CGHregions": [
-        "CGHbase",
-        "marray"
+        "CGHbase"
     ],
     "ChAMP": [
         "minfi",
@@ -5682,7 +5670,6 @@
         "sva",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "marray",
         "wateRmelon",
         "goseq",
         "missMethyl",
@@ -7106,7 +7093,6 @@
         "rtracklayer",
         "biomaRt",
         "SummarizedExperiment",
-        "marray",
         "Gviz",
         "GenomicAlignments",
         "Rhtslib",
@@ -7339,9 +7325,7 @@
         "KEGGREST",
         "biomaRt"
     ],
-    "convert": [
-        "marray"
-    ],
+    "convert": [],
     "copa": [],
     "CopyNeutralIMA": [
         "ExperimentHub",
@@ -7422,7 +7406,6 @@
         "IRanges",
         "GenomicRanges",
         "DelayedArray",
-        "marray",
         "GenomeInfoDb",
         "XVector"
     ],
@@ -9623,11 +9606,8 @@
         "GenomeInfoDb"
     ],
     "DvDdata": [],
-    "dyebias": [
-        "marray"
-    ],
+    "dyebias": [],
     "dyebiasexamples": [
-        "marray",
         "GEOquery"
     ],
     "easier": [
@@ -12416,7 +12396,6 @@
         "CGHcall",
         "CGHbase",
         "GenomicRanges",
-        "marray",
         "S4Vectors",
         "IRanges",
         "GenomeInfoDb",
@@ -14551,7 +14530,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "marray",
         "Biostrings",
         "Rhtslib",
         "DelayedArray"
@@ -14599,7 +14577,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "marray",
         "Biostrings",
         "Rhtslib"
     ],
@@ -17077,7 +17054,6 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "Rsamtools",
-        "marray",
         "IRanges",
         "Gviz",
         "GenomicAlignments",
@@ -17980,8 +17956,7 @@
         "XVector"
     ],
     "maigesPack": [
-        "convert",
-        "marray"
+        "convert"
     ],
     "MAIT": [
         "CAMERA",
@@ -18140,7 +18115,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "marray": [],
     "martini": [
         "snpStats"
     ],
@@ -19304,7 +19278,6 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "Rsamtools",
-        "marray",
         "IRanges",
         "Gviz",
         "GenomicAlignments",
@@ -19956,7 +19929,6 @@
     "MineICA": [
         "biomaRt",
         "GOstats",
-        "marray",
         "Rgraphviz",
         "annotate",
         "AnnotationDbi",
@@ -21350,9 +21322,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "MSstats": [
-        "marray"
-    ],
+    "MSstats": [],
     "MSstatsLiP": [
         "MSstats",
         "Biostrings",
@@ -21361,7 +21331,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "marray",
         "MSstatsTMT"
     ],
     "MSstatsPTM": [
@@ -21371,8 +21340,7 @@
         "S4Vectors",
         "IRanges",
         "XVector",
-        "GenomeInfoDb",
-        "marray"
+        "GenomeInfoDb"
     ],
     "MSstatsQC": [
         "MSnbase",
@@ -21400,14 +21368,12 @@
         "affyio"
     ],
     "MSstatsSampleSize": [
-        "MSstats",
-        "marray"
+        "MSstats"
     ],
     "MSstatsShiny": [
         "MSstats",
         "MSstatsTMT",
         "MSstatsPTM",
-        "marray",
         "Biostrings",
         "S4Vectors",
         "IRanges",
@@ -21415,8 +21381,7 @@
         "GenomeInfoDb"
     ],
     "MSstatsTMT": [
-        "MSstats",
-        "marray"
+        "MSstats"
     ],
     "mta10probeset.db": [
         "AnnotationDbi",
@@ -21706,7 +21671,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "marray",
         "Biostrings",
         "Rhtslib",
         "DelayedArray"
@@ -22440,9 +22404,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "nnNorm": [
-        "marray"
-    ],
+    "nnNorm": [],
     "nnSVG": [
         "SpatialExperiment",
         "SingleCellExperiment",
@@ -22856,12 +22818,9 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "OLIN": [
-        "marray"
-    ],
+    "OLIN": [],
     "OLINgui": [
-        "OLIN",
-        "marray"
+        "OLIN"
     ],
     "omada": [],
     "OmaDB": [
@@ -25956,7 +25915,6 @@
         "GenomicRanges",
         "DelayedArray",
         "IRanges",
-        "marray",
         "GenomeInfoDb",
         "AnnotationDbi",
         "XVector",
@@ -26145,8 +26103,7 @@
         "DelayedArray",
         "IRanges",
         "GenomeInfoDb",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "phastCons100way.UCSC.hg19": [
         "GenomicScores",
@@ -26365,9 +26322,7 @@
         "S4Vectors",
         "XVector"
     ],
-    "piano": [
-        "marray"
-    ],
+    "piano": [],
     "PICS": [
         "IRanges",
         "GenomicRanges",
@@ -27500,7 +27455,6 @@
         "GenomicRanges",
         "IRanges",
         "Rsamtools",
-        "marray",
         "S4Vectors",
         "GenomeInfoDb",
         "XVector",
@@ -27514,7 +27468,6 @@
         "GenomicRanges",
         "IRanges",
         "Rsamtools",
-        "marray",
         "S4Vectors",
         "GenomeInfoDb",
         "XVector",
@@ -27528,7 +27481,6 @@
         "GenomicRanges",
         "IRanges",
         "Rsamtools",
-        "marray",
         "S4Vectors",
         "GenomeInfoDb",
         "XVector",
@@ -27860,8 +27812,7 @@
         "IRanges",
         "GenomeInfoDb",
         "DelayedArray",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "rae230a.db": [
         "AnnotationDbi",
@@ -28225,9 +28176,7 @@
     ],
     "RBGL": [],
     "RBioinf": [],
-    "RBM": [
-        "marray"
-    ],
+    "RBM": [],
     "Rbowtie2": [
         "Rsamtools",
         "GenomeInfoDb",
@@ -33028,7 +32977,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "marray",
         "Biostrings",
         "Rhtslib",
         "DelayedArray"
@@ -33496,9 +33444,7 @@
         "XVector"
     ],
     "STdeconvolve": [],
-    "stepNorm": [
-        "marray"
-    ],
+    "stepNorm": [],
     "STexampleData": [
         "ExperimentHub",
         "SpatialExperiment",
@@ -33926,7 +33872,6 @@
         "CGHbase",
         "CGHcall",
         "Rsamtools",
-        "marray",
         "Biostrings",
         "Rhtslib",
         "DelayedArray"
@@ -34495,9 +34440,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "timecourse": [
-        "marray"
-    ],
+    "timecourse": [],
     "timecoursedata": [
         "SummarizedExperiment",
         "GenomicRanges",
@@ -34736,8 +34679,7 @@
         "IRanges",
         "GenomeInfoDb",
         "DelayedArray",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "TPP": [
         "biobroom"
@@ -35162,7 +35104,6 @@
     ],
     "TurboNorm": [
         "convert",
-        "marray",
         "affy",
         "affyio"
     ],
@@ -37020,8 +36961,7 @@
         "GenomicRanges",
         "DelayedArray",
         "GenomeInfoDb",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "XhybCasneuf": [
         "affy",
