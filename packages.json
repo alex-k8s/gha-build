@@ -1606,7 +1606,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "bacon": [],
     "BadRegionFinder": [
         "VariantAnnotation",
         "Rsamtools",
