@@ -51167,7 +51167,6 @@
         "DelayedArray",
         "ShortRead"
     ],
-    "vulcandata": [],
     "waddR": [
         "BiocFileCache",
         "BiocParallel",
