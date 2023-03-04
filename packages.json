@@ -31185,7 +31185,6 @@
         "Biostrings"
     ],
     "NetActivityData": [],
-    "netbiov": [],
     "netboost": [
         "preprocessCore",
         "GO.db",
