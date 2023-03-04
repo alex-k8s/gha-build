@@ -13117,7 +13117,6 @@
     "FamAgg": [],
     "famat": [
         "KEGGREST",
-        "rWikiPathways",
         "reactome.db",
         "GO.db",
         "clusterProfiler",
@@ -25644,7 +25643,6 @@
         "mixOmics",
         "DESeq2",
         "clusterProfiler",
-        "rWikiPathways",
         "ReactomePA",
         "enrichplot",
         "Biobase",
@@ -26522,7 +26520,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "reactome.db",
-        "rWikiPathways",
         "GO.db",
         "zlibbioc",
         "biomaRt",
@@ -36031,7 +36028,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "rWikiPathways": [],
     "S4Vectors": [],
     "safe": [
         "AnnotationDbi",
@@ -40782,7 +40778,6 @@
         "biomaRt",
         "clusterProfiler",
         "RCy3",
-        "rWikiPathways",
         "AnnotationDbi",
         "DOSE",
         "enrichplot",
