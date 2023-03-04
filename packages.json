@@ -6863,7 +6863,6 @@
         "GenomeInfoDb",
         "IRanges",
         "S4Vectors",
-        "SNPRelate",
         "SummarizedExperiment",
         "DelayedArray",
         "SeqArray",
@@ -12419,7 +12418,6 @@
     "GDSArray": [
         "DelayedArray",
         "S4Vectors",
-        "SNPRelate",
         "SeqArray",
         "IRanges",
         "GenomicRanges",
@@ -12631,7 +12629,6 @@
         "S4Vectors",
         "SeqArray",
         "SeqVarTools",
-        "SNPRelate",
         "GenomeInfoDb",
         "XVector",
         "Biostrings"
@@ -13882,7 +13879,6 @@
         "GWASTools",
         "VariantAnnotation",
         "SummarizedExperiment",
-        "SNPRelate",
         "GenomicRanges",
         "S4Vectors",
         "IRanges",
@@ -31832,7 +31828,6 @@
     ],
     "SeqSQC": [
         "ExperimentHub",
-        "SNPRelate",
         "GenomicRanges",
         "IRanges",
         "S4Vectors",
@@ -32884,7 +32879,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "SNPRelate": [],
     "snpStats": [],
     "soGGi": [
         "SummarizedExperiment",
@@ -36606,7 +36600,6 @@
         "GenomicRanges",
         "GDSArray",
         "DelayedDataFrame",
-        "SNPRelate",
         "SeqArray",
         "SeqVarTools",
         "DelayedArray",
