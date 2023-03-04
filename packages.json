@@ -15105,7 +15105,6 @@
         "Rsamtools",
         "GenomeInfoDb",
         "DESeq2",
-        "plgem",
         "rtracklayer",
         "SummarizedExperiment",
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
@@ -24525,7 +24524,6 @@
         "IRanges",
         "RBGL"
     ],
-    "plgem": [],
     "plier": [
         "affy",
         "affyio"
