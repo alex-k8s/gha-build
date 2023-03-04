@@ -35226,7 +35226,6 @@
         "GenomicAlignments",
         "Rhtslib"
     ],
-    "rnaseqcomp": [],
     "rnaseqDTU": [
         "DRIMSeq",
         "DEXSeq",
