@@ -31610,7 +31610,6 @@
         "KEGGREST",
         "biomaRt"
     ],
-    "seqCNA": [],
     "SeqGate": [
         "S4Vectors",
         "SummarizedExperiment",
