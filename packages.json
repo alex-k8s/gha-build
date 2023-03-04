@@ -28999,7 +28999,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "seqc": [],
     "seqCAT": [
         "GenomicRanges",
         "VariantAnnotation",
