@@ -27442,7 +27442,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "MIGSAdata": [],
     "miloR": [
         "edgeR",
         "BiocNeighbors",
