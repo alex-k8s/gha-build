@@ -943,7 +943,6 @@
         "MatrixGenerics",
         "Biobase",
         "GenomeInfoDb",
-        "treeio",
         "XVector",
         "sparseMatrixStats",
         "beachmat",
@@ -2629,7 +2628,6 @@
         "MatrixGenerics",
         "GenomeInfoDb",
         "DelayedArray",
-        "treeio",
         "genefilter",
         "rhdf5",
         "XVector",
@@ -2896,7 +2894,6 @@
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
-        "treeio",
         "zlibbioc"
     ],
     "BiocCheck": [
@@ -6985,7 +6982,6 @@
         "BiocGenerics",
         "IRanges",
         "XVector",
-        "treeio",
         "zlibbioc",
         "MatrixGenerics",
         "SummarizedExperiment",
@@ -7174,7 +7170,6 @@
         "DelayedArray",
         "SingleCellExperiment",
         "Biostrings",
-        "treeio",
         "XVector",
         "zlibbioc"
     ],
@@ -7610,7 +7605,6 @@
         "KEGGREST",
         "HDO.db",
         "ggtree",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -7696,7 +7690,6 @@
         "annotate",
         "XVector",
         "zlibbioc",
-        "treeio",
         "Biostrings"
     ],
     "CexoR": [
@@ -8257,7 +8250,6 @@
         "fgsea",
         "qvalue",
         "SummarizedExperiment",
-        "treeio",
         "GO.db",
         "Rhtslib",
         "MatrixGenerics",
@@ -9043,7 +9035,6 @@
         "BiocParallel",
         "fgsea",
         "ggtree",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -9522,7 +9513,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "treeio",
         "zlibbioc"
     ],
     "Cogito": [
@@ -9814,7 +9804,6 @@
         "ggtree",
         "XVector",
         "Biostrings",
-        "treeio",
         "zlibbioc"
     ],
     "condiments": [
@@ -11001,7 +10990,6 @@
         "GenomicRanges",
         "Biobase",
         "GenomeInfoDb",
-        "treeio",
         "KEGGREST",
         "XVector",
         "sparseMatrixStats",
@@ -11621,7 +11609,6 @@
         "MatrixGenerics",
         "DelayedArray",
         "genefilter",
-        "treeio",
         "Biostrings",
         "zlibbioc"
     ],
@@ -13347,7 +13334,6 @@
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
-        "treeio",
         "zlibbioc"
     ],
     "easyreporting": [],
@@ -13638,7 +13624,6 @@
         "Biostrings",
         "MatrixGenerics",
         "DelayedArray",
-        "treeio",
         "zlibbioc"
     ],
     "EGAD": [
@@ -13951,7 +13936,6 @@
         "BiocParallel",
         "fgsea",
         "qvalue",
-        "treeio",
         "GO.db",
         "BiocGenerics",
         "Biobase",
@@ -13999,8 +13983,7 @@
         "ggtree",
         "Rhtslib",
         "MatrixGenerics",
-        "DelayedArray",
-        "treeio"
+        "DelayedArray"
     ],
     "EnsDb.Hsapiens.v75": [
         "ensembldb",
@@ -14322,7 +14305,6 @@
         "fgsea",
         "qvalue",
         "annotate",
-        "treeio",
         "GO.db"
     ],
     "epidecodeR": [
@@ -14417,7 +14399,6 @@
         "ggtree",
         "graph",
         "zlibbioc",
-        "treeio",
         "Biostrings"
     ],
     "EpiMix": [
@@ -14922,8 +14903,7 @@
         "fgsea",
         "ggtree",
         "MatrixGenerics",
-        "DelayedArray",
-        "treeio"
+        "DelayedArray"
     ],
     "escape": [
         "GSEABase",
@@ -15092,7 +15072,6 @@
         "AnnotationHub",
         "BiocFileCache",
         "XVector",
-        "treeio",
         "BiocVersion",
         "AnnotationDbi",
         "interactiveDisplayBase",
@@ -15266,7 +15245,6 @@
         "GenomeInfoDb",
         "Biostrings",
         "BiocParallel",
-        "treeio",
         "XVector",
         "DelayedMatrixStats",
         "HDF5Array",
@@ -15449,7 +15427,6 @@
         "BiocParallel",
         "fgsea",
         "ggtree",
-        "treeio",
         "zlibbioc"
     ],
     "FANTOM3and4CAGE": [],
@@ -15570,7 +15547,6 @@
         "ggtree",
         "GenomeInfoDb",
         "XVector",
-        "treeio",
         "Biostrings",
         "zlibbioc"
     ],
@@ -17048,7 +17024,6 @@
         "Biostrings",
         "MatrixGenerics",
         "DelayedArray",
-        "treeio",
         "zlibbioc"
     ],
     "GDSArray": [
@@ -18072,7 +18047,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "treeio",
         "zlibbioc"
     ],
     "ggspavis": [
@@ -18101,16 +18075,12 @@
         "rhdf5filters",
         "zlibbioc"
     ],
-    "ggtree": [
-        "treeio"
-    ],
+    "ggtree": [],
     "ggtreeDendro": [
-        "ggtree",
-        "treeio"
+        "ggtree"
     ],
     "ggtreeExtra": [
-        "ggtree",
-        "treeio"
+        "ggtree"
     ],
     "GIGSEA": [],
     "GIGSEAdata": [],
@@ -18494,7 +18464,6 @@
         "BiocParallel",
         "fgsea",
         "ggtree",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -22856,7 +22825,6 @@
         "GenomeInfoDb",
         "XVector",
         "Biostrings",
-        "treeio",
         "zlibbioc"
     ],
     "ISAnalytics": [],
@@ -23518,7 +23486,6 @@
         "ggtree",
         "XVector",
         "GenomeInfoDb",
-        "treeio",
         "zlibbioc"
     ],
     "lionessR": [
@@ -24084,7 +24051,6 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "treeio",
         "zlibbioc"
     ],
     "m10kcod.db": [
@@ -24829,7 +24795,6 @@
         "BiocFileCache",
         "BiocVersion",
         "interactiveDisplayBase",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -25689,7 +25654,6 @@
         "qvalue",
         "ggtree",
         "GO.db",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -26058,7 +26022,6 @@
         "BiocParallel",
         "fgsea",
         "ggtree",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -26634,7 +26597,6 @@
         "BiocIO",
         "rtracklayer",
         "biomaRt",
-        "treeio",
         "rhdf5",
         "rhdf5filters",
         "multtest",
@@ -27244,7 +27206,6 @@
         "beachmat",
         "BiocNeighbors",
         "BiocSingular",
-        "treeio",
         "ScaledMatrix",
         "zlibbioc"
     ],
@@ -27262,7 +27223,6 @@
         "SingleCellExperiment",
         "Biostrings",
         "BiocParallel",
-        "treeio",
         "XVector",
         "zlibbioc"
     ],
@@ -27279,7 +27239,6 @@
         "DirichletMultinomial",
         "MatrixGenerics",
         "IRanges",
-        "treeio",
         "SingleCellExperiment",
         "MultiAssayExperiment",
         "Biostrings",
@@ -27331,7 +27290,6 @@
         "SingleCellExperiment",
         "Biostrings",
         "BiocParallel",
-        "treeio",
         "XVector",
         "zlibbioc"
     ],
@@ -27371,7 +27329,6 @@
         "MatrixGenerics",
         "SingleCellExperiment",
         "BiocParallel",
-        "treeio",
         "BiocVersion",
         "AnnotationDbi",
         "interactiveDisplayBase",
@@ -27429,7 +27386,6 @@
         "XVector",
         "GenomeInfoDb",
         "geneplotter",
-        "treeio",
         "Wrench",
         "annotate",
         "AnnotationDbi",
@@ -27467,7 +27423,6 @@
         "HDO.db",
         "BiocParallel",
         "fgsea",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -27477,7 +27432,6 @@
         "Biostrings",
         "ggtree",
         "SummarizedExperiment",
-        "treeio",
         "ggtreeExtra",
         "BiocGenerics",
         "S4Vectors",
@@ -28078,8 +28032,7 @@
         "RBGL",
         "Rgraphviz",
         "Biostrings",
-        "zlibbioc",
-        "treeio"
+        "zlibbioc"
     ],
     "miRspongeR": [
         "SPONGE",
@@ -28109,7 +28062,6 @@
         "graph",
         "RBGL",
         "Rgraphviz",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -28797,7 +28749,6 @@
         "BiocFileCache",
         "ggtree",
         "XVector",
-        "treeio",
         "Biostrings",
         "zlibbioc"
     ],
@@ -30071,7 +30022,6 @@
         "annotate",
         "GenomeInfoDb",
         "XVector",
-        "treeio",
         "graph",
         "DelayedArray",
         "multtest",
@@ -30805,7 +30755,6 @@
         "BiocParallel",
         "fgsea",
         "ggtree",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -32328,8 +32277,7 @@
         "BiocGenerics",
         "MatrixGenerics",
         "S4Vectors",
-        "IRanges",
-        "treeio"
+        "IRanges"
     ],
     "Orthology.eg.db": [
         "AnnotationDbi",
@@ -32597,7 +32545,6 @@
         "fgsea",
         "ggtree",
         "multtest",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -36322,7 +36269,6 @@
         "BiocParallel",
         "fgsea",
         "ggtree",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -36572,8 +36518,7 @@
         "BiocGenerics"
     ],
     "philr": [
-        "ggtree",
-        "treeio"
+        "ggtree"
     ],
     "PhIPData": [
         "SummarizedExperiment",
@@ -36759,7 +36704,6 @@
         "S4Vectors",
         "KEGGREST",
         "ggtree",
-        "treeio",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -37652,8 +37596,7 @@
         "ggtree",
         "HDO.db",
         "fgsea",
-        "qvalue",
-        "treeio"
+        "qvalue"
     ],
     "profileScoreDist": [
         "BiocGenerics"
@@ -39520,7 +39463,6 @@
         "qvalue",
         "ggtree",
         "graph",
-        "treeio",
         "GO.db",
         "Biostrings",
         "XVector",
@@ -39718,7 +39660,6 @@
         "Rhtslib",
         "DelayedArray",
         "ProtGenerics",
-        "treeio",
         "graph",
         "RBGL"
     ],
@@ -41669,8 +41610,7 @@
         "BiocIO",
         "MatrixGenerics",
         "DelayedArray",
-        "genefilter",
-        "treeio"
+        "genefilter"
     ],
     "RnaSeqSampleSize": [
         "RnaSeqSampleSizeData",
@@ -42911,8 +42851,7 @@
         "Biostrings"
     ],
     "scBubbletree": [
-        "ggtree",
-        "treeio"
+        "ggtree"
     ],
     "scCB2": [
         "SingleCellExperiment",
@@ -43647,7 +43586,6 @@
         "ggtree",
         "XVector",
         "Biostrings",
-        "treeio",
         "zlibbioc"
     ],
     "scTGIF": [
@@ -43804,7 +43742,6 @@
         "BiocParallel",
         "fgsea",
         "qvalue",
-        "treeio",
         "GO.db"
     ],
     "segmentSeq": [
@@ -44520,7 +44457,6 @@
         "ggtree",
         "XVector",
         "Biostrings",
-        "treeio",
         "zlibbioc"
     ],
     "signatureSearchData": [
@@ -44956,7 +44892,6 @@
         "ProtGenerics",
         "Biostrings",
         "qvalue",
-        "treeio",
         "annotate",
         "graph",
         "hgu95a.db",
@@ -45148,8 +45083,7 @@
         "DelayedArray"
     ],
     "sitePath": [
-        "ggtree",
-        "treeio"
+        "ggtree"
     ],
     "skewr": [
         "methylumi",
@@ -47186,7 +47120,6 @@
         "Biobase",
         "BiocParallel",
         "geneplotter",
-        "treeio",
         "MatrixGenerics",
         "GenomeInfoDb",
         "DelayedArray",
@@ -47265,8 +47198,7 @@
         "DelayedArray"
     ],
     "tanggle": [
-        "ggtree",
-        "treeio"
+        "ggtree"
     ],
     "TAPseq": [
         "GenomicAlignments",
@@ -47519,8 +47451,7 @@
         "interactiveDisplayBase",
         "VariantAnnotation",
         "AnnotationFilter",
-        "ProtGenerics",
-        "treeio"
+        "ProtGenerics"
     ],
     "TCGAcrcmiRNA": [
         "Biobase",
@@ -48105,7 +48036,6 @@
         "XVector",
         "widgetTools",
         "DynDoc",
-        "treeio",
         "Biostrings",
         "zlibbioc"
     ],
@@ -48680,7 +48610,6 @@
         "zlibbioc"
     ],
     "TreeAndLeaf": [],
-    "treeio": [],
     "treekoR": [
         "hopach",
         "ggtree",
@@ -48692,7 +48621,6 @@
         "SummarizedExperiment",
         "S4Vectors",
         "ComplexHeatmap",
-        "treeio",
         "Biobase",
         "BiocGenerics",
         "GenomicRanges",
@@ -48715,7 +48643,6 @@
         "SummarizedExperiment",
         "BiocParallel",
         "IRanges",
-        "treeio",
         "XVector",
         "GenomeInfoDb",
         "GenomicRanges",
