@@ -34958,7 +34958,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "systemPipeShiny": [],
     "systemPipeTools": [
         "DESeq2",
         "SummarizedExperiment",
