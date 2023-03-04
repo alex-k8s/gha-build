@@ -3930,7 +3930,6 @@
     ],
     "breastCancerMAINZ": [],
     "breastCancerTRANSBIG": [],
-    "breastCancerUPP": [],
     "brendaDb": [
         "BiocParallel",
         "BiocFileCache"
