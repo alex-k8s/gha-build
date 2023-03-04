@@ -21754,7 +21754,6 @@
         "annotate",
         "AnnotationForge",
         "Rgraphviz",
-        "lpsymphony",
         "genefilter",
         "biomaRt",
         "MatrixGenerics",
@@ -21863,7 +21862,6 @@
         "BiocFileCache"
     ],
     "IHW": [
-        "lpsymphony",
         "BiocGenerics"
     ],
     "IHWpaper": [
@@ -21881,7 +21879,6 @@
         "geneplotter",
         "AnnotationDbi",
         "annotate",
-        "lpsymphony",
         "MatrixGenerics",
         "GenomeInfoDb",
         "DelayedArray",
@@ -23806,7 +23803,6 @@
         "LPE"
     ],
     "lpNet": [],
-    "lpsymphony": [],
     "LRBaseDbi": [
         "AnnotationDbi",
         "Biobase",
@@ -24210,7 +24206,6 @@
     "Maaslin2": [
         "edgeR",
         "metagenomeSeq",
-        "lpsymphony",
         "Biobase",
         "Wrench",
         "BiocGenerics"
@@ -24226,7 +24221,6 @@
         "IRanges",
         "edgeR",
         "metagenomeSeq",
-        "lpsymphony",
         "GenomicRanges",
         "Biobase",
         "GenomeInfoDb",
@@ -28427,7 +28421,6 @@
         "Maaslin2",
         "edgeR",
         "metagenomeSeq",
-        "lpsymphony",
         "Biobase",
         "Wrench",
         "BiocGenerics"
