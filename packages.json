@@ -1449,7 +1449,6 @@
     "arrayMvout": [
         "Biobase",
         "affy",
-        "mdqc",
         "affyContam",
         "lumi",
         "BiocGenerics",
@@ -25439,7 +25438,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "mdqc": [],
     "MDTS": [
         "GenomicAlignments",
         "GenomicRanges",
