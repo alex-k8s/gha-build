@@ -42261,7 +42261,6 @@
     "RITAN": [
         "STRINGdb",
         "BgeeDB",
-        "RITANdata",
         "GenomicFeatures",
         "ensembldb",
         "AnnotationFilter",
@@ -42293,7 +42292,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "RITANdata": [],
     "RIVER": [
         "Biobase",
         "BiocGenerics"
