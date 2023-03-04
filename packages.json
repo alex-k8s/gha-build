@@ -11559,7 +11559,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "deltaGseg": [],
     "DeMixT": [
         "SummarizedExperiment",
         "DSS",
