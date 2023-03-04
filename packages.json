@@ -30810,7 +30810,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "tanggle": [],
     "TAPseq": [
         "GenomicAlignments",
         "GenomicRanges",
