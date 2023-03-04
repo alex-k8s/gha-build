@@ -9994,7 +9994,6 @@
         "clusterProfiler",
         "sva",
         "enrichplot",
-        "Harman",
         "pathview",
         "apeglm",
         "Biobase",
@@ -16480,7 +16479,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "Harman": [],
     "HarmonizedTCGAData": [
         "ExperimentHub",
         "AnnotationHub",
