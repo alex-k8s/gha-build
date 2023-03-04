@@ -802,7 +802,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "antiProfilesData": [],
     "APAlyzer": [
         "GenomicRanges",
         "GenomicFeatures",
