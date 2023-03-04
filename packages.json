@@ -5159,13 +5159,11 @@
         "DelayedArray"
     ],
     "Cardinal": [
-        "S4Vectors",
-        "matter"
+        "S4Vectors"
     ],
     "CardinalWorkflows": [
         "Cardinal",
-        "S4Vectors",
-        "matter"
+        "S4Vectors"
     ],
     "casper": [
         "IRanges",
@@ -18481,7 +18479,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "matter": [],
     "MBASED": [
         "GenomicRanges",
         "SummarizedExperiment",
