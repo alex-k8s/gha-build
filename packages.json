@@ -31703,7 +31703,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "OmnipathR": [],
     "ompBAM": [
         "zlibbioc"
     ],
@@ -51258,9 +51257,7 @@
         "XVector",
         "zlibbioc"
     ],
-    "wppi": [
-        "OmnipathR"
-    ],
+    "wppi": [],
     "Wrench": [],
     "xcms": [
         "BiocParallel",
