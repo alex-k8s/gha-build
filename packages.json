@@ -26133,7 +26133,6 @@
         "Rcwl"
     ],
     "RCy3": [],
-    "RCyjs": [],
     "reactome.db": [
         "AnnotationDbi",
         "IRanges",
