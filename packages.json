@@ -1352,7 +1352,6 @@
         "GenomicAlignments",
         "DelayedArray"
     ],
-    "BAGS": [],
     "ballgown": [
         "GenomicRanges",
         "IRanges",
