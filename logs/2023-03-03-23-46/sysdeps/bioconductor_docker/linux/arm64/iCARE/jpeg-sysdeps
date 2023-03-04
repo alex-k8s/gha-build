@@ -1,0 +1,18 @@
+[
+    {
+        "shlib": "libjpeg.so.8.2.2",
+        "package": "libjpeg-turbo8",
+        "headers": "libjpeg-turbo8-dev",
+        "source": "libjpeg-turbo",
+        "version": "2.1.2-0ubuntu1",
+        "url": "https://packages.ubuntu.com/jammy/libjpeg-turbo8"
+    },
+    {
+        "shlib": "ld-linux-aarch64.so.1",
+        "package": "libc6",
+        "source": "glibc",
+        "version": "2.35-0ubuntu3.1",
+        "url": "https://packages.ubuntu.com/jammy/libc6"
+    }
+]
+

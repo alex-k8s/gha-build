@@ -1,0 +1,18 @@
+[
+    {
+        "shlib": "libpng16.so.16.37.0",
+        "package": "libpng16-16",
+        "headers": "libpng-dev",
+        "source": "libpng1.6",
+        "version": "1.6.37-3build5",
+        "url": "https://packages.ubuntu.com/jammy/libpng16-16"
+    },
+    {
+        "shlib": "ld-linux-aarch64.so.1",
+        "package": "libc6",
+        "source": "glibc",
+        "version": "2.35-0ubuntu3.1",
+        "url": "https://packages.ubuntu.com/jammy/libc6"
+    }
+]
+
