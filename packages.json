@@ -6612,7 +6612,6 @@
         "BiocIO",
         "Rhtslib"
     ],
-    "COMPASS": [],
     "compcodeR": [],
     "compEpiTools": [
         "topGO",
