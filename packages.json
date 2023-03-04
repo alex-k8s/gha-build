@@ -16834,7 +16834,6 @@
         "IRanges",
         "GenomeInfoDb"
     ],
-    "massiR": [],
     "MAST": [
         "SingleCellExperiment",
         "SummarizedExperiment",
