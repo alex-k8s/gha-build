@@ -21488,7 +21488,6 @@
         "graph",
         "BiocGenerics"
     ],
-    "iASeq": [],
     "iasva": [
         "SummarizedExperiment",
         "BiocParallel",
