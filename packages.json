@@ -20578,7 +20578,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "M3C": [],
     "m6Aboost": [
         "S4Vectors",
         "GenomicRanges",
