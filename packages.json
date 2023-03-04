@@ -16265,7 +16265,6 @@
         "IRanges",
         "zlibbioc"
     ],
-    "flowCyBar": [],
     "flowDensity": [
         "flowCore",
         "flowViz",
