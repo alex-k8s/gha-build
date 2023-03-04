@@ -698,9 +698,7 @@
         "DelayedArray",
         "zlibbioc"
     ],
-    "alevinQC": [
-        "tximport"
-    ],
+    "alevinQC": [],
     "ALL": [
         "Biobase",
         "BiocGenerics"
@@ -2715,7 +2713,6 @@
     ],
     "BgeeCall": [
         "GenomicFeatures",
-        "tximport",
         "Biostrings",
         "rtracklayer",
         "biomaRt",
@@ -15224,7 +15221,6 @@
         "rhdf5",
         "BSgenome",
         "Biostrings",
-        "tximport",
         "fgsea",
         "BiocGenerics",
         "XVector",
@@ -23257,7 +23253,6 @@
         "DRIMSeq",
         "rtracklayer",
         "GenomeInfoDb",
-        "tximport",
         "tximeta",
         "edgeR",
         "XVector",
@@ -42060,7 +42055,6 @@
         "GSEABase",
         "ggbio",
         "EDASeq",
-        "tximport",
         "BiocFileCache",
         "AnnotationHub",
         "affy",
@@ -45437,7 +45431,6 @@
         "celda",
         "DropletUtils",
         "scds",
-        "tximport",
         "fishpond",
         "GSEABase",
         "zinbwave",
@@ -50768,7 +50761,6 @@
     ],
     "tximeta": [
         "SummarizedExperiment",
-        "tximport",
         "S4Vectors",
         "IRanges",
         "GenomicRanges",
@@ -50798,7 +50790,6 @@
         "Rhtslib",
         "GenomicAlignments"
     ],
-    "tximport": [],
     "tximportData": [],
     "u133aaofav2cdf": [
         "AnnotationDbi",
