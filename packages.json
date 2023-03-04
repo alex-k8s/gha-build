@@ -26209,7 +26209,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "pengls": [],
     "pepDat": [
         "GenomicRanges",
         "S4Vectors",
