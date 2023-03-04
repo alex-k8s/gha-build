@@ -2395,7 +2395,6 @@
         "vsn",
         "affyio",
         "RBGL",
-        "Linnorm",
         "genefilter",
         "AnnotationDbi",
         "annotate",
@@ -7790,7 +7789,6 @@
         "Rgraphviz",
         "org.Hs.eg.db",
         "AnnotationDbi",
-        "Linnorm",
         "RBGL",
         "IRanges",
         "KEGGREST",
@@ -9824,7 +9822,6 @@
     "epiNEM": [
         "mnem",
         "Rgraphviz",
-        "Linnorm",
         "RBGL"
     ],
     "epistack": [
@@ -15776,7 +15773,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "Linnorm": [],
     "LinTInd": [
         "Biostrings",
         "IRanges",
@@ -19069,8 +19065,7 @@
         "metagenomeSeq"
     ],
     "mnem": [
-        "Rgraphviz",
-        "Linnorm"
+        "Rgraphviz"
     ],
     "moanin": [
         "SummarizedExperiment",
@@ -20631,7 +20626,6 @@
         "mnem",
         "epiNEM",
         "Rgraphviz",
-        "Linnorm",
         "RBGL"
     ],
     "NestLink": [
