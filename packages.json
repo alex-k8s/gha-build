@@ -48548,7 +48548,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "zebrafishRNASeq": [],
     "zellkonverter": [
         "basilisk",
         "SingleCellExperiment",
