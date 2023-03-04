@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SBGNview.data'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'SBGNview.data'
+also installing the dependency ‘bookdown’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/bookdown_0.32.tar.gz'
+Content type 'binary/octet-stream' length 861547 bytes (841 KB)
+==================================================
+downloaded 841 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/data/experiment/src/contrib/SBGNview.data_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 69100081 bytes (65.9 MB)
+==================================================
+downloaded 65.9 MB
+
+* installing *source* package ‘bookdown’ ...
+** package ‘bookdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bookdown’ as ‘bookdown_0.32_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (bookdown)
+* installing *source* package ‘SBGNview.data’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SBGNview.data’ as ‘SBGNview.data_1.12.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (SBGNview.data)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7RJuWZ/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	2m15.361s
+user	2m11.331s
+sys	0m2.165s

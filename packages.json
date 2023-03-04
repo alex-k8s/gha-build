@@ -36144,7 +36144,6 @@
     ],
     "SBGNview": [
         "pathview",
-        "SBGNview.data",
         "SummarizedExperiment",
         "AnnotationDbi",
         "KEGGREST",
@@ -36162,7 +36161,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "SBGNview.data": [],
     "SBMLR": [],
     "SC3": [
         "SummarizedExperiment",
