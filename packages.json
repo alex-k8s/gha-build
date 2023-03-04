@@ -40955,7 +40955,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "tofsimsData": [],
     "tomatocdf": [
         "AnnotationDbi",
         "Biobase",
