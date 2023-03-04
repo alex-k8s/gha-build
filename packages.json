@@ -12880,7 +12880,6 @@
         "zlibbioc"
     ],
     "dir.expiry": [],
-    "Director": [],
     "DirichletMultinomial": [
         "S4Vectors",
         "IRanges",
