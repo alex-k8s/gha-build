@@ -43048,7 +43048,6 @@
         "annotate",
         "KEGGREST"
     ],
-    "vbmp": [],
     "VCFArray": [
         "DelayedArray",
         "GenomicRanges",
