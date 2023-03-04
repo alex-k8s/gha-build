@@ -18942,7 +18942,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "hierinf": [],
     "HighlyReplicatedRNASeq": [
         "SummarizedExperiment",
         "ExperimentHub",
