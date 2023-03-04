@@ -39440,7 +39440,6 @@
         "zlibbioc"
     ],
     "pwOmics": [
-        "rBiopaxParser",
         "STRINGdb",
         "Biobase",
         "BiocGenerics",
@@ -40537,7 +40536,6 @@
         "graph",
         "BiocGenerics"
     ],
-    "rBiopaxParser": [],
     "RBM": [
         "limma",
         "marray"
