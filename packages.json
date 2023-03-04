@@ -29220,7 +29220,6 @@
         "XVector",
         "Biostrings"
     ],
-    "scTHI": [],
     "scTreeViz": [
         "epivizr",
         "SummarizedExperiment",
