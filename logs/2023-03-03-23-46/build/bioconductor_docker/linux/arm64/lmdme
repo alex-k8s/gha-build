@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''lmdme'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'lmdme'
+also installing the dependency ‘pls’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/pls_2.8-1.tar.gz'
+Content type 'binary/octet-stream' length 4368270 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/lmdme_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 608478 bytes (594 KB)
+==================================================
+downloaded 594 KB
+
+* installing *source* package ‘pls’ ...
+** package ‘pls’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pls’ as ‘pls_2.8-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pls)
+* installing *source* package ‘lmdme’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘p.adjust’ in package ‘lmdme’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lmdme’ as ‘lmdme_1.40.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lmdme)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFmv6Ik/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	1m38.465s
+user	1m32.843s
+sys	0m1.797s
