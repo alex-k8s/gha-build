@@ -41152,7 +41152,6 @@
         "BiocFileCache",
         "DelayedArray"
     ],
-    "SVM2CRMdata": [],
     "SWATH2stats": [
         "biomaRt",
         "AnnotationDbi",
