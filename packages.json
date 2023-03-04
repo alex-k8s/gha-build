@@ -27568,7 +27568,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "ModCon": [],
     "Modstrings": [
         "Biostrings",
         "BiocGenerics",
