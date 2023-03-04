@@ -2148,9 +2148,7 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "bioassayR": [
-        "ChemmineR"
-    ],
+    "bioassayR": [],
     "biobroom": [],
     "bioCancer": [
         "AnnotationDbi",
@@ -5945,11 +5943,8 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "ChemmineDrugs": [
-        "ChemmineR"
-    ],
+    "ChemmineDrugs": [],
     "ChemmineOB": [],
-    "ChemmineR": [],
     "CHETAH": [
         "SingleCellExperiment",
         "bioDist",
@@ -7377,7 +7372,6 @@
     "CompoundDb": [
         "AnnotationFilter",
         "S4Vectors",
-        "ChemmineR",
         "IRanges",
         "Spectra",
         "MsCoreUtils",
@@ -8357,7 +8351,6 @@
     ],
     "customCMPdb": [
         "AnnotationHub",
-        "ChemmineR",
         "AnnotationDbi",
         "S4Vectors",
         "interactiveDisplayBase",
@@ -10364,9 +10357,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "eiR": [
-        "ChemmineR"
-    ],
+    "eiR": [],
     "eisaR": [
         "GenomicRanges",
         "S4Vectors",
@@ -12572,9 +12563,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "fmcsR": [
-        "ChemmineR"
-    ],
+    "fmcsR": [],
     "fobitools": [
         "fgsea"
     ],
@@ -19428,7 +19417,6 @@
         "QFeatures",
         "CompoundDb",
         "AnnotationFilter",
-        "ChemmineR",
         "IRanges",
         "MultiAssayExperiment",
         "GenomicRanges",
@@ -20274,9 +20262,7 @@
         "multtest",
         "Rhtslib"
     ],
-    "MetID": [
-        "ChemmineR"
-    ],
+    "MetID": [],
     "MetNet": [
         "S4Vectors",
         "SummarizedExperiment",
@@ -30720,7 +30706,6 @@
         "S4Vectors",
         "mzR",
         "MSnbase",
-        "ChemmineR",
         "ChemmineOB",
         "MsCoreUtils",
         "IRanges",
