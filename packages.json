@@ -11997,7 +11997,6 @@
         "Biostrings"
     ],
     "deltaGseg": [],
-    "DeMAND": [],
     "DeMixT": [
         "SummarizedExperiment",
         "DSS",
