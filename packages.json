@@ -9882,7 +9882,6 @@
         "flowClust",
         "flowMeans",
         "flowMerge",
-        "flowPeaks",
         "SamSPECTRAL",
         "BiocGenerics",
         "Biobase",
@@ -11590,7 +11589,6 @@
         "flowCore",
         "flowDensity",
         "SamSPECTRAL",
-        "flowPeaks",
         "Biobase",
         "BiocGenerics",
         "cytolib",
@@ -16324,7 +16322,6 @@
         "S4Vectors",
         "RProtoBufLib"
     ],
-    "flowPeaks": [],
     "flowPloidy": [
         "flowCore",
         "Biobase",
