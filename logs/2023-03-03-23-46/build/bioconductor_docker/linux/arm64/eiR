@@ -1,0 +1,141 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''eiR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'eiR'
+also installing the dependencies ‘snow’, ‘snowfall’, ‘RUnit’, ‘RcppAnnoy’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/snow_0.4-4.tar.gz'
+Content type 'binary/octet-stream' length 20658 bytes (20 KB)
+==================================================
+downloaded 20 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/snowfall_1.84-6.2.tar.gz'
+Content type 'binary/octet-stream' length 176450 bytes (172 KB)
+==================================================
+downloaded 172 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RUnit_0.4.32.tar.gz'
+Content type 'application/x-tar' length 335911 bytes (328 KB)
+==================================================
+downloaded 328 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppAnnoy_0.0.20.tar.gz'
+Content type 'binary/octet-stream' length 302670 bytes (295 KB)
+==================================================
+downloaded 295 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/eiR_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 428891 bytes (418 KB)
+==================================================
+downloaded 418 KB
+
+* installing *source* package ‘snow’ ...
+** package ‘snow’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘snow’ as ‘snow_0.4-4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (snow)
+* installing *source* package ‘RUnit’ ...
+** package ‘RUnit’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RUnit’ as ‘RUnit_0.4.32_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RUnit)
+* installing *source* package ‘RcppAnnoy’ ...
+** package ‘RcppAnnoy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c annoy.cpp -o annoy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arch.cpp -o arch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c version.cpp -o version.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppAnnoy.so RcppExports.o annoy.o arch.o init.o version.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppAnnoy/00new/RcppAnnoy/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppAnnoy’ as ‘RcppAnnoy_0.0.20_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppAnnoy)
+* installing *source* package ‘snowfall’ ...
+** package ‘snowfall’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘snowfall’ as ‘snowfall_1.84-6.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (snowfall)
+* installing *source* package ‘eiR’ ...
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c optimFunctions.cc -o optimFunctions.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o eiR.so optimFunctions.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-eiR/00new/eiR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘eiR’ as ‘eiR_1.38.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (eiR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpc5eP40/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	7m26.833s
+user	7m16.113s
+sys	0m8.909s
