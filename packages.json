@@ -15811,7 +15811,6 @@
     "ggtreeExtra": [
         "ggtree"
     ],
-    "GIGSEA": [],
     "girafe": [
         "S4Vectors",
         "Rsamtools",
