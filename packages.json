@@ -44621,7 +44621,6 @@
         "Biostrings",
         "zlibbioc"
     ],
-    "serumStimulation": [],
     "sesame": [
         "sesameData",
         "BiocParallel",
