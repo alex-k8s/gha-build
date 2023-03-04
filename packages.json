@@ -30855,7 +30855,6 @@
     "Streamer": [
         "RBGL"
     ],
-    "STROMA4": [],
     "struct": [
         "SummarizedExperiment",
         "rols",
