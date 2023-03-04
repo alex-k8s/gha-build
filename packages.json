@@ -18358,7 +18358,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "hugene.1.0.st.v1frmavecs": [],
     "hugene10stprobeset.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
