@@ -12020,7 +12020,6 @@
         "GenomicAlignments",
         "BiocIO"
     ],
-    "demuxmix": [],
     "densvis": [
         "basilisk",
         "basilisk.utils"
