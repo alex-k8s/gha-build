@@ -32009,7 +32009,6 @@
     ],
     "oppti": [],
     "optimalFlow": [
-        "optimalFlowData",
         "flowMeans",
         "Biobase",
         "flowCore",
@@ -32018,7 +32017,6 @@
         "S4Vectors",
         "RProtoBufLib"
     ],
-    "optimalFlowData": [],
     "OPWeight": [
         "qvalue"
     ],
