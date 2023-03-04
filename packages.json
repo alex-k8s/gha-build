@@ -9992,7 +9992,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "EMDomics": [],
     "emtdata": [
         "ExperimentHub",
         "SummarizedExperiment",
