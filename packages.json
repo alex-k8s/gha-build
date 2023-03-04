@@ -8477,7 +8477,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "DLBCL": [],
     "DMCFB": [
         "SummarizedExperiment",
         "GenomicRanges",
