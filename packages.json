@@ -22289,7 +22289,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "iGC": [],
     "IgGeneUsage": [
         "SummarizedExperiment",
         "MatrixGenerics",
