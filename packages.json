@@ -34119,7 +34119,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "SBMLR": [],
     "SC3": [
         "SummarizedExperiment",
         "SingleCellExperiment",
