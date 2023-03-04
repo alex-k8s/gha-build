@@ -31218,7 +31218,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "PepsNMRData": [],
     "pepStat": [
         "Biobase",
         "IRanges",
