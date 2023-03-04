@@ -23047,7 +23047,6 @@
         "IRanges",
         "S4Vectors",
         "KEGGREST",
-        "supraHex",
         "Rgraphviz",
         "Biostrings",
         "XVector",
@@ -27172,7 +27171,6 @@
     "Pi": [
         "GenomicRanges",
         "GenomeInfoDb",
-        "supraHex",
         "IRanges",
         "Rgraphviz",
         "S4Vectors",
@@ -28940,7 +28938,6 @@
         "DelayedArray"
     ],
     "RandomWalkRestartMH": [
-        "supraHex",
         "Rgraphviz"
     ],
     "randPack": [],
@@ -34747,7 +34744,6 @@
         "GenomicRanges",
         "DelayedArray"
     ],
-    "supraHex": [],
     "surfaltr": [
         "biomaRt",
         "Biostrings",
