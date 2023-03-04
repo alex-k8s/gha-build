@@ -33706,7 +33706,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "PanViz": [],
     "parathyroidSE": [
         "SummarizedExperiment",
         "MatrixGenerics",
