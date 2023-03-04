@@ -1,0 +1,140 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RRHO'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'RRHO'
+also installing the dependencies ‘formatR’, ‘lambda.r’, ‘futile.options’, ‘futile.logger’, ‘VennDiagram’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/formatR_1.14.tar.gz'
+Content type 'binary/octet-stream' length 95893 bytes (93 KB)
+==================================================
+downloaded 93 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/lambda.r_1.2.4.tar.gz'
+Content type 'application/x-tar' length 25608 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/futile.options_1.0.1.tar.gz'
+Content type 'application/x-tar' length 3917 bytes
+==================================================
+downloaded 3917 bytes
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/futile.logger_1.4.3.tar.gz'
+Content type 'application/x-tar' length 17314 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/VennDiagram_1.7.3.tar.gz'
+Content type 'binary/octet-stream' length 79145 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/RRHO_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 569795 bytes (556 KB)
+==================================================
+downloaded 556 KB
+
+* installing *source* package ‘formatR’ ...
+** package ‘formatR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘formatR’ as ‘formatR_1.14_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (formatR)
+* installing *source* package ‘futile.options’ ...
+** package ‘futile.options’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘futile.options’ as ‘futile.options_1.0.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (futile.options)
+* installing *source* package ‘lambda.r’ ...
+** package ‘lambda.r’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lambda.r’ as ‘lambda.r_1.2.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lambda.r)
+* installing *source* package ‘futile.logger’ ...
+** package ‘futile.logger’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘futile.logger’ as ‘futile.logger_1.4.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (futile.logger)
+* installing *source* package ‘VennDiagram’ ...
+** package ‘VennDiagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.7.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (VennDiagram)
+* installing *source* package ‘RRHO’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RRHO’ as ‘RRHO_1.38.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RRHO)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqEsIRo/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	2m41.898s
+user	2m35.174s
+sys	0m5.329s

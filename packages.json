@@ -33692,7 +33692,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "RRHO": [],
     "rrvgo": [
         "GOSemSim",
         "AnnotationDbi",
