@@ -1,0 +1,18 @@
+[
+    {
+        "shlib": "libnetcdf.so.19",
+        "package": "libnetcdf19",
+        "headers": "libnetcdf-dev",
+        "source": "netcdf",
+        "version": "1:4.8.1-1",
+        "url": "https://packages.ubuntu.com/jammy/libnetcdf19"
+    },
+    {
+        "shlib": "ld-linux-aarch64.so.1",
+        "package": "libc6",
+        "source": "glibc",
+        "version": "2.35-0ubuntu3.1",
+        "url": "https://packages.ubuntu.com/jammy/libc6"
+    }
+]
+
