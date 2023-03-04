@@ -29267,7 +29267,6 @@
         "MsCoreUtils",
         "S4Vectors",
         "IRanges",
-        "rawrr",
         "BiocParallel",
         "BiocGenerics",
         "ProtGenerics"
@@ -39301,7 +39300,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "rawrr": [],
     "RbcBook1": [
         "Biobase",
         "graph",
