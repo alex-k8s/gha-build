@@ -44973,7 +44973,6 @@
         "zlibbioc"
     ],
     "sSeq": [],
-    "ssize": [],
     "sSNAPPY": [
         "BiocParallel",
         "graphite",
