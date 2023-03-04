@@ -17948,7 +17948,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "MethylMix": [],
     "methylMnM": [],
     "methylPipe": [
         "GenomicRanges",
