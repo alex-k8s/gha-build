@@ -33765,7 +33765,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "synlet": [],
     "SynMut": [
         "Biostrings",
         "S4Vectors",
