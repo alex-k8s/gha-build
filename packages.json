@@ -6976,7 +6976,6 @@
         "zlibbioc"
     ],
     "ccImpute": [
-        "SIMLR",
         "BiocParallel"
     ],
     "CCl4": [
@@ -43296,7 +43295,6 @@
         "BiocParallel",
         "Rhtslib"
     ],
-    "SIMLR": [],
     "simpleSeg": [
         "BiocParallel",
         "EBImage",
@@ -43408,7 +43406,6 @@
     ],
     "SingleCellSignalR": [
         "edgeR",
-        "SIMLR",
         "multtest",
         "scran",
         "BiocGenerics",

@@ -1,0 +1,165 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SIMLR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'SIMLR'
+also installing the dependencies ‘RcppEigen’, ‘pracma’, ‘RcppAnnoy’, ‘RSpectra’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1470560 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/pracma_2.4.2.tar.gz'
+Content type 'binary/octet-stream' length 399599 bytes (390 KB)
+==================================================
+downloaded 390 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppAnnoy_0.0.20.tar.gz'
+Content type 'binary/octet-stream' length 302670 bytes (295 KB)
+==================================================
+downloaded 295 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RSpectra_0.16-1.tar.gz'
+Content type 'binary/octet-stream' length 126834 bytes (123 KB)
+==================================================
+downloaded 123 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/SIMLR_1.24.3.tar.gz'
+Content type 'application/x-gzip' length 3680819 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘pracma’ ...
+** package ‘pracma’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pracma’ as ‘pracma_2.4.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pracma)
+* installing *source* package ‘RcppAnnoy’ ...
+** package ‘RcppAnnoy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c annoy.cpp -o annoy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arch.cpp -o arch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c version.cpp -o version.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppAnnoy.so RcppExports.o annoy.o arch.o init.o version.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppAnnoy/00new/RcppAnnoy/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppAnnoy’ as ‘RcppAnnoy_0.0.20_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppAnnoy)
+* installing *source* package ‘RSpectra’ ...
+** package ‘RSpectra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eigs_gen.cpp -o eigs_gen.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eigs_sym.cpp -o eigs_sym.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c is_sym.cpp -o is_sym.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matops.cpp -o matops.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c register_routines.c -o register_routines.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svds.cpp -o svds.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RSpectra.so eigs_gen.o eigs_sym.o is_sym.o matops.o register_routines.o svds.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RSpectra/00new/RSpectra/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RSpectra’ as ‘RSpectra_0.16-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RSpectra)
+* installing *source* package ‘SIMLR’ ...
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rtsne.cpp -o Rtsne.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c package_init.c -o package_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c projsplx_R.c -o projsplx_R.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sptree.cpp -o sptree.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tsne.cpp -o tsne.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SIMLR.so RcppExports.o Rtsne.o package_init.o projsplx_R.o sptree.o tsne.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-SIMLR/00new/SIMLR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SIMLR’ as ‘SIMLR_1.24.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (SIMLR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCmWgap/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	29m28.132s
+user	29m7.817s
+sys	0m17.592s
