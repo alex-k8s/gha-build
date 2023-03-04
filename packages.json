@@ -18268,7 +18268,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "hgu133abarcodevecs": [],
     "hgu133acdf": [
         "AnnotationDbi",
         "BiocGenerics",
