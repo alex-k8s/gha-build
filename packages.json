@@ -11384,7 +11384,6 @@
         "Rhtslib",
         "GenomicAlignments"
     ],
-    "gaschYHS": [],
     "GateFinder": [
         "flowCore",
         "flowFP",
