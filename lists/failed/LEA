@@ -1,0 +1,53 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''LEA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'LEA'
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/LEA_3.10.2.tar.gz'
+Content type 'application/x-gzip' length 685145 bytes (669 KB)
+==================================================
+downloaded 669 KB
+
+* installing *source* package ‘LEA’ ...
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I.  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_LFMM.c -o R_LFMM.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I.  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_crossEntropy.c -o R_crossEntropy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I.  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_createDataSet.c -o R_createDataSet.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I.  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_sNMF.c -o R_sNMF.o
+In file included from sNMF/sNMF.h:13,
+                 from R_sNMF.c:24:
+sNMF/../bituint/bituint.h:212:2: error: #error Unsupported architecture
+  212 | #error Unsupported architecture
+      |  ^~~~~
+sNMF/../bituint/bituint.h:223:23: error: unknown type name ‘bituint’; did you mean ‘uint’?
+  223 | void init_mat_bituint(bituint ** dat, int N, int Mc, int *Mp);
+      |                       ^~~~~~~
+      |                       uint
+In file included from R_sNMF.c:24:
+sNMF/sNMF.h:62:9: error: unknown type name ‘bituint’
+   62 |         bituint *X;             /**< @brief the data matrix (of size nxMp) */
+      |         ^~~~~~~
+sNMF/sNMF.h:63:9: error: unknown type name ‘bituint’
+   63 |         bituint *Xi;             /**< @brief the init data matrix (of size nxMpi) */
+      |         ^~~~~~~
+make: *** [/usr/local/lib/R/etc/Makeconf:169: R_sNMF.o] Error 1
+ERROR: compilation failed for package ‘LEA’
+* removing ‘/tmp/built/LEA’
+
+The downloaded source packages are in
+	‘/tmp/RtmpIVmSBV/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘LEA’ had non-zero exit status
+
+real	0m45.608s
+user	0m41.712s
+sys	0m0.701s
