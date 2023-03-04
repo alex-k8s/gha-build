@@ -15769,7 +15769,6 @@
         "GenomeInfoDb"
     ],
     "HybridMTest": [],
-    "hypeR": [],
     "hyperdraw": [
         "hypergraph",
         "Rgraphviz"
