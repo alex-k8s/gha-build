@@ -23132,7 +23132,6 @@
         "DelayedArray",
         "BiocFileCache"
     ],
-    "KBoost": [],
     "KCsmart": [
         "siggenes",
         "multtest",
