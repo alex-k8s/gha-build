@@ -34010,7 +34010,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "pgca": [],
     "phantasus": [
         "Biobase",
         "GEOquery",
