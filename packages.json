@@ -18483,7 +18483,6 @@
         "impute",
         "BiocGenerics"
     ],
-    "GEOfastq": [],
     "GEOmetadb": [
         "GEOquery",
         "Biobase",
