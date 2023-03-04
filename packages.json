@@ -55,7 +55,6 @@
     "aCGH": [
         "multtest"
     ],
-    "ACME": [],
     "ADaCGH2": [
         "tilingArray",
         "aCGH",
