@@ -13147,7 +13147,6 @@
         "biomaRt",
         "ArrayExpress",
         "GEOquery",
-        "DrugVsDiseasedata",
         "qvalue",
         "annotate",
         "hgu133a.db",
@@ -13175,7 +13174,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "DrugVsDiseasedata": [],
     "DSS": [
         "Biobase",
         "BiocParallel",
