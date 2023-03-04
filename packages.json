@@ -34816,7 +34816,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "RLMM": [],
     "RLSeq": [
         "regioneR",
         "GenomicFeatures",
