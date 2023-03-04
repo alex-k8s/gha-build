@@ -1062,7 +1062,6 @@
         "GenomicAlignments",
         "DESeq2",
         "SummarizedExperiment",
-        "Rsubread",
         "rtracklayer",
         "VariantAnnotation",
         "Rsamtools",
@@ -10595,7 +10594,6 @@
         "edgeR",
         "DEXSeq",
         "GenomicRanges",
-        "Rsubread",
         "rtracklayer",
         "ComplexHeatmap",
         "GenomeInfoDb",
@@ -11286,9 +11284,7 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "dupRadar": [
-        "Rsubread"
-    ],
+    "dupRadar": [],
     "DvDdata": [],
     "dyebias": [
         "marray",
@@ -12873,7 +12869,6 @@
         "zlibbioc"
     ],
     "ExCluster": [
-        "Rsubread",
         "GenomicRanges",
         "rtracklayer",
         "IRanges",
@@ -14181,7 +14176,6 @@
         "OUTRIDER",
         "pcaMethods",
         "rhdf5",
-        "Rsubread",
         "S4Vectors",
         "KEGGREST",
         "Biostrings",
@@ -34618,7 +34612,6 @@
         "rtracklayer",
         "Rsamtools",
         "RUVSeq",
-        "Rsubread",
         "S4Vectors",
         "XVector",
         "Biobase",
@@ -35742,7 +35735,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "Rsubread": [],
     "RSVSim": [
         "Biostrings",
         "GenomicRanges",
@@ -36856,7 +36848,6 @@
         "org.Mm.eg.db",
         "Rhtslib",
         "Rsamtools",
-        "Rsubread",
         "rtracklayer",
         "SummarizedExperiment",
         "S4Vectors",
@@ -36967,7 +36958,6 @@
         "rtracklayer",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "Rsubread",
         "Biobase",
         "IRanges",
         "KEGGREST",
