@@ -26791,7 +26791,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "NGScopyData": [],
     "ngsReports": [
         "Biostrings",
         "S4Vectors",
