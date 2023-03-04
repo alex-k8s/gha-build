@@ -39524,10 +39524,7 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "ReactomeContentService4R": [],
-    "ReactomeGraph4R": [
-        "ReactomeContentService4R"
-    ],
+    "ReactomeGraph4R": [],
     "ReactomeGSA.data": [
         "edgeR"
     ],
