@@ -10741,8 +10741,7 @@
         "Biobase",
         "BiocGenerics",
         "tkWidgets",
-        "widgetTools",
-        "DynDoc"
+        "widgetTools"
     ],
     "cydar": [
         "SingleCellExperiment",
@@ -12788,7 +12787,6 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "DynDoc": [],
     "easier": [
         "progeny",
         "easierData",
@@ -25965,8 +25963,7 @@
         "Biobase",
         "tkWidgets",
         "BiocGenerics",
-        "widgetTools",
-        "DynDoc"
+        "widgetTools"
     ],
     "MGFM": [
         "AnnotationDbi",
@@ -30560,8 +30557,7 @@
         "OLIN",
         "marray",
         "tkWidgets",
-        "widgetTools",
-        "DynDoc"
+        "widgetTools"
     ],
     "omada": [
         "Biobase",
@@ -46267,7 +46263,6 @@
         "GenomeInfoDb",
         "XVector",
         "widgetTools",
-        "DynDoc",
         "Biostrings",
         "zlibbioc"
     ],
@@ -46344,8 +46339,7 @@
         "BiocFileCache"
     ],
     "tkWidgets": [
-        "widgetTools",
-        "DynDoc"
+        "widgetTools"
     ],
     "tLOH": [
         "VariantAnnotation",
