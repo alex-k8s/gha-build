@@ -9847,7 +9847,6 @@
         "RProtoBufLib",
         "Rgraphviz"
     ],
-    "ConnectivityMap": [],
     "ConsensusClusterPlus": [
         "Biobase",
         "ALL",
