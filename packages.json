@@ -26393,7 +26393,6 @@
         "DelayedArray"
     ],
     "Path2PPI": [],
-    "PathNetData": [],
     "PathoStat": [
         "phyloseq",
         "edgeR",
