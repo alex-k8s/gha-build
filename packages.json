@@ -521,7 +521,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "AHCytoBands": [],
     "AHEnsDbs": [
         "ensembldb",
         "AnnotationHubData",
