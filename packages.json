@@ -8268,7 +8268,6 @@
         "Biostrings"
     ],
     "DExMA": [
-        "DExMAdata",
         "GEOquery",
         "snpStats",
         "sva",
@@ -8281,7 +8280,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "DExMAdata": [],
     "DEXSeq": [
         "SummarizedExperiment",
         "IRanges",
