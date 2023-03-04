@@ -17160,7 +17160,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "GeneGA": [],
     "GeneGeneInteR": [
         "snpStats",
         "Rsamtools",
