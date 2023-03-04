@@ -2261,7 +2261,6 @@
     "BLMA": [
         "ROntoTools",
         "PADOG",
-        "KEGGdzPathwaysGEO",
         "AnnotationDbi",
         "hgu133plus2.db",
         "hgu133a.db",
@@ -9060,7 +9059,6 @@
         "DelayedMatrixStats",
         "HDF5Array",
         "BiocSingular",
-        "KEGGdzPathwaysGEO",
         "hgu133plus2.db",
         "hgu133a.db",
         "KEGGgraph",
@@ -9097,7 +9095,6 @@
         "DelayedMatrixStats",
         "HDF5Array",
         "BiocSingular",
-        "KEGGdzPathwaysGEO",
         "hgu133plus2.db",
         "hgu133a.db",
         "KEGGgraph",
@@ -12404,7 +12401,6 @@
         "AnnotationHub",
         "EnrichmentBrowser",
         "ExperimentHub",
-        "KEGGdzPathwaysGEO",
         "IRanges",
         "KEGGREST",
         "GSEABase",
@@ -15317,7 +15313,6 @@
         "IRanges",
         "GenomeInfoDb"
     ],
-    "KEGGdzPathwaysGEO": [],
     "KEGGgraph": [],
     "KEGGlincs": [
         "hgu133a.db",
@@ -21385,7 +21380,6 @@
         "XVector"
     ],
     "PADOG": [
-        "KEGGdzPathwaysGEO",
         "AnnotationDbi",
         "hgu133plus2.db",
         "hgu133a.db",
