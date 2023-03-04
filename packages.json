@@ -7755,7 +7755,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "CFAssay": [],
     "cfDNAPro": [
         "GenomicAlignments",
         "IRanges",
