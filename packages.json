@@ -2978,7 +2978,6 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "bridge": [],
     "bronchialIL13": [
         "affy",
         "affyio"
