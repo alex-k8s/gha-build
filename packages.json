@@ -40452,7 +40452,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "ratCHRLOC": [],
     "rattoxfxcdf": [
         "AnnotationDbi",
         "BiocGenerics",
