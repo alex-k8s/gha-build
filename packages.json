@@ -21601,7 +21601,6 @@
     ],
     "ITALICS": [
         "GLAD",
-        "ITALICSData",
         "oligo",
         "pd.mapping50k.xba240",
         "oligoClasses",
@@ -21619,7 +21618,6 @@
         "GenomeInfoDb",
         "DelayedArray"
     ],
-    "ITALICSData": [],
     "iterativeBMA": [
         "Biobase",
         "BiocGenerics"
