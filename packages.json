@@ -13786,7 +13786,6 @@
     ],
     "EBSEA": [
         "DESeq2",
-        "EmpiricalBrownsMethod",
         "S4Vectors",
         "IRanges",
         "GenomicRanges",
@@ -14200,7 +14199,6 @@
         "BiocParallel",
         "preprocessCore"
     ],
-    "EmpiricalBrownsMethod": [],
     "emtdata": [
         "edgeR",
         "ExperimentHub",
@@ -31413,7 +31411,6 @@
         "limma",
         "trackViewer",
         "Rsamtools",
-        "EmpiricalBrownsMethod",
         "ATACseqQC",
         "csaw",
         "BSgenome",
