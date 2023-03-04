@@ -45857,7 +45857,6 @@
         "AnnotationFilter",
         "ProtGenerics"
     ],
-    "specL": [],
     "SpeCond": [
         "Biobase",
         "BiocGenerics"
