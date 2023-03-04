@@ -37064,7 +37064,6 @@
         "zlibbioc"
     ],
     "scTHI": [],
-    "scTHI.data": [],
     "scTreeViz": [
         "epivizr",
         "SummarizedExperiment",
