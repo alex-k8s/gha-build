@@ -7763,7 +7763,6 @@
         "Biostrings",
         "GenomicRanges",
         "IRanges",
-        "HilbertVis",
         "ShortRead",
         "XVector",
         "GenomeInfoDb",
@@ -19017,7 +19016,6 @@
         "GenomeInfoDb"
     ],
     "HilbertCurve": [
-        "HilbertVis",
         "IRanges",
         "GenomicRanges",
         "BiocGenerics",
@@ -19026,10 +19024,7 @@
         "XVector",
         "zlibbioc"
     ],
-    "HilbertVis": [],
-    "HilbertVisGUI": [
-        "HilbertVis"
-    ],
+    "HilbertVisGUI": [],
     "HiLDA": [
         "GenomicRanges",
         "S4Vectors",
