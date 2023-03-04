@@ -6554,7 +6554,6 @@
         "BiocIO",
         "Rhtslib"
     ],
-    "compcodeR": [],
     "compEpiTools": [
         "topGO",
         "GenomicRanges",
