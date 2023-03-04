@@ -17517,7 +17517,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "genomationData": [],
     "GenomAutomorphism": [
         "Biostrings",
         "BiocGenerics",
