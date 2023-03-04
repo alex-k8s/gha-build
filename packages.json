@@ -6789,10 +6789,7 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "clst": [],
-    "clstutils": [
-        "clst"
-    ],
+    "clstutils": [],
     "CluMSID": [
         "mzR",
         "S4Vectors",
