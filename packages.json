@@ -13706,7 +13706,6 @@
         "org.Hs.eg.db",
         "org.Mm.eg.db",
         "org.Rn.eg.db",
-        "EGSEAdata",
         "BiocGenerics",
         "IRanges",
         "S4Vectors",
@@ -13755,7 +13754,6 @@
         "org.Hs.eg.db",
         "org.Mm.eg.db",
         "org.Rn.eg.db",
-        "EGSEAdata",
         "BiocGenerics",
         "IRanges",
         "S4Vectors",
@@ -13789,7 +13787,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "EGSEAdata": [],
     "eiR": [
         "ChemmineR",
         "BiocGenerics"
