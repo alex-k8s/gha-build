@@ -25722,7 +25722,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "mdp": [],
     "mdqc": [],
     "MDTS": [
         "GenomicAlignments",
