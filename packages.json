@@ -2982,7 +2982,6 @@
         "affy",
         "affyio"
     ],
-    "BrowserViz": [],
     "BSgenome": [
         "S4Vectors",
         "IRanges",
@@ -16420,7 +16419,6 @@
     "igvR": [
         "GenomicRanges",
         "GenomicAlignments",
-        "BrowserViz",
         "rtracklayer",
         "VariantAnnotation",
         "S4Vectors",
@@ -29523,7 +29521,6 @@
         "graph"
     ],
     "RCyjs": [
-        "BrowserViz",
         "graph"
     ],
     "reactome.db": [
