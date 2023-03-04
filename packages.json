@@ -7673,7 +7673,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "cellmigRation": [],
     "CellMixS": [
         "BiocNeighbors",
         "scater",
