@@ -9697,7 +9697,6 @@
         "acde",
         "Biobase",
         "limma",
-        "STRINGdb",
         "SummarizedExperiment",
         "minet",
         "BiocGenerics",
@@ -19374,7 +19373,6 @@
         "PPInfer",
         "BiocParallel",
         "biomaRt",
-        "STRINGdb",
         "yeastExpData",
         "AnnotationDbi",
         "BiocFileCache",
@@ -23082,7 +23080,6 @@
         "zlibbioc"
     ],
     "IMMAN": [
-        "STRINGdb",
         "Biostrings",
         "BiocGenerics",
         "S4Vectors",
@@ -31884,7 +31881,6 @@
         "pandaR",
         "yarn",
         "RCy3",
-        "STRINGdb",
         "Biobase",
         "GOstats",
         "AnnotationDbi",
@@ -38274,7 +38270,6 @@
     "PPInfer": [
         "biomaRt",
         "fgsea",
-        "STRINGdb",
         "yeastExpData",
         "AnnotationDbi",
         "BiocFileCache",
@@ -39318,7 +39313,6 @@
         "zlibbioc"
     ],
     "pwOmics": [
-        "STRINGdb",
         "Biobase",
         "BiocGenerics",
         "AnnotationDbi",
@@ -42122,7 +42116,6 @@
         "limma"
     ],
     "RITAN": [
-        "STRINGdb",
         "BgeeDB",
         "GenomicFeatures",
         "ensembldb",
@@ -48080,7 +48073,6 @@
         "RBGL",
         "BiocGenerics"
     ],
-    "STRINGdb": [],
     "STROMA4": [
         "Biobase",
         "BiocParallel",
@@ -52975,9 +52967,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "XINA": [
-        "STRINGdb"
-    ],
+    "XINA": [],
     "xlaevis.db": [
         "AnnotationDbi",
         "org.Xl.eg.db",
