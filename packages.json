@@ -1456,7 +1456,6 @@
         "DelayedArray"
     ],
     "arrayMvout": [
-        "parody",
         "Biobase",
         "affy",
         "mdqc",
@@ -33092,7 +33091,6 @@
     "parglms": [
         "BiocGenerics"
     ],
-    "parody": [],
     "PartheenMetaData.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
