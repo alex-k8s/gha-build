@@ -16559,7 +16559,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "maSigPro": [],
     "maskBAD": [
         "gcrma",
         "affy",
