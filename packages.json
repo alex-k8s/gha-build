@@ -78,7 +78,6 @@
         "Biobase"
     ],
     "ADaCGH2": [
-        "GLAD",
         "tilingArray",
         "aCGH",
         "snapCGH",
@@ -15585,7 +15584,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "GLAD": [],
     "GladiaTOX": [],
     "Glimma": [
         "edgeR",
@@ -19867,7 +19865,6 @@
         "zlibbioc"
     ],
     "ITALICS": [
-        "GLAD",
         "oligo",
         "pd.mapping50k.xba240",
         "oligoClasses",
@@ -21502,9 +21499,7 @@
         "zlibbioc"
     ],
     "mammaPrintData": [],
-    "MANOR": [
-        "GLAD"
-    ],
+    "MANOR": [],
     "mAPKL": [
         "Biobase",
         "multtest",
@@ -37941,7 +37936,6 @@
         "biomaRt"
     ],
     "seqCNA": [
-        "GLAD",
         "seqCNA.annot"
     ],
     "seqCNA.annot": [],
@@ -39069,7 +39063,6 @@
     "SNAGEE": [],
     "snapCGH": [
         "aCGH",
-        "GLAD",
         "tilingArray",
         "multtest",
         "Biobase",
