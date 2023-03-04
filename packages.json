@@ -28241,7 +28241,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "PasillaTranscriptExpr": [],
     "PAST": [
         "rtracklayer",
         "GenomicRanges",
