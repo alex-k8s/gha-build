@@ -18179,7 +18179,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "globalSeq": [],
     "globaltest": [
         "Biobase",
         "AnnotationDbi",
