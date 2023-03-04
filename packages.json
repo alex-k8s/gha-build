@@ -2769,7 +2769,6 @@
         "sva",
         "ComplexHeatmap",
         "minet",
-        "GENIE3",
         "SummarizedExperiment",
         "IRanges",
         "GenomicRanges",
@@ -5791,7 +5790,6 @@
         "sva",
         "ComplexHeatmap",
         "minet",
-        "GENIE3",
         "SummarizedExperiment",
         "S4Vectors",
         "XVector",
@@ -14986,7 +14984,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "GENIE3": [],
     "genomation": [
         "Biostrings",
         "BSgenome",
@@ -23181,7 +23178,6 @@
     "MetNet": [
         "S4Vectors",
         "SummarizedExperiment",
-        "GENIE3",
         "GenomicRanges",
         "Biobase",
         "IRanges",
