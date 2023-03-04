@@ -2180,7 +2180,6 @@
     "biocViews": [
         "RBGL"
     ],
-    "BiocWorkflowTools": [],
     "biodbChebi": [],
     "biodbExpasy": [],
     "biodbHmdb": [],
@@ -29842,7 +29841,6 @@
     "RNAseq123": [
         "Glimma",
         "Mus.musculus",
-        "BiocWorkflowTools",
         "DESeq2",
         "SummarizedExperiment",
         "S4Vectors",
