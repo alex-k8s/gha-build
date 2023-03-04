@@ -517,9 +517,7 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "AlpsNMR": [
-        "mixOmics"
-    ],
+    "AlpsNMR": [],
     "altcdfenvs": [
         "affy",
         "makecdfenv",
@@ -8160,9 +8158,7 @@
         "affyio",
         "XVector"
     ],
-    "DepecheR": [
-        "mixOmics"
-    ],
+    "DepecheR": [],
     "depmap": [
         "ExperimentHub",
         "AnnotationHub",
@@ -19059,7 +19055,6 @@
         "biomaRt",
         "GenomicAlignments"
     ],
-    "mixOmics": [],
     "MLInterfaces": [
         "annotate",
         "genefilter",
@@ -20262,7 +20257,6 @@
     "multiscan": [],
     "multiSight": [
         "biosigner",
-        "mixOmics",
         "DESeq2",
         "clusterProfiler",
         "ReactomePA",
@@ -24818,7 +24812,6 @@
     "POMA": [
         "ComplexHeatmap",
         "DESeq2",
-        "mixOmics",
         "SummarizedExperiment",
         "IRanges",
         "GenomicRanges",
@@ -32135,9 +32128,7 @@
         "DelayedArray",
         "XVector"
     ],
-    "timeOmics": [
-        "mixOmics"
-    ],
+    "timeOmics": [],
     "TimiRGeN": [
         "Mfuzz",
         "MultiAssayExperiment",
