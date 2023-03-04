@@ -16444,7 +16444,6 @@
         "GenomeInfoDb",
         "DelayedArray"
     ],
-    "IntramiRExploreR": [],
     "IONiseR": [
         "rhdf5",
         "ShortRead",
