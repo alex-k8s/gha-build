@@ -39367,7 +39367,6 @@
         "KEGGREST",
         "zlibbioc"
     ],
-    "RCSL": [],
     "Rcwl": [
         "S4Vectors",
         "BiocParallel",
