@@ -41537,7 +41537,6 @@
         "GenomicAlignments",
         "Rhtslib"
     ],
-    "shinyMethylData": [],
     "ShortRead": [
         "BiocGenerics",
         "Biostrings",
