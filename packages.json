@@ -31057,7 +31057,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "MultiMed": [],
     "multiMiR": [
         "BiocGenerics",
         "AnnotationDbi",
