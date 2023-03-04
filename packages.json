@@ -19119,7 +19119,6 @@
         "genefilter",
         "Biobase",
         "GSEABase",
-        "les",
         "BiocGenerics",
         "AnnotationDbi",
         "annotate",
@@ -23701,7 +23700,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "les": [],
     "leukemiasEset": [
         "Biobase",
         "BiocGenerics"
