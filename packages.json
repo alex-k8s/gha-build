@@ -1541,7 +1541,6 @@
     "ASEB": [],
     "ASICS": [
         "BiocParallel",
-        "PepsNMR",
         "ropls",
         "SummarizedExperiment",
         "Biobase",
@@ -36268,7 +36267,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "PepsNMR": [],
     "PepsNMRData": [],
     "pepStat": [
         "Biobase",
