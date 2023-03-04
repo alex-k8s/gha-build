@@ -7019,7 +7019,6 @@
         "Biobase",
         "matter"
     ],
-    "CARNIVAL": [],
     "casper": [
         "Biobase",
         "IRanges",
@@ -10261,7 +10260,6 @@
         "XVector"
     ],
     "cosmosR": [
-        "CARNIVAL",
         "dorothea",
         "GSEABase",
         "bcellViper",
