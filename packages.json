@@ -31705,9 +31705,7 @@
         "XVector",
         "zlibbioc"
     ],
-    "ndexr": [
-        "RCX"
-    ],
+    "ndexr": [],
     "nearBynding": [
         "plyranges",
         "Rsamtools",
@@ -40693,7 +40691,6 @@
         "dir.expiry",
         "basilisk.utils"
     ],
-    "RCX": [],
     "RCy3": [
         "BiocGenerics",
         "graph"
