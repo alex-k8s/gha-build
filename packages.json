@@ -515,7 +515,6 @@
         "affy",
         "makecdfenv",
         "Biostrings",
-        "hypergraph",
         "affyio",
         "IRanges",
         "XVector",
@@ -1843,7 +1842,6 @@
     "BiGGR": [
         "rsbml",
         "hyperdraw",
-        "hypergraph",
         "Rgraphviz"
     ],
     "bigmelon": [
@@ -12887,7 +12885,6 @@
         "affyio",
         "makecdfenv",
         "Biostrings",
-        "hypergraph",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -14421,10 +14418,8 @@
     ],
     "HybridMTest": [],
     "hyperdraw": [
-        "hypergraph",
         "Rgraphviz"
     ],
-    "hypergraph": [],
     "iasva": [
         "SummarizedExperiment",
         "GenomicRanges",
