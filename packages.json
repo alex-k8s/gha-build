@@ -2790,7 +2790,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "brendaDb": [],
     "brgedata": [
         "SummarizedExperiment",
         "GenomicRanges",
