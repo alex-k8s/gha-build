@@ -15131,7 +15131,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "HilbertVisGUI": [],
     "HiLDA": [
         "GenomicRanges",
         "S4Vectors",
