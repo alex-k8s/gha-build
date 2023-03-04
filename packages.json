@@ -36112,7 +36112,6 @@
         "rhdf5",
         "rhdf5filters"
     ],
-    "prebsdata": [],
     "preciseTAD": [
         "S4Vectors",
         "IRanges",
