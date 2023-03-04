@@ -13986,7 +13986,6 @@
     "edgeR": [
         "limma"
     ],
-    "eds": [],
     "eegc": [
         "edgeR",
         "DESeq2",
