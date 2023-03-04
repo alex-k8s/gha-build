@@ -46068,7 +46068,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "sincell": [],
     "single": [
         "Biostrings",
         "BiocGenerics",
