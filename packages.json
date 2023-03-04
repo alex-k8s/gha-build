@@ -19719,7 +19719,6 @@
         "Rsamtools",
         "GenomicRanges",
         "BiocParallel",
-        "h5vcData",
         "GenomeInfoDb",
         "Rhtslib",
         "BiocGenerics",
@@ -19728,7 +19727,6 @@
         "rhdf5filters",
         "zlibbioc"
     ],
-    "h5vcData": [],
     "hapFabia": [
         "Biobase",
         "fabia",
