@@ -10063,7 +10063,6 @@
         "BiocGenerics"
     ],
     "COPDSexualDimorphism.data": [],
-    "CopyhelpeR": [],
     "CopyNeutralIMA": [
         "ExperimentHub",
         "BiocGenerics",
@@ -10136,7 +10135,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "GenomicRanges",
-        "CopyhelpeR",
         "GenomeInfoDb",
         "BiocGenerics",
         "ShortRead",
