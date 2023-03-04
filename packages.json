@@ -18337,7 +18337,6 @@
         "GenomicAlignments",
         "BiocIO"
     ],
-    "MiPP": [],
     "miQC": [
         "SingleCellExperiment",
         "SummarizedExperiment",
