@@ -1638,7 +1638,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "ASSET": [],
     "ASSIGN": [
         "sva",
         "genefilter",
@@ -39541,9 +39540,7 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "REBET": [
-        "ASSET"
-    ],
+    "REBET": [],
     "rebook": [
         "BiocStyle",
         "graph",
