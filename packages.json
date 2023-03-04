@@ -2,7 +2,6 @@
     "a4": [
         "a4Base",
         "a4Classif",
-        "a4Core",
         "annaffy",
         "genefilter",
         "multtest",
@@ -16,7 +15,6 @@
         "GenomeInfoDb"
     ],
     "a4Base": [
-        "a4Core",
         "annaffy",
         "genefilter",
         "multtest",
@@ -29,10 +27,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "a4Classif": [
-        "a4Core"
-    ],
-    "a4Core": [],
+    "a4Classif": [],
     "ABarray": [
         "multtest"
     ],
