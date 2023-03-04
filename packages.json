@@ -19104,7 +19104,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "HIREewas": [],
     "HiTC": [
         "IRanges",
         "GenomicRanges",
