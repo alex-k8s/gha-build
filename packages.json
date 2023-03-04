@@ -20407,7 +20407,6 @@
         "XVector",
         "Biostrings"
     ],
-    "NanoTube": [],
     "NBAMSeq": [
         "SummarizedExperiment",
         "DESeq2",
