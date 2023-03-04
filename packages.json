@@ -15444,7 +15444,6 @@
         "Biobase",
         "fabia"
     ],
-    "hapmap370k": [],
     "harbChIP": [
         "IRanges",
         "Biobase",
