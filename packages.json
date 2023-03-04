@@ -25090,7 +25090,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "mouse430a2frmavecs": [],
     "mouse430a2probe": [
         "AnnotationDbi",
         "Biobase",
