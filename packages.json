@@ -6318,7 +6318,6 @@
     ],
     "CAGEWorkflow": [
         "CAGEfightR",
-        "nanotubes",
         "GenomicRanges",
         "rtracklayer",
         "SummarizedExperiment",
@@ -28756,7 +28755,6 @@
         "fgsea",
         "BiocGenerics"
     ],
-    "nanotubes": [],
     "NBAMSeq": [
         "SummarizedExperiment",
         "S4Vectors",
