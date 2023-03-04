@@ -27944,7 +27944,6 @@
     ],
     "mosbi": [
         "fabia",
-        "QUBIC",
         "Biobase",
         "BiocGenerics"
     ],
@@ -37438,7 +37437,6 @@
         "BiocFileCache",
         "DelayedArray"
     ],
-    "QUBIC": [],
     "qusage": [
         "Biobase",
         "BiocGenerics"
