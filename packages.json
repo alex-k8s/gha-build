@@ -24872,7 +24872,6 @@
     ],
     "lydata": [],
     "LymphoSeq": [
-        "LymphoSeqDB",
         "ggtree",
         "msa",
         "Biostrings",
@@ -24884,7 +24883,6 @@
         "treeio",
         "zlibbioc"
     ],
-    "LymphoSeqDB": [],
     "m10kcod.db": [
         "AnnotationDbi",
         "org.Mm.eg.db",
