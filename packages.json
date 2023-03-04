@@ -40338,7 +40338,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "RNASeqPower": [],
     "RNASeqR": [
         "pathview",
         "edgeR",
