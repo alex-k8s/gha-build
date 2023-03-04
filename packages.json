@@ -17244,7 +17244,6 @@
         "affyio",
         "zlibbioc"
     ],
-    "FScanR": [],
     "FunChIP": [
         "GenomicRanges",
         "GenomicAlignments",
