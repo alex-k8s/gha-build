@@ -15632,7 +15632,6 @@
         "XVector",
         "Biostrings"
     ],
-    "lapmix": [],
     "LAPOINTE.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
