@@ -48162,7 +48162,6 @@
         "rhdf5filters",
         "zlibbioc"
     ],
-    "stjudem": [],
     "strandCheckR": [
         "GenomeInfoDb",
         "GenomicAlignments",
