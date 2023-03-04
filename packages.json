@@ -29998,7 +29998,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "mouse4302barcodevecs": [],
     "mouse4302cdf": [
         "AnnotationDbi",
         "BiocGenerics",
