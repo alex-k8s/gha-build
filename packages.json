@@ -27387,7 +27387,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "MPFE": [],
     "mpra": [
         "BiocGenerics",
         "SummarizedExperiment",
