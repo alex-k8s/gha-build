@@ -11128,7 +11128,6 @@
         "KEGGREST",
         "BiocFileCache"
     ],
-    "ctc": [],
     "CTCF": [],
     "CTDquerier": [
         "S4Vectors",
@@ -28830,7 +28829,6 @@
         "limma",
         "TCGAbiolinks",
         "SummarizedExperiment",
-        "ctc",
         "Category",
         "GOstats",
         "org.Hs.eg.db",
@@ -30911,9 +30909,7 @@
         "limma",
         "zlibbioc"
     ],
-    "multiClust": [
-        "ctc"
-    ],
+    "multiClust": [],
     "multicrispr": [
         "BiocGenerics",
         "Biostrings",
