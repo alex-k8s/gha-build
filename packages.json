@@ -15246,7 +15246,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "Iyer517": [],
     "JASPAR2014": [
         "Biostrings",
         "IRanges",
