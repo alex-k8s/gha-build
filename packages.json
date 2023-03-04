@@ -1957,7 +1957,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "BaseSpaceR": [],
     "Basic4Cseq": [
         "Biostrings",
         "GenomicAlignments",
