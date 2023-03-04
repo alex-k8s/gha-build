@@ -20744,7 +20744,6 @@
         "Rhtslib",
         "multtest"
     ],
-    "LungCancerACvsSCCGEO": [],
     "LungCancerLines": [
         "Rsamtools",
         "GenomeInfoDb",
@@ -21507,7 +21506,6 @@
         "gcrma",
         "hgu133plus2.db",
         "AnnotationDbi",
-        "LungCancerACvsSCCGEO",
         "Biobase",
         "affyio",
         "preprocessCore",
