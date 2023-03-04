@@ -33195,7 +33195,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "pathVar": [],
     "pathview": [
         "KEGGgraph",
         "Rgraphviz",
