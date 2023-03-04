@@ -1142,7 +1142,6 @@
         "S4Vectors",
         "GenomeInfoDb",
         "Gviz",
-        "fgsea",
         "rtracklayer",
         "AnnotationDbi",
         "Biostrings",
@@ -1233,7 +1232,6 @@
         "chromVAR",
         "GenomicFeatures",
         "IRanges",
-        "fgsea",
         "rGREAT",
         "Homo.sapiens",
         "Mus.musculus",
@@ -2147,7 +2145,6 @@
         "GO.db",
         "GOSemSim",
         "HDO.db",
-        "fgsea",
         "EBarrays",
         "graphite",
         "ggtree",
@@ -2348,7 +2345,6 @@
     ],
     "BioNAR": [
         "synaptome.db",
-        "fgsea",
         "AnnotationDbi",
         "GO.db",
         "org.Hs.eg.db",
@@ -5585,7 +5581,6 @@
         "SingleCellExperiment",
         "scater",
         "SummarizedExperiment",
-        "fgsea",
         "scuttle",
         "S4Vectors",
         "DelayedArray",
@@ -5675,7 +5670,6 @@
     ],
     "CEMiTool": [
         "clusterProfiler",
-        "fgsea",
         "AnnotationDbi",
         "DOSE",
         "enrichplot",
@@ -5747,7 +5741,6 @@
         "DelayedArray",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "annotate",
         "XVector",
@@ -6179,7 +6172,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "HDO.db",
-        "fgsea",
         "SummarizedExperiment",
         "GO.db",
         "Rhtslib",
@@ -6768,7 +6760,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "Biostrings",
         "XVector",
@@ -6785,7 +6776,6 @@
     ],
     "clusterStab": [],
     "clustifyr": [
-        "fgsea",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "S4Vectors",
@@ -7345,7 +7335,6 @@
         "ScaledMatrix",
         "sparseMatrixStats",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "XVector",
         "Biostrings"
@@ -7617,7 +7606,6 @@
         "GenomicRanges",
         "DelayedArray",
         "marray",
-        "fgsea",
         "GenomeInfoDb",
         "XVector"
     ],
@@ -8121,7 +8109,6 @@
     "cTRAP": [
         "AnnotationDbi",
         "AnnotationHub",
-        "fgsea",
         "rhdf5",
         "IRanges",
         "S4Vectors",
@@ -8671,7 +8658,6 @@
         "GOSemSim",
         "geneplotter",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "GenomeInfoDb",
         "XVector",
@@ -9679,7 +9665,6 @@
     "DOSE": [
         "AnnotationDbi",
         "HDO.db",
-        "fgsea",
         "GOSemSim",
         "IRanges",
         "S4Vectors",
@@ -9964,7 +9949,6 @@
         "GO.db",
         "GOSemSim",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "Biostrings",
         "XVector",
@@ -10171,7 +10155,6 @@
         "SummarizedExperiment",
         "geneplotter",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "annotate",
         "GenomeInfoDb",
@@ -10425,7 +10408,6 @@
         "ggtree",
         "AnnotationDbi",
         "HDO.db",
-        "fgsea",
         "GO.db",
         "IRanges",
         "S4Vectors",
@@ -10461,7 +10443,6 @@
         "KEGGREST",
         "annotate",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "Rhtslib",
         "DelayedArray"
@@ -10708,7 +10689,6 @@
         "Rhtslib",
         "DelayedArray",
         "HDO.db",
-        "fgsea",
         "annotate",
         "GO.db"
     ],
@@ -10779,7 +10759,6 @@
         "GO.db",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "GOSemSim",
         "ggtree",
         "Biostrings"
@@ -11169,7 +11148,6 @@
         "DirichletMultinomial",
         "annotate",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "DelayedArray"
     ],
@@ -11272,7 +11250,6 @@
         "rhdf5",
         "BSgenome",
         "Biostrings",
-        "fgsea",
         "XVector",
         "rtracklayer",
         "Rsamtools",
@@ -11555,7 +11532,6 @@
         "XVector",
         "GenomeInfoDb",
         "HDO.db",
-        "fgsea",
         "ggtree"
     ],
     "farms": [
@@ -11640,7 +11616,6 @@
         "IRanges",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "GenomeInfoDb",
         "XVector",
@@ -11889,7 +11864,6 @@
         "RBGL",
         "Rgraphviz"
     ],
-    "fgsea": [],
     "fibroEset": [],
     "FieldEffectCrc": [
         "SummarizedExperiment",
@@ -12441,9 +12415,7 @@
         "GenomeInfoDb"
     ],
     "fmcsR": [],
-    "fobitools": [
-        "fgsea"
-    ],
+    "fobitools": [],
     "FoldGO": [
         "topGO",
         "GO.db",
@@ -12717,7 +12689,6 @@
         "SummarizedExperiment",
         "geneplotter",
         "HDO.db",
-        "fgsea",
         "KEGGgraph",
         "Rgraphviz",
         "KEGGREST",
@@ -13792,7 +13763,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "Biostrings",
         "XVector",
@@ -14024,7 +13994,6 @@
     ],
     "GSEAlm": [],
     "gsean": [
-        "fgsea",
         "PPInfer",
         "biomaRt",
         "yeastExpData",
@@ -17038,7 +17007,6 @@
         "ScaledMatrix",
         "sparseMatrixStats",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "GenomeInfoDb",
         "XVector",
@@ -17535,7 +17503,6 @@
     "lipidr": [
         "SummarizedExperiment",
         "S4Vectors",
-        "fgsea",
         "ropls",
         "pcaMethods",
         "MultiAssayExperiment",
@@ -18522,7 +18489,6 @@
         "ExperimentHub",
         "AnnotationHub",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "KEGGgraph",
         "Rgraphviz",
@@ -18888,7 +18854,6 @@
     "mCSEA": [
         "Homo.sapiens",
         "biomaRt",
-        "fgsea",
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
@@ -19164,7 +19129,6 @@
         "KEGGREST",
         "interactiveDisplayBase",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "GO.db",
         "Biostrings",
@@ -19428,15 +19392,12 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
     ],
-    "metapone": [
-        "fgsea"
-    ],
+    "metapone": [],
     "metaSeq": [
         "NOISeq"
     ],
@@ -19870,7 +19831,6 @@
         "methylumi",
         "SummarizedExperiment",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "GenomeInfoDb",
         "XVector",
@@ -20519,7 +20479,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -20977,7 +20936,6 @@
         "enrichplot",
         "GOSemSim",
         "HDO.db",
-        "fgsea",
         "XVector",
         "reactome.db",
         "graphite",
@@ -20999,7 +20957,6 @@
         "GO.db",
         "GOSemSim",
         "HDO.db",
-        "fgsea",
         "reactome.db",
         "graphite",
         "biomaRt",
@@ -21519,7 +21476,6 @@
         "GO.db",
         "GOSemSim",
         "HDO.db",
-        "fgsea",
         "GenomicRanges",
         "S4Vectors",
         "IRanges",
@@ -22393,7 +22349,6 @@
     "multiGSEA": [
         "graphite",
         "AnnotationDbi",
-        "fgsea",
         "IRanges",
         "S4Vectors",
         "KEGGREST",
@@ -22466,7 +22421,6 @@
         "graphite",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "annotate",
         "GenomeInfoDb",
         "XVector",
@@ -22863,9 +22817,7 @@
         "XVector",
         "Biostrings"
     ],
-    "NanoTube": [
-        "fgsea"
-    ],
+    "NanoTube": [],
     "NBAMSeq": [
         "SummarizedExperiment",
         "S4Vectors",
@@ -23021,7 +22973,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "Biostrings",
         "XVector",
@@ -23741,7 +23692,6 @@
         "XVector"
     ],
     "omicsViewer": [
-        "fgsea",
         "S4Vectors",
         "SummarizedExperiment",
         "GenomicRanges",
@@ -24338,7 +24288,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "multtest",
         "Biostrings",
@@ -24374,7 +24323,6 @@
         "DOSE",
         "AnnotationDbi",
         "HDO.db",
-        "fgsea",
         "GOSemSim",
         "IRanges",
         "S4Vectors",
@@ -26739,7 +26687,6 @@
         "DelayedArray",
         "IRanges",
         "marray",
-        "fgsea",
         "GenomeInfoDb",
         "AnnotationDbi",
         "XVector",
@@ -26900,7 +26847,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "Biostrings",
         "XVector",
@@ -26909,7 +26855,6 @@
     "phantasus": [
         "GEOquery",
         "rhdf5",
-        "fgsea",
         "AnnotationDbi",
         "DESeq2",
         "IRanges",
@@ -26937,8 +26882,7 @@
         "IRanges",
         "GenomeInfoDb",
         "XVector",
-        "marray",
-        "fgsea"
+        "marray"
     ],
     "phastCons100way.UCSC.hg19": [
         "GenomicScores",
@@ -27177,8 +27121,7 @@
         "XVector"
     ],
     "piano": [
-        "marray",
-        "fgsea"
+        "marray"
     ],
     "PICS": [
         "IRanges",
@@ -27212,7 +27155,6 @@
         "enrichplot",
         "GOSemSim",
         "HDO.db",
-        "fgsea",
         "reactome.db",
         "graphite",
         "IRanges",
@@ -27562,7 +27504,6 @@
     ],
     "PPInfer": [
         "biomaRt",
-        "fgsea",
         "yeastExpData",
         "AnnotationDbi",
         "IRanges",
@@ -27885,8 +27826,7 @@
         "DOSE",
         "GOSemSim",
         "ggtree",
-        "HDO.db",
-        "fgsea"
+        "HDO.db"
     ],
     "profileScoreDist": [],
     "progeny": [],
@@ -28716,8 +28656,7 @@
         "GenomeInfoDb",
         "DelayedArray",
         "XVector",
-        "marray",
-        "fgsea"
+        "marray"
     ],
     "rae230a.db": [
         "AnnotationDbi",
@@ -29242,7 +29181,6 @@
         "S4Vectors",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "GOSemSim",
         "ggtree",
         "GO.db",
@@ -29383,7 +29321,6 @@
         "KEGGREST",
         "interactiveDisplayBase",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "annotate",
         "Biostrings",
@@ -29463,7 +29400,6 @@
         "S4Vectors",
         "BiocSet",
         "SummarizedExperiment",
-        "fgsea",
         "DOSE",
         "DESeq2",
         "BiocIO",
@@ -30876,7 +30812,6 @@
         "SummarizedExperiment",
         "geneplotter",
         "HDO.db",
-        "fgsea",
         "KEGGgraph",
         "Rgraphviz",
         "KEGGREST",
@@ -32316,7 +32251,6 @@
         "genefilter",
         "annotate",
         "HDO.db",
-        "fgsea",
         "GOSemSim",
         "GO.db",
         "AnnotationForge",
@@ -32444,7 +32378,6 @@
         "Rsamtools",
         "GenomicAlignments",
         "HDO.db",
-        "fgsea",
         "GO.db"
     ],
     "segmentSeq": [
@@ -32954,7 +32887,6 @@
         "AnnotationDbi",
         "ExperimentHub",
         "HDF5Array",
-        "fgsea",
         "reactome.db",
         "clusterProfiler",
         "DOSE",
@@ -35200,7 +35132,6 @@
         "KEGGREST",
         "sesameData",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "XVector",
         "Biostrings",
@@ -35640,7 +35571,6 @@
         "IRanges",
         "KEGGREST",
         "HDO.db",
-        "fgsea",
         "ggtree",
         "GenomeInfoDb",
         "XVector",
@@ -35856,8 +35786,7 @@
         "GenomeInfoDb",
         "DelayedArray",
         "XVector",
-        "marray",
-        "fgsea"
+        "marray"
     ],
     "TPP": [
         "biobroom"
@@ -37750,7 +37679,6 @@
         "AnnotationDbi",
         "AnnotationForge",
         "biomaRt",
-        "fgsea",
         "GOSemSim",
         "GO.db",
         "topGO",
@@ -38187,8 +38115,7 @@
         "DelayedArray",
         "GenomeInfoDb",
         "XVector",
-        "marray",
-        "fgsea"
+        "marray"
     ],
     "XhybCasneuf": [
         "affy",
