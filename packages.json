@@ -25973,7 +25973,6 @@
         "IRanges",
         "GenomeInfoDb"
     ],
-    "MassArray": [],
     "massiR": [
         "Biobase",
         "BiocGenerics"
