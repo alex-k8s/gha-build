@@ -19220,7 +19220,6 @@
         "BiocGenerics"
     ],
     "hpAnnot": [],
-    "hpar": [],
     "HPiP": [],
     "hs25kresogen.db": [
         "AnnotationDbi",
@@ -24270,7 +24269,6 @@
     ],
     "MetaboSignal": [
         "KEGGgraph",
-        "hpar",
         "KEGGREST",
         "EnsDb.Hsapiens.v75",
         "org.Hs.eg.db",
