@@ -23930,7 +23930,6 @@
         "affy",
         "affyio"
     ],
-    "PANR": [],
     "PANTHER.db": [
         "AnnotationDbi",
         "AnnotationHub",
