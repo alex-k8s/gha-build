@@ -37920,7 +37920,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "TargetSearchData": [],
     "TarSeqQC": [
         "GenomicRanges",
         "Rsamtools",
