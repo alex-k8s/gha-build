@@ -10367,7 +10367,6 @@
     ],
     "fastLiquidAssociation": [
         "LiquidAssociation",
-        "yeastCC",
         "org.Sc.sgd.db",
         "GO.db",
         "AnnotationDbi",
@@ -15641,7 +15640,6 @@
         "XVector"
     ],
     "LiquidAssociation": [
-        "yeastCC",
         "org.Sc.sgd.db",
         "AnnotationDbi",
         "IRanges",
@@ -34297,7 +34295,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "yeastCC": [],
     "yeastExpData": [],
     "ygs98.db": [
         "AnnotationDbi",
