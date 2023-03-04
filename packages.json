@@ -2473,7 +2473,6 @@
         "MAST",
         "ANCOMBC",
         "NOISeq",
-        "dearseq",
         "metagenomeSeq",
         "GenomicRanges",
         "IRanges",
@@ -10806,7 +10805,6 @@
         "IRanges",
         "zlibbioc"
     ],
-    "dearseq": [],
     "debCAM": [
         "Biobase",
         "SummarizedExperiment",
