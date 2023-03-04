@@ -22038,7 +22038,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "MQmetrics": [],
     "msa": [
         "Biostrings",
         "IRanges",
