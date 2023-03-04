@@ -24870,7 +24870,6 @@
         "Biobase",
         "BiocGenerics"
     ],
-    "lydata": [],
     "LymphoSeq": [
         "ggtree",
         "msa",
