@@ -13207,7 +13207,6 @@
         "S4Vectors",
         "BiocGenerics"
     ],
-    "DTA": [],
     "Dune": [
         "BiocParallel",
         "SummarizedExperiment",
