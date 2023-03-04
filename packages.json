@@ -12404,7 +12404,6 @@
         "AnnotationHub",
         "EnrichmentBrowser",
         "ExperimentHub",
-        "KEGGandMetacoreDzPathwaysGEO",
         "KEGGdzPathwaysGEO",
         "IRanges",
         "KEGGREST",
@@ -15318,7 +15317,6 @@
         "IRanges",
         "GenomeInfoDb"
     ],
-    "KEGGandMetacoreDzPathwaysGEO": [],
     "KEGGdzPathwaysGEO": [],
     "KEGGgraph": [],
     "KEGGlincs": [
