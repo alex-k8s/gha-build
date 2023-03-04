@@ -13795,7 +13795,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "GOsummaries": [],
     "GOTHiC": [
         "GenomicRanges",
         "Biostrings",
