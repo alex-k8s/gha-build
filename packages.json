@@ -9090,7 +9090,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "DEsingle": [],
     "DeSousa2013": [
         "affy",
         "frma",
@@ -17017,7 +17016,6 @@
         "AnnotationDbi",
         "org.Hs.eg.db",
         "org.Mm.eg.db",
-        "DEsingle",
         "SingleCellExperiment",
         "clusterProfiler",
         "scater",
