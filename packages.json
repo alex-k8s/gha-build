@@ -36884,7 +36884,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "RCASPAR": [],
     "rcellminer": [
         "Biobase",
         "rcellminerData",
