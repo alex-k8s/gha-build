@@ -6071,7 +6071,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "clusterStab": [],
     "clustifyr": [
         "SingleCellExperiment",
         "SummarizedExperiment",
