@@ -11638,7 +11638,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "GeneSelectMMD": [],
     "GENESIS": [
         "GWASTools",
         "GenomicRanges",
@@ -14466,7 +14465,6 @@
     "iCheck": [
         "lumi",
         "affy",
-        "GeneSelectMMD",
         "affyio",
         "methylumi",
         "GenomicFeatures",
