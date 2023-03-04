@@ -15842,7 +15842,6 @@
         "BiocGenerics",
         "Rgraphviz"
     ],
-    "FGNet": [],
     "fgsea": [
         "BiocParallel"
     ],
@@ -22663,9 +22662,7 @@
         "DelayedArray",
         "zlibbioc"
     ],
-    "IntramiRExploreR": [
-        "FGNet"
-    ],
+    "IntramiRExploreR": [],
     "IONiseR": [
         "rhdf5",
         "ShortRead",
