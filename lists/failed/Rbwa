@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Rbwa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'Rbwa'
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/Rbwa_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 652609 bytes (637 KB)
+==================================================
+downloaded 637 KB
+
+* installing *source* package ‘Rbwa’ ...
+** using staged installation
+** libs
+** arch - 
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -Wall -O2 -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -Wall -O2 -c kthread.c -o kthread.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -Wall -O2 -c kstring.c -o kstring.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -Wall -O2 -c ksw.c -o ksw.o
+ksw.c:29:10: fatal error: emmintrin.h: No such file or directory
+   29 | #include <emmintrin.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [/usr/local/lib/R/etc/Makeconf:169: ksw.o] Error 1
+ERROR: compilation failed for package ‘Rbwa’
+* removing ‘/tmp/built/Rbwa’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpk3ekuB/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘Rbwa’ had non-zero exit status
+
+real	0m49.421s
+user	0m46.864s
+sys	0m0.860s
