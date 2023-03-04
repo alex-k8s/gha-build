@@ -31070,7 +31070,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "STdeconvolve": [],
     "stepNorm": [],
     "STexampleData": [
         "ExperimentHub",
