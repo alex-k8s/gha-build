@@ -6101,7 +6101,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "clstutils": [],
     "CluMSID": [
         "mzR",
         "MSnbase",
