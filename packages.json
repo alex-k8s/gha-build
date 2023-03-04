@@ -8112,7 +8112,6 @@
         "S4Vectors"
     ],
     "CyTOFpower": [
-        "CytoGLMM",
         "diffcyt",
         "SummarizedExperiment",
         "flowCore",
@@ -8159,7 +8158,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "CytoGLMM": [],
     "cytoKernel": [
         "SummarizedExperiment",
         "ComplexHeatmap",
