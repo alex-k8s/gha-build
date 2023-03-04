@@ -12806,7 +12806,6 @@
         "DelayedArray",
         "KEGGREST"
     ],
-    "HELP": [],
     "hermes": [
         "SummarizedExperiment",
         "biomaRt",
