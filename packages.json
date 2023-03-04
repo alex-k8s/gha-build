@@ -23019,7 +23019,6 @@
         "Rhdf5lib"
     ],
     "immunotation": [],
-    "IMPCdata": [],
     "indac.db": [
         "AnnotationDbi",
         "org.Dm.eg.db",
