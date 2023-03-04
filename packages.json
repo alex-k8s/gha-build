@@ -34088,7 +34088,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "SANTA": [],
     "sarks": [
         "Biostrings",
         "IRanges",
