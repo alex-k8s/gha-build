@@ -8399,7 +8399,6 @@
         "DelayedArray"
     ],
     "ChIPXpressData": [],
-    "chopsticks": [],
     "chromDraw": [
         "GenomicRanges",
         "BiocGenerics",
