@@ -41602,7 +41602,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "rgoslin": [],
     "RGraph2js": [
         "graph",
         "BiocGenerics"
