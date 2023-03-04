@@ -10402,7 +10402,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "CoRegNet": [],
     "CoreGx": [
         "BiocGenerics",
         "SummarizedExperiment",
