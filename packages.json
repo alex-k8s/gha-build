@@ -41180,7 +41180,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "RLassoCox": [],
     "RLHub": [
         "AnnotationHub",
         "ExperimentHub",
