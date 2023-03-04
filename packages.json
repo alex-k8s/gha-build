@@ -4687,7 +4687,6 @@
         "GenomeInfoDb"
     ],
     "cancerclass": [],
-    "cancerdata": [],
     "CancerInSilico": [],
     "CancerSubtypes": [
         "ConsensusClusterPlus"
