@@ -11815,7 +11815,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "dcanr": [],
     "dce": [
         "graph",
         "edgeR",
@@ -46333,7 +46332,6 @@
         "zlibbioc"
     ],
     "SingscoreAMLMutations": [
-        "dcanr",
         "edgeR",
         "GSEABase",
         "org.Hs.eg.db",
