@@ -8764,7 +8764,6 @@
         "DelayedArray",
         "KEGGREST"
     ],
-    "CTCF": [],
     "CTDquerier": [
         "S4Vectors"
     ],
