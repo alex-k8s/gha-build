@@ -16299,7 +16299,6 @@
     "Fletcher2013b": [
         "Fletcher2013a",
         "RTN",
-        "RedeR",
         "Biobase",
         "minet",
         "viper",
@@ -33028,9 +33027,7 @@
         "preprocessCore",
         "zlibbioc"
     ],
-    "PANR": [
-        "RedeR"
-    ],
+    "PANR": [],
     "PANTHER.db": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -40216,7 +40213,6 @@
         "MatrixGenerics",
         "DelayedArray"
     ],
-    "RedeR": [],
     "RedisParam": [
         "BiocParallel"
     ],
@@ -42709,7 +42705,6 @@
         "Rhtslib"
     ],
     "RTN": [
-        "RedeR",
         "minet",
         "viper",
         "IRanges",
@@ -42726,7 +42721,6 @@
     ],
     "RTNduals": [
         "RTN",
-        "RedeR",
         "minet",
         "viper",
         "IRanges",
@@ -42744,7 +42738,6 @@
     "RTNsurvival": [
         "RTN",
         "RTNduals",
-        "RedeR",
         "minet",
         "viper",
         "IRanges",
@@ -49077,7 +49070,6 @@
     ],
     "transcriptogramer": [
         "biomaRt",
-        "RedeR",
         "topGO",
         "AnnotationDbi",
         "BiocFileCache",
@@ -49259,9 +49251,7 @@
         "XVector",
         "zlibbioc"
     ],
-    "TreeAndLeaf": [
-        "RedeR"
-    ],
+    "TreeAndLeaf": [],
     "treeio": [],
     "treekoR": [
         "hopach",
