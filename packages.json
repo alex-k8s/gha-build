@@ -30705,7 +30705,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "synapsis": [],
     "synapter": [
         "MSnbase",
         "multtest",
