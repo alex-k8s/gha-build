@@ -17606,7 +17606,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "methylMnM": [],
     "methylPipe": [
         "GenomicRanges",
         "SummarizedExperiment",
@@ -29157,9 +29156,7 @@
         "rhdf5",
         "XVector"
     ],
-    "SIMD": [
-        "methylMnM"
-    ],
+    "SIMD": [],
     "SimFFPE": [
         "Biostrings",
         "GenomicRanges",
