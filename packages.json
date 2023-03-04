@@ -43122,7 +43122,6 @@
     "SCFA": [
         "BiocParallel"
     ],
-    "scFeatureFilter": [],
     "scGPS": [
         "SummarizedExperiment",
         "SingleCellExperiment",
