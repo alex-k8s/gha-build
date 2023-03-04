@@ -933,7 +933,6 @@
     ],
     "AneuFinder": [
         "GenomicRanges",
-        "AneuFinderData",
         "BiocGenerics",
         "S4Vectors",
         "GenomeInfoDb",
@@ -950,7 +949,6 @@
         "Biobase",
         "DelayedArray"
     ],
-    "AneuFinderData": [],
     "ANF": [
         "Biobase",
         "BiocGenerics"
