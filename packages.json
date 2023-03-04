@@ -37076,8 +37076,7 @@
     ],
     "qckitfastq": [
         "seqTools",
-        "zlibbioc",
-        "RSeqAn"
+        "zlibbioc"
     ],
     "qcmetrics": [
         "Biobase",
@@ -40812,7 +40811,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "RSeqAn": [],
     "Rsubread": [],
     "RSVSim": [
         "Biostrings",
