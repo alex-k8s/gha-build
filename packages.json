@@ -1531,7 +1531,6 @@
         "IRanges",
         "S4Vectors",
         "KEGGREST",
-        "MSstatsConvert",
         "preprocessCore",
         "marray",
         "Biostrings",
@@ -29558,14 +29557,11 @@
         "zlibbioc"
     ],
     "MSstats": [
-        "MSstatsConvert",
         "preprocessCore",
         "marray"
     ],
-    "MSstatsConvert": [],
     "MSstatsLiP": [
         "MSstats",
-        "MSstatsConvert",
         "Biostrings",
         "MSstatsPTM",
         "BiocGenerics",
@@ -29581,7 +29577,6 @@
     "MSstatsLOBD": [],
     "MSstatsPTM": [
         "MSstatsTMT",
-        "MSstatsConvert",
         "MSstats",
         "Biostrings",
         "BiocGenerics",
@@ -29635,7 +29630,6 @@
     "MSstatsSampleSize": [
         "BiocParallel",
         "MSstats",
-        "MSstatsConvert",
         "preprocessCore",
         "marray"
     ],
@@ -29643,7 +29637,6 @@
         "MSstats",
         "MSstatsTMT",
         "MSstatsPTM",
-        "MSstatsConvert",
         "marray",
         "preprocessCore",
         "Biostrings",
@@ -29656,7 +29649,6 @@
     ],
     "MSstatsTMT": [
         "MSstats",
-        "MSstatsConvert",
         "preprocessCore",
         "marray"
     ],
