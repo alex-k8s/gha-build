@@ -49595,7 +49595,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "weaver": [],
     "webbioc": [
         "Biobase",
         "affy",
