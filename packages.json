@@ -27306,7 +27306,6 @@
         "GenomeInfoDb",
         "zlibbioc"
     ],
-    "mouseCHRLOC": [],
     "MouseFM": [
         "GenomicRanges",
         "GenomeInfoDb",
