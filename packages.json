@@ -11533,7 +11533,6 @@
         "Rhtslib"
     ],
     "geneClassifiers": [],
-    "GeneExpressionSignature": [],
     "genefilter": [
         "AnnotationDbi",
         "annotate",
