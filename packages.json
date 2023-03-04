@@ -28444,7 +28444,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "SCFA": [],
     "scGPS": [
         "SummarizedExperiment",
         "SingleCellExperiment",
