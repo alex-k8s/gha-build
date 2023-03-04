@@ -1480,7 +1480,6 @@
         "GenomicRanges",
         "projectR",
         "TFBSTools",
-        "GeneOverlap",
         "motifmatchr",
         "chromVAR",
         "GenomicFeatures",
@@ -15071,7 +15070,6 @@
         "graph",
         "Rgraphviz"
     ],
-    "GeneOverlap": [],
     "geneplast.data.string.v91": [],
     "geneplotter": [
         "Biobase",
