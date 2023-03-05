@@ -326,7 +326,6 @@
     "atena": [
         "GenomicAlignments"
     ],
-    "ath1121501.db": [],
     "atSNP": [
         "BSgenome",
         "motifStack",
