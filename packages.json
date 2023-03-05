@@ -11622,7 +11622,6 @@
         "ShortRead"
     ],
     "sojourner": [],
-    "SomaticCancerAlterations": [],
     "SomaticSignatures": [
         "VariantAnnotation",
         "ggbio",
