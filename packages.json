@@ -1579,7 +1579,6 @@
     ],
     "bioCancer": [
         "AnnotationDbi",
-        "geNetClassifier",
         "org.Hs.eg.db",
         "DOSE",
         "clusterProfiler",
@@ -3804,7 +3803,6 @@
     ],
     "canceR": [
         "GSEABase",
-        "geNetClassifier",
         "phenoTest",
         "annotate",
         "AnnotationDbi",
@@ -9568,7 +9566,6 @@
         "AnnotationFilter",
         "DelayedArray"
     ],
-    "geNetClassifier": [],
     "GeneTonic": [
         "AnnotationDbi",
         "ComplexHeatmap",
