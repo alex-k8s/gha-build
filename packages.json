@@ -1964,7 +1964,6 @@
     ],
     "bnem": [
         "epiNEM",
-        "mnem",
         "sva",
         "vsn",
         "genefilter",
@@ -6384,7 +6383,6 @@
     ],
     "dce": [
         "epiNEM",
-        "mnem",
         "graphite",
         "org.Hs.eg.db",
         "AnnotationDbi",
@@ -8081,9 +8079,7 @@
         "VariantAnnotation",
         "annotate"
     ],
-    "epiNEM": [
-        "mnem"
-    ],
+    "epiNEM": [],
     "epistack": [
         "GenomicRanges",
         "SummarizedExperiment",
@@ -15726,7 +15722,6 @@
         "Maaslin2",
         "metagenomeSeq"
     ],
-    "mnem": [],
     "moanin": [
         "SummarizedExperiment",
         "topGO",
@@ -17016,7 +17011,6 @@
         "XVector"
     ],
     "nempi": [
-        "mnem",
         "epiNEM"
     ],
     "NestLink": [
