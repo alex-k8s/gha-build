@@ -10041,10 +10041,8 @@
         "SummarizedExperiment",
         "KEGGREST"
     ],
-    "Maaslin2": [],
     "Macarron": [
         "SummarizedExperiment",
-        "Maaslin2",
         "GenomicRanges",
         "GO.db",
         "AnnotationDbi",
@@ -11794,9 +11792,7 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "MMUPHin": [
-        "Maaslin2"
-    ],
+    "MMUPHin": [],
     "moanin": [
         "SummarizedExperiment",
         "topGO",
