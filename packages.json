@@ -17931,7 +17931,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "Sconify": [],
     "SCOPE": [
         "GenomicRanges",
         "Rsamtools",
