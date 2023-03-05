@@ -1852,7 +1852,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "BioMVCClass": [],
     "biomvRCNS": [
         "IRanges",
         "GenomicRanges",
