@@ -4756,7 +4756,6 @@
     "hugene10sttranscriptcluster.db": [
         "org.Hs.eg.db"
     ],
-    "hugene10stv1cdf": [],
     "hugene10stv1probe": [],
     "hugene11stprobeset.db": [
         "org.Hs.eg.db"
