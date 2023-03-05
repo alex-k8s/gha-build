@@ -7392,7 +7392,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "EBcoexpress": [],
     "EBSEA": [
         "DESeq2",
         "GenomicRanges",
