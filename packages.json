@@ -264,7 +264,6 @@
     ],
     "AneuFinder": [
         "Rsamtools",
-        "bamsignals",
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
@@ -661,7 +660,6 @@
         "AnnotationDbi",
         "biomaRt"
     ],
-    "bamsignals": [],
     "BANDITS": [
         "DRIMSeq"
     ],
@@ -2711,7 +2709,6 @@
     "chromstaR": [
         "Rsamtools",
         "GenomicAlignments",
-        "bamsignals",
         "SummarizedExperiment"
     ],
     "chromswitch": [
@@ -2938,7 +2935,6 @@
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
-        "bamsignals",
         "AnnotationDbi",
         "BSgenome",
         "GenomicAlignments",
@@ -2962,7 +2958,6 @@
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
-        "bamsignals",
         "AnnotationDbi",
         "GenomicAlignments",
         "ensembldb",
@@ -3230,7 +3225,6 @@
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
-        "bamsignals",
         "AnnotationDbi",
         "BSgenome",
         "GenomicAlignments",
@@ -4079,7 +4073,6 @@
         "biomaRt"
     ],
     "DNAfusion": [
-        "bamsignals",
         "Rsamtools",
         "GenomicAlignments",
         "SummarizedExperiment"
@@ -4594,7 +4587,6 @@
         "SummarizedExperiment",
         "rtracklayer",
         "Rsamtools",
-        "bamsignals",
         "csaw",
         "GreyListChIP",
         "GenomicAlignments",
@@ -7258,7 +7250,6 @@
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
-        "bamsignals",
         "AnnotationDbi",
         "VariantAnnotation",
         "SummarizedExperiment",
@@ -9331,7 +9322,6 @@
         "biomaRt",
         "regioneR",
         "biovizBase",
-        "bamsignals",
         "VariantAnnotation",
         "GenomicAlignments",
         "SummarizedExperiment",
@@ -9696,7 +9686,6 @@
         "SummarizedExperiment"
     ],
     "normr": [
-        "bamsignals",
         "rtracklayer",
         "Rsamtools",
         "GenomicAlignments",
@@ -12485,7 +12474,6 @@
         "Rsamtools",
         "biovizBase",
         "GenomicFeatures",
-        "bamsignals",
         "VariantAnnotation",
         "BSgenome",
         "GenomicAlignments",
@@ -13391,7 +13379,6 @@
     "segmenter": [
         "ChIPseeker",
         "SummarizedExperiment",
-        "bamsignals",
         "AnnotationDbi",
         "enrichplot",
         "GenomicFeatures",
