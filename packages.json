@@ -1487,9 +1487,7 @@
         "enrichplot",
         "GOSemSim"
     ],
-    "censcyt": [
-        "diffcyt"
-    ],
+    "censcyt": [],
     "Cepo": [
         "GSEABase",
         "SingleCellExperiment"
@@ -2149,12 +2147,9 @@
     "cydar": [
         "SingleCellExperiment"
     ],
-    "CyTOFpower": [
-        "diffcyt"
-    ],
+    "CyTOFpower": [],
     "cytofWorkflow": [
         "CATALYST",
-        "diffcyt",
         "HDCytoData",
         "SingleCellExperiment",
         "scater",
@@ -2371,7 +2366,6 @@
         "ShortRead"
     ],
     "diffcoexp": [],
-    "diffcyt": [],
     "DifferentialRegulation": [
         "SingleCellExperiment"
     ],
@@ -8407,8 +8401,7 @@
         "TrajectoryUtils"
     ],
     "treekoR": [
-        "SingleCellExperiment",
-        "diffcyt"
+        "SingleCellExperiment"
     ],
     "TreeSummarizedExperiment": [
         "SingleCellExperiment"
