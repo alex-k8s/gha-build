@@ -2745,7 +2745,6 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "CINdex": [],
     "circRNAprofiler": [
         "rtracklayer",
         "DESeq2",
