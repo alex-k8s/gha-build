@@ -7882,7 +7882,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "ExiMiR": [],
     "exomeCopy": [
         "GenomicRanges",
         "Rsamtools",
