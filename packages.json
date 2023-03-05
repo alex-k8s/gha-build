@@ -4349,7 +4349,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "Melissa": [],
     "MerfishData": [
         "SpatialExperiment",
         "SingleCellExperiment",
