@@ -586,7 +586,6 @@
     "BANDITS": [],
     "bandle": [
         "pRoloc",
-        "pRolocdata",
         "MLInterfaces",
         "biomaRt",
         "annotate",
@@ -10156,7 +10155,6 @@
         "genefilter",
         "SummarizedExperiment"
     ],
-    "pRolocdata": [],
     "pRolocGUI": [
         "pRoloc",
         "MLInterfaces",
