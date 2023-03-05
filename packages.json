@@ -5656,7 +5656,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "HiCBricks": [],
     "HiCcompare": [
         "InteractionSet",
         "QDNAseq",
