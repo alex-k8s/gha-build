@@ -24776,7 +24776,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "RIVER": [],
     "RJMCMCNucleosomes": [
         "IRanges",
         "GenomicRanges",
