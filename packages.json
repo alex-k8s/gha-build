@@ -5742,7 +5742,6 @@
         "annotate",
         "org.Mm.eg.db"
     ],
-    "HilbertCurve": [],
     "HiLDA": [
         "GenomicFeatures",
         "BSgenome.Hsapiens.UCSC.hg19",
