@@ -8396,7 +8396,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "u133x3p.db": [],
     "UCell": [
         "SingleCellExperiment"
     ],
