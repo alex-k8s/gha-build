@@ -3726,7 +3726,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "fly.db0": [],
     "FoldGO": [
         "topGO",
         "GO.db"
