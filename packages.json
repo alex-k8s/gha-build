@@ -4629,7 +4629,6 @@
     "cardelino": [
         "GenomeInfoDb",
         "GenomicRanges",
-        "snpStats",
         "VariantAnnotation",
         "IRanges",
         "XVector",
@@ -5078,7 +5077,6 @@
         "IRanges",
         "GenomicRanges",
         "geneplotter",
-        "snpStats",
         "GenomeInfoDb",
         "DelayedArray",
         "KEGGREST",
@@ -5715,7 +5713,6 @@
         "SummarizedExperiment",
         "geneplotter",
         "GenomicFeatures",
-        "snpStats",
         "VariantAnnotation",
         "GenomicAlignments",
         "BiocIO",
@@ -8043,7 +8040,6 @@
         "Biostrings"
     ],
     "DExMA": [
-        "snpStats",
         "sva",
         "genefilter",
         "AnnotationDbi",
@@ -11210,7 +11206,6 @@
         "GenomeInfoDb"
     ],
     "GeneGeneInteR": [
-        "snpStats",
         "Rsamtools",
         "IRanges",
         "GenomicRanges",
@@ -12402,7 +12397,6 @@
         "GenomicFeatures",
         "Biostrings",
         "AnnotationDbi",
-        "snpStats",
         "VariantAnnotation",
         "AnnotationHub",
         "KEGGREST",
@@ -15231,7 +15225,6 @@
         "GenomicFeatures",
         "Biostrings",
         "AnnotationDbi",
-        "snpStats",
         "VariantAnnotation",
         "AnnotationHub",
         "OrganismDbi",
@@ -16093,7 +16086,6 @@
     "MAGAR": [
         "HDF5Array",
         "RnBeads",
-        "snpStats",
         "crlmm",
         "RnBeads.hg19",
         "oligoClasses",
@@ -16293,9 +16285,7 @@
         "DelayedArray",
         "XVector"
     ],
-    "martini": [
-        "snpStats"
-    ],
+    "martini": [],
     "maser": [
         "GenomicRanges",
         "rtracklayer",
@@ -27232,9 +27222,7 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "RVS": [
-        "snpStats"
-    ],
+    "RVS": [],
     "rwgcod.db": [
         "AnnotationDbi",
         "org.Rn.eg.db",
@@ -27796,7 +27784,6 @@
     ],
     "scoreInvHap": [
         "Biostrings",
-        "snpStats",
         "VariantAnnotation",
         "GenomicRanges",
         "SummarizedExperiment",
@@ -29207,7 +29194,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "snpStats": [],
     "soGGi": [
         "SummarizedExperiment",
         "IRanges",
@@ -32875,7 +32861,6 @@
         "GenomicFeatures",
         "Biostrings",
         "AnnotationDbi",
-        "snpStats",
         "VariantAnnotation",
         "AnnotationHub",
         "KEGGREST",
