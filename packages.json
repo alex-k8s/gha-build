@@ -10288,7 +10288,6 @@
         "biomaRt",
         "BSgenome"
     ],
-    "PWMEnrich.Hsapiens.background": [],
     "pwOmics": [
         "biomaRt",
         "AnnotationHub"
