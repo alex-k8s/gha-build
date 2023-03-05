@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MmAgilentDesign026655.db'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'MmAgilentDesign026655.db'
+also installing the dependency ‘org.Mm.eg.db’
+
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/org.Mm.eg.db_3.16.0.tar.gz'
+Content type 'application/x-gzip' length 79020899 bytes (75.4 MB)
+==================================================
+downloaded 75.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/MmAgilentDesign026655.db_3.2.3.tar.gz'
+Content type 'application/x-gzip' length 1479706 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+* installing *source* package ‘org.Mm.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Mm.eg.db’ as ‘org.Mm.eg.db_3.16.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (org.Mm.eg.db)
+* installing *source* package ‘MmAgilentDesign026655.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MmAgilentDesign026655.db’ as ‘MmAgilentDesign026655.db_3.2.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (MmAgilentDesign026655.db)
+
+The downloaded source packages are in
+	‘/tmp/RtmpIiFSuE/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	19m14.874s
+user	19m7.127s
+sys	0m6.175s
