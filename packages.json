@@ -9208,7 +9208,6 @@
     "yeast2.db": [],
     "ygs98.db": [],
     "zebrafish.db": [],
-    "zebrafishprobe": [],
     "zellkonverter": [
         "SingleCellExperiment"
     ],
