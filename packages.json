@@ -1746,7 +1746,6 @@
     ],
     "BioNetStat": [
         "pathview",
-        "KEGGgraph",
         "AnnotationDbi",
         "org.Hs.eg.db",
         "KEGGREST",
@@ -1920,7 +1919,6 @@
         "hgu133plus2.db",
         "hgu133a.db",
         "KEGGREST",
-        "KEGGgraph",
         "org.Hs.eg.db",
         "Biostrings",
         "XVector",
@@ -4965,7 +4963,6 @@
     ],
     "clipper": [
         "qpgraph",
-        "KEGGgraph",
         "annotate",
         "AnnotationDbi",
         "GenomeInfoDb",
@@ -6439,7 +6436,6 @@
         "HDO.db",
         "GenomeInfoDb",
         "XVector",
-        "KEGGgraph",
         "DelayedArray",
         "genefilter",
         "Biostrings"
@@ -6577,7 +6573,6 @@
         "DelayedArray"
     ],
     "DEGraph": [
-        "KEGGgraph",
         "NCIgraph"
     ],
     "DEGreport": [
@@ -7581,7 +7576,6 @@
         "BiocSingular",
         "hgu133plus2.db",
         "hgu133a.db",
-        "KEGGgraph",
         "ScaledMatrix",
         "beachmat",
         "Biostrings",
@@ -7614,7 +7608,6 @@
         "BiocSingular",
         "hgu133plus2.db",
         "hgu133a.db",
-        "KEGGgraph",
         "ScaledMatrix",
         "beachmat",
         "Biostrings",
@@ -7728,7 +7721,6 @@
         "GSEABase",
         "GO.db",
         "KEGGREST",
-        "KEGGgraph",
         "SPIA",
         "graphite",
         "pathview",
@@ -9417,7 +9409,6 @@
         "SummarizedExperiment",
         "geneplotter",
         "HDO.db",
-        "KEGGgraph",
         "KEGGREST",
         "annotate",
         "GenomeInfoDb",
@@ -10389,7 +10380,6 @@
         "KEGGREST",
         "GSEABase",
         "GO.db",
-        "KEGGgraph",
         "SPIA",
         "graphite",
         "pathview",
@@ -12888,12 +12878,10 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "KEGGgraph": [],
     "KEGGlincs": [
         "hgu133a.db",
         "org.Hs.eg.db",
         "AnnotationDbi",
-        "KEGGgraph",
         "KEGGREST",
         "Biostrings",
         "XVector",
@@ -13772,7 +13760,6 @@
         "ExperimentHub",
         "AnnotationHub",
         "HDO.db",
-        "KEGGgraph",
         "org.Hs.eg.db",
         "KEGGREST",
         "Biostrings",
@@ -14309,7 +14296,6 @@
     ],
     "metabomxtr": [],
     "MetaboSignal": [
-        "KEGGgraph",
         "KEGGREST",
         "EnsDb.Hsapiens.v75",
         "org.Hs.eg.db",
@@ -15480,7 +15466,6 @@
         "org.Hs.eg.db",
         "AnnotationDbi",
         "KEGGREST",
-        "KEGGgraph",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -16865,7 +16850,6 @@
     ],
     "MWASTools": [
         "SummarizedExperiment",
-        "KEGGgraph",
         "KEGGREST",
         "ComplexHeatmap",
         "Biostrings",
@@ -17030,9 +17014,7 @@
         "DelayedArray",
         "XVector"
     ],
-    "NCIgraph": [
-        "KEGGgraph"
-    ],
+    "NCIgraph": [],
     "ncRNAtools": [
         "GenomicRanges",
         "GenomeInfoDb",
@@ -18197,7 +18179,6 @@
         "GenomeInfoDb"
     ],
     "pathview": [
-        "KEGGgraph",
         "AnnotationDbi",
         "org.Hs.eg.db",
         "KEGGREST",
@@ -20045,7 +20026,6 @@
         "GenomeInfoDb"
     ],
     "PFP": [
-        "KEGGgraph",
         "clusterProfiler",
         "AnnotationDbi",
         "DOSE",
@@ -23007,7 +22987,6 @@
         "SummarizedExperiment",
         "geneplotter",
         "HDO.db",
-        "KEGGgraph",
         "KEGGREST",
         "ShortRead",
         "annotate",
@@ -23146,7 +23125,6 @@
     ],
     "ROntoTools": [
         "KEGGREST",
-        "KEGGgraph",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -23490,7 +23468,6 @@
         "AnnotationDbi",
         "KEGGREST",
         "Biostrings",
-        "KEGGgraph",
         "org.Hs.eg.db",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -25399,9 +25376,7 @@
         "Biostrings",
         "DelayedArray"
     ],
-    "SPIA": [
-        "KEGGgraph"
-    ],
+    "SPIA": [],
     "SPIAT": [
         "SpatialExperiment",
         "ComplexHeatmap",
@@ -26224,7 +26199,6 @@
         "biomaRt",
         "rtracklayer",
         "DelayedArray",
-        "KEGGgraph",
         "org.Hs.eg.db",
         "KEGGREST",
         "sesameData",
@@ -28785,7 +28759,6 @@
         "AnnotationDbi",
         "GO.db",
         "KEGGREST",
-        "KEGGgraph",
         "SPIA",
         "graphite",
         "pathview",
