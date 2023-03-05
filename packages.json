@@ -7481,7 +7481,6 @@
         "InteractionSet",
         "regioneR"
     ],
-    "RefPlus": [],
     "RegEnrich": [
         "DOSE",
         "DESeq2",
