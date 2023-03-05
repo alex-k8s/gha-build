@@ -26771,7 +26771,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "TRONCO": [],
     "TSCAN": [
         "SingleCellExperiment",
         "TrajectoryUtils",
