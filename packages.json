@@ -3029,7 +3029,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "cogeqc": [],
     "Cogito": [
         "GenomicFeatures",
         "AnnotationDbi",
