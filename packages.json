@@ -13434,7 +13434,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "SELEX": [],
     "SemDist": [
         "AnnotationDbi",
         "GO.db",
