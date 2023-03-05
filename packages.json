@@ -7321,9 +7321,7 @@
         "DelayedArray",
         "IRanges"
     ],
-    "cycle": [
-        "Mfuzz"
-    ],
+    "cycle": [],
     "cydar": [
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -17433,7 +17431,6 @@
         "XVector"
     ],
     "mfa": [],
-    "Mfuzz": [],
     "MGFM": [
         "AnnotationDbi",
         "annotate",
@@ -30796,7 +30793,6 @@
     ],
     "timeOmics": [],
     "TimiRGeN": [
-        "Mfuzz",
         "MultiAssayExperiment",
         "biomaRt",
         "clusterProfiler",
