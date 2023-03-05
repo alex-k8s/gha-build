@@ -700,7 +700,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "aracne.networks": [],
     "ArrayExpress": [
         "oligo",
         "oligoClasses",
