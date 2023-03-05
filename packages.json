@@ -10556,7 +10556,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "hapFabia": [],
     "harbChIP": [
         "Biostrings",
         "XVector",
