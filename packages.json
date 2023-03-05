@@ -8888,7 +8888,6 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "riboSeqR": [],
     "ribosomeProfilingQC": [
         "BSgenome",
         "EDASeq",
