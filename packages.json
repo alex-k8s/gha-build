@@ -8825,7 +8825,6 @@
         "genefilter",
         "annotate"
     ],
-    "packFinder": [],
     "padma": [
         "SummarizedExperiment",
         "MultiAssayExperiment"
