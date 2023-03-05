@@ -551,7 +551,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "ANF": [],
     "animalcules": [
         "DESeq2",
         "MultiAssayExperiment",
