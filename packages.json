@@ -7115,7 +7115,6 @@
     ],
     "org.Pt.eg.db": [],
     "org.Rn.eg.db": [],
-    "org.Ss.eg.db": [],
     "Organism.dplyr": [
         "GenomicFeatures",
         "rtracklayer",
@@ -8112,9 +8111,7 @@
     ],
     "poplarcdf": [],
     "poplarprobe": [],
-    "porcine.db": [
-        "org.Ss.eg.db"
-    ],
+    "porcine.db": [],
     "porcinecdf": [],
     "porcineprobe": [],
     "PoTRA": [
