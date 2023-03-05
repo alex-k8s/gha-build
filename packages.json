@@ -20263,9 +20263,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "plethy": [
-        "Streamer"
-    ],
+    "plethy": [],
     "plier": [],
     "PloGO2": [
         "GO.db",
@@ -25674,7 +25672,6 @@
         "biomaRt",
         "DelayedArray"
     ],
-    "Streamer": [],
     "struct": [
         "SummarizedExperiment",
         "GenomicRanges",
