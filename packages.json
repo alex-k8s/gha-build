@@ -7883,7 +7883,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "MMUPHin": [],
     "moanin": [
         "SummarizedExperiment",
         "topGO",
