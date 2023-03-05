@@ -8898,7 +8898,6 @@
         "annotate",
         "GO.db"
     ],
-    "ricecdf": [],
     "rifi": [
         "rtracklayer",
         "GenomicAlignments"
