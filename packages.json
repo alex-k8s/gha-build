@@ -299,7 +299,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "biocViews",
         "BiocCheck",
         "AnnotationDbi",
         "Biostrings",
@@ -663,7 +662,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "biocViews",
         "BiocCheck",
         "AnnotationDbi",
         "Biostrings",
@@ -1750,9 +1748,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "BiocCheck": [
-        "biocViews"
-    ],
+    "BiocCheck": [],
     "biocGraph": [
         "geneplotter",
         "annotate",
@@ -1796,9 +1792,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "BiocPkgTools": [
-        "biocViews"
-    ],
+    "BiocPkgTools": [],
     "BiocSet": [
         "AnnotationDbi",
         "KEGGREST",
@@ -1821,7 +1815,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "biocViews": [],
     "BioImageDbs": [
         "ExperimentHub",
         "AnnotationHub",
@@ -5222,7 +5215,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "biocViews",
         "KEGGREST",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -9152,7 +9144,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "biocViews",
         "BiocCheck",
         "GenomeInfoDb",
         "OrganismDbi",
@@ -9282,7 +9273,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "biocViews",
         "BiocCheck",
         "AnnotationDbi",
         "Biostrings",
@@ -16100,7 +16090,6 @@
         "KEGGREST",
         "Rsamtools",
         "rtracklayer",
-        "biocViews",
         "BiocCheck",
         "OrganismDbi",
         "AnnotationForge",
@@ -16118,7 +16107,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "biocViews",
         "BiocCheck",
         "Biostrings",
         "GenomeInfoDb",
@@ -17509,9 +17497,7 @@
         "KEGGREST",
         "AnnotationDbi"
     ],
-    "monocle": [
-        "biocViews"
-    ],
+    "monocle": [],
     "MoonlightR": [
         "SummarizedExperiment",
         "clusterProfiler",
@@ -24308,7 +24294,6 @@
     "Rfastp": [],
     "RforProteomics": [
         "MSnbase",
-        "biocViews",
         "mzR",
         "MsCoreUtils",
         "IRanges",
@@ -24756,7 +24741,6 @@
         "DelayedArray"
     ],
     "Risa": [
-        "biocViews",
         "xcms",
         "MSnbase",
         "mzR",
@@ -25034,7 +25018,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "rtracklayer",
-        "biocViews",
         "BiocCheck",
         "Biostrings",
         "GenomeInfoDb",
@@ -26912,7 +26895,6 @@
         "Biostrings"
     ],
     "sigFeature": [
-        "biocViews",
         "SummarizedExperiment",
         "GenomicRanges",
         "IRanges",
@@ -30607,8 +30589,7 @@
     ],
     "updateObject": [],
     "uSORT": [
-        "monocle",
-        "biocViews"
+        "monocle"
     ],
     "VAExprs": [
         "SingleCellExperiment",
