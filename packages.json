@@ -17217,7 +17217,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "nnNorm": [],
     "nnSVG": [
         "SpatialExperiment",
         "SingleCellExperiment",
