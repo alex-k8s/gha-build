@@ -21727,7 +21727,6 @@
         "AnnotationFilter",
         "annotate"
     ],
-    "sscore": [],
     "sscu": [
         "Biostrings",
         "XVector"
