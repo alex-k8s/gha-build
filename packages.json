@@ -7915,8 +7915,7 @@
         "rtracklayer"
     ],
     "prebs": [
-        "GenomicAlignments",
-        "RPA"
+        "GenomicAlignments"
     ],
     "preciseTAD": [
         "rCGH",
@@ -8968,7 +8967,6 @@
         "MultiAssayExperiment",
         "MultiDataSet"
     ],
-    "RPA": [],
     "Rqc": [
         "ShortRead",
         "biovizBase",
