@@ -6438,7 +6438,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "QuartPAC": [],
     "QuasR": [
         "BSgenome",
         "GenomicFeatures",
