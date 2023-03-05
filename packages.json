@@ -23284,7 +23284,6 @@
         "XVector"
     ],
     "RUVcorr": [],
-    "RUVnormalize": [],
     "RUVSeq": [
         "EDASeq",
         "ShortRead",
