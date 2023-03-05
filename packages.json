@@ -12273,7 +12273,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "msPurity": [],
     "msqrob2": [
         "QFeatures",
         "SummarizedExperiment",
