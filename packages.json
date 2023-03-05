@@ -93,10 +93,8 @@
         "biomaRt"
     ],
     "affylmGUI": [
-        "affyPLM",
         "AnnotationDbi"
     ],
-    "affyPLM": [],
     "ag.db": [
         "AnnotationDbi",
         "org.At.tair.db"
@@ -449,7 +447,6 @@
         "GenomicAlignments"
     ],
     "arrayQualityMetrics": [
-        "affyPLM",
         "beadarray",
         "genefilter",
         "AnnotationDbi",
@@ -8654,7 +8651,6 @@
         "SummarizedExperiment"
     ],
     "mimager": [
-        "affyPLM",
         "oligo",
         "oligoClasses",
         "SummarizedExperiment"
@@ -12115,9 +12111,7 @@
         "regioneR",
         "AnnotationFilter"
     ],
-    "RefPlus": [
-        "affyPLM"
-    ],
+    "RefPlus": [],
     "RegEnrich": [
         "BiocSet",
         "SummarizedExperiment",
