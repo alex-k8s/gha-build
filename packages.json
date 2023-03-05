@@ -5369,7 +5369,6 @@
         "annotate"
     ],
     "graphite": [],
-    "GraphPAC": [],
     "grasp2db": [
         "AnnotationHub"
     ],
@@ -10411,7 +10410,6 @@
         "GenomicAlignments"
     ],
     "QuartPAC": [
-        "GraphPAC",
         "SpacePAC"
     ],
     "QuasR": [
