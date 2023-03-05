@@ -2748,7 +2748,6 @@
     "circRNAprofiler": [
         "rtracklayer",
         "DESeq2",
-        "universalmotif",
         "AnnotationHub",
         "BSgenome.Hsapiens.UCSC.hg19",
         "gwascat",
@@ -8013,9 +8012,7 @@
     "Melissa": [
         "BPRMeth"
     ],
-    "memes": [
-        "universalmotif"
-    ],
+    "memes": [],
     "MerfishData": [
         "SpatialExperiment",
         "AnnotationHub",
@@ -15462,7 +15459,6 @@
         "biomaRt",
         "GenomicAlignments"
     ],
-    "universalmotif": [],
     "VAExprs": [
         "SingleCellExperiment",
         "SummarizedExperiment",
