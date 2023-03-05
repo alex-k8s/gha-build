@@ -3323,7 +3323,6 @@
     "DAPAR": [],
     "dasper": [
         "GenomicFeatures",
-        "megadepth",
         "plyranges",
         "rtracklayer",
         "SummarizedExperiment",
@@ -7109,7 +7108,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "megadepth": [],
     "Melissa": [
         "BPRMeth"
     ],
@@ -8616,7 +8614,6 @@
         "dasper",
         "derfinder",
         "rtracklayer",
-        "megadepth",
         "GenomicFeatures",
         "plyranges",
         "SummarizedExperiment",
