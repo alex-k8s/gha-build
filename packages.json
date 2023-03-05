@@ -8115,14 +8115,10 @@
     "mslp": [
         "org.Hs.eg.db"
     ],
-    "msmsEDA": [],
-    "msmsTests": [
-        "msmsEDA"
-    ],
+    "msmsTests": [],
     "MSnID": [
         "msmsTests",
-        "AnnotationHub",
-        "msmsEDA"
+        "AnnotationHub"
     ],
     "MSPrep": [
         "SummarizedExperiment",
