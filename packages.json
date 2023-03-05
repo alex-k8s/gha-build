@@ -1651,7 +1651,6 @@
         "ShortRead",
         "GenomicAlignments"
     ],
-    "cellbaseR": [],
     "CellBench": [
         "SingleCellExperiment"
     ],
