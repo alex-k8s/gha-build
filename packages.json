@@ -4762,7 +4762,6 @@
         "SummarizedExperiment",
         "Rsamtools"
     ],
-    "CNORode": [],
     "CNTools": [
         "genefilter",
         "AnnotationDbi",
@@ -13268,9 +13267,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "MEIGOR": [
-        "CNORode"
-    ],
+    "MEIGOR": [],
     "Melissa": [
         "BPRMeth",
         "GenomicRanges",
