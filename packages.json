@@ -3983,7 +3983,6 @@
     "HighlyReplicatedRNASeq": [
         "ExperimentHub"
     ],
-    "highthroughputassays": [],
     "Hiiragi2013": [
         "genefilter",
         "geneplotter",
