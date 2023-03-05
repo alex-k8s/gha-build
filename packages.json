@@ -14197,7 +14197,6 @@
         "AnnotationFilter",
         "annotate"
     ],
-    "sscu": [],
     "sSNAPPY": [
         "graphite",
         "org.Hs.eg.db",
