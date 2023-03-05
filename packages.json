@@ -7230,7 +7230,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "DepecheR": [],
     "depmap": [
         "ExperimentHub",
         "AnnotationHub",
