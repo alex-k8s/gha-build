@@ -6293,10 +6293,7 @@
     "miRNAmeConverter": [
         "miRBaseVersions.db"
     ],
-    "miRNAtap": [],
-    "miRNAtap.db": [
-        "miRNAtap"
-    ],
+    "miRNAtap.db": [],
     "miRSM": [
         "BicARE",
         "miRspongeR",
@@ -10149,7 +10146,6 @@
         "scuttle"
     ],
     "SpidermiR": [
-        "miRNAtap",
         "miRNAtap.db",
         "org.Hs.eg.db"
     ],
@@ -10270,7 +10266,6 @@
     "StarBioTrek": [
         "SpidermiR",
         "graphite",
-        "miRNAtap",
         "miRNAtap.db",
         "org.Hs.eg.db"
     ],
