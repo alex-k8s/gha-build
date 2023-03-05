@@ -7680,7 +7680,6 @@
     "flowMerge": [
         "flowClust"
     ],
-    "flowPloidy": [],
     "FlowSOM": [],
     "FlowSorted.Blood.450k": [
         "minfi",
