@@ -16450,7 +16450,6 @@
         "SummarizedExperiment",
         "AnnotationDbi",
         "GO.db",
-        "rhdf5client",
         "ExperimentHub",
         "AnnotationHub",
         "KEGGREST",
@@ -16629,7 +16628,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "rhdf5client": [],
     "rhesus.db0": [
         "AnnotationDbi",
         "KEGGREST",
@@ -19583,7 +19581,6 @@
         "KEGGREST",
         "AnnotationHub",
         "GO.db",
-        "rhdf5client",
         "ExperimentHub",
         "GenomicRanges",
         "Biostrings"
