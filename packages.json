@@ -3272,7 +3272,6 @@
     ],
     "CytoML": [
         "openCyto",
-        "ggcyto",
         "flowClust"
     ],
     "dada2": [
@@ -5209,7 +5208,6 @@
         "AnnotationFilter",
         "biomaRt"
     ],
-    "ggcyto": [],
     "GGHumanMethCancerPanelv1.db": [
         "org.Hs.eg.db",
         "AnnotationForge"
