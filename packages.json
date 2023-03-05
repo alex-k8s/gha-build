@@ -8412,7 +8412,6 @@
         "SummarizedExperiment",
         "MsFeatures"
     ],
-    "ncRNAtools": [],
     "nearBynding": [
         "plyranges",
         "Rsamtools",
