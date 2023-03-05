@@ -6020,7 +6020,6 @@
         "SummarizedExperiment",
         "MsFeatures"
     ],
-    "LOLA": [],
     "LoomExperiment": [
         "SingleCellExperiment",
         "SummarizedExperiment"
