@@ -9833,7 +9833,6 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "MOFA2": [],
     "mogene10stprobeset.db": [
         "AnnotationDbi",
         "org.Mm.eg.db",
