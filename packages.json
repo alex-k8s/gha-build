@@ -7350,7 +7350,6 @@
         "biomaRt",
         "GenomicAlignments"
     ],
-    "rat.db0": [],
     "rat2302.db": [
         "org.Rn.eg.db"
     ],
