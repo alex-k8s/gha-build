@@ -1560,7 +1560,6 @@
     "canine2.db": [
         "org.Cf.eg.db"
     ],
-    "canineprobe": [],
     "cardelino": [
         "VariantAnnotation",
         "rtracklayer",
