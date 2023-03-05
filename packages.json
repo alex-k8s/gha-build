@@ -122,9 +122,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "affyContam": [
-        "affydata"
-    ],
+    "affyContam": [],
     "affycoretools": [
         "GOstats",
         "gcrma",
@@ -161,7 +159,6 @@
         "DelayedArray",
         "biomaRt"
     ],
-    "affydata": [],
     "affyILM": [
         "gcrma",
         "XVector",
@@ -766,7 +763,6 @@
     "arrayMvout": [
         "affyContam",
         "lumi",
-        "affydata",
         "methylumi",
         "GenomicFeatures",
         "GenomicRanges",
