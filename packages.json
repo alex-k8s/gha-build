@@ -1675,7 +1675,6 @@
         "Biostrings"
     ],
     "bnem": [
-        "epiNEM",
         "sva",
         "vsn",
         "genefilter",
@@ -5443,7 +5442,6 @@
         "XVector"
     ],
     "dce": [
-        "epiNEM",
         "graphite",
         "org.Hs.eg.db",
         "AnnotationDbi",
@@ -6905,7 +6903,6 @@
         "VariantAnnotation",
         "annotate"
     ],
-    "epiNEM": [],
     "epistack": [
         "GenomicRanges",
         "SummarizedExperiment",
@@ -14578,9 +14575,7 @@
         "GenomicRanges",
         "XVector"
     ],
-    "nempi": [
-        "epiNEM"
-    ],
+    "nempi": [],
     "NestLink": [
         "AnnotationHub",
         "ExperimentHub",
