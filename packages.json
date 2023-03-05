@@ -1857,7 +1857,6 @@
         "GO.db",
         "GOSemSim",
         "HDO.db",
-        "EBarrays",
         "graphite",
         "Biostrings",
         "XVector",
@@ -4550,7 +4549,6 @@
         "GSEABase",
         "geNetClassifier",
         "phenoTest",
-        "EBarrays",
         "annotate",
         "AnnotationDbi",
         "Category",
@@ -4653,7 +4651,6 @@
     "casper": [
         "IRanges",
         "GenomicRanges",
-        "EBarrays",
         "gaga",
         "GenomeInfoDb",
         "GenomicFeatures",
@@ -8763,10 +8760,7 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "EBarrays": [],
-    "EBcoexpress": [
-        "EBarrays"
-    ],
+    "EBcoexpress": [],
     "EBSEA": [
         "DESeq2",
         "IRanges",
@@ -10999,9 +10993,7 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "gaga": [
-        "EBarrays"
-    ],
+    "gaga": [],
     "gage": [
         "KEGGREST",
         "AnnotationDbi",
@@ -11325,9 +11317,7 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "geNetClassifier": [
-        "EBarrays"
-    ],
+    "geNetClassifier": [],
     "GeneTonic": [
         "AnnotationDbi",
         "ComplexHeatmap",
