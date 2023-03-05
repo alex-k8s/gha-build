@@ -367,7 +367,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomeInfoDb",
         "ScaledMatrix",
@@ -531,7 +530,6 @@
         "GenomeInfoDb",
         "XVector",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix"
     ],
@@ -1343,7 +1341,6 @@
         "IRanges",
         "GenomeInfoDb",
         "ScaledMatrix",
-        "BiocNeighbors",
         "XVector"
     ],
     "BASiCStan": [
@@ -1363,7 +1360,6 @@
         "IRanges",
         "GenomeInfoDb",
         "ScaledMatrix",
-        "BiocNeighbors",
         "XVector"
     ],
     "BasicSTARRseq": [
@@ -1380,7 +1376,6 @@
     "batchelor": [
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "BiocNeighbors",
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
@@ -1415,7 +1410,6 @@
         "beachmat",
         "scuttle",
         "DelayedMatrixStats",
-        "BiocNeighbors",
         "bluster",
         "GenomicRanges",
         "IRanges",
@@ -1595,7 +1589,6 @@
         "DirichletMultinomial",
         "KEGGREST",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix"
     ],
@@ -1754,7 +1747,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "BiocNeighbors": [],
     "BiocOncoTK": [
         "ComplexHeatmap",
         "GenomicRanges",
@@ -1946,8 +1938,7 @@
         "BiocSingular",
         "bluster",
         "beachmat",
-        "ScaledMatrix",
-        "BiocNeighbors"
+        "ScaledMatrix"
     ],
     "biotmle": [
         "SummarizedExperiment",
@@ -2122,9 +2113,7 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "bluster": [
-        "BiocNeighbors"
-    ],
+    "bluster": [],
     "bnbc": [
         "SummarizedExperiment",
         "GenomicRanges",
@@ -4264,7 +4253,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -4420,7 +4408,6 @@
         "scuttle",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "GenomicRanges",
@@ -4523,7 +4510,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "IRanges",
@@ -4554,7 +4540,6 @@
         "GenomeInfoDb"
     ],
     "CellMixS": [
-        "BiocNeighbors",
         "scater",
         "SummarizedExperiment",
         "SingleCellExperiment",
@@ -5109,7 +5094,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "DelayedArray",
-        "BiocNeighbors",
         "BiocSingular",
         "DelayedMatrixStats",
         "scuttle",
@@ -5266,7 +5250,6 @@
         "IRanges",
         "GenomeInfoDb",
         "ScaledMatrix",
-        "BiocNeighbors",
         "XVector"
     ],
     "citruscdf": [
@@ -5942,7 +5925,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "GenomicRanges",
@@ -5967,7 +5949,6 @@
         "scuttle",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix"
     ],
@@ -6668,7 +6649,6 @@
         "KEGGREST",
         "XVector",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix"
     ],
@@ -6744,7 +6724,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "flowCore",
-        "BiocNeighbors",
         "GenomicRanges",
         "DelayedArray",
         "IRanges",
@@ -6791,7 +6770,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -7550,7 +7528,6 @@
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",
-        "BiocNeighbors",
         "XVector"
     ],
     "DirichletMultinomial": [
@@ -7572,7 +7549,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "IRanges",
@@ -9074,7 +9050,6 @@
         "BiocSingular",
         "GenomicRanges",
         "GenomeInfoDb",
-        "BiocNeighbors",
         "KEGGREST",
         "ScaledMatrix",
         "beachmat",
@@ -9757,7 +9732,6 @@
         "OrganismDbi",
         "ensembldb",
         "AnnotationFilter",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "KEGGREST",
@@ -13603,7 +13577,6 @@
         "scuttle",
         "cytomapper",
         "SingleCellExperiment",
-        "BiocNeighbors",
         "HDF5Array",
         "DelayedArray",
         "GenomicRanges",
@@ -13854,7 +13827,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "GenomicRanges",
@@ -16495,7 +16467,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix"
     ],
@@ -16525,7 +16496,6 @@
         "DelayedMatrixStats",
         "scuttle",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -16617,7 +16587,6 @@
         "DirichletMultinomial",
         "KEGGREST",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix"
     ],
@@ -16684,7 +16653,6 @@
         "GenomeInfoDb"
     ],
     "miloR": [
-        "BiocNeighbors",
         "SingleCellExperiment",
         "BiocSingular",
         "SummarizedExperiment",
@@ -17821,7 +17789,6 @@
         "bluster",
         "beachmat",
         "ScaledMatrix",
-        "BiocNeighbors",
         "IRanges",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -18255,7 +18222,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "SummarizedExperiment",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix",
         "beachmat",
@@ -18320,7 +18286,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomeInfoDb",
         "ScaledMatrix",
@@ -18748,7 +18713,6 @@
         "scuttle",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "GenomicRanges",
         "GenomeInfoDb",
         "ScaledMatrix",
@@ -21859,7 +21823,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "IRanges",
@@ -22216,7 +22179,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "GenomicRanges",
@@ -25858,7 +25820,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix",
         "IRanges",
@@ -25936,7 +25897,6 @@
     ],
     "scDblFinder": [
         "SingleCellExperiment",
-        "BiocNeighbors",
         "BiocSingular",
         "SummarizedExperiment",
         "scran",
@@ -25970,7 +25930,6 @@
         "IRanges",
         "GenomeInfoDb",
         "ScaledMatrix",
-        "BiocNeighbors",
         "XVector"
     ],
     "scDDboost": [
@@ -26223,7 +26182,6 @@
         "bluster",
         "beachmat",
         "ScaledMatrix",
-        "BiocNeighbors",
         "IRanges",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -26369,7 +26327,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "ScaledMatrix",
@@ -27082,7 +27039,6 @@
         "bluster",
         "beachmat",
         "ScaledMatrix",
-        "BiocNeighbors",
         "IRanges",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -27121,7 +27077,6 @@
         "TrajectoryUtils",
         "scuttle",
         "AnnotationDbi",
-        "BiocNeighbors",
         "BiocSingular",
         "ResidualMatrix",
         "ScaledMatrix",
@@ -27183,7 +27138,6 @@
         "DelayedMatrixStats",
         "BiocSingular",
         "beachmat",
-        "BiocNeighbors",
         "ScaledMatrix",
         "IRanges",
         "GenomicRanges",
@@ -27538,7 +27492,6 @@
         "HDF5Array",
         "beachmat",
         "scuttle",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "GenomeInfoDb",
@@ -27672,7 +27625,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "bluster",
         "GenomicRanges",
@@ -27704,7 +27656,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "DropletUtils",
         "KEGGREST",
@@ -27828,7 +27779,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "IRanges",
@@ -29467,7 +29417,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "ScaledMatrix",
         "Biostrings"
@@ -30384,7 +30333,6 @@
         "GenomeInfoDb"
     ],
     "UCell": [
-        "BiocNeighbors",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "GenomicRanges",
@@ -30531,7 +30479,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "beachmat",
-        "BiocNeighbors",
         "BiocSingular",
         "GenomicRanges",
         "IRanges",
@@ -30836,7 +30783,6 @@
         "SpatialExperiment",
         "SpatialFeatureExperiment",
         "SummarizedExperiment",
-        "BiocNeighbors",
         "GenomicRanges",
         "DelayedArray",
         "DropletUtils",
