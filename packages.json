@@ -9782,7 +9782,6 @@
         "SummarizedExperiment"
     ],
     "PeacoQC": [],
-    "peakPantheR": [],
     "PECA": [
         "genefilter",
         "annotate"
