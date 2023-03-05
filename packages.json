@@ -9453,7 +9453,6 @@
         "SummarizedExperiment",
         "AnnotationDbi"
     ],
-    "muscle": [],
     "musicatk": [
         "SummarizedExperiment",
         "VariantAnnotation",
