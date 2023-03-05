@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''bgx'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'bgx'
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/bgx_1.64.0.tar.gz'
+Content type 'application/x-gzip' length 1231182 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘bgx’ ...
+** using staged installation
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for C compiler vendor... gnu
+checking whether C compiler accepts -ffast-math... yes
+checking whether C compiler accepts -O3... yes
+checking build system type... ./config.guess: unable to guess system type
+
+This script, last modified 2006-07-02, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+  http://savannah.gnu.org/cgi-bin/viewcvs/*checkout*/config/config/config.guess
+and
+  http://savannah.gnu.org/cgi-bin/viewcvs/*checkout*/config/config/config.sub
+
+If the version you run (./config.guess) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2006-07-02
+
+uname -m = aarch64
+uname -r = 5.15.0-1033-azure
+uname -s = Linux
+uname -v = #40-Ubuntu SMP Mon Jan 23 20:36:59 UTC 2023
+
+/usr/bin/uname -p = aarch64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = aarch64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = aarch64
+UNAME_RELEASE = 5.15.0-1033-azure
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #40-Ubuntu SMP Mon Jan 23 20:36:59 UTC 2023
+configure: error: cannot guess build type; you must specify one
+ERROR: configuration failed for package ‘bgx’
+* removing ‘/tmp/built/bgx’
+
+The downloaded source packages are in
+	‘/tmp/RtmpNUsnv4/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘bgx’ had non-zero exit status
+
+real	1m23.104s
+user	1m16.580s
+sys	0m3.537s
