@@ -4402,7 +4402,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "MEB": [],
     "MEDIPS": [
         "BSgenome",
         "rtracklayer",
