@@ -8847,7 +8847,6 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "fgga": [],
     "FieldEffectCrc": [
         "SummarizedExperiment",
         "ExperimentHub",
