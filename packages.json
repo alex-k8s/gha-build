@@ -7972,7 +7972,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "TCGAWorkflowData": [],
     "TCseq": [
         "GenomicAlignments"
     ],
