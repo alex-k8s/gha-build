@@ -3237,7 +3237,6 @@
         "BSgenome"
     ],
     "cyanoFilter": [
-        "flowDensity",
         "flowClust"
     ],
     "cydar": [
@@ -3340,9 +3339,7 @@
         "graphite",
         "org.Hs.eg.db"
     ],
-    "ddPCRclust": [
-        "flowDensity"
-    ],
+    "ddPCRclust": [],
     "debCAM": [
         "SummarizedExperiment"
     ],
@@ -4720,10 +4717,7 @@
     ],
     "flowCL": [],
     "flowClust": [],
-    "flowCut": [
-        "flowDensity"
-    ],
-    "flowDensity": [],
+    "flowCut": [],
     "flowMerge": [
         "flowClust"
     ],
