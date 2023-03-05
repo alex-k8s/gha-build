@@ -7591,7 +7591,6 @@
         "tilingArray",
         "genefilter"
     ],
-    "snapcount": [],
     "SNPhood": [
         "DESeq2",
         "VariantAnnotation",
