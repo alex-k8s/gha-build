@@ -23859,7 +23859,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "ppcseq": [],
     "PPInfer": [
         "biomaRt",
         "AnnotationDbi",
