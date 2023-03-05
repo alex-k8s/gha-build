@@ -7744,7 +7744,6 @@
     ],
     "RmiR.hsa": [],
     "Rmmquant": [
-        "TBX20BamSubset",
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "DESeq2",
         "geneplotter",
@@ -9011,7 +9010,6 @@
         "SingleCellExperiment",
         "genefilter"
     ],
-    "TBX20BamSubset": [],
     "TCC": [
         "DESeq2",
         "geneplotter"
