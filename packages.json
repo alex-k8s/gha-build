@@ -6052,7 +6052,6 @@
         "GenomicAlignments"
     ],
     "mirbase.db": [],
-    "miRBaseVersions.db": [],
     "mirIntegrator": [
         "org.Hs.eg.db"
     ],
@@ -6070,9 +6069,7 @@
     ],
     "miRmine": [],
     "mirna102xgaincdf": [],
-    "miRNAmeConverter": [
-        "miRBaseVersions.db"
-    ],
+    "miRNAmeConverter": [],
     "miRNAtap.db": [],
     "miRSM": [
         "BicARE",
