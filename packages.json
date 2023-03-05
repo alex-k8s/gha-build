@@ -4224,8 +4224,7 @@
     ],
     "cyanoFilter": [
         "flowDensity",
-        "flowClust",
-        "flowWorkspace"
+        "flowClust"
     ],
     "cydar": [
         "SingleCellExperiment",
@@ -4269,7 +4268,6 @@
         "scuttle"
     ],
     "CytoML": [
-        "flowWorkspace",
         "openCyto",
         "ggcyto",
         "flowClust"
@@ -4365,8 +4363,7 @@
         "KEGGREST"
     ],
     "ddPCRclust": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "debCAM": [
         "SummarizedExperiment",
@@ -6199,12 +6196,9 @@
     "flowCL": [],
     "flowClust": [],
     "flowCut": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
-    "flowDensity": [
-        "flowWorkspace"
-    ],
+    "flowDensity": [],
     "flowMerge": [
         "flowClust"
     ],
@@ -6304,17 +6298,13 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "flowStats": [
-        "flowWorkspace"
-    ],
+    "flowStats": [],
     "flowTrans": [
         "flowClust"
     ],
     "flowVS": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
-    "flowWorkspace": [],
     "fluentGenomics": [
         "plyranges",
         "SummarizedExperiment",
@@ -6846,9 +6836,7 @@
         "KEGGREST",
         "biomaRt"
     ],
-    "ggcyto": [
-        "flowWorkspace"
-    ],
+    "ggcyto": [],
     "GGHumanMethCancerPanelv1.db": [
         "AnnotationDbi",
         "org.Hs.eg.db",
@@ -7662,8 +7650,7 @@
         "KEGGREST"
     ],
     "highthroughputassays": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
     "Hiiragi2013": [
         "genefilter",
@@ -8468,9 +8455,7 @@
         "DropletUtils"
     ],
     "IMMAN": [],
-    "ImmuneSpaceR": [
-        "flowWorkspace"
-    ],
+    "ImmuneSpaceR": [],
     "indac.db": [
         "AnnotationDbi",
         "org.Dm.eg.db",
@@ -11932,7 +11917,6 @@
         "KEGGREST"
     ],
     "openCyto": [
-        "flowWorkspace",
         "flowClust"
     ],
     "openPrimeR": [
@@ -13310,9 +13294,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "PeacoQC": [
-        "flowWorkspace"
-    ],
+    "PeacoQC": [],
     "peakPantheR": [
         "MSnbase"
     ],
