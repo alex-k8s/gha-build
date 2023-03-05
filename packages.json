@@ -232,8 +232,7 @@
     ],
     "artMS": [],
     "ASICS": [
-        "ropls",
-        "MultiDataSet"
+        "ropls"
     ],
     "ASpediaFI": [
         "GenomicAlignments",
@@ -518,7 +517,6 @@
     ],
     "BioPlex": [],
     "biosigner": [
-        "MultiDataSet",
         "ropls"
     ],
     "BioTIP": [
@@ -3975,8 +3973,7 @@
     "LinkHD": [],
     "lionessR": [],
     "lipidr": [
-        "ropls",
-        "MultiDataSet"
+        "ropls"
     ],
     "lisaClust": [
         "spicyR",
@@ -4312,7 +4309,6 @@
         "GenomicAlignments"
     ],
     "MEAL": [
-        "MultiDataSet",
         "minfi",
         "Gviz",
         "missMethyl",
@@ -4951,8 +4947,7 @@
         "SingleCellExperiment"
     ],
     "MultiBaC": [
-        "ropls",
-        "MultiDataSet"
+        "ropls"
     ],
     "multicrispr": [
         "BSgenome",
@@ -4967,7 +4962,6 @@
         "GenomicAlignments",
         "ensembldb"
     ],
-    "MultiDataSet": [],
     "multiGSEA": [
         "graphite"
     ],
@@ -4980,7 +4974,6 @@
         "clusterProfiler",
         "ReactomePA",
         "enrichplot",
-        "MultiDataSet",
         "ropls",
         "DOSE",
         "GOSemSim",
@@ -5266,7 +5259,6 @@
     "omicRexposome": [
         "sva",
         "omicade4",
-        "MultiDataSet",
         "made4",
         "genefilter"
     ],
@@ -6133,7 +6125,6 @@
         "GenomicAlignments"
     ],
     "phenomis": [
-        "MultiDataSet",
         "ropls"
     ],
     "phenopath": [],
@@ -6190,7 +6181,6 @@
         "proFIA",
         "xcms",
         "ropls",
-        "MultiDataSet",
         "MsFeatures"
     ],
     "PloGO2": [
@@ -6293,7 +6283,6 @@
     "proFIA": [
         "xcms",
         "ropls",
-        "MultiDataSet",
         "MsFeatures"
     ],
     "profileplyr": [
@@ -7035,9 +7024,7 @@
     "Roberts2005Annotation.db": [],
     "ROCpAI": [],
     "RolDE": [],
-    "ropls": [
-        "MultiDataSet"
-    ],
+    "ropls": [],
     "Rqc": [
         "ShortRead",
         "biovizBase",
@@ -7050,8 +7037,7 @@
         "BSgenome"
     ],
     "rqt": [
-        "ropls",
-        "MultiDataSet"
+        "ropls"
     ],
     "RRBSdata": [
         "BiSeq",
