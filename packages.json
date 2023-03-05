@@ -737,7 +737,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "baySeq": [],
     "BBCAnalyzer": [
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2886,9 +2885,7 @@
         "GOSemSim",
         "HDO.db"
     ],
-    "clusterSeq": [
-        "baySeq"
-    ],
+    "clusterSeq": [],
     "clustifyr": [
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -8157,7 +8154,6 @@
     ],
     "metaseqR2": [
         "DESeq2",
-        "baySeq",
         "biomaRt",
         "DSS",
         "EDASeq",
@@ -11941,7 +11937,6 @@
     "Rbwa": [],
     "Rcade": [
         "Rsamtools",
-        "baySeq",
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
@@ -12427,8 +12422,7 @@
         "AnnotationFilter"
     ],
     "riboSeqR": [
-        "Rsamtools",
-        "baySeq"
+        "Rsamtools"
     ],
     "ribosomeProfilingQC": [
         "AnnotationDbi",
@@ -13393,7 +13387,6 @@
         "GO.db"
     ],
     "segmentSeq": [
-        "baySeq",
         "ShortRead",
         "Rsamtools",
         "GenomicAlignments",
@@ -14195,7 +14188,6 @@
         "rtracklayer",
         "SummarizedExperiment",
         "DESeq2",
-        "baySeq",
         "Rsamtools",
         "GenomicFeatures",
         "GenomicAlignments",
@@ -14484,7 +14476,6 @@
     ],
     "TCC": [
         "DESeq2",
-        "baySeq",
         "SummarizedExperiment",
         "geneplotter",
         "annotate",
