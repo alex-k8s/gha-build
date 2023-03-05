@@ -1841,7 +1841,6 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "bronchialIL13": [],
     "BSgenome": [
         "GenomicRanges",
         "Biostrings",
