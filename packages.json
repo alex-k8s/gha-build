@@ -145,7 +145,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "affycompData": [],
     "affyContam": [
         "affy",
         "affydata"
