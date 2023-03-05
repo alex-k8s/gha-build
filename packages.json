@@ -44,7 +44,6 @@
         "Glimma",
         "DESeq2",
         "Category",
-        "PFAM.db",
         "GSEABase",
         "ggbio",
         "genefilter",
@@ -73,7 +72,6 @@
         "Glimma",
         "DESeq2",
         "Category",
-        "PFAM.db",
         "GSEABase",
         "ggbio",
         "genefilter",
@@ -6486,7 +6484,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "PFAM.db": [],
     "PFP": [
         "clusterProfiler",
         "DOSE",
@@ -7143,7 +7140,6 @@
     "ReportingTools": [
         "Category",
         "GOstats",
-        "PFAM.db",
         "GSEABase",
         "DESeq2",
         "ggbio",
@@ -7467,7 +7463,6 @@
         "GenomicAlignments",
         "Category",
         "GOstats",
-        "PFAM.db",
         "GSEABase",
         "ggbio",
         "EDASeq",
