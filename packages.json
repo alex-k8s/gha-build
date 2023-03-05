@@ -3957,7 +3957,6 @@
         "SummarizedExperiment"
     ],
     "ELMER": [
-        "ELMER.data",
         "GenomicFeatures",
         "TCGAbiolinks",
         "Gviz",
@@ -3973,7 +3972,6 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "ELMER.data": [],
     "emtdata": [
         "ExperimentHub",
         "SummarizedExperiment",
@@ -4197,7 +4195,6 @@
         "EpiMix.data",
         "AnnotationHub",
         "biomaRt",
-        "ELMER.data",
         "ExperimentHub",
         "GenomicFeatures",
         "SummarizedExperiment",
@@ -12936,7 +12933,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "ELMER.data",
         "GenomicFeatures",
         "Gviz",
         "MultiAssayExperiment",
