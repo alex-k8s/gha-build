@@ -18667,7 +18667,6 @@
         "Biostrings",
         "XVector"
     ],
-    "Rfastp": [],
     "RforProteomics": [
         "MSnbase"
     ],
