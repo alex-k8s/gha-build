@@ -12379,7 +12379,6 @@
         "GO.db",
         "annotate"
     ],
-    "transomics2cytoscape": [],
     "TransView": [],
     "TraRe": [
         "SummarizedExperiment"
