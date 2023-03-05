@@ -7832,7 +7832,6 @@
         "ncdfFlow",
         "flowViz"
     ],
-    "flowTime": [],
     "flowTrans": [
         "flowViz",
         "flowClust"
