@@ -4619,7 +4619,6 @@
     ],
     "CompoundDb": [
         "AnnotationFilter",
-        "Spectra",
         "GenomicRanges",
         "XVector"
     ],
@@ -12162,7 +12161,6 @@
         "XVector"
     ],
     "MetaboAnnotation": [
-        "Spectra",
         "SummarizedExperiment",
         "QFeatures",
         "CompoundDb",
@@ -12338,9 +12336,7 @@
         "KEGGREST",
         "GenomicAlignments"
     ],
-    "MetCirc": [
-        "Spectra"
-    ],
+    "MetCirc": [],
     "MethCP": [
         "bsseq",
         "DSS",
@@ -13449,7 +13445,6 @@
     "MobilityTransformR": [
         "MSnbase",
         "xcms",
-        "Spectra",
         "vsn",
         "SummarizedExperiment",
         "MsFeatures",
@@ -13840,20 +13835,11 @@
         "GenomicRanges",
         "XVector"
     ],
-    "MsBackendMassbank": [
-        "Spectra"
-    ],
-    "MsBackendMgf": [
-        "Spectra"
-    ],
-    "MsBackendMsp": [
-        "Spectra"
-    ],
-    "MsBackendRawFileReader": [
-        "Spectra"
-    ],
+    "MsBackendMassbank": [],
+    "MsBackendMgf": [],
+    "MsBackendMsp": [],
+    "MsBackendRawFileReader": [],
     "MsExperiment": [
-        "Spectra",
         "SummarizedExperiment",
         "QFeatures",
         "MultiAssayExperiment",
@@ -21515,7 +21501,6 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "Spectra": [],
     "SpectralTAD": [
         "HiCcompare",
         "GenomicRanges",
