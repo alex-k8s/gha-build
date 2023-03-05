@@ -3060,7 +3060,6 @@
     "fishpond": [
         "SingleCellExperiment"
     ],
-    "fission": [],
     "fitCons.UCSC.hg19": [
         "GenomicScores",
         "BSgenome",
@@ -7192,7 +7191,6 @@
         "Gviz",
         "sva",
         "RUVSeq",
-        "fission",
         "geneplotter",
         "rtracklayer",
         "GenomicFeatures",
@@ -7254,9 +7252,7 @@
         "rtracklayer"
     ],
     "Roberts2005Annotation.db": [],
-    "ROCpAI": [
-        "fission"
-    ],
+    "ROCpAI": [],
     "RolDE": [],
     "ropls": [
         "MultiAssayExperiment",
