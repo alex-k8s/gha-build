@@ -7503,7 +7503,6 @@
         "scater",
         "scMerge",
         "scran",
-        "SingleR",
         "sva",
         "celda",
         "DropletUtils",
@@ -7534,7 +7533,6 @@
         "VariantAnnotation"
     ],
     "SingleMoleculeFootprintingData": [],
-    "SingleR": [],
     "singscore": [],
     "SingscoreAMLMutations": [
         "rtracklayer",
