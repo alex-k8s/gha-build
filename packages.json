@@ -28,9 +28,7 @@
     "ADImpute": [
         "SingleCellExperiment"
     ],
-    "adme16cod.db": [
-        "org.Rn.eg.db"
-    ],
+    "adme16cod.db": [],
     "adSplit": [],
     "AffiXcan": [
         "MultiAssayExperiment"
@@ -1609,7 +1607,6 @@
     ],
     "chipenrich": [
         "chipenrich.data",
-        "org.Rn.eg.db",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -1756,12 +1753,8 @@
     "clariomshumantranscriptcluster.db": [],
     "clariomsmousehttranscriptcluster.db": [],
     "clariomsmousetranscriptcluster.db": [],
-    "clariomsrathttranscriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
-    "clariomsrattranscriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
+    "clariomsrathttranscriptcluster.db": [],
+    "clariomsrattranscriptcluster.db": [],
     "ClassifyR": [
         "MultiAssayExperiment",
         "genefilter"
@@ -2652,7 +2645,6 @@
         "PADOG",
         "GSVA",
         "globaltest",
-        "org.Rn.eg.db",
         "GSEABase",
         "SingleCellExperiment",
         "hgu133plus2.db",
@@ -2666,7 +2658,6 @@
         "PADOG",
         "GSVA",
         "globaltest",
-        "org.Rn.eg.db",
         "GSEABase",
         "SingleCellExperiment",
         "hgu133plus2.db",
@@ -3381,7 +3372,6 @@
     ],
     "geneXtendeR": [
         "rtracklayer",
-        "org.Rn.eg.db",
         "GenomicAlignments"
     ],
     "genomation": [
@@ -3816,12 +3806,8 @@
     "htmg430a.db": [],
     "htmg430b.db": [],
     "htmg430pm.db": [],
-    "htrat230pm.db": [
-        "org.Rn.eg.db"
-    ],
-    "htratfocus.db": [
-        "org.Rn.eg.db"
-    ],
+    "htrat230pm.db": [],
+    "htratfocus.db": [],
     "HTSeqGenie": [
         "gmapR",
         "ShortRead",
@@ -4002,9 +3988,7 @@
     "illuminaMousev1.db": [],
     "illuminaMousev1p1.db": [],
     "illuminaMousev2.db": [],
-    "illuminaRatv1.db": [
-        "org.Rn.eg.db"
-    ],
+    "illuminaRatv1.db": [],
     "ILoReg": [
         "SingleCellExperiment"
     ],
@@ -4333,9 +4317,7 @@
         "bumphunter",
         "GenomicAlignments"
     ],
-    "lumiRatAll.db": [
-        "org.Rn.eg.db"
-    ],
+    "lumiRatAll.db": [],
     "lumiRatIDMapping": [
         "lumi",
         "methylumi",
@@ -5673,7 +5655,6 @@
         "geneplotter"
     ],
     "org.Mxanthus.db": [],
-    "org.Rn.eg.db": [],
     "Organism.dplyr": [
         "GenomicFeatures",
         "rtracklayer",
@@ -6847,9 +6828,7 @@
         "GenomicAlignments",
         "VariantAnnotation"
     ],
-    "r10kcod.db": [
-        "org.Rn.eg.db"
-    ],
+    "r10kcod.db": [],
     "R3CPET": [
         "ggbio",
         "biovizBase",
@@ -6877,42 +6856,18 @@
         "CoreGx",
         "MultiAssayExperiment"
     ],
-    "rae230a.db": [
-        "org.Rn.eg.db"
-    ],
-    "rae230b.db": [
-        "org.Rn.eg.db"
-    ],
-    "raex10stprobeset.db": [
-        "org.Rn.eg.db"
-    ],
-    "raex10sttranscriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene10stprobeset.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene10sttranscriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene11stprobeset.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene11sttranscriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene20stprobeset.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene20sttranscriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene21stprobeset.db": [
-        "org.Rn.eg.db"
-    ],
-    "ragene21sttranscriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
+    "rae230a.db": [],
+    "rae230b.db": [],
+    "raex10stprobeset.db": [],
+    "raex10sttranscriptcluster.db": [],
+    "ragene10stprobeset.db": [],
+    "ragene10sttranscriptcluster.db": [],
+    "ragene11stprobeset.db": [],
+    "ragene11sttranscriptcluster.db": [],
+    "ragene20stprobeset.db": [],
+    "ragene20sttranscriptcluster.db": [],
+    "ragene21stprobeset.db": [],
+    "ragene21sttranscriptcluster.db": [],
     "RaggedExperiment": [],
     "ramwas": [
         "GenomicAlignments"
@@ -6928,9 +6883,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "rat2302.db": [
-        "org.Rn.eg.db"
-    ],
+    "rat2302.db": [],
     "rat2302frmavecs": [
         "frma",
         "oligo",
@@ -6939,7 +6892,6 @@
     "Rattus.norvegicus": [
         "OrganismDbi",
         "GenomicFeatures",
-        "org.Rn.eg.db",
         "TxDb.Rnorvegicus.UCSC.rn5.refGene",
         "rtracklayer",
         "GenomicAlignments"
@@ -7175,36 +7127,20 @@
         "GenomicFeatures",
         "GenomicAlignments"
     ],
-    "rgu34a.db": [
-        "org.Rn.eg.db"
-    ],
-    "rgu34b.db": [
-        "org.Rn.eg.db"
-    ],
-    "rgu34c.db": [
-        "org.Rn.eg.db"
-    ],
-    "rguatlas4k.db": [
-        "org.Rn.eg.db"
-    ],
-    "rgug4105a.db": [
-        "org.Rn.eg.db"
-    ],
-    "rgug4130a.db": [
-        "org.Rn.eg.db"
-    ],
-    "rgug4131a.db": [
-        "org.Rn.eg.db"
-    ],
+    "rgu34a.db": [],
+    "rgu34b.db": [],
+    "rgu34c.db": [],
+    "rguatlas4k.db": [],
+    "rgug4105a.db": [],
+    "rgug4130a.db": [],
+    "rgug4131a.db": [],
     "Rhisat2": [
         "GenomicFeatures",
         "SGSeq",
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "ri16cod.db": [
-        "org.Rn.eg.db"
-    ],
+    "ri16cod.db": [],
     "RiboCrypt": [
         "ORFik",
         "GenomicFeatures",
@@ -7321,9 +7257,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "RnAgilentDesign028282.db": [
-        "org.Rn.eg.db"
-    ],
+    "RnAgilentDesign028282.db": [],
     "RNAinteract": [
         "cellHTS2",
         "geneplotter",
@@ -7476,9 +7410,7 @@
         "bumphunter",
         "GenomicAlignments"
     ],
-    "rnu34.db": [
-        "org.Rn.eg.db"
-    ],
+    "rnu34.db": [],
     "roar": [
         "GenomicAlignments",
         "rtracklayer"
@@ -7522,12 +7454,8 @@
         "ShortRead",
         "GenomicAlignments"
     ],
-    "rta10probeset.db": [
-        "org.Rn.eg.db"
-    ],
-    "rta10transcriptcluster.db": [
-        "org.Rn.eg.db"
-    ],
+    "rta10probeset.db": [],
+    "rta10transcriptcluster.db": [],
     "RTCGAToolbox": [
         "RaggedExperiment",
         "TCGAutils",
@@ -7552,9 +7480,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "rtu34.db": [
-        "org.Rn.eg.db"
-    ],
+    "rtu34.db": [],
     "runibic": [],
     "RUVSeq": [
         "EDASeq",
@@ -7563,9 +7489,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "rwgcod.db": [
-        "org.Rn.eg.db"
-    ],
+    "rwgcod.db": [],
     "SAIGEgds": [],
     "sampleClassifier": [
         "MGFM",
