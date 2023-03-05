@@ -9846,7 +9846,6 @@
         "KEGGREST",
         "GenomicAlignments"
     ],
-    "MetCirc": [],
     "MethCP": [
         "bsseq",
         "DSS",
