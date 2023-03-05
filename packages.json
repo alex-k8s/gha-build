@@ -8096,7 +8096,6 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "soybeanprobe": [],
     "Spaniel": [
         "SingleCellExperiment",
         "scater",
