@@ -8392,7 +8392,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "targetscan.Mm.eg.db": [],
     "TarSeqQC": [
         "GenomicAlignments"
     ],
