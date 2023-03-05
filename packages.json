@@ -7483,7 +7483,6 @@
     "rnu34.db": [
         "org.Rn.eg.db"
     ],
-    "rnu34probe": [],
     "roar": [
         "GenomicAlignments",
         "rtracklayer"
