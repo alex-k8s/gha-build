@@ -9751,7 +9751,6 @@
         "msigdb",
         "ExperimentHub"
     ],
-    "vitisviniferacdf": [],
     "Voyager": [
         "SingleCellExperiment",
         "SpatialExperiment",
