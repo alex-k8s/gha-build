@@ -21564,7 +21564,6 @@
         "Biostrings",
         "XVector"
     ],
-    "SpikeIn": [],
     "SpikeInSubset": [],
     "spiky": [
         "Rsamtools",
