@@ -5700,7 +5700,6 @@
         "rtracklayer",
         "geneplotter"
     ],
-    "org.Ag.eg.db": [],
     "org.Bt.eg.db": [],
     "org.Dm.eg.db": [],
     "org.Mmu.eg.db": [],
