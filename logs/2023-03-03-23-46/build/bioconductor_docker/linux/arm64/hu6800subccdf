@@ -1,0 +1,44 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''hu6800subccdf'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'hu6800subccdf'
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/hu6800subccdf_2.18.0.tar.gz'
+Content type 'application/x-gzip' length 133183 bytes (130 KB)
+==================================================
+downloaded 130 KB
+
+* installing *source* package ‘hu6800subccdf’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hu6800subccdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hu6800subccdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hu6800subccdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hu6800subccdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hu6800subccdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hu6800subccdf’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hu6800subccdf’ as ‘hu6800subccdf_2.18.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (hu6800subccdf)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCVlBxe/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	1m59.424s
+user	1m56.677s
+sys	0m1.805s
