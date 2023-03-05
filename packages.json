@@ -8734,7 +8734,6 @@
     "dyebias": [],
     "dyebiasexamples": [],
     "easier": [
-        "progeny",
         "easierData",
         "dorothea",
         "quantiseqr",
@@ -24262,7 +24261,6 @@
         "GOSemSim",
         "HDO.db"
     ],
-    "progeny": [],
     "projectR": [
         "CoGAPS",
         "SingleCellExperiment",
