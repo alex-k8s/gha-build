@@ -18027,7 +18027,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "paircompviz": [],
     "pairkat": [
         "SummarizedExperiment",
         "KEGGREST",
