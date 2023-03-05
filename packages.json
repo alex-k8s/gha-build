@@ -27080,7 +27080,6 @@
     "RTCA": [],
     "RTCGA.methylation": [],
     "RTCGA.mutations": [],
-    "RTCGA.PANCAN12": [],
     "RTCGAToolbox": [
         "DelayedArray",
         "GenomicRanges",
