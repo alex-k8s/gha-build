@@ -4479,7 +4479,6 @@
         "Category",
         "GOstats",
         "annotate",
-        "RCy3",
         "IRanges",
         "KEGGREST",
         "genefilter",
@@ -4833,7 +4832,6 @@
         "ComplexHeatmap",
         "clusterProfiler",
         "DESeq2",
-        "RCy3",
         "SummarizedExperiment",
         "AnnotationDbi",
         "DOSE",
@@ -7436,8 +7434,7 @@
     ],
     "DEGraph": [
         "KEGGgraph",
-        "NCIgraph",
-        "RCy3"
+        "NCIgraph"
     ],
     "DEGreport": [
         "ComplexHeatmap",
@@ -9921,9 +9918,7 @@
         "TrajectoryUtils",
         "XVector"
     ],
-    "fedup": [
-        "RCy3"
-    ],
+    "fedup": [],
     "FELLA": [
         "KEGGREST",
         "Biostrings",
@@ -16234,7 +16229,6 @@
     ],
     "MetaPhOR": [
         "clusterProfiler",
-        "RCy3",
         "AnnotationDbi",
         "DOSE",
         "enrichplot",
@@ -17842,9 +17836,7 @@
         "DelayedArray",
         "IRanges"
     ],
-    "MOGAMUN": [
-        "RCy3"
-    ],
+    "MOGAMUN": [],
     "mogene10stprobeset.db": [
         "AnnotationDbi",
         "org.Mm.eg.db",
@@ -19155,8 +19147,7 @@
         "XVector"
     ],
     "NCIgraph": [
-        "KEGGgraph",
-        "RCy3"
+        "KEGGgraph"
     ],
     "ncRNAtools": [
         "IRanges",
@@ -19311,7 +19302,6 @@
     ],
     "netZooR": [
         "yarn",
-        "RCy3",
         "GOstats",
         "AnnotationDbi",
         "GO.db",
@@ -24398,7 +24388,6 @@
     "RcwlPipelines": [
         "Rcwl"
     ],
-    "RCy3": [],
     "reactome.db": [
         "AnnotationDbi",
         "IRanges",
@@ -24685,7 +24674,6 @@
         "GenomicRanges",
         "Gviz",
         "IRanges",
-        "RCy3",
         "KEGGREST",
         "XVector",
         "GenomeInfoDb",
@@ -29759,7 +29747,6 @@
         "MultiAssayExperiment",
         "biomaRt",
         "clusterProfiler",
-        "RCy3",
         "AnnotationDbi",
         "DOSE",
         "enrichplot",
@@ -30076,7 +30063,6 @@
         "Biostrings"
     ],
     "transomics2cytoscape": [
-        "RCy3",
         "KEGGREST",
         "Biostrings",
         "IRanges",
