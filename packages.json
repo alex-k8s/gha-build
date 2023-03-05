@@ -14219,7 +14219,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "metabCombiner": [],
     "MetaboAnnotation": [
         "MetaboCoreUtils",
         "Spectra",
