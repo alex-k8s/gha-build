@@ -589,7 +589,6 @@
         "sva",
         "genefilter"
     ],
-    "BioNet": [],
     "BioNetStat": [
         "pathview"
     ],
@@ -8652,7 +8651,6 @@
     ],
     "SMITE": [
         "reactome.db",
-        "BioNet",
         "goseq",
         "geneLenDataBase",
         "rtracklayer",
