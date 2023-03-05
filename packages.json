@@ -20878,7 +20878,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "ptairData": [],
     "ptairMS": [
         "MSnbase",
         "vsn"
