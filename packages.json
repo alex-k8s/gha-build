@@ -885,7 +885,6 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "arrayQuality": [],
     "arrayQualityMetrics": [
         "affyPLM",
         "beadarray",
