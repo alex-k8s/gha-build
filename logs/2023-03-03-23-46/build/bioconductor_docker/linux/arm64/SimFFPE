@@ -1,0 +1,316 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SimFFPE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'SimFFPE'
+also installing the dependencies ‘generics’, ‘tidyselect’, ‘iterators’, ‘dplyr’, ‘foreach’, ‘doParallel’, ‘truncnorm’, ‘Rsamtools’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/generics_0.1.3.tar.gz'
+Content type 'binary/octet-stream' length 173651 bytes (169 KB)
+==================================================
+downloaded 169 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 101485 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/iterators_1.0.14.tar.gz'
+Content type 'binary/octet-stream' length 299454 bytes (292 KB)
+==================================================
+downloaded 292 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/dplyr_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1067314 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/foreach_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 89205 bytes (87 KB)
+==================================================
+downloaded 87 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/doParallel_1.0.17.tar.gz'
+Content type 'binary/octet-stream' length 164842 bytes (160 KB)
+==================================================
+downloaded 160 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/truncnorm_1.0-8.tar.gz'
+Content type 'application/x-tar' length 11379 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/Rsamtools_2.14.0.tar.gz'
+Content type 'application/x-gzip' length 2873806 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/SimFFPE_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 758603 bytes (740 KB)
+==================================================
+downloaded 740 KB
+
+* installing *source* package ‘generics’ ...
+** package ‘generics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *source* package ‘tidyselect’ ...
+** package ‘tidyselect’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *source* package ‘iterators’ ...
+** package ‘iterators’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *source* package ‘truncnorm’ ...
+** package ‘truncnorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exports.c -o exports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rtruncnorm.c -o rtruncnorm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c truncnorm.c -o truncnorm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zeroin.c -o zeroin.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o truncnorm.so exports.o rtruncnorm.o truncnorm.o zeroin.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-truncnorm/00new/truncnorm/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘truncnorm’ as ‘truncnorm_1.0-8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (truncnorm)
+* installing *source* package ‘Rsamtools’ ...
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c COMPAT_bcf_hdr_read.c -o COMPAT_bcf_hdr_read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PileupBuffer.cpp -o PileupBuffer.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PosCacheColl.cpp -o PosCacheColl.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Rsamtools.c -o R_init_Rsamtools.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ResultManager.cpp -o ResultManager.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c as_bam.c -o as_bam.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_data.c -o bam_data.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_mate_iter.cpp -o bam_mate_iter.o
+In file included from Template.h:9,
+                 from BamIterator.h:10,
+                 from BamRangeIterator.h:7,
+                 from bam_mate_iter.cpp:2:
+BamRangeIterator.h: In member function ‘virtual void BamRangeIterator::finalize_inprogress(bamFile)’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:41: warning: ignoring return value of ‘int64_t bgzf_seek(BGZF*, int64_t, int)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ~~~~~~~~~^~~~~~~~~~~~~~
+BamRangeIterator.h:138:16: note: in expansion of macro ‘bam_seek’
+  138 |         (void) bam_seek(bfile, pos, SEEK_SET);
+      |                ^~~~~~~~
+BamIterator.h: In constructor ‘BamIterator::BamIterator(bamFile, const bam_index_t*)’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:41: warning: ignoring return value of ‘int64_t bgzf_seek(BGZF*, int64_t, int)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ~~~~~~~~~^~~~~~~~~~~~~~
+BamIterator.h:87:16: note: in expansion of macro ‘bam_seek’
+   87 |         (void) bam_seek(bfile, 0, 0);
+      |                ^~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_plbuf.c -o bam_plbuf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_sort.c -o bam_sort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bambuffer.c -o bambuffer.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bamfile.c -o bamfile.o
+bamfile.c: In function ‘bamfile_isincomplete’:
+bamfile.c:168:20: warning: ignoring return value of ‘bgzf_seek’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  168 |             (void) bgzf_seek(bfile->file->x.bam, offset, SEEK_SET);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bcffile.c -o bcffile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bedidx.c -o bedidx.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encode.c -o encode.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fafile.c -o fafile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c idxstats.c -o idxstats.o
+In file included from bamfile.h:5,
+                 from idxstats.c:1:
+idxstats.c: In function ‘idxstats_bamfile’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:32: warning: ignoring return value of ‘bgzf_seek’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+idxstats.c:20:12: note: in expansion of macro ‘bam_seek’
+   20 |     (void) bam_seek(fp, 0, 0);
+      |            ^~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_sam.c -o io_sam.o
+In file included from io_sam.c:2:
+io_sam.c: In function ‘_scan_bam_all’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:32: warning: ignoring return value of ‘bgzf_seek’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+io_sam.c:304:12: note: in expansion of macro ‘bam_seek’
+  304 |     (void) bam_seek(bfile->file->x.bam, bfile->pos0, SEEK_SET);
+      |            ^~~~~~~~
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pbuffer_wrapper.cpp -o pbuffer_wrapper.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pileup.cpp -o pileup.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pileupbam.c -o pileupbam.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sam_opts.c -o sam_opts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sam_utils.c -o sam_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c samtools_patch.c -o samtools_patch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scan_bam_data.c -o scan_bam_data.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tabixfile.c -o tabixfile.o
+tabixfile.c: In function ‘index_tabix’:
+tabixfile.c:190:5: warning: ‘bgzf_is_bgzf’ is deprecated: Use bgzf_compression() or hts_detect_format() instead [-Wdeprecated-declarations]
+  190 |     if (bgzf_is_bgzf(fn) != 1)
+      |     ^~
+In file included from tabixfile.c:3:
+/tmp/built/Rhtslib/include/htslib/bgzf.h:270:9: note: declared here
+  270 |     int bgzf_is_bgzf(const char *fn) HTS_DEPRECATED("Use bgzf_compression() or hts_detect_format() instead");
+      |         ^~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tagfilter.c -o tagfilter.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utilities.c -o utilities.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zip_compression.c -o zip_compression.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rsamtools.so Biostrings_stubs.o COMPAT_bcf_hdr_read.o IRanges_stubs.o PileupBuffer.o PosCacheColl.o R_init_Rsamtools.o ResultManager.o S4Vectors_stubs.o XVector_stubs.o as_bam.o bam_data.o bam_mate_iter.o bam_plbuf.o bam_sort.o bambuffer.o bamfile.o bcffile.o bedidx.o encode.o fafile.o idxstats.o io_sam.o pbuffer_wrapper.o pileup.o pileupbam.o sam_opts.o sam_utils.o samtools_patch.o scan_bam_data.o tabixfile.o tagfilter.o utilities.o zip_compression.o /tmp/built/Rhtslib/usrlib/libhts.a -lcurl -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-Rsamtools/00new/Rsamtools/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rsamtools’ as ‘Rsamtools_2.14.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Rsamtools)
+* installing *source* package ‘dplyr’ ...
+** package ‘dplyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chop.cpp -o chop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c filter.cpp -o filter.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c funs.cpp -o funs.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c group_by.cpp -o group_by.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c group_data.cpp -o group_data.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c imports.cpp -o imports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mask.cpp -o mask.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mutate.cpp -o mutate.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slice.cpp -o slice.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c summarise.cpp -o summarise.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o dplyr.so chop.o filter.o funs.o group_by.o group_data.o imports.o init.o mask.o mutate.o slice.o summarise.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-dplyr/00new/dplyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.1.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (dplyr)
+* installing *source* package ‘foreach’ ...
+** package ‘foreach’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *source* package ‘doParallel’ ...
+** package ‘doParallel’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘doParallel’ as ‘doParallel_1.0.17_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (doParallel)
+* installing *source* package ‘SimFFPE’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SimFFPE’ as ‘SimFFPE_1.10.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (SimFFPE)
+
+The downloaded source packages are in
+	‘/tmp/RtmpF8YYgl/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	13m24.169s
+user	13m1.018s
+sys	0m23.876s

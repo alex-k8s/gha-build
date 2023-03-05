@@ -9777,7 +9777,6 @@
         "annotate"
     ],
     "SimBu": [],
-    "SimFFPE": [],
     "simpleSeg": [
         "cytomapper",
         "SingleCellExperiment",
