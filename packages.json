@@ -11676,7 +11676,6 @@
         "BiocIO",
         "DelayedArray"
     ],
-    "GRridge": [],
     "GSCA": [],
     "gscreend": [
         "SummarizedExperiment",
