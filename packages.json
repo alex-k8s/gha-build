@@ -2513,7 +2513,6 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "CellaRepertorium": [],
     "CellBarcode": [
         "ShortRead",
         "Rsamtools",
