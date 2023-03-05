@@ -5270,7 +5270,6 @@
     "cyanoFilter": [
         "flowDensity",
         "flowClust",
-        "flowViz",
         "flowWorkspace",
         "ncdfFlow"
     ],
@@ -5337,7 +5336,6 @@
         "openCyto",
         "ggcyto",
         "ncdfFlow",
-        "flowViz",
         "flowClust"
     ],
     "dada2": [
@@ -5449,7 +5447,6 @@
     ],
     "ddPCRclust": [
         "flowDensity",
-        "flowViz",
         "flowWorkspace",
         "ncdfFlow"
     ],
@@ -7674,25 +7671,20 @@
         "XVector"
     ],
     "flowBin": [
-        "flowFP",
-        "flowViz"
+        "flowFP"
     ],
     "flowCL": [],
     "flowClust": [],
     "flowCut": [
         "flowDensity",
-        "flowViz",
         "flowWorkspace",
         "ncdfFlow"
     ],
     "flowDensity": [
-        "flowViz",
         "flowWorkspace",
         "ncdfFlow"
     ],
-    "flowFP": [
-        "flowViz"
-    ],
+    "flowFP": [],
     "flowMeans": [],
     "flowMerge": [
         "flowClust"
@@ -7821,16 +7813,12 @@
     ],
     "flowStats": [
         "flowWorkspace",
-        "ncdfFlow",
-        "flowViz"
+        "ncdfFlow"
     ],
     "flowTrans": [
-        "flowViz",
         "flowClust"
     ],
-    "flowViz": [],
     "flowVS": [
-        "flowViz",
         "flowStats",
         "flowWorkspace",
         "ncdfFlow"
@@ -7985,8 +7973,7 @@
         "GenomicAlignments"
     ],
     "GateFinder": [
-        "flowFP",
-        "flowViz"
+        "flowFP"
     ],
     "GBScleanR": [
         "SeqArray",
@@ -9576,8 +9563,7 @@
     "highthroughputassays": [
         "flowStats",
         "flowWorkspace",
-        "ncdfFlow",
-        "flowViz"
+        "ncdfFlow"
     ],
     "Hiiragi2013": [
         "genefilter",
@@ -15096,7 +15082,6 @@
         "Biostrings"
     ],
     "openCyto": [
-        "flowViz",
         "ncdfFlow",
         "flowWorkspace",
         "flowClust"
