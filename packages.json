@@ -4649,7 +4649,6 @@
         "KEGGREST",
         "annotate"
     ],
-    "DIAlignR": [],
     "DiffBind": [
         "GenomicRanges",
         "SummarizedExperiment",
