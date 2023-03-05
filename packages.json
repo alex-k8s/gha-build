@@ -3522,7 +3522,6 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "COTAN": [],
     "cottoncdf": [
         "AnnotationDbi",
         "KEGGREST"
