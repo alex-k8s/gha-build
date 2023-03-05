@@ -7385,7 +7385,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "SHDZ.db": [],
     "shinyepico": [
         "minfi",
         "rtracklayer",
