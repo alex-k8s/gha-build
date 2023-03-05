@@ -4344,7 +4344,6 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "cbpManager": [],
     "ccfindR": [
         "SummarizedExperiment",
         "SingleCellExperiment",
