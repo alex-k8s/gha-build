@@ -26176,7 +26176,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "RGraph2js": [],
     "rGREAT": [
         "GenomicRanges",
         "IRanges",
