@@ -7123,7 +7123,6 @@
     "org.Rn.eg.db": [],
     "org.Sc.sgd.db": [],
     "org.Ss.eg.db": [],
-    "org.Xl.eg.db": [],
     "Organism.dplyr": [
         "GenomicFeatures",
         "rtracklayer",
@@ -11321,9 +11320,7 @@
     "XhybCasneuf": [
         "ath1121501cdf"
     ],
-    "xlaevis.db": [
-        "org.Xl.eg.db"
-    ],
+    "xlaevis.db": [],
     "xlaevis2cdf": [],
     "xlaevis2probe": [],
     "XNAString": [
