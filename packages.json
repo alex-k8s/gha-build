@@ -15880,7 +15880,6 @@
         "KEGGREST"
     ],
     "target": [],
-    "TargetDecoy": [],
     "targetscan.Hs.eg.db": [
         "AnnotationDbi",
         "KEGGREST"
