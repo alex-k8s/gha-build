@@ -29071,7 +29071,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "SNAData": [],
     "snapCGH": [
         "aCGH",
         "tilingArray",
