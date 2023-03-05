@@ -2066,7 +2066,6 @@
         "genomation",
         "BSgenome",
         "GenomicAlignments",
-        "seqPattern",
         "SummarizedExperiment"
     ],
     "cfDNAPro": [
@@ -3841,7 +3840,6 @@
         "GenomicFeatures",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "BSgenome",
-        "seqPattern",
         "geneplotter",
         "DOSE",
         "GOSemSim",
@@ -4207,7 +4205,6 @@
         "genomation",
         "BSgenome",
         "GenomicAlignments",
-        "seqPattern",
         "rtracklayer",
         "SummarizedExperiment"
     ],
@@ -4676,7 +4673,6 @@
     "genomation": [
         "BSgenome",
         "GenomicAlignments",
-        "seqPattern",
         "rtracklayer",
         "SummarizedExperiment"
     ],
@@ -9961,7 +9957,6 @@
         "GenomicFeatures",
         "genomation",
         "GenomicAlignments",
-        "seqPattern",
         "biomaRt",
         "SummarizedExperiment"
     ],
@@ -11215,7 +11210,6 @@
         "geneplotter",
         "annotate"
     ],
-    "seqPattern": [],
     "seqsetvis": [
         "GenomicAlignments",
         "rtracklayer",
