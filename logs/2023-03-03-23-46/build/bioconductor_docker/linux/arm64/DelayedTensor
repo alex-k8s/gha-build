@@ -1,0 +1,190 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''DelayedTensor'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'DelayedTensor'
+also installing the dependencies ‘rsvd’, ‘mathjaxr’, ‘BiocSingular’, ‘rTensor’, ‘irlba’, ‘einsum’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/rsvd_1.0.5.tar.gz'
+Content type 'binary/octet-stream' length 3458063 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/mathjaxr_1.6-0.tar.gz'
+Content type 'binary/octet-stream' length 1050646 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/BiocSingular_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 583764 bytes (570 KB)
+==================================================
+downloaded 570 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/rTensor_1.4.8.tar.gz'
+Content type 'binary/octet-stream' length 32854 bytes (32 KB)
+==================================================
+downloaded 32 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/irlba_2.3.5.1.tar.gz'
+Content type 'binary/octet-stream' length 233667 bytes (228 KB)
+==================================================
+downloaded 228 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/einsum_0.1.0.tar.gz'
+Content type 'binary/octet-stream' length 123897 bytes (120 KB)
+==================================================
+downloaded 120 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/DelayedTensor_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 4270093 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+* installing *source* package ‘rsvd’ ...
+** package ‘rsvd’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rsvd’ as ‘rsvd_1.0.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (rsvd)
+* installing *source* package ‘mathjaxr’ ...
+** package ‘mathjaxr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+** arch - 
+# install.libs.R will minify the Javascript if js is installed
+installing via 'install.libs.R' to /tmp/built/00LOCK-mathjaxr/00new/mathjaxr
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mathjaxr’ as ‘mathjaxr_1.6-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (mathjaxr)
+* installing *source* package ‘rTensor’ ...
+** package ‘rTensor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rTensor’ as ‘rTensor_1.4.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (rTensor)
+* installing *source* package ‘irlba’ ...
+** package ‘irlba’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/library/Matrix/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c irlb.c -o irlb.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/library/Matrix/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utility.c -o utility.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o irlba.so irlb.o utility.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-irlba/00new/irlba/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘irlba’ as ‘irlba_2.3.5.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (irlba)
+* installing *source* package ‘BiocSingular’ ...
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/beachmat/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/beachmat/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_scale.cpp -o compute_scale.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocSingular.so RcppExports.o compute_scale.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-BiocSingular/00new/BiocSingular/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocSingular’ as ‘BiocSingular_1.14.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BiocSingular)
+* installing *source* package ‘einsum’ ...
+** package ‘einsum’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c code.cpp -o code.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o einsum.so RcppExports.o code.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-einsum/00new/einsum/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘einsum’ as ‘einsum_0.1.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (einsum)
+* installing *source* package ‘DelayedTensor’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘kronecker’ in package ‘DelayedTensor’
+Creating a new generic function for ‘diag’ in package ‘DelayedTensor’
+Creating a new generic function for ‘diag<-’ in package ‘DelayedTensor’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DelayedTensor’ as ‘DelayedTensor_1.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (DelayedTensor)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQPaoSZ/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	11m18.485s
+user	11m7.389s
+sys	0m9.226s
