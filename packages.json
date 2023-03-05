@@ -7792,7 +7792,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "etec16s": [],
     "eudysbiome": [
         "Rsamtools",
         "Biostrings",
