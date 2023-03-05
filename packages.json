@@ -2090,8 +2090,7 @@
         "exomeCopy"
     ],
     "CNVRanger": [
-        "RaggedExperiment",
-        "GDSArray"
+        "RaggedExperiment"
     ],
     "CNVrd2": [
         "VariantAnnotation",
@@ -3818,7 +3817,6 @@
         "geneplotter",
         "annotate"
     ],
-    "GDSArray": [],
     "gemma.R": [],
     "genbankr": [
         "GenomicFeatures",
@@ -10803,7 +10801,6 @@
         "GenomicAlignments"
     ],
     "VariantExperiment": [
-        "GDSArray",
         "SeqVarTools"
     ],
     "VariantFiltering": [
