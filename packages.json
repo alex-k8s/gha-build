@@ -653,7 +653,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "HDO.db",
         "graphite"
     ],
     "biocGraph": [
@@ -1751,8 +1750,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "censcyt": [
         "diffcyt"
@@ -1770,7 +1768,6 @@
         "GO.db",
         "GOSemSim",
         "geneplotter",
-        "HDO.db",
         "annotate"
     ],
     "CexoR": [
@@ -1929,7 +1926,6 @@
         "GOSemSim",
         "biomaRt",
         "GenomicAlignments",
-        "HDO.db",
         "GO.db"
     ],
     "chipseq": [
@@ -2099,8 +2095,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "clustifyr": [
         "SingleCellExperiment"
@@ -2267,8 +2262,7 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "scuttle",
-        "HDO.db"
+        "scuttle"
     ],
     "condiments": [
         "slingshot",
@@ -2685,7 +2679,6 @@
         "GO.db",
         "GOSemSim",
         "geneplotter",
-        "HDO.db",
         "genefilter"
     ],
     "deco": [
@@ -2993,7 +2986,6 @@
         "annotate"
     ],
     "DOSE": [
-        "HDO.db",
         "GOSemSim",
         "GO.db"
     ],
@@ -3070,8 +3062,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "easyRNASeq": [
         "biomaRt",
@@ -3122,7 +3113,6 @@
         "GO.db",
         "GOSemSim",
         "geneplotter",
-        "HDO.db",
         "annotate"
     ],
     "EGSEA": [
@@ -3215,7 +3205,6 @@
     "enrichplot": [
         "DOSE",
         "GOSemSim",
-        "HDO.db",
         "GO.db"
     ],
     "enrichTF": [
@@ -3231,8 +3220,7 @@
         "GOSemSim",
         "GenomicAlignments",
         "CNEr",
-        "annotate",
-        "HDO.db"
+        "annotate"
     ],
     "EnsDb.Hsapiens.v75": [
         "ensembldb",
@@ -3321,7 +3309,6 @@
         "DOSE",
         "GOSemSim",
         "biomaRt",
-        "HDO.db",
         "annotate",
         "GO.db"
     ],
@@ -3344,7 +3331,6 @@
         "reactome.db",
         "graphite",
         "GO.db",
-        "HDO.db",
         "GOSemSim"
     ],
     "EpiMix": [
@@ -3503,8 +3489,7 @@
         "GOSemSim",
         "biomaRt",
         "CNEr",
-        "annotate",
-        "HDO.db"
+        "annotate"
     ],
     "escape": [
         "GSEABase",
@@ -3622,8 +3607,7 @@
         "org.Hs.eg.db",
         "DOSE",
         "enrichplot",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "fastLiquidAssociation": [
         "LiquidAssociation",
@@ -3648,8 +3632,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "fcScan": [
         "VariantAnnotation",
@@ -3958,7 +3941,6 @@
         "GO.db",
         "GOSemSim",
         "geneplotter",
-        "HDO.db",
         "annotate"
     ],
     "GDSArray": [],
@@ -4274,8 +4256,7 @@
         "clusterProfiler",
         "DOSE",
         "enrichplot",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "goSTAG": [
         "biomaRt",
@@ -4445,7 +4426,6 @@
         "ExperimentHub",
         "AnnotationHub"
     ],
-    "HDO.db": [],
     "healthyControlsPresenceChecker": [
         "annotate"
     ],
@@ -5142,8 +5122,7 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "scuttle",
-        "HDO.db"
+        "scuttle"
     ],
     "ISAnalytics": [],
     "iSEE": [
@@ -5613,7 +5592,6 @@
         "GOSemSim",
         "ExperimentHub",
         "AnnotationHub",
-        "HDO.db",
         "org.Hs.eg.db"
     ],
     "MAI": [],
@@ -5802,7 +5780,6 @@
         "GOSemSim",
         "AnnotationHub",
         "MeSHDbi",
-        "HDO.db",
         "GO.db"
     ],
     "meshr": [
@@ -5877,8 +5854,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "metaseqR2": [
         "DESeq2",
@@ -6044,7 +6020,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
-        "HDO.db",
         "FDb.InfiniumMethylation.hg19",
         "annotate",
         "genefilter",
@@ -6218,8 +6193,7 @@
         "enrichplot",
         "DOSE",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "MicrobiotaProcess": [],
     "microRNAome": [],
@@ -6358,7 +6332,6 @@
         "GO.db",
         "enrichplot",
         "GOSemSim",
-        "HDO.db",
         "reactome.db",
         "graphite",
         "biomaRt"
@@ -6372,7 +6345,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "HDO.db",
         "reactome.db",
         "graphite",
         "biomaRt"
@@ -6521,7 +6493,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "HDO.db",
         "biomaRt"
     ],
     "mosaics": [
@@ -6743,7 +6714,6 @@
         "geneplotter",
         "reactome.db",
         "graphite",
-        "HDO.db",
         "annotate"
     ],
     "mumosa": [
@@ -6923,8 +6893,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "netDx": [
         "MultiAssayExperiment"
@@ -7269,8 +7238,7 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "annotate",
-        "HDO.db"
+        "annotate"
     ],
     "PANTHER.db": [
         "AnnotationHub"
@@ -7278,7 +7246,6 @@
     "parathyroidSE": [],
     "pareg": [
         "DOSE",
-        "HDO.db",
         "GOSemSim",
         "GO.db"
     ],
@@ -8036,8 +8003,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "phantasus": [
         "DESeq2",
@@ -8121,7 +8087,6 @@
         "DOSE",
         "enrichplot",
         "GOSemSim",
-        "HDO.db",
         "reactome.db",
         "graphite"
     ],
@@ -8319,8 +8284,7 @@
         "chipseq",
         "ShortRead",
         "DOSE",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "projectR": [
         "CoGAPS",
@@ -8678,7 +8642,6 @@
         "enrichplot",
         "reactome.db",
         "graphite",
-        "HDO.db",
         "GOSemSim",
         "GO.db"
     ],
@@ -8733,7 +8696,6 @@
         "geneplotter",
         "AnnotationHub",
         "DEFormats",
-        "HDO.db",
         "annotate",
         "biomaRt",
         "VariantAnnotation",
@@ -8766,7 +8728,6 @@
         "DOSE",
         "DESeq2",
         "geneplotter",
-        "HDO.db",
         "GOSemSim",
         "GO.db",
         "annotate"
@@ -9261,7 +9222,6 @@
         "GO.db",
         "GOSemSim",
         "geneplotter",
-        "HDO.db",
         "ShortRead",
         "annotate",
         "GenomicAlignments",
@@ -9648,7 +9608,6 @@
         "GSEABase",
         "genefilter",
         "annotate",
-        "HDO.db",
         "GOSemSim",
         "GO.db",
         "AnnotationForge",
@@ -9691,7 +9650,6 @@
         "GOSemSim",
         "biomaRt",
         "GenomicAlignments",
-        "HDO.db",
         "GO.db"
     ],
     "segmentSeq": [
@@ -9844,7 +9802,6 @@
         "enrichplot",
         "GO.db",
         "GOSemSim",
-        "HDO.db",
         "AnnotationHub",
         "annotate"
     ],
@@ -10510,7 +10467,6 @@
         "rtracklayer",
         "org.Hs.eg.db",
         "sesameData",
-        "HDO.db",
         "ensembldb",
         "BSgenome",
         "biovizBase",
@@ -10639,8 +10595,7 @@
         "DOSE",
         "enrichplot",
         "GO.db",
-        "GOSemSim",
-        "HDO.db"
+        "GOSemSim"
     ],
     "TIN": [
         "GO.db"
