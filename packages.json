@@ -4675,7 +4675,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "Structstrings",
         "tRNA",
         "Rsamtools",
         "GenomicAlignments",
@@ -4690,7 +4689,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "Structstrings",
         "tRNA",
         "Rsamtools",
         "GenomicAlignments",
@@ -4705,7 +4703,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "Structstrings",
         "tRNA",
         "Rsamtools",
         "GenomicAlignments",
@@ -4720,7 +4717,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "Structstrings",
         "tRNA",
         "Rsamtools",
         "GenomicAlignments",
@@ -14334,7 +14330,6 @@
     "struct": [
         "SummarizedExperiment"
     ],
-    "Structstrings": [],
     "structToolbox": [
         "struct",
         "SummarizedExperiment"
@@ -14945,17 +14940,14 @@
     ],
     "triplex": [],
     "tRNA": [
-        "Structstrings",
         "Modstrings"
     ],
     "tRNAdbImport": [
         "Modstrings",
-        "Structstrings",
         "tRNA"
     ],
     "tRNAscanImport": [
         "tRNA",
-        "Structstrings",
         "rtracklayer",
         "BSgenome",
         "Rsamtools",
