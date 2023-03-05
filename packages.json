@@ -6260,7 +6260,6 @@
     ],
     "DeSousa2013": [
         "frma",
-        "frmaTools",
         "hgu133plus2.db",
         "sva",
         "AnnotationDbi",
@@ -8586,7 +8585,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "frmaTools": [],
     "FunChIP": [
         "GenomicRanges",
         "GenomicAlignments",
