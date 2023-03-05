@@ -3346,9 +3346,7 @@
         "GenomicAlignments",
         "CNEr"
     ],
-    "GENESIS": [
-        "SeqVarTools"
-    ],
+    "GENESIS": [],
     "GeneStructureTools": [
         "BSgenome.Mmusculus.UCSC.mm10",
         "Gviz",
@@ -7783,7 +7781,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "SeqVarTools": [],
     "sesame": [
         "sesameData",
         "ExperimentHub"
@@ -8981,9 +8978,7 @@
         "GenomicFeatures",
         "GenomicAlignments"
     ],
-    "VariantExperiment": [
-        "SeqVarTools"
-    ],
+    "VariantExperiment": [],
     "VariantFiltering": [
         "VariantAnnotation",
         "GenomicFeatures",
