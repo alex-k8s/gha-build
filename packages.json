@@ -2315,12 +2315,9 @@
     ],
     "ChIC": [
         "ChIC.data",
-        "genomeIntervals",
         "Rsamtools"
     ],
-    "ChIC.data": [
-        "genomeIntervals"
-    ],
+    "ChIC.data": [],
     "chicken.db": [
         "org.Gg.eg.db"
     ],
@@ -3853,7 +3850,6 @@
     ],
     "easyRNASeq": [
         "biomaRt",
-        "genomeIntervals",
         "GenomicAlignments",
         "SummarizedExperiment",
         "Rsamtools",
@@ -5071,7 +5067,6 @@
         "SummarizedExperiment"
     ],
     "GenomAutomorphism": [],
-    "genomeIntervals": [],
     "GenomicAlignments": [
         "SummarizedExperiment",
         "Rsamtools"
@@ -5251,7 +5246,6 @@
     "girafe": [
         "Rsamtools",
         "ShortRead",
-        "genomeIntervals",
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
@@ -8123,7 +8117,6 @@
         "SummarizedExperiment",
         "rtracklayer",
         "biomaRt",
-        "genomeIntervals",
         "ShortRead",
         "biovizBase",
         "VariantAnnotation",
