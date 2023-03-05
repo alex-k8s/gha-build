@@ -15031,7 +15031,6 @@
         "Biostrings",
         "XVector"
     ],
-    "oneSENSE": [],
     "ontoProc": [
         "AnnotationHub",
         "SummarizedExperiment",
