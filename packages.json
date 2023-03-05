@@ -22,7 +22,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "ABarray": [],
     "ACE": [
         "QDNAseq",
         "GenomicRanges",
