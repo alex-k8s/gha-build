@@ -3965,7 +3965,6 @@
     "genefu": [
         "biomaRt"
     ],
-    "GeneGeneInteR": [],
     "geneLenDataBase": [
         "rtracklayer",
         "GenomicFeatures",
