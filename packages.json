@@ -3050,7 +3050,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "cleaver": [],
     "clipper": [
         "qpgraph",
         "annotate",
@@ -12626,7 +12625,6 @@
         "SummarizedExperiment"
     ],
     "ProteoDisco": [
-        "cleaver",
         "GenomicFeatures",
         "VariantAnnotation",
         "AnnotationDbi",
@@ -15747,12 +15745,9 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "synapter": [
-        "cleaver"
-    ],
+    "synapter": [],
     "synapterdata": [
-        "synapter",
-        "cleaver"
+        "synapter"
     ],
     "synaptome.data": [
         "AnnotationHub",
