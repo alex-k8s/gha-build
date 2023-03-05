@@ -4231,7 +4231,6 @@
         "SummarizedExperiment"
     ],
     "EpiTxDb": [
-        "Modstrings",
         "GenomicFeatures",
         "tRNAdbImport",
         "rtracklayer",
@@ -4244,7 +4243,6 @@
     "EpiTxDb.Hs.hg38": [
         "AnnotationHub",
         "EpiTxDb",
-        "Modstrings",
         "GenomicFeatures",
         "tRNAdbImport",
         "rtracklayer",
@@ -4257,7 +4255,6 @@
     "EpiTxDb.Mm.mm10": [
         "AnnotationHub",
         "EpiTxDb",
-        "Modstrings",
         "GenomicFeatures",
         "tRNAdbImport",
         "rtracklayer",
@@ -4270,7 +4267,6 @@
     "EpiTxDb.Sc.sacCer3": [
         "AnnotationHub",
         "EpiTxDb",
-        "Modstrings",
         "GenomicFeatures",
         "tRNAdbImport",
         "rtracklayer",
@@ -7907,7 +7903,6 @@
     "MODA": [
         "GO.db"
     ],
-    "Modstrings": [],
     "moe430a.db": [
         "org.Mm.eg.db"
     ],
@@ -11172,7 +11167,6 @@
         "Category"
     ],
     "RNAmodR": [
-        "Modstrings",
         "GenomicFeatures",
         "GenomicAlignments",
         "rtracklayer",
@@ -11197,7 +11191,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "Modstrings",
         "SummarizedExperiment",
         "VariantAnnotation",
         "AnnotationFilter"
@@ -11218,7 +11211,6 @@
     ],
     "RNAmodR.ML": [
         "RNAmodR",
-        "Modstrings",
         "GenomicFeatures",
         "GenomicAlignments",
         "rtracklayer",
@@ -11243,7 +11235,6 @@
         "biovizBase",
         "Rsamtools",
         "GenomicAlignments",
-        "Modstrings",
         "SummarizedExperiment",
         "VariantAnnotation",
         "AnnotationFilter"
@@ -13272,11 +13263,8 @@
         "annotate"
     ],
     "triplex": [],
-    "tRNA": [
-        "Modstrings"
-    ],
+    "tRNA": [],
     "tRNAdbImport": [
-        "Modstrings",
         "tRNA"
     ],
     "tRNAscanImport": [
@@ -13285,7 +13273,6 @@
         "BSgenome",
         "Rsamtools",
         "GenomicAlignments",
-        "Modstrings",
         "SummarizedExperiment"
     ],
     "TSCAN": [
