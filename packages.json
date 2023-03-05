@@ -4581,7 +4581,6 @@
     "huex10sttranscriptcluster.db": [
         "org.Hs.eg.db"
     ],
-    "HuExExonProbesetLocation": [],
     "HuExExonProbesetLocationHg18": [],
     "HuExExonProbesetLocationHg19": [],
     "hugene10stprobeset.db": [
