@@ -6913,7 +6913,6 @@
     "PICS": [
         "GenomicAlignments"
     ],
-    "pig.db0": [],
     "Pigengene": [
         "clusterProfiler",
         "ReactomePA",
