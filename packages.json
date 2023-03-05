@@ -10355,7 +10355,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "GeneNetworkBuilder": [],
     "geneplotter": [
         "annotate",
         "AnnotationDbi",
