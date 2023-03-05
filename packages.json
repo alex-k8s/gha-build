@@ -19271,7 +19271,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "Mulcom": [],
     "MultiAssayExperiment": [
         "SummarizedExperiment",
         "GenomicRanges",
