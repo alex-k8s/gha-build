@@ -21537,7 +21537,6 @@
         "Biostrings",
         "XVector"
     ],
-    "SpikeInSubset": [],
     "spiky": [
         "Rsamtools",
         "GenomicRanges",
