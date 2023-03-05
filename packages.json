@@ -3249,7 +3249,6 @@
         "ShortRead",
         "SummarizedExperiment"
     ],
-    "coRdon": [],
     "CoreGx": [
         "SummarizedExperiment",
         "MultiAssayExperiment"
