@@ -17512,10 +17512,7 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "OLIN": [],
-    "OLINgui": [
-        "OLIN"
-    ],
+    "OLINgui": [],
     "OmaDB": [
         "Biostrings",
         "GenomicRanges",
