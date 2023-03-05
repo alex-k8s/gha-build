@@ -1612,7 +1612,6 @@
     ],
     "chipenrich": [
         "chipenrich.data",
-        "org.Dm.eg.db",
         "org.Rn.eg.db",
         "rtracklayer",
         "GenomicAlignments"
@@ -2573,12 +2572,8 @@
         "SingleCellExperiment",
         "scuttle"
     ],
-    "drosgenome1.db": [
-        "org.Dm.eg.db"
-    ],
-    "drosophila2.db": [
-        "org.Dm.eg.db"
-    ],
+    "drosgenome1.db": [],
+    "drosophila2.db": [],
     "drugTargetInteractions": [
         "ensembldb",
         "GenomicFeatures",
@@ -4051,9 +4046,7 @@
         "SingleCellExperiment",
         "DropletUtils"
     ],
-    "indac.db": [
-        "org.Dm.eg.db"
-    ],
+    "indac.db": [],
     "infercnv": [
         "SingleCellExperiment"
     ],
@@ -5692,7 +5685,6 @@
         "rtracklayer",
         "geneplotter"
     ],
-    "org.Dm.eg.db": [],
     "org.Mxanthus.db": [],
     "org.Pt.eg.db": [],
     "org.Rn.eg.db": [],
