@@ -2601,7 +2601,6 @@
         "GenomicAlignments"
     ],
     "dagLogo": [
-        "UniProt.ws",
         "biomaRt",
         "motifStack",
         "TFBSTools",
@@ -3000,7 +2999,6 @@
         "org.Dm.eg.db"
     ],
     "drugTargetInteractions": [
-        "UniProt.ws",
         "biomaRt",
         "ensembldb",
         "GenomicFeatures",
@@ -11031,7 +11029,6 @@
         "GO.db",
         "VariantAnnotation"
     ],
-    "UniProt.ws": [],
     "Uniquorn": [
         "VariantAnnotation",
         "rtracklayer",
