@@ -9248,17 +9248,12 @@
         "MultiAssayExperiment",
         "AnnotationFilter"
     ],
-    "MSstatsLiP": [
-        "MSstatsPTM"
-    ],
-    "MSstatsPTM": [],
+    "MSstatsLiP": [],
     "MSstatsQC": [],
     "MSstatsQCgui": [
         "MSstatsQC"
     ],
-    "MSstatsShiny": [
-        "MSstatsPTM"
-    ],
+    "MSstatsShiny": [],
     "mta10probeset.db": [
         "AnnotationDbi",
         "org.Mm.eg.db"
