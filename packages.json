@@ -1590,10 +1590,7 @@
     "CHETAH": [
         "SingleCellExperiment"
     ],
-    "ChIC": [
-        "ChIC.data"
-    ],
-    "ChIC.data": [],
+    "ChIC": [],
     "chicken.db": [],
     "chimeraviz": [
         "Gviz",
