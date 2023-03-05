@@ -5083,7 +5083,6 @@
         "GenomicAlignments"
     ],
     "NanoporeRNASeq": [],
-    "NanoStringQCPro": [],
     "nanotatoR": [],
     "NBAMSeq": [
         "DESeq2",
