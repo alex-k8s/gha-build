@@ -8544,7 +8544,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "InteractiveComplexHeatmap": [],
     "interactiveDisplay": [
         "Category",
         "AnnotationDbi",
