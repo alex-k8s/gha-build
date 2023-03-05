@@ -6405,7 +6405,6 @@
     "ivygapSE": [
         "SummarizedExperiment"
     ],
-    "IWTomics": [],
     "JazaeriMetaData.db": [
         "org.Hs.eg.db"
     ],
