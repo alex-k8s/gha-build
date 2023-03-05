@@ -12142,7 +12142,6 @@
     ],
     "MsBackendMassbank": [],
     "MsBackendMsp": [],
-    "MsBackendRawFileReader": [],
     "MsExperiment": [
         "SummarizedExperiment",
         "QFeatures",
