@@ -25469,7 +25469,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "SQLDataFrame": [],
     "sRACIPE": [
         "SummarizedExperiment",
         "GenomicRanges",
