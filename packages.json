@@ -2755,9 +2755,7 @@
         "DESeq2",
         "geneplotter"
     ],
-    "ecoli2.db": [
-        "org.EcK12.eg.db"
-    ],
+    "ecoli2.db": [],
     "ecoliLeucine": [],
     "ecoliSakai.db0": [],
     "EDASeq": [
@@ -6054,7 +6052,6 @@
     "org.Bt.eg.db": [],
     "org.Cf.eg.db": [],
     "org.Dm.eg.db": [],
-    "org.EcK12.eg.db": [],
     "org.Mmu.eg.db": [],
     "org.Mxanthus.db": [],
     "org.Pt.eg.db": [],
