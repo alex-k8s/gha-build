@@ -731,7 +731,6 @@
     "bovine.db": [
         "org.Bt.eg.db"
     ],
-    "bovine.db0": [],
     "bovineprobe": [],
     "brainflowprobes": [
         "BSgenome.Hsapiens.UCSC.hg19",
