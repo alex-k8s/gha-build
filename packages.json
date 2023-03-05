@@ -74,7 +74,6 @@
     ],
     "affycoretools": [
         "GOstats",
-        "gcrma",
         "AnnotationDbi",
         "oligoClasses",
         "ReportingTools",
@@ -103,18 +102,13 @@
         "AnnotationFilter",
         "biomaRt"
     ],
-    "affyILM": [
-        "gcrma"
-    ],
+    "affyILM": [],
     "affylmGUI": [
         "affyPLM",
-        "gcrma",
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "affyPLM": [
-        "gcrma"
-    ],
+    "affyPLM": [],
     "ag.db": [
         "AnnotationDbi",
         "org.At.tair.db",
@@ -137,7 +131,6 @@
     "AgiMicroRna": [
         "affycoretools",
         "GOstats",
-        "gcrma",
         "AnnotationDbi",
         "oligoClasses",
         "ReportingTools",
@@ -510,7 +503,6 @@
         "affyPLM",
         "beadarray",
         "genefilter",
-        "gcrma",
         "AnnotationDbi",
         "annotate",
         "KEGGREST"
@@ -933,9 +925,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "bgx": [
-        "gcrma"
-    ],
+    "bgx": [],
     "BicARE": [
         "GSEABase",
         "annotate",
@@ -5835,7 +5825,6 @@
     "gCrisprTools": [
         "SummarizedExperiment"
     ],
-    "gcrma": [],
     "GDCRNATools": [
         "DESeq2",
         "clusterProfiler",
@@ -8568,7 +8557,6 @@
         "KEGGREST"
     ],
     "maPredictDSC": [
-        "gcrma",
         "hgu133plus2.db",
         "AnnotationDbi",
         "KEGGREST",
@@ -8631,9 +8619,7 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "maskBAD": [
-        "gcrma"
-    ],
+    "maskBAD": [],
     "MAST": [
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -9480,7 +9466,6 @@
         "affyPLM",
         "oligo",
         "oligoClasses",
-        "gcrma",
         "SummarizedExperiment"
     ],
     "MineICA": [
@@ -13258,8 +13243,7 @@
         "AnnotationFilter"
     ],
     "RefPlus": [
-        "affyPLM",
-        "gcrma"
+        "affyPLM"
     ],
     "RegEnrich": [
         "BiocSet",
@@ -17242,7 +17226,6 @@
     ],
     "webbioc": [
         "annaffy",
-        "gcrma",
         "GO.db",
         "AnnotationDbi",
         "KEGGREST"
