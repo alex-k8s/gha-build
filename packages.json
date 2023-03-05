@@ -1269,7 +1269,6 @@
     ],
     "autonomics": [
         "MultiAssayExperiment",
-        "pcaMethods",
         "SummarizedExperiment",
         "GenomicRanges",
         "DelayedArray",
@@ -1378,7 +1377,6 @@
         "IRanges",
         "vsn",
         "affy",
-        "pcaMethods",
         "MLInterfaces",
         "biomaRt",
         "AnnotationDbi",
@@ -4586,7 +4584,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -5991,7 +5988,6 @@
         "IRanges",
         "vsn",
         "affy",
-        "pcaMethods",
         "SummarizedExperiment",
         "MsFeatures",
         "GenomicRanges",
@@ -6021,8 +6017,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "clusterExperiment": [
         "SingleCellExperiment",
@@ -6598,7 +6593,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "org.Hs.eg.db",
-        "pcaMethods",
         "Rsamtools",
         "RUVSeq",
         "SummarizedExperiment",
@@ -6859,7 +6853,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -7611,8 +7604,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "DAPARdata": [
         "MSnbase",
@@ -7620,8 +7612,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "dasper": [
         "GenomeInfoDb",
@@ -7771,9 +7762,7 @@
         "KEGGREST",
         "GenomicAlignments"
     ],
-    "DeconRNASeq": [
-        "pcaMethods"
-    ],
+    "DeconRNASeq": [],
     "deconvR": [
         "methylKit",
         "IRanges",
@@ -7966,7 +7955,6 @@
         "vsn",
         "ComplexHeatmap",
         "IRanges",
-        "pcaMethods",
         "mzR",
         "MsCoreUtils",
         "affy",
@@ -8106,7 +8094,6 @@
         "DelayedArray"
     ],
     "destiny": [
-        "pcaMethods",
         "SummarizedExperiment",
         "SingleCellExperiment",
         "GenomicRanges",
@@ -8203,7 +8190,6 @@
     ],
     "diffcoexp": [
         "SummarizedExperiment",
-        "pcaMethods",
         "multtest",
         "GenomicRanges",
         "IRanges",
@@ -10227,7 +10213,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -10665,7 +10650,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -11042,7 +11026,6 @@
         "IRanges",
         "HDF5Array",
         "OUTRIDER",
-        "pcaMethods",
         "rhdf5",
         "KEGGREST",
         "Biostrings",
@@ -15043,7 +15026,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -15508,7 +15490,6 @@
     "lipidr": [
         "SummarizedExperiment",
         "ropls",
-        "pcaMethods",
         "MultiAssayExperiment",
         "MultiDataSet",
         "GenomicRanges",
@@ -15580,7 +15561,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -16377,7 +16357,6 @@
         "GenomeInfoDb"
     ],
     "MAI": [
-        "pcaMethods",
         "SummarizedExperiment",
         "GenomicRanges",
         "IRanges",
@@ -16400,7 +16379,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -16576,7 +16554,6 @@
     "MatrixQCvis": [
         "SummarizedExperiment",
         "ComplexHeatmap",
-        "pcaMethods",
         "proDA",
         "vsn",
         "IRanges",
@@ -16962,7 +16939,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -17128,7 +17104,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -18737,7 +18712,6 @@
         "IRanges",
         "vsn",
         "affy",
-        "pcaMethods",
         "SummarizedExperiment",
         "MsFeatures",
         "GenomicRanges",
@@ -19393,8 +19367,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "msmsTests": [
         "MSnbase",
@@ -19403,16 +19376,14 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "MSnbase": [
         "mzR",
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "MSnID": [
         "MSnbase",
@@ -19428,12 +19399,10 @@
         "msmsEDA",
         "MsCoreUtils",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "MSPrep": [
         "SummarizedExperiment",
-        "pcaMethods",
         "sva",
         "GenomicRanges",
         "IRanges",
@@ -19486,8 +19455,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "MSstatsQCgui": [
         "MSstatsQC",
@@ -19497,8 +19465,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "MSstatsSampleSize": [
         "MSstats"
@@ -19707,7 +19674,6 @@
     "MultiBaC": [
         "MultiAssayExperiment",
         "ropls",
-        "pcaMethods",
         "SummarizedExperiment",
         "GenomicRanges",
         "DelayedArray",
@@ -20205,7 +20171,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -20885,7 +20850,6 @@
         "AnnotationDbi",
         "annotate",
         "XVector",
-        "pcaMethods",
         "KEGGREST",
         "Biostrings"
     ],
@@ -21319,7 +21283,6 @@
         "DESeq2",
         "GenomicRanges",
         "IRanges",
-        "pcaMethods",
         "geneplotter",
         "GenomeInfoDb",
         "AnnotationDbi",
@@ -21603,7 +21566,6 @@
         "GSEABase",
         "Biostrings"
     ],
-    "pcaMethods": [],
     "PCAtools": [
         "DelayedMatrixStats",
         "DelayedArray",
@@ -23526,8 +23488,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "PECA": [
         "ROTS",
@@ -23798,7 +23759,6 @@
         "DelayedArray"
     ],
     "PhosR": [
-        "pcaMethods",
         "SummarizedExperiment",
         "GenomicRanges",
         "IRanges",
@@ -23973,7 +23933,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "DelayedArray",
         "GenomeInfoDb",
@@ -24050,7 +24009,6 @@
         "DelayedArray"
     ],
     "pmp": [
-        "pcaMethods",
         "SummarizedExperiment",
         "GenomicRanges",
         "IRanges",
@@ -24361,8 +24319,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "proActiv": [
         "AnnotationDbi",
@@ -24446,7 +24403,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "DelayedArray",
         "GenomeInfoDb",
@@ -24513,7 +24469,6 @@
         "IRanges",
         "vsn",
         "affy",
-        "pcaMethods",
         "KEGGREST",
         "GenomicRanges",
         "GenomeInfoDb",
@@ -24527,8 +24482,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "pRolocGUI": [
         "pRoloc",
@@ -24538,7 +24492,6 @@
         "IRanges",
         "vsn",
         "affy",
-        "pcaMethods",
         "MLInterfaces",
         "biomaRt",
         "AnnotationDbi",
@@ -24581,8 +24534,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "prostateCancerGrasso": [],
     "prostateCancerStockholm": [],
@@ -24717,8 +24669,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "PtH2O2lipids": [
         "xcms",
@@ -24733,7 +24684,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -24967,8 +24917,7 @@
         "mzR",
         "MsCoreUtils",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "qPLEXdata": [
         "qPLEXanalyzer",
@@ -24978,7 +24927,6 @@
         "IRanges",
         "vsn",
         "affy",
-        "pcaMethods",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -26141,9 +26089,7 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "rexposome": [
-        "pcaMethods"
-    ],
+    "rexposome": [],
     "rfaRm": [
         "Biostrings",
         "IRanges",
@@ -26161,8 +26107,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "rfPred": [
         "GenomeInfoDb",
@@ -26650,7 +26595,6 @@
         "MsCoreUtils",
         "MsFeatures",
         "vsn",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -26736,8 +26680,7 @@
         "MsCoreUtils",
         "IRanges",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "RmiR.Hs.miRNA": [
         "AnnotationDbi",
@@ -28046,9 +27989,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "scde": [
-        "pcaMethods"
-    ],
+    "scde": [],
     "scds": [
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -29674,7 +29615,6 @@
         "GenomeInfoDb",
         "Biostrings",
         "ggbio",
-        "pcaMethods",
         "XVector",
         "biovizBase",
         "SummarizedExperiment",
@@ -30643,8 +30583,7 @@
         "mzR",
         "MsCoreUtils",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "synapterdata": [
         "synapter",
@@ -30658,8 +30597,7 @@
         "mzR",
         "MsCoreUtils",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "synaptome.data": [
         "AnnotationHub",
@@ -31484,8 +31422,7 @@
         "GenomeInfoDb",
         "MsCoreUtils",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "topdownrdata": [
         "topdownr",
@@ -31497,8 +31434,7 @@
         "GenomeInfoDb",
         "MsCoreUtils",
         "vsn",
-        "affy",
-        "pcaMethods"
+        "affy"
     ],
     "topGO": [
         "GO.db",
@@ -33568,7 +33504,6 @@
         "MsFeatures",
         "vsn",
         "affy",
-        "pcaMethods",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -33766,7 +33701,6 @@
         "XVector",
         "BSgenome",
         "ggbio",
-        "pcaMethods",
         "SummarizedExperiment",
         "Rsamtools",
         "AnnotationDbi",
