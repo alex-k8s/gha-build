@@ -5270,8 +5270,7 @@
     "cyanoFilter": [
         "flowDensity",
         "flowClust",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "cydar": [
         "SingleCellExperiment",
@@ -5335,7 +5334,6 @@
         "flowWorkspace",
         "openCyto",
         "ggcyto",
-        "ncdfFlow",
         "flowClust"
     ],
     "dada2": [
@@ -5447,8 +5445,7 @@
     ],
     "ddPCRclust": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "debCAM": [
         "SummarizedExperiment",
@@ -7677,12 +7674,10 @@
     "flowClust": [],
     "flowCut": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowDensity": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowFP": [],
     "flowMeans": [],
@@ -7812,20 +7807,16 @@
         "GenomicAlignments"
     ],
     "flowStats": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowTrans": [
         "flowClust"
     ],
     "flowVS": [
         "flowStats",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
-    "flowWorkspace": [
-        "ncdfFlow"
-    ],
+    "flowWorkspace": [],
     "fluentGenomics": [
         "plyranges",
         "SummarizedExperiment",
@@ -8484,7 +8475,6 @@
         "biomaRt"
     ],
     "ggcyto": [
-        "ncdfFlow",
         "flowWorkspace"
     ],
     "GGHumanMethCancerPanelv1.db": [
@@ -9562,8 +9552,7 @@
     ],
     "highthroughputassays": [
         "flowStats",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "Hiiragi2013": [
         "genefilter",
@@ -10639,8 +10628,7 @@
         "XVector"
     ],
     "ImmuneSpaceR": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "indac.db": [
         "AnnotationDbi",
@@ -14516,7 +14504,6 @@
         "Biostrings"
     ],
     "NBSplice": [],
-    "ncdfFlow": [],
     "ncGTW": [
         "xcms",
         "MSnbase",
@@ -15080,7 +15067,6 @@
         "Biostrings"
     ],
     "openCyto": [
-        "ncdfFlow",
         "flowWorkspace",
         "flowClust"
     ],
@@ -16916,8 +16902,7 @@
         "SummarizedExperiment"
     ],
     "PeacoQC": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "peakPantheR": [
         "MSnbase",
