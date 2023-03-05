@@ -583,7 +583,6 @@
     "BioCor": [
         "GSEABase"
     ],
-    "BiocSet": [],
     "BiocSklearn": [],
     "BioImageDbs": [
         "ExperimentHub"
@@ -1533,7 +1532,6 @@
         "GenomicAlignments"
     ],
     "CBEA": [
-        "BiocSet",
         "TreeSummarizedExperiment",
         "SingleCellExperiment"
     ],
@@ -7721,7 +7719,6 @@
     ],
     "RefPlus": [],
     "RegEnrich": [
-        "BiocSet",
         "DOSE",
         "DESeq2",
         "geneplotter",
@@ -8952,7 +8949,6 @@
         "scuttle"
     ],
     "sparrow": [
-        "BiocSet",
         "GSEABase"
     ],
     "SparseSignatures": [
