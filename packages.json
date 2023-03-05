@@ -10734,7 +10734,6 @@
         "org.Hs.eg.db"
     ],
     "u133x3pcdf": [],
-    "u133x3pprobe": [],
     "UCell": [
         "SingleCellExperiment"
     ],
