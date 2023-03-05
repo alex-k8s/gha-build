@@ -2954,7 +2954,6 @@
     ],
     "CATALYST": [
         "SingleCellExperiment",
-        "FlowSOM",
         "SummarizedExperiment",
         "scater",
         "scuttle",
@@ -3188,7 +3187,6 @@
     "censcyt": [
         "diffcyt",
         "SummarizedExperiment",
-        "FlowSOM",
         "GenomicRanges"
     ],
     "Cepo": [
@@ -4694,7 +4692,6 @@
     "CyTOFpower": [
         "diffcyt",
         "SummarizedExperiment",
-        "FlowSOM",
         "GenomicRanges"
     ],
     "cytofWorkflow": [
@@ -4702,7 +4699,6 @@
         "diffcyt",
         "HDCytoData",
         "SingleCellExperiment",
-        "FlowSOM",
         "SummarizedExperiment",
         "scater",
         "ExperimentHub",
@@ -5170,7 +5166,6 @@
         "Biostrings"
     ],
     "diffcyt": [
-        "FlowSOM",
         "SummarizedExperiment",
         "GenomicRanges"
     ],
@@ -6831,7 +6826,6 @@
     "flowMerge": [
         "flowClust"
     ],
-    "FlowSOM": [],
     "FlowSorted.Blood.450k": [
         "minfi",
         "GenomicRanges",
@@ -10776,9 +10770,7 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "MetaCyto": [
-        "FlowSOM"
-    ],
+    "MetaCyto": [],
     "metagene": [
         "GenomicRanges",
         "rtracklayer",
@@ -19984,7 +19976,6 @@
     "treekoR": [
         "SingleCellExperiment",
         "diffcyt",
-        "FlowSOM",
         "SummarizedExperiment",
         "GenomicRanges"
     ],
