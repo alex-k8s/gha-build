@@ -9997,7 +9997,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "TEQC": [],
     "terraTCGAdata": [
         "MultiAssayExperiment",
         "RaggedExperiment",
