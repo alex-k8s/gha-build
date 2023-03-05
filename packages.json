@@ -5056,7 +5056,6 @@
     "healthyControlsPresenceChecker": [
         "annotate"
     ],
-    "heatmaps": [],
     "HelloRanges": [
         "BSgenome",
         "GenomicFeatures",
