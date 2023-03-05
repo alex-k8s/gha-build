@@ -5337,7 +5337,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "mirbase.db": [],
     "mirIntegrator": [],
     "miRLAB": [
         "TCGAbiolinks",
@@ -9552,7 +9551,6 @@
         "BSgenome",
         "GenomicFeatures",
         "GenomicAlignments",
-        "mirbase.db",
         "Organism.dplyr",
         "plotgardener",
         "rtracklayer",
