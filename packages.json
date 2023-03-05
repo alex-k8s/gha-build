@@ -14974,7 +14974,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "OLINgui": [],
     "OmaDB": [
         "Biostrings",
         "GenomicRanges",
