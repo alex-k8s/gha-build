@@ -262,7 +262,6 @@
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
         "MultiAssayExperiment",
-        "DECIPHER",
         "scuttle",
         "scater"
     ],
@@ -498,12 +497,8 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "AssessORF": [
-        "DECIPHER"
-    ],
-    "AssessORFData": [
-        "DECIPHER"
-    ],
+    "AssessORF": [],
+    "AssessORFData": [],
     "ASSIGN": [
         "sva",
         "genefilter",
@@ -821,7 +816,6 @@
         "AnnotationDbi",
         "annotate",
         "MultiAssayExperiment",
-        "DECIPHER",
         "scuttle",
         "scater"
     ],
@@ -3528,7 +3522,6 @@
         "AnnotationDbi",
         "SingleCellExperiment",
         "MultiAssayExperiment",
-        "DECIPHER",
         "scuttle",
         "scater"
     ],
@@ -3704,7 +3697,6 @@
         "HDO.db",
         "genefilter"
     ],
-    "DECIPHER": [],
     "deco": [
         "AnnotationDbi",
         "SummarizedExperiment",
@@ -8591,7 +8583,6 @@
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
         "MultiAssayExperiment",
-        "DECIPHER",
         "scuttle",
         "scater"
     ],
@@ -8607,7 +8598,6 @@
         "scater",
         "SingleCellExperiment",
         "MultiAssayExperiment",
-        "DECIPHER",
         "scuttle"
     ],
     "microbiome": [
@@ -8650,7 +8640,6 @@
         "annotate",
         "AnnotationDbi",
         "MultiAssayExperiment",
-        "DECIPHER",
         "scuttle",
         "scater"
     ],
@@ -9972,12 +9961,9 @@
     "openCyto": [
         "flowClust"
     ],
-    "openPrimeR": [
-        "DECIPHER"
-    ],
+    "openPrimeR": [],
     "openPrimeRui": [
-        "openPrimeR",
-        "DECIPHER"
+        "openPrimeR"
     ],
     "OperonHumanV3.db": [
         "AnnotationDbi",
@@ -13091,7 +13077,6 @@
         "SummarizedExperiment"
     ],
     "sangeranalyseR": [
-        "DECIPHER",
         "sangerseqR"
     ],
     "sangerseqR": [],
@@ -13264,7 +13249,6 @@
         "SummarizedExperiment"
     ],
     "scifer": [
-        "DECIPHER",
         "sangerseqR"
     ],
     "scmap": [
@@ -14494,9 +14478,7 @@
         "AnnotationHub",
         "AnnotationDbi"
     ],
-    "SynExtend": [
-        "DECIPHER"
-    ],
+    "SynExtend": [],
     "SynMut": [],
     "syntenet": [
         "rtracklayer",
