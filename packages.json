@@ -552,7 +552,6 @@
         "DESeq2",
         "MultiAssayExperiment",
         "SummarizedExperiment",
-        "biomformat",
         "IRanges",
         "GenomicRanges",
         "geneplotter",
@@ -1582,7 +1581,6 @@
         "mia",
         "SingleCellExperiment",
         "geneplotter",
-        "biomformat",
         "Biostrings",
         "GenomeInfoDb",
         "DelayedArray",
@@ -1831,7 +1829,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "biomformat": [],
     "BioMM": [
         "topGO",
         "GO.db",
@@ -5837,7 +5834,6 @@
     "combi": [
         "phyloseq",
         "SummarizedExperiment",
-        "biomformat",
         "Biostrings",
         "GenomicRanges",
         "IRanges",
@@ -12399,7 +12395,6 @@
         "GenomicRanges",
         "DelayedArray",
         "IRanges",
-        "biomformat",
         "Biostrings",
         "GenomeInfoDb",
         "KEGGREST",
@@ -15290,7 +15285,6 @@
     "MBECS": [
         "phyloseq",
         "sva",
-        "biomformat",
         "Biostrings",
         "genefilter",
         "IRanges",
@@ -15839,7 +15833,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "ensembldb",
-        "biomformat",
         "Biostrings",
         "XVector",
         "AnnotationDbi",
@@ -16574,8 +16567,7 @@
         "Biostrings",
         "IRanges",
         "XVector",
-        "GenomeInfoDb",
-        "biomformat"
+        "GenomeInfoDb"
     ],
     "MicrobiomeBenchmarkData": [
         "SummarizedExperiment",
@@ -16591,7 +16583,6 @@
     "microbiomeDASim": [
         "phyloseq",
         "metagenomeSeq",
-        "biomformat",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -16616,7 +16607,6 @@
     "microbiomeExplorer": [
         "metagenomeSeq",
         "DESeq2",
-        "biomformat",
         "IRanges",
         "GenomicRanges",
         "SummarizedExperiment",
@@ -16635,7 +16625,6 @@
         "metagenomeSeq",
         "DESeq2",
         "Biostrings",
-        "biomformat",
         "ComplexHeatmap",
         "ANCOMBC",
         "ALDEx2",
@@ -19914,7 +19903,6 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "geneplotter",
-        "biomformat",
         "Biostrings",
         "XVector",
         "GenomeInfoDb",
@@ -21943,7 +21931,6 @@
     ],
     "PERFect": [
         "phyloseq",
-        "biomformat",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -22179,7 +22166,6 @@
         "KEGGREST"
     ],
     "phyloseq": [
-        "biomformat",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -22545,7 +22531,6 @@
         "Rsamtools",
         "XVector",
         "phyloseq",
-        "biomformat",
         "DelayedArray"
     ],
     "preciseTAD": [
@@ -23819,7 +23804,6 @@
     ],
     "RCM": [
         "phyloseq",
-        "biomformat",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -23873,7 +23857,6 @@
     ],
     "reconsi": [
         "phyloseq",
-        "biomformat",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -25374,7 +25357,6 @@
     ],
     "RPA": [
         "phyloseq",
-        "biomformat",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -26821,7 +26803,6 @@
     ],
     "SIAMCAT": [
         "phyloseq",
-        "biomformat",
         "Biostrings",
         "IRanges",
         "XVector",
@@ -27041,7 +27022,6 @@
     "SimBu": [
         "phyloseq",
         "SummarizedExperiment",
-        "biomformat",
         "Biostrings",
         "GenomicRanges",
         "IRanges",
@@ -28024,7 +28004,6 @@
     "SPsimSeq": [
         "SingleCellExperiment",
         "phyloseq",
-        "biomformat",
         "Biostrings",
         "SummarizedExperiment",
         "GenomicRanges",
