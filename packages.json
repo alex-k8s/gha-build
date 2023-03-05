@@ -9765,7 +9765,6 @@
         "oligoClasses",
         "SummarizedExperiment"
     ],
-    "PeacoQC": [],
     "PECA": [
         "genefilter",
         "annotate"
