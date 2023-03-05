@@ -5158,7 +5158,6 @@
     "GenomicSuperSignature": [
         "SummarizedExperiment"
     ],
-    "GenomicTuples": [],
     "genotypeeval": [
         "VariantAnnotation",
         "rtracklayer",
