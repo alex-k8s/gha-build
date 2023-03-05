@@ -2928,7 +2928,6 @@
         "ShortRead",
         "GenomicAlignments"
     ],
-    "FCBF": [],
     "fCCAC": [
         "genomation",
         "BSgenome",
@@ -2936,7 +2935,6 @@
         "rtracklayer"
     ],
     "fcoex": [
-        "FCBF",
         "clusterProfiler",
         "SingleCellExperiment",
         "DOSE",
