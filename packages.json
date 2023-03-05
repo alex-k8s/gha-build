@@ -403,7 +403,6 @@
         "XVector",
         "DelayedArray"
     ],
-    "AlpsNMR": [],
     "altcdfenvs": [
         "makecdfenv",
         "Biostrings",
