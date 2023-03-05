@@ -6808,7 +6808,6 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "dStruct": [],
     "Dune": [
         "SummarizedExperiment",
         "GenomicRanges",
