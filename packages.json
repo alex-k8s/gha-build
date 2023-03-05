@@ -2503,8 +2503,7 @@
     "CNVRanger": [
         "RaggedExperiment",
         "GDSArray",
-        "SummarizedExperiment",
-        "SeqArray"
+        "SummarizedExperiment"
     ],
     "CNVrd2": [
         "VariantAnnotation",
@@ -4544,9 +4543,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "GBScleanR": [
-        "SeqArray"
-    ],
+    "GBScleanR": [],
     "gcapc": [
         "BSgenome",
         "GenomicAlignments",
@@ -4571,9 +4568,7 @@
         "HDO.db",
         "annotate"
     ],
-    "GDSArray": [
-        "SeqArray"
-    ],
+    "GDSArray": [],
     "gemma.R": [
         "SummarizedExperiment"
     ],
@@ -4639,7 +4634,6 @@
         "SummarizedExperiment"
     ],
     "GENESIS": [
-        "SeqArray",
         "SeqVarTools"
     ],
     "GeneStructureTools": [
@@ -4827,9 +4821,7 @@
         "org.Hs.eg.db",
         "AnnotationForge"
     ],
-    "ggmanh": [
-        "SeqArray"
-    ],
+    "ggmanh": [],
     "ggspavis": [
         "SpatialExperiment",
         "SingleCellExperiment",
@@ -10804,9 +10796,7 @@
         "org.Rn.eg.db"
     ],
     "safe": [],
-    "SAIGEgds": [
-        "SeqArray"
-    ],
+    "SAIGEgds": [],
     "sampleClassifier": [
         "MGFM",
         "MGFR",
@@ -11189,7 +11179,6 @@
         "biomaRt",
         "GO.db"
     ],
-    "SeqArray": [],
     "seqbias": [],
     "seqCAT": [
         "VariantAnnotation",
@@ -11231,9 +11220,7 @@
         "GenomicFeatures",
         "biomaRt"
     ],
-    "SeqVarTools": [
-        "SeqArray"
-    ],
+    "SeqVarTools": [],
     "sesame": [
         "sesameData",
         "SummarizedExperiment",
@@ -12946,7 +12933,6 @@
     "VariantExperiment": [
         "SummarizedExperiment",
         "GDSArray",
-        "SeqArray",
         "SeqVarTools"
     ],
     "VariantFiltering": [
