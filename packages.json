@@ -18206,7 +18206,6 @@
     "miRSM": [
         "fabia",
         "BicARE",
-        "rqubic",
         "miRspongeR",
         "SummarizedExperiment",
         "GSEABase",
@@ -26977,7 +26976,6 @@
         "XVector",
         "multtest"
     ],
-    "rqubic": [],
     "RRBSdata": [
         "BiSeq",
         "IRanges",
