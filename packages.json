@@ -21529,10 +21529,7 @@
         "GO.db",
         "KEGGREST"
     ],
-    "Rcwl": [],
-    "RcwlPipelines": [
-        "Rcwl"
-    ],
+    "RcwlPipelines": [],
     "reactome.db": [
         "AnnotationDbi",
         "KEGGREST",
