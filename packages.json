@@ -4716,13 +4716,8 @@
         "SummarizedExperiment",
         "GenomicAlignments"
     ],
-    "GeoDiff": [
-        "GeomxTools"
-    ],
-    "GeomxTools": [],
-    "GeoMxWorkflows": [
-        "GeomxTools"
-    ],
+    "GeoDiff": [],
+    "GeoMxWorkflows": [],
     "gep2pep": [
         "GSEABase",
         "annotate"
@@ -11542,9 +11537,7 @@
         "DropletUtils",
         "scuttle"
     ],
-    "SpatialDecon": [
-        "GeomxTools"
-    ],
+    "SpatialDecon": [],
     "spatialDmelxsim": [
         "ExperimentHub",
         "SummarizedExperiment",
