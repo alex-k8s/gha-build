@@ -10103,7 +10103,6 @@
         "GO.db",
         "annotate"
     ],
-    "procoil": [],
     "proDA": [
         "SummarizedExperiment"
     ],
