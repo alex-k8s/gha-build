@@ -17076,7 +17076,6 @@
     "netOmics": [
         "AnnotationDbi",
         "GO.db",
-        "RandomWalkRestartMH",
         "KEGGREST",
         "Biostrings",
         "XVector",
@@ -21459,7 +21458,6 @@
         "KEGGREST",
         "DelayedArray"
     ],
-    "RandomWalkRestartMH": [],
     "RareVariantVis": [
         "VariantAnnotation",
         "GenomicFeatures",
