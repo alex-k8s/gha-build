@@ -12697,7 +12697,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "hgu133plus2CellScore": [],
     "hgu133plus2probe": [
         "AnnotationDbi",
         "IRanges",
