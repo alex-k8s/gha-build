@@ -4961,7 +4961,6 @@
         "TreeSummarizedExperiment",
         "SingleCellExperiment"
     ],
-    "microbiomeDASim": [],
     "microbiomeDataSets": [
         "TreeSummarizedExperiment",
         "MultiAssayExperiment",
