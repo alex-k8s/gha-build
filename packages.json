@@ -75,9 +75,7 @@
         "biomaRt"
     ],
     "affylmGUI": [],
-    "ag.db": [
-        "org.At.tair.db"
-    ],
+    "ag.db": [],
     "agcdf": [],
     "AGDEX": [
         "GSEABase",
@@ -431,9 +429,7 @@
         "GenomicAlignments",
         "AnnotationHub"
     ],
-    "ath1121501.db": [
-        "org.At.tair.db"
-    ],
+    "ath1121501.db": [],
     "ath1121501cdf": [],
     "ath1121501probe": [],
     "atSNP": [
@@ -7100,7 +7096,6 @@
         "annotate"
     ],
     "org.Ag.eg.db": [],
-    "org.At.tair.db": [],
     "org.Bt.eg.db": [],
     "org.Cf.eg.db": [],
     "org.Dm.eg.db": [],
