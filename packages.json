@@ -21797,7 +21797,6 @@
         "Biostrings",
         "XVector"
     ],
-    "STATegRa": [],
     "Statial": [
         "SingleCellExperiment",
         "SummarizedExperiment",
