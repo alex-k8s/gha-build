@@ -6847,7 +6847,6 @@
         "annotate",
         "AnnotationDbi"
     ],
-    "idpr": [],
     "idr2d": [],
     "IgGeneUsage": [
         "SummarizedExperiment"
