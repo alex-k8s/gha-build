@@ -12227,7 +12227,6 @@
         "Biostrings",
         "org.Hs.eg.db"
     ],
-    "GSEAlm": [],
     "gsean": [
         "PPInfer",
         "biomaRt",
