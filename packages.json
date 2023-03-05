@@ -1802,7 +1802,6 @@
     "chipenrich": [
         "chipenrich.data",
         "org.Dm.eg.db",
-        "org.Dr.eg.db",
         "org.Hs.eg.db",
         "org.Mm.eg.db",
         "org.Rn.eg.db",
@@ -6871,7 +6870,6 @@
     "org.Bt.eg.db": [],
     "org.Cf.eg.db": [],
     "org.Dm.eg.db": [],
-    "org.Dr.eg.db": [],
     "org.EcK12.eg.db": [],
     "org.Hs.eg.db": [],
     "org.Mm.eg.db": [],
@@ -11011,9 +11009,7 @@
     "ygs98.db": [],
     "ygs98cdf": [],
     "ygs98probe": [],
-    "zebrafish.db": [
-        "org.Dr.eg.db"
-    ],
+    "zebrafish.db": [],
     "zebrafish.db0": [],
     "zebrafishcdf": [],
     "zebrafishprobe": [],
