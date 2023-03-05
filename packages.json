@@ -7029,7 +7029,6 @@
     "rrvgo": [
         "GOSemSim"
     ],
-    "rScudo": [],
     "RSVSim": [
         "ShortRead",
         "GenomicAlignments"
