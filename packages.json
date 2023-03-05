@@ -6417,7 +6417,6 @@
         "KEGGREST",
         "annotate"
     ],
-    "diggit": [],
     "Dino": [
         "BiocSingular",
         "SummarizedExperiment",
