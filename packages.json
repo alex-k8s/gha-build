@@ -4623,7 +4623,6 @@
     "CompoundDb": [
         "AnnotationFilter",
         "Spectra",
-        "MetaboCoreUtils",
         "GenomicRanges",
         "XVector"
     ],
@@ -12206,7 +12205,6 @@
         "XVector"
     ],
     "MetaboAnnotation": [
-        "MetaboCoreUtils",
         "Spectra",
         "SummarizedExperiment",
         "QFeatures",
@@ -12216,7 +12214,6 @@
         "GenomicRanges",
         "XVector"
     ],
-    "MetaboCoreUtils": [],
     "metaboliteIDmapping": [
         "AnnotationHub",
         "AnnotationDbi",
@@ -13495,7 +13492,6 @@
     "MobilityTransformR": [
         "MSnbase",
         "xcms",
-        "MetaboCoreUtils",
         "Spectra",
         "vsn",
         "SummarizedExperiment",
