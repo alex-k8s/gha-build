@@ -9677,9 +9677,7 @@
         "biomaRt",
         "GenomicAlignments"
     ],
-    "QuartPAC": [
-        "SpacePAC"
-    ],
+    "QuartPAC": [],
     "QuasR": [
         "BSgenome",
         "GenomicFeatures",
@@ -11497,7 +11495,6 @@
     ],
     "soybeancdf": [],
     "soybeanprobe": [],
-    "SpacePAC": [],
     "Spaniel": [
         "SingleCellExperiment",
         "SummarizedExperiment",
