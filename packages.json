@@ -25202,10 +25202,7 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "rcellminer": [
-        "rcellminerData"
-    ],
-    "rcellminerData": [],
+    "rcellminer": [],
     "rCGH": [
         "affy",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
