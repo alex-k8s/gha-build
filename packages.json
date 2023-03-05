@@ -10787,7 +10787,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "worm.db0": [],
     "wpm": [],
     "xcms": [
         "MsFeatures"
