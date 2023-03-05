@@ -7298,7 +7298,6 @@
         "GenomicFeatures",
         "biomaRt"
     ],
-    "kebabs": [],
     "KEGGlincs": [
         "hgu133a.db",
         "org.Hs.eg.db",
@@ -9854,8 +9853,7 @@
         "BSgenome"
     ],
     "odseq": [
-        "msa",
-        "kebabs"
+        "msa"
     ],
     "OGRE": [
         "Gviz",
@@ -11485,9 +11483,7 @@
         "AnnotationDbi",
         "annotate"
     ],
-    "procoil": [
-        "kebabs"
-    ],
+    "procoil": [],
     "proDA": [
         "SummarizedExperiment"
     ],
