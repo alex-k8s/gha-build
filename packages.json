@@ -3390,7 +3390,6 @@
     "esetVis": [
         "MLP"
     ],
-    "eudysbiome": [],
     "EuPathDB": [
         "AnnotationHubData",
         "GenomicFeatures",
