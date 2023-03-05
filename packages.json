@@ -259,7 +259,6 @@
         "Rsamtools",
         "KEGGREST"
     ],
-    "altcdfenvs": [],
     "alternativeSplicingEvents.hg19": [
         "AnnotationHub",
         "AnnotationDbi",
@@ -6609,9 +6608,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "Harshlight": [
-        "altcdfenvs"
-    ],
+    "Harshlight": [],
     "HCAData": [
         "SingleCellExperiment",
         "ExperimentHub",
