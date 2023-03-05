@@ -1372,7 +1372,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "bsubtiliscdf": [],
     "BubbleTree": [
         "biovizBase",
         "GenomicAlignments",
