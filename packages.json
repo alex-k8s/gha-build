@@ -29506,7 +29506,6 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "SPEM": [],
     "SPIA": [
         "KEGGgraph"
     ],
@@ -30931,9 +30930,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "TMixClust": [
-        "SPEM"
-    ],
+    "TMixClust": [],
     "TNBC.CMS": [
         "SummarizedExperiment",
         "GSVA",
