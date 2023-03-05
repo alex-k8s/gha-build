@@ -3306,10 +3306,8 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "crisprBase": [],
     "crisprBowtie": [
         "BSgenome",
-        "crisprBase",
         "rtracklayer",
         "Rsamtools",
         "GenomicAlignments",
@@ -3317,7 +3315,6 @@
     ],
     "crisprBwa": [
         "BSgenome",
-        "crisprBase",
         "Rbwa",
         "rtracklayer",
         "Rsamtools",
@@ -3325,7 +3322,6 @@
         "SummarizedExperiment"
     ],
     "crisprDesign": [
-        "crisprBase",
         "AnnotationDbi",
         "BSgenome",
         "crisprBowtie",
@@ -3383,7 +3379,6 @@
         "SummarizedExperiment"
     ],
     "crisprVerse": [
-        "crisprBase",
         "crisprBowtie",
         "crisprScore",
         "crisprDesign",
@@ -3406,7 +3401,6 @@
         "AnnotationFilter"
     ],
     "crisprViz": [
-        "crisprBase",
         "crisprDesign",
         "BSgenome",
         "GenomicFeatures",
