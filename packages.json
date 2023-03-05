@@ -3607,7 +3607,6 @@
         "geneplotter",
         "annotate"
     ],
-    "FilterFFPE": [],
     "FindIT2": [
         "rtracklayer",
         "GenomicFeatures",
