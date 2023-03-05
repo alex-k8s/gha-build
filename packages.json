@@ -8129,10 +8129,7 @@
         "AnnotationFilter"
     ],
     "MSstatsLiP": [],
-    "MSstatsQC": [],
-    "MSstatsQCgui": [
-        "MSstatsQC"
-    ],
+    "MSstatsQCgui": [],
     "MSstatsShiny": [],
     "mta10probeset.db": [
         "org.Mm.eg.db"
