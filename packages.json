@@ -4805,13 +4805,10 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "flowStats": [],
     "flowTrans": [
         "flowClust"
     ],
-    "flowVS": [
-        "flowStats"
-    ],
+    "flowVS": [],
     "fluentGenomics": [
         "plyranges",
         "SummarizedExperiment",
@@ -5718,9 +5715,7 @@
         "ExperimentHub",
         "AnnotationHub"
     ],
-    "highthroughputassays": [
-        "flowStats"
-    ],
+    "highthroughputassays": [],
     "Hiiragi2013": [
         "genefilter",
         "geneplotter",
