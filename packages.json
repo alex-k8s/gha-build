@@ -12312,10 +12312,7 @@
     "tomoda": [
         "SummarizedExperiment"
     ],
-    "topdownr": [],
-    "topdownrdata": [
-        "topdownr"
-    ],
+    "topdownrdata": [],
     "topGO": [
         "GO.db"
     ],
