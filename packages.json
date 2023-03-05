@@ -11737,7 +11737,6 @@
         "AnnotationDbi",
         "annotate"
     ],
-    "QSutils": [],
     "qsvaR": [
         "SummarizedExperiment",
         "sva",
