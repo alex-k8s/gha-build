@@ -1,0 +1,103 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CGHcall'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'CGHcall'
+also installing the dependencies ‘snow’, ‘CGHbase’, ‘snowfall’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/snow_0.4-4.tar.gz'
+Content type 'binary/octet-stream' length 20658 bytes (20 KB)
+==================================================
+downloaded 20 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/CGHbase_1.58.0.tar.gz'
+Content type 'application/x-gzip' length 868347 bytes (847 KB)
+==================================================
+downloaded 847 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/snowfall_1.84-6.2.tar.gz'
+Content type 'binary/octet-stream' length 176450 bytes (172 KB)
+==================================================
+downloaded 172 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/CGHcall_2.60.0.tar.gz'
+Content type 'application/x-gzip' length 345669 bytes (337 KB)
+==================================================
+downloaded 337 KB
+
+* installing *source* package ‘snow’ ...
+** package ‘snow’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘snow’ as ‘snow_0.4-4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (snow)
+* installing *source* package ‘CGHbase’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CGHbase’ as ‘CGHbase_1.58.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (CGHbase)
+* installing *source* package ‘snowfall’ ...
+** package ‘snowfall’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘snowfall’ as ‘snowfall_1.84-6.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (snowfall)
+* installing *source* package ‘CGHcall’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CGHcall’ as ‘CGHcall_2.60.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (CGHcall)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHhsG2S/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	2m42.153s
+user	2m35.547s
+sys	0m4.466s
