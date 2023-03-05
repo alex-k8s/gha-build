@@ -17887,7 +17887,6 @@
         "GenomicRanges",
         "XVector"
     ],
-    "qpcrNorm": [],
     "qpgraph": [
         "annotate",
         "AnnotationDbi",
