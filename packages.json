@@ -26920,7 +26920,6 @@
         "DelayedArray",
         "KEGGREST"
     ],
-    "twoddpcr": [],
     "txcutr": [
         "AnnotationDbi",
         "GenomicFeatures",
