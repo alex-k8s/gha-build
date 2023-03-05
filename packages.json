@@ -6395,7 +6395,6 @@
         "GenomicAlignments",
         "biomaRt"
     ],
-    "MMAPPR2data": [],
     "MMDiff2": [
         "BSgenome",
         "rtracklayer",
