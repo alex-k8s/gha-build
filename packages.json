@@ -18278,7 +18278,6 @@
         "scuttle",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "variancePartition",
         "IRanges",
         "GenomicRanges",
         "geneplotter",
@@ -30514,7 +30513,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "variancePartition": [],
     "VariantAnnotation": [
         "GenomeInfoDb",
         "GenomicRanges",
@@ -31378,7 +31376,6 @@
         "XVector"
     ],
     "zenith": [
-        "variancePartition",
         "EnrichmentBrowser",
         "GSEABase",
         "SummarizedExperiment",
