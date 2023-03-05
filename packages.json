@@ -82,7 +82,6 @@
     ],
     "AHMeSHDbs": [],
     "AHPubMedDbs": [],
-    "AHWikipathwaysDbs": [],
     "airpart": [
         "SingleCellExperiment",
         "scater",
