@@ -411,7 +411,6 @@
         "GenomicFeatures",
         "GenomicAlignments"
     ],
-    "BDMMAcorrect": [],
     "beadarrayExampleData": [],
     "BeadSorted.Saliva.EPIC": [
         "minfi",
