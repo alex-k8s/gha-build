@@ -5273,7 +5273,6 @@
     ],
     "omicsViewer": [],
     "OncoScore": [],
-    "ontoProc": [],
     "openCyto": [
         "flowClust"
     ],
@@ -6197,9 +6196,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "pogos": [
-        "ontoProc"
-    ],
+    "pogos": [],
     "PolyPhen.Hsapiens.dbSNP131": [
         "VariantAnnotation",
         "rtracklayer",
@@ -7985,8 +7982,7 @@
         "SingleCellExperiment"
     ],
     "tenXplore": [
-        "restfulSE",
-        "ontoProc"
+        "restfulSE"
     ],
     "TENxVisiumData": [
         "SpatialExperiment",
