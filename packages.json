@@ -2883,7 +2883,6 @@
     "DNAfusion": [
         "GenomicAlignments"
     ],
-    "DO.db": [],
     "DominoEffect": [
         "biomaRt",
         "VariantAnnotation",
