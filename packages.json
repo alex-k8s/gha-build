@@ -4005,7 +4005,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "cola": [],
     "comapr": [
         "GenomicRanges",
         "SummarizedExperiment",
