@@ -4968,10 +4968,8 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "DelayedRandomArray": [],
     "DelayedTensor": [
         "BiocSingular",
-        "DelayedRandomArray",
         "ScaledMatrix"
     ],
     "deltaCaptureC": [
