@@ -965,7 +965,6 @@
         "SummarizedExperiment",
         "BiocSingular",
         "scuttle",
-        "ResidualMatrix",
         "GenomicRanges"
     ],
     "BatchQC": [
@@ -3540,7 +3539,6 @@
         "SummarizedExperiment",
         "BiocSingular",
         "scuttle",
-        "ResidualMatrix",
         "Biostrings",
         "GenomicAlignments"
     ],
@@ -12466,7 +12464,6 @@
         "scuttle",
         "scran",
         "batchelor",
-        "ResidualMatrix",
         "GenomicRanges"
     ],
     "MungeSumstats": [
@@ -16387,7 +16384,6 @@
         "GenomicRanges",
         "Biostrings"
     ],
-    "ResidualMatrix": [],
     "RESOLVE": [
         "Biostrings",
         "BSgenome",
@@ -18407,7 +18403,6 @@
         "scuttle",
         "AnnotationDbi",
         "BiocSingular",
-        "ResidualMatrix",
         "GenomicRanges",
         "geneplotter",
         "GenomicFeatures",
