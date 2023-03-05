@@ -6060,7 +6060,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "curatedBladderData": [],
     "curatedMetagenomicData": [
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
