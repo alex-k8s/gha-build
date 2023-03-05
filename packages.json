@@ -2611,7 +2611,6 @@
         "geneplotter"
     ],
     "ecoli2.db": [],
-    "ecoliLeucine": [],
     "EDASeq": [
         "ShortRead",
         "GenomicFeatures",
