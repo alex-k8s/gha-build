@@ -23154,7 +23154,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "RVS": [],
     "rwgcod.db": [
         "AnnotationDbi",
         "org.Rn.eg.db",
