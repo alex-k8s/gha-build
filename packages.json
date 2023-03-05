@@ -28719,7 +28719,6 @@
         "beachmat",
         "scuttle"
     ],
-    "simpleSingleCell": [],
     "simplifyEnrichment": [
         "GOSemSim",
         "ComplexHeatmap",
