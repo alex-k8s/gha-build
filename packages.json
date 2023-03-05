@@ -2367,7 +2367,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "DAPAR": [],
     "dasper": [
         "GenomicFeatures",
         "plyranges",
@@ -7105,9 +7104,7 @@
         "sva",
         "genefilter"
     ],
-    "Prostar": [
-        "DAPAR"
-    ],
+    "Prostar": [],
     "proteasy": [
         "ensembldb",
         "EnsDb.Hsapiens.v86",
