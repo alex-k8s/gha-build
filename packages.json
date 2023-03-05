@@ -4442,7 +4442,6 @@
         "ExperimentHub",
         "AnnotationHub"
     ],
-    "excluderanges": [],
     "ExCluster": [
         "rtracklayer",
         "Rsamtools",
