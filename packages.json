@@ -13860,7 +13860,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "martini": [],
     "maser": [
         "GenomicRanges",
         "rtracklayer",
