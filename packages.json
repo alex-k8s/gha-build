@@ -3891,7 +3891,6 @@
     "CardinalWorkflows": [],
     "casper": [
         "GenomicRanges",
-        "gaga",
         "GenomeInfoDb",
         "GenomicFeatures",
         "Rsamtools",
@@ -9293,7 +9292,6 @@
         "BSgenome",
         "DelayedArray"
     ],
-    "gaga": [],
     "gage": [
         "KEGGREST",
         "AnnotationDbi",
