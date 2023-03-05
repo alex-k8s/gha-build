@@ -1695,9 +1695,7 @@
         "scran",
         "scuttle"
     ],
-    "celegans.db": [
-        "org.Ce.eg.db"
-    ],
+    "celegans.db": [],
     "celeganscdf": [],
     "CellBarcode": [
         "ShortRead",
@@ -7112,7 +7110,6 @@
     "org.Ag.eg.db": [],
     "org.At.tair.db": [],
     "org.Bt.eg.db": [],
-    "org.Ce.eg.db": [],
     "org.Cf.eg.db": [],
     "org.Dm.eg.db": [],
     "org.Dr.eg.db": [],
