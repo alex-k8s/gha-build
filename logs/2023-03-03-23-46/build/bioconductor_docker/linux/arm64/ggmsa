@@ -1,0 +1,621 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ggmsa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'ggmsa'
+also installing the dependencies ‘extrafontdb’, ‘Rttf2pt1’, ‘crosstalk’, ‘data.table’, ‘proj4’, ‘ash’, ‘maps’, ‘extrafont’, ‘plotly’, ‘tweenr’, ‘polyclip’, ‘RcppEigen’, ‘ggalt’, ‘ggforce’, ‘R4RNA’, ‘seqmagick’, ‘statebins’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/extrafontdb_1.0.tar.gz'
+Content type 'application/x-tar' length 1641 bytes
+==================================================
+downloaded 1641 bytes
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/Rttf2pt1_1.3.12.tar.gz'
+Content type 'binary/octet-stream' length 222872 bytes (217 KB)
+==================================================
+downloaded 217 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/crosstalk_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 295957 bytes (289 KB)
+==================================================
+downloaded 289 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 5275174 bytes (5.0 MB)
+==================================================
+downloaded 5.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/proj4_1.0-12.tar.gz'
+Content type 'binary/octet-stream' length 43429 bytes (42 KB)
+==================================================
+downloaded 42 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ash_1.0-15.tar.gz'
+Content type 'application/x-tar' length 7017 bytes
+==================================================
+downloaded 7017 bytes
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/maps_3.4.1.tar.gz'
+Content type 'binary/octet-stream' length 2239450 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/extrafont_0.19.tar.gz'
+Content type 'binary/octet-stream' length 16615 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/plotly_4.10.1.tar.gz'
+Content type 'binary/octet-stream' length 3883466 bytes (3.7 MB)
+==================================================
+downloaded 3.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/tweenr_2.0.2.tar.gz'
+Content type 'binary/octet-stream' length 584821 bytes (571 KB)
+==================================================
+downloaded 571 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/polyclip_1.10-4.tar.gz'
+Content type 'binary/octet-stream' length 80523 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1470560 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggalt_0.4.0.tar.gz'
+Content type 'application/x-tar' length 2155720 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggforce_0.4.1.tar.gz'
+Content type 'binary/octet-stream' length 860720 bytes (840 KB)
+==================================================
+downloaded 840 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/R4RNA_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 803151 bytes (784 KB)
+==================================================
+downloaded 784 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/seqmagick_0.1.5.tar.gz'
+Content type 'binary/octet-stream' length 102196 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/statebins_1.4.0.tar.gz'
+Content type 'binary/octet-stream' length 881385 bytes (860 KB)
+==================================================
+downloaded 860 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/ggmsa_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 3586376 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+* installing *source* package ‘extrafontdb’ ...
+** package ‘extrafontdb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘extrafontdb’ as ‘extrafontdb_1.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (extrafontdb)
+* installing *source* package ‘Rttf2pt1’ ...
+** package ‘Rttf2pt1’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+** arch - 
+echo "make ttf2pt1 in ttf2pt1/ ..."
+make ttf2pt1 in ttf2pt1/ ...
+(cd ttf2pt1; make CC="`"/usr/local/lib/R/bin/R" CMD config CC`" CFLAGS="`"/usr/local/lib/R/bin/R" CMD config CFLAGS`" ttf2pt1)
+make[1]: Entering directory '/tmp/RtmpyBNBTS/R.INSTALL1c66b7f6764/Rttf2pt1/src/ttf2pt1'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -c ttf2pt1.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -c pt1.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runt1asm.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -c ttf.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -c ft.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -c bdf.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -c bitmap.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -o ttf2pt1 ttf2pt1.o pt1.o runt1asm.o ttf.o ft.o bdf.o bitmap.o -lm  
+make[1]: Leaving directory '/tmp/RtmpyBNBTS/R.INSTALL1c66b7f6764/Rttf2pt1/src/ttf2pt1'
+installing via 'install.libs.R' to /tmp/built/00LOCK-Rttf2pt1/00new/Rttf2pt1
+[1] ""
+Installing ttf2pt1/ttf2pt1 to /tmp/built/00LOCK-Rttf2pt1/00new/Rttf2pt1/exec
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rttf2pt1’ as ‘Rttf2pt1_1.3.12_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Rttf2pt1)
+* installing *source* package ‘crosstalk’ ...
+** package ‘crosstalk’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *source* package ‘data.table’ ...
+** package ‘data.table’ successfully unpacked and MD5 sums checked
+** using staged installation
+gcc 11.3.0
+zlib 1.2.11 is available ok
+R CMD SHLIB supports OpenMP without any extra hint
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c assign.c -o assign.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c between.c -o between.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bmerge.c -o bmerge.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chmatch.c -o chmatch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cj.c -o cj.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coalesce.c -o coalesce.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dogroups.c -o dogroups.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastmean.c -o fastmean.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fcast.c -o fcast.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fifelse.c -o fifelse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fmelt.c -o fmelt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c forder.c -o forder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frank.c -o frank.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fread.c -o fread.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c freadR.c -o freadR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c froll.c -o froll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frollR.c -o frollR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frolladaptive.c -o frolladaptive.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fsort.c -o fsort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fwrite.c -o fwrite.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fwriteR.c -o fwriteR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gsumm.c -o gsumm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ijoin.c -o ijoin.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inrange.c -o inrange.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nafill.c -o nafill.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nqrecreateindices.c -o nqrecreateindices.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c openmp-utils.c -o openmp-utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c quickselect.c -o quickselect.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbindlist.c -o rbindlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorder.c -o reorder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shift.c -o shift.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snprintf.c -o snprintf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.c -o subset.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transpose.c -o transpose.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c types.c -o types.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uniqlist.c -o uniqlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vecseq.c -o vecseq.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrappers.c -o wrappers.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o data.table.so assign.o between.o bmerge.o chmatch.o cj.o coalesce.o dogroups.o fastmean.o fcast.o fifelse.o fmelt.o forder.o frank.o fread.o freadR.o froll.o frollR.o frolladaptive.o fsort.o fwrite.o fwriteR.o gsumm.o ijoin.o init.o inrange.o nafill.o nqrecreateindices.o openmp-utils.o quickselect.o rbindlist.o reorder.o shift.o snprintf.o subset.o transpose.o types.o uniqlist.o utils.o vecseq.o wrappers.o -fopenmp -lz -L/usr/local/lib/R/lib -lR
+PKG_CFLAGS = -fopenmp
+PKG_LIBS = -fopenmp -lz
+if [ "data.table.so" != "data_table.so" ]; then mv data.table.so data_table.so; fi
+if [ "" != "Windows_NT" ] && [ `uname -s` = 'Darwin' ]; then install_name_tool -id data_table.so data_table.so; fi
+installing to /tmp/built/00LOCK-data.table/00new/data.table/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *source* package ‘proj4’ ...
+** package ‘proj4’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether pkg-config knows about proj... yes
+checking CFLAGS from pkg-config... 
+checking LIBS from pkg-config... checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++14 accepts -g... yes
+checking for g++ -std=gnu++14 option to enable C++11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for proj_api.h... no
+checking with ACCEPT_USE_OF_DEPRECATED_PROJ_API_H... 
+checking for proj_api.h... no
+checking for proj.h... yes
+checking for proj_get_source_crs in -lproj... yes
+configure: PROJ4 API available: no
+configure: PROJ6 API available: yes
+checking whether to require PROJ6 API... no
+checking whether to use PROJ6 API... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_PROJ6_API=1 -I/usr/local/include    -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c p4.c -o p4.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_PROJ6_API=1 -I/usr/local/include    -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proj4.so p4.o reg.o -lproj -lproj -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-proj4/00new/proj4/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proj4’ as ‘proj4_1.0-12_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (proj4)
+* installing *source* package ‘ash’ ...
+** package ‘ash’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c ash.f -o ash.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c sort.f -o sort.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ash.so ash.o sort.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-ash/00new/ash/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ash’ as ‘ash_1.0-15_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ash)
+* installing *source* package ‘maps’ ...
+** package ‘maps’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gawk... no
+checking for mawk... mawk
+configure: creating ./config.status
+config.status: creating src/Makefile
+** libs
+** arch - 
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile init.o mapclip.o mapget.o smooth.o thin.o 
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapclip.c -o mapclip.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapget.c -o mapget.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c smooth.c -o smooth.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c thin.c -o thin.o
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+"/usr/local/lib/R/bin/R" CMD SHLIB -o maps.so init.o mapclip.o mapget.o smooth.o thin.o 
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o maps.so init.o mapclip.o mapget.o smooth.o thin.o -L/usr/local/lib/R/lib -lR
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Gmake
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Gmake.c   -o Gmake
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Lmake
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Lmake.c   -o Lmake
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile world2.line
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+Converting world to world2
+mawk -f ./convert.awk < world.line > world2.line
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.L state.L usa.L nz.L world.L world2.L italy.L france.L state.vbm.L state.carto.L lakes.L
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+./Lmake 0 s b county.line county.linestats ../inst/mapdata/county.L
+./Lmake 0 s b state.line state.linestats ../inst/mapdata/state.L
+./Lmake 0 s b usa.line usa.linestats ../inst/mapdata/usa.L
+./Lmake 0 s b nz.line nz.linestats ../inst/mapdata/nz.L
+./Lmake 0 s b world.line world.linestats ../inst/mapdata/world.L
+./Lmake 0 s b world2.line world2.linestats ../inst/mapdata/world2.L
+./Lmake 0 s b italy.line italy.linestats ../inst/mapdata/italy.L
+./Lmake 0 s b france.line france.linestats ../inst/mapdata/france.L
+./Lmake 0 p b state.vbm.line state.vbm.linestats ../inst/mapdata/state.vbm.L
+./Lmake 0 p b state.carto.line state.carto.linestats ../inst/mapdata/state.carto.L
+./Lmake 0 s b lakes.line lakes.linestats ../inst/mapdata/lakes.L
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.G state.G usa.G nz.G world.G world2.G italy.G france.G state.vbm.G state.carto.G lakes.G
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+./Gmake b county.gon county.gonstats ../inst/mapdata/county.G ../inst/mapdata/county.L
+./Gmake b state.gon state.gonstats ../inst/mapdata/state.G ../inst/mapdata/state.L
+./Gmake b usa.gon usa.gonstats ../inst/mapdata/usa.G ../inst/mapdata/usa.L
+./Gmake b nz.gon nz.gonstats ../inst/mapdata/nz.G ../inst/mapdata/nz.L
+./Gmake b world.gon world.gonstats ../inst/mapdata/world.G ../inst/mapdata/world.L
+./Gmake b world2.gon world2.gonstats ../inst/mapdata/world2.G ../inst/mapdata/world2.L
+./Gmake b italy.gon italy.gonstats ../inst/mapdata/italy.G ../inst/mapdata/italy.L
+./Gmake b france.gon france.gonstats ../inst/mapdata/france.G ../inst/mapdata/france.L
+./Gmake b state.vbm.gon state.vbm.gonstats ../inst/mapdata/state.vbm.G ../inst/mapdata/state.vbm.L
+./Gmake b state.carto.gon state.carto.gonstats ../inst/mapdata/state.carto.G ../inst/mapdata/state.carto.L
+./Gmake b lakes.gon lakes.gonstats ../inst/mapdata/lakes.G ../inst/mapdata/lakes.L
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.N state.N usa.N nz.N world.N world2.N italy.N france.N state.vbm.N state.carto.N lakes.N
+make[1]: Entering directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJijVa0/R.INSTALLf2d98d951a/maps/src'
+installing to /tmp/built/00LOCK-maps/00new/maps/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘maps’ as ‘maps_3.4.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (maps)
+* installing *source* package ‘tweenr’ ...
+** package ‘tweenr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c along.cpp -o along.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c at.cpp -o at.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c easing.c -o easing.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c element.cpp -o element.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c element_at.cpp -o element_at.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fill.cpp -o fill.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c state.cpp -o state.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o tweenr.so along.o at.o cpp11.o easing.o element.o element_at.o fill.o state.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-tweenr/00new/tweenr/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tweenr’ as ‘tweenr_2.0.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (tweenr)
+* installing *source* package ‘polyclip’ ...
+** package ‘polyclip’ successfully unpacked and MD5 sums checked
+** using staged installation
+compiling under C++11
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++11 accepts -g... yes
+Using PKG_CONFIG: pkg-config
+Compiling against bundled copy of clipper library.
+     In the clipper library, signed 64-bit integers (cInt)
+     will be declared as 'signed long long'
+     In the clipper library, unsigned 64-bit integers (cUInt)
+     will be declared as 'unsigned long long'
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="signed long long" -DPOLYCLIP_ULONG64="unsigned long long"  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="signed long long" -DPOLYCLIP_ULONG64="unsigned long long"  -I/usr/local/include  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interface.cpp -o interface.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="signed long long" -DPOLYCLIP_ULONG64="unsigned long long"  -I/usr/local/include  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clipper.cpp -o clipper.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o polyclip.so init.o interface.o clipper.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-polyclip/00new/polyclip/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘polyclip’ as ‘polyclip_1.10-4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (polyclip)
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘R4RNA’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R4RNA’ as ‘R4RNA_1.26.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (R4RNA)
+* installing *source* package ‘seqmagick’ ...
+** package ‘seqmagick’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘seqmagick’ as ‘seqmagick_0.1.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (seqmagick)
+* installing *source* package ‘statebins’ ...
+** package ‘statebins’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘statebins’ as ‘statebins_1.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (statebins)
+* installing *source* package ‘extrafont’ ...
+** package ‘extrafont’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘extrafont’ as ‘extrafont_0.19_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (extrafont)
+* installing *source* package ‘plotly’ ...
+** package ‘plotly’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotly’ as ‘plotly_4.10.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plotly)
+* installing *source* package ‘ggforce’ ...
+** package ‘ggforce’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bSpline.cpp -o bSpline.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bezier.cpp -o bezier.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c deBoor.cpp -o deBoor.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ellipseEnclose.cpp -o ellipseEnclose.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c enclose.cpp -o enclose.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pointPath.cpp -o pointPath.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ggforce.so RcppExports.o bSpline.o bezier.o deBoor.o ellipseEnclose.o enclose.o pointPath.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-ggforce/00new/ggforce/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggforce’ as ‘ggforce_0.4.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggforce)
+* installing *source* package ‘ggalt’ ...
+** package ‘ggalt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggalt’ as ‘ggalt_0.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggalt)
+* installing *source* package ‘ggmsa’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to 'seq_len' 
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggmsa’ as ‘ggmsa_1.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggmsa)
+
+The downloaded source packages are in
+	‘/tmp/RtmpIWJTS7/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	50m9.669s
+user	48m59.222s
+sys	0m55.206s
