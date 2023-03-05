@@ -20732,9 +20732,7 @@
         "flowMeans",
         "flowCore"
     ],
-    "OrderedList": [
-        "twilight"
-    ],
+    "OrderedList": [],
     "ORFhunteR": [
         "Biostrings",
         "rtracklayer",
@@ -31439,7 +31437,6 @@
         "BiocIO"
     ],
     "tweeDEseq": [],
-    "twilight": [],
     "twoddpcr": [],
     "txcutr": [
         "AnnotationDbi",
