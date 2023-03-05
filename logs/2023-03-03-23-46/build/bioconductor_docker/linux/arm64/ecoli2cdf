@@ -1,0 +1,44 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ecoli2cdf'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'ecoli2cdf'
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/ecoli2cdf_2.18.0.tar.gz'
+Content type 'application/x-gzip' length 750222 bytes (732 KB)
+==================================================
+downloaded 732 KB
+
+* installing *source* package ‘ecoli2cdf’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecoli2cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecoli2cdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecoli2cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecoli2cdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecoli2cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecoli2cdf’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ecoli2cdf’ as ‘ecoli2cdf_2.18.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ecoli2cdf)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp77XlSP/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	2m2.709s
+user	1m59.459s
+sys	0m1.799s
