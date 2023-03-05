@@ -4157,9 +4157,7 @@
         "GenomeInfoDb"
     ],
     "CancerInSilico": [],
-    "CancerSubtypes": [
-        "ConsensusClusterPlus"
-    ],
+    "CancerSubtypes": [],
     "canine.db": [
         "AnnotationDbi",
         "org.Cf.eg.db",
@@ -4260,7 +4258,6 @@
     "CATALYST": [
         "SingleCellExperiment",
         "ComplexHeatmap",
-        "ConsensusClusterPlus",
         "flowCore",
         "FlowSOM",
         "SummarizedExperiment",
@@ -4619,7 +4616,6 @@
         "IRanges",
         "GenomeInfoDb",
         "DelayedArray",
-        "ConsensusClusterPlus",
         "XVector"
     ],
     "Cepo": [
@@ -5111,7 +5107,6 @@
         "Rsamtools",
         "scran",
         "scater",
-        "ConsensusClusterPlus",
         "GenomicRanges",
         "IRanges",
         "SingleCellExperiment",
@@ -5985,7 +5980,6 @@
         "flowMeans",
         "flowMerge"
     ],
-    "ConsensusClusterPlus": [],
     "consensusDE": [
         "airway",
         "AnnotationDbi",
@@ -6781,7 +6775,6 @@
         "IRanges",
         "GenomeInfoDb",
         "DelayedArray",
-        "ConsensusClusterPlus",
         "XVector"
     ],
     "cytofWorkflow": [
@@ -6790,7 +6783,6 @@
         "HDCytoData",
         "SingleCellExperiment",
         "ComplexHeatmap",
-        "ConsensusClusterPlus",
         "flowCore",
         "FlowSOM",
         "SummarizedExperiment",
@@ -7177,7 +7169,6 @@
     ],
     "DEGreport": [
         "ComplexHeatmap",
-        "ConsensusClusterPlus",
         "DESeq2",
         "SummarizedExperiment",
         "IRanges",
@@ -7368,7 +7359,6 @@
         "frmaTools",
         "hgu133plus2.db",
         "sva",
-        "ConsensusClusterPlus",
         "siggenes",
         "AnnotationDbi",
         "IRanges",
@@ -7493,7 +7483,6 @@
         "SummarizedExperiment",
         "ComplexHeatmap",
         "IRanges",
-        "ConsensusClusterPlus",
         "GenomicRanges",
         "GenomeInfoDb",
         "DelayedArray",
@@ -9845,7 +9834,6 @@
         "flowCore"
     ],
     "FlowSOM": [
-        "ConsensusClusterPlus",
         "flowCore"
     ],
     "FlowSorted.Blood.450k": [
@@ -13984,7 +13972,6 @@
         "GenomicRanges",
         "KEGGREST",
         "ComplexHeatmap",
-        "ConsensusClusterPlus",
         "geneplotter",
         "GenomeInfoDb",
         "XVector",
@@ -15665,8 +15652,7 @@
     ],
     "MetaCyto": [
         "flowCore",
-        "FlowSOM",
-        "ConsensusClusterPlus"
+        "FlowSOM"
     ],
     "metagene": [
         "GenomicRanges",
@@ -21820,7 +21806,6 @@
     "PDATK": [
         "SummarizedExperiment",
         "MultiAssayExperiment",
-        "ConsensusClusterPlus",
         "CoreGx",
         "piano",
         "genefu",
@@ -29405,7 +29390,6 @@
         "GenomicRanges",
         "DelayedArray",
         "IRanges",
-        "ConsensusClusterPlus",
         "GenomeInfoDb",
         "XVector"
     ],
