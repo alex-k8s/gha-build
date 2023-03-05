@@ -272,9 +272,7 @@
         "BSgenome",
         "annotate"
     ],
-    "apComplex": [
-        "org.Sc.sgd.db"
-    ],
+    "apComplex": [],
     "apeglm": [],
     "APL": [
         "SingleCellExperiment",
@@ -3605,7 +3603,6 @@
     ],
     "fastLiquidAssociation": [
         "LiquidAssociation",
-        "org.Sc.sgd.db",
         "GO.db"
     ],
     "FastqCleaner": [
@@ -3984,7 +3981,6 @@
         "MotifDb",
         "TxDb.Scerevisiae.UCSC.sacCer3.sgdGene",
         "motifStack",
-        "org.Sc.sgd.db",
         "BSgenome",
         "rtracklayer",
         "biomaRt",
@@ -5256,9 +5252,7 @@
         "MultiAssayExperiment",
         "MultiDataSet"
     ],
-    "LiquidAssociation": [
-        "org.Sc.sgd.db"
-    ],
+    "LiquidAssociation": [],
     "lisaClust": [
         "spicyR",
         "SingleCellExperiment",
@@ -7121,7 +7115,6 @@
     ],
     "org.Pt.eg.db": [],
     "org.Rn.eg.db": [],
-    "org.Sc.sgd.db": [],
     "org.Ss.eg.db": [],
     "Organism.dplyr": [
         "GenomicFeatures",
@@ -9164,7 +9157,6 @@
         "systemPipeR",
         "clusterProfiler",
         "org.Hs.eg.db",
-        "org.Sc.sgd.db",
         "DOSE",
         "sva",
         "rtracklayer",
@@ -11371,14 +11363,10 @@
     "ye6100subccdf": [],
     "ye6100subdcdf": [],
     "yeast.db0": [],
-    "yeast2.db": [
-        "org.Sc.sgd.db"
-    ],
+    "yeast2.db": [],
     "yeast2cdf": [],
     "yeast2probe": [],
-    "ygs98.db": [
-        "org.Sc.sgd.db"
-    ],
+    "ygs98.db": [],
     "ygs98cdf": [],
     "ygs98probe": [],
     "zebrafish.db": [
