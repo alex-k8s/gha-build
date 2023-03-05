@@ -9188,7 +9188,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "fobitools": [],
     "FoldGO": [
         "topGO",
         "GO.db",
