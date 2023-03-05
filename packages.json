@@ -8178,7 +8178,6 @@
         "Biostrings",
         "DelayedArray"
     ],
-    "EGAD": [],
     "EGSEA": [
         "gage",
         "AnnotationDbi",
