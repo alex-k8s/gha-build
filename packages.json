@@ -4077,7 +4077,6 @@
         "rtracklayer"
     ],
     "GenomicAlignments": [],
-    "GenomicDistributions": [],
     "GenomicDistributionsData": [
         "ExperimentHub",
         "AnnotationHub",
