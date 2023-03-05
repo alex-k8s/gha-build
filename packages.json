@@ -3328,10 +3328,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "DAPAR": [
-        "DAPARdata"
-    ],
-    "DAPARdata": [],
+    "DAPAR": [],
     "dasper": [
         "GenomicFeatures",
         "megadepth",
@@ -10264,8 +10261,7 @@
         "annotate"
     ],
     "Prostar": [
-        "DAPAR",
-        "DAPARdata"
+        "DAPAR"
     ],
     "proteasy": [
         "ensembldb",
