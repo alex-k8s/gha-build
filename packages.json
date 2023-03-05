@@ -5455,7 +5455,6 @@
         "annotate",
         "org.Hs.eg.db"
     ],
-    "gtrellis": [],
     "GUIDEseq": [
         "CRISPRseek",
         "ChIPpeakAnno",
@@ -14116,7 +14115,6 @@
     "YAPSA": [
         "SomaticSignatures",
         "VariantAnnotation",
-        "gtrellis",
         "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome",
         "ggbio",
