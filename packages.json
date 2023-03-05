@@ -15478,7 +15478,6 @@
         "GenomicAlignments"
     ],
     "universalmotif": [],
-    "uSORT": [],
     "VAExprs": [
         "SingleCellExperiment",
         "SummarizedExperiment",
