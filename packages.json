@@ -92,7 +92,6 @@
         "AnnotationFilter",
         "biomaRt"
     ],
-    "affyILM": [],
     "affylmGUI": [
         "affyPLM",
         "AnnotationDbi"
