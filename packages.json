@@ -26401,7 +26401,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "timecourse": [],
     "timecoursedata": [
         "SummarizedExperiment",
         "GenomicRanges",
