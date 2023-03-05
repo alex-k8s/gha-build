@@ -1452,12 +1452,8 @@
         "hgu133a.db"
     ],
     "CancerInSilico": [],
-    "canine.db": [
-        "org.Cf.eg.db"
-    ],
-    "canine2.db": [
-        "org.Cf.eg.db"
-    ],
+    "canine.db": [],
+    "canine2.db": [],
     "cardelino": [
         "VariantAnnotation",
         "rtracklayer",
@@ -6049,7 +6045,6 @@
     ],
     "org.Ag.eg.db": [],
     "org.Bt.eg.db": [],
-    "org.Cf.eg.db": [],
     "org.Dm.eg.db": [],
     "org.Mmu.eg.db": [],
     "org.Mxanthus.db": [],
