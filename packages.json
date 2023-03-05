@@ -7730,7 +7730,6 @@
     "pedbarrayv9.db": [
         "org.Hs.eg.db"
     ],
-    "PERFect": [],
     "periodicDNA": [
         "BSgenome",
         "rtracklayer",
