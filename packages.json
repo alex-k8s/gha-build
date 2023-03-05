@@ -3868,7 +3868,6 @@
         "GenomicAlignments",
         "DelayedArray"
     ],
-    "CardinalWorkflows": [],
     "casper": [
         "GenomicRanges",
         "GenomeInfoDb",
