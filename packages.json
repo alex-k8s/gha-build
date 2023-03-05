@@ -1647,7 +1647,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "beta7": [],
     "BgeeCall": [
         "GenomicFeatures",
         "Biostrings",
