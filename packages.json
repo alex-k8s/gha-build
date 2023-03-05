@@ -6818,9 +6818,7 @@
         "SummarizedExperiment",
         "GenomicRanges"
     ],
-    "flowBin": [
-        "flowFP"
-    ],
+    "flowBin": [],
     "flowCL": [],
     "flowClust": [],
     "flowCut": [
@@ -6830,7 +6828,6 @@
     "flowDensity": [
         "flowWorkspace"
     ],
-    "flowFP": [],
     "flowMerge": [
         "flowClust"
     ],
@@ -7078,9 +7075,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "GateFinder": [
-        "flowFP"
-    ],
+    "GateFinder": [],
     "GBScleanR": [
         "SeqArray",
         "GenomicRanges",

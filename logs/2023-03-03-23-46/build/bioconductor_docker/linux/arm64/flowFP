@@ -1,0 +1,370 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''flowFP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'flowFP'
+also installing the dependencies ‘deldir’, ‘RcppEigen’, ‘png’, ‘jpeg’, ‘interp’, ‘latticeExtra’, ‘RColorBrewer’, ‘hexbin’, ‘IDPmisc’, ‘flowViz’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/deldir_1.0-6.tar.gz'
+Content type 'binary/octet-stream' length 120824 bytes (117 KB)
+==================================================
+downloaded 117 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1470560 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/png_0.1-8.tar.gz'
+Content type 'binary/octet-stream' length 25726 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/jpeg_0.1-10.tar.gz'
+Content type 'binary/octet-stream' length 19127 bytes (18 KB)
+==================================================
+downloaded 18 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/interp_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 686562 bytes (670 KB)
+==================================================
+downloaded 670 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/latticeExtra_0.6-30.tar.gz'
+Content type 'binary/octet-stream' length 1291531 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 11700 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/hexbin_1.28.2.tar.gz'
+Content type 'binary/octet-stream' length 1071886 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/IDPmisc_1.1.20.tar.gz'
+Content type 'binary/octet-stream' length 378002 bytes (369 KB)
+==================================================
+downloaded 369 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/flowViz_1.62.0.tar.gz'
+Content type 'application/x-gzip' length 934858 bytes (912 KB)
+==================================================
+downloaded 912 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/flowFP_1.56.3.tar.gz'
+Content type 'application/x-gzip' length 5363957 bytes (5.1 MB)
+==================================================
+downloaded 5.1 MB
+
+* installing *source* package ‘deldir’ ...
+** package ‘deldir’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c acchk.f -o acchk.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c addpt.f -o addpt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c adjchk.f -o adjchk.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c binsrt.f -o binsrt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c circen.f -o circen.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c cross.f -o cross.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c crossutil.f -o crossutil.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delet.f -o delet.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delet1.f -o delet1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delout.f -o delout.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delseg.f -o delseg.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dirout.f -o dirout.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dirseg.f -o dirseg.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dldins.f -o dldins.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c initad.f -o initad.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c insrt.f -o insrt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c insrt1.f -o insrt1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c intri.f -o intri.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c locn.f -o locn.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c master.f -o master.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c mnnd.f -o mnnd.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c pred.f -o pred.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c qtest.f -o qtest.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c qtest1.f -o qtest1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c stoke.f -o stoke.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c succ.f -o succ.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c swap.f -o swap.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c testeq.f -o testeq.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c triar.f -o triar.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c trifnd.f -o trifnd.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o deldir.so acchk.o addpt.o adjchk.o binsrt.o circen.o cross.o crossutil.o delet.o delet1.o delout.o delseg.o dirout.o dirseg.o dldins.o init.o initad.o insrt.o insrt1.o intri.o locn.o master.o mnnd.o pred.o qtest.o qtest1.o stoke.o succ.o swap.o testeq.o triar.o trifnd.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-deldir/00new/deldir/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘deldir’ as ‘deldir_1.0-6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (deldir)
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘png’ ...
+** package ‘png’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dummy.c -o dummy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o png.so dummy.o read.o write.o -lpng16 -lm -lz -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-png/00new/png/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘png’ as ‘png_0.1-8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (png)
+* installing *source* package ‘jpeg’ ...
+** package ‘jpeg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o jpeg.so read.o reg.o write.o -ljpeg -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-jpeg/00new/jpeg/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘jpeg’ as ‘jpeg_0.1-10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (jpeg)
+* installing *source* package ‘RColorBrewer’ ...
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *source* package ‘hexbin’ ...
+** package ‘hexbin’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c hbin.f -o hbin.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c hcell.f -o hcell.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c herode.f -o herode.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c hsm.f -o hsm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hexbin.so hbin.o hcell.o herode.o hsm.o reg.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-hexbin/00new/hexbin/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hexbin’ as ‘hexbin_1.28.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (hexbin)
+* installing *source* package ‘IDPmisc’ ...
+** package ‘IDPmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lwreg.c -o lwreg.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o IDPmisc.so init.o lwreg.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-IDPmisc/00new/IDPmisc/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+NOTE: arguments in definition for validity method for class 'rose' changed from (x) to (object)
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IDPmisc’ as ‘IDPmisc_1.1.20_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (IDPmisc)
+* installing *source* package ‘interp’ ...
+** package ‘interp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aSpline.cpp -o aSpline.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c bilinear.f -o bilinear.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c circum.cpp -o circum.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.cpp -o common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interp.cpp -o interp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c partDeriv.cpp -o partDeriv.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c s_hull_pro.cpp -o s_hull_pro.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shullDeltri.cpp -o shullDeltri.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o interp.so RcppExports.o aSpline.o bilinear.o circum.o common.o init.o interp.o partDeriv.o s_hull_pro.o shullDeltri.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-interp/00new/interp/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘interp’ as ‘interp_1.1-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (interp)
+* installing *source* package ‘latticeExtra’ ...
+** package ‘latticeExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘latticeExtra’ as ‘latticeExtra_0.6-30_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (latticeExtra)
+* installing *source* package ‘flowViz’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘densityplot’ with signature ‘x="formula",data="view"’: no definition for class “view”
+in method for ‘densityplot’ with signature ‘x="formula",data="ncdfFlowSet"’: no definition for class “ncdfFlowSet”
+in method for ‘densityplot’ with signature ‘x="formula",data="ncdfFlowList"’: no definition for class “ncdfFlowList”
+in method for ‘histogram’ with signature ‘x="formula",data="ncdfFlowSet"’: no definition for class “ncdfFlowSet”
+in method for ‘histogram’ with signature ‘x="formula",data="ncdfFlowList"’: no definition for class “ncdfFlowList”
+in method for ‘glines’ with signature ‘x="norm2Filter",data="ANY"’: no definition for class “norm2Filter”
+in method for ‘glines’ with signature ‘x="norm2Filter",data="logicalFilterResult"’: no definition for class “norm2Filter”
+in method for ‘glines’ with signature ‘x="norm2Filter",data="flowFrame"’: no definition for class “norm2Filter”
+in method for ‘glpoints’ with signature ‘x="norm2Filter",data="flowFrame",channels="character"’: no definition for class “norm2Filter”
+in method for ‘glpolygon’ with signature ‘x="norm2Filter",data="ANY"’: no definition for class “norm2Filter”
+in method for ‘glpolygon’ with signature ‘x="norm2Filter",data="logicalFilterResult"’: no definition for class “norm2Filter”
+in method for ‘glpolygon’ with signature ‘x="norm2Filter",data="flowFrame"’: no definition for class “norm2Filter”
+in method for ‘gpoints’ with signature ‘x="norm2Filter",data="flowFrame",channels="character"’: no definition for class “norm2Filter”
+in method for ‘gpolygon’ with signature ‘x="norm2Filter",data="ANY"’: no definition for class “norm2Filter”
+in method for ‘gpolygon’ with signature ‘x="norm2Filter",data="logicalFilterResult"’: no definition for class “norm2Filter”
+in method for ‘gpolygon’ with signature ‘x="norm2Filter",data="flowFrame"’: no definition for class “norm2Filter”
+in method for ‘xyplot’ with signature ‘x="formula",data="view"’: no definition for class “view”
+in method for ‘xyplot’ with signature ‘x="view",data="missing"’: no definition for class “view”
+in method for ‘xyplot’ with signature ‘x="formula",data="gateView"’: no definition for class “gateView”
+in method for ‘xyplot’ with signature ‘x="formula",data="ncdfFlowSet"’: no definition for class “ncdfFlowSet”
+in method for ‘xyplot’ with signature ‘x="formula",data="ncdfFlowList"’: no definition for class “ncdfFlowList”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘flowViz’ as ‘flowViz_1.62.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (flowViz)
+* installing *source* package ‘flowFP’ ...
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c flowFP.c -o flowFP.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split_utils.c -o split_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o flowFP.so flowFP.o init.o split_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-flowFP/00new/flowFP/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘append’ from package ‘base’ in package ‘flowFP’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘flowFP’ as ‘flowFP_1.56.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (flowFP)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp3JwhIE/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	23m58.742s
+user	23m31.745s
+sys	0m21.576s
