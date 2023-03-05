@@ -30017,7 +30017,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "subSeq": [],
     "sugarcanecdf": [
         "AnnotationDbi",
         "IRanges",
