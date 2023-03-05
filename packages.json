@@ -77,7 +77,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "affylmGUI": [],
@@ -118,7 +117,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "agprobe": [],
@@ -130,7 +128,6 @@
         "rtracklayer",
         "OrganismDbi",
         "AnnotationForge",
-        "AnnotationFilter",
         "biomaRt",
         "GenomicAlignments",
         "SummarizedExperiment"
@@ -173,8 +170,7 @@
         "rtracklayer",
         "biomaRt",
         "ensembldb",
-        "biovizBase",
-        "AnnotationFilter"
+        "biovizBase"
     ],
     "alpine": [
         "GenomicAlignments",
@@ -259,11 +255,9 @@
         "OrganismDbi",
         "GenomicFeatures",
         "GO.db",
-        "AnnotationFilter",
         "SummarizedExperiment",
         "GenomicAlignments"
     ],
-    "AnnotationFilter": [],
     "AnnotationForge": [],
     "AnnotationHub": [],
     "AnnotationHubData": [
@@ -397,8 +391,7 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "ASpli": [
         "GenomicFeatures",
@@ -410,8 +403,7 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "AssessORFData": [],
     "ASSIGN": [
@@ -466,7 +458,6 @@
         "regioneR",
         "AnnotationHub",
         "TFBSTools",
-        "AnnotationFilter",
         "CNEr",
         "annotate",
         "GO.db"
@@ -736,8 +727,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "bioCancer": [
         "org.Hs.eg.db",
@@ -793,8 +783,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "BioNAR": [
         "synaptome.db",
@@ -839,7 +828,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "BSgenome"
@@ -935,7 +923,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "bodymapRat": [
@@ -977,8 +964,7 @@
         "VariantAnnotation",
         "biovizBase",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "BrainSABER": [
         "biomaRt",
@@ -1742,7 +1728,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "BSgenome"
@@ -1761,7 +1746,6 @@
         "SummarizedExperiment"
     ],
     "BUSpaRse": [
-        "AnnotationFilter",
         "biomaRt",
         "BSgenome",
         "ensembldb",
@@ -1787,7 +1771,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "AnnotationFilter",
         "BSgenome",
         "rtracklayer",
         "OrganismDbi",
@@ -1806,8 +1789,7 @@
         "VariantAnnotation",
         "ensembldb",
         "BSgenome",
-        "biovizBase",
-        "AnnotationFilter"
+        "biovizBase"
     ],
     "cageminer": [
         "ggbio",
@@ -1822,7 +1804,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt",
         "genefilter",
         "GO.db",
@@ -1849,8 +1830,7 @@
         "VariantAnnotation",
         "ensembldb",
         "BSgenome",
-        "biovizBase",
-        "AnnotationFilter"
+        "biovizBase"
     ],
     "CAMERA": [
         "xcms",
@@ -2114,7 +2094,6 @@
         "GenomicAlignments",
         "FDb.InfiniumMethylation.hg19",
         "VariantAnnotation",
-        "AnnotationFilter",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "CHETAH": [
@@ -2134,7 +2113,6 @@
     "chimeraviz": [
         "Gviz",
         "ensembldb",
-        "AnnotationFilter",
         "GenomicAlignments",
         "org.Hs.eg.db",
         "org.Mm.eg.db",
@@ -2184,7 +2162,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "BSgenome"
@@ -2198,7 +2175,6 @@
         "InteractionSet",
         "regioneR",
         "rtracklayer",
-        "AnnotationFilter",
         "BSgenome"
     ],
     "ChIPQC": [
@@ -2316,8 +2292,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "circRNAprofiler": [
         "rtracklayer",
@@ -2475,7 +2450,6 @@
         "BSgenome",
         "GenomicAlignments",
         "ensembldb",
-        "AnnotationFilter",
         "exomeCopy",
         "biomaRt"
     ],
@@ -2492,7 +2466,6 @@
         "GenomicFeatures",
         "GenomicAlignments",
         "ensembldb",
-        "AnnotationFilter",
         "exomeCopy",
         "biomaRt",
         "BSgenome"
@@ -2560,8 +2533,7 @@
         "BSgenome",
         "biovizBase",
         "GenomicAlignments",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "combi": [
         "SummarizedExperiment"
@@ -2576,8 +2548,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "coMethDMR": [
         "AnnotationHub",
@@ -2608,12 +2579,9 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
-    "CompoundDb": [
-        "AnnotationFilter"
-    ],
+    "CompoundDb": [],
     "conclus": [
         "org.Hs.eg.db",
         "org.Mm.eg.db",
@@ -2658,7 +2626,6 @@
         "geneplotter",
         "ShortRead",
         "biomaRt",
-        "AnnotationFilter",
         "rtracklayer",
         "annotate"
     ],
@@ -2725,7 +2692,6 @@
         "BSgenome",
         "GenomicAlignments",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "CopywriteR": [
@@ -2850,8 +2816,7 @@
         "ensembldb",
         "SummarizedExperiment",
         "InteractionSet",
-        "regioneR",
-        "AnnotationFilter"
+        "regioneR"
     ],
     "CrispRVariants": [
         "GenomicAlignments",
@@ -2874,8 +2839,7 @@
         "ensembldb",
         "biovizBase",
         "GenomicAlignments",
-        "SummarizedExperiment",
-        "AnnotationFilter"
+        "SummarizedExperiment"
     ],
     "crisprViz": [
         "crisprDesign",
@@ -2891,7 +2855,6 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "AnnotationFilter",
         "crisprScoreData",
         "ExperimentHub",
         "AnnotationHub"
@@ -2941,8 +2904,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "curatedAdipoChIP": [
         "SummarizedExperiment",
@@ -3225,8 +3187,7 @@
         "BSgenome",
         "VariantAnnotation",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "DEScan2": [
         "ChIPpeakAnno",
@@ -3238,7 +3199,6 @@
         "biomaRt",
         "InteractionSet",
         "regioneR",
-        "AnnotationFilter",
         "BSgenome"
     ],
     "DESeq2": [
@@ -3329,7 +3289,6 @@
         "geneplotter",
         "genefilter",
         "GenomicFeatures",
-        "AnnotationFilter",
         "GenomicAlignments",
         "annotate"
     ],
@@ -3391,7 +3350,6 @@
         "methylumi",
         "org.Hs.eg.db",
         "VariantAnnotation",
-        "AnnotationFilter",
         "annotate",
         "FDb.InfiniumMethylation.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
@@ -3412,7 +3370,6 @@
         "minfi",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "AnnotationFilter",
         "bumphunter",
         "genefilter",
         "annotate"
@@ -3427,8 +3384,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "dmrseq": [
         "bsseq",
@@ -3500,7 +3456,6 @@
         "UniProt.ws",
         "biomaRt",
         "ensembldb",
-        "AnnotationFilter",
         "GenomicFeatures",
         "rtracklayer",
         "GenomicAlignments",
@@ -3671,8 +3626,7 @@
         "BSgenome",
         "biovizBase",
         "GenomicAlignments",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "emtdata": [
         "ExperimentHub",
@@ -3740,7 +3694,6 @@
     "EnsDb.Hsapiens.v75": [
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3749,7 +3702,6 @@
     "EnsDb.Hsapiens.v79": [
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3758,7 +3710,6 @@
     "EnsDb.Hsapiens.v86": [
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3767,7 +3718,6 @@
     "EnsDb.Mmusculus.v75": [
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3776,7 +3726,6 @@
     "EnsDb.Mmusculus.v79": [
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3785,7 +3734,6 @@
     "EnsDb.Rnorvegicus.v75": [
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3794,7 +3742,6 @@
     "EnsDb.Rnorvegicus.v79": [
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3802,7 +3749,6 @@
     ],
     "ensembldb": [
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments",
@@ -3907,7 +3853,6 @@
         "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
-        "AnnotationFilter",
         "BSgenome",
         "biovizBase",
         "GenomicAlignments",
@@ -3970,7 +3915,6 @@
         "SummarizedExperiment",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments"
@@ -3981,7 +3925,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments"
@@ -3991,7 +3934,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments"
@@ -4006,8 +3948,7 @@
         "SummarizedExperiment",
         "OrganismDbi",
         "ensembldb",
-        "GenomicAlignments",
-        "AnnotationFilter"
+        "GenomicAlignments"
     ],
     "erma": [
         "Homo.sapiens",
@@ -4161,8 +4102,7 @@
         "BSgenome",
         "biovizBase",
         "GenomicAlignments",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "faahKO": [
         "xcms",
@@ -4368,8 +4308,7 @@
         "biovizBase",
         "VariantAnnotation",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "Fletcher2013b": [
         "RTN",
@@ -4647,8 +4586,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "GeneTonic": [
         "DESeq2",
@@ -4677,7 +4615,6 @@
     "GenomicDistributionsData": [
         "ExperimentHub",
         "AnnotationHub",
-        "AnnotationFilter",
         "BSgenome",
         "GenomicFeatures",
         "ensembldb",
@@ -4723,8 +4660,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "GenomicOZone": [
         "biomaRt",
@@ -4737,8 +4673,7 @@
         "rtracklayer",
         "GenomicFeatures",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "GenomicScores": [
         "AnnotationHub"
@@ -4814,7 +4749,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "GGHumanMethCancerPanelv1.db": [
@@ -5051,8 +4985,7 @@
         "SummarizedExperiment",
         "biomaRt",
         "InteractionSet",
-        "regioneR",
-        "AnnotationFilter"
+        "regioneR"
     ],
     "Guitar": [
         "GenomicFeatures",
@@ -5070,8 +5003,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "gwascat": [
         "GenomicFeatures",
@@ -5267,8 +5199,7 @@
         "GenomicFeatures",
         "ensembldb",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "HiCDOC": [
         "InteractionSet",
@@ -5292,8 +5223,7 @@
         "BSgenome",
         "biovizBase",
         "GenomicAlignments",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "HiContactsData": [
         "ExperimentHub",
@@ -5831,7 +5761,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "InteractionSet": [
@@ -5933,7 +5862,6 @@
         "GenomicFeatures",
         "ensembldb",
         "AnnotationHub",
-        "AnnotationFilter",
         "annotate"
     ],
     "isomiRs": [
@@ -5971,7 +5899,6 @@
         "SummarizedExperiment",
         "GenomicAlignments",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt",
         "BSgenome"
     ],
@@ -6093,8 +6020,7 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "LOBSTAHS": [
         "xcms",
@@ -6487,8 +6413,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "MAST": [
         "SingleCellExperiment",
@@ -6549,8 +6474,7 @@
         "GO.db",
         "org.Hs.eg.db",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "mcsurvdata": [
         "ExperimentHub",
@@ -6584,7 +6508,6 @@
         "org.Hs.eg.db",
         "sva",
         "VariantAnnotation",
-        "AnnotationFilter",
         "annotate",
         "FDb.InfiniumMethylation.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
@@ -6659,7 +6582,6 @@
         "SummarizedExperiment",
         "QFeatures",
         "CompoundDb",
-        "AnnotationFilter",
         "MultiAssayExperiment"
     ],
     "metaboliteIDmapping": [
@@ -6679,7 +6601,6 @@
         "ensembldb",
         "SummarizedExperiment",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -6689,7 +6610,6 @@
         "GenomicFeatures",
         "ensembldb",
         "EnsDb.Hsapiens.v86",
-        "AnnotationFilter",
         "SummarizedExperiment",
         "biomaRt"
     ],
@@ -6756,7 +6676,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments"
@@ -6840,7 +6759,6 @@
         "methylumi",
         "org.Hs.eg.db",
         "VariantAnnotation",
-        "AnnotationFilter",
         "AnnotationHub",
         "annotate",
         "FDb.InfiniumMethylation.hg19",
@@ -6942,8 +6860,7 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "methylscaper": [
         "SummarizedExperiment"
@@ -7463,7 +7380,6 @@
         "biovizBase",
         "GenomicAlignments",
         "TFBSTools",
-        "AnnotationFilter",
         "CNEr",
         "annotate",
         "GO.db"
@@ -7536,8 +7452,7 @@
     "MsExperiment": [
         "SummarizedExperiment",
         "QFeatures",
-        "MultiAssayExperiment",
-        "AnnotationFilter"
+        "MultiAssayExperiment"
     ],
     "MsFeatures": [
         "SummarizedExperiment"
@@ -7555,8 +7470,7 @@
         "biovizBase",
         "VariantAnnotation",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "msigdb": [
         "ExperimentHub",
@@ -7589,8 +7503,7 @@
     "msqrob2": [
         "QFeatures",
         "SummarizedExperiment",
-        "MultiAssayExperiment",
-        "AnnotationFilter"
+        "MultiAssayExperiment"
     ],
     "MSstatsLiP": [],
     "MSstatsQCgui": [],
@@ -7659,8 +7572,7 @@
         "VariantAnnotation",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "MultiDataSet": [
         "SummarizedExperiment"
@@ -7824,7 +7736,6 @@
         "biovizBase",
         "TFBSTools",
         "VariantAnnotation",
-        "AnnotationFilter",
         "CNEr",
         "annotate",
         "GO.db"
@@ -8086,8 +7997,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "oligo": [
         "oligoClasses",
@@ -8219,7 +8129,6 @@
     "org.Ss.eg.db": [],
     "org.Xl.eg.db": [],
     "Organism.dplyr": [
-        "AnnotationFilter",
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
@@ -9360,8 +9269,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "pipeComp": [
         "SingleCellExperiment",
@@ -9510,7 +9418,6 @@
         "CNEr",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "AnnotationFilter",
         "annotate",
         "GO.db"
     ],
@@ -9606,7 +9513,6 @@
     ],
     "proteasy": [
         "ensembldb",
-        "AnnotationFilter",
         "EnsDb.Hsapiens.v86",
         "EnsDb.Mmusculus.v79",
         "EnsDb.Rnorvegicus.v79",
@@ -9652,8 +9558,7 @@
     "PSMatch": [
         "QFeatures",
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "AnnotationFilter"
+        "SummarizedExperiment"
     ],
     "psygenet2r": [
         "biomaRt",
@@ -9697,7 +9602,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "BSgenome"
@@ -9726,8 +9630,7 @@
     ],
     "QFeatures": [
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "AnnotationFilter"
+        "SummarizedExperiment"
     ],
     "qmtools": [
         "SummarizedExperiment"
@@ -9751,7 +9654,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "BSgenome"
@@ -9816,7 +9718,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "r3Cseq": [
@@ -10047,8 +9948,7 @@
         "biovizBase",
         "BSgenome",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "recoup": [
         "GenomicAlignments",
@@ -10068,8 +9968,7 @@
         "SummarizedExperiment",
         "biomaRt",
         "InteractionSet",
-        "regioneR",
-        "AnnotationFilter"
+        "regioneR"
     ],
     "RefPlus": [],
     "RegEnrich": [
@@ -10126,8 +10025,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "REMP": [
         "SummarizedExperiment",
@@ -10171,7 +10069,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "GO.db",
         "AnnotationForge",
         "biomaRt"
@@ -10329,8 +10226,7 @@
         "BSgenome",
         "VariantAnnotation",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "riboSeqR": [],
     "ribosomeProfilingQC": [
@@ -10371,8 +10267,7 @@
         "BSgenome",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "Risa": [
         "xcms",
@@ -10383,7 +10278,6 @@
         "BgeeDB",
         "GenomicFeatures",
         "ensembldb",
-        "AnnotationFilter",
         "EnsDb.Hsapiens.v86",
         "topGO",
         "rtracklayer",
@@ -10487,8 +10381,7 @@
         "biomaRt",
         "ensembldb",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "RNAmodR.AlkAnilineSeq": [
         "RNAmodR",
@@ -10501,8 +10394,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "RNAmodR.Data": [
         "ExperimentHub",
@@ -10528,8 +10420,7 @@
         "biomaRt",
         "ensembldb",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "RNAmodR.RiboMethSeq": [
         "RNAmodR",
@@ -10542,8 +10433,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "RNAsense": [
         "SummarizedExperiment"
@@ -10604,7 +10494,6 @@
         "EDASeq",
         "AnnotationHub",
         "VariantAnnotation",
-        "AnnotationFilter",
         "ShortRead",
         "OrganismDbi",
         "GO.db",
@@ -10700,7 +10589,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "ensembldb",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "BSgenome"
@@ -10836,7 +10724,6 @@
         "SummarizedExperiment"
     ],
     "scanMiRApp": [
-        "AnnotationFilter",
         "AnnotationHub",
         "ensembldb",
         "GenomicFeatures",
@@ -11011,8 +10898,7 @@
         "QFeatures",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "MultiAssayExperiment",
-        "AnnotationFilter"
+        "MultiAssayExperiment"
     ],
     "scpdata": [
         "QFeatures",
@@ -11020,8 +10906,7 @@
         "AnnotationHub",
         "SingleCellExperiment",
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "AnnotationFilter"
+        "SummarizedExperiment"
     ],
     "scPipe": [
         "SingleCellExperiment",
@@ -11055,7 +10940,6 @@
         "AnnotationHub",
         "ensembldb",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments"
@@ -11073,8 +10957,7 @@
         "BSgenome",
         "VariantAnnotation",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "scry": [
         "SingleCellExperiment",
@@ -11121,7 +11004,6 @@
         "GenomicFeatures",
         "ensembldb",
         "scuttle",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments"
@@ -11349,7 +11231,6 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "genefu",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "GSEABase",
         "SingleCellExperiment",
@@ -11450,7 +11331,6 @@
         "scuttle",
         "geneplotter",
         "GenomicFeatures",
-        "AnnotationFilter",
         "rtracklayer",
         "annotate",
         "hgu95a.db",
@@ -11627,7 +11507,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "ensembldb",
-        "AnnotationFilter",
         "biomaRt"
     ],
     "soybeancdf": [],
@@ -11729,8 +11608,7 @@
         "GO.db",
         "ensembldb",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "SpectralTAD": [
         "HiCcompare",
@@ -11806,8 +11684,7 @@
         "rtracklayer",
         "ensembldb",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "SPONGE": [
         "biomaRt"
@@ -11850,7 +11727,6 @@
         "BSgenome",
         "biovizBase",
         "VariantAnnotation",
-        "AnnotationFilter",
         "annotate"
     ],
     "sSNAPPY": [
@@ -11875,8 +11751,7 @@
         "biovizBase",
         "GenomicAlignments",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "standR": [
         "SpatialExperiment",
@@ -12111,8 +11986,7 @@
         "GenomicAlignments",
         "ExperimentHub",
         "AnnotationHub",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "TCGAutils": [
         "GenomicFeatures",
@@ -12328,8 +12202,7 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "tradeSeq": [
         "SingleCellExperiment",
@@ -12466,7 +12339,6 @@
         "ExperimentHub"
     ],
     "TVTB": [
-        "AnnotationFilter",
         "ensembldb",
         "ensemblVEP",
         "Gviz",
@@ -12806,7 +12678,6 @@
         "GenomicFeatures",
         "ensembldb",
         "AnnotationHub",
-        "AnnotationFilter",
         "rtracklayer",
         "biomaRt",
         "GenomicAlignments"
@@ -12835,7 +12706,6 @@
         "rtracklayer",
         "SummarizedExperiment",
         "biomaRt",
-        "AnnotationFilter",
         "plyranges"
     ],
     "UMI4Cats": [
@@ -12874,8 +12744,7 @@
         "GenomicAlignments",
         "GO.db",
         "SummarizedExperiment",
-        "VariantAnnotation",
-        "AnnotationFilter"
+        "VariantAnnotation"
     ],
     "UniProt.ws": [],
     "Uniquorn": [
@@ -12935,8 +12804,7 @@
         "AnnotationHub",
         "ensembldb",
         "biovizBase",
-        "GenomicAlignments",
-        "AnnotationFilter"
+        "GenomicAlignments"
     ],
     "variants": [
         "VariantAnnotation",
@@ -13079,7 +12947,6 @@
         "systemPipeR",
         "apeglm",
         "GreyListChIP",
-        "AnnotationFilter",
         "annotate",
         "BSgenome",
         "ShortRead"
@@ -13210,8 +13077,7 @@
         "biovizBase",
         "GenomicAlignments",
         "OrganismDbi",
-        "ensembldb",
-        "AnnotationFilter"
+        "ensembldb"
     ],
     "yarn": [
         "biomaRt",
