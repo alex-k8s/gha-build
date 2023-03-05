@@ -16043,7 +16043,6 @@
         "XVector",
         "SummarizedExperiment"
     ],
-    "nethet": [],
     "netOmics": [
         "AnnotationDbi",
         "GO.db",
