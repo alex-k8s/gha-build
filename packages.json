@@ -405,7 +405,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "AssessORFData": [],
     "ASSIGN": [
         "sva",
         "genefilter",
