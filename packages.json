@@ -4877,7 +4877,6 @@
         "ewceData",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "orthogene",
         "ExperimentHub",
         "AnnotationHub",
         "AnnotationDbi"
@@ -10069,7 +10068,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "orthogene": [],
     "Orthology.eg.db": [
         "AnnotationDbi"
     ],
