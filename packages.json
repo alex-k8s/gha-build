@@ -1654,9 +1654,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "BiGGR": [
-        "hyperdraw"
-    ],
+    "BiGGR": [],
     "bigmelon": [
         "wateRmelon",
         "minfi",
@@ -12955,7 +12953,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "hyperdraw": [],
     "iasva": [
         "SummarizedExperiment",
         "GenomicRanges",
