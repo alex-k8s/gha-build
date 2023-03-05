@@ -5651,7 +5651,6 @@
         "InteractionSet",
         "QDNAseq"
     ],
-    "multiMiR": [],
     "multiOmicsViz": [],
     "multiSight": [
         "biosigner",
