@@ -827,9 +827,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "aracne.networks": [
-        "viper"
-    ],
+    "aracne.networks": [],
     "ArrayExpress": [
         "oligo",
         "oligoClasses",
@@ -6481,7 +6479,6 @@
     "cosmosR": [
         "dorothea",
         "GSEABase",
-        "viper",
         "annotate",
         "AnnotationDbi",
         "IRanges",
@@ -7816,12 +7813,8 @@
         "KEGGREST",
         "annotate"
     ],
-    "diggit": [
-        "viper"
-    ],
-    "diggitdata": [
-        "viper"
-    ],
+    "diggit": [],
+    "diggitdata": [],
     "Dino": [
         "BiocSingular",
         "SummarizedExperiment",
@@ -8110,9 +8103,7 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "dorothea": [
-        "viper"
-    ],
+    "dorothea": [],
     "Doscheda": [
         "vsn"
     ],
@@ -8319,7 +8310,6 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "geneplotter",
-        "viper",
         "ExperimentHub",
         "AnnotationHub",
         "AnnotationDbi",
@@ -10118,7 +10108,6 @@
     ],
     "Fletcher2013b": [
         "RTN",
-        "viper",
         "IRanges",
         "SummarizedExperiment",
         "GenomicRanges",
@@ -26125,7 +26114,6 @@
         "GenomicAlignments"
     ],
     "RTN": [
-        "viper",
         "IRanges",
         "SummarizedExperiment",
         "GenomicRanges",
@@ -26135,7 +26123,6 @@
     ],
     "RTNduals": [
         "RTN",
-        "viper",
         "IRanges",
         "SummarizedExperiment",
         "GenomicRanges",
@@ -26146,7 +26133,6 @@
     "RTNsurvival": [
         "RTN",
         "RTNduals",
-        "viper",
         "IRanges",
         "SummarizedExperiment",
         "GenomicRanges",
@@ -31587,7 +31573,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "viper": [],
     "ViSEAGO": [
         "AnnotationDbi",
         "AnnotationForge",
@@ -31696,7 +31681,6 @@
         "ChIPpeakAnno",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "GenomicRanges",
-        "viper",
         "DiffBind",
         "csaw",
         "DESeq2",
