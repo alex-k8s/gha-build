@@ -12228,7 +12228,6 @@
         "SummarizedExperiment",
         "SingleCellExperiment"
     ],
-    "transite": [],
     "tRanslatome": [
         "DESeq2",
         "topGO",
