@@ -2749,7 +2749,6 @@
     ],
     "ecoli2.db": [],
     "ecoliLeucine": [],
-    "ecoliSakai.db0": [],
     "EDASeq": [
         "ShortRead",
         "biomaRt",
