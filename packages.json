@@ -347,7 +347,6 @@
         "XVector"
     ],
     "altcdfenvs": [
-        "makecdfenv",
         "Biostrings",
         "XVector"
     ],
@@ -9026,7 +9025,6 @@
     ],
     "Harshlight": [
         "altcdfenvs",
-        "makecdfenv",
         "Biostrings",
         "XVector"
     ],
@@ -11765,7 +11763,6 @@
         "Biostrings",
         "XVector"
     ],
-    "makecdfenv": [],
     "malaria.db0": [
         "AnnotationDbi",
         "KEGGREST",
