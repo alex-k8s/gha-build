@@ -16654,7 +16654,6 @@
         "GenomicRanges",
         "DelayedArray",
         "IRanges",
-        "rols",
         "GenomeInfoDb",
         "XVector"
     ],
@@ -26742,7 +26741,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "rols": [],
     "ROntoTools": [
         "KEGGREST",
         "KEGGgraph",
@@ -29792,7 +29790,6 @@
     "Streamer": [],
     "struct": [
         "SummarizedExperiment",
-        "rols",
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",
@@ -29808,7 +29805,6 @@
     "structToolbox": [
         "struct",
         "SummarizedExperiment",
-        "rols",
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",

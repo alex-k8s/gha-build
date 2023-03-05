@@ -1,0 +1,83 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''rols'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'rols'
+also installing the dependencies ‘hms’, ‘progress’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/hms_1.1.2.tar.gz'
+Content type 'binary/octet-stream' length 44341 bytes (43 KB)
+==================================================
+downloaded 43 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/progress_1.2.2.tar.gz'
+Content type 'application/x-tar' length 29746 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/rols_2.26.0.tar.gz'
+Content type 'application/x-gzip' length 382468 bytes (373 KB)
+==================================================
+downloaded 373 KB
+
+* installing *source* package ‘hms’ ...
+** package ‘hms’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hms’ as ‘hms_1.1.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (hms)
+* installing *source* package ‘progress’ ...
+** package ‘progress’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘progress’ as ‘progress_1.2.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (progress)
+* installing *source* package ‘rols’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘lapply’ from package ‘base’ in package ‘rols’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rols’ as ‘rols_2.26.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (rols)
+
+The downloaded source packages are in
+	‘/tmp/RtmpE2MHYP/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	2m1.111s
+user	1m55.203s
+sys	0m2.623s
