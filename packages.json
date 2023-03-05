@@ -6615,7 +6615,6 @@
         "QFeatures",
         "MultiAssayExperiment"
     ],
-    "MSstatsLiP": [],
     "MSstatsQCgui": [],
     "mta10probeset.db": [
         "org.Mm.eg.db"
