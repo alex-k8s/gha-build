@@ -8356,7 +8356,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "flowAI": [],
     "flowBin": [
         "flowFP",
         "flowViz"
