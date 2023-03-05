@@ -3207,7 +3207,6 @@
         "AnnotationHub",
         "AnnotationDbi"
     ],
-    "copynumber": [],
     "CopyNumberPlots": [
         "karyoploteR",
         "regioneR",
