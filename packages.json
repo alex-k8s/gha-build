@@ -109,7 +109,6 @@
         "ensembldb",
         "biomaRt"
     ],
-    "agprobe": [],
     "AHEnsDbs": [
         "ensembldb",
         "AnnotationHubData",
