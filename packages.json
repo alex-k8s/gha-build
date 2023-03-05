@@ -27041,7 +27041,6 @@
         "GenomeInfoDb"
     ],
     "RTCA": [],
-    "RTCGA.mutations": [],
     "RTCGAToolbox": [
         "DelayedArray",
         "GenomicRanges",
