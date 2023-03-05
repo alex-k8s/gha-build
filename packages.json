@@ -16367,13 +16367,11 @@
     ],
     "MSstatsQC": [
         "MSnbase",
-        "qcmetrics",
         "vsn"
     ],
     "MSstatsQCgui": [
         "MSstatsQC",
         "MSnbase",
-        "qcmetrics",
         "vsn"
     ],
     "MSstatsSampleSize": [
@@ -21023,7 +21021,6 @@
         "GenomeInfoDb"
     ],
     "qckitfastq": [],
-    "qcmetrics": [],
     "QDNAseq": [
         "CGHcall",
         "GenomicRanges",
