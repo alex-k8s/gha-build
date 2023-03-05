@@ -25477,7 +25477,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "SRAdb": [],
     "srnadiff": [
         "GenomeInfoDb",
         "rtracklayer",
