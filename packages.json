@@ -11311,7 +11311,6 @@
     "sigFeature": [
         "SummarizedExperiment"
     ],
-    "SigFuge": [],
     "signatureSearch": [
         "SummarizedExperiment",
         "org.Hs.eg.db",
