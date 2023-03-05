@@ -29572,7 +29572,6 @@
         "BiocIO",
         "DelayedArray"
     ],
-    "spkTools": [],
     "splatter": [
         "SingleCellExperiment",
         "scater",
