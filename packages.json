@@ -527,7 +527,6 @@
     "BioCor": [
         "GSEABase"
     ],
-    "BiocSklearn": [],
     "BioImageDbs": [
         "ExperimentHub"
     ],
