@@ -5034,7 +5034,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "DelayedDataFrame": [],
     "DelayedMatrixStats": [],
     "DelayedRandomArray": [],
     "DelayedTensor": [
@@ -21226,7 +21225,6 @@
         "SummarizedExperiment",
         "GenomicRanges",
         "GDSArray",
-        "DelayedDataFrame",
         "SeqArray",
         "SeqVarTools",
         "Biostrings"
