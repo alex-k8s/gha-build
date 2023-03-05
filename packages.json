@@ -10136,7 +10136,6 @@
         "GenomicAlignments"
     ],
     "test1cdf": [],
-    "test3probe": [],
     "TFBSTools": [
         "BSgenome",
         "CNEr",
