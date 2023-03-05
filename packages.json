@@ -5627,7 +5627,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "Cormotif": [],
     "corral": [
         "MultiAssayExperiment",
         "SingleCellExperiment",
