@@ -10699,7 +10699,6 @@
         "GenomeInfoDb"
     ],
     "GEOexplorer": [],
-    "GEOmetadb": [],
     "GeomxTools": [
         "NanoStringNCTools",
         "Biostrings",
