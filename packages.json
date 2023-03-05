@@ -2461,7 +2461,6 @@
     "DOSE": [
         "GOSemSim"
     ],
-    "doseR": [],
     "dpeak": [
         "BSgenome",
         "rtracklayer",
