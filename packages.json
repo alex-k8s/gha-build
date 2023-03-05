@@ -17065,7 +17065,6 @@
         "GenomeInfoDb"
     ],
     "NetPathMiner": [],
-    "netresponse": [],
     "NetSAM": [
         "biomaRt",
         "AnnotationDbi",
