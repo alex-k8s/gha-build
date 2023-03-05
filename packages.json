@@ -2308,7 +2308,6 @@
     "cydar": [
         "SingleCellExperiment"
     ],
-    "cyp450cdf": [],
     "CyTOFpower": [
         "diffcyt"
     ],
