@@ -21564,7 +21564,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "RBM": [],
     "Rbowtie2": [
         "Rsamtools",
         "GenomeInfoDb",
