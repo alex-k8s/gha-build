@@ -8294,7 +8294,6 @@
         "annotate",
         "GO.db"
     ],
-    "PrInCE": [],
     "proActiv": [
         "DESeq2",
         "GenomicFeatures",
