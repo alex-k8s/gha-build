@@ -4,7 +4,6 @@
         "a4Classif",
         "annaffy",
         "genefilter",
-        "multtest",
         "GO.db",
         "AnnotationDbi",
         "annotate",
@@ -17,7 +16,6 @@
     "a4Base": [
         "annaffy",
         "genefilter",
-        "multtest",
         "GO.db",
         "AnnotationDbi",
         "annotate",
@@ -28,9 +26,7 @@
         "GenomeInfoDb"
     ],
     "a4Classif": [],
-    "ABarray": [
-        "multtest"
-    ],
+    "ABarray": [],
     "ACE": [
         "QDNAseq",
         "GenomicRanges",
@@ -43,14 +39,11 @@
         "Biostrings",
         "Rhtslib"
     ],
-    "aCGH": [
-        "multtest"
-    ],
+    "aCGH": [],
     "ADaCGH2": [
         "tilingArray",
         "aCGH",
         "snapCGH",
-        "multtest",
         "affy",
         "vsn",
         "genefilter",
@@ -131,7 +124,6 @@
         "AnnotationDbi",
         "GO.db",
         "KEGGREST",
-        "multtest",
         "IRanges",
         "Biostrings",
         "XVector",
@@ -417,7 +409,6 @@
         "GenomicRanges",
         "IRanges",
         "SummarizedExperiment",
-        "multtest",
         "GenomeInfoDb",
         "XVector",
         "DelayedArray"
@@ -753,11 +744,8 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "anota": [
-        "multtest"
-    ],
+    "anota": [],
     "anota2seq": [
-        "multtest",
         "DESeq2",
         "SummarizedExperiment",
         "IRanges",
@@ -933,8 +921,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "arrayQuality": [],
     "arrayQualityMetrics": [
@@ -1119,7 +1106,6 @@
         "biomaRt",
         "InteractionSet",
         "KEGGREST",
-        "multtest",
         "regioneR",
         "AnnotationHub",
         "DelayedArray",
@@ -1627,7 +1613,6 @@
         "XVector",
         "GenomicFeatures",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -1683,7 +1668,6 @@
         "metagenomeSeq",
         "GenomicRanges",
         "IRanges",
-        "multtest",
         "mia",
         "SingleCellExperiment",
         "geneplotter",
@@ -1758,7 +1742,6 @@
         "GenomeInfoDb"
     ],
     "BicARE": [
-        "multtest",
         "GSEABase",
         "annotate",
         "AnnotationDbi",
@@ -1806,7 +1789,6 @@
         "rtracklayer",
         "biomaRt",
         "affy",
-        "multtest",
         "Rsamtools",
         "GenomicAlignments",
         "Rhtslib"
@@ -5185,7 +5167,6 @@
         "GenomicAlignments",
         "affy",
         "FDb.InfiniumMethylation.hg19",
-        "multtest",
         "VariantAnnotation",
         "AnnotationFilter",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -5401,7 +5382,6 @@
         "biomaRt",
         "InteractionSet",
         "KEGGREST",
-        "multtest",
         "regioneR",
         "rtracklayer",
         "XVector",
@@ -6265,7 +6245,6 @@
         "siggenes",
         "vsn",
         "SummarizedExperiment",
-        "multtest",
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",
@@ -6339,7 +6318,6 @@
         "SummarizedExperiment",
         "biomformat",
         "Biostrings",
-        "multtest",
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",
@@ -6635,7 +6613,6 @@
         "AnnotationDbi",
         "annotate",
         "Rhtslib",
-        "multtest",
         "KEGGREST",
         "biomaRt"
     ],
@@ -6871,8 +6848,7 @@
         "DelayedArray"
     ],
     "CRImage": [
-        "aCGH",
-        "multtest"
+        "aCGH"
     ],
     "crisprBase": [
         "Biostrings",
@@ -6994,7 +6970,6 @@
         "BiocIO",
         "biomaRt",
         "ChIPpeakAnno",
-        "multtest",
         "GenomicAlignments",
         "ensembldb",
         "SummarizedExperiment",
@@ -7566,7 +7541,6 @@
         "AnnotationDbi",
         "IRanges",
         "KEGGREST",
-        "multtest",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -7695,7 +7669,6 @@
         "annotate",
         "GenomicAlignments",
         "BiocIO",
-        "multtest",
         "KEGGREST",
         "biomaRt"
     ],
@@ -7950,7 +7923,6 @@
         "biomaRt",
         "InteractionSet",
         "KEGGREST",
-        "multtest",
         "regioneR",
         "XVector",
         "BiocIO",
@@ -7985,7 +7957,6 @@
         "oligo",
         "oligoClasses",
         "org.Hs.eg.db",
-        "multtest",
         "genefilter",
         "annotate",
         "Biostrings",
@@ -8090,7 +8061,6 @@
     ],
     "diffcoexp": [
         "SummarizedExperiment",
-        "multtest",
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",
@@ -8313,7 +8283,6 @@
         "BiocIO",
         "FDb.InfiniumMethylation.hg19",
         "Rhtslib",
-        "multtest",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "DMRcatedata": [
@@ -8349,8 +8318,7 @@
         "DelayedArray",
         "HDF5Array",
         "Rhtslib",
-        "annotate",
-        "multtest"
+        "annotate"
     ],
     "DMRforPairs": [
         "Gviz",
@@ -8937,7 +8905,6 @@
         "ScaledMatrix",
         "beachmat",
         "Biostrings",
-        "multtest",
         "GenomicRanges",
         "GenomeInfoDb",
         "XVector"
@@ -8972,7 +8939,6 @@
         "ScaledMatrix",
         "beachmat",
         "Biostrings",
-        "multtest",
         "GenomicRanges",
         "GenomeInfoDb",
         "XVector"
@@ -9076,7 +9042,6 @@
         "KEGGREST",
         "XVector",
         "GenomicFeatures",
-        "multtest",
         "BiocIO",
         "rtracklayer",
         "biomaRt",
@@ -9521,8 +9486,7 @@
         "HDF5Array",
         "VariantAnnotation",
         "annotate",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "epiNEM": [
         "mnem"
@@ -10384,7 +10348,6 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "multtest",
         "Rhtslib"
     ],
     "ffpeExampleData": [
@@ -10416,8 +10379,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "fgga": [],
     "FieldEffectCrc": [
@@ -10644,7 +10606,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -10673,7 +10634,6 @@
         "KEGGREST",
         "XVector",
         "GenomicFeatures",
-        "multtest",
         "BiocIO",
         "rtracklayer",
         "biomaRt",
@@ -10698,7 +10658,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -10729,7 +10688,6 @@
         "XVector",
         "GenomicFeatures",
         "annotate",
-        "multtest",
         "BiocIO",
         "rtracklayer",
         "biomaRt",
@@ -10754,7 +10712,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -10780,7 +10737,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -10931,7 +10887,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -12121,7 +12076,6 @@
     "GraphPAC": [
         "iPAC",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -12312,7 +12266,6 @@
         "ChIPpeakAnno",
         "BSgenome",
         "IRanges",
-        "multtest",
         "GenomicAlignments",
         "GenomeInfoDb",
         "Rsamtools",
@@ -13294,7 +13247,6 @@
         "IRanges",
         "biomformat",
         "Biostrings",
-        "multtest",
         "GenomeInfoDb",
         "KEGGREST",
         "XVector"
@@ -14054,8 +14006,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "iCNV": [
         "CODEX",
@@ -14209,7 +14160,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14235,7 +14185,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14261,7 +14210,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14287,7 +14235,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14321,7 +14268,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14347,7 +14293,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14373,7 +14318,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14399,7 +14343,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -14790,7 +14733,6 @@
     ],
     "iPAC": [
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -15073,8 +15015,7 @@
         "DelayedArray"
     ],
     "KCsmart": [
-        "siggenes",
-        "multtest"
+        "siggenes"
     ],
     "kebabs": [
         "Biostrings",
@@ -15464,8 +15405,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "lumiBarnes": [
         "lumi",
@@ -15496,8 +15436,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "lumiHumanAll.db": [
         "AnnotationDbi",
@@ -15537,8 +15476,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "lumiMouseAll.db": [
         "AnnotationDbi",
@@ -15578,8 +15516,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "lumiRatAll.db": [
         "AnnotationDbi",
@@ -15619,8 +15556,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "LungCancerLines": [
         "Rsamtools",
@@ -16094,7 +16030,6 @@
         "DelayedMatrixStats",
         "Rsamtools",
         "GenomicAlignments",
-        "multtest",
         "Rhtslib"
     ],
     "MAGeCKFlute": [
@@ -16172,7 +16107,6 @@
         "GenomeInfoDb"
     ],
     "mAPKL": [
-        "multtest",
         "AnnotationDbi",
         "reactome.db",
         "IRanges",
@@ -16222,8 +16156,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "MAQCsubsetILM": [
         "lumi",
@@ -16254,8 +16187,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "marr": [
         "SummarizedExperiment",
@@ -16354,7 +16286,6 @@
         "sva",
         "biomformat",
         "Biostrings",
-        "multtest",
         "genefilter",
         "IRanges",
         "XVector",
@@ -16502,7 +16433,6 @@
         "BiocIO",
         "FDb.InfiniumMethylation.hg19",
         "Rhtslib",
-        "multtest",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "MEAT": [
@@ -16528,7 +16458,6 @@
         "annotate",
         "affy",
         "FDb.InfiniumMethylation.hg19",
-        "multtest",
         "KEGGREST",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "org.Hs.eg.db",
@@ -16732,9 +16661,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "metabomxtr": [
-        "multtest"
-    ],
+    "metabomxtr": [],
     "MetaboSignal": [
         "KEGGgraph",
         "KEGGREST",
@@ -16933,7 +16860,6 @@
         "ensembldb",
         "biomformat",
         "Biostrings",
-        "multtest",
         "XVector",
         "AnnotationDbi",
         "AnnotationFilter",
@@ -16946,9 +16872,7 @@
         "Rhtslib",
         "GenomicAlignments"
     ],
-    "MetaVolcanoR": [
-        "multtest"
-    ],
+    "MetaVolcanoR": [],
     "MetCirc": [
         "Spectra",
         "MsCoreUtils",
@@ -17054,7 +16978,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -17081,7 +17004,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -17137,7 +17059,6 @@
         "BiocIO",
         "FDb.InfiniumMethylation.hg19",
         "Rhtslib",
-        "multtest",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "methylCC": [
@@ -17170,8 +17091,7 @@
         "KEGGREST",
         "BiocIO",
         "biomaRt",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "methylclock": [
         "methylclockData",
@@ -17195,7 +17115,6 @@
         "GenomicFeatures",
         "AnnotationHubData",
         "annotate",
-        "multtest",
         "KEGGREST",
         "Rsamtools",
         "rtracklayer",
@@ -17271,7 +17190,6 @@
         "BiocIO",
         "rtracklayer",
         "biomaRt",
-        "multtest",
         "Rsamtools",
         "GenomicAlignments",
         "Rhtslib"
@@ -17419,7 +17337,6 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "multtest",
         "Rhtslib"
     ],
     "MetNet": [
@@ -17714,8 +17631,7 @@
         "IRanges",
         "XVector",
         "GenomeInfoDb",
-        "biomformat",
-        "multtest"
+        "biomformat"
     ],
     "MicrobiomeBenchmarkData": [
         "SummarizedExperiment",
@@ -17733,7 +17649,6 @@
         "metagenomeSeq",
         "biomformat",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -17780,7 +17695,6 @@
         "ComplexHeatmap",
         "ANCOMBC",
         "ALDEx2",
-        "multtest",
         "GenomicRanges",
         "SummarizedExperiment",
         "mia",
@@ -17929,8 +17843,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "minfi": [
         "GenomicRanges",
@@ -17948,7 +17861,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -17976,7 +17888,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -18004,7 +17915,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -18188,7 +18098,6 @@
         "SummarizedExperiment",
         "GSEABase",
         "org.Hs.eg.db",
-        "multtest",
         "annotate",
         "AnnotationDbi",
         "SPONGE",
@@ -18263,7 +18172,6 @@
         "BiocIO",
         "rtracklayer",
         "biomaRt",
-        "multtest",
         "Rsamtools",
         "GenomicAlignments",
         "Rhtslib"
@@ -19431,7 +19339,6 @@
         "IRanges",
         "KEGGREST",
         "Biostrings",
-        "multtest",
         "XVector",
         "GenomeInfoDb"
     ],
@@ -19492,10 +19399,8 @@
         "GenomeInfoDb",
         "XVector",
         "DelayedArray",
-        "multtest",
         "Biostrings"
     ],
-    "multtest": [],
     "mumosa": [
         "SingleCellExperiment",
         "IRanges",
@@ -19680,8 +19585,7 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "Rhtslib",
-        "multtest"
+        "Rhtslib"
     ],
     "MWASTools": [
         "SummarizedExperiment",
@@ -19770,7 +19674,6 @@
         "KEGGREST",
         "ensembldb",
         "biomaRt",
-        "multtest",
         "regioneR",
         "AnnotationHub",
         "HDF5Array",
@@ -19984,9 +19887,7 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "nethet": [
-        "multtest"
-    ],
+    "nethet": [],
     "netOmics": [
         "AnnotationDbi",
         "GO.db",
@@ -20063,7 +19964,6 @@
         "DelayedArray",
         "HDF5Array",
         "GenomicFeatures",
-        "multtest",
         "BiocIO",
         "rtracklayer",
         "Rsamtools",
@@ -20345,9 +20245,7 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "OCplus": [
-        "multtest"
-    ],
+    "OCplus": [],
     "octad": [
         "RUVSeq",
         "DESeq2",
@@ -20519,7 +20417,6 @@
         "GenomicRanges",
         "IRanges",
         "SummarizedExperiment",
-        "multtest",
         "GenomeInfoDb",
         "XVector",
         "DelayedArray"
@@ -21111,7 +21008,6 @@
         "IRanges",
         "KEGGREST",
         "HDO.db",
-        "multtest",
         "Biostrings",
         "XVector",
         "GenomeInfoDb"
@@ -21200,7 +21096,6 @@
         "geneplotter",
         "biomformat",
         "Biostrings",
-        "multtest",
         "XVector",
         "GenomeInfoDb",
         "annotate",
@@ -23232,7 +23127,6 @@
         "phyloseq",
         "biomformat",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -23477,7 +23371,6 @@
     "phyloseq": [
         "biomformat",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -23862,7 +23755,6 @@
         "XVector",
         "phyloseq",
         "biomformat",
-        "multtest",
         "Rhtslib",
         "DelayedArray"
     ],
@@ -23880,7 +23772,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "aCGH",
-        "multtest",
         "KEGGREST",
         "Biostrings",
         "BiocIO",
@@ -23903,7 +23794,6 @@
         "GenomeInfoDb"
     ],
     "PREDA": [
-        "multtest",
         "annotate",
         "AnnotationDbi",
         "IRanges",
@@ -23917,7 +23807,6 @@
         "affy",
         "annotate",
         "AnnotationDbi",
-        "multtest",
         "IRanges",
         "KEGGREST",
         "Biostrings",
@@ -24681,7 +24570,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -24695,7 +24583,6 @@
         "GraphPAC",
         "SpacePAC",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -24981,9 +24868,7 @@
         "XVector",
         "DelayedArray"
     ],
-    "rain": [
-        "multtest"
-    ],
+    "rain": [],
     "ramr": [
         "GenomicRanges",
         "IRanges",
@@ -25189,7 +25074,6 @@
         "AnnotationDbi",
         "IRanges",
         "aCGH",
-        "multtest",
         "KEGGREST",
         "XVector",
         "Biostrings",
@@ -25221,7 +25105,6 @@
         "phyloseq",
         "biomformat",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -25277,7 +25160,6 @@
         "phyloseq",
         "biomformat",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -25338,7 +25220,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -25413,7 +25294,6 @@
     ],
     "REDseq": [
         "BSgenome.Celegans.UCSC.ce2",
-        "multtest",
         "Biostrings",
         "BSgenome",
         "ChIPpeakAnno",
@@ -25585,7 +25465,6 @@
         "GenomicFeatures",
         "annotate",
         "Rhtslib",
-        "multtest",
         "biomaRt"
     ],
     "Repitools": [
@@ -26774,7 +26653,6 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "multtest",
         "Rhtslib"
     ],
     "RnBeads.hg19": [
@@ -26896,7 +26774,6 @@
         "phyloseq",
         "biomformat",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -26941,8 +26818,7 @@
         "IRanges",
         "GenomeInfoDb",
         "DelayedArray",
-        "XVector",
-        "multtest"
+        "XVector"
     ],
     "RRBSdata": [
         "BiSeq",
@@ -27086,9 +26962,7 @@
         "DelayedArray",
         "XVector"
     ],
-    "RTopper": [
-        "multtest"
-    ],
+    "RTopper": [],
     "rtracklayer": [
         "GenomicRanges",
         "IRanges",
@@ -28366,7 +28240,6 @@
         "AnnotationDbi",
         "annotate",
         "Rhtslib",
-        "multtest",
         "KEGGREST",
         "biomaRt"
     ],
@@ -28388,7 +28261,6 @@
         "GenomicFeatures",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "KEGGREST",
         "BiocIO",
         "rtracklayer",
@@ -28413,7 +28285,6 @@
         "phyloseq",
         "biomformat",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -28496,9 +28367,7 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "siggenes": [
-        "multtest"
-    ],
+    "siggenes": [],
     "signatureSearch": [
         "SummarizedExperiment",
         "org.Hs.eg.db",
@@ -28650,7 +28519,6 @@
         "SummarizedExperiment",
         "biomformat",
         "Biostrings",
-        "multtest",
         "GenomicRanges",
         "IRanges",
         "GenomeInfoDb",
@@ -28737,7 +28605,6 @@
         "Biostrings"
     ],
     "SingleCellSignalR": [
-        "multtest",
         "scran",
         "SingleCellExperiment",
         "scuttle",
@@ -28769,7 +28636,6 @@
         "GSVA",
         "GSVAdata",
         "MAST",
-        "multtest",
         "scater",
         "scMerge",
         "scran",
@@ -28965,7 +28831,6 @@
         "rtracklayer",
         "biomaRt",
         "affy",
-        "multtest",
         "Rsamtools",
         "GenomicAlignments",
         "Rhtslib"
@@ -29021,7 +28886,6 @@
     "snapCGH": [
         "aCGH",
         "tilingArray",
-        "multtest",
         "affy",
         "vsn",
         "genefilter",
@@ -29222,7 +29086,6 @@
     "SpacePAC": [
         "iPAC",
         "Biostrings",
-        "multtest",
         "IRanges",
         "XVector",
         "GenomeInfoDb"
@@ -29693,7 +29556,6 @@
         "phyloseq",
         "biomformat",
         "Biostrings",
-        "multtest",
         "SummarizedExperiment",
         "GenomicRanges",
         "DelayedArray",
@@ -30121,7 +29983,6 @@
     ],
     "synapter": [
         "MSnbase",
-        "multtest",
         "Biostrings",
         "cleaver",
         "IRanges",
@@ -30135,7 +29996,6 @@
     "synapterdata": [
         "synapter",
         "MSnbase",
-        "multtest",
         "Biostrings",
         "cleaver",
         "IRanges",
@@ -31105,7 +30965,6 @@
         "topGO",
         "org.Hs.eg.db",
         "GOSemSim",
-        "multtest",
         "IRanges",
         "GenomicRanges",
         "SummarizedExperiment",
@@ -31284,8 +31143,7 @@
         "GenomeInfoDb"
     ],
     "trio": [
-        "siggenes",
-        "multtest"
+        "siggenes"
     ],
     "triplex": [
         "IRanges",
@@ -32845,7 +32703,6 @@
         "biomaRt",
         "InteractionSet",
         "KEGGREST",
-        "multtest",
         "regioneR",
         "rtracklayer",
         "Rhtslib",
@@ -32900,7 +32757,6 @@
         "HDF5Array",
         "Rsamtools",
         "GenomicAlignments",
-        "multtest",
         "Rhtslib"
     ],
     "wavClusteR": [
@@ -32923,7 +32779,6 @@
     ],
     "webbioc": [
         "affy",
-        "multtest",
         "annaffy",
         "vsn",
         "gcrma",
@@ -33055,7 +32910,6 @@
         "siggenes",
         "AnnotationDbi",
         "annotate",
-        "multtest",
         "IRanges",
         "KEGGREST",
         "Biostrings",
@@ -33257,7 +33111,6 @@
         "XVector",
         "GenomicFeatures",
         "annotate",
-        "multtest",
         "BiocIO",
         "rtracklayer",
         "Rsamtools",
