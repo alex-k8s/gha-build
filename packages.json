@@ -10294,7 +10294,6 @@
         "biomaRt",
         "BSgenome"
     ],
-    "PWMEnrich.Dmelanogaster.background": [],
     "PWMEnrich.Hsapiens.background": [],
     "pwOmics": [
         "biomaRt",
