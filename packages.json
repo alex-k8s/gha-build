@@ -11332,7 +11332,6 @@
         "SummarizedExperiment",
         "AnnotationDbi"
     ],
-    "polyester": [],
     "PolyPhen.Hsapiens.dbSNP131": [
         "VariantAnnotation",
         "AnnotationDbi",
