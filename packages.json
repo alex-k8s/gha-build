@@ -7049,7 +7049,6 @@
         "KEGGREST",
         "GenomicAlignments"
     ],
-    "DeconRNASeq": [],
     "deconvR": [
         "methylKit",
         "IRanges",
