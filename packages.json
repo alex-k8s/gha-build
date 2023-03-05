@@ -10704,7 +10704,6 @@
         "org.Hs.eg.db"
     ],
     "vitisviniferacdf": [],
-    "vitisviniferaprobe": [],
     "Voyager": [
         "SingleCellExperiment",
         "SpatialExperiment",
