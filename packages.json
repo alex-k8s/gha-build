@@ -2662,7 +2662,6 @@
         "graphite",
         "org.Hs.eg.db"
     ],
-    "ddPCRclust": [],
     "debCAM": [],
     "debrowser": [
         "annotate",
