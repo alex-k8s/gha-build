@@ -121,7 +121,6 @@
         "GenomicAlignments"
     ],
     "alternativeSplicingEvents.hg19": [],
-    "alternativeSplicingEvents.hg38": [],
     "AMARETTO": [
         "MultiAssayExperiment",
         "curatedTCGAData",
