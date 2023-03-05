@@ -20275,7 +20275,6 @@
         "SummarizedExperiment",
         "DelayedArray"
     ],
-    "pkgDepTools": [],
     "plasFIA": [
         "proFIA",
         "xcms",
