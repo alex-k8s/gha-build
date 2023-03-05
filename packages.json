@@ -7822,7 +7822,6 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "flowSpecs": [],
     "flowStats": [
         "flowWorkspace",
         "ncdfFlow",
