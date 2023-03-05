@@ -12920,10 +12920,7 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "rRDP": [],
-    "rRDPData": [
-        "rRDP"
-    ],
+    "rRDPData": [],
     "rrvgo": [
         "GOSemSim",
         "AnnotationDbi",
