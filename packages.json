@@ -13531,7 +13531,6 @@
     "MOFA2": [
         "HDF5Array"
     ],
-    "MOGAMUN": [],
     "mogene10stprobeset.db": [
         "AnnotationDbi",
         "org.Mm.eg.db",
