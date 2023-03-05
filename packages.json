@@ -14494,7 +14494,6 @@
         "MultiAssayExperiment",
         "AnnotationFilter"
     ],
-    "scPCA": [],
     "scpdata": [
         "QFeatures",
         "ExperimentHub",
