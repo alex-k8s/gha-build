@@ -8254,7 +8254,6 @@
         "Rsamtools",
         "GenomicAlignments"
     ],
-    "MethTargetedNGS": [],
     "MethylAid": [
         "minfi",
         "SummarizedExperiment",
