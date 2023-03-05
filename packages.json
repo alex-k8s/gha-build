@@ -307,7 +307,6 @@
         "org.Hs.eg.db",
         "GenomicAlignments"
     ],
-    "arabidopsis.db0": [],
     "ArrayExpress": [
         "oligo",
         "oligoClasses"
