@@ -6176,7 +6176,6 @@
         "ncdfFlow",
         "DelayedArray"
     ],
-    "cycle": [],
     "cydar": [
         "SingleCellExperiment",
         "SummarizedExperiment",
