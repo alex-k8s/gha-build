@@ -8741,7 +8741,6 @@
         "SummarizedExperiment",
         "SingleCellExperiment"
     ],
-    "optimalFlow": [],
     "ORFhunteR": [
         "rtracklayer",
         "BSgenome.Hsapiens.UCSC.hg38",
