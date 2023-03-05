@@ -10785,7 +10785,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "HTqPCR": [],
     "htrat230pm.db": [
         "AnnotationDbi",
         "org.Rn.eg.db",
@@ -16119,9 +16118,7 @@
         "scuttle",
         "XVector"
     ],
-    "nondetects": [
-        "HTqPCR"
-    ],
+    "nondetects": [],
     "NoRCE": [
         "KEGGREST",
         "GenomeInfoDb",
@@ -26012,9 +26009,7 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "unifiedWMWqPCR": [
-        "HTqPCR"
-    ],
+    "unifiedWMWqPCR": [],
     "UniProt.ws": [
         "AnnotationDbi",
         "KEGGREST",
