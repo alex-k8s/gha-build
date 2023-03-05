@@ -332,7 +332,6 @@
         "GenomicAlignments"
     ],
     "arrayQualityMetrics": [
-        "beadarray",
         "genefilter",
         "annotate"
     ],
@@ -555,13 +554,8 @@
         "GenomicAlignments"
     ],
     "BDMMAcorrect": [],
-    "beadarray": [],
-    "beadarrayExampleData": [
-        "beadarray"
-    ],
-    "BeadArrayUseCases": [
-        "beadarray"
-    ],
+    "beadarrayExampleData": [],
+    "BeadArrayUseCases": [],
     "BeadSorted.Saliva.EPIC": [
         "minfi",
         "ExperimentHub",
@@ -786,9 +780,7 @@
         "genefilter",
         "annotate"
     ],
-    "blima": [
-        "beadarray"
-    ],
+    "blima": [],
     "BLMA": [
         "PADOG",
         "hgu133plus2.db",
@@ -3338,9 +3330,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "epigenomix": [
-        "beadarray"
-    ],
+    "epigenomix": [],
     "epigraHMM": [
         "rtracklayer",
         "csaw",
