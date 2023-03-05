@@ -8650,7 +8650,6 @@
     "MicrobiotaProcess": [
         "SummarizedExperiment"
     ],
-    "microRNA": [],
     "microRNAome": [
         "SummarizedExperiment"
     ],
