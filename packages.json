@@ -662,9 +662,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "bovine.db": [
-        "org.Bt.eg.db"
-    ],
+    "bovine.db": [],
     "brainflowprobes": [
         "BSgenome.Hsapiens.UCSC.hg19",
         "bumphunter",
@@ -5699,7 +5697,6 @@
         "rtracklayer",
         "geneplotter"
     ],
-    "org.Bt.eg.db": [],
     "org.Dm.eg.db": [],
     "org.Mmu.eg.db": [],
     "org.Mxanthus.db": [],
