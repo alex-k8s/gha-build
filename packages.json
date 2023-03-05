@@ -493,7 +493,6 @@
         "rtracklayer",
         "biomaRt"
     ],
-    "BANDITS": [],
     "bandle": [
         "pRoloc",
         "MLInterfaces",
@@ -2870,7 +2869,6 @@
     ],
     "diffcyt": [],
     "DifferentialRegulation": [
-        "BANDITS",
         "SingleCellExperiment"
     ],
     "diffHic": [
