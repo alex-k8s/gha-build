@@ -3119,9 +3119,7 @@
         "SingleCellExperiment",
         "UCell"
     ],
-    "esetVis": [
-        "MLP"
-    ],
+    "esetVis": [],
     "EuPathDB": [
         "AnnotationHubData",
         "GenomicFeatures",
@@ -5446,7 +5444,6 @@
     "MLInterfaces": [
         "genefilter"
     ],
-    "MLP": [],
     "MLSeq": [
         "DESeq2",
         "geneplotter"
