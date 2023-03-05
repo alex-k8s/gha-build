@@ -6221,7 +6221,6 @@
         "SingleCellExperiment",
         "DropletUtils"
     ],
-    "ImmuneSpaceR": [],
     "indac.db": [
         "org.Dm.eg.db"
     ],
