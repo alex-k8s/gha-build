@@ -21318,7 +21318,6 @@
         "XVector",
         "DelayedArray"
     ],
-    "rain": [],
     "ramr": [
         "GenomicRanges",
         "GenomeInfoDb",
