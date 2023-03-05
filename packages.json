@@ -23263,7 +23263,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "RUVcorr": [],
     "RUVSeq": [
         "EDASeq",
         "ShortRead",
