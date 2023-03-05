@@ -5532,7 +5532,6 @@
         "ExperimentHub",
         "AnnotationHub"
     ],
-    "Harshlight": [],
     "HCAData": [
         "SingleCellExperiment",
         "ExperimentHub",
