@@ -2552,7 +2552,6 @@
         "DESeq2",
         "geneplotter"
     ],
-    "ecoli2.db": [],
     "EDASeq": [
         "ShortRead",
         "GenomicFeatures",
