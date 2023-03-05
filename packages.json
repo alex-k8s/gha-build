@@ -3728,7 +3728,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "DNAshapeR": [],
     "DO.db": [],
     "DominoEffect": [
         "biomaRt",
