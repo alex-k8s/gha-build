@@ -8,9 +8,7 @@
         "annaffy",
         "genefilter"
     ],
-    "ACE": [
-        "QDNAseq"
-    ],
+    "ACE": [],
     "ADaCGH2": [
         "tilingArray",
         "snapCGH",
@@ -588,7 +586,6 @@
         "Mus.musculus",
         "Homo.sapiens",
         "rtracklayer",
-        "QDNAseq",
         "dmrseq",
         "ExperimentHub",
         "BSgenome",
@@ -3343,9 +3340,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "GeneBreak": [
-        "QDNAseq"
-    ],
+    "GeneBreak": [],
     "genefilter": [],
     "genefu": [],
     "geneLenDataBase": [
@@ -3730,8 +3725,7 @@
         "GenomicAlignments"
     ],
     "HiCcompare": [
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "HiCDCPlus": [
         "InteractionSet",
@@ -3748,8 +3742,7 @@
     "HiCDOC": [
         "InteractionSet",
         "multiHiCcompare",
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "HiContacts": [
         "HiContactsData",
@@ -5313,8 +5306,7 @@
     ],
     "multiHiCcompare": [
         "HiCcompare",
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "multiOmicsViz": [],
     "multiSight": [
@@ -6806,13 +6798,8 @@
     "pwrEWAS.data": [
         "ExperimentHub"
     ],
-    "QDNAseq": [],
-    "QDNAseq.hg19": [
-        "QDNAseq"
-    ],
-    "QDNAseq.mm10": [
-        "QDNAseq"
-    ],
+    "QDNAseq.hg19": [],
+    "QDNAseq.mm10": [],
     "QFeatures": [
         "MultiAssayExperiment"
     ],
@@ -8270,8 +8257,7 @@
     ],
     "SpectralTAD": [
         "HiCcompare",
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "SPIAT": [
         "SpatialExperiment",
@@ -8483,8 +8469,7 @@
     ],
     "TADCompare": [
         "HiCcompare",
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "TAPseq": [
         "GenomicAlignments",
