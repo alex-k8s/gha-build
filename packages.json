@@ -30285,7 +30285,6 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "TCGAcrcmRNA": [],
     "TCGAutils": [
         "AnnotationDbi",
         "GenomeInfoDb",
