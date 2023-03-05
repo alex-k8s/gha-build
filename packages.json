@@ -3086,7 +3086,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "tRNA",
         "GenomicAlignments"
     ],
     "EpiTxDb.Hs.hg38": [
@@ -3095,7 +3094,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "tRNA",
         "GenomicAlignments"
     ],
     "EpiTxDb.Mm.mm10": [
@@ -3104,7 +3102,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "tRNA",
         "GenomicAlignments"
     ],
     "EpiTxDb.Sc.sacCer3": [
@@ -3113,7 +3110,6 @@
         "tRNAdbImport",
         "rtracklayer",
         "biomaRt",
-        "tRNA",
         "GenomicAlignments"
     ],
     "epivizr": [
@@ -9539,12 +9535,8 @@
         "sva",
         "genefilter"
     ],
-    "tRNA": [],
-    "tRNAdbImport": [
-        "tRNA"
-    ],
+    "tRNAdbImport": [],
     "tRNAscanImport": [
-        "tRNA",
         "rtracklayer",
         "BSgenome",
         "GenomicAlignments"
