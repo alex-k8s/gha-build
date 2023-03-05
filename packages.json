@@ -6061,7 +6061,6 @@
         "biomaRt",
         "GenomicAlignments"
     ],
-    "Orthology.eg.db": [],
     "OTUbase": [
         "ShortRead",
         "GenomicAlignments"
