@@ -4822,7 +4822,6 @@
         "SummarizedExperiment",
         "biomaRt"
     ],
-    "GMRP": [],
     "GNET2": [
         "SummarizedExperiment"
     ],

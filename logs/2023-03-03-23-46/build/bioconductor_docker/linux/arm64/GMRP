@@ -1,0 +1,114 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GMRP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'GMRP'
+also installing the dependencies ‘shape’, ‘diagram’, ‘plotrix’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/shape_1.4.6.tar.gz'
+Content type 'binary/octet-stream' length 678227 bytes (662 KB)
+==================================================
+downloaded 662 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/diagram_1.6.5.tar.gz'
+Content type 'binary/octet-stream' length 537654 bytes (525 KB)
+==================================================
+downloaded 525 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/plotrix_3.8-2.tar.gz'
+Content type 'binary/octet-stream' length 320144 bytes (312 KB)
+==================================================
+downloaded 312 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/GMRP_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 913671 bytes (892 KB)
+==================================================
+downloaded 892 KB
+
+* installing *source* package ‘shape’ ...
+** package ‘shape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *source* package ‘plotrix’ ...
+** package ‘plotrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *source* package ‘diagram’ ...
+** package ‘diagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *source* package ‘GMRP’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: Package 'GMRP' is deprecated and will be removed from Bioconductor
+  version 3.7
+** testing if installed package can be loaded from final location
+Warning: Package 'GMRP' is deprecated and will be removed from Bioconductor
+  version 3.7
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GMRP’ as ‘GMRP_1.26.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (GMRP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZPzw4S/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	3m56.189s
+user	3m50.107s
+sys	0m4.613s
