@@ -7155,7 +7155,6 @@
     "restfulSEData": [
         "ExperimentHub"
     ],
-    "rfPred": [],
     "rGADEM": [
         "BSgenome",
         "rtracklayer",
