@@ -1664,7 +1664,6 @@
         "SummarizedExperiment",
         "MAST",
         "ANCOMBC",
-        "NOISeq",
         "metagenomeSeq",
         "GenomicRanges",
         "IRanges",
@@ -6144,7 +6143,6 @@
     ],
     "CNVPanelizer": [
         "GenomicRanges",
-        "NOISeq",
         "IRanges",
         "Rsamtools",
         "exomeCopy",
@@ -16807,9 +16805,7 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "metaSeq": [
-        "NOISeq"
-    ],
+    "metaSeq": [],
     "metaseqR2": [
         "DESeq2",
         "baySeq",
@@ -20023,7 +20019,6 @@
         "scuttle",
         "XVector"
     ],
-    "NOISeq": [],
     "nondetects": [
         "HTqPCR",
         "affy"
