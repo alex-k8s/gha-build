@@ -5332,7 +5332,6 @@
         "XVector"
     ],
     "cosmosR": [
-        "dorothea",
         "GSEABase",
         "annotate",
         "AnnotationDbi",
@@ -6657,7 +6656,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "dorothea": [],
     "Doscheda": [
         "vsn"
     ],
@@ -6825,7 +6823,6 @@
     "DvDdata": [],
     "easier": [
         "easierData",
-        "dorothea",
         "quantiseqr",
         "DESeq2",
         "GenomicRanges",
