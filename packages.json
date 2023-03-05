@@ -10097,7 +10097,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "fabia": [],
     "fabiaData": [],
     "factR": [
         "Biostrings",
@@ -12470,9 +12469,7 @@
         "Rhtslib",
         "XVector"
     ],
-    "hapFabia": [
-        "fabia"
-    ],
+    "hapFabia": [],
     "harbChIP": [
         "IRanges",
         "Biostrings",
@@ -18203,7 +18200,6 @@
         "GenomeInfoDb"
     ],
     "miRSM": [
-        "fabia",
         "BicARE",
         "miRspongeR",
         "SummarizedExperiment",
@@ -18721,9 +18717,7 @@
         "Rhtslib",
         "DelayedArray"
     ],
-    "mosbi": [
-        "fabia"
-    ],
+    "mosbi": [],
     "MOSim": [
         "IRanges"
     ],
