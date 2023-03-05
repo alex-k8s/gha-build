@@ -24605,7 +24605,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "PSEA": [],
     "psichomics": [
         "AnnotationDbi",
         "AnnotationHub",
