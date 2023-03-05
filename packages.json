@@ -17205,7 +17205,6 @@
         "GenomeInfoDb",
         "DelayedArray"
     ],
-    "MIMOSA": [],
     "MineICA": [
         "biomaRt",
         "GOstats",
