@@ -7072,7 +7072,6 @@
         "SummarizedExperiment",
         "SingleCellExperiment"
     ],
-    "infinityFlow": [],
     "InPAS": [
         "AnnotationDbi",
         "BSgenome",
