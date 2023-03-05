@@ -843,7 +843,6 @@
         "biomaRt",
         "GenomicAlignments"
     ],
-    "BCRANK": [],
     "bcSeq": [],
     "BDMMAcorrect": [
         "SummarizedExperiment"
