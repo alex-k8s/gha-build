@@ -1647,7 +1647,6 @@
         "scuttle"
     ],
     "celegans.db": [],
-    "celeganscdf": [],
     "CellBarcode": [
         "ShortRead",
         "GenomicAlignments"
