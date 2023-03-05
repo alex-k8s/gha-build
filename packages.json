@@ -10835,22 +10835,18 @@
         "annotate",
         "SummarizedExperiment"
     ],
-    "scanMiR": [],
     "scanMiRApp": [
         "AnnotationFilter",
         "AnnotationHub",
         "ensembldb",
         "GenomicFeatures",
         "rtracklayer",
-        "scanMiR",
         "scanMiRData",
         "biomaRt",
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "scanMiRData": [
-        "scanMiR"
-    ],
+    "scanMiRData": [],
     "scAnnotatR": [
         "SingleCellExperiment",
         "SummarizedExperiment",
