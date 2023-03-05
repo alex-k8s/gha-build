@@ -3299,7 +3299,6 @@
         "KEGGREST",
         "Biostrings"
     ],
-    "CGHnormaliter": [],
     "ChAMP": [
         "minfi",
         "ChAMPdata",
