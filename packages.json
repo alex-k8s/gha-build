@@ -3597,7 +3597,6 @@
         "Biostrings"
     ],
     "cicero": [
-        "monocle",
         "Gviz",
         "GenomicRanges",
         "rtracklayer",
@@ -12000,7 +11999,6 @@
         "KEGGREST",
         "AnnotationDbi"
     ],
-    "monocle": [],
     "MoonlightR": [
         "SummarizedExperiment",
         "clusterProfiler",
@@ -20803,9 +20801,7 @@
     "universalmotif": [
         "Biostrings"
     ],
-    "uSORT": [
-        "monocle"
-    ],
+    "uSORT": [],
     "VAExprs": [
         "SingleCellExperiment",
         "SummarizedExperiment",
