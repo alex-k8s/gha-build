@@ -9982,7 +9982,6 @@
         "ensembldb",
         "biomaRt"
     ],
-    "soybeancdf": [],
     "soybeanprobe": [],
     "Spaniel": [
         "SingleCellExperiment",
