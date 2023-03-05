@@ -1507,7 +1507,6 @@
         "SingleCellExperiment"
     ],
     "ChIC": [],
-    "chicken.db": [],
     "chimeraviz": [
         "Gviz",
         "ensembldb",
