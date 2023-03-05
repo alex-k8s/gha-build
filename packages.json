@@ -471,7 +471,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "bigPint": [],
     "BindingSiteFinder": [
         "rtracklayer",
         "Gviz",
