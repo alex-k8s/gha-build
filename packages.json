@@ -13952,11 +13952,9 @@
     "MSstatsLiP": [
         "Biostrings",
         "MSstatsPTM",
-        "XVector",
-        "MSstatsTMT"
+        "XVector"
     ],
     "MSstatsPTM": [
-        "MSstatsTMT",
         "Biostrings",
         "XVector"
     ],
@@ -13971,12 +13969,10 @@
     ],
     "MSstatsSampleSize": [],
     "MSstatsShiny": [
-        "MSstatsTMT",
         "MSstatsPTM",
         "Biostrings",
         "XVector"
     ],
-    "MSstatsTMT": [],
     "mta10probeset.db": [
         "AnnotationDbi",
         "org.Mm.eg.db",
