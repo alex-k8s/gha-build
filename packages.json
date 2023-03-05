@@ -5276,10 +5276,7 @@
         "scuttle"
     ],
     "mslp": [],
-    "msmsTests": [],
-    "MSnID": [
-        "msmsTests"
-    ],
+    "MSnID": [],
     "MSPrep": [
         "sva",
         "genefilter"
