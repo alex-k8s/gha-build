@@ -6391,9 +6391,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "GraphPAC": [
-        "iPAC"
-    ],
+    "GraphPAC": [],
     "grasp2db": [
         "AnnotationHub",
         "AnnotationDbi",
@@ -7810,7 +7808,6 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "iPAC": [],
     "ipdDb": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -12830,7 +12827,6 @@
         "GenomicAlignments"
     ],
     "QuartPAC": [
-        "iPAC",
         "GraphPAC",
         "SpacePAC"
     ],
@@ -15274,9 +15270,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "SpacePAC": [
-        "iPAC"
-    ],
+    "SpacePAC": [],
     "Spaniel": [
         "SingleCellExperiment",
         "SummarizedExperiment",
