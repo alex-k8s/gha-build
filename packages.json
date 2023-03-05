@@ -24581,7 +24581,6 @@
         "DelayedArray",
         "XVector"
     ],
-    "SIMD": [],
     "SimFFPE": [
         "Biostrings",
         "GenomicRanges",
