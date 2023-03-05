@@ -4763,7 +4763,6 @@
         "SummarizedExperiment",
         "Rsamtools"
     ],
-    "CNORfuzzy": [],
     "CNORode": [],
     "CNTools": [
         "genefilter",
