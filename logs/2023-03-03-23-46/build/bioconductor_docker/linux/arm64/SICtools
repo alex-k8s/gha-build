@@ -1,0 +1,616 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SICtools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'SICtools'
+also installing the dependencies ‘foreach’, ‘iterators’, ‘Rsamtools’, ‘doParallel’, ‘matrixStats’, ‘plyr’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/foreach_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 89205 bytes (87 KB)
+==================================================
+downloaded 87 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/iterators_1.0.14.tar.gz'
+Content type 'binary/octet-stream' length 299454 bytes (292 KB)
+==================================================
+downloaded 292 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/Rsamtools_2.14.0.tar.gz'
+Content type 'application/x-gzip' length 2873806 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/doParallel_1.0.17.tar.gz'
+Content type 'binary/octet-stream' length 164842 bytes (160 KB)
+==================================================
+downloaded 160 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/matrixStats_0.63.0.tar.gz'
+Content type 'binary/octet-stream' length 202464 bytes (197 KB)
+==================================================
+downloaded 197 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'binary/octet-stream' length 402003 bytes (392 KB)
+==================================================
+downloaded 392 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/SICtools_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 1601954 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+* installing *source* package ‘iterators’ ...
+** package ‘iterators’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *source* package ‘Rsamtools’ ...
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c COMPAT_bcf_hdr_read.c -o COMPAT_bcf_hdr_read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PileupBuffer.cpp -o PileupBuffer.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PosCacheColl.cpp -o PosCacheColl.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Rsamtools.c -o R_init_Rsamtools.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ResultManager.cpp -o ResultManager.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c as_bam.c -o as_bam.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_data.c -o bam_data.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_mate_iter.cpp -o bam_mate_iter.o
+In file included from Template.h:9,
+                 from BamIterator.h:10,
+                 from BamRangeIterator.h:7,
+                 from bam_mate_iter.cpp:2:
+BamRangeIterator.h: In member function ‘virtual void BamRangeIterator::finalize_inprogress(bamFile)’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:41: warning: ignoring return value of ‘int64_t bgzf_seek(BGZF*, int64_t, int)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ~~~~~~~~~^~~~~~~~~~~~~~
+BamRangeIterator.h:138:16: note: in expansion of macro ‘bam_seek’
+  138 |         (void) bam_seek(bfile, pos, SEEK_SET);
+      |                ^~~~~~~~
+BamIterator.h: In constructor ‘BamIterator::BamIterator(bamFile, const bam_index_t*)’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:41: warning: ignoring return value of ‘int64_t bgzf_seek(BGZF*, int64_t, int)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ~~~~~~~~~^~~~~~~~~~~~~~
+BamIterator.h:87:16: note: in expansion of macro ‘bam_seek’
+   87 |         (void) bam_seek(bfile, 0, 0);
+      |                ^~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_plbuf.c -o bam_plbuf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_sort.c -o bam_sort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bambuffer.c -o bambuffer.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bamfile.c -o bamfile.o
+bamfile.c: In function ‘bamfile_isincomplete’:
+bamfile.c:168:20: warning: ignoring return value of ‘bgzf_seek’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  168 |             (void) bgzf_seek(bfile->file->x.bam, offset, SEEK_SET);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bcffile.c -o bcffile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bedidx.c -o bedidx.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encode.c -o encode.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fafile.c -o fafile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c idxstats.c -o idxstats.o
+In file included from bamfile.h:5,
+                 from idxstats.c:1:
+idxstats.c: In function ‘idxstats_bamfile’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:32: warning: ignoring return value of ‘bgzf_seek’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+idxstats.c:20:12: note: in expansion of macro ‘bam_seek’
+   20 |     (void) bam_seek(fp, 0, 0);
+      |            ^~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_sam.c -o io_sam.o
+In file included from io_sam.c:2:
+io_sam.c: In function ‘_scan_bam_all’:
+/tmp/built/Rhtslib/include/samtools-1.7-compat.h:14:32: warning: ignoring return value of ‘bgzf_seek’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   14 | #define bam_seek(fp, pos, dir) bgzf_seek(fp, pos, dir)
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+io_sam.c:304:12: note: in expansion of macro ‘bam_seek’
+  304 |     (void) bam_seek(bfile->file->x.bam, bfile->pos0, SEEK_SET);
+      |            ^~~~~~~~
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pbuffer_wrapper.cpp -o pbuffer_wrapper.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pileup.cpp -o pileup.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pileupbam.c -o pileupbam.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sam_opts.c -o sam_opts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sam_utils.c -o sam_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c samtools_patch.c -o samtools_patch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scan_bam_data.c -o scan_bam_data.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tabixfile.c -o tabixfile.o
+tabixfile.c: In function ‘index_tabix’:
+tabixfile.c:190:5: warning: ‘bgzf_is_bgzf’ is deprecated: Use bgzf_compression() or hts_detect_format() instead [-Wdeprecated-declarations]
+  190 |     if (bgzf_is_bgzf(fn) != 1)
+      |     ^~
+In file included from tabixfile.c:3:
+/tmp/built/Rhtslib/include/htslib/bgzf.h:270:9: note: declared here
+  270 |     int bgzf_is_bgzf(const char *fn) HTS_DEPRECATED("Use bgzf_compression() or hts_detect_format() instead");
+      |         ^~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tagfilter.c -o tagfilter.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utilities.c -o utilities.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zip_compression.c -o zip_compression.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rsamtools.so Biostrings_stubs.o COMPAT_bcf_hdr_read.o IRanges_stubs.o PileupBuffer.o PosCacheColl.o R_init_Rsamtools.o ResultManager.o S4Vectors_stubs.o XVector_stubs.o as_bam.o bam_data.o bam_mate_iter.o bam_plbuf.o bam_sort.o bambuffer.o bamfile.o bcffile.o bedidx.o encode.o fafile.o idxstats.o io_sam.o pbuffer_wrapper.o pileup.o pileupbam.o sam_opts.o sam_utils.o samtools_patch.o scan_bam_data.o tabixfile.o tagfilter.o utilities.o zip_compression.o /tmp/built/Rhtslib/usrlib/libhts.a -lcurl -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-Rsamtools/00new/Rsamtools/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rsamtools’ as ‘Rsamtools_2.14.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Rsamtools)
+* installing *source* package ‘matrixStats’ ...
+** package ‘matrixStats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c 000.init.c -o 000.init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c allocMatrix2.c -o allocMatrix2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c anyMissing.c -o anyMissing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c binCounts.c -o binCounts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c binMeans.c -o binMeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colCounts.c -o colCounts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colOrderStats.c -o colOrderStats.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colRanges.c -o colRanges.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c diff2.c -o diff2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c indexByRow.c -o indexByRow.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logSumExp.c -o logSumExp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mean2.c -o mean2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c naming.c -o naming.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c productExpSumLog.c -o productExpSumLog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c psortKM.c -o psortKM.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowCounts.c -o rowCounts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowCummaxs.c -o rowCummaxs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowCummins.c -o rowCummins.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowCumprods.c -o rowCumprods.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowCumsums.c -o rowCumsums.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowDiffs.c -o rowDiffs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowLogSumExp.c -o rowLogSumExp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowMads.c -o rowMads.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowMeans2.c -o rowMeans2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowMedians.c -o rowMedians.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowOrderStats.c -o rowOrderStats.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowRanges.c -o rowRanges.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowRanksWithTies.c -o rowRanksWithTies.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowSums2.c -o rowSums2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowVars.c -o rowVars.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c signTabulate.c -o signTabulate.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sum2.c -o sum2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c validateIndices.c -o validateIndices.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c weightedMean.c -o weightedMean.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c weightedMedian.c -o weightedMedian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c x_OP_y.c -o x_OP_y.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o matrixStats.so 000.init.o allocMatrix2.o anyMissing.o binCounts.o binMeans.o colCounts.o colOrderStats.o colRanges.o diff2.o indexByRow.o logSumExp.o mean2.o naming.o productExpSumLog.o psortKM.o rowCounts.o rowCummaxs.o rowCummins.o rowCumprods.o rowCumsums.o rowDiffs.o rowLogSumExp.o rowMads.o rowMeans2.o rowMedians.o rowOrderStats.o rowRanges.o rowRanksWithTies.o rowSums2.o rowVars.o signTabulate.o sum2.o validateIndices.o weightedMean.o weightedMedian.o x_OP_y.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-matrixStats/00new/matrixStats/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘matrixStats’ as ‘matrixStats_0.63.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (matrixStats)
+* installing *source* package ‘plyr’ ...
+** package ‘plyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loop_apply.c -o loop_apply.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split-numeric.cpp -o split-numeric.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o plyr.so RcppExports.o loop_apply.o split-numeric.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-plyr/00new/plyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *source* package ‘foreach’ ...
+** package ‘foreach’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *source* package ‘doParallel’ ...
+** package ‘doParallel’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘doParallel’ as ‘doParallel_1.0.17_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (doParallel)
+* installing *source* package ‘SICtools’ ...
+** using staged installation
+** libs
+** arch - 
+Makefile:24: warning: overriding recipe for target '.c.o'
+/usr/local/lib/R/etc/Makeconf:169: warning: ignoring old recipe for target '.c.o'
+make[1]: Entering directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src'
+make[2]: Entering directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src'
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -DBGZF_CACHE -I. bgzf.c -o bgzf.o
+bgzf.c: In function ‘worker_aux’:
+bgzf.c:392:16: warning: variable ‘tmp’ set but not used [-Wunused-but-set-variable]
+  392 |         int i, tmp, stop = 0;
+      |                ^~~
+bgzf.c: In function ‘bgzf_close’:
+bgzf.c:572:18: warning: variable ‘count’ set but not used [-Wunused-but-set-variable]
+  572 |         int ret, count, block_length;
+      |                  ^~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. kstring.c -o kstring.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_aux.c -o bam_aux.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam.c -o bam.o
+In file included from /usr/include/string.h:535,
+                 from bam.h:47,
+                 from bam.c:5:
+In function ‘strncpy’,
+    inlined from ‘bam_header_write’ at bam.c:128:2:
+/usr/include/aarch64-linux-gnu/bits/string_fortified.h:95:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_import.c -o bam_import.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. sam.c -o sam.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_index.c -o bam_index.o
+bam_index.c: In function ‘bam_index_core’:
+bam_index.c:178:42: warning: overflow in conversion from ‘uint32_t’ {aka ‘unsigned int’} to ‘int32_t’ {aka ‘int’} changes value from ‘last_bin = 4294967295’ to ‘-1’ [-Woverflow]
+  178 |         save_bin = save_tid = last_tid = last_bin = 0xffffffffu;
+      |                                          ^~~~~~~~
+bam_index.c: In function ‘bam_index_load_core’:
+bam_index.c:335:9: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  335 |         fread(magic, 1, 4, fp);
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+bam_index.c:342:9: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  342 |         fread(&idx->n, 4, 1, fp);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+bam_index.c:355:17: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  355 |                 fread(&size, 4, 1, fp);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+bam_index.c:358:25: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  358 |                         fread(&key, 4, 1, fp);
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+bam_index.c:362:25: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  362 |                         fread(&p->n, 4, 1, fp);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+bam_index.c:366:25: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  366 |                         fread(p->list, 16, p->n, fp);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+bam_index.c:376:17: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  376 |                 fread(&index2->n, 4, 1, fp);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+bam_index.c:380:17: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  380 |                 fread(index2->offset, index2->n, 8, fp);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_pileup.c -o bam_pileup.o
+bam_pileup.c: In function ‘resolve_cigar2’:
+bam_pileup.c:75:16: warning: variable ‘is_head’ set but not used [-Wunused-but-set-variable]
+   75 |         int k, is_head = 0;
+      |                ^~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_lpileup.c -o bam_lpileup.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_md.c -o bam_md.o
+bam_md.c: In function ‘bam_prob_realn_core’:
+bam_md.c:214:35: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  214 |                         *(bq - 3) = 'Z';
+      |                         ~~~~~~~~~~^~~~~
+bam_md.c:198:19: note: at offset -2 into destination object of size [0, 9223372036854775807] allocated by ‘bam_aux_get’
+  198 |         if ((bq = bam_aux_get(b, "BQ")) != 0) ++bq;
+      |                   ^~~~~~~~~~~~~~~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. razf.c -o razf.o
+razf.c: In function ‘razf_flush’:
+razf.c:221:17: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  221 |                 write(rz->x.fpw, rz->outbuf, RZ_BUFFER_SIZE - rz->stream->avail_out);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c:234:25: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  234 |                         write(rz->x.fpw, rz->outbuf, RZ_BUFFER_SIZE - rz->stream->avail_out);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c: In function ‘_razf_write’:
+razf.c:201:17: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  201 |                 write(rz->x.fpw, rz->outbuf, RZ_BUFFER_SIZE - rz->stream->avail_out);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c: In function ‘razf_close’:
+razf.c:804:25: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  804 |                         write(rz->x.fpw, &rz->in, sizeof(int64_t));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c:805:25: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  805 |                         write(rz->x.fpw, &rz->out, sizeof(int64_t));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c:808:25: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  808 |                         write(rz->x.fpw, &v64, sizeof(int64_t));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c:810:25: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  810 |                         write(rz->x.fpw, &v64, sizeof(int64_t));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c: In function ‘razf_end_flush’:
+razf.c:258:25: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  258 |                         write(rz->x.fpw, rz->outbuf, RZ_BUFFER_SIZE - rz->stream->avail_out);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c: In function ‘save_zindex’:
+razf.c:96:19: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   96 |         if(is_be) write(fd, &rz->index->size, sizeof(int));
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c:99:17: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   99 |                 write(fd, &v32, sizeof(uint32_t));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c:106:9: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  106 |         write(fd, rz->index->bin_offsets, sizeof(int64_t) * v32);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+razf.c:107:9: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  107 |         write(fd, rz->index->cell_offsets, sizeof(int32_t) * rz->index->size);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. faidx.c -o faidx.o
+faidx.c: In function ‘fai_load’:
+faidx.c:277:5: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  277 |     else
+      |     ^~~~
+faidx.c:280:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+  280 |         if (fp == 0) {
+      |         ^~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bedidx.c -o bedidx.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. knetfile.c -o knetfile.o
+In file included from knetfile.c:46:
+knetfile.c: In function ‘kftp_send_cmd’:
+knetfile.h:9:32: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 | #define netwrite(fd, ptr, len) write(fd, ptr, len)
+      |                                ^~~~~~~~~~~~~~~~~~~
+knetfile.c:236:9: note: in expansion of macro ‘netwrite’
+  236 |         netwrite(ftp->ctrl_fd, cmd, strlen(cmd));
+      |         ^~~~~~~~
+knetfile.c: In function ‘khttp_connect_file’:
+knetfile.h:9:32: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 | #define netwrite(fd, ptr, len) write(fd, ptr, len)
+      |                                ^~~~~~~~~~~~~~~~~~~
+knetfile.c:415:9: note: in expansion of macro ‘netwrite’
+  415 |         netwrite(fp->fd, buf, l);
+      |         ^~~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_sort.c -o bam_sort.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. sam_header.c -o sam_header.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_reheader.c -o bam_reheader.o
+bam_reheader.c: In function ‘bam_reheader’:
+bam_reheader.c:12:23: warning: variable ‘old’ set but not used [-Wunused-but-set-variable]
+   12 |         bam_header_t *old;
+      |                       ^~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. kprobaln.c -o kprobaln.o
+kprobaln.c: In function ‘kpa_glocal’:
+kprobaln.c:78:28: warning: variable ‘is_diff’ set but not used [-Wunused-but-set-variable]
+   78 |         int bw, bw2, i, k, is_diff = 0, is_backward = 1, Pr;
+      |                            ^~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_cat.c -o bam_cat.o
+ar -csru libbam.a bgzf.o kstring.o bam_aux.o bam.o bam_import.o sam.o bam_index.o bam_pileup.o bam_lpileup.o bam_md.o razf.o faidx.o bedidx.o knetfile.o bam_sort.o sam_header.o bam_reheader.o kprobaln.o bam_cat.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src'
+make[2]: Entering directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/bcftools'
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. bcf.c -o bcf.o
+bcf.c: In function ‘bcf_fmt_core’:
+bcf.c:233:9: warning: variable ‘iPL’ set but not used [-Wunused-but-set-variable]
+  233 |     int iPL = -1;
+      |         ^~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. vcf.c -o vcf.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. bcfutils.c -o bcfutils.o
+bcfutils.c: In function ‘bcf_fit_alt’:
+bcfutils.c:119:9: warning: variable ‘ipl’ set but not used [-Wunused-but-set-variable]
+  119 |     int ipl=-1, igt=-1;
+      |         ^~~
+bcfutils.c: In function ‘bcf_fix_gt’:
+bcfutils.c:254:5: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  254 |     else
+      |     ^~~~
+bcfutils.c:256:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+  256 |         b->fmt[0] = 'G'; b->fmt[1] = 'T'; b->fmt[2] = ':';
+      |         ^
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. prob1.c -o prob1.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. em.c -o em.o
+em.c: In function ‘bcf_em1’:
+em.c:174:19: warning: variable ‘n2’ set but not used [-Wunused-but-set-variable]
+  174 |         int i, n, n2;
+      |                   ^~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. kfunc.c -o kfunc.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. kmin.c -o kmin.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. index.c -o index.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. fet.c -o fet.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. mut.c -o mut.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. bcf2qcall.c -o bcf2qcall.o
+ar -csru libbcf.a bcf.o vcf.o bcfutils.o prob1.o em.o kfunc.o kmin.o index.o fet.o mut.o bcf2qcall.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/bcftools'
+make[2]: Entering directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/misc'
+make[2]: Nothing to be done for 'lib'.
+make[2]: Leaving directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/misc'
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_tview.c -o bam_tview.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_plcmd.c -o bam_plcmd.o
+bam_plcmd.c: In function ‘mpileup’:
+bam_plcmd.c:333:49: warning: variable ‘ref16’ set but not used [-Wunused-but-set-variable]
+  333 |                         int total_depth, _ref0, ref16;
+      |                                                 ^~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. sam_view.c -o sam_view.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_rmdup.c -o bam_rmdup.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_rmdupse.c -o bam_rmdupse.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_mate.c -o bam_mate.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_stat.c -o bam_stat.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_color.c -o bam_color.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bamtk.c -o bamtk.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. kaln.c -o kaln.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam2bcf.c -o bam2bcf.o
+bam2bcf.c: In function ‘bcf_call2bcf’:
+bam2bcf.c:428:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  428 |     if (bc->read_pos_bias != -1 )
+      |     ^~
+bam2bcf.c:430:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  430 |         kputc('\0', &s);
+      |         ^~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam2bcf_indel.c -o bam2bcf_indel.o
+bam2bcf_indel.c: In function ‘bcf_call_add_rg’:
+bam2bcf_indel.c:32:25: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   32 |                         for (r = p; *r && *r != '\t' && *r != '\n'; ++r); lp = r - p;
+      |                         ^~~
+bam2bcf_indel.c:32:75: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   32 |                         for (r = p; *r && *r != '\t' && *r != '\n'; ++r); lp = r - p;
+      |                                                                           ^~
+bam2bcf_indel.c:33:25: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   33 |                         for (r = q; *r && *r != '\t' && *r != '\n'; ++r); lq = r - q;
+      |                         ^~~
+bam2bcf_indel.c:33:75: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   33 |                         for (r = q; *r && *r != '\t' && *r != '\n'; ++r); lq = r - q;
+      |                                                                           ^~
+bam2bcf_indel.c: In function ‘bcf_call_gap_prep’:
+bam2bcf_indel.c:121:35: warning: variable ‘query’ set but not used [-Wunused-but-set-variable]
+  121 |         char *inscns = 0, *ref2, *query, **ref_sample;
+      |                                   ^~~~~
+bam2bcf_indel.c:121:28: warning: variable ‘ref2’ set but not used [-Wunused-but-set-variable]
+  121 |         char *inscns = 0, *ref2, *query, **ref_sample;
+      |                            ^~~~
+bam2bcf_indel.c:120:23: warning: variable ‘ref_type’ set but not used [-Wunused-but-set-variable]
+  120 |         int N, l_run, ref_type;
+      |                       ^~~~~~~~
+bam2bcf_indel.c:119:89: warning: variable ‘score2’ set but not used [-Wunused-but-set-variable]
+  119 |         int i, s, j, k, t, n_types, *types, max_rd_len, left, right, max_ins, *score1, *score2, max_ref2;
+      |                                                                                         ^~~~~~
+bam2bcf_indel.c:119:80: warning: variable ‘score1’ set but not used [-Wunused-but-set-variable]
+  119 |         int i, s, j, k, t, n_types, *types, max_rd_len, left, right, max_ins, *score1, *score2, max_ref2;
+      |                                                                                ^~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. errmod.c -o errmod.o
+errmod.c: In function ‘errmod_cal’:
+errmod.c:79:15: warning: self-comparison always evaluates to false [-Wtautological-compare]
+   79 |         if (m > m) return -1;
+      |               ^
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. sample.c -o sample.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. cut_target.c -o cut_target.o
+cut_target.c: In function ‘main_cut_target’:
+cut_target.c:137:43: warning: variable ‘lastpos’ set but not used [-Wunused-but-set-variable]
+  137 |         int c, tid, pos, n, lasttid = -1, lastpos = -1, l, max_l;
+      |                                           ^~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. phase.c -o phase.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam2depth.c -o bam2depth.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. padding.c -o padding.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bedcov.c -o bedcov.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bamshuf.c -o bamshuf.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_tview_curses.c -o bam_tview_curses.o
+bam_tview_curses.c: In function ‘curses_mvprintw’:
+bam_tview_curses.c:66:9: warning: format not a string literal and no format arguments [-Wformat-security]
+   66 |         mvprintw(y,x,str);
+      |         ^~~~~~~~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. bam_tview_html.c -o bam_tview_html.o
+gcc -g -Wall -O2 -o samtools2SIC bam_tview.o bam_plcmd.o sam_view.o bam_rmdup.o bam_rmdupse.o bam_mate.o bam_stat.o bam_color.o bamtk.o kaln.o bam2bcf.o bam2bcf_indel.o errmod.o sample.o cut_target.o phase.o bam2depth.o padding.o bedcov.o bamshuf.o bam_tview_curses.o bam_tview_html.o  libbam.a -Lbcftools -lbcf  -lcurses  -lm -lz -lpthread
+make[1]: Leaving directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src'
+make[1]: Entering directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/bcftools'
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. call1.c -o call1.o
+call1.c: In function ‘write_header’:
+call1.c:303:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  303 |     if (!strstr(str.s, "##FORMAT=<ID=GL,"))
+      |     ^~
+call1.c:305:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  305 |         if (!strstr(str.s, "##FORMAT=<ID=DP,"))
+      |         ^~
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I.. -I. main.c -o main.o
+gcc -g -Wall -O2 -o bcftools call1.o main.o ../kstring.o ../bgzf.o ../knetfile.o ../bedidx.o -L.  -lbcf -lm -lz -lpthread
+make[1]: Leaving directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/bcftools'
+make[1]: Entering directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/misc'
+gcc -c -g -Wall -O2 -DMD5SUM_MAIN -o md5sum-lite.o md5.c
+md5.c: In function ‘MD5Final’:
+md5.c:155:26: warning: argument to ‘sizeof’ in ‘memset’ call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+  155 |     memset(ctx, 0, sizeof(ctx));        /* In case it's sensitive */
+      |                          ^
+gcc -g -Wall -O2 -o md5sum-lite md5sum-lite.o
+gcc -c -g -Wall -O2 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1 -I. md5.c -o md5.o
+md5.c: In function ‘MD5Final’:
+md5.c:155:26: warning: argument to ‘sizeof’ in ‘memset’ call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+  155 |     memset(ctx, 0, sizeof(ctx));        /* In case it's sensitive */
+      |                          ^
+gcc -g -Wall -O2 -c -I.. -o md5fa.o md5fa.c
+gcc -g -Wall -O2 -o md5fa md5.o md5fa.o -lz
+gcc -g -Wall -O2 -o maq2sam-short maq2sam.c -lz
+gcc -g -Wall -O2 -DMAQ_LONGREADS -o maq2sam-long maq2sam.c -lz
+gcc -g -Wall -O2 -c -I.. -o ace2sam.o ace2sam.c
+ace2sam.c: In function ‘main’:
+ace2sam.c:162:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  162 |                         if (write_cns) puts(t[4].s); t[4].l = 0;
+      |                         ^~
+ace2sam.c:162:54: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  162 |                         if (write_cns) puts(t[4].s); t[4].l = 0;
+      |                                                      ^
+gcc -g -Wall -O2 -o ace2sam ace2sam.o -lz
+gcc -g -Wall -O2 -c -I.. -o wgsim.o wgsim.c
+gcc -g -Wall -O2 -o wgsim wgsim.o -lm -lz
+gcc -g -Wall -O2 -c -I.. -o bamcheck.o bamcheck.c
+gcc -g -Wall -O2 -o bamcheck bamcheck.o -L.. -lm -lbam -lpthread -lz
+make[1]: Leaving directory '/tmp/Rtmp99EgZU/R.INSTALLed773d03baa/SICtools/src/misc'
+installing via 'install.libs.R' to /tmp/built/00LOCK-SICtools/00new/SICtools
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘plyr::count’ by ‘matrixStats::count’ when loading ‘SICtools’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘plyr::count’ by ‘matrixStats::count’ when loading ‘SICtools’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘plyr::count’ by ‘matrixStats::count’ when loading ‘SICtools’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SICtools’ as ‘SICtools_1.28.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (SICtools)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHAxSbA/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	17m45.002s
+user	17m17.848s
+sys	0m28.642s
