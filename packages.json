@@ -4985,7 +4985,6 @@
         "biomaRt",
         "KEGGREST"
     ],
-    "DEGraph": [],
     "DEGreport": [
         "DESeq2",
         "SummarizedExperiment",
