@@ -846,7 +846,6 @@
     "bovine.db0": [],
     "bovinecdf": [],
     "bovineprobe": [],
-    "BPRMeth": [],
     "brainflowprobes": [
         "BSgenome.Hsapiens.UCSC.hg19",
         "bumphunter",
@@ -5810,9 +5809,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "Melissa": [
-        "BPRMeth"
-    ],
+    "Melissa": [],
     "memes": [],
     "MerfishData": [
         "SpatialExperiment",
