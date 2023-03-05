@@ -7310,7 +7310,6 @@
         "ExperimentHub",
         "GenomicAlignments"
     ],
-    "RmiR.hsa": [],
     "Rmmquant": [
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "DESeq2",
