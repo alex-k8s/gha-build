@@ -12857,7 +12857,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "nondetects": [],
     "NoRCE": [
         "KEGGREST",
         "SummarizedExperiment",
