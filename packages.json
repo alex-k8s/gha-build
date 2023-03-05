@@ -6628,7 +6628,6 @@
     "mpra": [],
     "MPRAnalyze": [],
     "msa": [],
-    "MSA2dist": [],
     "MsExperiment": [
         "QFeatures",
         "MultiAssayExperiment"
