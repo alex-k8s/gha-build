@@ -14,10 +14,7 @@
         "snapCGH",
         "genefilter"
     ],
-    "ADAM": [],
-    "ADAMgui": [
-        "ADAM"
-    ],
+    "ADAMgui": [],
     "adductData": [],
     "adductomicsR": [
         "adductData"
