@@ -9643,10 +9643,7 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "qPLEXanalyzer": [],
-    "qPLEXdata": [
-        "qPLEXanalyzer"
-    ],
+    "qPLEXdata": [],
     "qrqc": [
         "biovizBase",
         "SummarizedExperiment",
