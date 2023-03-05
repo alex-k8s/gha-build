@@ -8552,7 +8552,6 @@
         "CoreGx",
         "MultiAssayExperiment"
     ],
-    "tracktables": [],
     "trackViewer": [
         "GenomicAlignments",
         "GenomicFeatures",

@@ -1,0 +1,392 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''tracktables'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'tracktables'
+also installing the dependencies ‘ore’, ‘reportr’, ‘shades’, ‘RNifti’, ‘XML’, ‘tractor.base’, ‘RColorBrewer’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ore_1.7.3.1.tar.gz'
+Content type 'binary/octet-stream' length 443125 bytes (432 KB)
+==================================================
+downloaded 432 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/reportr_1.3.0.tar.gz'
+Content type 'application/x-tar' length 11298 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/shades_1.4.0.tar.gz'
+Content type 'application/x-tar' length 46488 bytes (45 KB)
+==================================================
+downloaded 45 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RNifti_1.4.5.tar.gz'
+Content type 'binary/octet-stream' length 1098605 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/XML_3.99-0.13.tar.gz'
+Content type 'binary/octet-stream' length 973519 bytes (950 KB)
+==================================================
+downloaded 950 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/tractor.base_3.3.5.1.tar.gz'
+Content type 'binary/octet-stream' length 1967379 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 11700 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/tracktables_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 354303 bytes (345 KB)
+==================================================
+downloaded 345 KB
+
+* installing *source* package ‘ore’ ...
+** package ‘ore’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/times.h... yes
+checking for stdint.h... (cached) yes
+checking size of int... 4
+checking size of short... 2
+checking size of long... 8
+checking size of void*... 8
+checking size of long long... 8
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working memcmp... yes
+configure: creating ./config.status
+config.status: creating src/onig/config.h
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compile.c -o compile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c escape.c -o escape.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match.c -o match.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c print.c -o print.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split.c -o split.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subst.c -o subst.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c text.c -o text.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wcwidth.c -o wcwidth.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zzz.c -o zzz.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regcomp.c -o onig/regcomp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regenc.c -o onig/regenc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regerror.c -o onig/regerror.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regexec.c -o onig/regexec.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regext.c -o onig/regext.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/reggnu.c -o onig/reggnu.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regparse.c -o onig/regparse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regposerr.c -o onig/regposerr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regposix.c -o onig/regposix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regsyntax.c -o onig/regsyntax.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regtrav.c -o onig/regtrav.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/regversion.c -o onig/regversion.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/st.c -o onig/st.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/ascii.c -o onig/enc/ascii.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/big5.c -o onig/enc/big5.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/cp949.c -o onig/enc/cp949.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/euc_jp.c -o onig/enc/euc_jp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/euc_kr.c -o onig/enc/euc_kr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/euc_tw.c -o onig/enc/euc_tw.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/gb18030.c -o onig/enc/gb18030.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/gbk.c -o onig/enc/gbk.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_1.c -o onig/enc/iso_8859_1.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_10.c -o onig/enc/iso_8859_10.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_11.c -o onig/enc/iso_8859_11.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_13.c -o onig/enc/iso_8859_13.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_14.c -o onig/enc/iso_8859_14.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_15.c -o onig/enc/iso_8859_15.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_16.c -o onig/enc/iso_8859_16.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_2.c -o onig/enc/iso_8859_2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_3.c -o onig/enc/iso_8859_3.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_4.c -o onig/enc/iso_8859_4.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_5.c -o onig/enc/iso_8859_5.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_6.c -o onig/enc/iso_8859_6.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_7.c -o onig/enc/iso_8859_7.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_8.c -o onig/enc/iso_8859_8.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/iso_8859_9.c -o onig/enc/iso_8859_9.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/koi8_r.c -o onig/enc/koi8_r.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/koi8_u.c -o onig/enc/koi8_u.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/shift_jis.c -o onig/enc/shift_jis.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/unicode.c -o onig/enc/unicode.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/us_ascii.c -o onig/enc/us_ascii.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/utf_16be.c -o onig/enc/utf_16be.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/utf_16le.c -o onig/enc/utf_16le.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/utf_32be.c -o onig/enc/utf_32be.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/utf_32le.c -o onig/enc/utf_32le.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/utf_8.c -o onig/enc/utf_8.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/windows_1250.c -o onig/enc/windows_1250.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/windows_1251.c -o onig/enc/windows_1251.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/windows_1252.c -o onig/enc/windows_1252.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/windows_1253.c -o onig/enc/windows_1253.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/windows_1254.c -o onig/enc/windows_1254.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/windows_1257.c -o onig/enc/windows_1257.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Ionig -Ionig/enc -Ionig/enc/unicode -DUNALIGNED_WORD_ACCESS=0 -DDISABLE_CONNECTIONS  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c onig/enc/windows_31j.c -o onig/enc/windows_31j.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ore.so compile.o escape.o match.o print.o split.o subst.o text.o wcwidth.o zzz.o onig/regcomp.o onig/regenc.o onig/regerror.o onig/regexec.o onig/regext.o onig/reggnu.o onig/regparse.o onig/regposerr.o onig/regposix.o onig/regsyntax.o onig/regtrav.o onig/regversion.o onig/st.o onig/enc/ascii.o onig/enc/big5.o onig/enc/cp949.o onig/enc/euc_jp.o onig/enc/euc_kr.o onig/enc/euc_tw.o onig/enc/gb18030.o onig/enc/gbk.o onig/enc/iso_8859_1.o onig/enc/iso_8859_10.o onig/enc/iso_8859_11.o onig/enc/iso_8859_13.o onig/enc/iso_8859_14.o onig/enc/iso_8859_15.o onig/enc/iso_8859_16.o onig/enc/iso_8859_2.o onig/enc/iso_8859_3.o onig/enc/iso_8859_4.o onig/enc/iso_8859_5.o onig/enc/iso_8859_6.o onig/enc/iso_8859_7.o onig/enc/iso_8859_8.o onig/enc/iso_8859_9.o onig/enc/koi8_r.o onig/enc/koi8_u.o onig/enc/shift_jis.o onig/enc/unicode.o onig/enc/us_ascii.o onig/enc/utf_16be.o onig/enc/utf_16le.o onig/enc/utf_32be.o onig/enc/utf_32le.o onig/enc/utf_8.o onig/enc/windows_1250.o onig/enc/windows_1251.o onig/enc/windows_1252.o onig/enc/windows_1253.o onig/enc/windows_1254.o onig/enc/windows_1257.o onig/enc/windows_31j.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-ore/00new/ore/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ore’ as ‘ore_1.7.3.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ore)
+* installing *source* package ‘shades’ ...
+** package ‘shades’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shades’ as ‘shades_1.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shades)
+* installing *source* package ‘RNifti’ ...
+** package ‘RNifti’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for library containing inflate... -lz
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -DNDEBUG -DHAVE_ZLIB -DUSING_R -DRNIFTI_NIFTILIB_DEDUPLICATE -I../inst/include  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c main.cpp -o main.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNDEBUG -DHAVE_ZLIB -DUSING_R -DRNIFTI_NIFTILIB_DEDUPLICATE -I../inst/include  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zzz.c -o zzz.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNDEBUG -DHAVE_ZLIB -DUSING_R -DRNIFTI_NIFTILIB_DEDUPLICATE -I../inst/include  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c znzlib/znzlib.c -o znzlib/znzlib.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNDEBUG -DHAVE_ZLIB -DUSING_R -DRNIFTI_NIFTILIB_DEDUPLICATE -I../inst/include  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c niftilib/nifti1_io.c -o niftilib/nifti1_io.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNDEBUG -DHAVE_ZLIB -DUSING_R -DRNIFTI_NIFTILIB_DEDUPLICATE -I../inst/include  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c niftilib/nifti2_io.c -o niftilib/nifti2_io.o
+niftilib/nifti2_io.c: In function ‘nifti_disp_lib_version’:
+niftilib/nifti2_io.c:558:48: warning: macro "__DATE__" might prevent reproducible builds [-Wdate-time]
+  558 |    Rc_printf("%s, compiled %s\n", gni_version, __DATE__);
+      |                                                ^~~~~~~~
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RNifti.so main.o zzz.o znzlib/znzlib.o niftilib/nifti1_io.o niftilib/nifti2_io.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RNifti/00new/RNifti/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RNifti’ as ‘RNifti_1.4.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RNifti)
+* installing *source* package ‘XML’ ...
+** package ‘XML’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking how to run the C preprocessor... gcc -E
+checking for sed... /usr/bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking for xml2-config... /usr/bin/xml2-config
+USE_XML2 = yes
+SED_EXTENDED_ARG: -E
+Minor 9, Patch 13 for 2.9.13
+Located parser file -I/usr/include/libxml2/parser.h
+Checking for 1.8:  -I/usr/include/libxml2
+Using libxml2.*
+checking for gzopen in -lz... yes
+checking for xmlParseFile in -lxml2... yes
+checking for xmlHashSize in -lxml2... yes
+Using built-in xmlHashSize
+Checking DTD parsing (presence of externalSubset)...
+checking for xmlHashSize in -lxml2... (cached) yes
+Found xmlHashSize
+checking for xmlOutputBufferCreateBuffer in -lxml2... yes
+have xmlOutputBufferCreateBuffer()
+checking for xmlDocDumpFormatMemoryEnc in -lxml2... yes
+checking for libxml/xmlversion.h... yes
+Expat:  FALSE
+Checking for return type of xmlHashScan element routine.
+No return value for xmlHashScan
+xmlNs has a context field
+Checking for cetype_t enumeration
+Using recent version of R with cetype_t enumeration type for encoding
+checking for xmlsec1-config... no
+nodegc default 
+xml-debug default 
+Version has XML_WITH_ZLIB
+Version has xmlHasFeature()
+
+****************************************
+Configuration information:
+
+Libxml settings
+
+libxml include directory: -I/usr/include/libxml2
+libxml library directory: -lxml2 -lz  -lxml2
+libxml 2:                 -DLIBXML2=1
+
+Compilation flags:         -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1 
+Link flags:               -lxml2 -lz  -lxml2
+
+****************************************
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating R/supports.R
+config.status: creating inst/scripts/RSXML.csh
+config.status: creating inst/scripts/RSXML.bsh
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DocParse.c -o DocParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c EventParse.c -o EventParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ExpatParse.c -o ExpatParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HTMLParse.c -o HTMLParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NodeGC.c -o NodeGC.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RSDTD.c -o RSDTD.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RUtils.c -o RUtils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcatalog.c -o Rcatalog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utils.c -o Utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLEventParse.c -o XMLEventParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLHashTree.c -o XMLHashTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLTree.c -o XMLTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fixNS.c -o fixNS.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxmlFeatures.c -o libxmlFeatures.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c schema.c -o schema.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xmlsecurity.c -o xmlsecurity.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xpath.c -o xpath.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o XML.so DocParse.o EventParse.o ExpatParse.o HTMLParse.o NodeGC.o RSDTD.o RUtils.o Rcatalog.o Utils.o XMLEventParse.o XMLHashTree.o XMLTree.o fixNS.o libxmlFeatures.o schema.o xmlsecurity.o xpath.o -lxml2 -lz -lxml2 -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-XML/00new/XML/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘source’ from package ‘base’ in package ‘XML’
+in method for ‘xmlAttrsToDataFrame’ with signature ‘"AsIs"’: no definition for class “AsIs”
+in method for ‘readKeyValueDB’ with signature ‘"AsIs"’: no definition for class “AsIs”
+in method for ‘readSolrDoc’ with signature ‘"AsIs"’: no definition for class “AsIs”
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘XML’ as ‘XML_3.99-0.13_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (XML)
+* installing *source* package ‘RColorBrewer’ ...
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *source* package ‘reportr’ ...
+** package ‘reportr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reportr’ as ‘reportr_1.3.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (reportr)
+* installing *source* package ‘tractor.base’ ...
+** package ‘tractor.base’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘coerce’ with signature ‘"MriImage","nifti"’: no definition for class “nifti”
+in method for ‘coerce’ with signature ‘"nifti","MriImage"’: no definition for class “nifti”
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tractor.base’ as ‘tractor.base_3.3.5.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (tractor.base)
+* installing *source* package ‘tracktables’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tracktables’ as ‘tracktables_1.32.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (tracktables)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxY08kA/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	13m34.128s
+user	13m6.819s
+sys	0m21.181s
