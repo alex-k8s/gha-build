@@ -5760,17 +5760,14 @@
         "DropletUtils",
         "scuttle"
     ],
-    "MeSHDbi": [],
     "meshes": [
         "DOSE",
         "enrichplot",
         "GOSemSim",
         "AnnotationHub",
-        "MeSHDbi",
         "GO.db"
     ],
     "meshr": [
-        "MeSHDbi",
         "Category",
         "GSEABase",
         "genefilter",
@@ -9583,7 +9580,6 @@
         "reactome.db",
         "SingleCellExperiment",
         "AnnotationHub",
-        "MeSHDbi",
         "Category",
         "meshr",
         "GOstats",
