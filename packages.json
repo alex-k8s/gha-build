@@ -461,7 +461,6 @@
         "genefilter"
     ],
     "barcodetrackR": [],
-    "barley1cdf": [],
     "barley1probe": [],
     "basecallQC": [
         "ShortRead",
