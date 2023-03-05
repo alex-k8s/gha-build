@@ -10660,7 +10660,6 @@
         "flowWorkspace",
         "ncdfFlow"
     ],
-    "immunoClust": [],
     "indac.db": [
         "AnnotationDbi",
         "org.Dm.eg.db",
