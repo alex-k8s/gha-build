@@ -8264,7 +8264,6 @@
         "oligoClasses"
     ],
     "rattoxfxcdf": [],
-    "rattoxfxprobe": [],
     "Rattus.norvegicus": [
         "OrganismDbi",
         "GenomicFeatures",
