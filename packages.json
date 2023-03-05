@@ -198,7 +198,6 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.ensGene",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "Homo.sapiens",
         "BSgenome.Hsapiens.UCSC.hg19",
         "biomaRt",
@@ -250,7 +249,6 @@
         "SingleCellExperiment",
         "topGO",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "GO.db"
     ],
     "appreci8R": [
@@ -363,7 +361,6 @@
         "GO.db",
         "org.Hs.eg.db",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "org.Mm.eg.db",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "CNEr",
@@ -711,7 +708,6 @@
         "GO.db",
         "org.Hs.eg.db",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "org.Mm.eg.db",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "GenomicAlignments",
         "regioneR",
@@ -1670,7 +1666,6 @@
     ],
     "cellity": [
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "topGO",
         "GO.db"
     ],
@@ -1779,7 +1774,6 @@
         "ensembldb",
         "GenomicAlignments",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "GenomicFeatures",
         "rtracklayer",
         "biomaRt",
@@ -1803,7 +1797,6 @@
         "chipenrich.data",
         "org.Dm.eg.db",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "org.Rn.eg.db",
         "rtracklayer",
         "GenomicAlignments"
@@ -1974,12 +1967,8 @@
     "clariomshumantranscriptcluster.db": [
         "org.Hs.eg.db"
     ],
-    "clariomsmousehttranscriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
-    "clariomsmousetranscriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
+    "clariomsmousehttranscriptcluster.db": [],
+    "clariomsmousetranscriptcluster.db": [],
     "clariomsrathttranscriptcluster.db": [
         "org.Rn.eg.db"
     ],
@@ -2181,7 +2170,6 @@
     "CompoundDb": [],
     "conclus": [
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "biomaRt",
         "scran",
         "scater",
@@ -2581,7 +2569,6 @@
         "DESeq2",
         "DOSE",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "clusterProfiler",
         "sva",
         "enrichplot",
@@ -2958,7 +2945,6 @@
     "EasyCellType": [
         "clusterProfiler",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "DOSE",
         "enrichplot",
         "GO.db",
@@ -3003,7 +2989,6 @@
         "DESeq2",
         "clusterProfiler",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "DOSE",
         "enrichplot",
         "GO.db",
@@ -3020,7 +3005,6 @@
         "globaltest",
         "safe",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "org.Rn.eg.db",
         "GO.db",
         "annotate",
@@ -3039,7 +3023,6 @@
         "globaltest",
         "safe",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "org.Rn.eg.db",
         "GO.db",
         "annotate",
@@ -4069,7 +4052,6 @@
         "GSEABase",
         "GOstats",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "genefilter",
         "annotate",
         "GO.db",
@@ -4434,8 +4416,7 @@
         "genefilter",
         "geneplotter",
         "mouse4302.db",
-        "annotate",
-        "org.Mm.eg.db"
+        "annotate"
     ],
     "HiLDA": [
         "GenomicFeatures",
@@ -4516,17 +4497,11 @@
     ],
     "hthgu133pluspmcdf": [],
     "hthgu133pluspmprobe": [],
-    "htmg430a.db": [
-        "org.Mm.eg.db"
-    ],
+    "htmg430a.db": [],
     "htmg430aprobe": [],
-    "htmg430b.db": [
-        "org.Mm.eg.db"
-    ],
+    "htmg430b.db": [],
     "htmg430bcdf": [],
-    "htmg430pm.db": [
-        "org.Mm.eg.db"
-    ],
+    "htmg430pm.db": [],
     "htmg430pmcdf": [],
     "htmg430pmprobe": [],
     "htrat230pm.db": [
@@ -4803,15 +4778,9 @@
     "illuminaHumanWGDASLv4.db": [
         "org.Hs.eg.db"
     ],
-    "illuminaMousev1.db": [
-        "org.Mm.eg.db"
-    ],
-    "illuminaMousev1p1.db": [
-        "org.Mm.eg.db"
-    ],
-    "illuminaMousev2.db": [
-        "org.Mm.eg.db"
-    ],
+    "illuminaMousev1.db": [],
+    "illuminaMousev1p1.db": [],
+    "illuminaMousev2.db": [],
     "illuminaRatv1.db": [
         "org.Rn.eg.db"
     ],
@@ -4924,7 +4893,6 @@
     ],
     "IRISFGM": [
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "SingleCellExperiment",
         "clusterProfiler",
         "scater",
@@ -5183,9 +5151,7 @@
         "bumphunter",
         "GenomicAlignments"
     ],
-    "lumiMouseAll.db": [
-        "org.Mm.eg.db"
-    ],
+    "lumiMouseAll.db": [],
     "lumiMouseIDMapping": [
         "lumi",
         "methylumi",
@@ -5223,12 +5189,8 @@
     "LymphoSeq": [
         "msa"
     ],
-    "m10kcod.db": [
-        "org.Mm.eg.db"
-    ],
-    "m20kcod.db": [
-        "org.Mm.eg.db"
-    ],
+    "m10kcod.db": [],
+    "m20kcod.db": [],
     "m6Aboost": [
         "rtracklayer",
         "BSgenome",
@@ -5855,50 +5817,26 @@
         "biomaRt",
         "annotate"
     ],
-    "mgu74a.db": [
-        "org.Mm.eg.db"
-    ],
-    "mgu74av2.db": [
-        "org.Mm.eg.db"
-    ],
+    "mgu74a.db": [],
+    "mgu74av2.db": [],
     "mgu74av2cdf": [],
     "mgu74av2probe": [],
-    "mgu74b.db": [
-        "org.Mm.eg.db"
-    ],
+    "mgu74b.db": [],
     "mgu74bprobe": [],
-    "mgu74bv2.db": [
-        "org.Mm.eg.db"
-    ],
+    "mgu74bv2.db": [],
     "mgu74bv2cdf": [],
     "mgu74bv2probe": [],
-    "mgu74c.db": [
-        "org.Mm.eg.db"
-    ],
+    "mgu74c.db": [],
     "mgu74ccdf": [],
-    "mgu74cv2.db": [
-        "org.Mm.eg.db"
-    ],
+    "mgu74cv2.db": [],
     "mgu74cv2cdf": [],
     "mgu74cv2probe": [],
-    "mguatlas5k.db": [
-        "org.Mm.eg.db"
-    ],
-    "mgug4104a.db": [
-        "org.Mm.eg.db"
-    ],
-    "mgug4120a.db": [
-        "org.Mm.eg.db"
-    ],
-    "mgug4121a.db": [
-        "org.Mm.eg.db"
-    ],
-    "mgug4122a.db": [
-        "org.Mm.eg.db"
-    ],
-    "mi16cod.db": [
-        "org.Mm.eg.db"
-    ],
+    "mguatlas5k.db": [],
+    "mgug4104a.db": [],
+    "mgug4120a.db": [],
+    "mgug4121a.db": [],
+    "mgug4122a.db": [],
+    "mi16cod.db": [],
     "mia": [
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
@@ -6141,12 +6079,8 @@
         "geneplotter",
         "annotate"
     ],
-    "mm24kresogen.db": [
-        "org.Mm.eg.db"
-    ],
-    "MmAgilentDesign026655.db": [
-        "org.Mm.eg.db"
-    ],
+    "mm24kresogen.db": [],
+    "MmAgilentDesign026655.db": [],
     "MMAPPR2": [
         "ensemblVEP",
         "gmapR",
@@ -6174,46 +6108,22 @@
     "MODA": [
         "GO.db"
     ],
-    "moe430a.db": [
-        "org.Mm.eg.db"
-    ],
-    "moe430b.db": [
-        "org.Mm.eg.db"
-    ],
+    "moe430a.db": [],
+    "moe430b.db": [],
     "moe430bprobe": [],
-    "moex10stprobeset.db": [
-        "org.Mm.eg.db"
-    ],
-    "moex10sttranscriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
+    "moex10stprobeset.db": [],
+    "moex10sttranscriptcluster.db": [],
     "MoExExonProbesetLocation": [],
-    "mogene10stprobeset.db": [
-        "org.Mm.eg.db"
-    ],
-    "mogene10sttranscriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
+    "mogene10stprobeset.db": [],
+    "mogene10sttranscriptcluster.db": [],
     "mogene10stv1cdf": [],
     "mogene10stv1probe": [],
-    "mogene11stprobeset.db": [
-        "org.Mm.eg.db"
-    ],
-    "mogene11sttranscriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
-    "mogene20stprobeset.db": [
-        "org.Mm.eg.db"
-    ],
-    "mogene20sttranscriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
-    "mogene21stprobeset.db": [
-        "org.Mm.eg.db"
-    ],
-    "mogene21sttranscriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
+    "mogene11stprobeset.db": [],
+    "mogene11sttranscriptcluster.db": [],
+    "mogene20stprobeset.db": [],
+    "mogene20sttranscriptcluster.db": [],
+    "mogene21stprobeset.db": [],
+    "mogene21sttranscriptcluster.db": [],
     "mogsa": [
         "graphite",
         "genefilter",
@@ -6289,14 +6199,10 @@
         "GO.db"
     ],
     "mouse.db0": [],
-    "mouse4302.db": [
-        "org.Mm.eg.db"
-    ],
+    "mouse4302.db": [],
     "mouse4302cdf": [],
     "mouse4302probe": [],
-    "mouse430a2.db": [
-        "org.Mm.eg.db"
-    ],
+    "mouse430a2.db": [],
     "mouse430a2cdf": [],
     "mouse430a2probe": [],
     "MouseFM": [
@@ -6313,9 +6219,7 @@
         "SingleCellExperiment",
         "ExperimentHub"
     ],
-    "mpedbarray.db": [
-        "org.Mm.eg.db"
-    ],
+    "mpedbarray.db": [],
     "mpra": [],
     "MPRAnalyze": [],
     "msa": [],
@@ -6341,7 +6245,6 @@
     "msigdb": [
         "ExperimentHub",
         "GSEABase",
-        "org.Mm.eg.db",
         "org.Hs.eg.db",
         "annotate"
     ],
@@ -6366,33 +6269,15 @@
         "QFeatures",
         "MultiAssayExperiment"
     ],
-    "mta10probeset.db": [
-        "org.Mm.eg.db"
-    ],
-    "mta10transcriptcluster.db": [
-        "org.Mm.eg.db"
-    ],
-    "mu11ksuba.db": [
-        "org.Mm.eg.db"
-    ],
-    "mu11ksubb.db": [
-        "org.Mm.eg.db"
-    ],
-    "Mu15v1.db": [
-        "org.Mm.eg.db"
-    ],
-    "mu19ksuba.db": [
-        "org.Mm.eg.db"
-    ],
-    "mu19ksubb.db": [
-        "org.Mm.eg.db"
-    ],
-    "mu19ksubc.db": [
-        "org.Mm.eg.db"
-    ],
-    "Mu22v3.db": [
-        "org.Mm.eg.db"
-    ],
+    "mta10probeset.db": [],
+    "mta10transcriptcluster.db": [],
+    "mu11ksuba.db": [],
+    "mu11ksubb.db": [],
+    "Mu15v1.db": [],
+    "mu19ksuba.db": [],
+    "mu19ksubb.db": [],
+    "mu19ksubc.db": [],
+    "Mu22v3.db": [],
     "mu6500subdcdf": [],
     "MuData": [
         "MultiAssayExperiment",
@@ -6464,7 +6349,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "GO.db",
-        "org.Mm.eg.db",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "rtracklayer",
         "biomaRt",
@@ -6522,9 +6406,7 @@
         "GenomicAlignments"
     ],
     "MWASTools": [],
-    "mwgcod.db": [
-        "org.Mm.eg.db"
-    ],
+    "mwgcod.db": [],
     "mygene": [
         "GenomicFeatures",
         "rtracklayer",
@@ -6705,9 +6587,7 @@
         "org.Hs.eg.db"
     ],
     "nugohs1a520180cdf": [],
-    "nugomm1a520177.db": [
-        "org.Mm.eg.db"
-    ],
+    "nugomm1a520177.db": [],
     "nullranges": [
         "InteractionSet",
         "plyranges",
@@ -6871,7 +6751,6 @@
     "org.Dm.eg.db": [],
     "org.EcK12.eg.db": [],
     "org.Hs.eg.db": [],
-    "org.Mm.eg.db": [],
     "org.Mmu.eg.db": [],
     "org.Mxanthus.db": [],
     "org.Pt.eg.db": [],
@@ -7956,7 +7835,6 @@
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "rGREAT",
         "rtracklayer",
         "enrichplot",
@@ -8682,7 +8560,6 @@
     "Rmmquant": [
         "TBX20BamSubset",
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
-        "org.Mm.eg.db",
         "DESeq2",
         "geneplotter",
         "GenomicFeatures",
@@ -8801,7 +8678,6 @@
         "OrganismDbi",
         "GenomicFeatures",
         "GO.db",
-        "org.Mm.eg.db",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "geneplotter",
         "rtracklayer",
@@ -8852,7 +8728,6 @@
         "AnnotationForge"
     ],
     "RnaSeqGeneEdgeRQL": [
-        "org.Mm.eg.db",
         "GO.db"
     ],
     "RNASeqR": [
@@ -8983,7 +8858,6 @@
         "rTRM",
         "MotifDb",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -9187,7 +9061,6 @@
         "GenomicAlignments",
         "MultiAssayExperiment",
         "org.Hs.eg.db",
-        "org.Mm.eg.db",
         "rtracklayer",
         "scuttle"
     ],
@@ -10114,7 +9987,6 @@
     "tenXplore": [
         "restfulSE",
         "ontoProc",
-        "org.Mm.eg.db",
         "GO.db",
         "ExperimentHub"
     ],
@@ -10832,7 +10704,6 @@
         "msigdb",
         "annotate",
         "ExperimentHub",
-        "org.Mm.eg.db",
         "org.Hs.eg.db"
     ],
     "vitisviniferacdf": [],
