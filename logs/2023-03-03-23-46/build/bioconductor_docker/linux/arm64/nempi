@@ -1,0 +1,1347 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''nempi'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'nempi'
+also installing the dependencies ‘deldir’, ‘lmtest’, ‘XML’, ‘png’, ‘jpeg’, ‘interp’, ‘abind’, ‘ggm’, ‘corpcor’, ‘vcd’, ‘bdsmatrix’, ‘sfsmisc’, ‘fastICA’, ‘clue’, ‘BoolNet’, ‘latticeExtra’, ‘pcalg’, ‘latex2exp’, ‘randomForest’, ‘epiNEM’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/deldir_1.0-6.tar.gz'
+Content type 'binary/octet-stream' length 120824 bytes (117 KB)
+==================================================
+downloaded 117 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/lmtest_0.9-40.tar.gz'
+Content type 'binary/octet-stream' length 230467 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/XML_3.99-0.13.tar.gz'
+Content type 'binary/octet-stream' length 973519 bytes (950 KB)
+==================================================
+downloaded 950 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/png_0.1-8.tar.gz'
+Content type 'binary/octet-stream' length 25726 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/jpeg_0.1-10.tar.gz'
+Content type 'binary/octet-stream' length 19127 bytes (18 KB)
+==================================================
+downloaded 18 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/interp_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 686562 bytes (670 KB)
+==================================================
+downloaded 670 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/abind_1.4-5.tar.gz'
+Content type 'application/x-tar' length 21895 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggm_2.5.tar.gz'
+Content type 'binary/octet-stream' length 110264 bytes (107 KB)
+==================================================
+downloaded 107 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/corpcor_1.6.10.tar.gz'
+Content type 'binary/octet-stream' length 22695 bytes (22 KB)
+==================================================
+downloaded 22 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/vcd_1.4-11.tar.gz'
+Content type 'binary/octet-stream' length 652612 bytes (637 KB)
+==================================================
+downloaded 637 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/bdsmatrix_1.3-6.tar.gz'
+Content type 'binary/octet-stream' length 48291 bytes (47 KB)
+==================================================
+downloaded 47 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/sfsmisc_1.1-14.tar.gz'
+Content type 'binary/octet-stream' length 183430 bytes (179 KB)
+==================================================
+downloaded 179 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/fastICA_1.2-3.tar.gz'
+Content type 'binary/octet-stream' length 11556 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/clue_0.3-64.tar.gz'
+Content type 'binary/octet-stream' length 605106 bytes (590 KB)
+==================================================
+downloaded 590 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/BoolNet_2.1.8.tar.gz'
+Content type 'binary/octet-stream' length 1574365 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/latticeExtra_0.6-30.tar.gz'
+Content type 'binary/octet-stream' length 1291531 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/pcalg_2.7-8.tar.gz'
+Content type 'binary/octet-stream' length 4158418 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/latex2exp_0.9.6.tar.gz'
+Content type 'binary/octet-stream' length 1500183 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/randomForest_4.7-1.1.tar.gz'
+Content type 'binary/octet-stream' length 81712 bytes (79 KB)
+==================================================
+downloaded 79 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/epiNEM_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 1950263 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/nempi_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 516958 bytes (504 KB)
+==================================================
+downloaded 504 KB
+
+* installing *source* package ‘deldir’ ...
+** package ‘deldir’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c acchk.f -o acchk.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c addpt.f -o addpt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c adjchk.f -o adjchk.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c binsrt.f -o binsrt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c circen.f -o circen.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c cross.f -o cross.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c crossutil.f -o crossutil.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delet.f -o delet.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delet1.f -o delet1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delout.f -o delout.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delseg.f -o delseg.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dirout.f -o dirout.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dirseg.f -o dirseg.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dldins.f -o dldins.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c initad.f -o initad.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c insrt.f -o insrt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c insrt1.f -o insrt1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c intri.f -o intri.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c locn.f -o locn.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c master.f -o master.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c mnnd.f -o mnnd.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c pred.f -o pred.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c qtest.f -o qtest.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c qtest1.f -o qtest1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c stoke.f -o stoke.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c succ.f -o succ.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c swap.f -o swap.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c testeq.f -o testeq.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c triar.f -o triar.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c trifnd.f -o trifnd.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o deldir.so acchk.o addpt.o adjchk.o binsrt.o circen.o cross.o crossutil.o delet.o delet1.o delout.o delseg.o dirout.o dirseg.o dldins.o init.o initad.o insrt.o insrt1.o intri.o locn.o master.o mnnd.o pred.o qtest.o qtest1.o stoke.o succ.o swap.o testeq.o triar.o trifnd.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-deldir/00new/deldir/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘deldir’ as ‘deldir_1.0-6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (deldir)
+* installing *source* package ‘lmtest’ ...
+** package ‘lmtest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c pan.f -o pan.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lmtest.so init.o pan.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-lmtest/00new/lmtest/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lmtest’ as ‘lmtest_0.9-40_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lmtest)
+* installing *source* package ‘XML’ ...
+** package ‘XML’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking how to run the C preprocessor... gcc -E
+checking for sed... /usr/bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking for xml2-config... /usr/bin/xml2-config
+USE_XML2 = yes
+SED_EXTENDED_ARG: -E
+Minor 9, Patch 13 for 2.9.13
+Located parser file -I/usr/include/libxml2/parser.h
+Checking for 1.8:  -I/usr/include/libxml2
+Using libxml2.*
+checking for gzopen in -lz... yes
+checking for xmlParseFile in -lxml2... yes
+checking for xmlHashSize in -lxml2... yes
+Using built-in xmlHashSize
+Checking DTD parsing (presence of externalSubset)...
+checking for xmlHashSize in -lxml2... (cached) yes
+Found xmlHashSize
+checking for xmlOutputBufferCreateBuffer in -lxml2... yes
+have xmlOutputBufferCreateBuffer()
+checking for xmlDocDumpFormatMemoryEnc in -lxml2... yes
+checking for libxml/xmlversion.h... yes
+Expat:  FALSE
+Checking for return type of xmlHashScan element routine.
+No return value for xmlHashScan
+xmlNs has a context field
+Checking for cetype_t enumeration
+Using recent version of R with cetype_t enumeration type for encoding
+checking for xmlsec1-config... no
+nodegc default 
+xml-debug default 
+Version has XML_WITH_ZLIB
+Version has xmlHasFeature()
+
+****************************************
+Configuration information:
+
+Libxml settings
+
+libxml include directory: -I/usr/include/libxml2
+libxml library directory: -lxml2 -lz  -lxml2
+libxml 2:                 -DLIBXML2=1
+
+Compilation flags:         -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1 
+Link flags:               -lxml2 -lz  -lxml2
+
+****************************************
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating R/supports.R
+config.status: creating inst/scripts/RSXML.csh
+config.status: creating inst/scripts/RSXML.bsh
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DocParse.c -o DocParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c EventParse.c -o EventParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ExpatParse.c -o ExpatParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HTMLParse.c -o HTMLParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NodeGC.c -o NodeGC.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RSDTD.c -o RSDTD.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RUtils.c -o RUtils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcatalog.c -o Rcatalog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utils.c -o Utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLEventParse.c -o XMLEventParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLHashTree.c -o XMLHashTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLTree.c -o XMLTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fixNS.c -o fixNS.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxmlFeatures.c -o libxmlFeatures.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c schema.c -o schema.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xmlsecurity.c -o xmlsecurity.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xpath.c -o xpath.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o XML.so DocParse.o EventParse.o ExpatParse.o HTMLParse.o NodeGC.o RSDTD.o RUtils.o Rcatalog.o Utils.o XMLEventParse.o XMLHashTree.o XMLTree.o fixNS.o libxmlFeatures.o schema.o xmlsecurity.o xpath.o -lxml2 -lz -lxml2 -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-XML/00new/XML/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘source’ from package ‘base’ in package ‘XML’
+in method for ‘xmlAttrsToDataFrame’ with signature ‘"AsIs"’: no definition for class “AsIs”
+in method for ‘readKeyValueDB’ with signature ‘"AsIs"’: no definition for class “AsIs”
+in method for ‘readSolrDoc’ with signature ‘"AsIs"’: no definition for class “AsIs”
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘XML’ as ‘XML_3.99-0.13_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (XML)
+* installing *source* package ‘png’ ...
+** package ‘png’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dummy.c -o dummy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o png.so dummy.o read.o write.o -lpng16 -lm -lz -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-png/00new/png/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘png’ as ‘png_0.1-8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (png)
+* installing *source* package ‘jpeg’ ...
+** package ‘jpeg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o jpeg.so read.o reg.o write.o -ljpeg -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-jpeg/00new/jpeg/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘jpeg’ as ‘jpeg_0.1-10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (jpeg)
+* installing *source* package ‘abind’ ...
+** package ‘abind’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘abind’ as ‘abind_1.4-5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (abind)
+* installing *source* package ‘ggm’ ...
+** package ‘ggm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggm’ as ‘ggm_2.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggm)
+* installing *source* package ‘corpcor’ ...
+** package ‘corpcor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘corpcor’ as ‘corpcor_1.6.10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (corpcor)
+* installing *source* package ‘bdsmatrix’ ...
+** package ‘bdsmatrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_bdsmatrix.c -o R_init_bdsmatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdsmatrix_index1.c -o bdsmatrix_index1.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdsmatrix_index2.c -o bdsmatrix_index2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdsmatrix_index3.c -o bdsmatrix_index3.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdsmatrix_prod.c -o bdsmatrix_prod.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdsmatrix_prod2.c -o bdsmatrix_prod2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdsmatrix_prod3.c -o bdsmatrix_prod3.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdsmatrix_prod4.c -o bdsmatrix_prod4.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chinv4.c -o chinv4.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chinv5.c -o chinv5.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cholesky4.c -o cholesky4.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cholesky5.c -o cholesky5.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chsolve4.c -o chsolve4.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chsolve5.c -o chsolve5.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dmatrix.c -o dmatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gcback.c -o gcback.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gchol.c -o gchol.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gchol_bds.c -o gchol_bds.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bdsmatrix.so R_init_bdsmatrix.o bdsmatrix_index1.o bdsmatrix_index2.o bdsmatrix_index3.o bdsmatrix_prod.o bdsmatrix_prod2.o bdsmatrix_prod3.o bdsmatrix_prod4.o chinv4.o chinv5.o cholesky4.o cholesky5.o chsolve4.o chsolve5.o dmatrix.o gcback.o gchol.o gchol_bds.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-bdsmatrix/00new/bdsmatrix/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘bdsmatrix’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘bdsmatrix’
+Creating a new generic function for ‘backsolve’ in package ‘bdsmatrix’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bdsmatrix’ as ‘bdsmatrix_1.3-6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (bdsmatrix)
+* installing *source* package ‘sfsmisc’ ...
+** package ‘sfsmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sfsmisc’ as ‘sfsmisc_1.1-14_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sfsmisc)
+* installing *source* package ‘fastICA’ ...
+** package ‘fastICA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ica.c -o ica.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fastICA.so ica.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-fastICA/00new/fastICA/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fastICA’ as ‘fastICA_1.2-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (fastICA)
+* installing *source* package ‘clue’ ...
+** package ‘clue’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c assignment.c -o assignment.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clue.c -o clue.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lsap.c -o lsap.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trees.c -o trees.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o clue.so assignment.o clue.o init.o lsap.o trees.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-clue/00new/clue/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘clue’ as ‘clue_0.3-64_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (clue)
+* installing *source* package ‘latex2exp’ ...
+** package ‘latex2exp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘latex2exp’ as ‘latex2exp_0.9.6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (latex2exp)
+* installing *source* package ‘randomForest’ ...
+** package ‘randomForest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c classTree.c -o classTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c regTree.c -o regTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c regrf.c -o regrf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rf.c -o rf.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c rfsub.f -o rfsub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rfutils.c -o rfutils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o randomForest.so classTree.o init.o regTree.o regrf.o rf.o rfsub.o rfutils.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-randomForest/00new/randomForest/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘randomForest’ as ‘randomForest_4.7-1.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (randomForest)
+* installing *source* package ‘interp’ ...
+** package ‘interp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aSpline.cpp -o aSpline.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c bilinear.f -o bilinear.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c circum.cpp -o circum.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.cpp -o common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interp.cpp -o interp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c partDeriv.cpp -o partDeriv.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c s_hull_pro.cpp -o s_hull_pro.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shullDeltri.cpp -o shullDeltri.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o interp.so RcppExports.o aSpline.o bilinear.o circum.o common.o init.o interp.o partDeriv.o s_hull_pro.o shullDeltri.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-interp/00new/interp/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘interp’ as ‘interp_1.1-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (interp)
+* installing *source* package ‘vcd’ ...
+** package ‘vcd’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘vcd’ as ‘vcd_1.4-11_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (vcd)
+* installing *source* package ‘BoolNet’ ...
+** package ‘BoolNet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attractor_info.c -o attractor_info.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attractor_search_interface.c -o attractor_search_interface.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.c -o common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c picosat.c -o picosat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c probabilistic_boolean_network.c -o probabilistic_boolean_network.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reconstruct_network.c -o reconstruct_network.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sat_search.c -o sat_search.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c statespace_search.c -o statespace_search.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c symbolic_network.c -o symbolic_network.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c symbolic_simulator.c -o symbolic_simulator.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BoolNet.so attractor_info.o attractor_search_interface.o common.o init.o picosat.o probabilistic_boolean_network.o reconstruct_network.o sat_search.o statespace_search.o symbolic_network.o symbolic_simulator.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-BoolNet/00new/BoolNet/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BoolNet’ as ‘BoolNet_2.1.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BoolNet)
+* installing *source* package ‘latticeExtra’ ...
+** package ‘latticeExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘latticeExtra’ as ‘latticeExtra_0.6-30_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (latticeExtra)
+* installing *source* package ‘pcalg’ ...
+** package ‘pcalg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I'/tmp/built/BH/include' -I/usr/local/include  -I"../inst/include" -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c constraint.cpp -o constraint.o
+In file included from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+../inst/include/pcalg/armaLapack.hpp:17: warning: "NDEBUG" redefined
+   17 | #define NDEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from /tmp/built/BH/include/boost/scoped_ptr.hpp:13,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:22,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/scoped_ptr.hpp:74:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   74 |     explicit scoped_ptr( std::auto_ptr<T> p ) BOOST_SP_NOEXCEPT : px( p.release() )
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/detail/shared_count.hpp:361:33: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  361 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:250:65: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  250 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:507:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  507 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:520:22: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  520 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:603:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  603 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:612:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  612 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/constraint.hpp:10,
+                 from constraint.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:614:38: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  614 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/constraint.hpp:8,
+                 from constraint.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I'/tmp/built/BH/include' -I/usr/local/include  -I"../inst/include" -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gies.cpp -o gies.o
+In file included from ../inst/include/pcalg/constraint.hpp:8,
+                 from gies.cpp:21:
+../inst/include/pcalg/armaLapack.hpp:17: warning: "NDEBUG" redefined
+   17 | #define NDEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from /tmp/built/BH/include/boost/scoped_ptr.hpp:13,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:22,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/scoped_ptr.hpp:74:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   74 |     explicit scoped_ptr( std::auto_ptr<T> p ) BOOST_SP_NOEXCEPT : px( p.release() )
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/detail/shared_count.hpp:361:33: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  361 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:250:65: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  250 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:507:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  507 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:520:22: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  520 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:603:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  603 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:612:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  612 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from gies.cpp:12:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:614:38: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  614 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /tmp/built/BH/include/boost/container_hash/hash.hpp:47,
+                 from /tmp/built/BH/include/boost/functional/hash.hpp:6,
+                 from /tmp/built/BH/include/boost/unordered/unordered_set.hpp:19,
+                 from /tmp/built/BH/include/boost/unordered_set.hpp:17,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:20,
+                 from gies.cpp:12:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I'/tmp/built/BH/include' -I/usr/local/include  -I"../inst/include" -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c greedy.cpp -o greedy.o
+In file included from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+../inst/include/pcalg/armaLapack.hpp:17: warning: "NDEBUG" redefined
+   17 | #define NDEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from /tmp/built/BH/include/boost/scoped_ptr.hpp:13,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:22,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/scoped_ptr.hpp:74:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   74 |     explicit scoped_ptr( std::auto_ptr<T> p ) BOOST_SP_NOEXCEPT : px( p.release() )
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/detail/shared_count.hpp:361:33: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  361 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:250:65: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  250 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:507:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  507 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:520:22: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  520 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:603:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  603 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:612:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  612 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from greedy.cpp:8:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:614:38: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  614 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from ../inst/include/pcalg/greedy.hpp:11,
+                 from greedy.cpp:8:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I'/tmp/built/BH/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I'/tmp/built/BH/include' -I/usr/local/include  -I"../inst/include" -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c score.cpp -o score.o
+In file included from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+../inst/include/pcalg/armaLapack.hpp:17: warning: "NDEBUG" redefined
+   17 | #define NDEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from /tmp/built/BH/include/boost/scoped_ptr.hpp:13,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:22,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/scoped_ptr.hpp:74:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   74 |     explicit scoped_ptr( std::auto_ptr<T> p ) BOOST_SP_NOEXCEPT : px( p.release() )
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/detail/shared_count.hpp:361:33: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  361 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:250:65: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  250 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:507:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  507 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:520:22: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  520 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:603:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  603 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:612:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  612 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /tmp/built/BH/include/boost/property_map/vector_property_map.hpp:14,
+                 from /tmp/built/BH/include/boost/property_map/property_map.hpp:598,
+                 from /tmp/built/BH/include/boost/graph/adjacency_list.hpp:27,
+                 from ../inst/include/pcalg/greedy.hpp:18,
+                 from score.cpp:7:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/tmp/built/BH/include/boost/smart_ptr/shared_ptr.hpp:614:38: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  614 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /usr/include/c++/11/bits/locale_conv.h:41,
+                 from /usr/include/c++/11/locale:43,
+                 from /usr/include/c++/11/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:25,
+                 from /tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from ../inst/include/pcalg/armaLapack.hpp:15,
+                 from ../inst/include/pcalg/score.hpp:12,
+                 from score.cpp:6:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pcalg.so constraint.o gies.o greedy.o init.o score.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-pcalg/00new/pcalg/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pcalg’ as ‘pcalg_2.7-8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pcalg)
+* installing *source* package ‘epiNEM’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘epiNEM’ as ‘epiNEM_1.22.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (epiNEM)
+* installing *source* package ‘nempi’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘nempi’ as ‘nempi_1.6.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (nempi)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdFdQiI/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	40m16.448s
+user	39m26.245s
+sys	0m47.864s
