@@ -3723,7 +3723,6 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "DMRScan": [],
     "dmrseq": [
         "bsseq",
         "bumphunter",
