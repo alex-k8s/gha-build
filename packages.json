@@ -25493,7 +25493,6 @@
         "XVector",
         "Rhtslib"
     ],
-    "rbsurv": [],
     "Rbwa": [],
     "Rcade": [
         "GenomicRanges",
