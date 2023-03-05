@@ -7862,7 +7862,6 @@
     ],
     "poplarprobe": [],
     "porcine.db": [],
-    "porcineprobe": [],
     "PoTRA": [
         "org.Hs.eg.db",
         "graphite"
