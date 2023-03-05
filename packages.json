@@ -8955,7 +8955,6 @@
         "ExperimentHub",
         "GenomicAlignments"
     ],
-    "RmiR.Hs.miRNA": [],
     "RmiR.hsa": [],
     "Rmmquant": [
         "TBX20BamSubset",
