@@ -2003,7 +2003,6 @@
     ],
     "CircSeqAlignTk": [
         "ShortRead",
-        "Rbowtie2",
         "Rhisat2",
         "GenomicFeatures",
         "SGSeq",
@@ -3459,7 +3458,6 @@
     "esATAC": [
         "ShortRead",
         "pipeFrame",
-        "Rbowtie2",
         "rtracklayer",
         "ChIPseeker",
         "clusterProfiler",
@@ -8531,7 +8529,6 @@
         "ShortRead",
         "GenomicAlignments"
     ],
-    "Rbowtie2": [],
     "Rbwa": [],
     "Rcade": [
         "GenomicAlignments"
@@ -10998,7 +10995,6 @@
         "regioneR",
         "BSgenome",
         "DESeq2",
-        "Rbowtie2",
         "GenomicAlignments",
         "org.Hs.eg.db",
         "annotate",
