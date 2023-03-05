@@ -5588,9 +5588,7 @@
         "biomaRt",
         "KEGGREST"
     ],
-    "DEGraph": [
-        "NCIgraph"
-    ],
+    "DEGraph": [],
     "DEGreport": [
         "DESeq2",
         "SummarizedExperiment",
@@ -14512,7 +14510,6 @@
         "GenomicRanges",
         "XVector"
     ],
-    "NCIgraph": [],
     "ncRNAtools": [
         "GenomicRanges",
         "XVector"
