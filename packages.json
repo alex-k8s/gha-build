@@ -6197,7 +6197,6 @@
         "SummarizedExperiment",
         "GenomicRanges"
     ],
-    "flowBin": [],
     "flowCL": [],
     "flowClust": [],
     "flowCut": [
