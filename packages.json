@@ -1763,7 +1763,6 @@
         "SingleCellExperiment"
     ],
     "clustifyrdatahub": [],
-    "cmapR": [],
     "cn.farms": [
         "oligoClasses",
         "oligo"
