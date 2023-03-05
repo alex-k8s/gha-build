@@ -27116,7 +27116,6 @@
     "RTopper": [
         "multtest"
     ],
-    "Rtpca": [],
     "rtracklayer": [
         "GenomicRanges",
         "IRanges",
