@@ -2074,7 +2074,6 @@
         "exomeCopy",
         "biomaRt"
     ],
-    "cnvGSAdata": [],
     "CNViz": [
         "karyoploteR",
         "CopyNumberPlots",
