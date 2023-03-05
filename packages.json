@@ -8264,9 +8264,7 @@
     "rtracklayer": [
         "GenomicAlignments"
     ],
-    "rTRM": [],
     "rTRMui": [
-        "rTRM",
         "MotifDb",
         "rtracklayer",
         "GenomicAlignments"
