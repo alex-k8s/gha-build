@@ -2910,9 +2910,7 @@
         "enrichplot",
         "GOSemSim"
     ],
-    "fastLiquidAssociation": [
-        "LiquidAssociation"
-    ],
+    "fastLiquidAssociation": [],
     "FastqCleaner": [
         "ShortRead",
         "GenomicAlignments"
@@ -4027,7 +4025,6 @@
         "MultiAssayExperiment",
         "MultiDataSet"
     ],
-    "LiquidAssociation": [],
     "lisaClust": [
         "spicyR",
         "SingleCellExperiment",
