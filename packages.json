@@ -2133,7 +2133,6 @@
     "cosmosR": [
         "GSEABase"
     ],
-    "cottonprobe": [],
     "countsimQC": [
         "DESeq2",
         "genefilter",
