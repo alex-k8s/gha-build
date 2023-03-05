@@ -3690,7 +3690,6 @@
         "biomaRt"
     ],
     "GGHumanMethCancerPanelv1.db": [],
-    "ggmanh": [],
     "ggspavis": [
         "SpatialExperiment",
         "SingleCellExperiment",
