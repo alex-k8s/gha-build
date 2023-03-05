@@ -4657,7 +4657,6 @@
         "GenomicAlignments"
     ],
     "MetNet": [],
-    "MGFM": [],
     "MGFR": [],
     "mgu74a.db": [],
     "mgu74av2.db": [],
@@ -7202,7 +7201,6 @@
     ],
     "rwgcod.db": [],
     "sampleClassifier": [
-        "MGFM",
         "MGFR"
     ],
     "sampleClassifierData": [],
