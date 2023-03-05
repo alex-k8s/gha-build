@@ -14370,7 +14370,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "metaSeq": [],
     "metaseqR2": [
         "DESeq2",
         "baySeq",
