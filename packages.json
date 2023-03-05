@@ -14389,7 +14389,6 @@
         "AnnotationDbi"
     ],
     "SynExtend": [],
-    "SynMut": [],
     "syntenet": [
         "rtracklayer",
         "Rsamtools",
