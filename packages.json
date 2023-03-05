@@ -4736,7 +4736,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "mirIntegrator": [],
     "miRLAB": [
         "TCGAbiolinks",
         "Category",
