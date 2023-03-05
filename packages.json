@@ -4070,9 +4070,7 @@
         "VariantAnnotation",
         "AnnotationFilter"
     ],
-    "CIMICE": [
-        "maftools"
-    ],
+    "CIMICE": [],
     "CINdex": [
         "GenomicRanges",
         "XVector"
@@ -10984,7 +10982,6 @@
     ],
     "katdetectr": [
         "GenomicRanges",
-        "maftools",
         "VariantAnnotation",
         "BSgenome",
         "BSgenome.Hsapiens.UCSC.hg19",
@@ -11732,7 +11729,6 @@
         "KEGGREST",
         "SummarizedExperiment"
     ],
-    "maftools": [],
     "MAGAR": [
         "HDF5Array",
         "RnBeads",
@@ -14353,7 +14349,6 @@
         "BSgenome.Mmusculus.UCSC.mm9",
         "BSgenome.Mmusculus.UCSC.mm10",
         "decompTumor2Sig",
-        "maftools",
         "TCGAbiolinks",
         "XVector",
         "rtracklayer",
@@ -22254,7 +22249,6 @@
         "Biostrings"
     ],
     "TCGAbiolinksGUI": [
-        "maftools",
         "SummarizedExperiment",
         "pathview",
         "ELMER",
