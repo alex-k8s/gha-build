@@ -20465,9 +20465,7 @@
         "affy",
         "XVector"
     ],
-    "NormqPCR": [
-        "ReadqPCR"
-    ],
+    "NormqPCR": [],
     "normr": [
         "GenomeInfoDb",
         "GenomicRanges",
@@ -25622,7 +25620,6 @@
         "XVector",
         "GenomeInfoDb"
     ],
-    "ReadqPCR": [],
     "rebook": [],
     "receptLoss": [
         "SummarizedExperiment",
