@@ -2652,7 +2652,6 @@
         "PADOG",
         "GSVA",
         "globaltest",
-        "safe",
         "org.Rn.eg.db",
         "GSEABase",
         "SingleCellExperiment",
@@ -2667,7 +2666,6 @@
         "PADOG",
         "GSVA",
         "globaltest",
-        "safe",
         "org.Rn.eg.db",
         "GSEABase",
         "SingleCellExperiment",
@@ -2711,8 +2709,7 @@
     "EnrichmentBrowser": [
         "GSEABase",
         "graphite",
-        "pathview",
-        "safe"
+        "pathview"
     ],
     "enrichplot": [
         "DOSE",
@@ -3601,8 +3598,7 @@
         "ExperimentHub",
         "GSEABase",
         "graphite",
-        "pathview",
-        "safe"
+        "pathview"
     ],
     "gsean": [
         "PPInfer"
@@ -7570,7 +7566,6 @@
     "rwgcod.db": [
         "org.Rn.eg.db"
     ],
-    "safe": [],
     "SAIGEgds": [],
     "sampleClassifier": [
         "MGFM",
@@ -9301,8 +9296,7 @@
         "EnrichmentBrowser",
         "GSEABase",
         "graphite",
-        "pathview",
-        "safe"
+        "pathview"
     ],
     "zFPKM": [],
     "zinbwave": [
