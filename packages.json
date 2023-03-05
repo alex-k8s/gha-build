@@ -72,7 +72,6 @@
         "SummarizedExperiment",
         "MultiAssayExperiment"
     ],
-    "AffyCompatible": [],
     "affycoretools": [
         "GOstats",
         "gcrma",
