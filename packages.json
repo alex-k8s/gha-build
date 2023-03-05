@@ -12281,7 +12281,6 @@
         "KEGGREST",
         "annotate"
     ],
-    "GraphAT": [],
     "graphite": [
         "AnnotationDbi",
         "IRanges",
