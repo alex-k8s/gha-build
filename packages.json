@@ -10451,10 +10451,7 @@
     "switchde": [
         "SingleCellExperiment"
     ],
-    "synapter": [],
-    "synapterdata": [
-        "synapter"
-    ],
+    "synapterdata": [],
     "synaptome.data": [
         "AnnotationHub"
     ],
