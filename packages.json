@@ -750,7 +750,6 @@
         "DRIMSeq"
     ],
     "bandle": [
-        "MSnbase",
         "pRoloc",
         "pRolocdata",
         "MLInterfaces",
@@ -2333,7 +2332,6 @@
     ],
     "CAMERA": [
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -3076,7 +3074,6 @@
     ],
     "cliqueMS": [
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -3087,9 +3084,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "clusterExperiment": [
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -3521,7 +3516,6 @@
     "cosmiq": [
         "xcms",
         "faahKO",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -3917,12 +3911,9 @@
         "GenomicAlignments"
     ],
     "DAPAR": [
-        "MSnbase",
         "DAPARdata"
     ],
-    "DAPARdata": [
-        "MSnbase"
-    ],
+    "DAPARdata": [],
     "dasper": [
         "GenomicFeatures",
         "megadepth",
@@ -4091,8 +4082,7 @@
         "GenomicAlignments"
     ],
     "DEP": [
-        "SummarizedExperiment",
-        "MSnbase"
+        "SummarizedExperiment"
     ],
     "depmap": [
         "ExperimentHub",
@@ -5356,7 +5346,6 @@
     ],
     "faahKO": [
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -5591,7 +5580,6 @@
     "flagme": [
         "xcms",
         "CAMERA",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -7849,7 +7837,6 @@
     "IPO": [
         "xcms",
         "CAMERA",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -8131,7 +8118,6 @@
     "LOBSTAHS": [
         "xcms",
         "CAMERA",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -8567,7 +8553,6 @@
     "MAIT": [
         "CAMERA",
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -8864,7 +8849,6 @@
     ],
     "Metab": [
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -8945,7 +8929,6 @@
     "metaMS": [
         "CAMERA",
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -9806,7 +9789,6 @@
         "KEGGREST"
     ],
     "MobilityTransformR": [
-        "MSnbase",
         "xcms",
         "SummarizedExperiment",
         "MsFeatures"
@@ -10128,16 +10110,11 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
-        "MSnbase",
         "msmsTests",
         "AnnotationHub",
         "AnnotationDbi",
@@ -10162,12 +10139,9 @@
         "MSstatsPTM"
     ],
     "MSstatsPTM": [],
-    "MSstatsQC": [
-        "MSnbase"
-    ],
+    "MSstatsQC": [],
     "MSstatsQCgui": [
-        "MSstatsQC",
-        "MSnbase"
+        "MSstatsQC"
     ],
     "MSstatsShiny": [
         "MSstatsPTM"
@@ -10541,7 +10515,6 @@
     "NBSplice": [],
     "ncGTW": [
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -12115,9 +12088,7 @@
         "SummarizedExperiment"
     ],
     "PeacoQC": [],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "PECA": [
         "genefilter",
         "AnnotationDbi",
@@ -12333,7 +12304,6 @@
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
-        "MSnbase",
         "MsFeatures"
     ],
     "plasmodiumanophelescdf": [
@@ -12526,9 +12496,7 @@
         "annotate",
         "GO.db"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
     "proActiv": [
         "AnnotationDbi",
         "DESeq2",
@@ -12573,7 +12541,6 @@
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
-        "MSnbase",
         "MsFeatures"
     ],
     "profileplyr": [
@@ -12609,7 +12576,6 @@
         "SummarizedExperiment"
     ],
     "pRoloc": [
-        "MSnbase",
         "MLInterfaces",
         "biomaRt",
         "AnnotationDbi",
@@ -12618,12 +12584,9 @@
         "SummarizedExperiment",
         "KEGGREST"
     ],
-    "pRolocdata": [
-        "MSnbase"
-    ],
+    "pRolocdata": [],
     "pRolocGUI": [
         "pRoloc",
-        "MSnbase",
         "MLInterfaces",
         "biomaRt",
         "AnnotationDbi",
@@ -12647,8 +12610,7 @@
     ],
     "Prostar": [
         "DAPAR",
-        "DAPARdata",
-        "MSnbase"
+        "DAPARdata"
     ],
     "proteasy": [
         "ensembldb",
@@ -12723,14 +12685,11 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "PtH2O2lipids": [
         "xcms",
         "CAMERA",
         "LOBSTAHS",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -12835,12 +12794,9 @@
         "GenomicAlignments",
         "SummarizedExperiment"
     ],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "qPLEXdata": [
-        "qPLEXanalyzer",
-        "MSnbase"
+        "qPLEXanalyzer"
     ],
     "qrqc": [
         "biovizBase",
@@ -13472,9 +13428,7 @@
         "KEGGREST"
     ],
     "rfaRm": [],
-    "RforProteomics": [
-        "MSnbase"
-    ],
+    "RforProteomics": [],
     "rfPred": [
         "Rsamtools"
     ],
@@ -13741,7 +13695,6 @@
     ],
     "Risa": [
         "xcms",
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
@@ -13789,9 +13742,7 @@
         "KEGGREST",
         "SummarizedExperiment"
     ],
-    "RMassBank": [
-        "MSnbase"
-    ],
+    "RMassBank": [],
     "RmiR.Hs.miRNA": [
         "AnnotationDbi",
         "KEGGREST"
@@ -15803,12 +15754,10 @@
         "SummarizedExperiment"
     ],
     "synapter": [
-        "MSnbase",
         "cleaver"
     ],
     "synapterdata": [
         "synapter",
-        "MSnbase",
         "cleaver"
     ],
     "synaptome.data": [
@@ -16231,12 +16180,9 @@
     "tomoda": [
         "SummarizedExperiment"
     ],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "topdownrdata": [
-        "topdownr",
-        "MSnbase"
+        "topdownr"
     ],
     "topGO": [
         "GO.db",
@@ -17352,7 +17298,6 @@
         "SummarizedExperiment"
     ],
     "xcms": [
-        "MSnbase",
         "SummarizedExperiment",
         "MsFeatures"
     ],
