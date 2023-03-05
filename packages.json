@@ -32422,7 +32422,6 @@
         "BiocIO",
         "DelayedArray"
     ],
-    "UNDO": [],
     "unifiedWMWqPCR": [
         "HTqPCR",
         "affy"
