@@ -5042,7 +5042,6 @@
     "multiHiCcompare": [
         "HiCcompare"
     ],
-    "multiOmicsViz": [],
     "multiSight": [
         "biosigner",
         "DESeq2",
