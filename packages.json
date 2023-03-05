@@ -7207,7 +7207,6 @@
         "geneplotter",
         "annotate"
     ],
-    "pathRender": [],
     "pathview": [
         "org.Hs.eg.db"
     ],
