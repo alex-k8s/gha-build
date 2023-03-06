@@ -2828,7 +2828,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "ExpressionAtlas": [],
     "ExpressionNormalizationWorkflow": [
         "sva",
         "genefilter"
