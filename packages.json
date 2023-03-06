@@ -1378,7 +1378,6 @@
         "ensembldb",
         "BSgenome"
     ],
-    "CNVPanelizer": [],
     "CNVRanger": [],
     "CNVrd2": [
         "VariantAnnotation",
