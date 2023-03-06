@@ -1278,7 +1278,6 @@
     "clusterProfiler": [
         "enrichplot"
     ],
-    "clustifyrdatahub": [],
     "cn.farms": [
         "oligo"
     ],
