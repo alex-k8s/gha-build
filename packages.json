@@ -4128,7 +4128,6 @@
     "scDD": [
         "scran"
     ],
-    "scGPS": [],
     "scmeth": [
         "bsseq",
         "BSgenome",
