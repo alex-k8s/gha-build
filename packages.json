@@ -3425,7 +3425,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "illuminaHumanv1.db": [],
     "illuminaMousev2.db": [],
     "illuminaRatv1.db": [],
     "ILoReg": [
