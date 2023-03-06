@@ -85,7 +85,6 @@
     "alpineData": [
         "GenomicAlignments"
     ],
-    "alternativeSplicingEvents.hg19": [],
     "AMARETTO": [
         "curatedTCGAData"
     ],
