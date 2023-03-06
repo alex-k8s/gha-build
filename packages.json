@@ -2604,7 +2604,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "Hiiragi2013": [],
     "HiLDA": [
         "GenomicFeatures",
         "BSgenome.Hsapiens.UCSC.hg19",
