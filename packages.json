@@ -286,7 +286,6 @@
     ],
     "beer": [],
     "benchdamic": [
-        "zinbwave",
         "MAST",
         "ANCOMBC",
         "mia",
@@ -1248,9 +1247,7 @@
         "BSgenome"
     ],
     "cliqueMS": [],
-    "clusterExperiment": [
-        "zinbwave"
-    ],
+    "clusterExperiment": [],
     "clusterProfiler": [
         "enrichplot"
     ],
@@ -3590,7 +3587,6 @@
     "netSmooth": [
         "scater",
         "clusterExperiment",
-        "zinbwave",
         "scuttle"
     ],
     "netZooR": [
@@ -4990,9 +4986,7 @@
     "scater": [
         "scuttle"
     ],
-    "scBFA": [
-        "zinbwave"
-    ],
+    "scBFA": [],
     "scCB2": [
         "DropletUtils",
         "scuttle"
@@ -5231,7 +5225,6 @@
         "celda",
         "DropletUtils",
         "scds",
-        "zinbwave",
         "scRNAseq",
         "scDblFinder",
         "TSCAN",
@@ -6082,6 +6075,5 @@
     "zellkonverter": [],
     "zenith": [
         "EnrichmentBrowser"
-    ],
-    "zinbwave": []
+    ]
 }
