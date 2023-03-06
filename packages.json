@@ -6291,7 +6291,6 @@
         "GenomicAlignments"
     ],
     "scuttle": [],
-    "sechm": [],
     "segmenter": [
         "ChIPseeker",
         "enrichplot",
@@ -6346,7 +6345,6 @@
     ],
     "sesameData": [],
     "SEtools": [
-        "sechm",
         "DESeq2",
         "sva"
     ],
