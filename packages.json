@@ -289,7 +289,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "BEARscc": [],
     "BEAT": [
         "ShortRead",
         "BSgenome",
