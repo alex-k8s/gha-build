@@ -199,7 +199,6 @@
         "GOstats",
         "reactome.db"
     ],
-    "BaalChIP": [],
     "BadRegionFinder": [
         "VariantAnnotation",
         "rtracklayer",
