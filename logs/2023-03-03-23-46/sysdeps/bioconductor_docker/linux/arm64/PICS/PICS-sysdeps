@@ -1,0 +1,18 @@
+[
+    {
+        "shlib": "libgsl.so.27.0.0",
+        "package": "libgsl27",
+        "headers": "libgsl-dev",
+        "source": "gsl",
+        "version": "2.7.1+dfsg-3",
+        "url": "https://packages.ubuntu.com/jammy/libgsl27"
+    },
+    {
+        "shlib": "ld-linux-aarch64.so.1",
+        "package": "libc6",
+        "source": "glibc",
+        "version": "2.35-0ubuntu3.1",
+        "url": "https://packages.ubuntu.com/jammy/libc6"
+    }
+]
+

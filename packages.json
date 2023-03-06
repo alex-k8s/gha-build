@@ -3504,14 +3504,12 @@
     "phenomis": [],
     "phenoTest": [],
     "PhyloProfile": [],
-    "PICS": [],
     "Pigengene": [
         "clusterProfiler",
         "ReactomePA",
         "reactome.db"
     ],
     "PING": [
-        "PICS",
         "Gviz",
         "BSgenome",
         "rtracklayer",
