@@ -2531,7 +2531,6 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "interactiveDisplay": [],
     "InterCellar": [],
     "IntEREst": [
         "GenomicFeatures",
