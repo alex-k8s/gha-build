@@ -2738,7 +2738,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "BSgenome"
     ],
-    "LineagePulse": [],
     "lineagespot": [
         "VariantAnnotation",
         "rtracklayer",
