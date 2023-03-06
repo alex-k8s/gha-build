@@ -1264,7 +1264,6 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "consensusOV": [],
     "consensusSeekeR": [
         "rtracklayer"
     ],
@@ -4262,7 +4261,6 @@
         "GenomicFeatures"
     ],
     "signifinder": [
-        "consensusOV",
         "ensembldb",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
