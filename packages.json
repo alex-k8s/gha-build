@@ -1180,7 +1180,6 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "clusterExperiment": [],
     "clusterProfiler": [
         "enrichplot"
     ],
@@ -3361,8 +3360,7 @@
     ],
     "NetPathMiner": [],
     "netSmooth": [
-        "scater",
-        "clusterExperiment"
+        "scater"
     ],
     "netZooR": [
         "yarn",
