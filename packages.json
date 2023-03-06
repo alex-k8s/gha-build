@@ -4820,7 +4820,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "splineTimeR": [],
     "SPLINTER": [
         "GenomicFeatures",
         "Gviz",
