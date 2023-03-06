@@ -4154,7 +4154,6 @@
         "rtracklayer",
         "GenomicFeatures"
     ],
-    "rgu34b.db": [],
     "Rhisat2": [
         "GenomicFeatures",
         "SGSeq",
