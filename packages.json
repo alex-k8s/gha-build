@@ -8525,7 +8525,6 @@
         "GenomicAlignments"
     ],
     "yeast2.db": [],
-    "zebrafish.db": [],
     "zellkonverter": [
         "SingleCellExperiment"
     ],
