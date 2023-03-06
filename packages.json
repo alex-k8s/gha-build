@@ -2482,7 +2482,6 @@
     ],
     "GSRI": [],
     "GSVA": [],
-    "GSVAdata": [],
     "GUIDEseq": [
         "CRISPRseek",
         "ChIPpeakAnno",
@@ -5340,7 +5339,6 @@
         "batchelor",
         "ensembldb",
         "GSVA",
-        "GSVAdata",
         "MAST",
         "scater",
         "scMerge",
