@@ -1068,9 +1068,7 @@
         "plyranges",
         "rtracklayer"
     ],
-    "cghMCR": [
-        "CNTools"
-    ],
+    "cghMCR": [],
     "ChAMP": [
         "minfi",
         "DMRcate",
@@ -1252,7 +1250,6 @@
     "CNEr": [
         "rtracklayer"
     ],
-    "CNTools": [],
     "CNVfilteR": [
         "regioneR",
         "karyoploteR",
