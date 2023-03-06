@@ -4634,7 +4634,6 @@
     "QDNAseq.hg19": [],
     "QDNAseq.mm10": [],
     "QFeatures": [],
-    "qmtools": [],
     "qpgraph": [
         "GenomicFeatures",
         "rtracklayer"
