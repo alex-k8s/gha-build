@@ -5004,7 +5004,6 @@
         "scran",
         "scuttle"
     ],
-    "scds": [],
     "scGPS": [],
     "schex": [],
     "scMerge": [],
@@ -5222,7 +5221,6 @@
         "scran",
         "celda",
         "DropletUtils",
-        "scds",
         "scRNAseq",
         "scDblFinder",
         "TSCAN",
