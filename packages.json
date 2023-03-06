@@ -257,7 +257,6 @@
     ],
     "BASiCStan": [
         "BASiCS",
-        "glmGamPoi",
         "scran",
         "scuttle"
     ],
@@ -2425,7 +2424,6 @@
     ],
     "GISPA": [],
     "Glimma": [],
-    "glmGamPoi": [],
     "GlobalAncova": [],
     "gmapR": [
         "rtracklayer",
@@ -5759,9 +5757,7 @@
         "rtracklayer",
         "ShortRead"
     ],
-    "transformGamPoi": [
-        "glmGamPoi"
-    ],
+    "transformGamPoi": [],
     "tRanslatome": [],
     "TraRe": [],
     "traseR": [
