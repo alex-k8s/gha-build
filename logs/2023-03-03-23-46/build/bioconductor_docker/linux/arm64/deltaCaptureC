@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''deltaCaptureC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'deltaCaptureC'
+also installing the dependency ‘tictoc’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/tictoc_1.1.tar.gz'
+Content type 'binary/octet-stream' length 312783 bytes (305 KB)
+==================================================
+downloaded 305 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/deltaCaptureC_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 285740 bytes (279 KB)
+==================================================
+downloaded 279 KB
+
+* installing *source* package ‘tictoc’ ...
+** package ‘tictoc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tictoc’ as ‘tictoc_1.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (tictoc)
+* installing *source* package ‘deltaCaptureC’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘deltaCaptureC’ as ‘deltaCaptureC_1.12.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (deltaCaptureC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDhxQQB/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	7m13.824s
+user	7m5.024s
+sys	0m5.701s
