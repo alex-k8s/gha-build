@@ -5432,10 +5432,8 @@
     "scanMiRApp": [
         "ensembldb",
         "GenomicFeatures",
-        "rtracklayer",
-        "scanMiRData"
+        "rtracklayer"
     ],
-    "scanMiRData": [],
     "scAnnotatR": [],
     "SCANVIS": [
         "rtracklayer"
