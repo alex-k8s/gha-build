@@ -2249,7 +2249,6 @@
         "plyranges",
         "rtracklayer"
     ],
-    "FoldGO": [],
     "FRASER": [
         "BSgenome",
         "GenomicFeatures",
