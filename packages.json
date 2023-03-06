@@ -7235,7 +7235,6 @@
         "rtracklayer"
     ],
     "TFutils": [],
-    "tidybulk": [],
     "tidySingleCellExperiment": [
         "SingleCellExperiment"
     ],
