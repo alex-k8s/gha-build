@@ -3429,7 +3429,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "omicplotR": [],
     "omicRexposome": [],
     "OMICsPCA": [
         "HelloRanges",
