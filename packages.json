@@ -1879,7 +1879,6 @@
         "scuttle"
     ],
     "drosgenome1.db": [],
-    "drosophila2.db": [],
     "drugTargetInteractions": [
         "ensembldb",
         "GenomicFeatures",
