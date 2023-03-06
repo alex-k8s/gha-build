@@ -4370,7 +4370,6 @@
     "RSVSim": [
         "ShortRead"
     ],
-    "rta10probeset.db": [],
     "RTCGAToolbox": [
         "TCGAutils",
         "GenomicFeatures",
