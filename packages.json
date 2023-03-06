@@ -4722,7 +4722,6 @@
         "DESeq2",
         "geneplotter"
     ],
-    "mm24kresogen.db": [],
     "MMAPPR2": [
         "ensemblVEP",
         "gmapR",
