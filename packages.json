@@ -4679,7 +4679,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "signatureSearchData": [],
     "signeR": [
         "VariantAnnotation",
         "rtracklayer",
