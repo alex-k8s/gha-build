@@ -509,8 +509,7 @@
     "blima": [],
     "BLMA": [
         "PADOG",
-        "hgu133plus2.db",
-        "hgu133a.db"
+        "hgu133plus2.db"
     ],
     "BloodCancerMultiOmics2017": [
         "DESeq2"
@@ -1269,8 +1268,7 @@
     ],
     "canceR": [
         "phenoTest",
-        "Category",
-        "hgu133a.db"
+        "Category"
     ],
     "CancerInSilico": [],
     "canine.db": [],
@@ -2284,7 +2282,6 @@
     ],
     "DrugVsDisease": [
         "ArrayExpress",
-        "hgu133a.db",
         "hgu133plus2.db",
         "oligo"
     ],
@@ -2337,16 +2334,14 @@
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
-        "hgu133plus2.db",
-        "hgu133a.db"
+        "hgu133plus2.db"
     ],
     "EGSEA123": [
         "EGSEA",
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
-        "hgu133plus2.db",
-        "hgu133a.db"
+        "hgu133plus2.db"
     ],
     "eisaR": [],
     "ELMER": [
@@ -3221,7 +3216,6 @@
     "hermes": [
         "DESeq2"
     ],
-    "hgu133a.db": [],
     "hgu133plus2.db": [],
     "hgu95c.db": [],
     "hgubeta7.db": [],
@@ -3602,9 +3596,7 @@
         "GenomicAlignments",
         "GenomicFeatures"
     ],
-    "KEGGlincs": [
-        "hgu133a.db"
-    ],
+    "KEGGlincs": [],
     "keggorthology": [],
     "kissDE": [
         "DESeq2",
@@ -4710,9 +4702,7 @@
     "NeuCA": [
         "SingleCellExperiment"
     ],
-    "Neve2006": [
-        "hgu133a.db"
-    ],
+    "Neve2006": [],
     "NewWave": [
         "SingleCellExperiment"
     ],
@@ -4875,8 +4865,7 @@
     ],
     "padma": [],
     "PADOG": [
-        "hgu133plus2.db",
-        "hgu133a.db"
+        "hgu133plus2.db"
     ],
     "pageRank": [
         "motifmatchr",
@@ -5477,8 +5466,7 @@
     ],
     "phenopath": [],
     "phenoTest": [
-        "Category",
-        "hgu133a.db"
+        "Category"
     ],
     "PhIPData": [],
     "PhosR": [],
