@@ -3801,7 +3801,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "pogos": [],
     "PolyPhen.Hsapiens.dbSNP131": [
         "VariantAnnotation",
         "rtracklayer",
