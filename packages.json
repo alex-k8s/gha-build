@@ -4333,7 +4333,6 @@
     "scCB2": [],
     "scClassify": [],
     "sccomp": [],
-    "scDataviz": [],
     "scDblFinder": [
         "scran",
         "scater",
