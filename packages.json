@@ -2848,7 +2848,6 @@
     "meshes": [
         "enrichplot"
     ],
-    "meshr": [],
     "MetaboAnnotation": [],
     "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
@@ -4286,7 +4285,6 @@
     ],
     "scTensor": [
         "reactome.db",
-        "meshr",
         "ReactomePA",
         "enrichplot"
     ],
