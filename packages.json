@@ -1804,7 +1804,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "EnrichmentBrowser": [],
     "enrichplot": [],
     "enrichTF": [
         "pipeFrame",
@@ -2408,9 +2407,7 @@
     "groHMM": [
         "rtracklayer"
     ],
-    "GSEABenchmarkeR": [
-        "EnrichmentBrowser"
-    ],
+    "GSEABenchmarkeR": [],
     "gsean": [
         "PPInfer"
     ],
@@ -6022,7 +6019,5 @@
         "rtracklayer"
     ],
     "zellkonverter": [],
-    "zenith": [
-        "EnrichmentBrowser"
-    ]
+    "zenith": []
 }
