@@ -2028,7 +2028,6 @@
         "oligoClasses",
         "genefilter"
     ],
-    "csdR": [],
     "CSSQ": [
         "rtracklayer",
         "GenomicAlignments",
