@@ -4411,7 +4411,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "preciseTADhub": [],
     "primirTSS": [
         "rtracklayer",
         "BSgenome.Hsapiens.UCSC.hg38",
