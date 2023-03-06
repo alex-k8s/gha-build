@@ -1642,7 +1642,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "depmap": [],
     "derfinder": [
         "bumphunter",
         "GenomicFeatures",
@@ -3023,8 +3022,7 @@
     ],
     "MAGeCKFlute": [
         "clusterProfiler",
-        "enrichplot",
-        "depmap"
+        "enrichplot"
     ],
     "MAIT": [
         "CAMERA"
