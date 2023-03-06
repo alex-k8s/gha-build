@@ -6514,7 +6514,6 @@
         "VariantAnnotation",
         "BSgenome"
     ],
-    "regsplice": [],
     "regutools": [
         "Gviz",
         "rtracklayer",
