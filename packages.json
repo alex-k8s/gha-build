@@ -5281,9 +5281,7 @@
         "SpatialExperiment",
         "DropletUtils"
     ],
-    "velociraptor": [
-        "zellkonverter"
-    ],
+    "velociraptor": [],
     "vidger": [],
     "ViSEAGO": [],
     "vissE": [],
@@ -5371,6 +5369,5 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "zellkonverter": [],
     "zenith": []
 }
