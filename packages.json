@@ -232,7 +232,6 @@
         "BASiCS",
         "scran"
     ],
-    "batchelor": [],
     "BatchQC": [],
     "BayesSpace": [
         "scater",
@@ -1129,7 +1128,6 @@
     ],
     "ChromSCape": [
         "rtracklayer",
-        "batchelor",
         "scran",
         "scater"
     ],
@@ -3272,8 +3270,7 @@
         "reactome.db"
     ],
     "mumosa": [
-        "scran",
-        "batchelor"
+        "scran"
     ],
     "MungeSumstats": [
         "BSgenome",
@@ -4523,7 +4520,6 @@
         "scran"
     ],
     "singleCellTK": [
-        "batchelor",
         "ensembldb",
         "scater",
         "scran",
