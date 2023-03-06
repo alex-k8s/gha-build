@@ -341,8 +341,7 @@
     ],
     "BitSeq": [],
     "blacksheepr": [
-        "pasilla",
-        "DEXSeq"
+        "pasilla"
     ],
     "BLMA": [
         "PADOG"
@@ -1561,7 +1560,6 @@
     "DEsubs": [],
     "DEWSeq": [],
     "DExMA": [],
-    "DEXSeq": [],
     "DiffBind": [
         "systemPipeR",
         "GreyListChIP",
@@ -1574,7 +1572,6 @@
         "rtracklayer"
     ],
     "diffUTR": [
-        "DEXSeq",
         "rtracklayer",
         "ensembldb",
         "GenomicFeatures"
@@ -2554,7 +2551,6 @@
     "InterCellar": [],
     "IntEREst": [
         "GenomicFeatures",
-        "DEXSeq",
         "rtracklayer"
     ],
     "IONiseR": [
@@ -2577,7 +2573,6 @@
         "iSEEhex"
     ],
     "IsoformSwitchAnalyzeR": [
-        "DEXSeq",
         "BSgenome",
         "rtracklayer",
         "tximeta",
@@ -3520,9 +3515,7 @@
         "enrichplot"
     ],
     "pareg": [],
-    "pasilla": [
-        "DEXSeq"
-    ],
+    "pasilla": [],
     "PAST": [
         "rtracklayer"
     ],
@@ -4268,9 +4261,7 @@
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "rtracklayer"
     ],
-    "rnaseqDTU": [
-        "DEXSeq"
-    ],
+    "rnaseqDTU": [],
     "rnaseqGene": [
         "tximeta",
         "ReportingTools",
