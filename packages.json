@@ -1322,8 +1322,7 @@
         "biovizBase"
     ],
     "CAMERA": [
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "canceR": [
         "phenoTest",
@@ -1685,8 +1684,7 @@
         "GenomicAlignments"
     ],
     "cliqueMS": [
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "CLLmethylation": [],
     "clusterExperiment": [
@@ -1925,8 +1923,7 @@
     ],
     "cosmiq": [
         "xcms",
-        "faahKO",
-        "MsFeatures"
+        "faahKO"
     ],
     "cosmosR": [],
     "countsimQC": [
@@ -2837,8 +2834,7 @@
         "VariantAnnotation"
     ],
     "faahKO": [
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "factR": [
         "GenomicFeatures",
@@ -2960,8 +2956,7 @@
     ],
     "flagme": [
         "xcms",
-        "CAMERA",
-        "MsFeatures"
+        "CAMERA"
     ],
     "FLAMES": [
         "bambu",
@@ -3781,8 +3776,7 @@
     "ipdDb": [],
     "IPO": [
         "xcms",
-        "CAMERA",
-        "MsFeatures"
+        "CAMERA"
     ],
     "IRISFGM": [
         "SingleCellExperiment",
@@ -3934,8 +3928,7 @@
     ],
     "LOBSTAHS": [
         "xcms",
-        "CAMERA",
-        "MsFeatures"
+        "CAMERA"
     ],
     "LoomExperiment": [
         "SingleCellExperiment"
@@ -4157,8 +4150,7 @@
     "MAI": [],
     "MAIT": [
         "CAMERA",
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "mAPKL": [
         "reactome.db"
@@ -4298,8 +4290,7 @@
         "genefilter"
     ],
     "Metab": [
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "MetaboAnnotation": [
         "QFeatures",
@@ -4334,8 +4325,7 @@
     "MetaGxPancreas": [],
     "metaMS": [
         "CAMERA",
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "MetaNeighbor": [
         "SingleCellExperiment"
@@ -4738,8 +4728,7 @@
         "topGO"
     ],
     "MobilityTransformR": [
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "MODA": [],
     "moex10stprobeset.db": [],
@@ -4825,7 +4814,6 @@
     "MsExperiment": [
         "QFeatures"
     ],
-    "MsFeatures": [],
     "msgbsR": [
         "BSgenome",
         "easyRNASeq",
@@ -5007,8 +4995,7 @@
     ],
     "NBSplice": [],
     "ncGTW": [
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "nearBynding": [
         "plyranges",
@@ -6088,8 +6075,7 @@
     "plasFIA": [
         "proFIA",
         "xcms",
-        "ropls",
-        "MsFeatures"
+        "ropls"
     ],
     "PloGO2": [
         "GOstats",
@@ -6185,8 +6171,7 @@
     ],
     "proFIA": [
         "xcms",
-        "ropls",
-        "MsFeatures"
+        "ropls"
     ],
     "profileplyr": [
         "soGGi",
@@ -6267,8 +6252,7 @@
     "PtH2O2lipids": [
         "xcms",
         "CAMERA",
-        "LOBSTAHS",
-        "MsFeatures"
+        "LOBSTAHS"
     ],
     "puma": [
         "oligo",
@@ -6714,8 +6698,7 @@
         "ensembldb"
     ],
     "Risa": [
-        "xcms",
-        "MsFeatures"
+        "xcms"
     ],
     "RITAN": [
         "BgeeDB",
@@ -8529,9 +8512,7 @@
         "GenomicAlignments"
     ],
     "wpm": [],
-    "xcms": [
-        "MsFeatures"
-    ],
+    "xcms": [],
     "xcore": [],
     "xcoredata": [],
     "XDE": [
