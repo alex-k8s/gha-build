@@ -2932,9 +2932,7 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "Fletcher2013b": [
-        "RTN"
-    ],
+    "Fletcher2013b": [],
     "flowCL": [],
     "flowClust": [],
     "flowMerge": [
@@ -6679,12 +6677,8 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "RTN": [],
-    "RTNduals": [
-        "RTN"
-    ],
+    "RTNduals": [],
     "RTNsurvival": [
-        "RTN",
         "RTNduals"
     ],
     "rtracklayer": [
