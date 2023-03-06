@@ -2634,7 +2634,6 @@
     "GNET2": [],
     "GOexpress": [],
     "GOpro": [],
-    "goProfiles": [],
     "goseq": [
         "geneLenDataBase",
         "rtracklayer",
@@ -2642,7 +2641,6 @@
     ],
     "GOSim": [],
     "goSorensen": [
-        "goProfiles",
         "clusterProfiler",
         "DOSE",
         "enrichplot"
