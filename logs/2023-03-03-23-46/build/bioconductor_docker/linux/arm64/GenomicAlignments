@@ -39,11 +39,11 @@ packaged installation of ‘GenomicAlignments’ as ‘GenomicAlignments_1.34.0_
 * DONE (GenomicAlignments)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp02yktP/downloaded_packages’
+	‘/tmp/RtmpCvtci3/downloaded_packages’
 Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
   'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
   'survival'
 
-real	4m27.870s
-user	4m23.541s
-sys	0m2.662s
+real	4m49.667s
+user	4m45.114s
+sys	0m3.354s
