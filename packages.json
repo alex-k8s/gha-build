@@ -1289,8 +1289,7 @@
         "xcms"
     ],
     "clusterExperiment": [
-        "zinbwave",
-        "mbkmeans"
+        "zinbwave"
     ],
     "clusterProfiler": [
         "enrichplot"
@@ -3117,7 +3116,6 @@
     "MBECS": [
         "sva"
     ],
-    "mbkmeans": [],
     "mCSEA": [
         "Homo.sapiens",
         "GenomicFeatures",
@@ -3730,7 +3728,6 @@
         "scater",
         "clusterExperiment",
         "zinbwave",
-        "mbkmeans",
         "scuttle"
     ],
     "netZooR": [
