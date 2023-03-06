@@ -2074,8 +2074,7 @@
         "CNEr"
     ],
     "escape": [
-        "GSVA",
-        "UCell"
+        "GSVA"
     ],
     "EuPathDB": [
         "AnnotationHubData",
@@ -6074,7 +6073,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "UCell": [],
     "Ularcirc": [
         "BSgenome",
         "GenomicFeatures",
