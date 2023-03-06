@@ -930,9 +930,7 @@
         "biovizBase"
     ],
     "CAMERA": [],
-    "canceR": [
-        "phenoTest"
-    ],
+    "canceR": [],
     "CancerInSilico": [],
     "cardelino": [
         "VariantAnnotation",
@@ -3489,7 +3487,6 @@
         "rtracklayer"
     ],
     "phenomis": [],
-    "phenoTest": [],
     "Pigengene": [
         "clusterProfiler",
         "ReactomePA",
