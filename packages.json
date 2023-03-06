@@ -7625,7 +7625,6 @@
     "SPOTlight": [
         "SingleCellExperiment"
     ],
-    "spqn": [],
     "spqnData": [],
     "SPsimSeq": [
         "SingleCellExperiment"
