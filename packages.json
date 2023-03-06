@@ -4809,7 +4809,6 @@
         "GenomicAlignments"
     ],
     "mouse4302.db": [],
-    "mouse430a2.db": [],
     "MouseFM": [],
     "MouseGastrulationData": [
         "SingleCellExperiment",
