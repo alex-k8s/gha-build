@@ -3138,7 +3138,6 @@
         "GenomicAlignments",
         "rtracklayer"
     ],
-    "gscreend": [],
     "GSEABenchmarkeR": [
         "EnrichmentBrowser"
     ],
