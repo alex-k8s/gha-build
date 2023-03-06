@@ -1940,7 +1940,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "emtdata": [],
     "enhancerHomologSearch": [
         "BSgenome",
         "motifmatchr",
