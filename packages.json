@@ -3189,7 +3189,6 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "MethylSeqData": [],
     "methylSig": [
         "bsseq",
         "DSS",
