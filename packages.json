@@ -5341,7 +5341,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "sparrow": [],
     "SparseSignatures": [
         "BSgenome",
         "rtracklayer"
