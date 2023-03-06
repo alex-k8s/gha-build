@@ -3312,7 +3312,6 @@
         "DESeq2"
     ],
     "hugene10stprobeset.db": [],
-    "hugene10sttranscriptcluster.db": [],
     "HumanAffyData": [],
     "humanStemCell": [
         "hgu133plus2.db"
