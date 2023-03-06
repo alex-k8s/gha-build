@@ -6385,7 +6385,6 @@
     "SigCheck": [
         "MLInterfaces"
     ],
-    "sigFeature": [],
     "signatureSearch": [
         "reactome.db",
         "clusterProfiler",
