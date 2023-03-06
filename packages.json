@@ -229,8 +229,7 @@
         "rtracklayer"
     ],
     "bandle": [
-        "pRoloc",
-        "MLInterfaces"
+        "pRoloc"
     ],
     "basecallQC": [
         "ShortRead"
@@ -3282,7 +3281,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "MLInterfaces": [],
     "MLSeq": [],
     "MMAPPR2": [
         "ensemblVEP",
@@ -3948,12 +3946,9 @@
         "ShortRead"
     ],
     "projectR": [],
-    "pRoloc": [
-        "MLInterfaces"
-    ],
+    "pRoloc": [],
     "pRolocGUI": [
-        "pRoloc",
-        "MLInterfaces"
+        "pRoloc"
     ],
     "PROPS": [],
     "proteasy": [
@@ -4678,9 +4673,7 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "SigCheck": [
-        "MLInterfaces"
-    ],
+    "SigCheck": [],
     "signatureSearch": [
         "reactome.db",
         "clusterProfiler",
