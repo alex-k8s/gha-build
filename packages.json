@@ -60,7 +60,6 @@
         "scater",
         "scuttle"
     ],
-    "ALDEx2": [],
     "AllelicImbalance": [
         "BSgenome",
         "VariantAnnotation",
@@ -319,7 +318,6 @@
         "TreeSummarizedExperiment",
         "zinbwave",
         "DESeq2",
-        "ALDEx2",
         "MAST",
         "ANCOMBC",
         "mia",
@@ -3568,7 +3566,6 @@
     "microbiomeMarker": [
         "DESeq2",
         "ANCOMBC",
-        "ALDEx2",
         "mia",
         "TreeSummarizedExperiment",
         "scuttle",
@@ -4019,9 +4016,7 @@
     ],
     "OmaDB": [],
     "omicade4": [],
-    "omicplotR": [
-        "ALDEx2"
-    ],
+    "omicplotR": [],
     "omicRexposome": [
         "sva",
         "omicade4"
