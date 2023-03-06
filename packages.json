@@ -29,7 +29,6 @@
         "ensembldb"
     ],
     "AGDEX": [],
-    "aggregateBioVar": [],
     "AgiMicroRna": [
         "affycoretools",
         "GOstats",
