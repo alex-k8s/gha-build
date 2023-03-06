@@ -498,8 +498,7 @@
         "VariantAnnotation"
     ],
     "BioNAR": [
-        "synaptome.db",
-        "synaptome.data"
+        "synaptome.db"
     ],
     "BioNERO": [
         "sva",
@@ -7742,10 +7741,7 @@
         "SingleCellExperiment"
     ],
     "synapterdata": [],
-    "synaptome.data": [],
-    "synaptome.db": [
-        "synaptome.data"
-    ],
+    "synaptome.db": [],
     "syntenet": [
         "rtracklayer",
         "GenomicAlignments"
