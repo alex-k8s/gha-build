@@ -3393,7 +3393,6 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "msigdb": [],
     "msImpute": [
         "scran",
         "scuttle"
@@ -5884,9 +5883,7 @@
     ],
     "vidger": [],
     "ViSEAGO": [],
-    "vissE": [
-        "msigdb"
-    ],
+    "vissE": [],
     "Voyager": [
         "SpatialExperiment",
         "SpatialFeatureExperiment",
