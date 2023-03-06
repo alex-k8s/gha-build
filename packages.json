@@ -4005,7 +4005,6 @@
         "rtracklayer",
         "GenomicFeatures"
     ],
-    "NormalyzerDE": [],
     "normr": [
         "rtracklayer"
     ],
