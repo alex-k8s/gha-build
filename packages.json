@@ -4652,7 +4652,6 @@
     "tricycle": [
         "scater"
     ],
-    "trigger": [],
     "tRNAscanImport": [
         "rtracklayer",
         "BSgenome"
