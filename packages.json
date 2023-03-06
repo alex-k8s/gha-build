@@ -1637,7 +1637,6 @@
         "sva",
         "enrichplot"
     ],
-    "deco": [],
     "DEComplexDisease": [],
     "decompTumor2Sig": [
         "GenomicFeatures",
