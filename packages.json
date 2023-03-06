@@ -1912,7 +1912,6 @@
     "ExperimentSubset": [
         "SpatialExperiment"
     ],
-    "ExpressionNormalizationWorkflow": [],
     "extraChIPs": [
         "GenomicInteractions",
         "Gviz",
