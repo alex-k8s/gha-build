@@ -143,7 +143,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "ASSIGN": [],
     "ATACCoGAPS": [
         "TFBSTools",
         "motifmatchr",
@@ -4524,9 +4523,7 @@
         "rtracklayer"
     ],
     "TarSeqQC": [],
-    "TBSignatureProfiler": [
-        "ASSIGN"
-    ],
+    "TBSignatureProfiler": [],
     "TCC": [],
     "TCGAbiolinksGUI": [
         "ELMER",
