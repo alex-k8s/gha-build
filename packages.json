@@ -2002,8 +2002,7 @@
         "rtracklayer"
     ],
     "FEAST": [
-        "TSCAN",
-        "SC3"
+        "TSCAN"
     ],
     "ffpe": [
         "lumi",
@@ -4355,7 +4354,6 @@
         "rtracklayer"
     ],
     "sampleClassifier": [],
-    "SC3": [],
     "SCAN.UPC": [],
     "scanMiRApp": [
         "ensembldb",
