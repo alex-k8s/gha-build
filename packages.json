@@ -2232,7 +2232,6 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "GeneAccord": [],
     "geneAttribution": [
         "GenomicFeatures",
         "rtracklayer"
