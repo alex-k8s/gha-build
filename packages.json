@@ -1064,7 +1064,6 @@
     "CellBarcode": [
         "ShortRead"
     ],
-    "CellBench": [],
     "cellHTS2": [],
     "CelliD": [
         "scater",
