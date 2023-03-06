@@ -5004,7 +5004,6 @@
         "scuttle"
     ],
     "scGPS": [],
-    "schex": [],
     "scMerge": [],
     "scMET": [],
     "scmeth": [
@@ -5064,12 +5063,9 @@
         "meshr",
         "GOstats",
         "ReactomePA",
-        "schex",
         "enrichplot"
     ],
-    "scTGIF": [
-        "schex"
-    ],
+    "scTGIF": [],
     "scTreeViz": [
         "epivizr",
         "scran",
