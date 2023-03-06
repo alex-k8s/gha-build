@@ -6796,7 +6796,6 @@
         "GenomicAlignments",
         "VariantAnnotation"
     ],
-    "RNAsense": [],
     "RNAseq123": [
         "Glimma",
         "Mus.musculus",
