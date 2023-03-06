@@ -4724,7 +4724,6 @@
         "SpatialExperiment",
         "DropletUtils"
     ],
-    "SpidermiR": [],
     "spiky": [
         "BSgenome",
         "rtracklayer"
@@ -4786,9 +4785,7 @@
     "staRank": [
         "cellHTS2"
     ],
-    "StarBioTrek": [
-        "SpidermiR"
-    ],
+    "StarBioTrek": [],
     "STexampleData": [
         "SpatialExperiment",
         "DropletUtils"
