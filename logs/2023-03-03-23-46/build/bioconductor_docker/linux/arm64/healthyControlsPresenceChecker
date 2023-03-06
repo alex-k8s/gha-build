@@ -1,0 +1,83 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''healthyControlsPresenceChecker'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'healthyControlsPresenceChecker'
+also installing the dependencies ‘markdown’, ‘geneExpressionFromGEO’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/markdown_1.5.tar.gz'
+Content type 'binary/octet-stream' length 41775 bytes (40 KB)
+==================================================
+downloaded 40 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/geneExpressionFromGEO_0.9.tar.gz'
+Content type 'binary/octet-stream' length 8197 bytes
+==================================================
+downloaded 8197 bytes
+
+trying URL 'https://bioconductor.org/packages/3.16/data/experiment/src/contrib/healthyControlsPresenceChecker_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 224926 bytes (219 KB)
+==================================================
+downloaded 219 KB
+
+* installing *source* package ‘markdown’ ...
+** package ‘markdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *source* package ‘geneExpressionFromGEO’ ...
+** package ‘geneExpressionFromGEO’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘geneExpressionFromGEO’ as ‘geneExpressionFromGEO_0.9_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (geneExpressionFromGEO)
+* installing *source* package ‘healthyControlsPresenceChecker’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘healthyControlsPresenceChecker’ as ‘healthyControlsPresenceChecker_1.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (healthyControlsPresenceChecker)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7dRXPH/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	1m49.045s
+user	1m44.670s
+sys	0m3.114s
