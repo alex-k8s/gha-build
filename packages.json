@@ -1165,7 +1165,6 @@
     "chipseq": [
         "ShortRead"
     ],
-    "chipseqDBData": [],
     "ChIPseqR": [
         "ShortRead"
     ],
