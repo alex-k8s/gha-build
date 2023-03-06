@@ -1352,8 +1352,7 @@
         "rtracklayer"
     ],
     "consensusOV": [
-        "GSVA",
-        "genefu"
+        "GSVA"
     ],
     "consensusSeekeR": [
         "rtracklayer"
@@ -2245,7 +2244,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "genefu": [],
     "geneLenDataBase": [
         "rtracklayer",
         "GenomicFeatures"
@@ -4217,8 +4215,7 @@
         "oligo"
     ],
     "PDATK": [
-        "CoreGx",
-        "genefu"
+        "CoreGx"
     ],
     "pdInfoBuilder": [
         "oligo"
@@ -5136,7 +5133,6 @@
         "ensembldb",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "genefu",
         "GenomicFeatures",
         "rtracklayer"
     ],
