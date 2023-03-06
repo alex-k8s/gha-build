@@ -172,7 +172,6 @@
         "geneplotter",
         "BSgenome"
     ],
-    "apComplex": [],
     "apeglm": [],
     "APL": [
         "SingleCellExperiment"
