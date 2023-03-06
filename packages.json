@@ -1015,9 +1015,7 @@
         "BSgenome",
         "biovizBase"
     ],
-    "CAMERA": [
-        "xcms"
-    ],
+    "CAMERA": [],
     "canceR": [
         "phenoTest"
     ],
@@ -1279,9 +1277,7 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "cliqueMS": [
-        "xcms"
-    ],
+    "cliqueMS": [],
     "clusterExperiment": [
         "zinbwave"
     ],
@@ -1457,7 +1453,6 @@
         "GenomicFeatures"
     ],
     "cosmiq": [
-        "xcms",
         "faahKO"
     ],
     "cosmosR": [],
@@ -2120,9 +2115,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "faahKO": [
-        "xcms"
-    ],
+    "faahKO": [],
     "factR": [
         "GenomicFeatures",
         "rtracklayer",
@@ -2214,7 +2207,6 @@
         "rtracklayer"
     ],
     "flagme": [
-        "xcms",
         "CAMERA"
     ],
     "FLAMES": [
@@ -2783,7 +2775,6 @@
     ],
     "ipdDb": [],
     "IPO": [
-        "xcms",
         "CAMERA"
     ],
     "IRISFGM": [
@@ -2898,7 +2889,6 @@
         "VariantAnnotation"
     ],
     "LOBSTAHS": [
-        "xcms",
         "CAMERA"
     ],
     "LoomExperiment": [],
@@ -3058,8 +3048,7 @@
         "depmap"
     ],
     "MAIT": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "mAPKL": [
         "reactome.db"
@@ -3164,9 +3153,7 @@
         "enrichplot"
     ],
     "meshr": [],
-    "Metab": [
-        "xcms"
-    ],
+    "Metab": [],
     "MetaboAnnotation": [
         "QFeatures"
     ],
@@ -3191,8 +3178,7 @@
     "MetaGxOvarian": [],
     "MetaGxPancreas": [],
     "metaMS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "MetaNeighbor": [],
     "MetaPhOR": [
@@ -3486,9 +3472,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "MobilityTransformR": [
-        "xcms"
-    ],
+    "MobilityTransformR": [],
     "MOMA": [],
     "monaLisa": [
         "TFBSTools",
@@ -3681,9 +3665,7 @@
     "NanoporeRNASeq": [],
     "NBAMSeq": [],
     "NBSplice": [],
-    "ncGTW": [
-        "xcms"
-    ],
+    "ncGTW": [],
     "nearBynding": [
         "plyranges",
         "rtracklayer",
@@ -4445,7 +4427,6 @@
     ],
     "plasFIA": [
         "proFIA",
-        "xcms",
         "ropls"
     ],
     "PloGO2": [
@@ -4513,7 +4494,6 @@
         "sva"
     ],
     "proFIA": [
-        "xcms",
         "ropls"
     ],
     "profileplyr": [
@@ -4579,7 +4559,6 @@
         "BgeeDB"
     ],
     "PtH2O2lipids": [
-        "xcms",
         "CAMERA",
         "LOBSTAHS"
     ],
@@ -4919,9 +4898,7 @@
         "BSgenome",
         "ensembldb"
     ],
-    "Risa": [
-        "xcms"
-    ],
+    "Risa": [],
     "RITAN": [
         "BgeeDB",
         "GenomicFeatures",
@@ -6240,7 +6217,6 @@
     "wiggleplotr": [
         "rtracklayer"
     ],
-    "xcms": [],
     "xcore": [],
     "xcoredata": [],
     "XDE": [],
