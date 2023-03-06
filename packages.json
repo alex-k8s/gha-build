@@ -3123,7 +3123,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "lumiMouseAll.db": [],
     "lumiMouseIDMapping": [
         "lumi",
         "methylumi",
