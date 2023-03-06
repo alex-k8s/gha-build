@@ -2474,7 +2474,6 @@
         "DOSE",
         "enrichplot"
     ],
-    "gemma.R": [],
     "genbankr": [
         "GenomicFeatures",
         "VariantAnnotation",
