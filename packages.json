@@ -1346,7 +1346,6 @@
     ],
     "condiments": [
         "slingshot",
-        "TrajectoryUtils",
         "distinct",
         "scater",
         "scuttle"
@@ -2108,8 +2107,7 @@
     ],
     "FEAST": [
         "TSCAN",
-        "SC3",
-        "TrajectoryUtils"
+        "SC3"
     ],
     "ffpe": [
         "lumi",
@@ -5219,7 +5217,6 @@
         "scRNAseq",
         "scDblFinder",
         "TSCAN",
-        "TrajectoryUtils",
         "scuttle",
         "GenomicFeatures",
         "rtracklayer"
@@ -5260,9 +5257,7 @@
         "rtracklayer"
     ],
     "slalom": [],
-    "slingshot": [
-        "TrajectoryUtils"
-    ],
+    "slingshot": [],
     "SMITE": [
         "reactome.db",
         "goseq",
@@ -5607,10 +5602,8 @@
         "VariantAnnotation"
     ],
     "tradeSeq": [
-        "slingshot",
-        "TrajectoryUtils"
+        "slingshot"
     ],
-    "TrajectoryUtils": [],
     "transcriptR": [
         "chipseq",
         "GenomicFeatures",
@@ -5627,8 +5620,7 @@
     ],
     "Travel": [],
     "traviz": [
-        "slingshot",
-        "TrajectoryUtils"
+        "slingshot"
     ],
     "treekoR": [],
     "trena": [
@@ -5653,9 +5645,7 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "TSCAN": [
-        "TrajectoryUtils"
-    ],
+    "TSCAN": [],
     "tscR": [],
     "ttgsea": [],
     "TVTB": [
