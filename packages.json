@@ -3220,7 +3220,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "midasHLA": [],
     "MIGSA": [
         "GOstats"
     ],
