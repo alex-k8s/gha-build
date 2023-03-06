@@ -1351,9 +1351,7 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "consensusOV": [
-        "GSVA"
-    ],
+    "consensusOV": [],
     "consensusSeekeR": [
         "rtracklayer"
     ],
@@ -1770,13 +1768,11 @@
         "enrichplot"
     ],
     "EGSEA": [
-        "PADOG",
-        "GSVA"
+        "PADOG"
     ],
     "EGSEA123": [
         "EGSEA",
-        "PADOG",
-        "GSVA"
+        "PADOG"
     ],
     "ELMER": [
         "GenomicFeatures",
@@ -1983,9 +1979,7 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "CNEr"
     ],
-    "escape": [
-        "GSVA"
-    ],
+    "escape": [],
     "EuPathDB": [
         "AnnotationHubData",
         "GenomicFeatures",
@@ -2411,7 +2405,6 @@
         "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "GSVA": [],
     "GUIDEseq": [
         "CRISPRseek",
         "ChIPpeakAnno",
@@ -3598,7 +3591,6 @@
         "RUVSeq",
         "octad.db",
         "EDASeq",
-        "GSVA",
         "ShortRead",
         "GenomicFeatures",
         "rtracklayer"
@@ -3646,9 +3638,7 @@
     "openCyto": [
         "flowClust"
     ],
-    "oppar": [
-        "GSVA"
-    ],
+    "oppar": [],
     "ORFhunteR": [
         "rtracklayer",
         "BSgenome.Hsapiens.UCSC.hg38",
@@ -5124,7 +5114,6 @@
         "GenomicFeatures"
     ],
     "signifinder": [
-        "GSVA",
         "consensusOV",
         "ensembldb",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -5162,7 +5151,6 @@
     "singleCellTK": [
         "batchelor",
         "ensembldb",
-        "GSVA",
         "MAST",
         "scater",
         "scMerge",
@@ -5190,9 +5178,7 @@
         "rtracklayer",
         "singscore"
     ],
-    "SISPA": [
-        "GSVA"
-    ],
+    "SISPA": [],
     "sitadela": [
         "GenomicFeatures",
         "rtracklayer"
@@ -5463,7 +5449,6 @@
     "tartare": [],
     "TBSignatureProfiler": [
         "ASSIGN",
-        "GSVA",
         "singscore"
     ],
     "TCC": [],
@@ -5538,9 +5523,7 @@
         "GenomicFeatures"
     ],
     "TMExplorer": [],
-    "TNBC.CMS": [
-        "GSVA"
-    ],
+    "TNBC.CMS": [],
     "ToxicoGx": [
         "CoreGx"
     ],
