@@ -214,7 +214,6 @@
         "GOstats",
         "reactome.db"
     ],
-    "AUCell": [],
     "autonomics": [],
     "BaalChIP": [],
     "BadRegionFinder": [
@@ -4530,9 +4529,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "RcisTarget": [
-        "AUCell"
-    ],
+    "RcisTarget": [],
     "reactome.db": [],
     "ReactomePA": [
         "enrichplot",
