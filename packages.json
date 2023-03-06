@@ -1802,7 +1802,6 @@
         "rtracklayer",
         "ShortRead"
     ],
-    "diffcoexp": [],
     "DifferentialRegulation": [],
     "diffHic": [
         "BSgenome",
