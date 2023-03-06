@@ -1,0 +1,17 @@
+[
+    {
+        "shlib": "libmpi.so.40.30.2",
+        "package": "libopenmpi3",
+        "source": "openmpi",
+        "version": "4.1.2-2ubuntu1",
+        "url": "https://packages.ubuntu.com/jammy/libopenmpi3"
+    },
+    {
+        "shlib": "ld-linux-aarch64.so.1",
+        "package": "libc6",
+        "source": "glibc",
+        "version": "2.35-0ubuntu3.1",
+        "url": "https://packages.ubuntu.com/jammy/libc6"
+    }
+]
+
