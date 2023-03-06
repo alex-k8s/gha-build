@@ -3202,7 +3202,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "genomicInstability": [],
     "GenomicInteractionNodes": [
         "GenomicFeatures",
         "rtracklayer",
