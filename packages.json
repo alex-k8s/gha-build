@@ -78,7 +78,6 @@
     ],
     "AneuFinder": [],
     "animalcules": [],
-    "annmap": [],
     "annotation": [
         "VariantAnnotation",
         "Organism.dplyr",
