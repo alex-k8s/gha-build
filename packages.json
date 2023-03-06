@@ -3925,7 +3925,6 @@
         "BSgenome"
     ],
     "pwrEWAS": [],
-    "QDNAseq.hg19": [],
     "qpgraph": [
         "GenomicFeatures",
         "rtracklayer"
