@@ -5469,7 +5469,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "VDJdive": [],
     "VectraPolarisData": [
         "SpatialExperiment",
         "DropletUtils",
