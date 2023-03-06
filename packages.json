@@ -280,7 +280,6 @@
     ],
     "beer": [],
     "benchdamic": [
-        "MAST",
         "ANCOMBC",
         "mia",
         "scuttle",
@@ -1025,9 +1024,7 @@
     "ccTutorial": [
         "Ringo"
     ],
-    "celaref": [
-        "MAST"
-    ],
+    "celaref": [],
     "celda": [
         "scater",
         "scran",
@@ -2950,7 +2947,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "MAST": [],
     "MatrixRider": [
         "TFBSTools",
         "BSgenome",
@@ -4273,9 +4269,7 @@
     ],
     "POMA": [],
     "PoTRA": [],
-    "POWSC": [
-        "MAST"
-    ],
+    "POWSC": [],
     "PPInfer": [],
     "pram": [
         "rtracklayer"
@@ -5132,7 +5126,6 @@
     "singleCellTK": [
         "batchelor",
         "ensembldb",
-        "MAST",
         "scater",
         "scMerge",
         "scran",
