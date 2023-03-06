@@ -2971,7 +2971,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "lumiRatAll.db": [],
     "lumiRatIDMapping": [
         "lumi",
         "methylumi",
