@@ -7522,7 +7522,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "SpatialDecon": [],
     "spatialDmelxsim": [],
     "SpatialExperiment": [
         "SingleCellExperiment",
