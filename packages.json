@@ -3245,7 +3245,6 @@
         "enrichplot",
         "depmap"
     ],
-    "MAI": [],
     "MAIT": [
         "CAMERA",
         "xcms"
