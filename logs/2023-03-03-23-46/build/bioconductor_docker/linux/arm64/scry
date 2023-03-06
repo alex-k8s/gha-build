@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''scry'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'scry'
+also installing the dependencies ‘glmpca’, ‘SingleCellExperiment’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/glmpca_0.2.0.tar.gz'
+Content type 'binary/octet-stream' length 167372 bytes (163 KB)
+==================================================
+downloaded 163 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/SingleCellExperiment_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 938966 bytes (916 KB)
+==================================================
+downloaded 916 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/scry_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 4707192 bytes (4.5 MB)
+==================================================
+downloaded 4.5 MB
+
+* installing *source* package ‘glmpca’ ...
+** package ‘glmpca’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘glmpca’ as ‘glmpca_0.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (glmpca)
+* installing *source* package ‘SingleCellExperiment’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SingleCellExperiment’ as ‘SingleCellExperiment_1.20.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (SingleCellExperiment)
+* installing *source* package ‘scry’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scry’ as ‘scry_1.10.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (scry)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpop5a4p/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	6m15.320s
+user	6m7.237s
+sys	0m5.440s
