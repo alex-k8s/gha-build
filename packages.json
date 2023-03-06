@@ -3768,10 +3768,7 @@
         "CAMERA",
         "LOBSTAHS"
     ],
-    "puma": [],
-    "pumadata": [
-        "puma"
-    ],
+    "pumadata": [],
     "PureCN": [
         "VariantAnnotation",
         "GenomicFeatures",
