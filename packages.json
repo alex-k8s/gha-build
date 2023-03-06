@@ -1437,7 +1437,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "CompoundDb": [],
     "conclus": [
         "scran",
         "scater",
@@ -3371,8 +3370,7 @@
         "xcms"
     ],
     "MetaboAnnotation": [
-        "QFeatures",
-        "CompoundDb"
+        "QFeatures"
     ],
     "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
