@@ -2509,7 +2509,6 @@
         "BSgenome"
     ],
     "HTSFilter": [],
-    "HumanAffyData": [],
     "humanStemCell": [],
     "icetea": [
         "GenomicFeatures",
