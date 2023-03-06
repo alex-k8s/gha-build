@@ -314,7 +314,6 @@
         "pRoloc",
         "MLInterfaces"
     ],
-    "barcodetrackR": [],
     "basecallQC": [
         "ShortRead",
         "GenomicAlignments"
