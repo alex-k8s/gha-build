@@ -2694,7 +2694,6 @@
         "DropletUtils"
     ],
     "indac.db": [],
-    "infercnv": [],
     "InPAS": [
         "BSgenome",
         "cleanUpdTSeq",
