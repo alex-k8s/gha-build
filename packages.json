@@ -3691,7 +3691,6 @@
         "bumphunter",
         "GenomicAlignments"
     ],
-    "lumiHumanAll.db": [],
     "lumiHumanIDMapping": [
         "lumi",
         "methylumi",
@@ -4263,7 +4262,6 @@
     "MineICA": [
         "GOstats",
         "lumi",
-        "lumiHumanAll.db",
         "Category",
         "methylumi",
         "GenomicFeatures",
