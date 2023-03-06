@@ -133,9 +133,7 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "ASICS": [
-        "ropls"
-    ],
+    "ASICS": [],
     "ASpediaFI": [
         "GenomicFeatures",
         "IVAS",
@@ -316,9 +314,7 @@
     "BioNAR": [],
     "BioNERO": [],
     "BioNetStat": [],
-    "biosigner": [
-        "ropls"
-    ],
+    "biosigner": [],
     "BioTIP": [
         "scran"
     ],
@@ -2660,9 +2656,7 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "lipidr": [
-        "ropls"
-    ],
+    "lipidr": [],
     "lisaClust": [
         "spicyR",
         "SpatialExperiment",
@@ -3299,9 +3293,7 @@
     "MSPrep": [],
     "msqrob2": [],
     "Mu22v3.db": [],
-    "MultiBaC": [
-        "ropls"
-    ],
+    "MultiBaC": [],
     "multicrispr": [
         "BSgenome",
         "CRISPRseek",
@@ -3321,7 +3313,6 @@
         "clusterProfiler",
         "ReactomePA",
         "enrichplot",
-        "ropls",
         "reactome.db"
     ],
     "mumosa": [
@@ -3753,9 +3744,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "phenomis": [
-        "ropls"
-    ],
+    "phenomis": [],
     "phenoTest": [],
     "PhyloProfile": [],
     "PICS": [],
@@ -3784,8 +3773,7 @@
         "rtracklayer"
     ],
     "plasFIA": [
-        "proFIA",
-        "ropls"
+        "proFIA"
     ],
     "PloGO2": [
         "GOstats"
@@ -3843,9 +3831,7 @@
         "rtracklayer"
     ],
     "proBatch": [],
-    "proFIA": [
-        "ropls"
-    ],
+    "proFIA": [],
     "profileplyr": [
         "soGGi",
         "ChIPseeker",
@@ -4349,7 +4335,6 @@
     "roar": [
         "rtracklayer"
     ],
-    "ropls": [],
     "Rqc": [
         "ShortRead",
         "biovizBase",
@@ -4360,9 +4345,7 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "rqt": [
-        "ropls"
-    ],
+    "rqt": [],
     "RRBSdata": [
         "BiSeq",
         "rtracklayer"
