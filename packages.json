@@ -4249,7 +4249,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "sampleClassifier": [],
     "SCAN.UPC": [],
     "scanMiRApp": [
         "ensembldb",
