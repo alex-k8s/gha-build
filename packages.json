@@ -5587,7 +5587,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "SemDist": [],
     "seq2pathway": [],
     "seqCAT": [
         "VariantAnnotation",
