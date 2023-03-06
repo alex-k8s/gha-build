@@ -2326,9 +2326,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "HiCDOC": [
-        "multiHiCcompare"
-    ],
+    "HiCDOC": [],
     "HiContacts": [
         "GenomicInteractions",
         "rtracklayer",
@@ -3217,7 +3215,6 @@
         "VariantAnnotation",
         "ensembldb"
     ],
-    "multiHiCcompare": [],
     "multiSight": [
         "biosigner",
         "clusterProfiler",
