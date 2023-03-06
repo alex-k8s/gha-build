@@ -2775,7 +2775,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "rtracklayer"
     ],
-    "hta20probeset.db": [],
     "htrat230pm.db": [],
     "htratfocus.db": [],
     "HTSeqGenie": [
