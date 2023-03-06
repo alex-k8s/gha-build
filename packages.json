@@ -2989,7 +2989,6 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "MACSr": [],
     "MADSEQ": [
         "BSgenome",
         "BSgenome.Hsapiens.UCSC.hg19",
