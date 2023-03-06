@@ -2165,10 +2165,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "EWCE": [
-        "ewceData"
-    ],
-    "ewceData": [],
+    "EWCE": [],
     "ExCluster": [
         "rtracklayer"
     ],
