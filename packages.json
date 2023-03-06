@@ -5447,7 +5447,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "sSNAPPY": [],
     "STAN": [
         "Gviz",
         "rtracklayer",
