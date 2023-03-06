@@ -2782,7 +2782,6 @@
         "SingleCellExperiment",
         "UCell"
     ],
-    "esetVis": [],
     "EuPathDB": [
         "AnnotationHubData",
         "GenomicFeatures",
