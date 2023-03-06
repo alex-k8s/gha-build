@@ -205,7 +205,6 @@
         "GOstats",
         "reactome.db"
     ],
-    "autonomics": [],
     "BaalChIP": [],
     "BadRegionFinder": [
         "VariantAnnotation",
