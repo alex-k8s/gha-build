@@ -450,7 +450,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "bovine.db": [],
     "brainflowprobes": [
         "BSgenome.Hsapiens.UCSC.hg19",
         "bumphunter",
