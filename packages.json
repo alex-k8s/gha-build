@@ -3859,9 +3859,7 @@
         "QFeatures",
         "CompoundDb"
     ],
-    "metabolomicsWorkbenchR": [
-        "struct"
-    ],
+    "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75",
         "MWASTools",
@@ -6762,10 +6760,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "struct": [],
-    "structToolbox": [
-        "struct"
-    ],
+    "structToolbox": [],
     "StructuralVariantAnnotation": [
         "rtracklayer",
         "VariantAnnotation",
