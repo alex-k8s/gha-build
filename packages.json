@@ -2246,7 +2246,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "GeneBreak": [],
     "genefu": [],
     "geneLenDataBase": [
         "rtracklayer",
