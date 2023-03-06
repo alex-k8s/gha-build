@@ -1682,7 +1682,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "edge": [],
     "eegc": [
         "clusterProfiler",
         "enrichplot"
