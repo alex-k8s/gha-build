@@ -1348,7 +1348,6 @@
         "chipseq",
         "ShortRead"
     ],
-    "CoreGx": [],
     "coseq": [
         "HTSFilter"
     ],
@@ -3749,9 +3748,7 @@
     "pd.zebgene.1.0.st": [],
     "pd.zebgene.1.1.st": [],
     "pd.zebrafish": [],
-    "PDATK": [
-        "CoreGx"
-    ],
+    "PDATK": [],
     "pdInfoBuilder": [],
     "peco": [
         "scater"
@@ -3765,9 +3762,7 @@
         "enrichplot"
     ],
     "phantasus": [],
-    "PharmacoGx": [
-        "CoreGx"
-    ],
+    "PharmacoGx": [],
     "phastCons100way.UCSC.hg19": [
         "BSgenome",
         "rtracklayer"
@@ -3999,9 +3994,7 @@
         "rtracklayer",
         "GenomicFeatures"
     ],
-    "RadioGx": [
-        "CoreGx"
-    ],
+    "RadioGx": [],
     "ragene20stprobeset.db": [],
     "ramwas": [],
     "RareVariantVis": [
@@ -4991,9 +4984,7 @@
     ],
     "TMExplorer": [],
     "TNBC.CMS": [],
-    "ToxicoGx": [
-        "CoreGx"
-    ],
+    "ToxicoGx": [],
     "trackViewer": [
         "GenomicFeatures",
         "Gviz",
@@ -5407,8 +5398,7 @@
     ],
     "XDE": [],
     "Xeva": [
-        "PharmacoGx",
-        "CoreGx"
+        "PharmacoGx"
     ],
     "XNAString": [
         "BSgenome",
