@@ -305,7 +305,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "BioImageDbs": [],
     "biomvRCNS": [
         "Gviz",
         "rtracklayer",
