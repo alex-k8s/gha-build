@@ -4453,7 +4453,6 @@
         "scran"
     ],
     "scGPS": [],
-    "scMerge": [],
     "scmeth": [
         "bsseq",
         "BSgenome",
@@ -4642,7 +4641,6 @@
         "batchelor",
         "ensembldb",
         "scater",
-        "scMerge",
         "scran",
         "celda",
         "DropletUtils",
