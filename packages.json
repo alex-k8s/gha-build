@@ -923,7 +923,6 @@
         "BSgenome",
         "biovizBase"
     ],
-    "CAMERA": [],
     "canceR": [],
     "CancerInSilico": [],
     "cardelino": [
@@ -1934,9 +1933,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "flagme": [
-        "CAMERA"
-    ],
+    "flagme": [],
     "FLAMES": [
         "bambu",
         "GenomicFeatures",
@@ -2435,9 +2432,7 @@
         "ShortRead"
     ],
     "ipdDb": [],
-    "IPO": [
-        "CAMERA"
-    ],
+    "IPO": [],
     "IRISFGM": [
         "clusterProfiler",
         "scran"
@@ -2519,9 +2514,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "LOBSTAHS": [
-        "CAMERA"
-    ],
+    "LOBSTAHS": [],
     "LowMACA": [
         "cBioPortalData",
         "motifStack",
@@ -2673,9 +2666,7 @@
     "MAGeCKFlute": [
         "clusterProfiler"
     ],
-    "MAIT": [
-        "CAMERA"
-    ],
+    "MAIT": [],
     "mAPKL": [
         "reactome.db"
     ],
@@ -2783,9 +2774,7 @@
     "metagene2": [
         "rtracklayer"
     ],
-    "metaMS": [
-        "CAMERA"
-    ],
+    "metaMS": [],
     "MetaPhOR": [
         "clusterProfiler"
     ],
@@ -3546,7 +3535,6 @@
     ],
     "PSMatch": [],
     "PtH2O2lipids": [
-        "CAMERA",
         "LOBSTAHS"
     ],
     "pumadata": [],
