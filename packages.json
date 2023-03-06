@@ -2430,7 +2430,6 @@
     "DrugVsDisease": [
         "ArrayExpress",
         "hgu133a.db",
-        "hgu133a2.db",
         "hgu133plus2.db",
         "oligo",
         "oligoClasses"
@@ -3462,7 +3461,6 @@
         "geneplotter"
     ],
     "hgu133a.db": [],
-    "hgu133a2.db": [],
     "hgu133b.db": [],
     "hgu133plus2.db": [],
     "hgu219.db": [],
