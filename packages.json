@@ -2416,7 +2416,6 @@
     "HiTC": [
         "rtracklayer"
     ],
-    "HMP16SData": [],
     "Homo.sapiens": [
         "OrganismDbi",
         "GenomicFeatures",
