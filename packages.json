@@ -1006,9 +1006,7 @@
         "rtracklayer"
     ],
     "CCPROMISE": [],
-    "ccTutorial": [
-        "Ringo"
-    ],
+    "ccTutorial": [],
     "celaref": [],
     "celda": [
         "scater",
@@ -4151,8 +4149,7 @@
     ],
     "Repitools": [
         "rtracklayer",
-        "BSgenome",
-        "Ringo"
+        "BSgenome"
     ],
     "ReportingTools": [
         "GOstats",
@@ -4238,7 +4235,6 @@
     "rifi": [
         "rtracklayer"
     ],
-    "Ringo": [],
     "RIPAT": [
         "karyoploteR",
         "regioneR",
@@ -4646,9 +4642,7 @@
         "GenomicFeatures"
     ],
     "SimBenchData": [],
-    "SimBindProfiles": [
-        "Ringo"
-    ],
+    "SimBindProfiles": [],
     "simpleSeg": [
         "cytomapper",
         "SpatialExperiment",
