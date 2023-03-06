@@ -119,7 +119,6 @@
         "rtracklayer",
         "OrganismDbi"
     ],
-    "ArrayExpress": [],
     "ArrayExpressHTS": [
         "ShortRead"
     ],
@@ -1671,9 +1670,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "DrugVsDisease": [
-        "ArrayExpress"
-    ],
+    "DrugVsDisease": [],
     "DSS": [
         "bsseq",
         "BSgenome",
