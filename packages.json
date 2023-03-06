@@ -1633,7 +1633,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "doppelgangR": [],
     "dpeak": [
         "BSgenome",
         "rtracklayer"
