@@ -178,7 +178,6 @@
         "PolyPhen.Hsapiens.dbSNP131",
         "SIFT.Hsapiens.dbSNP137",
         "GenomicFeatures",
-        "GenomicScores",
         "rtracklayer",
         "OrganismDbi",
         "GenomicAlignments"
@@ -258,7 +257,6 @@
         "BSgenome",
         "ChIPpeakAnno",
         "GenomicAlignments",
-        "GenomicScores",
         "rtracklayer",
         "motifStack",
         "ensembldb",
@@ -2805,7 +2803,6 @@
         "SingleCellExperiment"
     ],
     "fitCons.UCSC.hg19": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
@@ -3055,7 +3052,6 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "GenomicScores": [],
     "GenomicState": [
         "GenomicFeatures",
         "rtracklayer",
@@ -3810,97 +3806,81 @@
         "GenomicFeatures"
     ],
     "MafDb.1Kgenomes.phase1.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.1Kgenomes.phase1.hs37d5": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.1Kgenomes.phase3.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.1Kgenomes.phase3.hs37d5": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.ExAC.r1.0.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.ExAC.r1.0.hs37d5": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.ExAC.r1.0.nonTCGA.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.ExAC.r1.0.nonTCGA.hs37d5": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.gnomAD.r2.1.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.gnomAD.r2.1.hs37d5": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.gnomADex.r2.1.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.gnomADex.r2.1.hs37d5": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.TOPMed.freeze5.hg19": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafDb.TOPMed.freeze5.hg38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafH5.gnomAD.v3.1.1.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "MafH5.gnomAD.v3.1.2.GRCh38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
@@ -4702,7 +4682,6 @@
         "ATACseqQC",
         "BSgenome",
         "ChIPpeakAnno",
-        "GenomicScores",
         "motifStack",
         "GenomicFeatures",
         "Gviz",
@@ -5528,25 +5507,18 @@
         "CoreGx"
     ],
     "phastCons100way.UCSC.hg19": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
     "phastCons100way.UCSC.hg38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "phastCons30way.UCSC.hg38": [
-        "GenomicScores"
-    ],
-    "phastCons35way.UCSC.mm39": [
-        "GenomicScores"
-    ],
+    "phastCons30way.UCSC.hg38": [],
+    "phastCons35way.UCSC.mm39": [],
     "phastCons7way.UCSC.hg38": [
-        "GenomicScores",
         "BSgenome",
         "rtracklayer",
         "GenomicAlignments"
@@ -5561,9 +5533,7 @@
     ],
     "PhIPData": [],
     "PhosR": [],
-    "phyloP35way.UCSC.mm39": [
-        "GenomicScores"
-    ],
+    "phyloP35way.UCSC.mm39": [],
     "PhyloProfile": [
         "OmaDB"
     ],
@@ -5668,7 +5638,6 @@
         "rtracklayer",
         "BSgenome.Hsapiens.UCSC.hg38",
         "phastCons100way.UCSC.hg38",
-        "GenomicScores",
         "Gviz",
         "TFBSTools",
         "BSgenome",
@@ -5897,7 +5866,6 @@
         "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "phastCons100way.UCSC.hg19",
-        "GenomicScores",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -7789,7 +7757,6 @@
         "VariantAnnotation",
         "GenomicFeatures",
         "BSgenome",
-        "GenomicScores",
         "Gviz",
         "rtracklayer",
         "ensembldb",
