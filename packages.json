@@ -2105,25 +2105,21 @@
     ],
     "EpiTxDb": [
         "GenomicFeatures",
-        "tRNAdbImport",
         "rtracklayer"
     ],
     "EpiTxDb.Hs.hg38": [
         "EpiTxDb",
         "GenomicFeatures",
-        "tRNAdbImport",
         "rtracklayer"
     ],
     "EpiTxDb.Mm.mm10": [
         "EpiTxDb",
         "GenomicFeatures",
-        "tRNAdbImport",
         "rtracklayer"
     ],
     "EpiTxDb.Sc.sacCer3": [
         "EpiTxDb",
         "GenomicFeatures",
-        "tRNAdbImport",
         "rtracklayer"
     ],
     "epivizr": [
@@ -6198,7 +6194,6 @@
     "trigger": [
         "sva"
     ],
-    "tRNAdbImport": [],
     "tRNAscanImport": [
         "rtracklayer",
         "BSgenome"
