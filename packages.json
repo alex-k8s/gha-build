@@ -2718,7 +2718,6 @@
     "hermes": [
         "DESeq2"
     ],
-    "hguqiagenv3.db": [],
     "hiAnnotator": [
         "rtracklayer",
         "BSgenome"
