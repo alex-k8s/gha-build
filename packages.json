@@ -2363,7 +2363,6 @@
         "rtracklayer",
         "GenomicFeatures"
     ],
-    "GeneMeta": [],
     "generegulation": [
         "BSgenome.Scerevisiae.UCSC.sacCer3",
         "GenomicFeatures",
@@ -6328,9 +6327,7 @@
     "xcms": [],
     "xcore": [],
     "xcoredata": [],
-    "XDE": [
-        "GeneMeta"
-    ],
+    "XDE": [],
     "Xeva": [
         "PharmacoGx",
         "CoreGx"
