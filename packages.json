@@ -1891,10 +1891,8 @@
     "DuoClustering2018": [],
     "DvDdata": [],
     "easier": [
-        "easierData",
         "DESeq2"
     ],
-    "easierData": [],
     "EasyCellType": [
         "clusterProfiler",
         "DOSE",
