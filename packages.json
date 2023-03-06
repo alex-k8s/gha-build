@@ -335,9 +335,7 @@
     "blacksheepr": [
         "pasilla"
     ],
-    "BLMA": [
-        "PADOG"
-    ],
+    "BLMA": [],
     "BloodCancerMultiOmics2017": [],
     "bnbc": [],
     "bnem": [],
@@ -1660,12 +1658,9 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "EGSEA": [
-        "PADOG"
-    ],
+    "EGSEA": [],
     "EGSEA123": [
-        "EGSEA",
-        "PADOG"
+        "EGSEA"
     ],
     "ELMER": [
         "GenomicFeatures",
@@ -3424,7 +3419,6 @@
         "rtracklayer"
     ],
     "PAA": [],
-    "PADOG": [],
     "pageRank": [
         "motifmatchr",
         "TFBSTools",
