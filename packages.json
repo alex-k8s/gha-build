@@ -294,7 +294,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "BgeeDB": [],
     "bgx": [],
     "bigmelon": [
         "wateRmelon",
@@ -4422,9 +4421,7 @@
         "BSgenome"
     ],
     "PSMatch": [],
-    "psygenet2r": [
-        "BgeeDB"
-    ],
+    "psygenet2r": [],
     "PtH2O2lipids": [
         "CAMERA",
         "LOBSTAHS"
@@ -4754,7 +4751,6 @@
     ],
     "Risa": [],
     "RITAN": [
-        "BgeeDB",
         "GenomicFeatures",
         "ensembldb",
         "EnsDb.Hsapiens.v86",
