@@ -3311,7 +3311,6 @@
     "HTSFilter": [
         "DESeq2"
     ],
-    "hugene10stprobeset.db": [],
     "HumanAffyData": [],
     "humanStemCell": [
         "hgu133plus2.db"
