@@ -2279,7 +2279,6 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "GRaNIE": [],
     "GreyListChIP": [
         "BSgenome",
         "rtracklayer"
