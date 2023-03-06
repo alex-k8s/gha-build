@@ -3101,9 +3101,7 @@
     ],
     "meshr": [],
     "Metab": [],
-    "MetaboAnnotation": [
-        "QFeatures"
-    ],
+    "MetaboAnnotation": [],
     "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75",
@@ -3471,9 +3469,7 @@
     ],
     "MouseThymusAgeing": [],
     "msa": [],
-    "MsExperiment": [
-        "QFeatures"
-    ],
+    "MsExperiment": [],
     "msgbsR": [
         "BSgenome",
         "easyRNASeq",
@@ -3494,9 +3490,7 @@
     "MSPrep": [
         "sva"
     ],
-    "msqrob2": [
-        "QFeatures"
-    ],
+    "msqrob2": [],
     "Mu22v3.db": [],
     "MuData": [],
     "MultiBaC": [
@@ -4486,9 +4480,7 @@
         "VariantAnnotation",
         "BSgenome"
     ],
-    "PSMatch": [
-        "QFeatures"
-    ],
+    "PSMatch": [],
     "psygenet2r": [
         "BgeeDB"
     ],
@@ -4521,7 +4513,6 @@
     "pwOmics": [],
     "pwrEWAS": [],
     "QDNAseq.hg19": [],
-    "QFeatures": [],
     "qpgraph": [
         "GenomicFeatures",
         "rtracklayer"
@@ -5105,12 +5096,8 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "scp": [
-        "QFeatures"
-    ],
-    "scpdata": [
-        "QFeatures"
-    ],
+    "scp": [],
+    "scpdata": [],
     "scPipe": [
         "DropletUtils",
         "rtracklayer",
