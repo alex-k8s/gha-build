@@ -86,7 +86,6 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "anota2seq": [],
     "APAlyzer": [
         "GenomicFeatures",
         "rtracklayer",
