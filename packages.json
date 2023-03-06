@@ -6578,10 +6578,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "rGenomeTracks": [
-        "rGenomeTracksData"
-    ],
-    "rGenomeTracksData": [],
+    "rGenomeTracks": [],
     "RGMQL": [
         "rtracklayer",
         "GenomicAlignments"
