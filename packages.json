@@ -2072,7 +2072,6 @@
     "epidecodeR": [
         "rtracklayer"
     ],
-    "epigenomix": [],
     "epigraHMM": [
         "rtracklayer",
         "GreyListChIP",
