@@ -5983,7 +5983,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "VegaMC": [],
     "velociraptor": [
         "zellkonverter",
         "scuttle"
