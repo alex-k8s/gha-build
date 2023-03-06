@@ -1471,13 +1471,9 @@
         "crisprScore",
         "GenomicFeatures",
         "rtracklayer",
-        "VariantAnnotation",
-        "crisprScoreData"
+        "VariantAnnotation"
     ],
-    "crisprScore": [
-        "crisprScoreData"
-    ],
-    "crisprScoreData": [],
+    "crisprScore": [],
     "CRISPRseek": [
         "BSgenome",
         "rtracklayer"
@@ -1502,7 +1498,6 @@
         "GenomicFeatures",
         "rtracklayer",
         "VariantAnnotation",
-        "crisprScoreData",
         "Gviz",
         "ensembldb",
         "biovizBase"
@@ -1517,8 +1512,7 @@
         "crisprScore",
         "VariantAnnotation",
         "ensembldb",
-        "biovizBase",
-        "crisprScoreData"
+        "biovizBase"
     ],
     "crossmeta": [
         "oligo",
