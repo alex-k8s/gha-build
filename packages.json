@@ -4668,7 +4668,6 @@
         "GOstats",
         "genefilter"
     ],
-    "miRNAtap.db": [],
     "miRSM": [
         "BicARE",
         "miRspongeR",
@@ -7634,9 +7633,7 @@
         "DropletUtils",
         "scuttle"
     ],
-    "SpidermiR": [
-        "miRNAtap.db"
-    ],
+    "SpidermiR": [],
     "spiky": [
         "GenomicAlignments",
         "BSgenome",
@@ -7731,8 +7728,7 @@
         "Category"
     ],
     "StarBioTrek": [
-        "SpidermiR",
-        "miRNAtap.db"
+        "SpidermiR"
     ],
     "Statial": [
         "SingleCellExperiment"
