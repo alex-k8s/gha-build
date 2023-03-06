@@ -1447,7 +1447,6 @@
     "consensusSeekeR": [
         "rtracklayer"
     ],
-    "consICA": [],
     "contiBAIT": [
         "GenomicFiles",
         "rtracklayer",
