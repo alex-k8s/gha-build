@@ -4022,7 +4022,6 @@
     "LymphoSeq": [
         "msa"
     ],
-    "m20kcod.db": [],
     "m6Aboost": [
         "rtracklayer",
         "BSgenome",
