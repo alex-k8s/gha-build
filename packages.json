@@ -4228,7 +4228,6 @@
         "enrichplot",
         "DOSE"
     ],
-    "MicrobiotaProcess": [],
     "midasHLA": [],
     "MIGSA": [
         "GOstats",
