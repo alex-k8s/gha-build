@@ -1786,7 +1786,6 @@
     ],
     "ELMER": [
         "GenomicFeatures",
-        "TCGAbiolinks",
         "Gviz",
         "rtracklayer",
         "ensembldb",
@@ -3306,7 +3305,6 @@
         "rtracklayer"
     ],
     "miRLAB": [
-        "TCGAbiolinks",
         "GOstats"
     ],
     "miRSM": [
@@ -3371,7 +3369,6 @@
     ],
     "MoonlightR": [
         "clusterProfiler",
-        "TCGAbiolinks",
         "enrichplot"
     ],
     "mosaics": [],
@@ -3494,7 +3491,6 @@
         "BSgenome.Mmusculus.UCSC.mm9",
         "BSgenome.Mmusculus.UCSC.mm10",
         "decompTumor2Sig",
-        "TCGAbiolinks",
         "rtracklayer"
     ],
     "MutationalPatterns": [
@@ -5214,8 +5210,7 @@
     "singscore": [],
     "SingscoreAMLMutations": [
         "rtracklayer",
-        "singscore",
-        "TCGAbiolinks"
+        "singscore"
     ],
     "SISPA": [
         "GSVA"
@@ -5494,11 +5489,9 @@
         "singscore"
     ],
     "TCC": [],
-    "TCGAbiolinks": [],
     "TCGAbiolinksGUI": [
         "ELMER",
         "clusterProfiler",
-        "TCGAbiolinks",
         "sesame",
         "enrichplot",
         "GenomicFeatures",
