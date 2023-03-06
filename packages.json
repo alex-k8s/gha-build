@@ -66,9 +66,7 @@
         "rtracklayer"
     ],
     "alpineData": [],
-    "AMARETTO": [
-        "curatedTCGAData"
-    ],
+    "AMARETTO": [],
     "amplican": [
         "ShortRead"
     ],
@@ -338,7 +336,6 @@
     ],
     "BiocOncoTK": [
         "GenomicFeatures",
-        "curatedTCGAData",
         "rtracklayer"
     ],
     "BioImageDbs": [],
@@ -1540,7 +1537,6 @@
         "scater"
     ],
     "curatedTBData": [],
-    "curatedTCGAData": [],
     "customProDB": [
         "GenomicFeatures",
         "VariantAnnotation",
