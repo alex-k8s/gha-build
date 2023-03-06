@@ -2509,7 +2509,6 @@
         "GenomicFeatures"
     ],
     "HarmonizedTCGAData": [],
-    "HD2013SGI": [],
     "HelloRanges": [
         "BSgenome",
         "GenomicFeatures",
