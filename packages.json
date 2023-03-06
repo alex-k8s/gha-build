@@ -1486,7 +1486,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "DEComplexDisease": [],
     "decompTumor2Sig": [
         "GenomicFeatures",
         "BSgenome.Hsapiens.UCSC.hg19",
