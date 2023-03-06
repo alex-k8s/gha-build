@@ -5244,7 +5244,6 @@
     "scran": [
         "scuttle"
     ],
-    "scReClassify": [],
     "scRepertoire": [],
     "scRNAseq": [
         "ensembldb",
