@@ -3471,7 +3471,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "POMA": [],
     "POWSC": [],
     "pram": [
         "rtracklayer"
