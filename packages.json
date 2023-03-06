@@ -4697,7 +4697,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "rtracklayer"
     ],
-    "slalom": [],
     "slingshot": [],
     "SMITE": [
         "reactome.db",
