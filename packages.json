@@ -4845,12 +4845,10 @@
         "consensusSeekeR",
         "rtracklayer"
     ],
-    "RLHub": [],
     "RLSeq": [
         "regioneR",
         "GenomicFeatures",
         "rtracklayer",
-        "RLHub",
         "BSgenome"
     ],
     "Rmmquant": [
