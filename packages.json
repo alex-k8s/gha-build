@@ -1777,7 +1777,6 @@
         "rtracklayer",
         "ShortRead"
     ],
-    "DifferentialRegulation": [],
     "diffHic": [
         "BSgenome",
         "rtracklayer"
