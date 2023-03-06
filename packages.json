@@ -2326,9 +2326,7 @@
         "rtracklayer"
     ],
     "GSEABenchmarkeR": [],
-    "gsean": [
-        "PPInfer"
-    ],
+    "gsean": [],
     "GSReg": [
         "Homo.sapiens",
         "GenomicFeatures",
@@ -3816,7 +3814,6 @@
     ],
     "POMA": [],
     "POWSC": [],
-    "PPInfer": [],
     "pram": [
         "rtracklayer"
     ],
