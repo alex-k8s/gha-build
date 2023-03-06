@@ -3870,7 +3870,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "mwgcod.db": [],
     "mygene": [
         "GenomicFeatures",
         "rtracklayer"
