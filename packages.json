@@ -472,8 +472,7 @@
         "reactome.db",
         "ReactomePA",
         "enrichplot",
-        "GOSemSim",
-        "graphite"
+        "GOSemSim"
     ],
     "biocGraph": [
         "geneplotter"
@@ -2139,9 +2138,7 @@
         "tilingArray",
         "genefilter"
     ],
-    "dce": [
-        "graphite"
-    ],
+    "dce": [],
     "debCAM": [],
     "debrowser": [
         "DESeq2",
@@ -2546,7 +2543,6 @@
         "GenomicAlignments"
     ],
     "EnrichmentBrowser": [
-        "graphite",
         "pathview"
     ],
     "enrichplot": [
@@ -2658,7 +2654,6 @@
         "DOSE",
         "enrichplot",
         "reactome.db",
-        "graphite",
         "GOSemSim"
     ],
     "EpiMix": [
@@ -3372,7 +3367,6 @@
         "topGO",
         "geneplotter"
     ],
-    "graphite": [],
     "grasp2db": [],
     "GreyListChIP": [
         "GenomicAlignments",
@@ -3388,7 +3382,6 @@
     "GSE13015": [],
     "GSEABenchmarkeR": [
         "EnrichmentBrowser",
-        "graphite",
         "pathview"
     ],
     "gsean": [
@@ -4733,8 +4726,7 @@
         "DOSE",
         "enrichplot",
         "GOSemSim",
-        "reactome.db",
-        "graphite"
+        "reactome.db"
     ],
     "miRspongeR": [
         "SPONGE",
@@ -4743,8 +4735,7 @@
         "DOSE",
         "enrichplot",
         "GOSemSim",
-        "reactome.db",
-        "graphite"
+        "reactome.db"
     ],
     "mirTarRnaSeq": [],
     "missMethyl": [
@@ -4813,7 +4804,6 @@
     "mogene21stprobeset.db": [],
     "mogene21sttranscriptcluster.db": [],
     "mogsa": [
-        "graphite",
         "genefilter"
     ],
     "MOMA": [],
@@ -4945,9 +4935,7 @@
         "GenomicAlignments",
         "ensembldb"
     ],
-    "multiGSEA": [
-        "graphite"
-    ],
+    "multiGSEA": [],
     "multiHiCcompare": [
         "HiCcompare"
     ],
@@ -4961,8 +4949,7 @@
         "DOSE",
         "GOSemSim",
         "geneplotter",
-        "reactome.db",
-        "graphite"
+        "reactome.db"
     ],
     "mumosa": [
         "SingleCellExperiment",
@@ -6129,8 +6116,7 @@
         "DOSE",
         "enrichplot",
         "GOSemSim",
-        "reactome.db",
-        "graphite"
+        "reactome.db"
     ],
     "PING": [
         "PICS",
@@ -6194,9 +6180,7 @@
         "geneplotter"
     ],
     "porcine.db": [],
-    "PoTRA": [
-        "graphite"
-    ],
+    "PoTRA": [],
     "POWSC": [
         "SingleCellExperiment",
         "MAST"
@@ -6526,7 +6510,6 @@
         "DOSE",
         "enrichplot",
         "reactome.db",
-        "graphite",
         "GOSemSim"
     ],
     "rebook": [],
@@ -7267,8 +7250,7 @@
         "schex",
         "genefilter",
         "GOSemSim",
-        "enrichplot",
-        "graphite"
+        "enrichplot"
     ],
     "scTGIF": [
         "SingleCellExperiment",
@@ -7772,9 +7754,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "sSNAPPY": [
-        "graphite"
-    ],
+    "sSNAPPY": [],
     "ssPATHS": [],
     "stageR": [],
     "STAN": [
@@ -7806,7 +7786,6 @@
     ],
     "StarBioTrek": [
         "SpidermiR",
-        "graphite",
         "miRNAtap.db"
     ],
     "Statial": [
@@ -8674,7 +8653,6 @@
     ],
     "zenith": [
         "EnrichmentBrowser",
-        "graphite",
         "pathview"
     ],
     "zFPKM": [],
