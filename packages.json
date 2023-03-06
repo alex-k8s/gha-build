@@ -3443,7 +3443,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "Neve2006": [],
     "nnSVG": [
         "SpatialExperiment",
         "DropletUtils"
