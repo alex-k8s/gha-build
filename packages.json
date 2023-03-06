@@ -5325,7 +5325,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "VariantExperiment": [],
     "VariantFiltering": [
         "VariantAnnotation",
         "GenomicFeatures",
