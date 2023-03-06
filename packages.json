@@ -8,7 +8,6 @@
     ],
     "adductomicsR": [],
     "affycoretools": [
-        "GOstats",
         "ReportingTools",
         "ggbio",
         "biovizBase",
@@ -21,7 +20,6 @@
     ],
     "AgiMicroRna": [
         "affycoretools",
-        "GOstats",
         "ReportingTools",
         "ggbio",
         "biovizBase",
@@ -196,7 +194,6 @@
         "CNEr"
     ],
     "attract": [
-        "GOstats",
         "reactome.db"
     ],
     "BadRegionFinder": [
@@ -964,9 +961,7 @@
     "CATALYST": [
         "scater"
     ],
-    "categoryCompare": [
-        "GOstats"
-    ],
+    "categoryCompare": [],
     "cbaf": [
         "cBioPortalData",
         "RTCGAToolbox",
@@ -2248,9 +2243,7 @@
         "VariantAnnotation",
         "BSgenome"
     ],
-    "GmicR": [
-        "GOstats"
-    ],
+    "GmicR": [],
     "gmoviz": [
         "GenomicFeatures",
         "rtracklayer"
@@ -2264,7 +2257,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "GOstats": [],
     "GOTHiC": [
         "BSgenome",
         "ShortRead",
@@ -2412,7 +2404,6 @@
     "ideal": [
         "pcaExplorer",
         "goseq",
-        "GOstats",
         "geneLenDataBase",
         "rtracklayer",
         "GenomicFeatures"
@@ -3063,12 +3054,9 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "MIGSA": [
-        "GOstats"
-    ],
+    "MIGSA": [],
     "mimager": [],
     "MineICA": [
-        "GOstats",
         "lumi",
         "methylumi",
         "GenomicFeatures",
@@ -3110,9 +3098,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "miRLAB": [
-        "GOstats"
-    ],
+    "miRLAB": [],
     "miRSM": [
         "miRspongeR",
         "clusterProfiler",
@@ -3351,7 +3337,6 @@
     ],
     "netZooR": [
         "yarn",
-        "GOstats",
         "quantro",
         "minfi",
         "bumphunter",
@@ -3470,9 +3455,7 @@
         "rtracklayer"
     ],
     "PathoStat": [],
-    "pcaExplorer": [
-        "GOstats"
-    ],
+    "pcaExplorer": [],
     "pd.081229.hg18.promoter.medip.hx1": [],
     "pd.2006.07.18.hg18.refseq.promoter": [],
     "pd.2006.10.31.rn34.refseq.promoter": [],
@@ -3652,9 +3635,7 @@
     "plasFIA": [
         "proFIA"
     ],
-    "PloGO2": [
-        "GOstats"
-    ],
+    "PloGO2": [],
     "plotgardener": [
         "plyranges",
         "rtracklayer"
@@ -3968,7 +3949,6 @@
         "BSgenome"
     ],
     "ReportingTools": [
-        "GOstats",
         "ggbio",
         "biovizBase",
         "BSgenome",
@@ -4166,7 +4146,6 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "GOstats",
         "ggbio",
         "EDASeq",
         "VariantAnnotation",
@@ -4315,7 +4294,6 @@
     "scTensor": [
         "reactome.db",
         "meshr",
-        "GOstats",
         "ReactomePA",
         "enrichplot"
     ],
