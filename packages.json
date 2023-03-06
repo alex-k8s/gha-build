@@ -146,7 +146,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "arrayQualityMetrics": [],
     "ASICS": [
         "ropls"
     ],
