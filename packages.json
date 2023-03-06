@@ -2602,7 +2602,6 @@
         "HiCcompare"
     ],
     "HiContacts": [
-        "HiContactsData",
         "GenomicInteractions",
         "rtracklayer",
         "Gviz",
@@ -2612,7 +2611,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "HiContactsData": [],
     "HighlyReplicatedRNASeq": [],
     "Hiiragi2013": [],
     "HiLDA": [
