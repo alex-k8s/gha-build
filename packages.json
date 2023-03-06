@@ -1561,7 +1561,6 @@
     "cn.farms": [
         "oligo"
     ],
-    "cn.mops": [],
     "CNEr": [
         "rtracklayer",
         "GenomicAlignments"
@@ -1572,7 +1571,6 @@
         "karyoploteR",
         "CopyNumberPlots",
         "VariantAnnotation",
-        "cn.mops",
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
@@ -1585,7 +1583,6 @@
         "CopyNumberPlots",
         "regioneR",
         "VariantAnnotation",
-        "cn.mops",
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
@@ -1729,7 +1726,6 @@
         "karyoploteR",
         "regioneR",
         "VariantAnnotation",
-        "cn.mops",
         "rtracklayer",
         "biovizBase",
         "GenomicFeatures",
@@ -4664,9 +4660,7 @@
         "GenomicAlignments"
     ],
     "PAIRADISE": [],
-    "panelcn.mops": [
-        "cn.mops"
-    ],
+    "panelcn.mops": [],
     "PanomiR": [
         "clusterProfiler",
         "DOSE",
