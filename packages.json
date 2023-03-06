@@ -5985,7 +5985,6 @@
     ],
     "SPOTlight": [],
     "SPsimSeq": [],
-    "sRACIPE": [],
     "srnadiff": [
         "rtracklayer",
         "DESeq2",
