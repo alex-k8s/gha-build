@@ -3566,13 +3566,11 @@
     "ObMiTi": [],
     "octad": [
         "RUVSeq",
-        "octad.db",
         "EDASeq",
         "ShortRead",
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "octad.db": [],
     "ODER": [
         "dasper",
         "derfinder",
