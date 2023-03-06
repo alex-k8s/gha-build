@@ -314,9 +314,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "beer": [
-        "PhIPData"
-    ],
+    "beer": [],
     "benchdamic": [
         "TreeSummarizedExperiment",
         "zinbwave",
@@ -4670,7 +4668,6 @@
     "phenoTest": [
         "Category"
     ],
-    "PhIPData": [],
     "PhosR": [],
     "phyloP35way.UCSC.mm39": [],
     "PhyloProfile": [
