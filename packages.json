@@ -2178,7 +2178,6 @@
         "rtracklayer",
         "GenomicFeatures"
     ],
-    "fishpond": [],
     "fitCons.UCSC.hg19": [
         "BSgenome",
         "rtracklayer"
@@ -5359,7 +5358,6 @@
         "celda",
         "DropletUtils",
         "scds",
-        "fishpond",
         "zinbwave",
         "scRNAseq",
         "scDblFinder",
