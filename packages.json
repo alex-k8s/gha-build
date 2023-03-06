@@ -990,7 +990,6 @@
     "CellBarcode": [
         "ShortRead"
     ],
-    "cellHTS2": [],
     "CelliD": [
         "scater"
     ],
@@ -2230,9 +2229,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "gespeR": [
-        "cellHTS2"
-    ],
+    "gespeR": [],
     "ggbio": [
         "biovizBase",
         "BSgenome",
@@ -2481,9 +2478,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "imageHTS": [
-        "cellHTS2"
-    ],
+    "imageHTS": [],
     "IMAS": [
         "GenomicFeatures",
         "IVAS",
@@ -4106,12 +4101,9 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "RNAinteract": [
-        "cellHTS2"
-    ],
+    "RNAinteract": [],
     "RNAinteractMAPK": [
-        "RNAinteract",
-        "cellHTS2"
+        "RNAinteract"
     ],
     "RNAmodR": [
         "GenomicFeatures",
@@ -4649,9 +4641,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "staRank": [
-        "cellHTS2"
-    ],
+    "staRank": [],
     "StarBioTrek": [],
     "STexampleData": [
         "SpatialExperiment"
