@@ -4874,7 +4874,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "qPLEXdata": [],
     "qrqc": [
         "biovizBase",
         "GenomicFeatures",
