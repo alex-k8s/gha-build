@@ -3305,7 +3305,6 @@
         "VariantAnnotation",
         "ensembldb"
     ],
-    "multiGSEA": [],
     "multiHiCcompare": [],
     "multiSight": [
         "biosigner",
