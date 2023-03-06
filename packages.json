@@ -4892,7 +4892,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "TFutils": [],
     "TileDBArray": [],
     "timeOmics": [],
     "TimiRGeN": [
