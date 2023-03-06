@@ -2581,7 +2581,6 @@
         "rtracklayer",
         "BSgenome"
     ],
-    "HiCcompare": [],
     "HiCDCPlus": [
         "GenomicInteractions",
         "BSgenome",
@@ -2593,8 +2592,7 @@
         "VariantAnnotation"
     ],
     "HiCDOC": [
-        "multiHiCcompare",
-        "HiCcompare"
+        "multiHiCcompare"
     ],
     "HiContacts": [
         "GenomicInteractions",
@@ -3617,9 +3615,7 @@
         "ensembldb"
     ],
     "multiGSEA": [],
-    "multiHiCcompare": [
-        "HiCcompare"
-    ],
+    "multiHiCcompare": [],
     "multiSight": [
         "biosigner",
         "clusterProfiler",
@@ -5634,9 +5630,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "SpectralTAD": [
-        "HiCcompare"
-    ],
+    "SpectralTAD": [],
     "SPIAT": [
         "SpatialExperiment",
         "DropletUtils",
@@ -5773,9 +5767,7 @@
     "systemPipeTools": [],
     "TabulaMurisData": [],
     "TabulaMurisSenisData": [],
-    "TADCompare": [
-        "HiCcompare"
-    ],
+    "TADCompare": [],
     "TAPseq": [
         "BSgenome",
         "GenomicFeatures",
