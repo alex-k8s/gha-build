@@ -78,7 +78,6 @@
     "Anaquin": [],
     "ANCOMBC": [
         "mia",
-        "TreeSummarizedExperiment",
         "scuttle",
         "scater"
     ],
@@ -301,7 +300,6 @@
     ],
     "beer": [],
     "benchdamic": [
-        "TreeSummarizedExperiment",
         "zinbwave",
         "MAST",
         "ANCOMBC",
@@ -1050,9 +1048,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "CBEA": [
-        "TreeSummarizedExperiment"
-    ],
+    "CBEA": [],
     "cBioPortalData": [
         "RTCGAToolbox",
         "TCGAutils",
@@ -1563,7 +1559,6 @@
         "VariantAnnotation"
     ],
     "curatedMetagenomicData": [
-        "TreeSummarizedExperiment",
         "mia",
         "scuttle",
         "scater"
@@ -2112,7 +2107,6 @@
     ],
     "ExperimentSubset": [
         "SpatialExperiment",
-        "TreeSummarizedExperiment",
         "DropletUtils",
         "scuttle"
     ],
@@ -3367,30 +3361,21 @@
     ],
     "MGFR": [],
     "mia": [
-        "TreeSummarizedExperiment",
         "scuttle",
         "scater"
     ],
-    "miaSim": [
-        "TreeSummarizedExperiment"
-    ],
+    "miaSim": [],
     "miaViz": [
-        "TreeSummarizedExperiment",
         "mia",
         "scater",
         "scuttle"
     ],
-    "MicrobiomeBenchmarkData": [
-        "TreeSummarizedExperiment"
-    ],
-    "microbiomeDataSets": [
-        "TreeSummarizedExperiment"
-    ],
+    "MicrobiomeBenchmarkData": [],
+    "microbiomeDataSets": [],
     "microbiomeExplorer": [],
     "microbiomeMarker": [
         "ANCOMBC",
         "mia",
-        "TreeSummarizedExperiment",
         "scuttle",
         "scater"
     ],
@@ -5862,7 +5847,6 @@
         "TrajectoryUtils"
     ],
     "treekoR": [],
-    "TreeSummarizedExperiment": [],
     "trena": [
         "MotifDb",
         "BSgenome",
