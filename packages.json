@@ -2685,7 +2685,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "ILoReg": [],
     "imageHTS": [
         "cellHTS2"
     ],
