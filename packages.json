@@ -4469,7 +4469,6 @@
         "EnsDb.Hsapiens.v86",
         "EnsDb.Mmusculus.v79",
         "EnsDb.Rnorvegicus.v79",
-        "Rcpi",
         "GenomicFeatures",
         "rtracklayer"
     ],
@@ -4633,7 +4632,6 @@
     "RcisTarget": [
         "AUCell"
     ],
-    "Rcpi": [],
     "reactome.db": [],
     "ReactomePA": [
         "enrichplot",
