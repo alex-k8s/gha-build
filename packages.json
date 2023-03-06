@@ -5211,7 +5211,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "simplifyEnrichment": [],
     "single": [],
     "SingleCellMultiModal": [
         "SpatialExperiment",
