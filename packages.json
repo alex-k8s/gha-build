@@ -3531,7 +3531,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "NeuCA": [],
     "Neve2006": [],
     "nnSVG": [
         "SpatialExperiment",
