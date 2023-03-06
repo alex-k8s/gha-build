@@ -4,7 +4,6 @@
     ],
     "a4Base": [],
     "ADaCGH2": [
-        "tilingArray",
         "snapCGH"
     ],
     "adductData": [],
@@ -1506,9 +1505,7 @@
         "plyranges",
         "rtracklayer"
     ],
-    "davidTiling": [
-        "tilingArray"
-    ],
+    "davidTiling": [],
     "debrowser": [
         "clusterProfiler",
         "enrichplot"
@@ -4710,9 +4707,7 @@
         "rtracklayer",
         "GenomicFeatures"
     ],
-    "snapCGH": [
-        "tilingArray"
-    ],
+    "snapCGH": [],
     "SNPhood": [
         "VariantAnnotation",
         "rtracklayer",
@@ -4988,7 +4983,6 @@
     ],
     "TFutils": [],
     "TileDBArray": [],
-    "tilingArray": [],
     "timeOmics": [],
     "TimiRGeN": [
         "clusterProfiler",
