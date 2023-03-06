@@ -2389,7 +2389,6 @@
         "geneplotter"
     ],
     "EGSEA": [
-        "gage",
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
@@ -2398,7 +2397,6 @@
     ],
     "EGSEA123": [
         "EGSEA",
-        "gage",
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
@@ -2970,7 +2968,6 @@
         "GenomicAlignments",
         "BSgenome"
     ],
-    "gage": [],
     "GARS": [
         "DaMiRseq",
         "MLSeq",
