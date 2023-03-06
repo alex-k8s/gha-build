@@ -2417,7 +2417,6 @@
         "rtracklayer"
     ],
     "HMP16SData": [],
-    "HMP2Data": [],
     "Homo.sapiens": [
         "OrganismDbi",
         "GenomicFeatures",
