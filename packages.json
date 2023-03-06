@@ -2003,7 +2003,6 @@
         "GenomicAlignments",
         "GenomicFeatures"
     ],
-    "cTRAP": [],
     "CTSV": [
         "SpatialExperiment",
         "SingleCellExperiment",
