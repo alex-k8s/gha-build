@@ -4309,7 +4309,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "scp": [],
     "scpdata": [],
     "scPipe": [
         "rtracklayer"
