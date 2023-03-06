@@ -20,7 +20,6 @@
         "ReportingTools",
         "Glimma",
         "DESeq2",
-        "Category",
         "ggbio",
         "biovizBase",
         "BSgenome",
@@ -38,7 +37,6 @@
         "ReportingTools",
         "Glimma",
         "DESeq2",
-        "Category",
         "ggbio",
         "biovizBase",
         "BSgenome",
@@ -238,8 +236,7 @@
     ],
     "attract": [
         "GOstats",
-        "reactome.db",
-        "Category"
+        "reactome.db"
     ],
     "AUCell": [],
     "autonomics": [],
@@ -1042,8 +1039,7 @@
         "xcms"
     ],
     "canceR": [
-        "phenoTest",
-        "Category"
+        "phenoTest"
     ],
     "CancerInSilico": [],
     "cardelino": [
@@ -1060,9 +1056,7 @@
         "scater",
         "scuttle"
     ],
-    "Category": [],
     "categoryCompare": [
-        "Category",
         "GOstats"
     ],
     "cbaf": [
@@ -1100,9 +1094,7 @@
         "ShortRead"
     ],
     "CellBench": [],
-    "cellHTS2": [
-        "Category"
-    ],
+    "cellHTS2": [],
     "CelliD": [
         "scater",
         "scuttle"
@@ -2559,8 +2551,7 @@
     ],
     "gep2pep": [],
     "gespeR": [
-        "cellHTS2",
-        "Category"
+        "cellHTS2"
     ],
     "ggbio": [
         "biovizBase",
@@ -2593,7 +2584,6 @@
         "BSgenome"
     ],
     "GmicR": [
-        "Category",
         "GOstats"
     ],
     "gmoviz": [
@@ -2615,9 +2605,7 @@
         "enrichplot"
     ],
     "goSTAG": [],
-    "GOstats": [
-        "Category"
-    ],
+    "GOstats": [],
     "GOTHiC": [
         "BSgenome",
         "ShortRead",
@@ -2802,7 +2790,6 @@
         "goseq",
         "GOstats",
         "geneLenDataBase",
-        "Category",
         "rtracklayer",
         "GenomicFeatures"
     ],
@@ -2870,8 +2857,7 @@
     "illuminaRatv1.db": [],
     "ILoReg": [],
     "imageHTS": [
-        "cellHTS2",
-        "Category"
+        "cellHTS2"
     ],
     "IMAS": [
         "GenomicFeatures",
@@ -2919,9 +2905,7 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "interactiveDisplay": [
-        "Category"
-    ],
+    "interactiveDisplay": [],
     "InterCellar": [],
     "IntEREst": [
         "GenomicFeatures",
@@ -3326,9 +3310,7 @@
         "DOSE",
         "enrichplot"
     ],
-    "meshr": [
-        "Category"
-    ],
+    "meshr": [],
     "Metab": [
         "xcms"
     ],
@@ -3562,8 +3544,7 @@
     ],
     "midasHLA": [],
     "MIGSA": [
-        "GOstats",
-        "Category"
+        "GOstats"
     ],
     "miloR": [],
     "mimager": [
@@ -3572,7 +3553,6 @@
     "MineICA": [
         "GOstats",
         "lumi",
-        "Category",
         "methylumi",
         "GenomicFeatures",
         "rtracklayer",
@@ -3617,7 +3597,6 @@
     ],
     "miRLAB": [
         "TCGAbiolinks",
-        "Category",
         "GOstats"
     ],
     "miRSM": [
@@ -3918,7 +3897,6 @@
     "netZooR": [
         "yarn",
         "GOstats",
-        "Category",
         "quantro",
         "minfi",
         "bumphunter",
@@ -4082,8 +4060,7 @@
     ],
     "pcaExplorer": [
         "DESeq2",
-        "GOstats",
-        "Category"
+        "GOstats"
     ],
     "pd.081229.hg18.promoter.medip.hx1": [
         "oligo"
@@ -4639,9 +4616,7 @@
     "phenomis": [
         "ropls"
     ],
-    "phenoTest": [
-        "Category"
-    ],
+    "phenoTest": [],
     "PhosR": [],
     "phyloP35way.UCSC.mm39": [],
     "PhyloProfile": [
@@ -4681,8 +4656,7 @@
         "ropls"
     ],
     "PloGO2": [
-        "GOstats",
-        "Category"
+        "GOstats"
     ],
     "plotgardener": [
         "plyranges",
@@ -5076,7 +5050,6 @@
         "Ringo"
     ],
     "ReportingTools": [
-        "Category",
         "GOstats",
         "DESeq2",
         "ggbio",
@@ -5232,13 +5205,11 @@
     ],
     "RnAgilentDesign028282.db": [],
     "RNAinteract": [
-        "cellHTS2",
-        "Category"
+        "cellHTS2"
     ],
     "RNAinteractMAPK": [
         "RNAinteract",
-        "cellHTS2",
-        "Category"
+        "cellHTS2"
     ],
     "RNAmodR": [
         "GenomicFeatures",
@@ -5311,7 +5282,6 @@
         "ensembldb",
         "BSgenome",
         "biovizBase",
-        "Category",
         "GOstats",
         "ggbio",
         "EDASeq",
@@ -5523,7 +5493,6 @@
     "scry": [],
     "scTensor": [
         "reactome.db",
-        "Category",
         "meshr",
         "GOstats",
         "ReactomePA",
@@ -5945,8 +5914,7 @@
         "rtracklayer"
     ],
     "staRank": [
-        "cellHTS2",
-        "Category"
+        "cellHTS2"
     ],
     "StarBioTrek": [
         "SpidermiR"
