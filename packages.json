@@ -6683,7 +6683,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "SplicingFactory": [],
     "SplicingGraphs": [
         "GenomicFeatures",
         "GenomicAlignments",
