@@ -3680,7 +3680,6 @@
     ],
     "netDx": [],
     "NetPathMiner": [],
-    "NetSAM": [],
     "netSmooth": [
         "scater",
         "clusterExperiment",
