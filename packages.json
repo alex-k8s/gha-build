@@ -4602,7 +4602,6 @@
         "phastCons100way.UCSC.hg19",
         "rtracklayer"
     ],
-    "rat2302.db": [],
     "rat2302frmavecs": [
         "frma",
         "oligo"
