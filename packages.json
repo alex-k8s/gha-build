@@ -3295,7 +3295,6 @@
         "rtracklayer",
         "bumphunter"
     ],
-    "MGFR": [],
     "mia": [
         "scuttle",
         "scater"
@@ -5054,9 +5053,7 @@
         "rtracklayer"
     ],
     "rwgcod.db": [],
-    "sampleClassifier": [
-        "MGFR"
-    ],
+    "sampleClassifier": [],
     "SBGNview": [],
     "SC3": [],
     "scAlign": [],
