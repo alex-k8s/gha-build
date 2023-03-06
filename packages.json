@@ -6,10 +6,7 @@
     "ADaCGH2": [
         "snapCGH"
     ],
-    "adductData": [],
-    "adductomicsR": [
-        "adductData"
-    ],
+    "adductomicsR": [],
     "affycoretools": [
         "GOstats",
         "ReportingTools",
