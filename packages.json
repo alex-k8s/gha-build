@@ -2806,7 +2806,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "VariantAnnotation"
     ],
-    "MDTS": [],
     "MEAL": [
         "minfi",
         "Gviz",
