@@ -5432,7 +5432,6 @@
         "fishpond",
         "zinbwave",
         "scRNAseq",
-        "TENxPBMCData",
         "scDblFinder",
         "TSCAN",
         "TrajectoryUtils",
@@ -5769,7 +5768,6 @@
     "TENxBrainData": [],
     "TENxBUSData": [],
     "TENxIO": [],
-    "TENxPBMCData": [],
     "tenXplore": [
         "restfulSE"
     ],
