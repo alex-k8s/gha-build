@@ -8224,7 +8224,6 @@
         "DropletUtils",
         "scuttle"
     ],
-    "weitrix": [],
     "wiggleplotr": [
         "rtracklayer",
         "GenomicAlignments"
