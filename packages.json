@@ -4505,7 +4505,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "structToolbox": [],
     "StructuralVariantAnnotation": [
         "rtracklayer",
         "VariantAnnotation",
