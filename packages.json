@@ -5324,7 +5324,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "pmp": [],
     "podkat": [
         "BSgenome",
         "rtracklayer",
