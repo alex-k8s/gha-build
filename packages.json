@@ -337,7 +337,6 @@
         "GenomicFeatures",
         "GenomicAlignments"
     ],
-    "beadarrayExampleData": [],
     "BeadSorted.Saliva.EPIC": [
         "minfi",
         "bumphunter",
