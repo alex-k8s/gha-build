@@ -5511,10 +5511,7 @@
         "GenomicAlignments"
     ],
     "preciseTADhub": [],
-    "PREDA": [],
-    "PREDAsampledata": [
-        "PREDA"
-    ],
+    "PREDAsampledata": [],
     "primirTSS": [
         "rtracklayer",
         "BSgenome.Hsapiens.UCSC.hg38",

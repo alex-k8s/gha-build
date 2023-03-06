@@ -1,0 +1,93 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''PREDA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'PREDA'
+also installing the dependencies ‘sfsmisc’, ‘lokern’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/sfsmisc_1.1-14.tar.gz'
+Content type 'binary/octet-stream' length 183430 bytes (179 KB)
+==================================================
+downloaded 179 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/lokern_1.1-10.tar.gz'
+Content type 'binary/octet-stream' length 43256 bytes (42 KB)
+==================================================
+downloaded 42 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/PREDA_1.44.0.tar.gz'
+Content type 'application/x-gzip' length 1841446 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+* installing *source* package ‘sfsmisc’ ...
+** package ‘sfsmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sfsmisc’ as ‘sfsmisc_1.1-14_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sfsmisc)
+* installing *source* package ‘lokern’ ...
+** package ‘lokern’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c auxkerns.f -o auxkerns.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c glkerns.f -o glkerns.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c lokerns.f -o lokerns.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c monitor.c -o monitor.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lokern.so auxkerns.o glkerns.o init.o lokerns.o monitor.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-lokern/00new/lokern/libs
+** R
+** data
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lokern’ as ‘lokern_1.1-10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lokern)
+* installing *source* package ‘PREDA’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘PREDA’ as ‘PREDA_1.44.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (PREDA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDaEn1I/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	4m11.883s
+user	4m6.436s
+sys	0m3.897s
