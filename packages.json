@@ -3298,7 +3298,6 @@
     "openCyto": [
         "flowClust"
     ],
-    "oppar": [],
     "ORFhunteR": [
         "rtracklayer",
         "BSgenome.Hsapiens.UCSC.hg38",
