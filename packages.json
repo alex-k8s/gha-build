@@ -3003,7 +3003,6 @@
         "VariantAnnotation"
     ],
     "MAST": [],
-    "MatrixQCvis": [],
     "MatrixRider": [
         "TFBSTools",
         "BSgenome",
