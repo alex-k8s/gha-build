@@ -2978,7 +2978,6 @@
         "rtracklayer"
     ],
     "MethReg": [
-        "sesameData",
         "sesame"
     ],
     "methrix": [
@@ -4500,10 +4499,7 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "sesame": [
-        "sesameData"
-    ],
-    "sesameData": [],
+    "sesame": [],
     "SEtools": [],
     "sevenC": [
         "rtracklayer"
@@ -4861,7 +4857,6 @@
         "GenomicFeatures",
         "Gviz",
         "rtracklayer",
-        "sesameData",
         "ensembldb",
         "BSgenome",
         "biovizBase",
