@@ -5171,7 +5171,6 @@
     "omicsPrint": [
         "RaggedExperiment"
     ],
-    "omicsViewer": [],
     "OncoScore": [],
     "openCyto": [
         "flowClust"
