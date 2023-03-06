@@ -311,7 +311,6 @@
         "rtracklayer"
     ],
     "BioImageDbs": [],
-    "BioMM": [],
     "biomvRCNS": [
         "Gviz",
         "rtracklayer",
