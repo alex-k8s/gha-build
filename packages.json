@@ -8014,7 +8014,6 @@
         "GSVA",
         "SingleCellExperiment"
     ],
-    "tomoda": [],
     "topGO": [],
     "ToxicoGx": [
         "CoreGx"
