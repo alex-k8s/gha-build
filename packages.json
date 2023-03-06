@@ -4794,7 +4794,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "org.Mxanthus.db": [],
     "Organism.dplyr": [
         "GenomicFeatures",
         "rtracklayer",
