@@ -1296,7 +1296,6 @@
     ],
     "cbaf": [
         "cBioPortalData",
-        "RaggedExperiment",
         "RTCGAToolbox",
         "TCGAutils",
         "GenomicFeatures",
@@ -1308,7 +1307,6 @@
         "SingleCellExperiment"
     ],
     "cBioPortalData": [
-        "RaggedExperiment",
         "RTCGAToolbox",
         "TCGAutils",
         "GenomicFeatures",
@@ -1651,9 +1649,7 @@
         "BSgenome"
     ],
     "CNVPanelizer": [],
-    "CNVRanger": [
-        "RaggedExperiment"
-    ],
+    "CNVRanger": [],
     "CNVrd2": [
         "VariantAnnotation",
         "rtracklayer",
@@ -1711,7 +1707,6 @@
         "GenomicAlignments"
     ],
     "compartmap": [
-        "RaggedExperiment",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -3651,7 +3646,6 @@
     "LowMACA": [
         "cBioPortalData",
         "motifStack",
-        "RaggedExperiment",
         "RTCGAToolbox",
         "TCGAutils",
         "TFBSTools",
@@ -4768,9 +4762,7 @@
         "GenomicAlignments"
     ],
     "OMICsPCAdata": [],
-    "omicsPrint": [
-        "RaggedExperiment"
-    ],
+    "omicsPrint": [],
     "OncoScore": [],
     "openCyto": [
         "flowClust"
@@ -5742,7 +5734,6 @@
     "ragene20sttranscriptcluster.db": [],
     "ragene21stprobeset.db": [],
     "ragene21sttranscriptcluster.db": [],
-    "RaggedExperiment": [],
     "ramwas": [
         "GenomicAlignments"
     ],
@@ -6260,7 +6251,6 @@
     "rta10probeset.db": [],
     "rta10transcriptcluster.db": [],
     "RTCGAToolbox": [
-        "RaggedExperiment",
         "TCGAutils",
         "GenomicFeatures",
         "rtracklayer",
@@ -7114,7 +7104,6 @@
     ],
     "TCGAutils": [
         "GenomicFeatures",
-        "RaggedExperiment",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -7145,7 +7134,6 @@
         "scuttle"
     ],
     "terraTCGAdata": [
-        "RaggedExperiment",
         "TCGAutils",
         "GenomicFeatures",
         "rtracklayer",
