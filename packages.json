@@ -1068,7 +1068,6 @@
         "scuttle"
     ],
     "CellTrails": [],
-    "cellTree": [],
     "CEMiTool": [
         "clusterProfiler",
         "enrichplot"
