@@ -7953,7 +7953,6 @@
         "enrichplot",
         "GOSemSim"
     ],
-    "TIN": [],
     "TissueEnrich": [],
     "TitanCNA": [
         "VariantAnnotation",
