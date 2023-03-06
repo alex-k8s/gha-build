@@ -7258,7 +7258,6 @@
         "GenomicAlignments"
     ],
     "UCell": [],
-    "UCSCRepeatMasker": [],
     "Ularcirc": [
         "BSgenome",
         "GenomicFeatures",
