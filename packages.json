@@ -1240,7 +1240,6 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "BUScorrect": [],
     "BUSpaRse": [
         "BSgenome",
         "ensembldb",
