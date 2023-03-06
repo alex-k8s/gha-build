@@ -358,7 +358,6 @@
         "ReactomePA",
         "enrichplot"
     ],
-    "biocGraph": [],
     "BiocOncoTK": [
         "GenomicFeatures",
         "curatedTCGAData",
