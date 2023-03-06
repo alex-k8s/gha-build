@@ -355,9 +355,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "BioNAR": [
-        "synaptome.db"
-    ],
+    "BioNAR": [],
     "BioNERO": [
         "sva"
     ],
@@ -5673,7 +5671,6 @@
         "BSgenome"
     ],
     "SWATH2stats": [],
-    "synaptome.db": [],
     "syntenet": [
         "rtracklayer"
     ],
