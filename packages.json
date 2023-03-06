@@ -431,8 +431,7 @@
         "DESeq2"
     ],
     "BLMA": [
-        "PADOG",
-        "hgu133plus2.db"
+        "PADOG"
     ],
     "BloodCancerMultiOmics2017": [
         "DESeq2"
@@ -1784,7 +1783,6 @@
     "DESeq2": [],
     "DeSousa2013": [
         "frma",
-        "hgu133plus2.db",
         "sva",
         "oligo"
     ],
@@ -1918,7 +1916,6 @@
     ],
     "DrugVsDisease": [
         "ArrayExpress",
-        "hgu133plus2.db",
         "oligo"
     ],
     "DSS": [
@@ -1964,14 +1961,12 @@
     ],
     "EGSEA": [
         "PADOG",
-        "GSVA",
-        "hgu133plus2.db"
+        "GSVA"
     ],
     "EGSEA123": [
         "EGSEA",
         "PADOG",
-        "GSVA",
-        "hgu133plus2.db"
+        "GSVA"
     ],
     "ELMER": [
         "GenomicFeatures",
@@ -2724,7 +2719,6 @@
     "hermes": [
         "DESeq2"
     ],
-    "hgu133plus2.db": [],
     "hgu95c.db": [],
     "hgubeta7.db": [],
     "hgug4101a.db": [],
@@ -2809,9 +2803,7 @@
         "DESeq2"
     ],
     "HumanAffyData": [],
-    "humanStemCell": [
-        "hgu133plus2.db"
-    ],
+    "humanStemCell": [],
     "HuO22.db": [],
     "icetea": [
         "GenomicFeatures",
@@ -3271,9 +3263,7 @@
     "mAPKL": [
         "reactome.db"
     ],
-    "maPredictDSC": [
-        "hgu133plus2.db"
-    ],
+    "maPredictDSC": [],
     "MAQCsubset": [
         "lumi",
         "methylumi",
@@ -4119,9 +4109,7 @@
         "sva"
     ],
     "padma": [],
-    "PADOG": [
-        "hgu133plus2.db"
-    ],
+    "PADOG": [],
     "pageRank": [
         "motifmatchr",
         "TFBSTools",
