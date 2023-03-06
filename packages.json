@@ -1,11 +1,8 @@
 {
     "a4": [
-        "a4Base",
-        "annaffy"
+        "a4Base"
     ],
-    "a4Base": [
-        "annaffy"
-    ],
+    "a4Base": [],
     "ACE": [],
     "ADaCGH2": [
         "tilingArray",
@@ -107,7 +104,6 @@
     "animalcules": [
         "DESeq2"
     ],
-    "annaffy": [],
     "annmap": [],
     "annotation": [
         "VariantAnnotation",
@@ -7435,9 +7431,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "webbioc": [
-        "annaffy"
-    ],
+    "webbioc": [],
     "WeberDivechaLCdata": [
         "SpatialExperiment",
         "DropletUtils",
