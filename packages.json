@@ -167,7 +167,6 @@
     ],
     "ASSIGN": [],
     "ATACCoGAPS": [
-        "CoGAPS",
         "projectR",
         "TFBSTools",
         "motifmatchr",
@@ -1286,7 +1285,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "CoGAPS": [],
     "Cogito": [
         "GenomicFeatures",
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
@@ -4373,9 +4371,7 @@
         "chipseq",
         "ShortRead"
     ],
-    "projectR": [
-        "CoGAPS"
-    ],
+    "projectR": [],
     "pRoloc": [
         "MLInterfaces"
     ],
