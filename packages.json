@@ -2264,7 +2264,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "hermes": [],
     "hiAnnotator": [
         "rtracklayer",
         "BSgenome"
