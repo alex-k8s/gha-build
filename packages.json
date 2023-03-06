@@ -63,7 +63,6 @@
         "OrganismDbi",
         "GenomicAlignments"
     ],
-    "AHMeSHDbs": [],
     "airpart": [
         "scater",
         "scuttle"
