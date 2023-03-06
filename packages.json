@@ -1542,7 +1542,6 @@
     "CyTOFpower": [],
     "cytofWorkflow": [
         "CATALYST",
-        "HDCytoData",
         "scater",
         "scuttle"
     ],
@@ -2512,7 +2511,6 @@
     ],
     "HarmonizedTCGAData": [],
     "HD2013SGI": [],
-    "HDCytoData": [],
     "HelloRanges": [
         "BSgenome",
         "GenomicFeatures",
