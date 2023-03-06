@@ -3814,7 +3814,6 @@
     "oligoData": [
         "oligo"
     ],
-    "OmaDB": [],
     "omicade4": [],
     "omicplotR": [],
     "omicRexposome": [
@@ -4443,9 +4442,7 @@
     ],
     "phenoTest": [],
     "phyloP35way.UCSC.mm39": [],
-    "PhyloProfile": [
-        "OmaDB"
-    ],
+    "PhyloProfile": [],
     "PhyloProfileData": [],
     "PICS": [],
     "Pigengene": [
