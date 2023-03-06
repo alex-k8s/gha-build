@@ -1651,7 +1651,6 @@
         "scater",
         "scuttle"
     ],
-    "cytoKernel": [],
     "cytomapper": [
         "SpatialExperiment",
         "DropletUtils",
