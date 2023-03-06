@@ -3388,7 +3388,6 @@
     "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75",
-        "MWASTools",
         "mygene",
         "ensembldb",
         "GenomicFeatures",
@@ -3909,7 +3908,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "MWASTools": [],
     "mwgcod.db": [],
     "mygene": [
         "GenomicFeatures",
