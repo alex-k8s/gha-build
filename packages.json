@@ -547,7 +547,6 @@
     "biscuiteerData": [],
     "BiSeq": [
         "rtracklayer",
-        "globaltest",
         "GenomicAlignments"
     ],
     "BitSeq": [],
@@ -1473,7 +1472,6 @@
         "minfi",
         "DMRcate",
         "IlluminaHumanMethylationEPICmanifest",
-        "globaltest",
         "sva",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -2493,7 +2491,6 @@
         "pathview",
         "PADOG",
         "GSVA",
-        "globaltest",
         "SingleCellExperiment",
         "hgu133plus2.db",
         "hgu133a.db"
@@ -2505,7 +2502,6 @@
         "pathview",
         "PADOG",
         "GSVA",
-        "globaltest",
         "SingleCellExperiment",
         "hgu133plus2.db",
         "hgu133a.db"
@@ -3303,10 +3299,7 @@
         "SingleCellExperiment"
     ],
     "glmSparseNet": [],
-    "GlobalAncova": [
-        "globaltest"
-    ],
-    "globaltest": [],
+    "GlobalAncova": [],
     "gmapR": [
         "rtracklayer",
         "GenomicFeatures",
@@ -6982,7 +6975,6 @@
     "RRBSdata": [
         "BiSeq",
         "rtracklayer",
-        "globaltest",
         "GenomicAlignments"
     ],
     "rrvgo": [
@@ -7404,9 +7396,7 @@
         "GenomicAlignments",
         "GenomicFeatures"
     ],
-    "SIM": [
-        "globaltest"
-    ],
+    "SIM": [],
     "SimBenchData": [],
     "SimBindProfiles": [
         "Ringo",
