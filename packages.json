@@ -3505,14 +3505,12 @@
     "omicplotR": [],
     "omicRexposome": [],
     "OMICsPCA": [
-        "OMICsPCAdata",
         "HelloRanges",
         "rtracklayer",
         "BSgenome",
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "OMICsPCAdata": [],
     "openCyto": [
         "flowClust"
     ],
