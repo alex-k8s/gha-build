@@ -2407,7 +2407,6 @@
     "DvDdata": [],
     "easier": [
         "easierData",
-        "quantiseqr",
         "DESeq2",
         "geneplotter"
     ],
@@ -6069,7 +6068,6 @@
         "sva",
         "genefilter"
     ],
-    "quantiseqr": [],
     "quantro": [
         "minfi",
         "bumphunter",
