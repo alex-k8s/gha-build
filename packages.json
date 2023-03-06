@@ -1795,7 +1795,6 @@
         "scater",
         "scuttle"
     ],
-    "dittoSeq": [],
     "DMCFB": [
         "rtracklayer"
     ],
@@ -5821,7 +5820,6 @@
     ],
     "SPIAT": [
         "SpatialExperiment",
-        "dittoSeq",
         "DropletUtils",
         "scuttle"
     ],
