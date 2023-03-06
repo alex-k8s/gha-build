@@ -305,7 +305,6 @@
         "scuttle",
         "scater"
     ],
-    "benchmarkfdrData2019": [],
     "BgeeCall": [
         "GenomicFeatures",
         "rtracklayer"
