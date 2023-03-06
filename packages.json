@@ -2619,7 +2619,6 @@
         "cytomapper",
         "DropletUtils"
     ],
-    "indac.db": [],
     "InPAS": [
         "BSgenome",
         "cleanUpdTSeq",
