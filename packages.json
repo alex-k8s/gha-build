@@ -2406,7 +2406,6 @@
         "BSgenome"
     ],
     "HTSFilter": [],
-    "humanStemCell": [],
     "icetea": [
         "GenomicFeatures",
         "ShortRead",
