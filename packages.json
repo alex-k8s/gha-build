@@ -1294,9 +1294,7 @@
         "chipseq",
         "ShortRead"
     ],
-    "coseq": [
-        "HTSFilter"
-    ],
+    "coseq": [],
     "COSMIC.67": [
         "VariantAnnotation",
         "rtracklayer",
@@ -2324,7 +2322,6 @@
         "VariantTools",
         "BSgenome"
     ],
-    "HTSFilter": [],
     "icetea": [
         "GenomicFeatures",
         "ShortRead",
