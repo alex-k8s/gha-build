@@ -1501,7 +1501,6 @@
         "scuttle",
         "scater"
     ],
-    "curatedTBData": [],
     "customProDB": [
         "GenomicFeatures",
         "VariantAnnotation",
