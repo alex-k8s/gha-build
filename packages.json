@@ -71,7 +71,6 @@
     "airpart": [
         "SingleCellExperiment",
         "scater",
-        "apeglm",
         "scuttle"
     ],
     "airway": [],
@@ -159,7 +158,6 @@
         "VariantAnnotation",
         "BSgenome"
     ],
-    "apeglm": [],
     "APL": [
         "SingleCellExperiment"
     ],
@@ -1490,7 +1488,6 @@
         "ShortRead",
         "systemPipeR",
         "DESeq2",
-        "apeglm",
         "GreyListChIP",
         "rtracklayer",
         "BSgenome"
@@ -2032,8 +2029,7 @@
         "DOSE",
         "clusterProfiler",
         "sva",
-        "enrichplot",
-        "apeglm"
+        "enrichplot"
     ],
     "deco": [
         "made4"
@@ -2154,7 +2150,6 @@
         "GenomicAlignments",
         "systemPipeR",
         "DESeq2",
-        "apeglm",
         "GreyListChIP",
         "BSgenome",
         "rtracklayer",
@@ -6243,7 +6238,6 @@
         "airway",
         "tximeta",
         "DESeq2",
-        "apeglm",
         "ReportingTools",
         "Gviz",
         "sva",
@@ -7194,7 +7188,6 @@
     ],
     "TDARACNE": [],
     "TEKRABber": [
-        "apeglm",
         "DESeq2"
     ],
     "TENxBrainData": [
@@ -7794,7 +7787,6 @@
         "regioneR",
         "rtracklayer",
         "systemPipeR",
-        "apeglm",
         "GreyListChIP",
         "BSgenome",
         "ShortRead"
