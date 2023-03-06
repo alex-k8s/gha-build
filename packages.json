@@ -1327,9 +1327,7 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "cosmiq": [
-        "faahKO"
-    ],
+    "cosmiq": [],
     "CoverageView": [
         "rtracklayer"
     ],
@@ -1916,7 +1914,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "faahKO": [],
     "factR": [
         "GenomicFeatures",
         "rtracklayer",
