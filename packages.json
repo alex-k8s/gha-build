@@ -1458,7 +1458,6 @@
     "cyanoFilter": [
         "flowClust"
     ],
-    "CyTOFpower": [],
     "cytofWorkflow": [
         "CATALYST",
         "scater"
