@@ -1628,7 +1628,6 @@
     "davidTiling": [
         "tilingArray"
     ],
-    "dce": [],
     "debrowser": [
         "clusterProfiler",
         "sva",
