@@ -4643,7 +4643,6 @@
         "GenomicAlignments"
     ],
     "NanoporeRNASeq": [],
-    "nanotatoR": [],
     "NBAMSeq": [
         "DESeq2"
     ],
