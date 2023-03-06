@@ -4478,7 +4478,6 @@
         "ShortRead"
     ],
     "rta10probeset.db": [],
-    "rta10transcriptcluster.db": [],
     "RTCGAToolbox": [
         "TCGAutils",
         "GenomicFeatures",
