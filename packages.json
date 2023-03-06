@@ -5159,7 +5159,6 @@
     "scran": [
         "scuttle"
     ],
-    "scRepertoire": [],
     "scRNAseq": [
         "ensembldb",
         "GenomicFeatures",
