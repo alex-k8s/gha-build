@@ -6178,7 +6178,6 @@
         "ShortRead",
         "OrganismDbi"
     ],
-    "RnaSeqGeneEdgeRQL": [],
     "RNASeqR": [
         "ballgown",
         "DESeq2",
