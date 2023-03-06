@@ -3225,7 +3225,6 @@
         "VariantAnnotation",
         "BSgenome"
     ],
-    "GenomicSuperSignature": [],
     "genotypeeval": [
         "VariantAnnotation",
         "rtracklayer",
