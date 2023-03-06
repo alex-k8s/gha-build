@@ -6007,7 +6007,6 @@
     ],
     "rnaseqDTU": [
         "DEXSeq",
-        "stageR",
         "DESeq2"
     ],
     "rnaseqGene": [
@@ -6720,7 +6719,6 @@
     ],
     "sSNAPPY": [],
     "ssPATHS": [],
-    "stageR": [],
     "STAN": [
         "Gviz",
         "rtracklayer",
