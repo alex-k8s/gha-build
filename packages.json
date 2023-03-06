@@ -4699,7 +4699,6 @@
     "SpotClean": [
         "SpatialExperiment"
     ],
-    "SPsimSeq": [],
     "srnadiff": [
         "rtracklayer",
         "GenomicFeatures",
