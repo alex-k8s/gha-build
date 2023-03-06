@@ -6599,7 +6599,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "yamss": [],
     "YAPSA": [
         "SomaticSignatures",
         "VariantAnnotation",
