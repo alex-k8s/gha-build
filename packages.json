@@ -1895,11 +1895,9 @@
         "reactome.db"
     ],
     "EpiMix": [
-        "EpiMix.data",
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "EpiMix.data": [],
     "epimutacions": [
         "minfi",
         "bumphunter",
