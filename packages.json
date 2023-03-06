@@ -2602,7 +2602,6 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "GGHumanMethCancerPanelv1.db": [],
     "ggspavis": [
         "SpatialExperiment",
         "DropletUtils",
