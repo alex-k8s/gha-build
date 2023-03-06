@@ -3721,11 +3721,9 @@
     "oligoData": [
         "oligo"
     ],
-    "omicade4": [],
     "omicplotR": [],
     "omicRexposome": [
-        "sva",
-        "omicade4"
+        "sva"
     ],
     "OMICsPCA": [
         "OMICsPCAdata",
