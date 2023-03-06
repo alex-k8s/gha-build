@@ -178,8 +178,7 @@
     "apComplex": [],
     "apeglm": [],
     "APL": [
-        "SingleCellExperiment",
-        "topGO"
+        "SingleCellExperiment"
     ],
     "appreci8R": [
         "VariantAnnotation",
@@ -435,9 +434,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "BgeeDB": [
-        "topGO"
-    ],
+    "BgeeDB": [],
     "bgx": [],
     "BicARE": [],
     "bigmelon": [
@@ -483,9 +480,7 @@
     ],
     "BioCor": [],
     "BioImageDbs": [],
-    "BioMM": [
-        "topGO"
-    ],
+    "BioMM": [],
     "biomvRCNS": [
         "Gviz",
         "rtracklayer",
@@ -1383,7 +1378,6 @@
     ],
     "ccTutorial": [
         "Ringo",
-        "topGO",
         "genefilter"
     ],
     "celaref": [
@@ -1414,9 +1408,7 @@
         "scater",
         "scuttle"
     ],
-    "cellity": [
-        "topGO"
-    ],
+    "cellity": [],
     "CellMapperData": [],
     "CellMixS": [
         "scater",
@@ -1426,9 +1418,7 @@
     "CellTrails": [
         "SingleCellExperiment"
     ],
-    "cellTree": [
-        "topGO"
-    ],
+    "cellTree": [],
     "CEMiTool": [
         "clusterProfiler",
         "DOSE",
@@ -1803,7 +1793,6 @@
         "GenomicAlignments"
     ],
     "compEpiTools": [
-        "topGO",
         "GenomicFeatures",
         "methylPipe",
         "rtracklayer",
@@ -1860,9 +1849,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "consICA": [
-        "topGO"
-    ],
+    "consICA": [],
     "contiBAIT": [
         "GenomicFiles",
         "rtracklayer",
@@ -2476,7 +2463,6 @@
     ],
     "EGSEA": [
         "gage",
-        "topGO",
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
@@ -2486,7 +2472,6 @@
     "EGSEA123": [
         "EGSEA",
         "gage",
-        "topGO",
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
@@ -3031,9 +3016,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "FoldGO": [
-        "topGO"
-    ],
+    "FoldGO": [],
     "FRASER": [
         "BSgenome",
         "GenomicAlignments",
@@ -3308,9 +3291,7 @@
         "GenomicFeatures",
         "GenomicAlignments"
     ],
-    "GOSim": [
-        "topGO"
-    ],
+    "GOSim": [],
     "goSorensen": [
         "goProfiles",
         "clusterProfiler",
@@ -3332,7 +3313,6 @@
     "goTools": [],
     "GRaNIE": [
         "DESeq2",
-        "topGO",
         "geneplotter"
     ],
     "grasp2db": [],
@@ -3579,7 +3559,6 @@
         "GenomicAlignments"
     ],
     "ideal": [
-        "topGO",
         "DESeq2",
         "pcaExplorer",
         "goseq",
@@ -4709,9 +4688,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "moanin": [
-        "topGO"
-    ],
+    "moanin": [],
     "MobilityTransformR": [
         "xcms"
     ],
@@ -5127,9 +5104,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "OmaDB": [
-        "topGO"
-    ],
+    "OmaDB": [],
     "omicade4": [
         "made4"
     ],
@@ -5253,7 +5228,6 @@
     "pcaExplorer": [
         "DESeq2",
         "genefilter",
-        "topGO",
         "GOstats",
         "geneplotter",
         "Category"
@@ -6012,8 +5986,7 @@
         "GenomicScores"
     ],
     "PhyloProfile": [
-        "OmaDB",
-        "topGO"
+        "OmaDB"
     ],
     "PhyloProfileData": [],
     "PICS": [
@@ -6222,8 +6195,7 @@
         "QFeatures"
     ],
     "psygenet2r": [
-        "BgeeDB",
-        "topGO"
+        "BgeeDB"
     ],
     "PtH2O2lipids": [
         "xcms",
@@ -6677,7 +6649,6 @@
         "GenomicFeatures",
         "ensembldb",
         "EnsDb.Hsapiens.v86",
-        "topGO",
         "rtracklayer",
         "GenomicAlignments"
     ],
@@ -7900,7 +7871,6 @@
         "GSVA",
         "SingleCellExperiment"
     ],
-    "topGO": [],
     "ToxicoGx": [
         "CoreGx"
     ],
@@ -7922,9 +7892,7 @@
     "TrajectoryUtils": [
         "SingleCellExperiment"
     ],
-    "transcriptogramer": [
-        "topGO"
-    ],
+    "transcriptogramer": [],
     "transcriptR": [
         "chipseq",
         "GenomicAlignments",
@@ -7938,7 +7906,6 @@
     ],
     "tRanslatome": [
         "DESeq2",
-        "topGO",
         "GOSemSim",
         "geneplotter"
     ],
@@ -8393,8 +8360,7 @@
         "geneplotter"
     ],
     "ViSEAGO": [
-        "GOSemSim",
-        "topGO"
+        "GOSemSim"
     ],
     "vissE": [
         "msigdb"
