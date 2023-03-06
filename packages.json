@@ -149,7 +149,6 @@
     ],
     "ASSIGN": [],
     "ATACCoGAPS": [
-        "projectR",
         "TFBSTools",
         "motifmatchr",
         "chromVAR",
@@ -3594,7 +3593,6 @@
         "chipseq",
         "ShortRead"
     ],
-    "projectR": [],
     "pRoloc": [],
     "pRolocGUI": [
         "pRoloc"
