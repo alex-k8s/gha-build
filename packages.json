@@ -505,9 +505,7 @@
         "sva",
         "genefilter"
     ],
-    "BioNetStat": [
-        "pathview"
-    ],
+    "BioNetStat": [],
     "BioPlex": [],
     "biosigner": [
         "ropls"
@@ -2138,7 +2136,6 @@
         "clusterProfiler",
         "sva",
         "enrichplot",
-        "pathview",
         "apeglm",
         "GOSemSim",
         "geneplotter",
@@ -2483,7 +2480,6 @@
     "EGSEA": [
         "gage",
         "topGO",
-        "pathview",
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
@@ -2494,7 +2490,6 @@
         "EGSEA",
         "gage",
         "topGO",
-        "pathview",
         "PADOG",
         "GSVA",
         "SingleCellExperiment",
@@ -2531,9 +2526,7 @@
         "rtracklayer",
         "GenomicAlignments"
     ],
-    "EnrichmentBrowser": [
-        "pathview"
-    ],
+    "EnrichmentBrowser": [],
     "enrichplot": [
         "DOSE",
         "GOSemSim"
@@ -3109,7 +3102,6 @@
         "DESeq2",
         "clusterProfiler",
         "DOSE",
-        "pathview",
         "enrichplot",
         "GOSemSim",
         "geneplotter"
@@ -3361,8 +3353,7 @@
     "gscreend": [],
     "GSE13015": [],
     "GSEABenchmarkeR": [
-        "EnrichmentBrowser",
-        "pathview"
+        "EnrichmentBrowser"
     ],
     "gsean": [
         "PPInfer"
@@ -4142,7 +4133,6 @@
     "MAGeCKFlute": [
         "DOSE",
         "clusterProfiler",
-        "pathview",
         "enrichplot",
         "depmap",
         "GOSemSim"
@@ -5266,7 +5256,6 @@
         "DESeq2",
         "geneplotter"
     ],
-    "pathview": [],
     "pcaExplorer": [
         "DESeq2",
         "genefilter",
@@ -6858,7 +6847,6 @@
     ],
     "RnaSeqGeneEdgeRQL": [],
     "RNASeqR": [
-        "pathview",
         "ballgown",
         "DESeq2",
         "systemPipeR",
@@ -6970,9 +6958,7 @@
     ],
     "sampleClassifierData": [],
     "satuRn": [],
-    "SBGNview": [
-        "pathview"
-    ],
+    "SBGNview": [],
     "SC3": [
         "SingleCellExperiment"
     ],
@@ -7816,7 +7802,6 @@
     ],
     "TCGAbiolinks": [],
     "TCGAbiolinksGUI": [
-        "pathview",
         "ELMER",
         "clusterProfiler",
         "TCGAbiolinks",
@@ -8564,8 +8549,7 @@
         "SingleCellExperiment"
     ],
     "zenith": [
-        "EnrichmentBrowser",
-        "pathview"
+        "EnrichmentBrowser"
     ],
     "zFPKM": [],
     "zinbwave": [
