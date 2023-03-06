@@ -2250,7 +2250,6 @@
         "GSVA",
         "hgu133plus2.db"
     ],
-    "eisaR": [],
     "ELMER": [
         "GenomicFeatures",
         "TCGAbiolinks",
