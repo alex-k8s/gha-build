@@ -3396,9 +3396,7 @@
     "GSVA": [
         "SingleCellExperiment"
     ],
-    "GSVAdata": [
-        "hgu95a.db"
-    ],
+    "GSVAdata": [],
     "GUIDEseq": [
         "CRISPRseek",
         "ChIPpeakAnno",
@@ -3463,7 +3461,6 @@
     "hgu133a.db": [],
     "hgu133plus2.db": [],
     "hgu219.db": [],
-    "hgu95a.db": [],
     "hgu95b.db": [],
     "hgu95c.db": [],
     "hgu95d.db": [],
@@ -7473,7 +7470,6 @@
         "geneplotter",
         "GenomicFeatures",
         "rtracklayer",
-        "hgu95a.db",
         "genefilter",
         "GenomicAlignments"
     ],
