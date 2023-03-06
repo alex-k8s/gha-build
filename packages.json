@@ -3186,14 +3186,12 @@
     ],
     "miRSM": [
         "miRspongeR",
-        "SPONGE",
         "clusterProfiler",
         "ReactomePA",
         "enrichplot",
         "reactome.db"
     ],
     "miRspongeR": [
-        "SPONGE",
         "clusterProfiler",
         "ReactomePA",
         "enrichplot",
@@ -4793,7 +4791,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "SPONGE": [],
     "SpotClean": [
         "SpatialExperiment",
         "DropletUtils"
