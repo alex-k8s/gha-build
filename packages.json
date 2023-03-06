@@ -2028,9 +2028,7 @@
         "sva",
         "enrichplot"
     ],
-    "deco": [
-        "made4"
-    ],
+    "deco": [],
     "DEComplexDisease": [
         "DESeq2"
     ],
@@ -3731,7 +3729,6 @@
         "GenomicAlignments"
     ],
     "MACSr": [],
-    "made4": [],
     "MADSEQ": [
         "BSgenome",
         "BSgenome.Hsapiens.UCSC.hg19",
@@ -4759,16 +4756,13 @@
         "oligo"
     ],
     "OmaDB": [],
-    "omicade4": [
-        "made4"
-    ],
+    "omicade4": [],
     "omicplotR": [
         "ALDEx2"
     ],
     "omicRexposome": [
         "sva",
-        "omicade4",
-        "made4"
+        "omicade4"
     ],
     "OmicsLonDA": [],
     "OMICsPCA": [
