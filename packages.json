@@ -67,7 +67,6 @@
         "scater",
         "scuttle"
     ],
-    "airway": [],
     "ALDEx2": [],
     "AllelicImbalance": [
         "GenomicAlignments",
@@ -1695,7 +1694,6 @@
         "flowMerge"
     ],
     "consensusDE": [
-        "airway",
         "DESeq2",
         "EDASeq",
         "ensembldb",
@@ -4487,7 +4485,6 @@
         "GenomicAlignments"
     ],
     "NetActivity": [
-        "airway",
         "DESeq2"
     ],
     "netboxr": [
@@ -6006,7 +6003,6 @@
         "DESeq2"
     ],
     "rnaseqGene": [
-        "airway",
         "tximeta",
         "DESeq2",
         "ReportingTools",
