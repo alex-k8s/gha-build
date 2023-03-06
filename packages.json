@@ -3629,7 +3629,6 @@
         "genefilter",
         "geneplotter"
     ],
-    "IlluminaHumanMethylation27k.db": [],
     "IlluminaHumanMethylation27kanno.ilmn12.hg19": [
         "minfi",
         "bumphunter",
