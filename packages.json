@@ -1597,7 +1597,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "curatedAdipoChIP": [],
     "curatedMetagenomicData": [
         "TreeSummarizedExperiment",
         "mia",
