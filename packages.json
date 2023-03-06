@@ -2355,7 +2355,6 @@
         "ShortRead"
     ],
     "Glimma": [],
-    "GlobalAncova": [],
     "gmapR": [
         "rtracklayer",
         "GenomicFeatures",
