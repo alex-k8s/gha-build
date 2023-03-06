@@ -2786,7 +2786,6 @@
     "IdeoViz": [
         "rtracklayer"
     ],
-    "IgGeneUsage": [],
     "igvR": [
         "rtracklayer",
         "VariantAnnotation",
