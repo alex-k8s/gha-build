@@ -304,7 +304,6 @@
         "VariantAnnotation"
     ],
     "BioNAR": [],
-    "BioNERO": [],
     "biosigner": [],
     "BioTIP": [
         "scran"
@@ -923,7 +922,6 @@
     ],
     "cageminer": [
         "ggbio",
-        "BioNERO",
         "biovizBase",
         "BSgenome",
         "VariantAnnotation",
