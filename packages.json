@@ -4671,10 +4671,8 @@
         "GenomicFiles",
         "VariantAnnotation"
     ],
-    "singscore": [],
     "SingscoreAMLMutations": [
-        "rtracklayer",
-        "singscore"
+        "rtracklayer"
     ],
     "SISPA": [],
     "sitadela": [
@@ -4925,8 +4923,7 @@
     ],
     "TarSeqQC": [],
     "TBSignatureProfiler": [
-        "ASSIGN",
-        "singscore"
+        "ASSIGN"
     ],
     "TCC": [],
     "TCGAbiolinksGUI": [
