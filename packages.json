@@ -4465,7 +4465,6 @@
         "SingleCellExperiment",
         "scuttle"
     ],
-    "mslp": [],
     "MSnID": [],
     "MSPrep": [
         "sva"
