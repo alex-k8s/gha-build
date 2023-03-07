@@ -2648,7 +2648,6 @@
         "BSgenome"
     ],
     "NBSplice": [],
-    "ncGTW": [],
     "nearBynding": [
         "plyranges",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
