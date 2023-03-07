@@ -555,7 +555,6 @@
         "flowMerge"
     ],
     "consensusDE": [
-        "EDASeq",
         "ensembldb",
         "EnsDb.Hsapiens.v86",
         "RUVSeq",
@@ -645,9 +644,7 @@
         "VariantAnnotation",
         "bumphunter"
     ],
-    "DaMiRseq": [
-        "EDASeq"
-    ],
+    "DaMiRseq": [],
     "dasper": [],
     "decompTumor2Sig": [
         "BSgenome.Hsapiens.UCSC.hg19",
@@ -746,7 +743,6 @@
         "bsseq"
     ],
     "DvDdata": [],
-    "EDASeq": [],
     "EGSEA": [],
     "EGSEA123": [
         "EGSEA"
@@ -983,8 +979,7 @@
         "VariantAnnotation"
     ],
     "GARS": [
-        "DaMiRseq",
-        "EDASeq"
+        "DaMiRseq"
     ],
     "gcapc": [],
     "genbankr": [
@@ -1394,7 +1389,6 @@
     ],
     "metaseqR2": [
         "DSS",
-        "EDASeq",
         "bsseq"
     ],
     "metavizr": [
@@ -1662,8 +1656,7 @@
     "nullranges": [],
     "NxtIRFcore": [],
     "octad": [
-        "RUVSeq",
-        "EDASeq"
+        "RUVSeq"
     ],
     "ODER": [
         "dasper",
@@ -1913,7 +1906,6 @@
         "ensembldb"
     ],
     "ribosomeProfilingQC": [
-        "EDASeq",
         "motifStack",
         "RUVSeq",
         "TFBSTools"
@@ -1992,7 +1984,6 @@
         "ensembldb",
         "biovizBase",
         "ggbio",
-        "EDASeq",
         "VariantAnnotation",
         "OrganismDbi"
     ],
@@ -2022,9 +2013,7 @@
         "TCGAutils"
     ],
     "rTRMui": [],
-    "RUVSeq": [
-        "EDASeq"
-    ],
+    "RUVSeq": [],
     "scanMiRApp": [
         "ensembldb"
     ],
@@ -2035,8 +2024,7 @@
         "regioneR"
     ],
     "scone": [
-        "RUVSeq",
-        "EDASeq"
+        "RUVSeq"
     ],
     "SCOPE": [
         "BSgenome.Hsapiens.UCSC.hg19"
@@ -2200,8 +2188,7 @@
         "VariantAnnotation"
     ],
     "standR": [
-        "RUVSeq",
-        "EDASeq"
+        "RUVSeq"
     ],
     "STexampleData": [],
     "stJoincount": [],
