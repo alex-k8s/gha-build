@@ -1692,7 +1692,6 @@
         "VariantAnnotation",
         "BSgenome"
     ],
-    "GmicR": [],
     "gmoviz": [
         "GenomicFeatures"
     ],
