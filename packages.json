@@ -19,7 +19,6 @@
         "Homo.sapiens"
     ],
     "AnnotationHubData": [],
-    "annotatr": [],
     "appreci8R": [
         "Homo.sapiens",
         "MafDb.1Kgenomes.phase3.hs37d5",
@@ -88,8 +87,7 @@
     "biscuiteer": [
         "Mus.musculus",
         "Homo.sapiens",
-        "dmrseq",
-        "annotatr"
+        "dmrseq"
     ],
     "BitSeq": [],
     "BOBaFIT": [
@@ -352,9 +350,7 @@
     "DMRforPairs": [
         "Gviz"
     ],
-    "dmrseq": [
-        "annotatr"
-    ],
+    "dmrseq": [],
     "DominoEffect": [],
     "drugTargetInteractions": [],
     "DSS": [],
@@ -1086,9 +1082,7 @@
     "RUVSeq": [],
     "scanMiRApp": [],
     "sccomp": [],
-    "scmeth": [
-        "annotatr"
-    ],
+    "scmeth": [],
     "scone": [
         "RUVSeq"
     ],
