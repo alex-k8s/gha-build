@@ -184,7 +184,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
-        "goseq",
         "missMethyl",
         "DSS",
         "Gviz",
@@ -496,7 +495,6 @@
     "GenVisR": [],
     "ggbio": [],
     "gmapR": [],
-    "goseq": [],
     "GSReg": [
         "Homo.sapiens"
     ],
@@ -528,9 +526,7 @@
         "minfi"
     ],
     "iCNV": [],
-    "ideal": [
-        "goseq"
-    ],
+    "ideal": [],
     "igvR": [],
     "IlluminaHumanMethylation27kanno.ilmn12.hg19": [
         "minfi"
@@ -968,9 +964,7 @@
     "RESOLVE": [],
     "RgnTX": [],
     "rGREAT": [],
-    "rgsepd": [
-        "goseq"
-    ],
+    "rgsepd": [],
     "Rhisat2": [],
     "RiboCrypt": [],
     "RiboProfiling": [
@@ -1099,8 +1093,7 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "SMITE": [
-        "reactome.db",
-        "goseq"
+        "reactome.db"
     ],
     "SNPhood": [],
     "SNPlocs.Hsapiens.dbSNP150.GRCh38": [],
