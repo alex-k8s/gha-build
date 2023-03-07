@@ -266,7 +266,6 @@
     "COCOA": [
         "MIRA"
     ],
-    "CODEX": [],
     "Cogito": [],
     "comapr": [
         "Gviz",
@@ -610,9 +609,7 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
-    "iCNV": [
-        "CODEX"
-    ],
+    "iCNV": [],
     "ideal": [
         "goseq"
     ],
