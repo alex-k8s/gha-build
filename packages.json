@@ -1846,7 +1846,6 @@
     "PolyPhen.Hsapiens.dbSNP131": [
         "VariantAnnotation"
     ],
-    "pram": [],
     "preciseTAD": [
         "rCGH",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
