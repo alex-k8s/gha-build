@@ -253,10 +253,7 @@
     "BSgenome.Dmelanogaster.UCSC.dm2.masked": [
         "BSgenome.Dmelanogaster.UCSC.dm2"
     ],
-    "BSgenome.Dmelanogaster.UCSC.dm3": [],
-    "BSgenome.Dmelanogaster.UCSC.dm3.masked": [
-        "BSgenome.Dmelanogaster.UCSC.dm3"
-    ],
+    "BSgenome.Dmelanogaster.UCSC.dm3.masked": [],
     "BSgenome.Dmelanogaster.UCSC.dm6": [],
     "BSgenome.Drerio.UCSC.danRer10": [],
     "BSgenome.Drerio.UCSC.danRer11": [],
