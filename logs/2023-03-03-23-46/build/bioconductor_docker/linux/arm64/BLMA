@@ -1,0 +1,130 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BLMA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'BLMA'
+also installing the dependencies ‘metadat’, ‘mathjaxr’, ‘pbapply’, ‘metafor’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/metadat_1.2-0.tar.gz'
+Content type 'binary/octet-stream' length 964852 bytes (942 KB)
+==================================================
+downloaded 942 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/mathjaxr_1.6-0.tar.gz'
+Content type 'binary/octet-stream' length 1050646 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/pbapply_1.7-0.tar.gz'
+Content type 'binary/octet-stream' length 23671 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/metafor_3.8-1.tar.gz'
+Content type 'binary/octet-stream' length 3437861 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/BLMA_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 2802381 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+* installing *source* package ‘mathjaxr’ ...
+** package ‘mathjaxr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+** arch - 
+# install.libs.R will minify the Javascript if js is installed
+installing via 'install.libs.R' to /tmp/built/00LOCK-mathjaxr/00new/mathjaxr
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mathjaxr’ as ‘mathjaxr_1.6-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (mathjaxr)
+* installing *source* package ‘pbapply’ ...
+** package ‘pbapply’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pbapply’ as ‘pbapply_1.7-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pbapply)
+* installing *source* package ‘metadat’ ...
+** package ‘metadat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘metadat’ as ‘metadat_1.2-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (metadat)
+* installing *source* package ‘metafor’ ...
+** package ‘metafor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘metafor’ as ‘metafor_3.8-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (metafor)
+* installing *source* package ‘BLMA’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BLMA’ as ‘BLMA_1.22.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BLMA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp3XIQ9B/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	9m8.097s
+user	8m57.257s
+sys	0m5.020s
