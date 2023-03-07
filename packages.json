@@ -200,9 +200,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "bandle": [
-        "pRoloc"
-    ],
+    "bandle": [],
     "basecallQC": [
         "ShortRead"
     ],
@@ -3488,10 +3486,7 @@
         "chipseq",
         "ShortRead"
     ],
-    "pRoloc": [],
-    "pRolocGUI": [
-        "pRoloc"
-    ],
+    "pRolocGUI": [],
     "PROPS": [],
     "proteasy": [
         "ensembldb",
