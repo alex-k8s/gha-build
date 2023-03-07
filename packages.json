@@ -795,7 +795,6 @@
         "ReactomePA",
         "reactome.db"
     ],
-    "EpiMix": [],
     "epimutacions": [
         "minfi",
         "bumphunter",
