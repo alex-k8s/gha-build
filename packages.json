@@ -315,12 +315,10 @@
     ],
     "cbaf": [
         "cBioPortalData",
-        "RTCGAToolbox",
-        "TCGAutils"
+        "RTCGAToolbox"
     ],
     "cBioPortalData": [
-        "RTCGAToolbox",
-        "TCGAutils"
+        "RTCGAToolbox"
     ],
     "CexoR": [],
     "cfDNAPro": [],
@@ -1033,7 +1031,6 @@
         "cBioPortalData",
         "motifStack",
         "RTCGAToolbox",
-        "TCGAutils",
         "TFBSTools"
     ],
     "lumi": [
@@ -1722,9 +1719,7 @@
         "GenomicFiles",
         "VariantAnnotation"
     ],
-    "RTCGAToolbox": [
-        "TCGAutils"
-    ],
+    "RTCGAToolbox": [],
     "RUVSeq": [],
     "scanMiRApp": [],
     "sccomp": [],
@@ -1903,12 +1898,9 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "TCGAutils": [],
     "TDARACNE": [],
     "TENxVisiumData": [],
-    "terraTCGAdata": [
-        "TCGAutils"
-    ],
+    "terraTCGAdata": [],
     "TFBSTools": [],
     "TFHAZ": [
         "ORFik"
