@@ -3795,7 +3795,6 @@
         "BSgenome",
         "ensembldb"
     ],
-    "Risa": [],
     "RITAN": [
         "GenomicFeatures",
         "ensembldb",
