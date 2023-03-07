@@ -3399,7 +3399,6 @@
         "EDASeq",
         "GenomicFeatures"
     ],
-    "staRank": [],
     "StarBioTrek": [],
     "STexampleData": [
         "SpatialExperiment"
