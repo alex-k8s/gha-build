@@ -29,11 +29,11 @@ packaged installation of ‘GenomicFeatures’ as ‘GenomicFeatures_1.50.4_R_aa
 * DONE (GenomicFeatures)
 
 The downloaded source packages are in
-	‘/tmp/RtmpqbFtpZ/downloaded_packages’
+	‘/tmp/RtmpxBGCSu/downloaded_packages’
 Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
   'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
   'mgcv', 'nlme', 'survival'
 
-real	4m46.416s
-user	4m42.155s
-sys	0m2.572s
+real	5m47.202s
+user	5m42.560s
+sys	0m3.532s
