@@ -460,8 +460,7 @@
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "TxDb.Rnorvegicus.UCSC.rn4.ensGene",
         "TxDb.Celegans.UCSC.ce6.ensGene",
-        "TxDb.Dmelanogaster.UCSC.dm3.ensGene",
-        "GreyListChIP"
+        "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
     ],
     "ChIPseeker": [
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
@@ -681,9 +680,7 @@
         "ensembldb",
         "regioneR"
     ],
-    "DiffBind": [
-        "GreyListChIP"
-    ],
+    "DiffBind": [],
     "diffUTR": [
         "ensembldb"
     ],
@@ -793,9 +790,7 @@
         "genomation",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "epigraHMM": [
-        "GreyListChIP"
-    ],
+    "epigraHMM": [],
     "epihet": [
         "ReactomePA",
         "reactome.db"
@@ -1044,7 +1039,6 @@
         "geneLenDataBase"
     ],
     "GOTHiC": [],
-    "GreyListChIP": [],
     "GSReg": [
         "Homo.sapiens",
         "OrganismDbi",
@@ -2374,8 +2368,7 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "DiffBind",
         "ensembldb",
-        "regioneR",
-        "GreyListChIP"
+        "regioneR"
     ],
     "wateRmelon": [
         "methylumi",
