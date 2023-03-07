@@ -495,7 +495,6 @@
         "GenomicInteractions",
         "Gviz"
     ],
-    "HiLDA": [],
     "hiReadsProcessor": [],
     "Homo.sapiens": [],
     "HTSeqGenie": [
@@ -1026,9 +1025,7 @@
     "segmenter": [
         "ChIPseeker"
     ],
-    "selectKSigs": [
-        "HiLDA"
-    ],
+    "selectKSigs": [],
     "seqCAT": [],
     "sequencing": [],
     "shinyepico": [
