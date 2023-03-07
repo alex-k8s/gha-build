@@ -2365,7 +2365,6 @@
         "bsseq",
         "BSgenome"
     ],
-    "miRLAB": [],
     "miRSM": [
         "miRspongeR",
         "ReactomePA",
