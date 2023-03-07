@@ -2246,7 +2246,6 @@
     "TxDb.Ptroglodytes.UCSC.panTro6.refGene": [],
     "TxDb.Rnorvegicus.UCSC.rn5.refGene": [],
     "TxDb.Rnorvegicus.UCSC.rn6.ncbiRefSeq": [],
-    "TxDb.Rnorvegicus.UCSC.rn7.refGene": [],
     "TxDb.Sscrofa.UCSC.susScr3.refGene": [],
     "tximeta": [
         "ensembldb"
