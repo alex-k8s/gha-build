@@ -165,10 +165,7 @@
     "BSgenome.Btaurus.UCSC.bosTau6.masked": [],
     "BSgenome.Btaurus.UCSC.bosTau9.masked": [],
     "BSgenome.Cfamiliaris.UCSC.canFam2.masked": [],
-    "BSgenome.Cfamiliaris.UCSC.canFam3": [],
-    "BSgenome.Cfamiliaris.UCSC.canFam3.masked": [
-        "BSgenome.Cfamiliaris.UCSC.canFam3"
-    ],
+    "BSgenome.Cfamiliaris.UCSC.canFam3.masked": [],
     "BSgenome.Cjacchus.UCSC.calJac4": [],
     "BSgenome.Dmelanogaster.UCSC.dm2.masked": [],
     "BSgenome.Dmelanogaster.UCSC.dm3.masked": [],
