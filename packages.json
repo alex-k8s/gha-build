@@ -771,7 +771,6 @@
         "TCGAutils",
         "GenomicFeatures"
     ],
-    "ccTutorial": [],
     "celda": [
         "scran"
     ],
