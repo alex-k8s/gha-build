@@ -280,10 +280,7 @@
     "BSgenome.Gmax.NCBI.Gmv40": [],
     "BSgenome.Hsapiens.NCBI.GRCh38": [],
     "BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0": [],
-    "BSgenome.Hsapiens.UCSC.hg17": [],
-    "BSgenome.Hsapiens.UCSC.hg17.masked": [
-        "BSgenome.Hsapiens.UCSC.hg17"
-    ],
+    "BSgenome.Hsapiens.UCSC.hg17.masked": [],
     "BSgenome.Hsapiens.UCSC.hg18": [],
     "BSgenome.Hsapiens.UCSC.hg18.masked": [
         "BSgenome.Hsapiens.UCSC.hg18"
