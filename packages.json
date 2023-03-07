@@ -312,7 +312,6 @@
     "enrichTF": [],
     "EnsDb.Hsapiens.v75": [],
     "EnsDb.Mmusculus.v79": [],
-    "EnsDb.Rnorvegicus.v79": [],
     "EpiCompare": [],
     "epigraHMM": [],
     "epihet": [
@@ -800,8 +799,7 @@
         "rGREAT"
     ],
     "proteasy": [
-        "EnsDb.Mmusculus.v79",
-        "EnsDb.Rnorvegicus.v79"
+        "EnsDb.Mmusculus.v79"
     ],
     "ProteoDisco": [],
     "psichomics": [
