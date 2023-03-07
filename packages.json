@@ -837,7 +837,6 @@
     "genbankr": [
         "VariantAnnotation"
     ],
-    "geneAttribution": [],
     "geneLenDataBase": [],
     "generegulation": [
         "BSgenome.Scerevisiae.UCSC.sacCer3",
