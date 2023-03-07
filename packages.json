@@ -2116,7 +2116,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "roar": [],
     "Rqc": [
         "biovizBase",
         "GenomicFiles",
