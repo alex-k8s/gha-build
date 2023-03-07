@@ -697,7 +697,6 @@
         "openCyto",
         "flowClust"
     ],
-    "dada2": [],
     "dagLogo": [
         "motifStack",
         "TFBSTools"
@@ -1941,9 +1940,7 @@
         "OrganismDbi",
         "TxDb.Rnorvegicus.UCSC.rn5.refGene"
     ],
-    "Rbec": [
-        "dada2"
-    ],
+    "Rbec": [],
     "Rbwa": [],
     "RCAS": [
         "BSgenome.Hsapiens.UCSC.hg19",
