@@ -203,9 +203,7 @@
     ],
     "chipenrich": [],
     "ChIPexoQual": [],
-    "ChIPQC": [
-        "DiffBind"
-    ],
+    "ChIPQC": [],
     "ChIPseeker": [],
     "ChIPXpress": [
         "ChIPXpressData"
@@ -318,7 +316,6 @@
         "GenomicFiles"
     ],
     "DEScan2": [],
-    "DiffBind": [],
     "diffUTR": [],
     "DMRcate": [
         "DSS",
@@ -1207,9 +1204,7 @@
     "vtpnet": [
         "gwascat"
     ],
-    "vulcan": [
-        "DiffBind"
-    ],
+    "vulcan": [],
     "wateRmelon": [
         "methylumi",
         "lumi",
