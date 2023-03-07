@@ -992,7 +992,6 @@
         "clusterProfiler"
     ],
     "condiments": [
-        "slingshot",
         "distinct"
     ],
     "CONFESS": [
@@ -3434,7 +3433,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "slingshot": [],
     "SMITE": [
         "reactome.db",
         "goseq",
@@ -3661,9 +3659,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "tradeSeq": [
-        "slingshot"
-    ],
+    "tradeSeq": [],
     "transcriptR": [
         "chipseq",
         "GenomicFeatures"
@@ -3674,9 +3670,7 @@
         "BSgenome"
     ],
     "Travel": [],
-    "traviz": [
-        "slingshot"
-    ],
+    "traviz": [],
     "trena": [
         "MotifDb",
         "BSgenome",
