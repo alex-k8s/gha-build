@@ -3476,7 +3476,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "ToxicoGx": [],
     "trackViewer": [
         "GenomicFeatures",
         "Gviz",
