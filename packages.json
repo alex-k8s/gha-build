@@ -21,8 +21,7 @@
     "AnnotationHubData": [],
     "appreci8R": [
         "Homo.sapiens",
-        "MafDb.1Kgenomes.phase3.hs37d5",
-        "SIFT.Hsapiens.dbSNP137"
+        "MafDb.1Kgenomes.phase3.hs37d5"
     ],
     "ArrayExpressHTS": [],
     "arrayMvout": [
@@ -961,7 +960,6 @@
         "IlluminaHumanMethylation450kmanifest"
     ],
     "SIFT.Hsapiens.dbSNP132": [],
-    "SIFT.Hsapiens.dbSNP137": [],
     "signatureSearch": [
         "reactome.db"
     ],
