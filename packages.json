@@ -179,16 +179,11 @@
         "BSgenome.Ecoli.NCBI.20080805",
         "BSgenome"
     ],
-    "BASiCS": [
-        "scran"
-    ],
+    "BASiCS": [],
     "BASiCStan": [
-        "BASiCS",
-        "scran"
+        "BASiCS"
     ],
-    "BayesSpace": [
-        "scran"
-    ],
+    "BayesSpace": [],
     "BBCAnalyzer": [
         "VariantAnnotation",
         "BSgenome",
@@ -246,9 +241,7 @@
         "VariantAnnotation"
     ],
     "biosigner": [],
-    "BioTIP": [
-        "scran"
-    ],
+    "BioTIP": [],
     "biovizBase": [
         "GenomicFeatures",
         "VariantAnnotation",
@@ -769,9 +762,7 @@
         "TCGAutils",
         "GenomicFeatures"
     ],
-    "celda": [
-        "scran"
-    ],
+    "celda": [],
     "CellBarcode": [],
     "CelliD": [],
     "CellMixS": [],
@@ -874,9 +865,7 @@
     ],
     "ChIPXpressData": [],
     "ChromHeatMap": [],
-    "ChromSCape": [
-        "scran"
-    ],
+    "ChromSCape": [],
     "chromswitch": [],
     "chromVAR": [
         "TFBSTools",
@@ -903,9 +892,7 @@
         "GenomicFeatures",
         "SGSeq"
     ],
-    "CiteFuse": [
-        "scran"
-    ],
+    "CiteFuse": [],
     "cleanUpdTSeq": [
         "BSgenome.Drerio.UCSC.danRer7",
         "BSgenome"
@@ -988,7 +975,6 @@
         "VariantAnnotation"
     ],
     "conclus": [
-        "scran",
         "clusterProfiler"
     ],
     "condiments": [
@@ -1220,9 +1206,7 @@
         "ensembldb",
         "GenomicFeatures"
     ],
-    "Dino": [
-        "scran"
-    ],
+    "Dino": [],
     "distinct": [],
     "DMCFB": [],
     "DMCHMM": [],
@@ -1578,7 +1562,6 @@
         "bambu",
         "GenomicFeatures",
         "ggbio",
-        "scran",
         "BSgenome",
         "biovizBase",
         "VariantAnnotation",
@@ -1985,8 +1968,7 @@
     "ipdDb": [],
     "IPO": [],
     "IRISFGM": [
-        "clusterProfiler",
-        "scran"
+        "clusterProfiler"
     ],
     "ISAnalytics": [],
     "iSEEu": [],
@@ -2552,9 +2534,7 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "msImpute": [
-        "scran"
-    ],
+    "msImpute": [],
     "Mu22v3.db": [],
     "MultiBaC": [],
     "multicrispr": [
@@ -2574,9 +2554,7 @@
         "ReactomePA",
         "reactome.db"
     ],
-    "mumosa": [
-        "scran"
-    ],
+    "mumosa": [],
     "MungeSumstats": [
         "BSgenome",
         "VariantAnnotation",
@@ -2778,9 +2756,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "pipeComp": [
-        "scran"
-    ],
+    "pipeComp": [],
     "pipeFrame": [
         "BSgenome"
     ],
@@ -3257,12 +3233,8 @@
     "scBFA": [],
     "scCB2": [],
     "sccomp": [],
-    "scDblFinder": [
-        "scran"
-    ],
-    "scDD": [
-        "scran"
-    ],
+    "scDblFinder": [],
+    "scDD": [],
     "scmeth": [
         "bsseq",
         "BSgenome",
@@ -3285,7 +3257,6 @@
         "GenomicFeatures"
     ],
     "scPipe": [],
-    "scran": [],
     "scRNAseq": [
         "ensembldb",
         "GenomicFeatures"
@@ -3306,7 +3277,6 @@
     "scTGIF": [],
     "scTreeViz": [
         "epivizr",
-        "scran",
         "epivizrData",
         "bumphunter",
         "OrganismDbi",
@@ -3391,12 +3361,9 @@
     "SingleCellMultiModal": [
         "SpatialExperiment"
     ],
-    "SingleCellSignalR": [
-        "scran"
-    ],
+    "SingleCellSignalR": [],
     "singleCellTK": [
         "ensembldb",
-        "scran",
         "celda",
         "scRNAseq",
         "scDblFinder",
@@ -3468,9 +3435,7 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "Spaniel": [
-        "scran"
-    ],
+    "Spaniel": [],
     "SparseSignatures": [
         "BSgenome"
     ],
@@ -3484,9 +3449,7 @@
     "SpatialFeatureExperiment": [
         "SpatialExperiment"
     ],
-    "spatialHeatmap": [
-        "scran"
-    ],
+    "spatialHeatmap": [],
     "spatialLIBD": [
         "SpatialExperiment"
     ],
