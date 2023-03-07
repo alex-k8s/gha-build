@@ -320,10 +320,7 @@
     "BSgenome.Ptroglodytes.UCSC.panTro2.masked": [
         "BSgenome.Ptroglodytes.UCSC.panTro2"
     ],
-    "BSgenome.Ptroglodytes.UCSC.panTro3": [],
-    "BSgenome.Ptroglodytes.UCSC.panTro3.masked": [
-        "BSgenome.Ptroglodytes.UCSC.panTro3"
-    ],
+    "BSgenome.Ptroglodytes.UCSC.panTro3.masked": [],
     "BSgenome.Ptroglodytes.UCSC.panTro5": [],
     "BSgenome.Ptroglodytes.UCSC.panTro6": [],
     "BSgenome.Rnorvegicus.UCSC.rn4": [],
