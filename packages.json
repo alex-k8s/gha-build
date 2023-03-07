@@ -769,7 +769,6 @@
     "musicatk": [
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
-    "MutationalPatterns": [],
     "mvoutData": [
         "lumi",
         "methylumi",
