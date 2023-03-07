@@ -710,9 +710,7 @@
         "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
-    "MinimumDistance": [
-        "VanillaICE"
-    ],
+    "MinimumDistance": [],
     "MIRA": [],
     "miRSM": [
         "miRspongeR",
@@ -1048,7 +1046,6 @@
         "DeepPINCS",
         "ttgsea"
     ],
-    "VanillaICE": [],
     "VariantFiltering": [
         "Gviz"
     ],
