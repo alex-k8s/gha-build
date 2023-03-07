@@ -873,8 +873,7 @@
     "ChIPseqR": [],
     "ChIPsim": [],
     "ChIPXpress": [
-        "ChIPXpressData",
-        "frma"
+        "ChIPXpressData"
     ],
     "ChIPXpressData": [],
     "ChromHeatMap": [],
@@ -1212,9 +1211,7 @@
         "regioneR",
         "BSgenome"
     ],
-    "DeSousa2013": [
-        "frma"
-    ],
+    "DeSousa2013": [],
     "DEsubs": [],
     "DiffBind": [
         "systemPipeR",
@@ -1645,7 +1642,6 @@
         "GenomicFeatures",
         "OUTRIDER"
     ],
-    "frma": [],
     "funtooNorm": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
@@ -2984,9 +2980,7 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "phastCons100way.UCSC.hg19"
     ],
-    "rat2302frmavecs": [
-        "frma"
-    ],
+    "rat2302frmavecs": [],
     "Rattus.norvegicus": [
         "OrganismDbi",
         "GenomicFeatures",
