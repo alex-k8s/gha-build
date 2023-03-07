@@ -281,10 +281,7 @@
     "BSgenome.Hsapiens.NCBI.GRCh38": [],
     "BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0": [],
     "BSgenome.Hsapiens.UCSC.hg17.masked": [],
-    "BSgenome.Hsapiens.UCSC.hg18": [],
-    "BSgenome.Hsapiens.UCSC.hg18.masked": [
-        "BSgenome.Hsapiens.UCSC.hg18"
-    ],
+    "BSgenome.Hsapiens.UCSC.hg18.masked": [],
     "BSgenome.Hsapiens.UCSC.hg19": [],
     "BSgenome.Hsapiens.UCSC.hg19.masked": [
         "BSgenome.Hsapiens.UCSC.hg19"
@@ -1548,8 +1545,7 @@
         "bumphunter"
     ],
     "MinimumDistance": [
-        "VanillaICE",
-        "BSgenome.Hsapiens.UCSC.hg18"
+        "VanillaICE"
     ],
     "MIRA": [
         "bsseq"
@@ -2388,9 +2384,7 @@
         "DeepPINCS",
         "ttgsea"
     ],
-    "VanillaICE": [
-        "BSgenome.Hsapiens.UCSC.hg18"
-    ],
+    "VanillaICE": [],
     "VarCon": [],
     "VariantAnnotation": [],
     "VariantFiltering": [
