@@ -207,9 +207,7 @@
     "cicero": [
         "Gviz"
     ],
-    "circRNAprofiler": [
-        "gwascat"
-    ],
+    "circRNAprofiler": [],
     "CircSeqAlignTk": [
         "Rhisat2"
     ],
@@ -486,7 +484,6 @@
     ],
     "GUIDEseq": [],
     "Gviz": [],
-    "gwascat": [],
     "HiCDCPlus": [
         "GenomicInteractions",
         "Gviz"
@@ -555,7 +552,6 @@
     "LEA": [],
     "LiebermanAidenHiC2009": [],
     "liftOver": [
-        "gwascat",
         "Homo.sapiens"
     ],
     "lineagespot": [],
@@ -1146,9 +1142,7 @@
     "VariantToolsData": [],
     "VCFArray": [],
     "Voyager": [],
-    "vtpnet": [
-        "gwascat"
-    ],
+    "vtpnet": [],
     "vulcan": [],
     "wateRmelon": [
         "methylumi",
