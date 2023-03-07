@@ -276,7 +276,6 @@
     "ChIPpeakAnno": [],
     "ChIPQC": [
         "DiffBind",
-        "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
     "ChIPseeker": [],
@@ -496,7 +495,6 @@
         "bumphunter",
         "Homo.sapiens",
         "Gviz",
-        "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
@@ -555,9 +553,7 @@
     ],
     "fCCAC": [],
     "fcScan": [],
-    "FDb.InfiniumMethylation.hg18": [
-        "TxDb.Hsapiens.UCSC.hg18.knownGene"
-    ],
+    "FDb.InfiniumMethylation.hg18": [],
     "FDb.InfiniumMethylation.hg19": [],
     "FDb.UCSC.tRNAs": [],
     "ffpe": [
@@ -1141,7 +1137,6 @@
     "PolyPhen.Hsapiens.dbSNP131": [],
     "preciseTAD": [
         "rCGH",
-        "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "primirTSS": [
@@ -1196,7 +1191,6 @@
     "Rbwa": [],
     "RCAS": [],
     "rCGH": [
-        "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "RcisTarget": [],
@@ -1499,7 +1493,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "TxDb.Hsapiens.UCSC.hg18.knownGene": [],
     "TxDb.Hsapiens.UCSC.hg38.knownGene": [],
     "TxDb.Mmusculus.UCSC.mm10.ensGene": [],
     "TxDb.Mmusculus.UCSC.mm10.knownGene": [],
