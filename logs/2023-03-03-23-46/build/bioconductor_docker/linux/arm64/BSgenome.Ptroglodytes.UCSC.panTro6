@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BSgenome.Ptroglodytes.UCSC.panTro6'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'BSgenome.Ptroglodytes.UCSC.panTro6'
+also installing the dependency ‘BSgenome’
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/BSgenome_1.66.3.tar.gz'
+Content type 'application/x-gzip' length 5907880 bytes (5.6 MB)
+==================================================
+downloaded 5.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/BSgenome.Ptroglodytes.UCSC.panTro6_1.4.2.tar.gz'
+Content type 'application/x-gzip' length 696963962 bytes (664.7 MB)
+==================================================
+downloaded 664.7 MB
+
+* installing *source* package ‘BSgenome’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome’ as ‘BSgenome_1.66.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BSgenome)
+* installing *source* package ‘BSgenome.Ptroglodytes.UCSC.panTro6’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Ptroglodytes.UCSC.panTro6’ as ‘BSgenome.Ptroglodytes.UCSC.panTro6_1.4.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BSgenome.Ptroglodytes.UCSC.panTro6)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHGVYwp/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	21m15.983s
+user	20m59.965s
+sys	0m13.467s
