@@ -1,0 +1,38 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BSgenome.Ptroglodytes.UCSC.panTro3.masked'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'BSgenome.Ptroglodytes.UCSC.panTro3.masked'
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/BSgenome.Ptroglodytes.UCSC.panTro3.masked_1.3.99.tar.gz'
+Content type 'application/x-gzip' length 21936665 bytes (20.9 MB)
+==================================================
+downloaded 20.9 MB
+
+* installing *source* package ‘BSgenome.Ptroglodytes.UCSC.panTro3.masked’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Ptroglodytes.UCSC.panTro3.masked’ as ‘BSgenome.Ptroglodytes.UCSC.panTro3.masked_1.3.99_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BSgenome.Ptroglodytes.UCSC.panTro3.masked)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpjlot85/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	3m46.652s
+user	3m42.853s
+sys	0m2.348s
