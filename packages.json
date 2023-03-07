@@ -697,7 +697,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
-    "microbiomeMarker": [],
     "MineICA": [
         "lumi",
         "methylumi",
