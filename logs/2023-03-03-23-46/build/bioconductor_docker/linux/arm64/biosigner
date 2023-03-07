@@ -1,0 +1,384 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''biosigner'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'biosigner'
+also installing the dependencies ‘proxy’, ‘e1071’, ‘randomForest’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'binary/octet-stream' length 75015 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/e1071_1.7-13.tar.gz'
+Content type 'binary/octet-stream' length 314513 bytes (307 KB)
+==================================================
+downloaded 307 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/randomForest_4.7-1.1.tar.gz'
+Content type 'binary/octet-stream' length 81712 bytes (79 KB)
+==================================================
+downloaded 79 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/biosigner_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 4417841 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dll.c -o dll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘randomForest’ ...
+** package ‘randomForest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c classTree.c -o classTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c regTree.c -o regTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c regrf.c -o regrf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rf.c -o rf.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c rfsub.f -o rfsub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rfutils.c -o rfutils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o randomForest.so classTree.o init.o regTree.o regrf.o rf.o rfsub.o rfutils.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-randomForest/00new/randomForest/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘randomForest’ as ‘randomForest_4.7-1.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (randomForest)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmeans.c -o cmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cshell.c -o cshell.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c floyd.c -o floyd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘biosigner’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘biosigner’ as ‘biosigner_1.26.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (biosigner)
+
+The downloaded source packages are in
+	‘/tmp/RtmpeQubS2/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	5m46.898s
+user	5m36.388s
+sys	0m5.777s
+* installing *source* package ‘iterators’ ...
+** package ‘iterators’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *source* package ‘entropy’ ...
+** package ‘entropy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘entropy’ as ‘entropy_1.3.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (entropy)
+* installing *source* package ‘shape’ ...
+** package ‘shape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘fdrtool’ ...
+** package ‘fdrtool’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fdrtool_init.c -o fdrtool_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isomean.c -o isomean.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fdrtool.so fdrtool_init.o isomean.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-fdrtool/00new/fdrtool/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fdrtool’ as ‘fdrtool_1.2.17_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (fdrtool)
+* installing *source* package ‘corpcor’ ...
+** package ‘corpcor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘corpcor’ as ‘corpcor_1.6.10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (corpcor)
+* installing *source* package ‘pls’ ...
+** package ‘pls’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pls’ as ‘pls_2.8-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pls)
+* installing *source* package ‘foreach’ ...
+** package ‘foreach’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *source* package ‘sda’ ...
+** package ‘sda’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sda’ as ‘sda_1.3.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sda)
+* installing *source* package ‘glmnet’ ...
+** package ‘glmnet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c coxnet5dpclean.f -o coxnet5dpclean.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c elnet_exp.cpp -o elnet_exp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c glmnet_init.cpp -o glmnet_init.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internal.cpp -o internal.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pb.c -o pb.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pb_exp.cpp -o pb_exp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wls_exp.cpp -o wls_exp.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o glmnet.so RcppExports.o coxnet5dpclean.o elnet_exp.o glmnet_init.o internal.o pb.o pb_exp.o wls_exp.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-glmnet/00new/glmnet/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘glmnet’ as ‘glmnet_4.1-6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (glmnet)
+* installing *source* package ‘st’ ...
+** package ‘st’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘st’ as ‘st_1.2.7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (st)
+* installing *source* package ‘BioMark’ ...
+** package ‘BioMark’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BioMark’ as ‘BioMark_0.4.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BioMark)
+* installing *source* package ‘sda’ ...
+** package ‘sda’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sda’ as ‘sda_1.3.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sda)
+* installing *source* package ‘st’ ...
+** package ‘st’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘st’ as ‘st_1.2.7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (st)

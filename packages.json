@@ -239,7 +239,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "biosigner": [],
     "BioTIP": [],
     "biovizBase": [
         "GenomicFeatures",
@@ -2508,7 +2507,6 @@
         "ensembldb"
     ],
     "multiSight": [
-        "biosigner",
         "ReactomePA",
         "reactome.db"
     ],
