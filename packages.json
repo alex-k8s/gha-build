@@ -1780,10 +1780,7 @@
     "nullranges": [
         "plyranges"
     ],
-    "NxtIRFcore": [
-        "NxtIRFdata"
-    ],
-    "NxtIRFdata": [],
+    "NxtIRFcore": [],
     "octad": [
         "RUVSeq",
         "EDASeq"
@@ -2342,9 +2339,7 @@
     "SPIAT": [],
     "spicyR": [],
     "spiky": [],
-    "SpliceWiz": [
-        "NxtIRFdata"
-    ],
+    "SpliceWiz": [],
     "SplicingGraphs": [],
     "SPLINTER": [
         "Gviz",
