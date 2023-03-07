@@ -1979,7 +1979,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "LOBSTAHS": [],
     "LowMACA": [
         "cBioPortalData",
         "motifStack",
@@ -2749,9 +2748,7 @@
         "VariantAnnotation",
         "BSgenome"
     ],
-    "PtH2O2lipids": [
-        "LOBSTAHS"
-    ],
+    "PtH2O2lipids": [],
     "pumadata": [],
     "PureCN": [
         "VariantAnnotation",
