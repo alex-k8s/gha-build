@@ -64,7 +64,6 @@
         "Homo.sapiens",
         "Mus.musculus",
         "OrganismDbi",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "ATACseqQC": [
@@ -119,8 +118,7 @@
         "dmrseq",
         "bumphunter",
         "annotatr",
-        "OrganismDbi",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene"
+        "OrganismDbi"
     ],
     "BitSeq": [],
     "BOBaFIT": [
@@ -275,8 +273,7 @@
     ],
     "ChIPpeakAnno": [],
     "ChIPQC": [
-        "DiffBind",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene"
+        "DiffBind"
     ],
     "ChIPseeker": [],
     "ChIPXpress": [
@@ -1056,8 +1053,7 @@
     ],
     "MungeSumstats": [],
     "Mus.musculus": [
-        "OrganismDbi",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene"
+        "OrganismDbi"
     ],
     "musicatk": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
@@ -1146,7 +1142,6 @@
     "profileplyr": [
         "ChIPseeker",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "rGREAT"
     ],
     "proteasy": [
@@ -1307,8 +1302,7 @@
     ],
     "RNAseq123": [
         "Mus.musculus",
-        "OrganismDbi",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene"
+        "OrganismDbi"
     ],
     "rnaseqGene": [
         "tximeta",
@@ -1495,7 +1489,6 @@
     ],
     "TxDb.Hsapiens.UCSC.hg38.knownGene": [],
     "TxDb.Mmusculus.UCSC.mm10.ensGene": [],
-    "TxDb.Mmusculus.UCSC.mm10.knownGene": [],
     "TxDb.Mmusculus.UCSC.mm39.refGene": [],
     "TxDb.Rnorvegicus.UCSC.rn5.refGene": [],
     "TxDb.Sscrofa.UCSC.susScr3.refGene": [],
