@@ -227,7 +227,6 @@
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "regioneR"
     ],
-    "BiSeq": [],
     "BitSeq": [],
     "blacksheepr": [],
     "BOBaFIT": [
@@ -2571,9 +2570,7 @@
         "ensembldb"
     ],
     "rqt": [],
-    "RRBSdata": [
-        "BiSeq"
-    ],
+    "RRBSdata": [],
     "RSVSim": [],
     "RTCGAToolbox": [
         "TCGAutils",
