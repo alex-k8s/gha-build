@@ -1174,7 +1174,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "plotgardener": [],
     "PolyPhen.Hsapiens.dbSNP131": [],
     "preciseTAD": [
         "rCGH",
@@ -1569,9 +1568,7 @@
     "TxDb.Rnorvegicus.UCSC.rn5.refGene": [],
     "TxDb.Sscrofa.UCSC.susScr3.refGene": [],
     "tximeta": [],
-    "Ularcirc": [
-        "plotgardener"
-    ],
+    "Ularcirc": [],
     "UMI4Cats": [],
     "uncoverappLib": [
         "Gviz",
