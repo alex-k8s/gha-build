@@ -1178,7 +1178,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "DEFormats": [],
     "DegNorm": [
         "GenomicFeatures"
     ],
@@ -3041,7 +3040,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "ggbio",
-        "DEFormats",
         "VariantAnnotation",
         "biovizBase",
         "BSgenome",
@@ -3069,7 +3067,6 @@
     ],
     "regionReport": [
         "derfinder",
-        "DEFormats",
         "bumphunter",
         "GenomicFeatures",
         "GenomicFiles",
