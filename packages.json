@@ -3971,7 +3971,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "SCAN.UPC": [],
     "scanMiRApp": [
         "ensembldb",
         "GenomicFeatures",
