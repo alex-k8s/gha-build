@@ -103,7 +103,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "ASICS": [],
     "ASpediaFI": [
         "GenomicFeatures",
         "IVAS",
