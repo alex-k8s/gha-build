@@ -1,0 +1,38 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BSgenome.Ggallus.UCSC.galGal3.masked'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'BSgenome.Ggallus.UCSC.galGal3.masked'
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/BSgenome.Ggallus.UCSC.galGal3.masked_1.3.99.tar.gz'
+Content type 'application/x-gzip' length 3360451 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+* installing *source* package ‘BSgenome.Ggallus.UCSC.galGal3.masked’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Ggallus.UCSC.galGal3.masked’ as ‘BSgenome.Ggallus.UCSC.galGal3.masked_1.3.99_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BSgenome.Ggallus.UCSC.galGal3.masked)
+
+The downloaded source packages are in
+	‘/tmp/RtmpfwbVD1/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	3m36.285s
+user	3m32.383s
+sys	0m2.404s
