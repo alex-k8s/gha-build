@@ -1531,7 +1531,6 @@
         "FDb.InfiniumMethylation.hg19",
         "bumphunter"
     ],
-    "XNAString": [],
     "YAPSA": [
         "SomaticSignatures",
         "ggbio",
