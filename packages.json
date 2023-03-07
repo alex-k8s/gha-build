@@ -382,7 +382,6 @@
     "cyanoFilter": [
         "flowClust"
     ],
-    "cytomapper": [],
     "CytoML": [
         "openCyto",
         "flowClust"
@@ -744,12 +743,8 @@
         "bumphunter"
     ],
     "IMAS": [],
-    "imcdatasets": [
-        "cytomapper"
-    ],
-    "imcRtools": [
-        "cytomapper"
-    ],
+    "imcdatasets": [],
+    "imcRtools": [],
     "InPAS": [
         "cleanUpdTSeq"
     ],
@@ -1403,9 +1398,7 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "SigsPack": [],
-    "simpleSeg": [
-        "cytomapper"
-    ],
+    "simpleSeg": [],
     "singleCellTK": [
         "scRNAseq"
     ],
