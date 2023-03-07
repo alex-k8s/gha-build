@@ -322,9 +322,7 @@
         "RTCGAToolbox",
         "TCGAutils"
     ],
-    "CexoR": [
-        "genomation"
-    ],
+    "CexoR": [],
     "cfDNAPro": [],
     "ChAMP": [
         "minfi",
@@ -647,7 +645,6 @@
     ],
     "EpiCompare": [
         "ChIPseeker",
-        "genomation",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "epigraHMM": [],
@@ -727,9 +724,7 @@
     "famat": [
         "reactome.db"
     ],
-    "fCCAC": [
-        "genomation"
-    ],
+    "fCCAC": [],
     "fcScan": [
         "VariantAnnotation"
     ],
@@ -831,7 +826,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "genomation": [],
     "GenomicDistributionsData": [],
     "GenomicFiles": [
         "VariantAnnotation"
@@ -1546,9 +1540,7 @@
     ],
     "Rbec": [],
     "Rbwa": [],
-    "RCAS": [
-        "genomation"
-    ],
+    "RCAS": [],
     "rCGH": [
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
