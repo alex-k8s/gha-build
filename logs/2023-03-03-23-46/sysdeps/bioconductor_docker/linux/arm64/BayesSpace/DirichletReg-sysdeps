@@ -1,0 +1,10 @@
+[
+    {
+        "shlib": "ld-linux-aarch64.so.1",
+        "package": "libc6",
+        "source": "glibc",
+        "version": "2.35-0ubuntu3.1",
+        "url": "https://packages.ubuntu.com/jammy/libc6"
+    }
+]
+
