@@ -225,7 +225,6 @@
         "VariantAnnotation"
     ],
     "bioCancer": [
-        "clusterProfiler",
         "reactome.db",
         "ReactomePA"
     ],
@@ -764,12 +763,8 @@
     "CellBarcode": [],
     "CelliD": [],
     "CellMixS": [],
-    "CEMiTool": [
-        "clusterProfiler"
-    ],
-    "CeTF": [
-        "clusterProfiler"
-    ],
+    "CEMiTool": [],
+    "CeTF": [],
     "CexoR": [
         "genomation",
         "BSgenome"
@@ -902,7 +897,6 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "clusterProfiler": [],
     "CNEr": [],
     "CNVfilteR": [
         "regioneR",
@@ -972,9 +966,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "conclus": [
-        "clusterProfiler"
-    ],
+    "conclus": [],
     "condiments": [
         "distinct"
     ],
@@ -1131,9 +1123,7 @@
         "plyranges"
     ],
     "davidTiling": [],
-    "debrowser": [
-        "clusterProfiler"
-    ],
+    "debrowser": [],
     "decompTumor2Sig": [
         "GenomicFeatures",
         "BSgenome.Hsapiens.UCSC.hg19",
@@ -1273,17 +1263,13 @@
         "BSgenome"
     ],
     "DvDdata": [],
-    "EasyCellType": [
-        "clusterProfiler"
-    ],
+    "EasyCellType": [],
     "easyRNASeq": [],
     "EatonEtAlChIPseq": [],
     "EDASeq": [
         "GenomicFeatures"
     ],
-    "eegc": [
-        "clusterProfiler"
-    ],
+    "eegc": [],
     "EGSEA": [],
     "EGSEA123": [
         "EGSEA"
@@ -1312,7 +1298,6 @@
         "BSgenome",
         "motifmatchr",
         "TFBSTools",
-        "clusterProfiler",
         "CNEr"
     ],
     "EnsDb.Hsapiens.v75": [
@@ -1448,7 +1433,6 @@
     "esATAC": [
         "pipeFrame",
         "ChIPseeker",
-        "clusterProfiler",
         "BSgenome",
         "GenomicFeatures",
         "TFBSTools",
@@ -1493,17 +1477,14 @@
         "wiggleplotr"
     ],
     "famat": [
-        "reactome.db",
-        "clusterProfiler"
+        "reactome.db"
     ],
     "FastqCleaner": [],
     "fCCAC": [
         "genomation",
         "BSgenome"
     ],
-    "fcoex": [
-        "clusterProfiler"
-    ],
+    "fcoex": [],
     "fcScan": [
         "VariantAnnotation",
         "BSgenome",
@@ -1639,9 +1620,7 @@
     "gcapc": [
         "BSgenome"
     ],
-    "GDCRNATools": [
-        "clusterProfiler"
-    ],
+    "GDCRNATools": [],
     "genbankr": [
         "GenomicFeatures",
         "VariantAnnotation",
@@ -1755,9 +1734,7 @@
         "geneLenDataBase",
         "GenomicFeatures"
     ],
-    "goSorensen": [
-        "clusterProfiler"
-    ],
+    "goSorensen": [],
     "GOTHiC": [
         "BSgenome"
     ],
@@ -1963,9 +1940,7 @@
     "IONiseR": [],
     "ipdDb": [],
     "IPO": [],
-    "IRISFGM": [
-        "clusterProfiler"
-    ],
+    "IRISFGM": [],
     "ISAnalytics": [],
     "iSEEu": [],
     "IsoformSwitchAnalyzeR": [
@@ -2157,9 +2132,7 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "MAGeCKFlute": [
-        "clusterProfiler"
-    ],
+    "MAGeCKFlute": [],
     "MAIT": [],
     "mAPKL": [
         "reactome.db"
@@ -2255,9 +2228,7 @@
     ],
     "metagene2": [],
     "metaMS": [],
-    "MetaPhOR": [
-        "clusterProfiler"
-    ],
+    "MetaPhOR": [],
     "metaseqR2": [
         "DSS",
         "EDASeq",
@@ -2350,7 +2321,6 @@
         "OrganismDbi"
     ],
     "methylGSA": [
-        "clusterProfiler",
         "missMethyl",
         "reactome.db",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -2399,9 +2369,7 @@
         "ANCOMBC",
         "mia"
     ],
-    "MicrobiomeProfiler": [
-        "clusterProfiler"
-    ],
+    "MicrobiomeProfiler": [],
     "MIGSA": [],
     "MineICA": [
         "lumi",
@@ -2442,12 +2410,10 @@
     "miRLAB": [],
     "miRSM": [
         "miRspongeR",
-        "clusterProfiler",
         "ReactomePA",
         "reactome.db"
     ],
     "miRspongeR": [
-        "clusterProfiler",
         "ReactomePA",
         "reactome.db"
     ],
@@ -2486,9 +2452,7 @@
         "BSgenome",
         "CNEr"
     ],
-    "MoonlightR": [
-        "clusterProfiler"
-    ],
+    "MoonlightR": [],
     "Motif2Site": [
         "BSgenome"
     ],
@@ -2545,7 +2509,6 @@
     ],
     "multiSight": [
         "biosigner",
-        "clusterProfiler",
         "ReactomePA",
         "reactome.db"
     ],
@@ -2622,9 +2585,7 @@
         "GenomicFeatures"
     ],
     "NestLink": [],
-    "netboxr": [
-        "clusterProfiler"
-    ],
+    "netboxr": [],
     "NetPathMiner": [],
     "netSmooth": [],
     "netZooR": [
@@ -2710,9 +2671,7 @@
         "BSgenome",
         "CNEr"
     ],
-    "PanomiR": [
-        "clusterProfiler"
-    ],
+    "PanomiR": [],
     "pasilla": [],
     "PAST": [],
     "pcaExplorer": [],
@@ -2724,9 +2683,7 @@
     "periodicDNA": [
         "BSgenome"
     ],
-    "PFP": [
-        "clusterProfiler"
-    ],
+    "PFP": [],
     "PharmacoGx": [],
     "phastCons100way.UCSC.hg19": [
         "BSgenome"
@@ -2739,7 +2696,6 @@
     ],
     "phenomis": [],
     "Pigengene": [
-        "clusterProfiler",
         "ReactomePA",
         "reactome.db"
     ],
@@ -2944,7 +2900,6 @@
     "recountWorkflow": [
         "recount",
         "regionReport",
-        "clusterProfiler",
         "derfinder",
         "GenomicState",
         "bumphunter",
@@ -3173,8 +3128,7 @@
     ],
     "RNASeqR": [
         "ballgown",
-        "systemPipeR",
-        "clusterProfiler"
+        "systemPipeR"
     ],
     "RnaSeqSampleSize": [
         "recount",
@@ -3330,8 +3284,7 @@
         "GenomicFeatures"
     ],
     "signatureSearch": [
-        "reactome.db",
-        "clusterProfiler"
+        "reactome.db"
     ],
     "signeR": [
         "VariantAnnotation",
@@ -3552,7 +3505,6 @@
     "TBSignatureProfiler": [],
     "TCGAbiolinksGUI": [
         "ELMER",
-        "clusterProfiler",
         "sesame",
         "GenomicFeatures",
         "Gviz",
@@ -3586,9 +3538,7 @@
     ],
     "TileDBArray": [],
     "timeOmics": [],
-    "TimiRGeN": [
-        "clusterProfiler"
-    ],
+    "TimiRGeN": [],
     "TitanCNA": [
         "VariantAnnotation",
         "BSgenome",
