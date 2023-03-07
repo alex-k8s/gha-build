@@ -580,7 +580,6 @@
         "GenomicFeatures",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "ChIPseqR": [],
     "ChIPXpress": [
         "ChIPXpressData"
     ],
