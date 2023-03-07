@@ -236,7 +236,6 @@
     ],
     "BSgenome.Celegans.UCSC.ce10": [],
     "BSgenome.Celegans.UCSC.ce11": [],
-    "BSgenome.Celegans.UCSC.ce2": [],
     "BSgenome.Celegans.UCSC.ce6": [],
     "BSgenome.Cfamiliaris.UCSC.canFam2": [],
     "BSgenome.Cfamiliaris.UCSC.canFam2.masked": [
@@ -1899,7 +1898,6 @@
     ],
     "recoup": [],
     "REDseq": [
-        "BSgenome.Celegans.UCSC.ce2",
         "ChIPpeakAnno",
         "ensembldb",
         "regioneR"
