@@ -1164,7 +1164,6 @@
     "pd.ecoli.asv2": [],
     "pd.genomewidesnp.5": [],
     "pd.genomewidesnp.6": [],
-    "phastCons100way.UCSC.hg38": [],
     "phastCons7way.UCSC.hg38": [],
     "Pigengene": [
         "ReactomePA",
@@ -1181,7 +1180,6 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "primirTSS": [
-        "phastCons100way.UCSC.hg38",
         "Gviz",
         "TFBSTools",
         "biovizBase"
