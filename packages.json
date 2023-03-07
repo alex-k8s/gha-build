@@ -366,7 +366,6 @@
     "EnsDb.Mmusculus.v79": [],
     "EnsDb.Rnorvegicus.v75": [],
     "EnsDb.Rnorvegicus.v79": [],
-    "ensemblVEP": [],
     "epialleleR": [],
     "EpiCompare": [
         "ChIPseeker"
@@ -811,7 +810,6 @@
     ],
     "mitoClone2": [],
     "MMAPPR2": [
-        "ensemblVEP",
         "gmapR",
         "VariantTools"
     ],
@@ -1179,7 +1177,6 @@
     "tscR": [],
     "ttgsea": [],
     "TVTB": [
-        "ensemblVEP",
         "Gviz"
     ],
     "tximeta": [],
