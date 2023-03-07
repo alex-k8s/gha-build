@@ -528,7 +528,6 @@
         "bumphunter"
     ],
     "DaMiRseq": [],
-    "dasper": [],
     "decompTumor2Sig": [
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "VariantAnnotation"
@@ -1413,7 +1412,6 @@
         "RUVSeq"
     ],
     "ODER": [
-        "dasper",
         "derfinder",
         "bumphunter",
         "GenomicFiles",
