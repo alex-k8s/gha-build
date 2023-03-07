@@ -224,7 +224,6 @@
         "Rhisat2"
     ],
     "CiteFuse": [],
-    "cleanUpdTSeq": [],
     "clipper": [],
     "CNVfilteR": [
         "karyoploteR",
@@ -584,9 +583,7 @@
     "IMAS": [],
     "imcdatasets": [],
     "imcRtools": [],
-    "InPAS": [
-        "cleanUpdTSeq"
-    ],
+    "InPAS": [],
     "INSPEcT": [],
     "intansv": [
         "ggbio"
