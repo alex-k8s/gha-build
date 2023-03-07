@@ -887,7 +887,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "FDb.UCSC.snp135common.hg19": [],
-    "FDb.UCSC.snp137common.hg19": [],
     "FDb.UCSC.tRNAs": [],
     "ffpe": [
         "lumi",
