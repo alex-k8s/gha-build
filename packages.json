@@ -391,7 +391,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
-    "EpiTxDb.Hs.hg38": [],
     "EpiTxDb.Mm.mm10": [],
     "EpiTxDb.Sc.sacCer3": [],
     "epivizr": [
