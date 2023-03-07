@@ -397,7 +397,6 @@
         "GenomicInteractions",
         "Gviz"
     ],
-    "factR": [],
     "famat": [
         "reactome.db"
     ],
