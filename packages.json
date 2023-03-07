@@ -2172,7 +2172,6 @@
         "cytomapper"
     ],
     "SingleCellMultiModal": [],
-    "SingleCellSignalR": [],
     "singleCellTK": [
         "ensembldb",
         "scRNAseq",
