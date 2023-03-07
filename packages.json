@@ -700,7 +700,6 @@
         "RUVSeq",
         "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
     ],
-    "consensusSeekeR": [],
     "contiBAIT": [
         "GenomicFiles",
         "VariantAnnotation",
@@ -2457,9 +2456,7 @@
         "ensembldb",
         "EnsDb.Hsapiens.v86"
     ],
-    "RJMCMCNucleosomes": [
-        "consensusSeekeR"
-    ],
+    "RJMCMCNucleosomes": [],
     "RLSeq": [
         "regioneR",
         "GenomicFeatures"
