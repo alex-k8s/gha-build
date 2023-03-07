@@ -678,7 +678,6 @@
     "cyanoFilter": [
         "flowClust"
     ],
-    "cytofWorkflow": [],
     "cytomapper": [],
     "CytoML": [
         "openCyto",
