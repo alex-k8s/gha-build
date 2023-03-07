@@ -1134,7 +1134,6 @@
         "minfi",
         "bumphunter"
     ],
-    "nnSVG": [],
     "NoRCE": [
         "reactome.db"
     ],
