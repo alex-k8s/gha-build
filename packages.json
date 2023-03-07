@@ -945,7 +945,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "MerfishData": [],
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75"
     ],
