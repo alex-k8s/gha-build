@@ -630,9 +630,7 @@
     "flowTrans": [
         "flowClust"
     ],
-    "FRASER": [
-        "OUTRIDER"
-    ],
+    "FRASER": [],
     "funtooNorm": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
@@ -1159,7 +1157,6 @@
     ],
     "ORFhunteR": [],
     "OrganismDbi": [],
-    "OUTRIDER": [],
     "pageRank": [
         "motifmatchr",
         "TFBSTools"
