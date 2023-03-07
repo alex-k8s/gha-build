@@ -816,7 +816,6 @@
     ],
     "DvDdata": [],
     "EasyCellType": [],
-    "easyRNASeq": [],
     "EDASeq": [],
     "eegc": [],
     "EGSEA": [],
@@ -1692,7 +1691,6 @@
     "MouseGastrulationData": [],
     "msa": [],
     "msgbsR": [
-        "easyRNASeq",
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
