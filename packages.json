@@ -1854,7 +1854,6 @@
         "ensembldb"
     ],
     "RESOLVE": [],
-    "rGADEM": [],
     "RgnTX": [
         "regioneR",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
