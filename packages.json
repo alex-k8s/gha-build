@@ -2746,7 +2746,6 @@
         "BSgenome"
     ],
     "PtH2O2lipids": [],
-    "pumadata": [],
     "PureCN": [
         "VariantAnnotation",
         "GenomicFeatures",
