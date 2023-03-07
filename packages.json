@@ -2065,7 +2065,6 @@
     "scanMiRApp": [
         "ensembldb"
     ],
-    "SCATE": [],
     "sccomp": [],
     "scmeth": [
         "bsseq",
