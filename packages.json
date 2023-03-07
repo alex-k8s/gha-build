@@ -41,9 +41,7 @@
         "GenomicFeatures"
     ],
     "amplican": [],
-    "ANCOMBC": [
-        "mia"
-    ],
+    "ANCOMBC": [],
     "AneuFinder": [],
     "annotation": [
         "VariantAnnotation",
@@ -193,8 +191,7 @@
         "BSgenome"
     ],
     "benchdamic": [
-        "ANCOMBC",
-        "mia"
+        "ANCOMBC"
     ],
     "BgeeCall": [
         "GenomicFeatures"
@@ -1069,9 +1066,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "curatedMetagenomicData": [
-        "mia"
-    ],
+    "curatedMetagenomicData": [],
     "customProDB": [
         "GenomicFeatures",
         "VariantAnnotation",
@@ -2336,13 +2331,9 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "bumphunter"
     ],
-    "mia": [],
-    "miaViz": [
-        "mia"
-    ],
+    "miaViz": [],
     "microbiomeMarker": [
-        "ANCOMBC",
-        "mia"
+        "ANCOMBC"
     ],
     "MicrobiomeProfiler": [],
     "MineICA": [
