@@ -1439,7 +1439,6 @@
         "biovizBase",
         "OrganismDbi"
     ],
-    "spaSim": [],
     "SpatialFeatureExperiment": [],
     "spatzie": [
         "GenomicInteractions",
