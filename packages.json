@@ -205,7 +205,6 @@
     "branchpointer": [
         "BSgenome.Hsapiens.UCSC.hg38"
     ],
-    "BSgenome.Alyrata.JGI.v1": [],
     "BSgenome.Amellifera.BeeBase.assembly4": [],
     "BSgenome.Amellifera.UCSC.apiMel2.masked": [],
     "BSgenome.Athaliana.TAIR.04232008": [],
