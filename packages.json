@@ -347,7 +347,6 @@
         "bsseq",
         "DSS",
         "Gviz",
-        "geneLenDataBase",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
         "lumi",
@@ -837,7 +836,6 @@
     "genbankr": [
         "VariantAnnotation"
     ],
-    "geneLenDataBase": [],
     "generegulation": [
         "BSgenome.Scerevisiae.UCSC.sacCer3",
         "motifStack",
@@ -891,9 +889,7 @@
         "VariantAnnotation"
     ],
     "gmoviz": [],
-    "goseq": [
-        "geneLenDataBase"
-    ],
+    "goseq": [],
     "GOTHiC": [],
     "GSReg": [
         "Homo.sapiens",
@@ -960,8 +956,7 @@
         "CODEX"
     ],
     "ideal": [
-        "goseq",
-        "geneLenDataBase"
+        "goseq"
     ],
     "igvR": [
         "VariantAnnotation"
@@ -1666,8 +1661,7 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "rgsepd": [
-        "goseq",
-        "geneLenDataBase"
+        "goseq"
     ],
     "Rhisat2": [
         "SGSeq"
@@ -1884,8 +1878,7 @@
     ],
     "SMITE": [
         "reactome.db",
-        "goseq",
-        "geneLenDataBase"
+        "goseq"
     ],
     "SNPhood": [
         "VariantAnnotation"
