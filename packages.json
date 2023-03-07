@@ -1024,7 +1024,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "cosmiq": [],
     "CoverageView": [],
     "cpvSNP": [
         "GenomicFeatures"
