@@ -1423,7 +1423,6 @@
         "biovizBase"
     ],
     "spicyR": [],
-    "SplicingGraphs": [],
     "SPLINTER": [
         "Gviz",
         "BSgenome.Mmusculus.UCSC.mm9",
