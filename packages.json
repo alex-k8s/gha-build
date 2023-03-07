@@ -196,7 +196,6 @@
     "blacksheepr": [],
     "BOBaFIT": [
         "ggbio",
-        "plyranges",
         "biovizBase",
         "VariantAnnotation",
         "OrganismDbi",
@@ -406,8 +405,7 @@
     ],
     "bumphunter": [],
     "BUSpaRse": [
-        "ensembldb",
-        "plyranges"
+        "ensembldb"
     ],
     "CAFE": [
         "biovizBase",
@@ -461,9 +459,7 @@
     "CexoR": [
         "genomation"
     ],
-    "cfDNAPro": [
-        "plyranges"
-    ],
+    "cfDNAPro": [],
     "ChAMP": [
         "minfi",
         "DMRcate",
@@ -708,9 +704,7 @@
     "DaMiRseq": [
         "EDASeq"
     ],
-    "dasper": [
-        "plyranges"
-    ],
+    "dasper": [],
     "debrowser": [],
     "decompTumor2Sig": [
         "BSgenome.Hsapiens.UCSC.hg19",
@@ -1047,9 +1041,7 @@
     "flowTrans": [
         "flowClust"
     ],
-    "fluentGenomics": [
-        "plyranges"
-    ],
+    "fluentGenomics": [],
     "FRASER": [
         "OUTRIDER"
     ],
@@ -1268,7 +1260,6 @@
     ],
     "InPAS": [
         "cleanUpdTSeq",
-        "plyranges",
         "BSgenome.Drerio.UCSC.danRer7"
     ],
     "INSPEcT": [
@@ -1301,8 +1292,7 @@
     "katdetectr": [
         "VariantAnnotation",
         "BSgenome.Hsapiens.UCSC.hg19",
-        "BSgenome.Hsapiens.UCSC.hg38",
-        "plyranges"
+        "BSgenome.Hsapiens.UCSC.hg38"
     ],
     "kissDE": [
         "DSS",
@@ -1542,7 +1532,6 @@
         "FlowSorted.Blood.450k",
         "minfi",
         "bsseq",
-        "plyranges",
         "bumphunter",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
@@ -1694,7 +1683,6 @@
     "multicrispr": [
         "CRISPRseek",
         "karyoploteR",
-        "plyranges",
         "regioneR",
         "biovizBase",
         "VariantAnnotation",
@@ -1754,7 +1742,6 @@
     ],
     "NBSplice": [],
     "nearBynding": [
-        "plyranges",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
@@ -1772,9 +1759,7 @@
         "reactome.db"
     ],
     "nucleR": [],
-    "nullranges": [
-        "plyranges"
-    ],
+    "nullranges": [],
     "NxtIRFcore": [],
     "octad": [
         "RUVSeq",
@@ -1783,7 +1768,6 @@
     "ODER": [
         "dasper",
         "derfinder",
-        "plyranges",
         "bumphunter",
         "GenomicFiles",
         "VariantAnnotation"
@@ -1838,10 +1822,7 @@
     "pipeComp": [],
     "pipeFrame": [],
     "plasFIA": [],
-    "plotgardener": [
-        "plyranges"
-    ],
-    "plyranges": [],
+    "plotgardener": [],
     "podkat": [],
     "PolyPhen.Hsapiens.dbSNP131": [
         "VariantAnnotation"
@@ -2486,8 +2467,7 @@
     ],
     "Ularcirc": [
         "Organism.dplyr",
-        "plotgardener",
-        "plyranges"
+        "plotgardener"
     ],
     "UMI4Cats": [
         "regioneR",
