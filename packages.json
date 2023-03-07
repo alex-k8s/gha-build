@@ -1779,7 +1779,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "HiCDOC": [],
     "HiContacts": [
         "GenomicInteractions",
         "Gviz",
