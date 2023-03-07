@@ -2075,7 +2075,6 @@
     ],
     "SCATE": [],
     "sccomp": [],
-    "scDblFinder": [],
     "scDD": [],
     "scmeth": [
         "bsseq",
@@ -2167,8 +2166,7 @@
     "SingleCellMultiModal": [],
     "singleCellTK": [
         "ensembldb",
-        "scRNAseq",
-        "scDblFinder"
+        "scRNAseq"
     ],
     "SingleMoleculeFootprinting": [
         "QuasR",
