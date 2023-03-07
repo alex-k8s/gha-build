@@ -40,7 +40,6 @@
     ],
     "ATACCoGAPS": [
         "motifmatchr",
-        "chromVAR",
         "rGREAT",
         "Homo.sapiens",
         "Mus.musculus"
@@ -209,7 +208,6 @@
         "ChIPXpressData"
     ],
     "ChIPXpressData": [],
-    "chromVAR": [],
     "cicero": [
         "Gviz"
     ],
