@@ -687,9 +687,7 @@
         "VariantAnnotation"
     ],
     "conclus": [],
-    "condiments": [
-        "distinct"
-    ],
+    "condiments": [],
     "CONFESS": [
         "flowClust",
         "flowMerge"
@@ -879,7 +877,6 @@
         "GenomicFeatures"
     ],
     "Dino": [],
-    "distinct": [],
     "DMCFB": [],
     "DMCHMM": [],
     "DMRcate": [
