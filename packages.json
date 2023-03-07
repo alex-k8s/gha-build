@@ -159,7 +159,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "ballgown": [],
     "bambu": [
         "BSgenome",
         "GenomicFeatures"
@@ -3040,7 +3039,6 @@
         "OrganismDbi"
     ],
     "RNASeqR": [
-        "ballgown",
         "systemPipeR"
     ],
     "RnaSeqSampleSize": [
@@ -3692,9 +3690,7 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "VaSP": [
-        "ballgown"
-    ],
+    "VaSP": [],
     "VCFArray": [
         "VariantAnnotation",
         "GenomicFiles",
