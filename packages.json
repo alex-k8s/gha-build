@@ -3045,7 +3045,6 @@
         "GenomicFeatures",
         "regioneR"
     ],
-    "RegEnrich": [],
     "regioneR": [
         "BSgenome"
     ],
