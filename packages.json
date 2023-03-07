@@ -2999,10 +2999,7 @@
         "bumphunter",
         "GenomicFeatures"
     ],
-    "RNAinteract": [],
-    "RNAinteractMAPK": [
-        "RNAinteract"
-    ],
+    "RNAinteractMAPK": [],
     "RNAmodR": [
         "GenomicFeatures",
         "BSgenome",
