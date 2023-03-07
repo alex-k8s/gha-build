@@ -3,7 +3,6 @@
     "ADaCGH2": [
         "snapCGH"
     ],
-    "adductomicsR": [],
     "affycoretools": [
         "ReportingTools",
         "ggbio",
