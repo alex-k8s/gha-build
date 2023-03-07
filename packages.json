@@ -582,7 +582,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "ChIPseqR": [],
-    "ChIPsim": [],
     "ChIPXpress": [
         "ChIPXpressData"
     ],
