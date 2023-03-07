@@ -120,7 +120,6 @@
     "BadRegionFinder": [
         "VariantAnnotation"
     ],
-    "bambu": [],
     "bandle": [],
     "Basic4Cseq": [
         "BSgenome.Ecoli.NCBI.20080805"
@@ -945,7 +944,6 @@
     "FindIT2": [],
     "fitCons.UCSC.hg19": [],
     "FLAMES": [
-        "bambu",
         "ggbio",
         "biovizBase",
         "VariantAnnotation",
