@@ -2198,7 +2198,6 @@
     "MerfishData": [
         "SpatialExperiment"
     ],
-    "meshes": [],
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75",
         "mygene",
