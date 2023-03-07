@@ -38,15 +38,12 @@
         "Gviz"
     ],
     "ATACCoGAPS": [
-        "motifmatchr",
         "rGREAT",
         "Homo.sapiens",
         "Mus.musculus"
     ],
     "ATACseqQC": [],
-    "ATACseqTFEA": [
-        "motifmatchr"
-    ],
+    "ATACseqTFEA": [],
     "atSNP": [],
     "attract": [
         "reactome.db"
@@ -326,15 +323,11 @@
     "ELMER": [
         "Gviz"
     ],
-    "enhancerHomologSearch": [
-        "motifmatchr"
-    ],
+    "enhancerHomologSearch": [],
     "ENmix": [
         "minfi"
     ],
-    "enrichTF": [
-        "motifmatchr"
-    ],
+    "enrichTF": [],
     "EnsDb.Hsapiens.v75": [],
     "EnsDb.Mmusculus.v79": [],
     "EnsDb.Rnorvegicus.v75": [],
@@ -369,9 +362,7 @@
     "erma": [
         "Homo.sapiens"
     ],
-    "esATAC": [
-        "motifmatchr"
-    ],
+    "esATAC": [],
     "EuPathDB": [
         "AnnotationHubData"
     ],
@@ -762,7 +753,6 @@
     "motifbreakR": [
         "Gviz"
     ],
-    "motifmatchr": [],
     "msa": [],
     "msgbsR": [
         "ggbio"
@@ -821,9 +811,7 @@
         "flowClust"
     ],
     "ORFhunteR": [],
-    "pageRank": [
-        "motifmatchr"
-    ],
+    "pageRank": [],
     "pd.ecoli.asv2": [],
     "pd.genomewidesnp.5": [],
     "pd.genomewidesnp.6": [],
@@ -1041,7 +1029,6 @@
     ],
     "spatzie": [
         "GenomicInteractions",
-        "motifmatchr",
         "Gviz"
     ],
     "SPLINTER": [
