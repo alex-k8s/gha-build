@@ -1,0 +1,362 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''chipseq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'chipseq'
+also installing the dependencies ‘deldir’, ‘RcppEigen’, ‘png’, ‘jpeg’, ‘RColorBrewer’, ‘interp’, ‘hwriter’, ‘latticeExtra’, ‘ShortRead’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/deldir_1.0-6.tar.gz'
+Content type 'binary/octet-stream' length 120824 bytes (117 KB)
+==================================================
+downloaded 117 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1470560 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/png_0.1-8.tar.gz'
+Content type 'binary/octet-stream' length 25726 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/jpeg_0.1-10.tar.gz'
+Content type 'binary/octet-stream' length 19127 bytes (18 KB)
+==================================================
+downloaded 18 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 11700 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/interp_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 686562 bytes (670 KB)
+==================================================
+downloaded 670 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/hwriter_1.3.2.1.tar.gz'
+Content type 'binary/octet-stream' length 59857 bytes (58 KB)
+==================================================
+downloaded 58 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/latticeExtra_0.6-30.tar.gz'
+Content type 'binary/octet-stream' length 1291531 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/ShortRead_1.56.1.tar.gz'
+Content type 'application/x-gzip' length 5184827 bytes (4.9 MB)
+==================================================
+downloaded 4.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/chipseq_1.48.0.tar.gz'
+Content type 'application/x-gzip' length 2215014 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+* installing *source* package ‘deldir’ ...
+** package ‘deldir’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c acchk.f -o acchk.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c addpt.f -o addpt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c adjchk.f -o adjchk.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c binsrt.f -o binsrt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c circen.f -o circen.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c cross.f -o cross.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c crossutil.f -o crossutil.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delet.f -o delet.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delet1.f -o delet1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delout.f -o delout.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c delseg.f -o delseg.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dirout.f -o dirout.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dirseg.f -o dirseg.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c dldins.f -o dldins.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c initad.f -o initad.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c insrt.f -o insrt.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c insrt1.f -o insrt1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c intri.f -o intri.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c locn.f -o locn.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c master.f -o master.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c mnnd.f -o mnnd.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c pred.f -o pred.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c qtest.f -o qtest.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c qtest1.f -o qtest1.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c stoke.f -o stoke.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c succ.f -o succ.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c swap.f -o swap.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c testeq.f -o testeq.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c triar.f -o triar.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c trifnd.f -o trifnd.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o deldir.so acchk.o addpt.o adjchk.o binsrt.o circen.o cross.o crossutil.o delet.o delet1.o delout.o delseg.o dirout.o dirseg.o dldins.o init.o initad.o insrt.o insrt1.o intri.o locn.o master.o mnnd.o pred.o qtest.o qtest1.o stoke.o succ.o swap.o testeq.o triar.o trifnd.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-deldir/00new/deldir/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘deldir’ as ‘deldir_1.0-6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (deldir)
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘png’ ...
+** package ‘png’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dummy.c -o dummy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o png.so dummy.o read.o write.o -lpng16 -lm -lz -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-png/00new/png/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘png’ as ‘png_0.1-8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (png)
+* installing *source* package ‘jpeg’ ...
+** package ‘jpeg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o jpeg.so read.o reg.o write.o -ljpeg -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-jpeg/00new/jpeg/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘jpeg’ as ‘jpeg_0.1-10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (jpeg)
+* installing *source* package ‘RColorBrewer’ ...
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *source* package ‘hwriter’ ...
+** package ‘hwriter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hwriter’ as ‘hwriter_1.3.2.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (hwriter)
+* installing *source* package ‘interp’ ...
+** package ‘interp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aSpline.cpp -o aSpline.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c bilinear.f -o bilinear.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c circum.cpp -o circum.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.cpp -o common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interp.cpp -o interp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c partDeriv.cpp -o partDeriv.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c s_hull_pro.cpp -o s_hull_pro.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shullDeltri.cpp -o shullDeltri.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o interp.so RcppExports.o aSpline.o bilinear.o circum.o common.o init.o interp.o partDeriv.o s_hull_pro.o shullDeltri.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-interp/00new/interp/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘interp’ as ‘interp_1.1-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (interp)
+* installing *source* package ‘latticeExtra’ ...
+** package ‘latticeExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘latticeExtra’ as ‘latticeExtra_0.6-30_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (latticeExtra)
+* installing *source* package ‘ShortRead’ ...
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for gzeof in -lz... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking size of unsigned long... 8
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_ShortRead.c -o R_init_ShortRead.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c alphabet.c -o alphabet.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c count.c -o count.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io.c -o io.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_bowtie.c -o io_bowtie.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_soap.c -o io_soap.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_LIBZ=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_UNSIGNED_LONG=8 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readBfaToc.cc -o readBfaToc.o
+readBfaToc.cc: In function ‘SEXPREC* readBfaToc(SEXP)’:
+readBfaToc.cc:35:19: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   35 |       (void) fread( seq_name, sizeof(char), name_len, fp );
+      |              ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+readBfaToc.cc:36:19: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   36 |       (void) fread( &seq_ori_len, sizeof(int), 1, fp );
+      |              ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+readBfaToc.cc:37:19: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   37 |       (void) fread( &seq_len, sizeof(int), 1, fp );
+      |              ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_LIBZ=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_UNSIGNED_LONG=8 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_maq_map.cc -o read_maq_map.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampler.c -o sampler.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trim.c -o trim.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I'/tmp/built/Rhtslib/include' -I'/tmp/built/zlibbioc/include' -I/usr/local/include  -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xsnap.c -o xsnap.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ShortRead.so Biostrings_stubs.o IRanges_stubs.o R_init_ShortRead.o S4Vectors_stubs.o XVector_stubs.o alphabet.o count.o io.o io_bowtie.o io_soap.o readBfaToc.o read_maq_map.o sampler.o trim.o util.o xsnap.o -lz -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-ShortRead/00new/ShortRead/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ShortRead’ as ‘ShortRead_1.56.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ShortRead)
+* installing *source* package ‘chipseq’ ...
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rlesumprod.c -o rlesumprod.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o chipseq.so rlesumprod.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-chipseq/00new/chipseq/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘chipseq’ as ‘chipseq_1.48.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (chipseq)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9ni2ce/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	30m44.409s
+user	30m9.440s
+sys	0m31.393s

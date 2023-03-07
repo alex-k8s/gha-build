@@ -569,7 +569,6 @@
     ],
     "ChIPQC": [
         "DiffBind",
-        "chipseq",
         "GenomicFeatures",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
@@ -585,7 +584,6 @@
         "GenomicFeatures",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "chipseq": [],
     "ChIPseqR": [],
     "ChIPsim": [],
     "ChIPXpress": [
@@ -722,9 +720,7 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "CopywriteR": [
-        "chipseq"
-    ],
+    "CopywriteR": [],
     "COSMIC.67": [
         "VariantAnnotation",
         "GenomicFeatures"
@@ -1432,7 +1428,6 @@
     "HTSeqGenie": [
         "gmapR",
         "VariantAnnotation",
-        "chipseq",
         "GenomicFeatures",
         "VariantTools"
     ],
@@ -2221,8 +2216,7 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
-        "rGREAT",
-        "chipseq"
+        "rGREAT"
     ],
     "pRolocGUI": [],
     "proteasy": [
@@ -2741,9 +2735,7 @@
     "SNPlocs.Hsapiens.dbSNP150.GRCh38": [],
     "SNPlocs.Hsapiens.dbSNP155.GRCh37": [],
     "SNPlocs.Hsapiens.dbSNP155.GRCh38": [],
-    "soGGi": [
-        "chipseq"
-    ],
+    "soGGi": [],
     "sojourner": [],
     "SomaticSignatures": [
         "VariantAnnotation",
@@ -2884,7 +2876,6 @@
     ],
     "tradeSeq": [],
     "transcriptR": [
-        "chipseq",
         "GenomicFeatures"
     ],
     "TraRe": [],
