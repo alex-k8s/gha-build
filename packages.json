@@ -30,9 +30,7 @@
     "AnnotationHubData": [
         "OrganismDbi"
     ],
-    "annotatr": [
-        "regioneR"
-    ],
+    "annotatr": [],
     "APAlyzer": [],
     "appreci8R": [
         "Homo.sapiens",
@@ -74,7 +72,6 @@
     "ATACseqQC": [
         "ChIPpeakAnno",
         "motifStack",
-        "regioneR",
         "TFBSTools"
     ],
     "ATACseqTFEA": [
@@ -128,8 +125,7 @@
         "bumphunter",
         "annotatr",
         "OrganismDbi",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "regioneR"
+        "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
     "BitSeq": [],
     "BOBaFIT": [
@@ -282,9 +278,7 @@
     "ChIPexoQual": [
         "biovizBase"
     ],
-    "ChIPpeakAnno": [
-        "regioneR"
-    ],
+    "ChIPpeakAnno": [],
     "ChIPQC": [
         "DiffBind",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
@@ -317,7 +311,6 @@
         "qpgraph"
     ],
     "CNVfilteR": [
-        "regioneR",
         "karyoploteR",
         "CopyNumberPlots",
         "biovizBase"
@@ -325,7 +318,6 @@
     "CNViz": [
         "karyoploteR",
         "CopyNumberPlots",
-        "regioneR",
         "biovizBase"
     ],
     "CNVrd2": [],
@@ -373,7 +365,6 @@
     ],
     "CopyNumberPlots": [
         "karyoploteR",
-        "regioneR",
         "biovizBase"
     ],
     "COSMIC.67": [],
@@ -383,8 +374,7 @@
     "crisprDesign": [],
     "crisprseekplus": [
         "GUIDEseq",
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "crisprVerse": [
         "crisprDesign",
@@ -444,8 +434,7 @@
         "OrganismDbi"
     ],
     "DEScan2": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "DiffBind": [],
     "diffUTR": [],
@@ -477,8 +466,7 @@
     ],
     "dmrseq": [
         "bumphunter",
-        "annotatr",
-        "regioneR"
+        "annotatr"
     ],
     "DominoEffect": [],
     "drugTargetInteractions": [],
@@ -704,8 +692,7 @@
         "OrganismDbi"
     ],
     "GUIDEseq": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "Gviz": [
         "biovizBase"
@@ -805,7 +792,6 @@
     ],
     "IVAS": [],
     "karyoploteR": [
-        "regioneR",
         "biovizBase"
     ],
     "katdetectr": [],
@@ -1107,7 +1093,6 @@
     "Mu22v3.db": [],
     "multicrispr": [
         "karyoploteR",
-        "regioneR",
         "biovizBase"
     ],
     "multiSight": [
@@ -1139,7 +1124,6 @@
         "ChIPpeakAnno",
         "motifStack",
         "Gviz",
-        "regioneR",
         "biovizBase",
         "TFBSTools"
     ],
@@ -1296,13 +1280,9 @@
         "OrganismDbi"
     ],
     "REDseq": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
-    "regioneR": [],
-    "regioneReloaded": [
-        "regioneR"
-    ],
+    "regioneReloaded": [],
     "regionReport": [
         "derfinder",
         "bumphunter",
@@ -1323,9 +1303,7 @@
         "OrganismDbi"
     ],
     "RESOLVE": [],
-    "RgnTX": [
-        "regioneR"
-    ],
+    "RgnTX": [],
     "rGREAT": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
@@ -1349,16 +1327,13 @@
     ],
     "RIPAT": [
         "karyoploteR",
-        "regioneR",
         "biovizBase"
     ],
     "RITAN": [
         "EnsDb.Hsapiens.v86"
     ],
     "RJMCMCNucleosomes": [],
-    "RLSeq": [
-        "regioneR"
-    ],
+    "RLSeq": [],
     "Rmmquant": [],
     "RNAAgeCalc": [
         "recount",
@@ -1429,8 +1404,7 @@
     "scanMiRApp": [],
     "sccomp": [],
     "scmeth": [
-        "annotatr",
-        "regioneR"
+        "annotatr"
     ],
     "scone": [
         "RUVSeq"
@@ -1613,9 +1587,7 @@
     "Ularcirc": [
         "plotgardener"
     ],
-    "UMI4Cats": [
-        "regioneR"
-    ],
+    "UMI4Cats": [],
     "uncoverappLib": [
         "Gviz",
         "Homo.sapiens",
@@ -1652,8 +1624,7 @@
     ],
     "vulcan": [
         "ChIPpeakAnno",
-        "DiffBind",
-        "regioneR"
+        "DiffBind"
     ],
     "wateRmelon": [
         "methylumi",
