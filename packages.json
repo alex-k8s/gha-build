@@ -23,7 +23,6 @@
     "AneuFinder": [],
     "annotation": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "TxDb.Mmusculus.UCSC.mm10.ensGene",
         "Homo.sapiens",
         "OrganismDbi"
     ],
@@ -1488,7 +1487,6 @@
         "biovizBase"
     ],
     "TxDb.Hsapiens.UCSC.hg38.knownGene": [],
-    "TxDb.Mmusculus.UCSC.mm10.ensGene": [],
     "TxDb.Mmusculus.UCSC.mm39.refGene": [],
     "TxDb.Rnorvegicus.UCSC.rn5.refGene": [],
     "TxDb.Sscrofa.UCSC.susScr3.refGene": [],
