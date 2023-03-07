@@ -33,7 +33,6 @@
     "APAlyzer": [],
     "appreci8R": [
         "Homo.sapiens",
-        "XtraSNPlocs.Hsapiens.dbSNP144.GRCh37",
         "MafDb.1Kgenomes.phase3.hs37d5",
         "COSMIC.67",
         "PolyPhen.Hsapiens.dbSNP131",
@@ -1540,7 +1539,6 @@
         "bumphunter"
     ],
     "XNAString": [],
-    "XtraSNPlocs.Hsapiens.dbSNP144.GRCh37": [],
     "YAPSA": [
         "SomaticSignatures",
         "ggbio",
