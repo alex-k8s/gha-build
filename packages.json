@@ -1385,7 +1385,6 @@
         "flowClust"
     ],
     "ORFhunteR": [],
-    "ORFik": [],
     "OrganismDbi": [],
     "OUTRIDER": [],
     "pageRank": [
@@ -1564,9 +1563,7 @@
     "Rhisat2": [
         "SGSeq"
     ],
-    "RiboCrypt": [
-        "ORFik"
-    ],
+    "RiboCrypt": [],
     "RiboDiPA": [],
     "RiboProfiling": [
         "ggbio",
@@ -1845,9 +1842,7 @@
     "TENxVisiumData": [],
     "terraTCGAdata": [],
     "TFBSTools": [],
-    "TFHAZ": [
-        "ORFik"
-    ],
+    "TFHAZ": [],
     "TileDBArray": [],
     "timeOmics": [],
     "TitanCNA": [
