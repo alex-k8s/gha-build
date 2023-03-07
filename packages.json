@@ -1931,7 +1931,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "phastCons100way.UCSC.hg19"
     ],
-    "rat2302frmavecs": [],
     "Rattus.norvegicus": [
         "OrganismDbi",
         "TxDb.Rnorvegicus.UCSC.rn5.refGene"
