@@ -287,7 +287,6 @@
         "BSgenome.Hsapiens.UCSC.hg38",
         "BSgenome"
     ],
-    "BRGenomics": [],
     "BSgenome": [],
     "BSgenome.Alyrata.JGI.v1": [
         "BSgenome"
@@ -1313,7 +1312,6 @@
         "GenomicFeatures"
     ],
     "EpiCompare": [
-        "BRGenomics",
         "ChIPseeker",
         "genomation",
         "GenomicFeatures",
