@@ -277,8 +277,7 @@
     "ChIPQC": [
         "DiffBind",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
-        "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
+        "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
     "ChIPseeker": [],
     "ChIPXpress": [
@@ -338,8 +337,7 @@
     ],
     "consensusDE": [
         "EnsDb.Hsapiens.v86",
-        "RUVSeq",
-        "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
+        "RUVSeq"
     ],
     "contiBAIT": [
         "GenomicFiles"
@@ -1508,7 +1506,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "TxDb.Dmelanogaster.UCSC.dm3.ensGene": [],
     "TxDb.Ggallus.UCSC.galGal4.refGene": [],
     "TxDb.Hsapiens.BioMart.igis": [],
     "TxDb.Hsapiens.UCSC.hg18.knownGene": [],
