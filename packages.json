@@ -917,8 +917,7 @@
         "VariantTools"
     ],
     "icetea": [
-        "VariantAnnotation",
-        "TxDb.Dmelanogaster.UCSC.dm6.ensGene"
+        "VariantAnnotation"
     ],
     "iCheck": [
         "lumi",
@@ -1952,7 +1951,6 @@
     "TxDb.Cfamiliaris.UCSC.canFam4.refGene": [],
     "TxDb.Cfamiliaris.UCSC.canFam5.refGene": [],
     "TxDb.Dmelanogaster.UCSC.dm3.ensGene": [],
-    "TxDb.Dmelanogaster.UCSC.dm6.ensGene": [],
     "TxDb.Ggallus.UCSC.galGal4.refGene": [],
     "TxDb.Ggallus.UCSC.galGal5.refGene": [],
     "TxDb.Hsapiens.BioMart.igis": [],
