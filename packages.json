@@ -2203,7 +2203,6 @@
     "mAPKL": [
         "reactome.db"
     ],
-    "maPredictDSC": [],
     "MAQCsubset": [
         "lumi",
         "methylumi",
