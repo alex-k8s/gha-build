@@ -3056,7 +3056,6 @@
         "GenomicFeatures",
         "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
-    "rnaseqDTU": [],
     "rnaseqGene": [
         "tximeta",
         "ReportingTools",
