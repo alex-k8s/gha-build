@@ -792,7 +792,6 @@
         "ReactomePA",
         "reactome.db"
     ],
-    "MungeSumstats": [],
     "Mus.musculus": [],
     "musicatk": [
         "BSgenome.Mmusculus.UCSC.mm9"
