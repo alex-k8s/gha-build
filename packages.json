@@ -50,7 +50,6 @@
         "bumphunter"
     ],
     "ASpediaFI": [
-        "IVAS",
         "Gviz",
         "biovizBase"
     ],
@@ -765,9 +764,7 @@
         "minfi",
         "bumphunter"
     ],
-    "IMAS": [
-        "IVAS"
-    ],
+    "IMAS": [],
     "imcdatasets": [
         "cytomapper"
     ],
@@ -789,7 +786,6 @@
     "IsoformSwitchAnalyzeR": [
         "tximeta"
     ],
-    "IVAS": [],
     "karyoploteR": [
         "biovizBase"
     ],
