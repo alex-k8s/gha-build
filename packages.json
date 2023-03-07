@@ -587,9 +587,7 @@
         "Homo.sapiens"
     ],
     "lineagespot": [],
-    "lisaClust": [
-        "spicyR"
-    ],
+    "lisaClust": [],
     "ListerEtAlBSseq": [
         "methylPipe",
         "Gviz"
@@ -1123,7 +1121,6 @@
         "motifmatchr",
         "Gviz"
     ],
-    "spicyR": [],
     "SPLINTER": [
         "Gviz",
         "BSgenome.Mmusculus.UCSC.mm9"
