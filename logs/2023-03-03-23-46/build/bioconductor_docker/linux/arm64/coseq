@@ -1,0 +1,601 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''coseq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'coseq'
+also installing the dependencies ‘DEoptimR’, ‘RcppEigen’, ‘proxy’, ‘plotrix’, ‘tensorA’, ‘robustbase’, ‘bayesm’, ‘capushe’, ‘Rmixmod’, ‘e1071’, ‘HTSFilter’, ‘corrplot’, ‘HTSCluster’, ‘compositions’, ‘mvtnorm’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/DEoptimR_1.0-11.tar.gz'
+Content type 'binary/octet-stream' length 37987 bytes (37 KB)
+==================================================
+downloaded 37 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1470560 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'binary/octet-stream' length 75015 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/plotrix_3.8-2.tar.gz'
+Content type 'binary/octet-stream' length 320144 bytes (312 KB)
+==================================================
+downloaded 312 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/tensorA_0.36.2.tar.gz'
+Content type 'binary/octet-stream' length 47475 bytes (46 KB)
+==================================================
+downloaded 46 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/robustbase_0.95-0.tar.gz'
+Content type 'binary/octet-stream' length 2307746 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/bayesm_3.1-5.tar.gz'
+Content type 'binary/octet-stream' length 2261461 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/capushe_1.1.1.tar.gz'
+Content type 'application/x-tar' length 17786 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/Rmixmod_2.1.8.tar.gz'
+Content type 'binary/octet-stream' length 637069 bytes (622 KB)
+==================================================
+downloaded 622 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/e1071_1.7-13.tar.gz'
+Content type 'binary/octet-stream' length 314513 bytes (307 KB)
+==================================================
+downloaded 307 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/HTSFilter_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 586187 bytes (572 KB)
+==================================================
+downloaded 572 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/corrplot_0.92.tar.gz'
+Content type 'binary/octet-stream' length 3747887 bytes (3.6 MB)
+==================================================
+downloaded 3.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/HTSCluster_2.0.10.tar.gz'
+Content type 'binary/octet-stream' length 437347 bytes (427 KB)
+==================================================
+downloaded 427 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/compositions_2.0-5.tar.gz'
+Content type 'binary/octet-stream' length 1171397 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/mvtnorm_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 167230 bytes (163 KB)
+==================================================
+downloaded 163 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/coseq_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 1717014 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+* installing *source* package ‘DEoptimR’ ...
+** package ‘DEoptimR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DEoptimR’ as ‘DEoptimR_1.0-11_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (DEoptimR)
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include  -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dll.c -o dll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘plotrix’ ...
+** package ‘plotrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *source* package ‘tensorA’ ...
+** package ‘tensorA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tensora.c -o tensora.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o tensorA.so tensora.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-tensorA/00new/tensorA/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tensorA’ as ‘tensorA_0.36.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (tensorA)
+* installing *source* package ‘bayesm’ ...
+** package ‘bayesm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bayesBLP_rcpp_loop.cpp -o bayesBLP_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c breg_rcpp.cpp -o breg_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cgetC_rcpp.cpp -o cgetC_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clusterMix_rcpp_loop.cpp -o clusterMix_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c functionTiming.cpp -o functionTiming.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ghkvec_rcpp.cpp -o ghkvec_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c llmnl_rcpp.cpp -o llmnl_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lndIChisq_rcpp.cpp -o lndIChisq_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lndIWishart_rcpp.cpp -o lndIWishart_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lndMvn_rcpp.cpp -o lndMvn_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lndMvst_rcpp.cpp -o lndMvst_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rDPGibbs_rcpp_loop.cpp -o rDPGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbprobitGibbs_rcpp_loop.cpp -o rbprobitGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rdirichlet_rcpp.cpp -o rdirichlet_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhierLinearMixture_rcpp_loop.cpp -o rhierLinearMixture_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhierLinearModel_rcpp_loop.cpp -o rhierLinearModel_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhierMnlDP_rcpp_loop.cpp -o rhierMnlDP_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhierMnlRwMixture_rcpp_loop.cpp -o rhierMnlRwMixture_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhierNegbinRw_rcpp_loop.cpp -o rhierNegbinRw_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rivDP_rcpp_loop.cpp -o rivDP_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rivgibbs_rcpp_loop.cpp -o rivgibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmixGibbs_rcpp.cpp -o rmixGibbs_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmixture_rcpp.cpp -o rmixture_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmnlIndepMetrop_rcpp_loop.cpp -o rmnlIndepMetrop_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmnpGibbs_rcpp_loop.cpp -o rmnpGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmultireg_rcpp.cpp -o rmultireg_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmvpGibbs_rcpp_loop.cpp -o rmvpGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmvst_rcpp.cpp -o rmvst_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rnegbinRw_rcpp_loop.cpp -o rnegbinRw_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rnmixGibbs_rcpp_loop.cpp -o rnmixGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rordprobitGibbs_rcpp_loop.cpp -o rordprobitGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rscaleUsage_rcpp_loop.cpp -o rscaleUsage_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rsurGibbs_rcpp_loop.cpp -o rsurGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rtrun_rcpp.cpp -o rtrun_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runiregGibbs_rcpp_loop.cpp -o runiregGibbs_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runireg_rcpp_loop.cpp -o runireg_rcpp_loop.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rwishart_rcpp.cpp -o rwishart_rcpp.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trunNorm.cpp -o trunNorm.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppArmadillo/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utilityFunctions.cpp -o utilityFunctions.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bayesm.so RcppExports.o bayesBLP_rcpp_loop.o breg_rcpp.o cgetC_rcpp.o clusterMix_rcpp_loop.o functionTiming.o ghkvec_rcpp.o llmnl_rcpp.o lndIChisq_rcpp.o lndIWishart_rcpp.o lndMvn_rcpp.o lndMvst_rcpp.o rDPGibbs_rcpp_loop.o rbprobitGibbs_rcpp_loop.o rdirichlet_rcpp.o rhierLinearMixture_rcpp_loop.o rhierLinearModel_rcpp_loop.o rhierMnlDP_rcpp_loop.o rhierMnlRwMixture_rcpp_loop.o rhierNegbinRw_rcpp_loop.o rivDP_rcpp_loop.o rivgibbs_rcpp_loop.o rmixGibbs_rcpp.o rmixture_rcpp.o rmnlIndepMetrop_rcpp_loop.o rmnpGibbs_rcpp_loop.o rmultireg_rcpp.o rmvpGibbs_rcpp_loop.o rmvst_rcpp.o rnegbinRw_rcpp_loop.o rnmixGibbs_rcpp_loop.o rordprobitGibbs_rcpp_loop.o rscaleUsage_rcpp_loop.o rsurGibbs_rcpp_loop.o rtrun_rcpp.o runiregGibbs_rcpp_loop.o runireg_rcpp_loop.o rwishart_rcpp.o trunNorm.o utilityFunctions.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-bayesm/00new/bayesm/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bayesm’ as ‘bayesm_3.1-5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (bayesm)
+* installing *source* package ‘capushe’ ...
+** package ‘capushe’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘capushe’ as ‘capushe_1.1.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (capushe)
+* installing *source* package ‘HTSFilter’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HTSFilter’ as ‘HTSFilter_1.38.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (HTSFilter)
+* installing *source* package ‘corrplot’ ...
+** package ‘corrplot’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘corrplot’ as ‘corrplot_0.92_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (corrplot)
+* installing *source* package ‘mvtnorm’ ...
+** package ‘mvtnorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c C_FORTRAN_interface.c -o C_FORTRAN_interface.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c miwa.c -o miwa.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c mvt.f -o mvt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mvtnorm-init.c -o mvtnorm-init.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c tvpack.f -o tvpack.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mvtnorm.so C_FORTRAN_interface.o miwa.o mvt.o mvtnorm-init.o tvpack.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-mvtnorm/00new/mvtnorm/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.1-3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *source* package ‘robustbase’ ...
+** package ‘robustbase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R-rng4ftn.c -o R-rng4ftn.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c eigen.f -o eigen.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lmrob.c -o lmrob.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mc.c -o mc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c monitor.c -o monitor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qn_sn.c -o qn_sn.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c rf-common.f -o rf-common.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c rffastmcd.f -o rffastmcd.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c rfltsreg.f -o rfltsreg.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c rllarsbi.f -o rllarsbi.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rob-utils.c -o rob-utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowMedians.c -o rowMedians.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wgt_himed.c -o wgt_himed.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o robustbase.so R-rng4ftn.o eigen.o init.o lmrob.o mc.o monitor.o qn_sn.o rf-common.o rffastmcd.o rfltsreg.o rllarsbi.o rob-utils.o rowMedians.o wgt_himed.o -llapack -lblas -lgfortran -lm -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-robustbase/00new/robustbase/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function ‘chgDefaults’ in package ‘robustbase’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘robustbase’ as ‘robustbase_0.95-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (robustbase)
+* installing *source* package ‘Rmixmod’ ...
+** package ‘Rmixmod’ successfully unpacked and MD5 sums checked
+** using staged installation
+./configure: line 2094: https://cran.r-project.org/doc/manuals/r-devel/R-exts.html#Configure-and-cleanup: No such file or directory
+checking for pkg-config... /usr/bin/pkg-config
+LIBXMLXX_CFLAGS: 
+LIBXMLXX_LIBS: 
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++14 accepts -g... yes
+checking for g++ -std=gnu++14 option to enable C++11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for omp.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ClusteringInputHandling.cpp -o ClusteringInputHandling.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ClusteringOutputHandling.cpp -o ClusteringOutputHandling.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Conversion.cpp -o Conversion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c InputHandling.cpp -o InputHandling.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LearnOutputHandling.cpp -o LearnOutputHandling.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c OutputHandling.cpp -o OutputHandling.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rmixmod_init.c -o Rmixmod_init.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clusteringMain.cpp -o clusteringMain.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c learnMain.cpp -o learnMain.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c predictMain.cpp -o predictMain.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include  -DRPACKAGE -DXEM_RESOURCES_PATH='"/tmp/built/00LOCK-Rmixmod/00new/Rmixmod/XML_specs"'   -I. -I./mixmod_iostream   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xMain.cpp -o xMain.o
+(cd ./mixmod && make -f mixmod_r.mk)
+make[1]: Entering directory '/tmp/RtmpmROGUT/R.INSTALLcaaa7f8acf/Rmixmod/src/mixmod'
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Clustering/ClusteringInput.cpp -o Clustering/ClusteringInput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Clustering/ClusteringMain.cpp -o Clustering/ClusteringMain.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Clustering/ClusteringModelOutput.cpp -o Clustering/ClusteringModelOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Clustering/ClusteringOutput.cpp -o Clustering/ClusteringOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Clustering/ClusteringStrategy.cpp -o Clustering/ClusteringStrategy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Clustering/ClusteringStrategyInit.cpp -o Clustering/ClusteringStrategyInit.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Matrix/DiagMatrix.cpp -o Matrix/DiagMatrix.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Matrix/GeneralMatrix.cpp -o Matrix/GeneralMatrix.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Matrix/Matrix.cpp -o Matrix/Matrix.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Matrix/SphericalMatrix.cpp -o Matrix/SphericalMatrix.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Matrix/SymmetricMatrix.cpp -o Matrix/SymmetricMatrix.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/Error.cpp -o Utilities/Error.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/ExampleDataUtil.cpp -o Utilities/ExampleDataUtil.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/Random.cpp -o Utilities/Random.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/Util.cpp -o Utilities/Util.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Learn/LearnInput.cpp -o DiscriminantAnalysis/Learn/LearnInput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Learn/LearnMain.cpp -o DiscriminantAnalysis/Learn/LearnMain.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Learn/LearnModelOutput.cpp -o DiscriminantAnalysis/Learn/LearnModelOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Learn/LearnOutput.cpp -o DiscriminantAnalysis/Learn/LearnOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Learn/LearnStrategy.cpp -o DiscriminantAnalysis/Learn/LearnStrategy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Predict/PredictInput.cpp -o DiscriminantAnalysis/Predict/PredictInput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Predict/PredictMain.cpp -o DiscriminantAnalysis/Predict/PredictMain.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Predict/PredictModelOutput.cpp -o DiscriminantAnalysis/Predict/PredictModelOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Predict/PredictOutput.cpp -o DiscriminantAnalysis/Predict/PredictOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DiscriminantAnalysis/Predict/PredictStrategy.cpp -o DiscriminantAnalysis/Predict/PredictStrategy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Algo/Algo.cpp -o Kernel/Algo/Algo.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Algo/CEMAlgo.cpp -o Kernel/Algo/CEMAlgo.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Algo/EMAlgo.cpp -o Kernel/Algo/EMAlgo.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Algo/MAPAlgo.cpp -o Kernel/Algo/MAPAlgo.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Algo/MAlgo.cpp -o Kernel/Algo/MAlgo.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Algo/SEMAlgo.cpp -o Kernel/Algo/SEMAlgo.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Criterion/BICCriterion.cpp -o Kernel/Criterion/BICCriterion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Criterion/CVCriterion.cpp -o Kernel/Criterion/CVCriterion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Criterion/Criterion.cpp -o Kernel/Criterion/Criterion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Criterion/CriterionOutput.cpp -o Kernel/Criterion/CriterionOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Criterion/ICLCriterion.cpp -o Kernel/Criterion/ICLCriterion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Criterion/NECCriterion.cpp -o Kernel/Criterion/NECCriterion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/BinaryData.cpp -o Kernel/IO/BinaryData.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/BinarySample.cpp -o Kernel/IO/BinarySample.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/ColumnDescription.cpp -o Kernel/IO/ColumnDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/CompositeData.cpp -o Kernel/IO/CompositeData.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/CompositeSample.cpp -o Kernel/IO/CompositeSample.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/Data.cpp -o Kernel/IO/Data.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/DataDescription.cpp -o Kernel/IO/DataDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/Description.cpp -o Kernel/IO/Description.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/GaussianData.cpp -o Kernel/IO/GaussianData.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/GaussianSample.cpp -o Kernel/IO/GaussianSample.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/IndividualColumnDescription.cpp -o Kernel/IO/IndividualColumnDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/Input.cpp -o Kernel/IO/Input.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/Label.cpp -o Kernel/IO/Label.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/LabelDescription.cpp -o Kernel/IO/LabelDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/LikelihoodOutput.cpp -o Kernel/IO/LikelihoodOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/ModelOutput.cpp -o Kernel/IO/ModelOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/ParameterDescription.cpp -o Kernel/IO/ParameterDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/Partition.cpp -o Kernel/IO/Partition.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/Proba.cpp -o Kernel/IO/Proba.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/ProbaDescription.cpp -o Kernel/IO/ProbaDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/ProbaOutput.cpp -o Kernel/IO/ProbaOutput.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/QualitativeColumnDescription.cpp -o Kernel/IO/QualitativeColumnDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/QuantitativeColumnDescription.cpp -o Kernel/IO/QuantitativeColumnDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/Sample.cpp -o Kernel/IO/Sample.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/UnusedColumnDescription.cpp -o Kernel/IO/UnusedColumnDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/IO/WeightColumnDescription.cpp -o Kernel/IO/WeightColumnDescription.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Model/BinaryModel.cpp -o Kernel/Model/BinaryModel.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Model/Model.cpp -o Kernel/Model/Model.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Model/ModelType.cpp -o Kernel/Model/ModelType.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/BinaryEParameter.cpp -o Kernel/Parameter/BinaryEParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/BinaryEjParameter.cpp -o Kernel/Parameter/BinaryEjParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/BinaryEkParameter.cpp -o Kernel/Parameter/BinaryEkParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/BinaryEkjParameter.cpp -o Kernel/Parameter/BinaryEkjParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/BinaryEkjhParameter.cpp -o Kernel/Parameter/BinaryEkjhParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/BinaryParameter.cpp -o Kernel/Parameter/BinaryParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/CompositeParameter.cpp -o Kernel/Parameter/CompositeParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/GaussianDiagParameter.cpp -o Kernel/Parameter/GaussianDiagParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/GaussianEDDAParameter.cpp -o Kernel/Parameter/GaussianEDDAParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/GaussianGeneralParameter.cpp -o Kernel/Parameter/GaussianGeneralParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/GaussianHDDAParameter.cpp -o Kernel/Parameter/GaussianHDDAParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/GaussianParameter.cpp -o Kernel/Parameter/GaussianParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/GaussianSphericalParameter.cpp -o Kernel/Parameter/GaussianSphericalParameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kernel/Parameter/Parameter.cpp -o Kernel/Parameter/Parameter.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/exceptions/DCVException.cpp -o Utilities/exceptions/DCVException.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/exceptions/DCVonlyInGaussianCaseException.cpp -o Utilities/exceptions/DCVonlyInGaussianCaseException.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/exceptions/Exception.cpp -o Utilities/exceptions/Exception.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/exceptions/InputException.cpp -o Utilities/exceptions/InputException.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/exceptions/NumericException.cpp -o Utilities/exceptions/NumericException.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DRPACKAGE -I. -I.. -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/built/RcppEigen/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utilities/exceptions/OtherException.cpp -o Utilities/exceptions/OtherException.o
+ar -rc ../mixmod.a Clustering/ClusteringInput.o Clustering/ClusteringMain.o Clustering/ClusteringModelOutput.o Clustering/ClusteringOutput.o Clustering/ClusteringStrategy.o Clustering/ClusteringStrategyInit.o Matrix/DiagMatrix.o Matrix/GeneralMatrix.o Matrix/Matrix.o Matrix/SphericalMatrix.o Matrix/SymmetricMatrix.o Utilities/Error.o Utilities/ExampleDataUtil.o Utilities/Random.o Utilities/Util.o DiscriminantAnalysis/Learn/LearnInput.o DiscriminantAnalysis/Learn/LearnMain.o DiscriminantAnalysis/Learn/LearnModelOutput.o DiscriminantAnalysis/Learn/LearnOutput.o DiscriminantAnalysis/Learn/LearnStrategy.o DiscriminantAnalysis/Predict/PredictInput.o DiscriminantAnalysis/Predict/PredictMain.o DiscriminantAnalysis/Predict/PredictModelOutput.o DiscriminantAnalysis/Predict/PredictOutput.o DiscriminantAnalysis/Predict/PredictStrategy.o Kernel/Algo/Algo.o Kernel/Algo/CEMAlgo.o Kernel/Algo/EMAlgo.o Kernel/Algo/MAPAlgo.o Kernel/Algo/MAlgo.o Kernel/Algo/SEMAlgo.o Kernel/Criterion/BICCriterion.o Kernel/Criterion/CVCriterion.o Kernel/Criterion/Criterion.o Kernel/Criterion/CriterionOutput.o Kernel/Criterion/ICLCriterion.o Kernel/Criterion/NECCriterion.o Kernel/IO/BinaryData.o Kernel/IO/BinarySample.o Kernel/IO/ColumnDescription.o Kernel/IO/CompositeData.o Kernel/IO/CompositeSample.o Kernel/IO/Data.o Kernel/IO/DataDescription.o Kernel/IO/Description.o Kernel/IO/GaussianData.o Kernel/IO/GaussianSample.o Kernel/IO/IndividualColumnDescription.o Kernel/IO/Input.o Kernel/IO/Label.o Kernel/IO/LabelDescription.o Kernel/IO/LikelihoodOutput.o Kernel/IO/ModelOutput.o Kernel/IO/ParameterDescription.o Kernel/IO/Partition.o Kernel/IO/Proba.o Kernel/IO/ProbaDescription.o Kernel/IO/ProbaOutput.o Kernel/IO/QualitativeColumnDescription.o Kernel/IO/QuantitativeColumnDescription.o Kernel/IO/Sample.o Kernel/IO/UnusedColumnDescription.o Kernel/IO/WeightColumnDescription.o Kernel/Model/BinaryModel.o Kernel/Model/Model.o Kernel/Model/ModelType.o Kernel/Parameter/BinaryEParameter.o Kernel/Parameter/BinaryEjParameter.o Kernel/Parameter/BinaryEkParameter.o Kernel/Parameter/BinaryEkjParameter.o Kernel/Parameter/BinaryEkjhParameter.o Kernel/Parameter/BinaryParameter.o Kernel/Parameter/CompositeParameter.o Kernel/Parameter/GaussianDiagParameter.o Kernel/Parameter/GaussianEDDAParameter.o Kernel/Parameter/GaussianGeneralParameter.o Kernel/Parameter/GaussianHDDAParameter.o Kernel/Parameter/GaussianParameter.o Kernel/Parameter/GaussianSphericalParameter.o Kernel/Parameter/Parameter.o Utilities/exceptions/DCVException.o Utilities/exceptions/DCVonlyInGaussianCaseException.o Utilities/exceptions/Exception.o Utilities/exceptions/InputException.o Utilities/exceptions/NumericException.o Utilities/exceptions/OtherException.o
+make[1]: Leaving directory '/tmp/RtmpmROGUT/R.INSTALLcaaa7f8acf/Rmixmod/src/mixmod'
+(if test ! -z  ; then cd ./mixmod_iostream && make -f mixmod_iostream_r.mk ; fi)
+ranlib mixmod.a
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rmixmod.so ClusteringInputHandling.o ClusteringOutputHandling.o Conversion.o InputHandling.o LearnOutputHandling.o OutputHandling.o Rmixmod_init.o clusteringMain.o learnMain.o predictMain.o xMain.o -L./mixmod mixmod.a -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-Rmixmod/00new/Rmixmod/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rmixmod’ as ‘Rmixmod_2.1.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Rmixmod)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmeans.c -o cmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cshell.c -o cshell.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c floyd.c -o floyd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘HTSCluster’ ...
+** package ‘HTSCluster’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HTSCluster’ as ‘HTSCluster_2.0.10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (HTSCluster)
+* installing *source* package ‘compositions’ ...
+** package ‘compositions’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compositions.c -o compositions.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o compositions.so compositions.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-compositions/00new/compositions/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘compositions’ as ‘compositions_2.0-5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (compositions)
+* installing *source* package ‘coseq’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘plot’ in package ‘coseq’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘coseq’ as ‘coseq_1.22.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (coseq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMvvEsK/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	176m5.217s
+user	173m34.312s
+sys	2m22.188s

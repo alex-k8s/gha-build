@@ -993,7 +993,6 @@
     "CopywriteR": [
         "chipseq"
     ],
-    "coseq": [],
     "COSMIC.67": [
         "VariantAnnotation",
         "BSgenome",
