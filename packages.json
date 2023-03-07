@@ -68,7 +68,6 @@
         "rGREAT",
         "Homo.sapiens",
         "Mus.musculus",
-        "BSgenome.Mmusculus.UCSC.mm10",
         "OrganismDbi",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
@@ -190,10 +189,7 @@
     "BSgenome.Mmulatta.UCSC.rheMac3.masked": [
         "BSgenome.Mmulatta.UCSC.rheMac3"
     ],
-    "BSgenome.Mmusculus.UCSC.mm10": [],
-    "BSgenome.Mmusculus.UCSC.mm10.masked": [
-        "BSgenome.Mmusculus.UCSC.mm10"
-    ],
+    "BSgenome.Mmusculus.UCSC.mm10.masked": [],
     "BSgenome.Mmusculus.UCSC.mm39": [],
     "BSgenome.Mmusculus.UCSC.mm8": [],
     "BSgenome.Mmusculus.UCSC.mm8.masked": [
@@ -692,7 +688,6 @@
         "TFBSTools"
     ],
     "GeneStructureTools": [
-        "BSgenome.Mmusculus.UCSC.mm10",
         "Gviz",
         "biovizBase"
     ],
@@ -1155,7 +1150,6 @@
     "musicatk": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "BSgenome.Mmusculus.UCSC.mm9",
-        "BSgenome.Mmusculus.UCSC.mm10",
         "decompTumor2Sig"
     ],
     "MutationalPatterns": [],
@@ -1620,7 +1614,6 @@
     "traseR": [],
     "Travel": [],
     "trena": [
-        "BSgenome.Mmusculus.UCSC.mm10",
         "SNPlocs.Hsapiens.dbSNP150.GRCh38"
     ],
     "tRNAscanImport": [],
