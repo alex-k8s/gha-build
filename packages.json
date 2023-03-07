@@ -501,7 +501,6 @@
         "bumphunter"
     ],
     "enrichTF": [
-        "pipeFrame",
         "motifmatchr",
         "TFBSTools"
     ],
@@ -563,7 +562,6 @@
         "OrganismDbi"
     ],
     "esATAC": [
-        "pipeFrame",
         "ChIPseeker",
         "TFBSTools",
         "motifmatchr"
@@ -1203,7 +1201,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "pipeFrame": [],
     "plotgardener": [],
     "PolyPhen.Hsapiens.dbSNP131": [],
     "preciseTAD": [
