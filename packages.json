@@ -231,9 +231,7 @@
         "flowClust",
         "flowMerge"
     ],
-    "consensusDE": [
-        "RUVSeq"
-    ],
+    "consensusDE": [],
     "contiBAIT": [],
     "conumee": [
         "minfi",
@@ -791,9 +789,7 @@
     "NoRCE": [
         "reactome.db"
     ],
-    "octad": [
-        "RUVSeq"
-    ],
+    "octad": [],
     "ODER": [
         "derfinder"
     ],
@@ -900,9 +896,7 @@
     "RiboProfiling": [
         "ggbio"
     ],
-    "ribosomeProfilingQC": [
-        "RUVSeq"
-    ],
+    "ribosomeProfilingQC": [],
     "RIPAT": [
         "karyoploteR"
     ],
@@ -940,7 +934,6 @@
         "tximeta",
         "ReportingTools",
         "Gviz",
-        "RUVSeq",
         "ggbio"
     ],
     "RNASeqR": [],
@@ -955,13 +948,10 @@
     ],
     "Rqc": [],
     "RTCGAToolbox": [],
-    "RUVSeq": [],
     "scanMiRApp": [],
     "sccomp": [],
     "scmeth": [],
-    "scone": [
-        "RUVSeq"
-    ],
+    "scone": [],
     "SCOPE": [],
     "scoreInvHap": [],
     "scRNAseq": [],
@@ -1037,9 +1027,7 @@
     "STAN": [
         "Gviz"
     ],
-    "standR": [
-        "RUVSeq"
-    ],
+    "standR": [],
     "strandCheckR": [],
     "StructuralVariantAnnotation": [],
     "surfaltr": [
