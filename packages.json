@@ -295,7 +295,6 @@
     ],
     "DAMEfinder": [],
     "DaMiRseq": [],
-    "decompTumor2Sig": [],
     "deconvR": [
         "minfi"
     ],
@@ -827,8 +826,7 @@
     "MungeSumstats": [],
     "Mus.musculus": [],
     "musicatk": [
-        "BSgenome.Mmusculus.UCSC.mm9",
-        "decompTumor2Sig"
+        "BSgenome.Mmusculus.UCSC.mm9"
     ],
     "MutationalPatterns": [],
     "mvoutData": [
