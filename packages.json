@@ -28,7 +28,6 @@
         "biovizBase"
     ],
     "alpine": [],
-    "ANCOMBC": [],
     "AneuFinder": [],
     "annotation": [
         "VariantAnnotation",
@@ -136,9 +135,7 @@
         "bumphunter"
     ],
     "BEAT": [],
-    "benchdamic": [
-        "ANCOMBC"
-    ],
+    "benchdamic": [],
     "BgeeCall": [],
     "bgx": [],
     "bigmelon": [
@@ -1548,9 +1545,7 @@
         "bumphunter"
     ],
     "miaViz": [],
-    "microbiomeMarker": [
-        "ANCOMBC"
-    ],
+    "microbiomeMarker": [],
     "MineICA": [
         "lumi",
         "methylumi",
