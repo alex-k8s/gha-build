@@ -30,7 +30,6 @@
         "GenomicFeatures",
         "OrganismDbi"
     ],
-    "airpart": [],
     "AllelicImbalance": [
         "BSgenome",
         "VariantAnnotation",
