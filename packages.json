@@ -1,7 +1,5 @@
 {
-    "ADaCGH2": [
-        "snapCGH"
-    ],
+    "ADaCGH2": [],
     "affycoretools": [
         "ReportingTools",
         "ggbio",
@@ -3286,7 +3284,6 @@
         "geneLenDataBase",
         "GenomicFeatures"
     ],
-    "snapCGH": [],
     "SNPhood": [
         "VariantAnnotation",
         "BSgenome",
