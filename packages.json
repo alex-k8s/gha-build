@@ -2171,7 +2171,6 @@
     "seqCAT": [
         "VariantAnnotation"
     ],
-    "seqsetvis": [],
     "sequencing": [
         "VariantAnnotation",
         "BSgenome.Hsapiens.UCSC.hg19"
