@@ -744,7 +744,6 @@
     "casper": [
         "GenomicFeatures"
     ],
-    "CATALYST": [],
     "cbaf": [
         "cBioPortalData",
         "RTCGAToolbox",
@@ -1088,9 +1087,7 @@
     "cyanoFilter": [
         "flowClust"
     ],
-    "cytofWorkflow": [
-        "CATALYST"
-    ],
+    "cytofWorkflow": [],
     "cytomapper": [
         "SpatialExperiment"
     ],
