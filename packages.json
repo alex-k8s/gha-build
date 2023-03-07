@@ -3389,7 +3389,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "TBSignatureProfiler": [],
     "TCGAbiolinksGUI": [
         "ELMER",
         "GenomicFeatures",
