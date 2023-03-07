@@ -1520,7 +1520,6 @@
     "fitCons.UCSC.hg19": [
         "BSgenome"
     ],
-    "flagme": [],
     "FLAMES": [
         "bambu",
         "GenomicFeatures",
