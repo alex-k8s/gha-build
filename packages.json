@@ -478,7 +478,6 @@
     "GeneStructureTools": [
         "Gviz"
     ],
-    "GenomicDistributionsData": [],
     "GenomicFiles": [],
     "GenomicInteractions": [
         "Gviz"
