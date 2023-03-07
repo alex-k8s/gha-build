@@ -4122,7 +4122,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "SigCheck": [],
     "signatureSearch": [
         "reactome.db",
         "clusterProfiler"
