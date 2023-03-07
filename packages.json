@@ -1014,16 +1014,11 @@
     ],
     "standR": [],
     "strandCheckR": [],
-    "StructuralVariantAnnotation": [],
     "surfaltr": [
         "msa"
     ],
-    "svaNUMT": [
-        "StructuralVariantAnnotation"
-    ],
-    "svaRetro": [
-        "StructuralVariantAnnotation"
-    ],
+    "svaNUMT": [],
+    "svaRetro": [],
     "TCGAbiolinksGUI": [
         "ELMER",
         "Gviz"
