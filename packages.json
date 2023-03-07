@@ -669,7 +669,6 @@
         "bumphunter",
         "GenomicFeatures"
     ],
-    "compartmap": [],
     "compEpiTools": [
         "GenomicFeatures",
         "methylPipe",
