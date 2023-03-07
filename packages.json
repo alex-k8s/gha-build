@@ -1517,7 +1517,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "TxDb.Celegans.UCSC.ce11.refGene": [],
     "TxDb.Celegans.UCSC.ce6.ensGene": [],
     "TxDb.Cfamiliaris.UCSC.canFam3.refGene": [],
     "TxDb.Cfamiliaris.UCSC.canFam4.refGene": [],
