@@ -1576,7 +1576,6 @@
         "biovizBase",
         "OrganismDbi"
     ],
-    "recoup": [],
     "REDseq": [
         "ChIPpeakAnno",
         "regioneR"
