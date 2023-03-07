@@ -955,9 +955,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "factR": [
-        "wiggleplotr"
-    ],
+    "factR": [],
     "famat": [
         "reactome.db"
     ],
@@ -2525,7 +2523,6 @@
     ],
     "wavClusteR": [],
     "WeberDivechaLCdata": [],
-    "wiggleplotr": [],
     "Xeva": [],
     "XNAString": [],
     "XtraSNPlocs.Hsapiens.dbSNP144.GRCh37": [],
