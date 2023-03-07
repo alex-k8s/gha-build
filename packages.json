@@ -19,7 +19,6 @@
     ],
     "AneuFinder": [],
     "annotation": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "Homo.sapiens"
     ],
     "AnnotationHubData": [],
@@ -52,8 +51,7 @@
         "chromVAR",
         "rGREAT",
         "Homo.sapiens",
-        "Mus.musculus",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
+        "Mus.musculus"
     ],
     "ATACseqQC": [
         "ChIPpeakAnno",
@@ -456,7 +454,6 @@
         "minfi",
         "Homo.sapiens",
         "Gviz",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -950,7 +947,6 @@
     "MungeSumstats": [],
     "Mus.musculus": [],
     "musicatk": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "BSgenome.Mmusculus.UCSC.mm9",
         "decompTumor2Sig"
     ],
@@ -972,9 +968,7 @@
     ],
     "NanoMethViz": [],
     "NBSplice": [],
-    "nearBynding": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
-    ],
+    "nearBynding": [],
     "NetPathMiner": [],
     "netZooR": [
         "yarn",
@@ -1022,8 +1016,7 @@
     ],
     "PolyPhen.Hsapiens.dbSNP131": [],
     "preciseTAD": [
-        "rCGH",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
+        "rCGH"
     ],
     "primirTSS": [
         "Gviz",
@@ -1031,7 +1024,6 @@
     ],
     "profileplyr": [
         "ChIPseeker",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "rGREAT"
     ],
     "proteasy": [
@@ -1069,9 +1061,7 @@
     "Rbec": [],
     "Rbwa": [],
     "RCAS": [],
-    "rCGH": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
-    ],
+    "rCGH": [],
     "RcisTarget": [],
     "reactome.db": [],
     "ReactomePA": [
@@ -1117,9 +1107,7 @@
     ],
     "RESOLVE": [],
     "RgnTX": [],
-    "rGREAT": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
-    ],
+    "rGREAT": [],
     "rgsepd": [
         "goseq"
     ],
@@ -1245,9 +1233,7 @@
         "reactome.db"
     ],
     "signeR": [],
-    "signifinder": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
-    ],
+    "signifinder": [],
     "SigsPack": [],
     "simpleSeg": [],
     "singleCellTK": [
@@ -1304,9 +1290,7 @@
         "RUVSeq"
     ],
     "stJoincount": [],
-    "strandCheckR": [
-        "TxDb.Hsapiens.UCSC.hg38.knownGene"
-    ],
+    "strandCheckR": [],
     "StructuralVariantAnnotation": [],
     "surfaltr": [
         "msa"
@@ -1346,14 +1330,12 @@
         "Gviz",
         "biovizBase"
     ],
-    "TxDb.Hsapiens.UCSC.hg38.knownGene": [],
     "tximeta": [],
     "Ularcirc": [],
     "UMI4Cats": [],
     "uncoverappLib": [
         "Gviz",
         "Homo.sapiens",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "EnsDb.Hsapiens.v75",
         "EnsDb.Hsapiens.v86",
         "biovizBase"
