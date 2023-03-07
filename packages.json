@@ -258,9 +258,7 @@
     ],
     "BiSeq": [],
     "BitSeq": [],
-    "blacksheepr": [
-        "pasilla"
-    ],
+    "blacksheepr": [],
     "BOBaFIT": [
         "ggbio",
         "plyranges",
@@ -2649,7 +2647,6 @@
         "CNEr"
     ],
     "PanomiR": [],
-    "pasilla": [],
     "PAST": [],
     "pcaExplorer": [],
     "pd.ecoli.asv2": [],
