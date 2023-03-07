@@ -550,7 +550,6 @@
     "fcScan": [],
     "FDb.InfiniumMethylation.hg18": [],
     "FDb.InfiniumMethylation.hg19": [],
-    "FDb.UCSC.tRNAs": [],
     "ffpe": [
         "lumi",
         "methylumi",
