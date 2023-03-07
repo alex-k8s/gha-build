@@ -1239,7 +1239,6 @@
         "ggbio",
         "biovizBase"
     ],
-    "SpatialFeatureExperiment": [],
     "spatzie": [
         "GenomicInteractions",
         "motifmatchr",
@@ -1332,9 +1331,7 @@
     "VCFArray": [
         "GenomicFiles"
     ],
-    "Voyager": [
-        "SpatialFeatureExperiment"
-    ],
+    "Voyager": [],
     "vtpnet": [
         "gwascat"
     ],
