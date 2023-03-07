@@ -876,7 +876,6 @@
         "VariantAnnotation"
     ],
     "goseq": [],
-    "GOTHiC": [],
     "GSReg": [
         "Homo.sapiens",
         "OrganismDbi",
