@@ -198,7 +198,6 @@
     "chipenrich": [],
     "ChIPexoQual": [],
     "ChIPQC": [],
-    "ChIPseeker": [],
     "ChIPXpress": [
         "ChIPXpressData"
     ],
@@ -347,9 +346,7 @@
     "EnsDb.Mmusculus.v79": [],
     "EnsDb.Rnorvegicus.v75": [],
     "EnsDb.Rnorvegicus.v79": [],
-    "EpiCompare": [
-        "ChIPseeker"
-    ],
+    "EpiCompare": [],
     "epigraHMM": [],
     "epihet": [
         "ReactomePA",
@@ -380,7 +377,6 @@
         "Homo.sapiens"
     ],
     "esATAC": [
-        "ChIPseeker",
         "motifmatchr"
     ],
     "EuPathDB": [
@@ -860,7 +856,6 @@
         "Gviz"
     ],
     "profileplyr": [
-        "ChIPseeker",
         "rGREAT"
     ],
     "proteasy": [
@@ -1013,9 +1008,7 @@
         "epivizr",
         "epivizrData"
     ],
-    "segmenter": [
-        "ChIPseeker"
-    ],
+    "segmenter": [],
     "selectKSigs": [],
     "seqCAT": [],
     "sequencing": [],
