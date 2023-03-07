@@ -2164,7 +2164,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "transcriptR": [],
     "TraRe": [],
     "traseR": [
         "BSgenome.Hsapiens.UCSC.hg19"
