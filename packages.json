@@ -993,8 +993,7 @@
     ],
     "MerfishData": [],
     "MetaboSignal": [
-        "EnsDb.Hsapiens.v75",
-        "mygene"
+        "EnsDb.Hsapiens.v75"
     ],
     "metagene": [
         "EnsDb.Hsapiens.v86"
@@ -1189,7 +1188,6 @@
         "minfi",
         "bumphunter"
     ],
-    "mygene": [],
     "myvariant": [],
     "NADfinder": [
         "trackViewer",
