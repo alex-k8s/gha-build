@@ -2,19 +2,16 @@
     "affycoretools": [
         "ReportingTools",
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "AgiMicroRna": [
         "affycoretools",
         "ReportingTools",
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "AHEnsDbs": [
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "AllelicImbalance": [
         "Gviz",
@@ -23,12 +20,9 @@
     "AneuFinder": [],
     "annotation": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "Homo.sapiens",
-        "OrganismDbi"
+        "Homo.sapiens"
     ],
-    "AnnotationHubData": [
-        "OrganismDbi"
-    ],
+    "AnnotationHubData": [],
     "annotatr": [],
     "APAlyzer": [],
     "appreci8R": [
@@ -36,8 +30,7 @@
         "MafDb.1Kgenomes.phase3.hs37d5",
         "COSMIC.67",
         "PolyPhen.Hsapiens.dbSNP131",
-        "SIFT.Hsapiens.dbSNP137",
-        "OrganismDbi"
+        "SIFT.Hsapiens.dbSNP137"
     ],
     "ArrayExpressHTS": [],
     "arrayMvout": [
@@ -61,7 +54,6 @@
         "rGREAT",
         "Homo.sapiens",
         "Mus.musculus",
-        "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "ATACseqQC": [
@@ -115,14 +107,12 @@
         "Homo.sapiens",
         "dmrseq",
         "bumphunter",
-        "annotatr",
-        "OrganismDbi"
+        "annotatr"
     ],
     "BitSeq": [],
     "BOBaFIT": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "borealis": [
         "DSS"
@@ -134,8 +124,7 @@
         "GenomicState",
         "GenomicFiles",
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "branchpointer": [],
     "BSgenome.Amellifera.UCSC.apiMel2.masked": [],
@@ -208,8 +197,7 @@
     "BUSpaRse": [],
     "CAFE": [
         "biovizBase",
-        "ggbio",
-        "OrganismDbi"
+        "ggbio"
     ],
     "CAGEfightR": [
         "GenomicFiles",
@@ -219,8 +207,7 @@
     ],
     "cageminer": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "CAGEWorkflow": [
         "CAGEfightR",
@@ -408,8 +395,7 @@
         "ggbio",
         "bumphunter",
         "GenomicFiles",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "DEScan2": [
         "ChIPpeakAnno"
@@ -495,47 +481,38 @@
         "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "EpiTxDb.Hs.hg38": [],
     "EpiTxDb.Mm.mm10": [],
     "EpiTxDb.Sc.sacCer3": [],
     "epivizr": [
         "epivizrData",
-        "bumphunter",
-        "OrganismDbi"
+        "bumphunter"
     ],
     "epivizrChart": [
-        "epivizrData",
-        "OrganismDbi"
+        "epivizrData"
     ],
-    "epivizrData": [
-        "OrganismDbi"
-    ],
+    "epivizrData": [],
     "epivizrStandalone": [
         "epivizr",
         "epivizrData",
-        "bumphunter",
-        "OrganismDbi"
+        "bumphunter"
     ],
     "erma": [
         "Homo.sapiens",
-        "GenomicFiles",
-        "OrganismDbi"
+        "GenomicFiles"
     ],
     "esATAC": [
         "ChIPseeker",
         "motifmatchr"
     ],
     "EuPathDB": [
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "EventPointer": [],
     "ExperimentHubData": [
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "extraChIPs": [
         "GenomicInteractions",
@@ -566,8 +543,7 @@
     ],
     "FLAMES": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "flowCL": [],
     "flowClust": [],
@@ -633,8 +609,7 @@
     ],
     "GenomicOZone": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "GenomicState": [
         "bumphunter",
@@ -648,14 +623,12 @@
     ],
     "GenVisR": [],
     "ggbio": [
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "gmapR": [],
     "goseq": [],
     "GSReg": [
-        "Homo.sapiens",
-        "OrganismDbi"
+        "Homo.sapiens"
     ],
     "GUIDEseq": [
         "ChIPpeakAnno"
@@ -678,9 +651,7 @@
     ],
     "HiLDA": [],
     "hiReadsProcessor": [],
-    "Homo.sapiens": [
-        "OrganismDbi"
-    ],
+    "Homo.sapiens": [],
     "HTSeqGenie": [
         "gmapR",
         "VariantTools"
@@ -741,8 +712,7 @@
     "INSPEcT": [],
     "intansv": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "ipdDb": [],
     "IRISFGM": [],
@@ -761,8 +731,7 @@
     "LiebermanAidenHiC2009": [],
     "liftOver": [
         "gwascat",
-        "Homo.sapiens",
-        "OrganismDbi"
+        "Homo.sapiens"
     ],
     "lineagespot": [],
     "lisaClust": [
@@ -856,8 +825,7 @@
     "mCSEA": [
         "Homo.sapiens",
         "Gviz",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "MEAL": [
         "minfi",
@@ -894,8 +862,7 @@
         "epivizr",
         "epivizrData",
         "epivizrStandalone",
-        "bumphunter",
-        "OrganismDbi"
+        "bumphunter"
     ],
     "MethCP": [
         "DSS"
@@ -938,13 +905,11 @@
         "minfi",
         "ExperimentHubData",
         "bumphunter",
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "methylclockData": [
         "ExperimentHubData",
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "methylGSA": [
         "missMethyl",
@@ -1036,8 +1001,7 @@
     "msa": [],
     "msgbsR": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "Mu22v3.db": [],
     "multicrispr": [
@@ -1049,9 +1013,7 @@
         "reactome.db"
     ],
     "MungeSumstats": [],
-    "Mus.musculus": [
-        "OrganismDbi"
-    ],
+    "Mus.musculus": [],
     "musicatk": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "BSgenome.Mmusculus.UCSC.mm9",
@@ -1111,7 +1073,6 @@
         "flowClust"
     ],
     "ORFhunteR": [],
-    "OrganismDbi": [],
     "pageRank": [
         "motifmatchr"
     ],
@@ -1170,14 +1131,11 @@
     ],
     "R3CPET": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "R453Plus1Toolbox": [],
     "RareVariantVis": [],
-    "Rattus.norvegicus": [
-        "OrganismDbi"
-    ],
+    "Rattus.norvegicus": [],
     "Rbec": [],
     "Rbwa": [],
     "RCAS": [],
@@ -1209,8 +1167,7 @@
         "derfinderPlot",
         "GenomicFiles",
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "REDseq": [
         "ChIPpeakAnno"
@@ -1231,8 +1188,7 @@
     ],
     "ReportingTools": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "RESOLVE": [],
     "RgnTX": [],
@@ -1247,8 +1203,7 @@
     "RiboDiPA": [],
     "RiboProfiling": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "ribosomeProfilingQC": [
         "motifStack",
@@ -1283,8 +1238,7 @@
     ],
     "RNAmodR.Data": [
         "ExperimentHubData",
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "RNAmodR.ML": [
         "RNAmodR",
@@ -1297,8 +1251,7 @@
         "biovizBase"
     ],
     "RNAseq123": [
-        "Mus.musculus",
-        "OrganismDbi"
+        "Mus.musculus"
     ],
     "rnaseqGene": [
         "tximeta",
@@ -1306,8 +1259,7 @@
         "Gviz",
         "RUVSeq",
         "biovizBase",
-        "ggbio",
-        "OrganismDbi"
+        "ggbio"
     ],
     "RNASeqR": [],
     "RnaSeqSampleSize": [
@@ -1341,8 +1293,7 @@
     "scRNAseq": [],
     "scruff": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "scTensor": [
         "reactome.db",
@@ -1352,8 +1303,7 @@
     "scTreeViz": [
         "epivizr",
         "epivizrData",
-        "bumphunter",
-        "OrganismDbi"
+        "bumphunter"
     ],
     "segmenter": [
         "ChIPseeker"
@@ -1411,8 +1361,7 @@
     "sojourner": [],
     "SomaticSignatures": [
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "SpatialFeatureExperiment": [],
     "spatzie": [
@@ -1491,7 +1440,6 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "EnsDb.Hsapiens.v75",
         "EnsDb.Hsapiens.v86",
-        "OrganismDbi",
         "biovizBase"
     ],
     "Uniquorn": [],
@@ -1534,8 +1482,7 @@
     "YAPSA": [
         "SomaticSignatures",
         "ggbio",
-        "biovizBase",
-        "OrganismDbi"
+        "biovizBase"
     ],
     "yarn": [
         "quantro",
