@@ -294,8 +294,7 @@
         "gwascat"
     ],
     "CircSeqAlignTk": [
-        "Rhisat2",
-        "SGSeq"
+        "Rhisat2"
     ],
     "CiteFuse": [],
     "cleanUpdTSeq": [],
@@ -543,9 +542,7 @@
         "AnnotationHubData",
         "OrganismDbi"
     ],
-    "EventPointer": [
-        "SGSeq"
-    ],
+    "EventPointer": [],
     "ExperimentHubData": [
         "AnnotationHubData",
         "OrganismDbi"
@@ -1267,9 +1264,7 @@
     "rgsepd": [
         "goseq"
     ],
-    "Rhisat2": [
-        "SGSeq"
-    ],
+    "Rhisat2": [],
     "RiboCrypt": [],
     "RiboDiPA": [],
     "RiboProfiling": [
@@ -1391,7 +1386,6 @@
     ],
     "seqCAT": [],
     "sequencing": [],
-    "SGSeq": [],
     "shinyepico": [
         "minfi",
         "bumphunter"
