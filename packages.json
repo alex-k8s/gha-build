@@ -1825,7 +1825,6 @@
         "BSgenome"
     ],
     "ideal": [
-        "pcaExplorer",
         "goseq",
         "geneLenDataBase",
         "GenomicFeatures"
@@ -2632,7 +2631,6 @@
     ],
     "PanomiR": [],
     "PAST": [],
-    "pcaExplorer": [],
     "pd.ecoli.asv2": [],
     "pd.genomewidesnp.5": [],
     "pd.genomewidesnp.6": [],
