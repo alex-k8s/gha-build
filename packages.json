@@ -36,7 +36,6 @@
         "TxDb.Mmusculus.UCSC.mm10.ensGene",
         "Homo.sapiens",
         "BSgenome.Hsapiens.UCSC.hg19",
-        "TxDb.Athaliana.BioMart.plantsmart22",
         "OrganismDbi"
     ],
     "AnnotationHubData": [
@@ -2231,7 +2230,6 @@
         "biovizBase"
     ],
     "txcutr": [],
-    "TxDb.Athaliana.BioMart.plantsmart22": [],
     "TxDb.Athaliana.BioMart.plantsmart25": [],
     "TxDb.Athaliana.BioMart.plantsmart28": [],
     "TxDb.Athaliana.BioMart.plantsmart51": [],
