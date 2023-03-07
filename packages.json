@@ -1693,7 +1693,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "GeneTonic": [],
     "geneXtendeR": [],
     "genomation": [
         "BSgenome"
