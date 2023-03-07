@@ -767,7 +767,6 @@
         "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
-    "myvariant": [],
     "NADfinder": [
         "trackViewer",
         "ATACseqQC",
