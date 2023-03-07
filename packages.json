@@ -815,7 +815,6 @@
         "bumphunter",
         "GenomicFeatures"
     ],
-    "DeepBlueR": [],
     "DeepPINCS": [
         "ttgsea"
     ],
