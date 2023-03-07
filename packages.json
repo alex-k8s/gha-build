@@ -1478,7 +1478,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "CNEr"
     ],
-    "escape": [],
     "EuPathDB": [
         "AnnotationHubData",
         "GenomicFeatures",
