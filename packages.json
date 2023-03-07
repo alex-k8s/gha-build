@@ -2668,9 +2668,7 @@
     "pipeFrame": [
         "BSgenome"
     ],
-    "plasFIA": [
-        "proFIA"
-    ],
+    "plasFIA": [],
     "plotgardener": [
         "plyranges"
     ],
@@ -2709,7 +2707,6 @@
     "proBAMr": [
         "GenomicFeatures"
     ],
-    "proFIA": [],
     "profileplyr": [
         "soGGi",
         "ChIPseeker",
