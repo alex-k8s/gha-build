@@ -196,9 +196,7 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "branchpointer": [
-        "BSgenome.Hsapiens.UCSC.hg38"
-    ],
+    "branchpointer": [],
     "BSgenome.Amellifera.BeeBase.assembly4": [],
     "BSgenome.Amellifera.UCSC.apiMel2.masked": [],
     "BSgenome.Athaliana.TAIR.04232008": [],
@@ -241,11 +239,8 @@
     "BSgenome.Hsapiens.UCSC.hg17.masked": [],
     "BSgenome.Hsapiens.UCSC.hg18.masked": [],
     "BSgenome.Hsapiens.UCSC.hg19.masked": [],
-    "BSgenome.Hsapiens.UCSC.hg38": [],
     "BSgenome.Hsapiens.UCSC.hg38.dbSNP151.major": [],
-    "BSgenome.Hsapiens.UCSC.hg38.masked": [
-        "BSgenome.Hsapiens.UCSC.hg38"
-    ],
+    "BSgenome.Hsapiens.UCSC.hg38.masked": [],
     "BSgenome.Mfascicularis.NCBI.6.0": [],
     "BSgenome.Mmulatta.UCSC.rheMac10": [],
     "BSgenome.Mmulatta.UCSC.rheMac2": [],
@@ -1126,8 +1121,7 @@
         "ensembldb"
     ],
     "katdetectr": [
-        "VariantAnnotation",
-        "BSgenome.Hsapiens.UCSC.hg38"
+        "VariantAnnotation"
     ],
     "kissDE": [
         "DSS",
@@ -1511,7 +1505,6 @@
         "VariantAnnotation",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "BSgenome.Hsapiens.UCSC.hg38",
         "BSgenome.Mmusculus.UCSC.mm9",
         "BSgenome.Mmusculus.UCSC.mm10",
         "decompTumor2Sig"
@@ -1589,9 +1582,7 @@
     "openCyto": [
         "flowClust"
     ],
-    "ORFhunteR": [
-        "BSgenome.Hsapiens.UCSC.hg38"
-    ],
+    "ORFhunteR": [],
     "ORFik": [],
     "Organism.dplyr": [],
     "OrganismDbi": [],
@@ -1628,7 +1619,6 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "primirTSS": [
-        "BSgenome.Hsapiens.UCSC.hg38",
         "phastCons100way.UCSC.hg38",
         "Gviz",
         "TFBSTools",
@@ -2136,7 +2126,6 @@
     "traseR": [],
     "Travel": [],
     "trena": [
-        "BSgenome.Hsapiens.UCSC.hg38",
         "BSgenome.Mmusculus.UCSC.mm10",
         "SNPlocs.Hsapiens.dbSNP150.GRCh38"
     ],
@@ -2197,7 +2186,6 @@
         "EnsDb.Hsapiens.v75",
         "EnsDb.Hsapiens.v86",
         "OrganismDbi",
-        "BSgenome.Hsapiens.UCSC.hg38",
         "ensembldb",
         "biovizBase",
         "VariantAnnotation"
