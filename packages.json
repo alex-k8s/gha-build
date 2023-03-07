@@ -44,15 +44,11 @@
         "Homo.sapiens",
         "Mus.musculus"
     ],
-    "ATACseqQC": [
-        "motifStack"
-    ],
+    "ATACseqQC": [],
     "ATACseqTFEA": [
         "motifmatchr"
     ],
-    "atSNP": [
-        "motifStack"
-    ],
+    "atSNP": [],
     "attract": [
         "reactome.db"
     ],
@@ -280,9 +276,7 @@
         "openCyto",
         "flowClust"
     ],
-    "dagLogo": [
-        "motifStack"
-    ],
+    "dagLogo": [],
     "DAMEfinder": [],
     "DaMiRseq": [],
     "deconvR": [
@@ -452,9 +446,7 @@
     "GARS": [
         "DaMiRseq"
     ],
-    "generegulation": [
-        "motifStack"
-    ],
+    "generegulation": [],
     "GeneStructureTools": [
         "Gviz"
     ],
@@ -556,7 +548,6 @@
     ],
     "LowMACA": [
         "cBioPortalData",
-        "motifStack",
         "RTCGAToolbox"
     ],
     "lumi": [
@@ -770,11 +761,9 @@
     ],
     "monaLisa": [],
     "motifbreakR": [
-        "motifStack",
         "Gviz"
     ],
     "motifmatchr": [],
-    "motifStack": [],
     "msa": [],
     "msgbsR": [
         "ggbio"
@@ -802,7 +791,6 @@
     "NADfinder": [
         "trackViewer",
         "ATACseqQC",
-        "motifStack",
         "Gviz"
     ],
     "NanoMethViz": [],
@@ -931,7 +919,6 @@
         "ggbio"
     ],
     "ribosomeProfilingQC": [
-        "motifStack",
         "RUVSeq"
     ],
     "RIPAT": [
