@@ -2481,7 +2481,6 @@
         "GenomicFeatures",
         "TxDb.Mmusculus.UCSC.mm10.knownGene"
     ],
-    "muscat": [],
     "musicatk": [
         "VariantAnnotation",
         "BSgenome",
