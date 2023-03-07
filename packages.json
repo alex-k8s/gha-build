@@ -58,7 +58,6 @@
         "biovizBase"
     ],
     "ATACCoGAPS": [
-        "TFBSTools",
         "motifmatchr",
         "chromVAR",
         "rGREAT",
@@ -70,16 +69,13 @@
     ],
     "ATACseqQC": [
         "ChIPpeakAnno",
-        "motifStack",
-        "TFBSTools"
+        "motifStack"
     ],
     "ATACseqTFEA": [
-        "motifmatchr",
-        "TFBSTools"
+        "motifmatchr"
     ],
     "atSNP": [
-        "motifStack",
-        "TFBSTools"
+        "motifStack"
     ],
     "attract": [
         "reactome.db"
@@ -290,9 +286,7 @@
         "ChIPXpressData"
     ],
     "ChIPXpressData": [],
-    "chromVAR": [
-        "TFBSTools"
-    ],
+    "chromVAR": [],
     "cicero": [
         "Gviz",
         "biovizBase"
@@ -398,8 +392,7 @@
         "flowClust"
     ],
     "dagLogo": [
-        "motifStack",
-        "TFBSTools"
+        "motifStack"
     ],
     "DAMEfinder": [
         "bumphunter"
@@ -477,16 +470,14 @@
         "biovizBase"
     ],
     "enhancerHomologSearch": [
-        "motifmatchr",
-        "TFBSTools"
+        "motifmatchr"
     ],
     "ENmix": [
         "minfi",
         "bumphunter"
     ],
     "enrichTF": [
-        "motifmatchr",
-        "TFBSTools"
+        "motifmatchr"
     ],
     "EnsDb.Hsapiens.v75": [],
     "EnsDb.Hsapiens.v79": [],
@@ -547,7 +538,6 @@
     ],
     "esATAC": [
         "ChIPseeker",
-        "TFBSTools",
         "motifmatchr"
     ],
     "EuPathDB": [
@@ -646,8 +636,7 @@
     ],
     "genbankr": [],
     "generegulation": [
-        "motifStack",
-        "TFBSTools"
+        "motifStack"
     ],
     "GeneStructureTools": [
         "Gviz",
@@ -808,8 +797,7 @@
     "LowMACA": [
         "cBioPortalData",
         "motifStack",
-        "RTCGAToolbox",
-        "TFBSTools"
+        "RTCGAToolbox"
     ],
     "lumi": [
         "methylumi",
@@ -885,9 +873,7 @@
         "Gviz",
         "biovizBase"
     ],
-    "MatrixRider": [
-        "TFBSTools"
-    ],
+    "MatrixRider": [],
     "mCSEA": [
         "Homo.sapiens",
         "Gviz",
@@ -1060,21 +1046,14 @@
         "gmapR",
         "VariantTools"
     ],
-    "monaLisa": [
-        "TFBSTools"
-    ],
+    "monaLisa": [],
     "motifbreakR": [
         "motifStack",
         "Gviz",
-        "biovizBase",
-        "TFBSTools"
+        "biovizBase"
     ],
-    "motifmatchr": [
-        "TFBSTools"
-    ],
-    "motifStack": [
-        "TFBSTools"
-    ],
+    "motifmatchr": [],
+    "motifStack": [],
     "msa": [],
     "msgbsR": [
         "ggbio",
@@ -1115,8 +1094,7 @@
         "ChIPpeakAnno",
         "motifStack",
         "Gviz",
-        "biovizBase",
-        "TFBSTools"
+        "biovizBase"
     ],
     "NanoMethViz": [],
     "NBSplice": [],
@@ -1158,8 +1136,7 @@
     "ORFhunteR": [],
     "OrganismDbi": [],
     "pageRank": [
-        "motifmatchr",
-        "TFBSTools"
+        "motifmatchr"
     ],
     "pd.ecoli.asv2": [],
     "pd.genomewidesnp.5": [],
@@ -1181,7 +1158,6 @@
     ],
     "primirTSS": [
         "Gviz",
-        "TFBSTools",
         "biovizBase"
     ],
     "profileplyr": [
@@ -1305,8 +1281,7 @@
     ],
     "ribosomeProfilingQC": [
         "motifStack",
-        "RUVSeq",
-        "TFBSTools"
+        "RUVSeq"
     ],
     "RIPAT": [
         "karyoploteR",
@@ -1477,7 +1452,6 @@
     "spatzie": [
         "GenomicInteractions",
         "motifmatchr",
-        "TFBSTools",
         "Gviz",
         "biovizBase"
     ],
@@ -1521,7 +1495,6 @@
     ],
     "TDARACNE": [],
     "terraTCGAdata": [],
-    "TFBSTools": [],
     "TFHAZ": [],
     "TileDBArray": [],
     "timeOmics": [],
