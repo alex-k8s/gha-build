@@ -306,9 +306,7 @@
     ],
     "CiteFuse": [],
     "cleanUpdTSeq": [],
-    "clipper": [
-        "qpgraph"
-    ],
+    "clipper": [],
     "CNVfilteR": [
         "karyoploteR",
         "CopyNumberPlots",
@@ -1215,7 +1213,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "qpgraph": [],
     "qrqc": [
         "biovizBase"
     ],
