@@ -1474,7 +1474,6 @@
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "BSgenome"
     ],
-    "ERSSA": [],
     "esATAC": [
         "pipeFrame",
         "ChIPseeker",
