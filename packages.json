@@ -381,9 +381,7 @@
         "Rbwa"
     ],
     "crisprDesign": [],
-    "CRISPRseek": [],
     "crisprseekplus": [
-        "CRISPRseek",
         "GUIDEseq",
         "ChIPpeakAnno",
         "regioneR"
@@ -708,7 +706,6 @@
         "OrganismDbi"
     ],
     "GUIDEseq": [
-        "CRISPRseek",
         "ChIPpeakAnno",
         "regioneR"
     ],
@@ -1111,7 +1108,6 @@
     ],
     "Mu22v3.db": [],
     "multicrispr": [
-        "CRISPRseek",
         "karyoploteR",
         "regioneR",
         "biovizBase"
