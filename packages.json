@@ -1324,7 +1324,6 @@
     "monaLisa": [
         "TFBSTools"
     ],
-    "Motif2Site": [],
     "motifbreakR": [
         "VariantAnnotation",
         "motifStack",
