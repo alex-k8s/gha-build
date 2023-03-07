@@ -281,11 +281,11 @@ packaged installation of ‘rtracklayer’ as ‘rtracklayer_1.58.0_R_aarch64-un
 * DONE (rtracklayer)
 
 The downloaded source packages are in
-	‘/tmp/RtmpPvq3d9/downloaded_packages’
+	‘/tmp/RtmpZClEa0/downloaded_packages’
 Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
   'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
   'survival'
 
-real	17m3.090s
-user	16m38.188s
-sys	0m21.993s
+real	12m39.724s
+user	12m24.319s
+sys	0m14.862s
