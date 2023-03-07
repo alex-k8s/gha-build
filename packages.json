@@ -234,17 +234,14 @@
     "crisprBwa": [
         "Rbwa"
     ],
-    "crisprDesign": [],
     "crisprseekplus": [
         "GUIDEseq"
     ],
     "crisprVerse": [
-        "crisprDesign",
         "crisprViz",
         "Gviz"
     ],
     "crisprViz": [
-        "crisprDesign",
         "Gviz"
     ],
     "cummeRbund": [
