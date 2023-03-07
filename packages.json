@@ -1554,9 +1554,7 @@
     "FDb.UCSC.tRNAs": [
         "GenomicFeatures"
     ],
-    "FEAST": [
-        "TSCAN"
-    ],
+    "FEAST": [],
     "ffpe": [
         "lumi",
         "methylumi",
@@ -3456,7 +3454,6 @@
         "celda",
         "scRNAseq",
         "scDblFinder",
-        "TSCAN",
         "GenomicFeatures"
     ],
     "SingleMoleculeFootprinting": [
@@ -3742,7 +3739,6 @@
     "tRNAscanImport": [
         "BSgenome"
     ],
-    "TSCAN": [],
     "tscR": [],
     "ttgsea": [],
     "TVTB": [
