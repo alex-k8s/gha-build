@@ -2274,7 +2274,6 @@
         "SpatialExperiment"
     ],
     "meshes": [],
-    "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75",
         "mygene",
