@@ -22,7 +22,6 @@
     "appreci8R": [
         "Homo.sapiens",
         "MafDb.1Kgenomes.phase3.hs37d5",
-        "PolyPhen.Hsapiens.dbSNP131",
         "SIFT.Hsapiens.dbSNP137"
     ],
     "ArrayExpressHTS": [],
@@ -836,7 +835,6 @@
     "PING": [
         "Gviz"
     ],
-    "PolyPhen.Hsapiens.dbSNP131": [],
     "preciseTAD": [
         "rCGH"
     ],
@@ -1112,9 +1110,7 @@
     "VariantFiltering": [
         "Gviz"
     ],
-    "variants": [
-        "PolyPhen.Hsapiens.dbSNP131"
-    ],
+    "variants": [],
     "VariantTools": [],
     "VariantToolsData": [],
     "VCFArray": [],
