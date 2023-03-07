@@ -301,7 +301,6 @@
         "VariantAnnotation",
         "OrganismDbi"
     ],
-    "CAGEr": [],
     "CAGEWorkflow": [
         "CAGEfightR",
         "GenomicFiles",
