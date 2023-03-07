@@ -489,7 +489,6 @@
     "GUIDEseq": [],
     "Gviz": [],
     "gwascat": [],
-    "gwasurvivr": [],
     "HiCDCPlus": [
         "GenomicInteractions",
         "Gviz"
