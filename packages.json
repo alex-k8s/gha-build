@@ -48,7 +48,6 @@
         "mia"
     ],
     "AneuFinder": [],
-    "animalcules": [],
     "annotation": [
         "VariantAnnotation",
         "Organism.dplyr",
