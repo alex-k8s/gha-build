@@ -241,10 +241,7 @@
     "BSgenome.Ggallus.UCSC.galGal3.masked": [
         "BSgenome.Ggallus.UCSC.galGal3"
     ],
-    "BSgenome.Ggallus.UCSC.galGal4": [],
-    "BSgenome.Ggallus.UCSC.galGal4.masked": [
-        "BSgenome.Ggallus.UCSC.galGal4"
-    ],
+    "BSgenome.Ggallus.UCSC.galGal4.masked": [],
     "BSgenome.Ggallus.UCSC.galGal5": [],
     "BSgenome.Gmax.NCBI.Gmv40": [],
     "BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0": [],
