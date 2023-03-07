@@ -36,7 +36,6 @@
     "APAlyzer": [],
     "appreci8R": [
         "Homo.sapiens",
-        "SNPlocs.Hsapiens.dbSNP144.GRCh37",
         "XtraSNPlocs.Hsapiens.dbSNP144.GRCh37",
         "MafDb.1Kgenomes.phase3.hs37d5",
         "MafDb.ExAC.r1.0.hs37d5",
@@ -1571,7 +1570,6 @@
         "goseq"
     ],
     "SNPhood": [],
-    "SNPlocs.Hsapiens.dbSNP144.GRCh37": [],
     "SNPlocs.Hsapiens.dbSNP150.GRCh38": [],
     "SNPlocs.Hsapiens.dbSNP155.GRCh37": [],
     "SNPlocs.Hsapiens.dbSNP155.GRCh38": [],
