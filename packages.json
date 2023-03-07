@@ -712,7 +712,6 @@
         "VariantAnnotation"
     ],
     "deconvR": [
-        "methylKit",
         "minfi",
         "bumphunter"
     ],
@@ -1489,12 +1488,9 @@
     ],
     "MethCP": [
         "bsseq",
-        "DSS",
-        "methylKit"
+        "DSS"
     ],
-    "methInheritSim": [
-        "methylKit"
-    ],
+    "methInheritSim": [],
     "MethReg": [],
     "methrix": [],
     "MethylAid": [
@@ -1561,10 +1557,7 @@
         "bumphunter",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "methylInheritance": [
-        "methylKit"
-    ],
-    "methylKit": [],
+    "methylInheritance": [],
     "methylPipe": [
         "Gviz",
         "ensembldb",
