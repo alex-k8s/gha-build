@@ -2212,7 +2212,6 @@
         "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "rGREAT"
     ],
-    "pRolocGUI": [],
     "proteasy": [
         "ensembldb",
         "EnsDb.Hsapiens.v86",
