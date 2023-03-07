@@ -1443,7 +1443,6 @@
     "simpleSeg": [
         "cytomapper"
     ],
-    "SingleCellMultiModal": [],
     "singleCellTK": [
         "scRNAseq"
     ],
