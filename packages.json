@@ -3389,7 +3389,6 @@
         "cytomapper",
         "SpatialExperiment"
     ],
-    "single": [],
     "SingleCellMultiModal": [
         "SpatialExperiment"
     ],
