@@ -150,7 +150,6 @@
         "VariantAnnotation"
     ],
     "biscuiteer": [
-        "bsseq",
         "VariantAnnotation",
         "Mus.musculus",
         "Homo.sapiens",
@@ -170,7 +169,6 @@
         "OrganismDbi"
     ],
     "borealis": [
-        "bsseq",
         "DSS"
     ],
     "brainflowprobes": [
@@ -279,10 +277,7 @@
     "BSgenome.Tguttata.UCSC.taeGut1.masked": [],
     "BSgenome.Vvinifera.URGI.IGGP12Xv2": [],
     "BSgenome.Vvinifera.URGI.IGGP8X": [],
-    "bsseq": [],
-    "bsseqData": [
-        "bsseq"
-    ],
+    "bsseqData": [],
     "BubbleTree": [
         "biovizBase",
         "VariantAnnotation"
@@ -344,7 +339,6 @@
         "goseq",
         "missMethyl",
         "bumphunter",
-        "bsseq",
         "DSS",
         "Gviz",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -430,8 +424,7 @@
         "VariantAnnotation"
     ],
     "COCOA": [
-        "MIRA",
-        "bsseq"
+        "MIRA"
     ],
     "CODEX": [],
     "Cogito": [
@@ -557,8 +550,7 @@
     ],
     "DegNorm": [],
     "DeMixT": [
-        "DSS",
-        "bsseq"
+        "DSS"
     ],
     "derfinder": [
         "bumphunter",
@@ -581,7 +573,6 @@
     "DiffBind": [],
     "diffUTR": [],
     "DMRcate": [
-        "bsseq",
         "DSS",
         "minfi",
         "missMethyl",
@@ -612,7 +603,6 @@
         "VariantAnnotation"
     ],
     "dmrseq": [
-        "bsseq",
         "bumphunter",
         "annotatr",
         "regioneR"
@@ -621,9 +611,7 @@
         "VariantAnnotation"
     ],
     "drugTargetInteractions": [],
-    "DSS": [
-        "bsseq"
-    ],
+    "DSS": [],
     "DvDdata": [],
     "EGSEA": [],
     "EGSEA123": [
@@ -1031,8 +1019,7 @@
         "VariantAnnotation"
     ],
     "kissDE": [
-        "DSS",
-        "bsseq"
+        "DSS"
     ],
     "LEA": [],
     "leeBamViews": [],
@@ -1197,8 +1184,7 @@
         "EnsDb.Hsapiens.v86"
     ],
     "metaseqR2": [
-        "DSS",
-        "bsseq"
+        "DSS"
     ],
     "metavizr": [
         "epivizr",
@@ -1208,7 +1194,6 @@
         "OrganismDbi"
     ],
     "MethCP": [
-        "bsseq",
         "DSS"
     ],
     "methrix": [],
@@ -1230,7 +1215,6 @@
         "Gviz",
         "DMRcate",
         "FlowSorted.Blood.450k",
-        "bsseq",
         "DSS",
         "biovizBase",
         "bumphunter",
@@ -1244,7 +1228,6 @@
     "methylCC": [
         "FlowSorted.Blood.450k",
         "minfi",
-        "bsseq",
         "bumphunter",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
@@ -1282,7 +1265,6 @@
     ],
     "MethylSeekR": [],
     "methylSig": [
-        "bsseq",
         "DSS"
     ],
     "methylumi": [
@@ -1318,9 +1300,7 @@
     "MinimumDistance": [
         "VanillaICE"
     ],
-    "MIRA": [
-        "bsseq"
-    ],
+    "MIRA": [],
     "miRSM": [
         "miRspongeR",
         "ReactomePA",
@@ -1430,9 +1410,7 @@
         "TFBSTools",
         "VariantAnnotation"
     ],
-    "NanoMethViz": [
-        "bsseq"
-    ],
+    "NanoMethViz": [],
     "NBSplice": [],
     "nearBynding": [
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -1780,7 +1758,6 @@
     "scanMiRApp": [],
     "sccomp": [],
     "scmeth": [
-        "bsseq",
         "annotatr",
         "regioneR"
     ],
