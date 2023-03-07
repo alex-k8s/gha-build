@@ -173,7 +173,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "BioTIP": [],
     "biovizBase": [
         "VariantAnnotation",
         "ensembldb"
