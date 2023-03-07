@@ -46,7 +46,6 @@
         "Mus.musculus"
     ],
     "ATACseqQC": [
-        "ChIPpeakAnno",
         "motifStack"
     ],
     "ATACseqTFEA": [
@@ -204,7 +203,6 @@
     ],
     "chipenrich": [],
     "ChIPexoQual": [],
-    "ChIPpeakAnno": [],
     "ChIPQC": [
         "DiffBind"
     ],
@@ -274,8 +272,7 @@
     ],
     "crisprDesign": [],
     "crisprseekplus": [
-        "GUIDEseq",
-        "ChIPpeakAnno"
+        "GUIDEseq"
     ],
     "crisprVerse": [
         "crisprDesign",
@@ -320,9 +317,7 @@
         "ggbio",
         "GenomicFiles"
     ],
-    "DEScan2": [
-        "ChIPpeakAnno"
-    ],
+    "DEScan2": [],
     "DiffBind": [],
     "diffUTR": [],
     "DMRcate": [
@@ -517,9 +512,7 @@
     "GSReg": [
         "Homo.sapiens"
     ],
-    "GUIDEseq": [
-        "ChIPpeakAnno"
-    ],
+    "GUIDEseq": [],
     "Gviz": [],
     "gwascat": [],
     "gwasurvivr": [],
@@ -859,7 +852,6 @@
     "NADfinder": [
         "trackViewer",
         "ATACseqQC",
-        "ChIPpeakAnno",
         "motifStack",
         "Gviz"
     ],
@@ -974,9 +966,7 @@
         "GenomicFiles",
         "ggbio"
     ],
-    "REDseq": [
-        "ChIPpeakAnno"
-    ],
+    "REDseq": [],
     "regioneReloaded": [],
     "regionReport": [
         "derfinder",
@@ -1223,7 +1213,6 @@
         "gwascat"
     ],
     "vulcan": [
-        "ChIPpeakAnno",
         "DiffBind"
     ],
     "wateRmelon": [
