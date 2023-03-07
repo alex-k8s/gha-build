@@ -2216,9 +2216,7 @@
     "methInheritSim": [
         "methylKit"
     ],
-    "MethReg": [
-        "sesame"
-    ],
+    "MethReg": [],
     "methrix": [
         "BSgenome"
     ],
@@ -3190,7 +3188,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "sesame": [],
     "sevenC": [],
     "SGSeq": [
         "GenomicFeatures"
@@ -3436,7 +3433,6 @@
     "TBSignatureProfiler": [],
     "TCGAbiolinksGUI": [
         "ELMER",
-        "sesame",
         "GenomicFeatures",
         "Gviz",
         "ensembldb",
