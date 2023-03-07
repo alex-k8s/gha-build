@@ -157,7 +157,6 @@
         "reactome.db",
         "ReactomePA"
     ],
-    "BiocOncoTK": [],
     "biomvRCNS": [
         "Gviz",
         "ensembldb",
