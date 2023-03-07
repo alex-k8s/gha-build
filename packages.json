@@ -844,7 +844,6 @@
         "GenomicFeatures",
         "regioneR"
     ],
-    "DeSousa2013": [],
     "DiffBind": [
         "systemPipeR",
         "GreyListChIP"
