@@ -357,7 +357,6 @@
         "DiffBind",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "TxDb.Celegans.UCSC.ce6.ensGene",
         "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
     ],
@@ -410,9 +409,7 @@
         "MIRA"
     ],
     "CODEX": [],
-    "Cogito": [
-        "TxDb.Mmusculus.UCSC.mm9.knownGene"
-    ],
+    "Cogito": [],
     "comapr": [
         "Gviz",
         "biovizBase",
@@ -953,9 +950,7 @@
         "cleanUpdTSeq",
         "BSgenome.Drerio.UCSC.danRer7"
     ],
-    "INSPEcT": [
-        "TxDb.Mmusculus.UCSC.mm9.knownGene"
-    ],
+    "INSPEcT": [],
     "intansv": [
         "ggbio",
         "biovizBase",
@@ -1427,7 +1422,6 @@
         "ChIPseeker",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "TxDb.Mmusculus.UCSC.mm9.knownGene",
         "rGREAT"
     ],
     "proteasy": [
@@ -1589,9 +1583,7 @@
     "RLSeq": [
         "regioneR"
     ],
-    "Rmmquant": [
-        "TxDb.Mmusculus.UCSC.mm9.knownGene"
-    ],
+    "Rmmquant": [],
     "RNAAgeCalc": [
         "recount",
         "derfinder",
@@ -1886,7 +1878,6 @@
     "TxDb.Mmusculus.UCSC.mm10.ensGene": [],
     "TxDb.Mmusculus.UCSC.mm10.knownGene": [],
     "TxDb.Mmusculus.UCSC.mm39.refGene": [],
-    "TxDb.Mmusculus.UCSC.mm9.knownGene": [],
     "TxDb.Rnorvegicus.UCSC.rn5.refGene": [],
     "TxDb.Sscrofa.UCSC.susScr3.refGene": [],
     "tximeta": [],
