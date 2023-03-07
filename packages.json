@@ -971,7 +971,6 @@
     "geneLenDataBase": [],
     "generegulation": [
         "BSgenome.Scerevisiae.UCSC.sacCer3",
-        "TxDb.Scerevisiae.UCSC.sacCer3.sgdGene",
         "motifStack",
         "TFBSTools"
     ],
@@ -2249,7 +2248,6 @@
     "TxDb.Rnorvegicus.UCSC.rn5.refGene": [],
     "TxDb.Rnorvegicus.UCSC.rn6.ncbiRefSeq": [],
     "TxDb.Rnorvegicus.UCSC.rn7.refGene": [],
-    "TxDb.Scerevisiae.UCSC.sacCer3.sgdGene": [],
     "TxDb.Sscrofa.UCSC.susScr11.refGene": [],
     "TxDb.Sscrofa.UCSC.susScr3.refGene": [],
     "tximeta": [
