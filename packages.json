@@ -3254,10 +3254,7 @@
         "GenomicFeatures"
     ],
     "SCANVIS": [],
-    "SCATE": [
-        "SCATEData"
-    ],
-    "SCATEData": [],
+    "SCATE": [],
     "scBFA": [],
     "scCB2": [],
     "sccomp": [],
