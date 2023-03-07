@@ -1556,7 +1556,6 @@
         "BSgenome.Mmusculus.UCSC.mm9",
         "biovizBase"
     ],
-    "SpotClean": [],
     "srnadiff": [
         "Gviz",
         "biovizBase"
