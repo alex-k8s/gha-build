@@ -3465,7 +3465,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "SpectralTAD": [],
     "SPIAT": [
         "SpatialExperiment"
     ],
