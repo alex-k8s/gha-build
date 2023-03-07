@@ -1,7 +1,0 @@
-bumphunter
-OrganismDbi
-BSgenome.Btaurus.UCSC.bosTau4
-BSgenome.Ptroglodytes.UCSC.panTro2
-TxDb.Hsapiens.UCSC.hg38.knownGene
-VaSP
-FDb.UCSC.tRNAs
