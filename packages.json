@@ -1005,7 +1005,6 @@
     "GenomicFiles": [
         "VariantAnnotation"
     ],
-    "GenomicInteractionNodes": [],
     "GenomicInteractions": [
         "Gviz",
         "ensembldb",
