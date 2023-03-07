@@ -953,7 +953,6 @@
     "scone": [],
     "SCOPE": [],
     "scoreInvHap": [],
-    "scRNAseq": [],
     "scruff": [
         "ggbio"
     ],
@@ -986,9 +985,7 @@
     "signifinder": [],
     "SigsPack": [],
     "simpleSeg": [],
-    "singleCellTK": [
-        "scRNAseq"
-    ],
+    "singleCellTK": [],
     "SingleMoleculeFootprinting": [
         "QuasR"
     ],
