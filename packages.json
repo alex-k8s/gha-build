@@ -280,7 +280,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "ChIPanalyser": [],
     "ChIPComp": [
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
