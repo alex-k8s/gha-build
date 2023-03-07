@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''DrugVsDisease'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'DrugVsDisease'
+also installing the dependency ‘RUnit’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RUnit_0.4.32.tar.gz'
+Content type 'application/x-tar' length 335911 bytes (328 KB)
+==================================================
+downloaded 328 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/DrugVsDisease_2.40.0.tar.gz'
+Content type 'application/x-gzip' length 1823817 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+* installing *source* package ‘RUnit’ ...
+** package ‘RUnit’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RUnit’ as ‘RUnit_0.4.32_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RUnit)
+* installing *source* package ‘DrugVsDisease’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DrugVsDisease’ as ‘DrugVsDisease_2.40.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (DrugVsDisease)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDKbz4i/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'mgcv', 'nlme', 'survival'
+
+real	4m32.001s
+user	4m26.636s
+sys	0m3.518s
