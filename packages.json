@@ -993,7 +993,6 @@
     "FDb.UCSC.snp135common.hg19": [],
     "FDb.UCSC.snp137common.hg19": [],
     "FDb.UCSC.tRNAs": [],
-    "FEAST": [],
     "ffpe": [
         "lumi",
         "methylumi",
