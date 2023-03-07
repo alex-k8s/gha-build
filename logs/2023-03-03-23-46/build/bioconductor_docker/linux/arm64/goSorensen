@@ -1,0 +1,103 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''goSorensen'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'goSorensen'
+also installing the dependencies ‘downloader’, ‘gson’, ‘clusterProfiler’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/downloader_0.4.tar.gz'
+Content type 'application/x-tar' length 6837 bytes
+==================================================
+downloaded 6837 bytes
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gson_0.0.9.tar.gz'
+Content type 'binary/octet-stream' length 97719 bytes (95 KB)
+==================================================
+downloaded 95 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/clusterProfiler_4.6.2.tar.gz'
+Content type 'application/x-gzip' length 2773361 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/goSorensen_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 627169 bytes (612 KB)
+==================================================
+downloaded 612 KB
+
+* installing *source* package ‘downloader’ ...
+** package ‘downloader’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘downloader’ as ‘downloader_0.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (downloader)
+* installing *source* package ‘gson’ ...
+** package ‘gson’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gson’ as ‘gson_0.0.9_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gson)
+* installing *source* package ‘clusterProfiler’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘clusterProfiler’ as ‘clusterProfiler_4.6.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (clusterProfiler)
+* installing *source* package ‘goSorensen’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘goSorensen’ as ‘goSorensen_1.0.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (goSorensen)
+
+The downloaded source packages are in
+	‘/tmp/RtmpuZeDRW/downloaded_packages’
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'mgcv', 'nlme',
+  'survival'
+
+real	7m5.488s
+user	6m56.799s
+sys	0m6.935s
