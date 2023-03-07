@@ -2054,7 +2054,6 @@
     "scoreInvHap": [
         "VariantAnnotation"
     ],
-    "scPipe": [],
     "scRNAseq": [
         "ensembldb"
     ],
