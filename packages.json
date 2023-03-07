@@ -511,7 +511,6 @@
         "TxDb.Rnorvegicus.UCSC.rn4.ensGene",
         "TxDb.Celegans.UCSC.ce6.ensGene",
         "TxDb.Dmelanogaster.UCSC.dm3.ensGene",
-        "systemPipeR",
         "GreyListChIP"
     ],
     "ChIPseeker": [
@@ -744,7 +743,6 @@
         "regioneR"
     ],
     "DiffBind": [
-        "systemPipeR",
         "GreyListChIP"
     ],
     "diffHic": [],
@@ -2087,9 +2085,7 @@
         "VariantAnnotation",
         "OrganismDbi"
     ],
-    "RNASeqR": [
-        "systemPipeR"
-    ],
+    "RNASeqR": [],
     "RnaSeqSampleSize": [
         "recount",
         "derfinder",
@@ -2326,7 +2322,6 @@
         "VariantAnnotation"
     ],
     "syntenet": [],
-    "systemPipeR": [],
     "TAPseq": [],
     "TCGAbiolinksGUI": [
         "ELMER",
@@ -2506,7 +2501,6 @@
         "DiffBind",
         "ensembldb",
         "regioneR",
-        "systemPipeR",
         "GreyListChIP"
     ],
     "wateRmelon": [
