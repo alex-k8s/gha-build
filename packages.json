@@ -254,7 +254,6 @@
         "flowMerge"
     ],
     "consensusDE": [
-        "EnsDb.Hsapiens.v86",
         "RUVSeq"
     ],
     "contiBAIT": [
@@ -370,7 +369,6 @@
     ],
     "EnsDb.Hsapiens.v75": [],
     "EnsDb.Hsapiens.v79": [],
-    "EnsDb.Hsapiens.v86": [],
     "EnsDb.Mmusculus.v79": [],
     "EnsDb.Rnorvegicus.v75": [],
     "EnsDb.Rnorvegicus.v79": [],
@@ -709,9 +707,7 @@
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75"
     ],
-    "metagene": [
-        "EnsDb.Hsapiens.v86"
-    ],
+    "metagene": [],
     "metaseqR2": [
         "DSS"
     ],
@@ -927,7 +923,6 @@
         "rGREAT"
     ],
     "proteasy": [
-        "EnsDb.Hsapiens.v86",
         "EnsDb.Mmusculus.v79",
         "EnsDb.Rnorvegicus.v79"
     ],
@@ -1016,9 +1011,7 @@
     "RIPAT": [
         "karyoploteR"
     ],
-    "RITAN": [
-        "EnsDb.Hsapiens.v86"
-    ],
+    "RITAN": [],
     "RLSeq": [],
     "Rmmquant": [],
     "RNAAgeCalc": [
@@ -1208,8 +1201,7 @@
     "uncoverappLib": [
         "Gviz",
         "Homo.sapiens",
-        "EnsDb.Hsapiens.v75",
-        "EnsDb.Hsapiens.v86"
+        "EnsDb.Hsapiens.v75"
     ],
     "Uniquorn": [],
     "VAExprs": [
