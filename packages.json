@@ -520,7 +520,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "CopywriteR": [],
     "COSMIC.67": [
         "VariantAnnotation"
     ],
