@@ -115,8 +115,7 @@
         "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "CNEr"
+        "TxDb.Hsapiens.UCSC.hg38.knownGene"
     ],
     "ATACseqQC": [
         "ChIPpeakAnno",
@@ -124,18 +123,15 @@
         "ensembldb",
         "GenomicFeatures",
         "regioneR",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "ATACseqTFEA": [
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "atSNP": [
         "motifStack",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "attract": [
         "reactome.db"
@@ -586,8 +582,7 @@
     "ChIPXpressData": [],
     "ChromSCape": [],
     "chromVAR": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "cicero": [
         "Gviz",
@@ -616,7 +611,6 @@
         "GenomicFeatures"
     ],
     "cliProfiler": [],
-    "CNEr": [],
     "CNVfilteR": [
         "regioneR",
         "karyoploteR",
@@ -785,8 +779,7 @@
     "dada2": [],
     "dagLogo": [
         "motifStack",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "DAMEfinder": [
         "VariantAnnotation",
@@ -940,8 +933,7 @@
     ],
     "enhancerHomologSearch": [
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "ENmix": [
         "minfi",
@@ -951,8 +943,7 @@
     "enrichTF": [
         "pipeFrame",
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "EnsDb.Hsapiens.v75": [
         "ensembldb",
@@ -1083,8 +1074,7 @@
         "GenomicFeatures",
         "TFBSTools",
         "motifmatchr",
-        "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "CNEr"
+        "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "EuPathDB": [
         "AnnotationHubData",
@@ -1266,8 +1256,7 @@
         "MotifDb",
         "TxDb.Scerevisiae.UCSC.sacCer3.sgdGene",
         "motifStack",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "GeneStructureTools": [
         "BSgenome.Mmusculus.UCSC.mm10",
@@ -1582,8 +1571,7 @@
         "RTCGAToolbox",
         "TCGAutils",
         "TFBSTools",
-        "GenomicFeatures",
-        "CNEr"
+        "GenomicFeatures"
     ],
     "lumi": [
         "methylumi",
@@ -1693,8 +1681,7 @@
         "VariantAnnotation"
     ],
     "MatrixRider": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "mCSEA": [
         "Homo.sapiens",
@@ -1944,8 +1931,7 @@
     ],
     "MMDiff2": [],
     "monaLisa": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "MoonlightR": [],
     "Motif2Site": [],
@@ -1957,17 +1943,14 @@
         "GenomicFeatures",
         "ensembldb",
         "biovizBase",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "MotifDb": [],
     "motifmatchr": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "motifStack": [
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "MouseGastrulationData": [],
     "msa": [],
@@ -2048,8 +2031,7 @@
         "regioneR",
         "biovizBase",
         "TFBSTools",
-        "VariantAnnotation",
-        "CNEr"
+        "VariantAnnotation"
     ],
     "NanoMethViz": [
         "bsseq"
@@ -2135,8 +2117,7 @@
     ],
     "pageRank": [
         "motifmatchr",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "PanomiR": [],
     "PAST": [],
@@ -2187,7 +2168,6 @@
         "GenomicFeatures",
         "ensembldb",
         "biovizBase",
-        "CNEr",
         "VariantAnnotation"
     ],
     "proActiv": [
@@ -2419,8 +2399,7 @@
         "GenomicFeatures",
         "motifStack",
         "RUVSeq",
-        "TFBSTools",
-        "CNEr"
+        "TFBSTools"
     ],
     "rifi": [],
     "RIPAT": [
@@ -2744,7 +2723,6 @@
         "motifmatchr",
         "TFBSTools",
         "Gviz",
-        "CNEr",
         "ensembldb",
         "biovizBase",
         "VariantAnnotation"
@@ -2831,9 +2809,7 @@
         "TCGAutils",
         "GenomicFeatures"
     ],
-    "TFBSTools": [
-        "CNEr"
-    ],
+    "TFBSTools": [],
     "TFEA.ChIP": [
         "GenomicFeatures"
     ],
