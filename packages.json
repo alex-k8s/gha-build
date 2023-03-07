@@ -904,7 +904,6 @@
     "fcScan": [
         "VariantAnnotation"
     ],
-    "FDb.FANTOM4.promoters.hg19": [],
     "FDb.InfiniumMethylation.hg18": [
         "TxDb.Hsapiens.UCSC.hg18.knownGene"
     ],
