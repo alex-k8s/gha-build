@@ -43,7 +43,6 @@
     "alpine": [
         "GenomicFeatures"
     ],
-    "alpineData": [],
     "AMARETTO": [],
     "amplican": [
         "ShortRead"
