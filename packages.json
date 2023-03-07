@@ -2645,7 +2645,6 @@
         "BSgenome"
     ],
     "PFP": [],
-    "PharmacoGx": [],
     "phastCons100way.UCSC.hg19": [
         "BSgenome"
     ],
@@ -3820,9 +3819,7 @@
         "SpatialExperiment"
     ],
     "wiggleplotr": [],
-    "Xeva": [
-        "PharmacoGx"
-    ],
+    "Xeva": [],
     "XNAString": [
         "BSgenome"
     ],
