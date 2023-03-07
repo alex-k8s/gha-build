@@ -1508,7 +1508,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "TxDb.Cfamiliaris.UCSC.canFam5.refGene": [],
     "TxDb.Dmelanogaster.UCSC.dm3.ensGene": [],
     "TxDb.Ggallus.UCSC.galGal4.refGene": [],
     "TxDb.Hsapiens.BioMart.igis": [],
