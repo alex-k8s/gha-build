@@ -1977,7 +1977,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "lipidr": [],
     "lisaClust": [
         "spicyR",
         "SpatialExperiment"
