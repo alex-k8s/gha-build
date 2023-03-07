@@ -1051,9 +1051,7 @@
     "CSSQ": [
         "GenomicFeatures"
     ],
-    "CTSV": [
-        "SpatialExperiment"
-    ],
+    "CTSV": [],
     "cummeRbund": [
         "Gviz",
         "GenomicFeatures",
@@ -1072,9 +1070,7 @@
         "flowClust"
     ],
     "cytofWorkflow": [],
-    "cytomapper": [
-        "SpatialExperiment"
-    ],
+    "cytomapper": [],
     "CytoML": [
         "openCyto",
         "flowClust"
@@ -1436,9 +1432,7 @@
         "GenomicFeatures",
         "OrganismDbi"
     ],
-    "ExperimentSubset": [
-        "SpatialExperiment"
-    ],
+    "ExperimentSubset": [],
     "extraChIPs": [
         "GenomicInteractions",
         "Gviz",
@@ -1691,9 +1685,7 @@
         "OrganismDbi",
         "ensembldb"
     ],
-    "ggspavis": [
-        "SpatialExperiment"
-    ],
+    "ggspavis": [],
     "girafe": [],
     "gmapR": [
         "GenomicFeatures",
@@ -1876,11 +1868,9 @@
         "IVAS"
     ],
     "imcdatasets": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "imcRtools": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "InPAS": [
@@ -1961,8 +1951,7 @@
         "GenomicFeatures"
     ],
     "lisaClust": [
-        "spicyR",
-        "SpatialExperiment"
+        "spicyR"
     ],
     "ListerEtAlBSseq": [
         "methylPipe",
@@ -2175,9 +2164,7 @@
     "MEDIPS": [
         "BSgenome"
     ],
-    "MerfishData": [
-        "SpatialExperiment"
-    ],
+    "MerfishData": [],
     "MetaboSignal": [
         "EnsDb.Hsapiens.v75",
         "mygene",
@@ -2433,9 +2420,7 @@
         "BSgenome",
         "CNEr"
     ],
-    "MouseGastrulationData": [
-        "SpatialExperiment"
-    ],
+    "MouseGastrulationData": [],
     "msa": [],
     "msgbsR": [
         "BSgenome",
@@ -2545,9 +2530,7 @@
         "bumphunter",
         "GenomicFeatures"
     ],
-    "nnSVG": [
-        "SpatialExperiment"
-    ],
+    "nnSVG": [],
     "NoRCE": [
         "reactome.db",
         "GenomicFeatures"
@@ -3232,12 +3215,9 @@
         "GenomicFeatures"
     ],
     "simpleSeg": [
-        "cytomapper",
-        "SpatialExperiment"
+        "cytomapper"
     ],
-    "SingleCellMultiModal": [
-        "SpatialExperiment"
-    ],
+    "SingleCellMultiModal": [],
     "SingleCellSignalR": [],
     "singleCellTK": [
         "ensembldb",
@@ -3315,20 +3295,11 @@
     "SparseSignatures": [
         "BSgenome"
     ],
-    "spaSim": [
-        "SpatialExperiment"
-    ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
-    "SpatialExperiment": [],
-    "SpatialFeatureExperiment": [
-        "SpatialExperiment"
-    ],
+    "spaSim": [],
+    "spatialDE": [],
+    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
-    "spatialLIBD": [
-        "SpatialExperiment"
-    ],
+    "spatialLIBD": [],
     "spatzie": [
         "BSgenome",
         "GenomicFeatures",
@@ -3341,12 +3312,8 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "SPIAT": [
-        "SpatialExperiment"
-    ],
-    "spicyR": [
-        "SpatialExperiment"
-    ],
+    "SPIAT": [],
+    "spicyR": [],
     "spiky": [
         "BSgenome"
     ],
@@ -3367,9 +3334,7 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "SpotClean": [
-        "SpatialExperiment"
-    ],
+    "SpotClean": [],
     "srnadiff": [
         "GenomicFeatures",
         "Gviz",
@@ -3387,18 +3352,13 @@
         "VariantAnnotation"
     ],
     "standR": [
-        "SpatialExperiment",
         "RUVSeq",
         "EDASeq",
         "GenomicFeatures"
     ],
     "StarBioTrek": [],
-    "STexampleData": [
-        "SpatialExperiment"
-    ],
-    "stJoincount": [
-        "SpatialExperiment"
-    ],
+    "STexampleData": [],
+    "stJoincount": [],
     "strandCheckR": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "GenomicFeatures"
@@ -3443,9 +3403,7 @@
         "GenomicFeatures"
     ],
     "TDARACNE": [],
-    "TENxVisiumData": [
-        "SpatialExperiment"
-    ],
+    "TENxVisiumData": [],
     "terraTCGAdata": [
         "TCGAutils",
         "GenomicFeatures"
@@ -3747,11 +3705,8 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "VectraPolarisData": [
-        "SpatialExperiment"
-    ],
+    "VectraPolarisData": [],
     "Voyager": [
-        "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
     "vtpnet": [
@@ -3784,9 +3739,7 @@
     "wavClusteR": [
         "GenomicFeatures"
     ],
-    "WeberDivechaLCdata": [
-        "SpatialExperiment"
-    ],
+    "WeberDivechaLCdata": [],
     "wiggleplotr": [],
     "Xeva": [],
     "XNAString": [
