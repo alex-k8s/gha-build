@@ -311,7 +311,6 @@
     "DeepPINCS": [
         "ttgsea"
     ],
-    "deepSNV": [],
     "DeMixT": [
         "DSS"
     ],
@@ -828,9 +827,7 @@
         "minfi",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "mitoClone2": [
-        "deepSNV"
-    ],
+    "mitoClone2": [],
     "MMAPPR2": [
         "ensemblVEP",
         "gmapR",
