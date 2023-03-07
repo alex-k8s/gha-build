@@ -1500,7 +1500,6 @@
     "standR": [
         "RUVSeq"
     ],
-    "STexampleData": [],
     "stJoincount": [],
     "strandCheckR": [
         "TxDb.Hsapiens.UCSC.hg38.knownGene"
