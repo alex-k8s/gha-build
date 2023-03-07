@@ -2641,7 +2641,6 @@
     "phastCons7way.UCSC.hg38": [
         "BSgenome"
     ],
-    "phenomis": [],
     "Pigengene": [
         "ReactomePA",
         "reactome.db"
