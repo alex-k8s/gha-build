@@ -278,7 +278,6 @@
         "DiffBind",
         "TxDb.Hsapiens.UCSC.hg18.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.knownGene",
-        "TxDb.Celegans.UCSC.ce6.ensGene",
         "TxDb.Dmelanogaster.UCSC.dm3.ensGene"
     ],
     "ChIPseeker": [],
@@ -1516,7 +1515,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "TxDb.Celegans.UCSC.ce6.ensGene": [],
     "TxDb.Cfamiliaris.UCSC.canFam3.refGene": [],
     "TxDb.Cfamiliaris.UCSC.canFam4.refGene": [],
     "TxDb.Cfamiliaris.UCSC.canFam5.refGene": [],
