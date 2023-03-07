@@ -4397,7 +4397,6 @@
         "rtracklayer"
     ],
     "TBSignatureProfiler": [],
-    "TCC": [],
     "TCGAbiolinksGUI": [
         "ELMER",
         "clusterProfiler",
