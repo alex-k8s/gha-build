@@ -2706,7 +2706,6 @@
         "biovizBase",
         "VariantAnnotation"
     ],
-    "omicRexposome": [],
     "OMICsPCA": [
         "HelloRanges",
         "BSgenome",
