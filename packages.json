@@ -1201,7 +1201,6 @@
     "hiReadsProcessor": [
         "hiAnnotator"
     ],
-    "HiTC": [],
     "Homo.sapiens": [
         "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
