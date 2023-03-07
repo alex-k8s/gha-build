@@ -35,7 +35,6 @@
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
         "TxDb.Mmusculus.UCSC.mm10.ensGene",
         "Homo.sapiens",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "OrganismDbi"
     ],
     "AnnotationHubData": [
@@ -49,7 +48,6 @@
     ],
     "appreci8R": [
         "VariantAnnotation",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "Homo.sapiens",
         "SNPlocs.Hsapiens.dbSNP144.GRCh37",
@@ -91,7 +89,6 @@
         "rGREAT",
         "Homo.sapiens",
         "Mus.musculus",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome.Mmusculus.UCSC.mm10",
         "OrganismDbi",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
@@ -188,7 +185,6 @@
         "DSS"
     ],
     "brainflowprobes": [
-        "BSgenome.Hsapiens.UCSC.hg19",
         "bumphunter",
         "derfinder",
         "derfinderPlot",
@@ -244,10 +240,7 @@
     "BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0": [],
     "BSgenome.Hsapiens.UCSC.hg17.masked": [],
     "BSgenome.Hsapiens.UCSC.hg18.masked": [],
-    "BSgenome.Hsapiens.UCSC.hg19": [],
-    "BSgenome.Hsapiens.UCSC.hg19.masked": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
+    "BSgenome.Hsapiens.UCSC.hg19.masked": [],
     "BSgenome.Hsapiens.UCSC.hg38": [],
     "BSgenome.Hsapiens.UCSC.hg38.dbSNP151.major": [],
     "BSgenome.Hsapiens.UCSC.hg38.masked": [
@@ -401,7 +394,6 @@
     ],
     "ChIPanalyser": [],
     "ChIPComp": [
-        "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
     "chipenrich": [],
@@ -440,7 +432,6 @@
         "VariantAnnotation"
     ],
     "circRNAprofiler": [
-        "BSgenome.Hsapiens.UCSC.hg19",
         "gwascat",
         "VariantAnnotation"
     ],
@@ -479,9 +470,7 @@
         "MIRA",
         "bsseq"
     ],
-    "CODEX": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
+    "CODEX": [],
     "Cogito": [
         "TxDb.Mmusculus.UCSC.mm9.knownGene"
     ],
@@ -602,7 +591,6 @@
     "DaMiRseq": [],
     "dasper": [],
     "decompTumor2Sig": [
-        "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "VariantAnnotation"
     ],
@@ -1036,7 +1024,6 @@
         "VariantAnnotation"
     ],
     "HiLDA": [
-        "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "hiReadsProcessor": [],
@@ -1062,8 +1049,7 @@
         "bumphunter"
     ],
     "iCNV": [
-        "CODEX",
-        "BSgenome.Hsapiens.UCSC.hg19"
+        "CODEX"
     ],
     "ideal": [
         "goseq",
@@ -1143,7 +1129,6 @@
     ],
     "katdetectr": [
         "VariantAnnotation",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome.Hsapiens.UCSC.hg38"
     ],
     "kissDE": [
@@ -1223,7 +1208,6 @@
         "msa"
     ],
     "MADSEQ": [
-        "BSgenome.Hsapiens.UCSC.hg19",
         "VariantAnnotation"
     ],
     "MafDb.1Kgenomes.phase1.GRCh38": [],
@@ -1529,7 +1513,6 @@
         "VariantAnnotation",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
         "TxDb.Hsapiens.UCSC.hg38.knownGene",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome.Hsapiens.UCSC.hg38",
         "BSgenome.Mmusculus.UCSC.mm9",
         "BSgenome.Mmusculus.UCSC.mm10",
@@ -1716,7 +1699,6 @@
     ],
     "RareVariantVis": [
         "VariantAnnotation",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "Rattus.norvegicus": [
@@ -1726,7 +1708,6 @@
     "Rbec": [],
     "Rbwa": [],
     "RCAS": [
-        "BSgenome.Hsapiens.UCSC.hg19",
         "genomation"
     ],
     "rCGH": [
@@ -1947,9 +1928,7 @@
     "scone": [
         "RUVSeq"
     ],
-    "SCOPE": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
+    "SCOPE": [],
     "scoreInvHap": [
         "VariantAnnotation"
     ],
@@ -1981,15 +1960,13 @@
     ],
     "selectKSigs": [
         "HiLDA",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
     "seqCAT": [
         "VariantAnnotation"
     ],
     "sequencing": [
-        "VariantAnnotation",
-        "BSgenome.Hsapiens.UCSC.hg19"
+        "VariantAnnotation"
     ],
     "SGSeq": [],
     "shinyepico": [
@@ -2158,13 +2135,10 @@
         "VariantAnnotation"
     ],
     "TraRe": [],
-    "traseR": [
-        "BSgenome.Hsapiens.UCSC.hg19"
-    ],
+    "traseR": [],
     "Travel": [],
     "trena": [
         "BSgenome.Hsapiens.UCSC.hg38",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome.Mmusculus.UCSC.mm10",
         "SNPlocs.Hsapiens.dbSNP150.GRCh38"
     ],
@@ -2225,7 +2199,6 @@
         "EnsDb.Hsapiens.v75",
         "EnsDb.Hsapiens.v86",
         "OrganismDbi",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome.Hsapiens.UCSC.hg38",
         "ensembldb",
         "biovizBase",
@@ -2249,7 +2222,6 @@
     "variants": [
         "VariantAnnotation",
         "TxDb.Hsapiens.UCSC.hg19.knownGene",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "PolyPhen.Hsapiens.dbSNP131"
     ],
     "VariantTools": [
@@ -2294,7 +2266,6 @@
     "YAPSA": [
         "SomaticSignatures",
         "VariantAnnotation",
-        "BSgenome.Hsapiens.UCSC.hg19",
         "ggbio",
         "biovizBase",
         "OrganismDbi",
