@@ -287,7 +287,6 @@
     ],
     "BSgenome.Hsapiens.UCSC.hg38": [],
     "BSgenome.Hsapiens.UCSC.hg38.dbSNP151.major": [],
-    "BSgenome.Hsapiens.UCSC.hg38.dbSNP151.minor": [],
     "BSgenome.Hsapiens.UCSC.hg38.masked": [
         "BSgenome.Hsapiens.UCSC.hg38"
     ],
