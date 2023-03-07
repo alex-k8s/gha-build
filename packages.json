@@ -49,7 +49,6 @@
         "XtraSNPlocs.Hsapiens.dbSNP144.GRCh37",
         "MafDb.1Kgenomes.phase3.hs37d5",
         "MafDb.ExAC.r1.0.hs37d5",
-        "MafDb.gnomADex.r2.1.hs37d5",
         "COSMIC.67",
         "PolyPhen.Hsapiens.dbSNP131",
         "SIFT.Hsapiens.dbSNP137",
@@ -1099,7 +1098,6 @@
     "MafDb.ExAC.r1.0.nonTCGA.hs37d5": [],
     "MafDb.gnomAD.r2.1.GRCh38": [],
     "MafDb.gnomAD.r2.1.hs37d5": [],
-    "MafDb.gnomADex.r2.1.hs37d5": [],
     "MafH5.gnomAD.v3.1.2.GRCh38": [],
     "MAGAR": [
         "RnBeads",
