@@ -4019,7 +4019,6 @@
         "BSgenome",
         "GenomicFeatures"
     ],
-    "scpdata": [],
     "scPipe": [
         "rtracklayer"
     ],
