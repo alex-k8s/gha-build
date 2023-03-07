@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts'
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts_3.2.2.tar.gz'
+Content type 'application/x-gzip' length 2139452 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+Warning in utils::tar(filepath, curPkg, compression = "gzip", compression_level = 9L,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts/extdata/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts.sqlite’
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts’ as ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts_3.2.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPQ2bU0/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'mgcv', 'nlme', 'survival'
+
+real	4m1.752s
+user	3m57.040s
+sys	0m2.448s
