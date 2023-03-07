@@ -420,7 +420,6 @@
     "flowTrans": [
         "flowClust"
     ],
-    "FRASER": [],
     "funtooNorm": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
