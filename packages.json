@@ -865,7 +865,6 @@
         "genomation",
         "TxDb.Hsapiens.UCSC.hg19.knownGene"
     ],
-    "epidecodeR": [],
     "epigraHMM": [
         "GreyListChIP"
     ],
