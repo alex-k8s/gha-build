@@ -583,12 +583,10 @@
         "VariantAnnotation"
     ],
     "cpvSNP": [],
-    "crisprBowtie": [],
     "crisprBwa": [
         "Rbwa"
     ],
     "crisprDesign": [
-        "crisprBowtie",
         "VariantAnnotation"
     ],
     "CRISPRseek": [],
@@ -600,7 +598,6 @@
         "regioneR"
     ],
     "crisprVerse": [
-        "crisprBowtie",
         "crisprDesign",
         "crisprViz",
         "VariantAnnotation",
@@ -611,7 +608,6 @@
     "crisprViz": [
         "crisprDesign",
         "Gviz",
-        "crisprBowtie",
         "VariantAnnotation",
         "ensembldb",
         "biovizBase"
