@@ -1082,7 +1082,6 @@
     "geneLenDataBase": [],
     "generegulation": [
         "BSgenome.Scerevisiae.UCSC.sacCer3",
-        "MotifDb",
         "TxDb.Scerevisiae.UCSC.sacCer3.sgdGene",
         "motifStack",
         "TFBSTools"
@@ -1673,7 +1672,6 @@
     "MoonlightR": [],
     "Motif2Site": [],
     "motifbreakR": [
-        "MotifDb",
         "VariantAnnotation",
         "motifStack",
         "Gviz",
@@ -1681,7 +1679,6 @@
         "biovizBase",
         "TFBSTools"
     ],
-    "MotifDb": [],
     "motifmatchr": [
         "TFBSTools"
     ],
@@ -2175,9 +2172,7 @@
     "RTCGAToolbox": [
         "TCGAutils"
     ],
-    "rTRMui": [
-        "MotifDb"
-    ],
+    "rTRMui": [],
     "RUVSeq": [
         "EDASeq"
     ],
@@ -2440,7 +2435,6 @@
     "Travel": [],
     "traviz": [],
     "trena": [
-        "MotifDb",
         "BSgenome.Hsapiens.UCSC.hg38",
         "BSgenome.Hsapiens.UCSC.hg19",
         "BSgenome.Mmusculus.UCSC.mm10",
