@@ -27,7 +27,6 @@
         "ensembldb",
         "biovizBase"
     ],
-    "alpine": [],
     "AneuFinder": [],
     "annotation": [
         "VariantAnnotation",
