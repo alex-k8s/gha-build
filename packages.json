@@ -69,7 +69,6 @@
     "CancerInSilico": [],
     "ChAMP": [
         "DMRcate",
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
         "missMethyl",
@@ -98,7 +97,6 @@
     ],
     "conumee": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
     "crisprBwa": [
@@ -119,8 +117,7 @@
     "DMRcate": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest"
+        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "DMRcatedata": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -136,7 +133,6 @@
         "reactome.db"
     ],
     "epimutacions": [
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
@@ -161,7 +157,6 @@
         "flowClust"
     ],
     "funtooNorm": [
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "GARS": [],
@@ -184,7 +179,6 @@
         "gmapR"
     ],
     "IlluminaHumanMethylation450kanno.ilmn12.hg19": [],
-    "IlluminaHumanMethylation450kmanifest": [],
     "IlluminaHumanMethylationEPICanno.ilm10b2.hg19": [],
     "IlluminaHumanMethylationEPICanno.ilm10b3.hg19": [],
     "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [],
@@ -211,8 +205,7 @@
     "MEAL": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest"
+        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "MEAT": [
         "wateRmelon",
@@ -223,14 +216,12 @@
     ],
     "methylationArrayAnalysis": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "IlluminaHumanMethylation450kmanifest",
         "missMethyl",
         "minfiData",
         "DMRcate",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "methylCC": [
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "methylclock": [
@@ -241,11 +232,9 @@
         "missMethyl",
         "reactome.db",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest"
+        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "minfiData": [
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "minfiDataEPIC": [
@@ -263,8 +252,7 @@
     "mirTarRnaSeq": [],
     "missMethyl": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest"
+        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "MMAPPR2": [
         "gmapR"
@@ -310,9 +298,7 @@
         "reactome.db"
     ],
     "rebook": [],
-    "recountmethylation": [
-        "IlluminaHumanMethylation450kmanifest"
-    ],
+    "recountmethylation": [],
     "recountWorkflow": [],
     "Rhisat2": [],
     "RNAmodR.Data": [],
@@ -323,16 +309,13 @@
     ],
     "scTGIF": [],
     "scTreeViz": [],
-    "shinyMethyl": [
-        "IlluminaHumanMethylation450kmanifest"
-    ],
+    "shinyMethyl": [],
     "signatureSearch": [
         "reactome.db"
     ],
     "singleCellTK": [],
     "skewr": [
         "wateRmelon",
-        "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "SMITE": [
