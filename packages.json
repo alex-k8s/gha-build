@@ -80,9 +80,7 @@
     "BOBaFIT": [
         "ggbio"
     ],
-    "borealis": [
-        "DSS"
-    ],
+    "borealis": [],
     "brainflowprobes": [
         "derfinder",
         "derfinderPlot",
@@ -161,7 +159,6 @@
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
         "missMethyl",
-        "DSS",
         "Gviz",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
@@ -264,9 +261,7 @@
     "DeepPINCS": [
         "ttgsea"
     ],
-    "DeMixT": [
-        "DSS"
-    ],
+    "DeMixT": [],
     "derfinder": [],
     "derfinderPlot": [
         "derfinder",
@@ -274,7 +269,6 @@
     ],
     "DEScan2": [],
     "DMRcate": [
-        "DSS",
         "minfi",
         "missMethyl",
         "Gviz",
@@ -295,7 +289,6 @@
         "Gviz"
     ],
     "dmrseq": [],
-    "DSS": [],
     "DvDdata": [],
     "EGSEA": [],
     "EGSEA123": [
@@ -497,9 +490,7 @@
     "IsoformSwitchAnalyzeR": [],
     "karyoploteR": [],
     "katdetectr": [],
-    "kissDE": [
-        "DSS"
-    ],
+    "kissDE": [],
     "LEA": [],
     "LiebermanAidenHiC2009": [],
     "liftOver": [
@@ -608,17 +599,13 @@
         "EnsDb.Hsapiens.v75"
     ],
     "metagene": [],
-    "metaseqR2": [
-        "DSS"
-    ],
+    "metaseqR2": [],
     "metavizr": [
         "epivizr",
         "epivizrData",
         "epivizrStandalone"
     ],
-    "MethCP": [
-        "DSS"
-    ],
+    "MethCP": [],
     "MethylAid": [
         "minfi"
     ],
@@ -635,7 +622,6 @@
         "Gviz",
         "DMRcate",
         "FlowSorted.Blood.450k",
-        "DSS",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
@@ -671,9 +657,7 @@
     "methylPipe": [
         "Gviz"
     ],
-    "methylSig": [
-        "DSS"
-    ],
+    "methylSig": [],
     "methylumi": [
         "FDb.InfiniumMethylation.hg19",
         "minfi"
