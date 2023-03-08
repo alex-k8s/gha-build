@@ -1,0 +1,15 @@
+scTreeViz
+RNAmodR.Data
+methylclockData
+CNViz
+CNVfilteR
+brainflowprobes
+wateRmelon
+funtooNorm
+crisprVerse
+minfiData
+epivizrStandalone
+recountmethylation
+recountWorkflow
+methylCC
+shinyMethyl
