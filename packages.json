@@ -365,7 +365,6 @@
         "methylumi",
         "minfi"
     ],
-    "iCNV": [],
     "IlluminaHumanMethylation27kanno.ilmn12.hg19": [
         "minfi"
     ],
