@@ -145,11 +145,9 @@
     ],
     "CiteFuse": [],
     "CNVfilteR": [
-        "karyoploteR",
         "CopyNumberPlots"
     ],
     "CNViz": [
-        "karyoploteR",
         "CopyNumberPlots"
     ],
     "COCOA": [],
@@ -174,9 +172,7 @@
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
         "IlluminaHumanMethylationEPICmanifest"
     ],
-    "CopyNumberPlots": [
-        "karyoploteR"
-    ],
+    "CopyNumberPlots": [],
     "crisprBwa": [
         "Rbwa"
     ],
@@ -333,7 +329,6 @@
     "IRISFGM": [],
     "ISAnalytics": [],
     "IsoformSwitchAnalyzeR": [],
-    "karyoploteR": [],
     "katdetectr": [],
     "kissDE": [],
     "LEA": [],
@@ -501,9 +496,7 @@
     "msa": [],
     "msgbsR": [],
     "Mu22v3.db": [],
-    "multicrispr": [
-        "karyoploteR"
-    ],
+    "multicrispr": [],
     "multiSight": [
         "ReactomePA",
         "reactome.db"
@@ -604,9 +597,7 @@
     "Rhisat2": [],
     "RiboProfiling": [],
     "ribosomeProfilingQC": [],
-    "RIPAT": [
-        "karyoploteR"
-    ],
+    "RIPAT": [],
     "RITAN": [],
     "RNAAgeCalc": [
         "recount"
