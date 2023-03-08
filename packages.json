@@ -160,7 +160,6 @@
     "flowMerge": [
         "flowClust"
     ],
-    "FlowSorted.Blood.450k": [],
     "FlowSorted.CordBlood.450k": [],
     "FlowSorted.CordBloodCombined.450k": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -242,11 +241,9 @@
         "missMethyl",
         "minfiData",
         "DMRcate",
-        "FlowSorted.Blood.450k",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "methylCC": [
-        "FlowSorted.Blood.450k",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
