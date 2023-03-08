@@ -1,0 +1,40 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''AgiMicroRna'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'AgiMicroRna'
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/AgiMicroRna_2.48.0.tar.gz'
+Content type 'application/x-gzip' length 3106422 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+* installing *source* package ‘AgiMicroRna’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AgiMicroRna’ as ‘AgiMicroRna_2.48.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (AgiMicroRna)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZzLivP/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'MASS', 'mgcv', 'nlme', 'survival'
+
+real	6m22.092s
+user	6m17.198s
+sys	0m3.446s
