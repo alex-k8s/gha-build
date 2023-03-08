@@ -110,7 +110,6 @@
         "openCyto",
         "flowClust"
     ],
-    "deconvR": [],
     "DeepPINCS": [
         "ttgsea"
     ],
