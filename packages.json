@@ -192,9 +192,7 @@
         "karyoploteR",
         "CopyNumberPlots"
     ],
-    "COCOA": [
-        "MIRA"
-    ],
+    "COCOA": [],
     "comapr": [
         "Gviz"
     ],
@@ -645,7 +643,6 @@
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
     "MinimumDistance": [],
-    "MIRA": [],
     "miRSM": [
         "miRspongeR",
         "ReactomePA",
