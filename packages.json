@@ -421,7 +421,6 @@
         "GenomicInteractions",
         "Gviz"
     ],
-    "hiReadsProcessor": [],
     "Homo.sapiens": [],
     "HTSeqGenie": [
         "gmapR",
