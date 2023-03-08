@@ -157,7 +157,6 @@
     "flowMerge": [
         "flowClust"
     ],
-    "FlowSorted.CordBlood.450k": [],
     "FlowSorted.CordBloodCombined.450k": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
