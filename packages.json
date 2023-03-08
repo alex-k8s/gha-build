@@ -64,8 +64,7 @@
     ],
     "biscuiteer": [
         "Mus.musculus",
-        "Homo.sapiens",
-        "dmrseq"
+        "Homo.sapiens"
     ],
     "BitSeq": [],
     "BOBaFIT": [
@@ -255,7 +254,6 @@
     "DMRforPairs": [
         "Gviz"
     ],
-    "dmrseq": [],
     "DvDdata": [],
     "EGSEA": [],
     "EGSEA123": [
