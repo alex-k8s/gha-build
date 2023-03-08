@@ -433,7 +433,6 @@
     "RnaSeqSampleSize": [],
     "RnBeads": [],
     "sccomp": [],
-    "scruff": [],
     "scTensor": [
         "reactome.db",
         "ReactomePA"
