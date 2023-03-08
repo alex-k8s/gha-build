@@ -68,7 +68,6 @@
     "CancerInSilico": [],
     "ChAMP": [
         "DMRcate",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
         "missMethyl"
     ],
@@ -109,12 +108,9 @@
         "ttgsea"
     ],
     "DMRcate": [
-        "missMethyl",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
+        "missMethyl"
     ],
-    "DMRcatedata": [
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
-    ],
+    "DMRcatedata": [],
     "EGSEA": [],
     "EGSEA123": [
         "EGSEA"
@@ -138,9 +134,7 @@
     "flowMerge": [
         "flowClust"
     ],
-    "FlowSorted.CordBloodCombined.450k": [
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
-    ],
+    "FlowSorted.CordBloodCombined.450k": [],
     "flowTrans": [
         "flowClust"
     ],
@@ -162,7 +156,6 @@
         "gmapR"
     ],
     "IlluminaHumanMethylationEPICanno.ilm10b3.hg19": [],
-    "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [],
     "IRISFGM": [],
     "ISAnalytics": [],
     "katdetectr": [],
@@ -181,8 +174,7 @@
         "reactome.db"
     ],
     "MEAL": [
-        "missMethyl",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
+        "missMethyl"
     ],
     "MEAT": [
         "wateRmelon"
@@ -193,8 +185,7 @@
     "methylationArrayAnalysis": [
         "missMethyl",
         "minfiData",
-        "DMRcate",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
+        "DMRcate"
     ],
     "methylCC": [],
     "methylclock": [
@@ -203,8 +194,7 @@
     "methylclockData": [],
     "methylGSA": [
         "missMethyl",
-        "reactome.db",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
+        "reactome.db"
     ],
     "minfiData": [],
     "minfiDataEPIC": [],
@@ -218,9 +208,7 @@
         "reactome.db"
     ],
     "mirTarRnaSeq": [],
-    "missMethyl": [
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
-    ],
+    "missMethyl": [],
     "MMAPPR2": [
         "gmapR"
     ],
