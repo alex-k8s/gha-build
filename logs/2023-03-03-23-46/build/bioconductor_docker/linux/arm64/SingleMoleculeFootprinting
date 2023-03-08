@@ -1,0 +1,187 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SingleMoleculeFootprinting'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'SingleMoleculeFootprinting'
+also installing the dependencies ‘data.table’, ‘plyr’, ‘QuasR’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 5275174 bytes (5.0 MB)
+==================================================
+downloaded 5.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'binary/octet-stream' length 402003 bytes (392 KB)
+==================================================
+downloaded 392 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/QuasR_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 2297167 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/SingleMoleculeFootprinting_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 568312 bytes (554 KB)
+==================================================
+downloaded 554 KB
+
+* installing *source* package ‘data.table’ ...
+** package ‘data.table’ successfully unpacked and MD5 sums checked
+** using staged installation
+gcc 11.3.0
+zlib 1.2.11 is available ok
+R CMD SHLIB supports OpenMP without any extra hint
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c assign.c -o assign.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c between.c -o between.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bmerge.c -o bmerge.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chmatch.c -o chmatch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cj.c -o cj.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coalesce.c -o coalesce.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dogroups.c -o dogroups.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastmean.c -o fastmean.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fcast.c -o fcast.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fifelse.c -o fifelse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fmelt.c -o fmelt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c forder.c -o forder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frank.c -o frank.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fread.c -o fread.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c freadR.c -o freadR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c froll.c -o froll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frollR.c -o frollR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frolladaptive.c -o frolladaptive.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fsort.c -o fsort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fwrite.c -o fwrite.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fwriteR.c -o fwriteR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gsumm.c -o gsumm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ijoin.c -o ijoin.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inrange.c -o inrange.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nafill.c -o nafill.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nqrecreateindices.c -o nqrecreateindices.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c openmp-utils.c -o openmp-utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c quickselect.c -o quickselect.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbindlist.c -o rbindlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorder.c -o reorder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shift.c -o shift.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snprintf.c -o snprintf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.c -o subset.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transpose.c -o transpose.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c types.c -o types.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uniqlist.c -o uniqlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vecseq.c -o vecseq.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include  -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrappers.c -o wrappers.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o data.table.so assign.o between.o bmerge.o chmatch.o cj.o coalesce.o dogroups.o fastmean.o fcast.o fifelse.o fmelt.o forder.o frank.o fread.o freadR.o froll.o frollR.o frolladaptive.o fsort.o fwrite.o fwriteR.o gsumm.o ijoin.o init.o inrange.o nafill.o nqrecreateindices.o openmp-utils.o quickselect.o rbindlist.o reorder.o shift.o snprintf.o subset.o transpose.o types.o uniqlist.o utils.o vecseq.o wrappers.o -fopenmp -lz -L/usr/local/lib/R/lib -lR
+PKG_CFLAGS = -fopenmp
+PKG_LIBS = -fopenmp -lz
+if [ "data.table.so" != "data_table.so" ]; then mv data.table.so data_table.so; fi
+if [ "" != "Windows_NT" ] && [ `uname -s` = 'Darwin' ]; then install_name_tool -id data_table.so data_table.so; fi
+installing to /tmp/built/00LOCK-data.table/00new/data.table/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *source* package ‘plyr’ ...
+** package ‘plyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loop_apply.c -o loop_apply.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split-numeric.cpp -o split-numeric.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o plyr.so RcppExports.o loop_apply.o split-numeric.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-plyr/00new/plyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *source* package ‘QuasR’ ...
+** using staged installation
+** libs
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_QuasR.cpp -o R_init_QuasR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_cat.c -o bam_cat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam_plbuf.c -o bam_plbuf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cat_bam.c -o cat_bam.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c convert_reads_id_bis_rc.c -o convert_reads_id_bis_rc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c count_alignments.c -o count_alignments.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c count_alignments_subregions.c -o count_alignments_subregions.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c count_junctions.cpp -o count_junctions.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c export_wig.c -o export_wig.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_unmapped_reads.c -o extract_unmapped_reads.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c filter_hisat2.c -o filter_hisat2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c idxstats_bam.c -o idxstats_bam.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c merge_reorder_sam.cpp -o merge_reorder_sam.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nucleotide_alignment_frequencies.c -o nucleotide_alignment_frequencies.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c profile_alignments.c -o profile_alignments.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c quantify_methylation.cpp -o quantify_methylation.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c remove_unmapped_from_sam.c -o remove_unmapped_from_sam.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sam_opts.c -o sam_opts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sam_utils.c -o sam_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split_sam_chr.c -o split_sam_chr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/built/Rhtslib/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utilities.c -o utilities.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o QuasR.so R_init_QuasR.o bam_cat.o bam_plbuf.o cat_bam.o convert_reads_id_bis_rc.o count_alignments.o count_alignments_subregions.o count_junctions.o export_wig.o extract_unmapped_reads.o filter_hisat2.o idxstats_bam.o merge_reorder_sam.o nucleotide_alignment_frequencies.o profile_alignments.o quantify_methylation.o remove_unmapped_from_sam.o sam_opts.o sam_utils.o split_sam_chr.o utilities.o /tmp/built/Rhtslib/usrlib/libhts.a -lcurl -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-QuasR/00new/QuasR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘QuasR’ as ‘QuasR_1.38.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (QuasR)
+* installing *source* package ‘SingleMoleculeFootprinting’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SingleMoleculeFootprinting’ as ‘SingleMoleculeFootprinting_1.6.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (SingleMoleculeFootprinting)
+
+The downloaded source packages are in
+	‘/tmp/RtmpExHaJq/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'MASS', 'mgcv', 'nlme', 'survival'
+
+real	19m12.939s
+user	18m52.309s
+sys	0m21.315s
