@@ -7,9 +7,7 @@
         "ReportingTools"
     ],
     "AHEnsDbs": [],
-    "AllelicImbalance": [
-        "Gviz"
-    ],
+    "AllelicImbalance": [],
     "AneuFinder": [],
     "annotation": [],
     "appreci8R": [
@@ -20,12 +18,8 @@
         "lumi",
         "methylumi"
     ],
-    "ASpediaFI": [
-        "Gviz"
-    ],
-    "ASpli": [
-        "Gviz"
-    ],
+    "ASpediaFI": [],
+    "ASpli": [],
     "ATACCoGAPS": [
         "rGREAT"
     ],
@@ -41,16 +35,12 @@
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
-    "BindingSiteFinder": [
-        "Gviz"
-    ],
+    "BindingSiteFinder": [],
     "bioCancer": [
         "reactome.db",
         "ReactomePA"
     ],
-    "biomvRCNS": [
-        "Gviz"
-    ],
+    "biomvRCNS": [],
     "biscuiteer": [],
     "BitSeq": [],
     "BOBaFIT": [],
@@ -98,13 +88,11 @@
     ],
     "CAFE": [],
     "CAGEfightR": [
-        "Gviz",
         "GenomicInteractions"
     ],
     "cageminer": [],
     "CAGEWorkflow": [
         "CAGEfightR",
-        "Gviz",
         "GenomicInteractions"
     ],
     "CancerInSilico": [],
@@ -119,15 +107,12 @@
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
         "missMethyl",
-        "Gviz",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
         "lumi"
     ],
     "ChIC": [],
-    "chimeraviz": [
-        "Gviz"
-    ],
+    "chimeraviz": [],
     "ChIPComp": [
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
@@ -136,9 +121,7 @@
         "ChIPXpressData"
     ],
     "ChIPXpressData": [],
-    "cicero": [
-        "Gviz"
-    ],
+    "cicero": [],
     "circRNAprofiler": [],
     "CircSeqAlignTk": [
         "Rhisat2"
@@ -151,15 +134,10 @@
         "CopyNumberPlots"
     ],
     "COCOA": [],
-    "comapr": [
-        "Gviz"
-    ],
-    "coMET": [
-        "Gviz"
-    ],
+    "comapr": [],
+    "coMET": [],
     "compEpiTools": [
-        "methylPipe",
-        "Gviz"
+        "methylPipe"
     ],
     "conclus": [],
     "CONFESS": [
@@ -178,15 +156,10 @@
     ],
     "crisprseekplus": [],
     "crisprVerse": [
-        "crisprViz",
-        "Gviz"
+        "crisprViz"
     ],
-    "crisprViz": [
-        "Gviz"
-    ],
-    "cummeRbund": [
-        "Gviz"
-    ],
+    "crisprViz": [],
+    "cummeRbund": [],
     "cyanoFilter": [
         "flowClust"
     ],
@@ -202,7 +175,6 @@
     "derfinderPlot": [],
     "DMRcate": [
         "missMethyl",
-        "Gviz",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
@@ -210,28 +182,22 @@
         "methylumi"
     ],
     "DMRcatedata": [
-        "Gviz",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
-    "DMRforPairs": [
-        "Gviz"
-    ],
+    "DMRforPairs": [],
     "DvDdata": [],
     "EGSEA": [],
     "EGSEA123": [
         "EGSEA"
     ],
-    "ELMER": [
-        "Gviz"
-    ],
+    "ELMER": [],
     "ENmix": [],
     "epihet": [
         "ReactomePA",
         "reactome.db"
     ],
     "epimutacions": [
-        "Gviz",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -246,8 +212,7 @@
     "EuPathDB": [],
     "ExperimentHubData": [],
     "extraChIPs": [
-        "GenomicInteractions",
-        "Gviz"
+        "GenomicInteractions"
     ],
     "famat": [
         "reactome.db"
@@ -284,12 +249,8 @@
     ],
     "GA4GHshiny": [],
     "GARS": [],
-    "GeneStructureTools": [
-        "Gviz"
-    ],
-    "GenomicInteractions": [
-        "Gviz"
-    ],
+    "GeneStructureTools": [],
+    "GenomicInteractions": [],
     "GenomicOZone": [],
     "GenomicState": [],
     "GenProSeq": [
@@ -298,14 +259,11 @@
     ],
     "gmapR": [],
     "GSReg": [],
-    "Gviz": [],
     "HiCDCPlus": [
-        "GenomicInteractions",
-        "Gviz"
+        "GenomicInteractions"
     ],
     "HiContacts": [
-        "GenomicInteractions",
-        "Gviz"
+        "GenomicInteractions"
     ],
     "HTSeqGenie": [
         "gmapR"
@@ -336,8 +294,7 @@
     "liftOver": [],
     "lisaClust": [],
     "ListerEtAlBSseq": [
-        "methylPipe",
-        "Gviz"
+        "methylPipe"
     ],
     "LowMACA": [
         "cBioPortalData"
@@ -387,14 +344,9 @@
         "lumi",
         "methylumi"
     ],
-    "maser": [
-        "Gviz"
-    ],
-    "mCSEA": [
-        "Gviz"
-    ],
+    "maser": [],
+    "mCSEA": [],
     "MEAL": [
-        "Gviz",
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -424,7 +376,6 @@
         "IlluminaHumanMethylation450kmanifest",
         "missMethyl",
         "minfiData",
-        "Gviz",
         "DMRcate",
         "FlowSorted.Blood.450k",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
@@ -452,9 +403,7 @@
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi"
     ],
-    "methylPipe": [
-        "Gviz"
-    ],
+    "methylPipe": [],
     "methylSig": [],
     "methylumi": [],
     "MineICA": [
@@ -490,9 +439,7 @@
     "MMAPPR2": [
         "gmapR"
     ],
-    "motifbreakR": [
-        "Gviz"
-    ],
+    "motifbreakR": [],
     "msa": [],
     "msgbsR": [],
     "Mu22v3.db": [],
@@ -509,8 +456,7 @@
         "methylumi"
     ],
     "NADfinder": [
-        "trackViewer",
-        "Gviz"
+        "trackViewer"
     ],
     "NBSplice": [],
     "nearBynding": [],
@@ -527,9 +473,7 @@
     "odseq": [
         "msa"
     ],
-    "OGRE": [
-        "Gviz"
-    ],
+    "OGRE": [],
     "OMICsPCA": [],
     "openCyto": [
         "flowClust"
@@ -543,15 +487,11 @@
         "ReactomePA",
         "reactome.db"
     ],
-    "PING": [
-        "Gviz"
-    ],
+    "PING": [],
     "preciseTAD": [
         "rCGH"
     ],
-    "primirTSS": [
-        "Gviz"
-    ],
+    "primirTSS": [],
     "profileplyr": [
         "rGREAT"
     ],
@@ -559,9 +499,7 @@
     "psichomics": [
         "recount"
     ],
-    "Pviz": [
-        "Gviz"
-    ],
+    "Pviz": [],
     "qrqc": [],
     "quantro": [],
     "R3CPET": [],
@@ -587,9 +525,7 @@
     ],
     "REDseq": [],
     "regionReport": [],
-    "regutools": [
-        "Gviz"
-    ],
+    "regutools": [],
     "REMP": [],
     "ReportingTools": [],
     "rGREAT": [],
@@ -603,28 +539,22 @@
         "recount"
     ],
     "rnaEditr": [],
-    "RNAmodR": [
-        "Gviz"
-    ],
+    "RNAmodR": [],
     "RNAmodR.AlkAnilineSeq": [
-        "RNAmodR",
-        "Gviz"
+        "RNAmodR"
     ],
     "RNAmodR.Data": [
         "ExperimentHubData"
     ],
     "RNAmodR.ML": [
-        "RNAmodR",
-        "Gviz"
+        "RNAmodR"
     ],
     "RNAmodR.RiboMethSeq": [
-        "RNAmodR",
-        "Gviz"
+        "RNAmodR"
     ],
     "RNAseq123": [],
     "rnaseqGene": [
-        "ReportingTools",
-        "Gviz"
+        "ReportingTools"
     ],
     "RnaSeqSampleSize": [
         "recount"
@@ -674,19 +604,13 @@
     "sojourner": [],
     "SomaticSignatures": [],
     "spatzie": [
-        "GenomicInteractions",
-        "Gviz"
+        "GenomicInteractions"
     ],
     "SPLINTER": [
-        "Gviz",
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
-    "srnadiff": [
-        "Gviz"
-    ],
-    "STAN": [
-        "Gviz"
-    ],
+    "srnadiff": [],
+    "STAN": [],
     "standR": [],
     "strandCheckR": [],
     "surfaltr": [
@@ -695,15 +619,12 @@
     "svaNUMT": [],
     "svaRetro": [],
     "TCGAbiolinksGUI": [
-        "ELMER",
-        "Gviz"
+        "ELMER"
     ],
     "TDARACNE": [],
     "TileDBArray": [],
     "timeOmics": [],
-    "trackViewer": [
-        "Gviz"
-    ],
+    "trackViewer": [],
     "TraRe": [],
     "Travel": [],
     "trena": [
@@ -711,19 +632,13 @@
     ],
     "tscR": [],
     "ttgsea": [],
-    "TVTB": [
-        "Gviz"
-    ],
-    "uncoverappLib": [
-        "Gviz"
-    ],
+    "TVTB": [],
+    "uncoverappLib": [],
     "VAExprs": [
         "DeepPINCS",
         "ttgsea"
     ],
-    "VariantFiltering": [
-        "Gviz"
-    ],
+    "VariantFiltering": [],
     "variants": [],
     "VCFArray": [],
     "Voyager": [],
