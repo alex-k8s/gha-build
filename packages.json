@@ -282,7 +282,6 @@
     ],
     "enrichTF": [],
     "EpiCompare": [],
-    "epigraHMM": [],
     "epihet": [
         "ReactomePA",
         "reactome.db"
