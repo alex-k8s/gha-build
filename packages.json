@@ -248,7 +248,6 @@
         "reactome.db"
     ],
     "MAQCsubset": [],
-    "MAQCsubsetILM": [],
     "MEAL": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
