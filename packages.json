@@ -596,7 +596,6 @@
     ],
     "qrqc": [],
     "quantro": [],
-    "QuasR": [],
     "R3CPET": [
         "ggbio"
     ],
@@ -703,9 +702,7 @@
     "signifinder": [],
     "simpleSeg": [],
     "singleCellTK": [],
-    "SingleMoleculeFootprinting": [
-        "QuasR"
-    ],
+    "SingleMoleculeFootprinting": [],
     "skewr": [
         "methylumi",
         "wateRmelon",
