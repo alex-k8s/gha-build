@@ -302,10 +302,7 @@
         "epivizr",
         "epivizrStandalone"
     ],
-    "MethylAid": [],
-    "MethylAidData": [
-        "MethylAid"
-    ],
+    "MethylAidData": [],
     "methylationArrayAnalysis": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylation450kmanifest",
