@@ -227,7 +227,6 @@
         "openCyto",
         "flowClust"
     ],
-    "DAMEfinder": [],
     "deconvR": [
         "minfi"
     ],
