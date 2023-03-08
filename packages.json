@@ -142,12 +142,9 @@
     ],
     "CancerInSilico": [],
     "cbaf": [
-        "cBioPortalData",
-        "RTCGAToolbox"
+        "cBioPortalData"
     ],
-    "cBioPortalData": [
-        "RTCGAToolbox"
-    ],
+    "cBioPortalData": [],
     "ChAMP": [
         "minfi",
         "DMRcate",
@@ -476,8 +473,7 @@
         "Gviz"
     ],
     "LowMACA": [
-        "cBioPortalData",
-        "RTCGAToolbox"
+        "cBioPortalData"
     ],
     "lumi": [
         "methylumi",
@@ -844,7 +840,6 @@
         "minfi"
     ],
     "Rqc": [],
-    "RTCGAToolbox": [],
     "sccomp": [],
     "scmeth": [],
     "scone": [],
