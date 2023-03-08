@@ -434,9 +434,7 @@
     "preciseTAD": [],
     "primirTSS": [],
     "profileplyr": [],
-    "psichomics": [
-        "recount"
-    ],
+    "psichomics": [],
     "Pviz": [],
     "R3CPET": [],
     "RareVariantVis": [],
@@ -448,12 +446,10 @@
         "reactome.db"
     ],
     "rebook": [],
-    "recount": [],
     "recountmethylation": [
         "IlluminaHumanMethylation450kmanifest"
     ],
     "recountWorkflow": [
-        "recount",
         "regionReport",
         "GenomicState",
         "derfinderPlot"
@@ -464,9 +460,7 @@
     "Rhisat2": [],
     "RiboProfiling": [],
     "RIPAT": [],
-    "RNAAgeCalc": [
-        "recount"
-    ],
+    "RNAAgeCalc": [],
     "RNAmodR": [],
     "RNAmodR.AlkAnilineSeq": [
         "RNAmodR"
@@ -484,9 +478,7 @@
     "rnaseqGene": [
         "ReportingTools"
     ],
-    "RnaSeqSampleSize": [
-        "recount"
-    ],
+    "RnaSeqSampleSize": [],
     "RnBeads": [
         "methylumi"
     ],
