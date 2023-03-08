@@ -116,9 +116,7 @@
         "CopyNumberPlots"
     ],
     "coMET": [],
-    "compEpiTools": [
-        "methylPipe"
-    ],
+    "compEpiTools": [],
     "conclus": [],
     "CONFESS": [
         "flowClust",
@@ -265,9 +263,7 @@
     "LEA": [],
     "LiebermanAidenHiC2009": [],
     "liftOver": [],
-    "ListerEtAlBSseq": [
-        "methylPipe"
-    ],
+    "ListerEtAlBSseq": [],
     "LowMACA": [],
     "lumi": [
         "methylumi"
@@ -369,7 +365,6 @@
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi"
     ],
-    "methylPipe": [],
     "methylumi": [],
     "MineICA": [
         "lumi",
