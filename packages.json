@@ -87,10 +87,7 @@
         "GenomicInteractions"
     ],
     "CancerInSilico": [],
-    "cbaf": [
-        "cBioPortalData"
-    ],
-    "cBioPortalData": [],
+    "cbaf": [],
     "ChAMP": [
         "DMRcate",
         "IlluminaHumanMethylationEPICmanifest",
@@ -279,9 +276,7 @@
     "ListerEtAlBSseq": [
         "methylPipe"
     ],
-    "LowMACA": [
-        "cBioPortalData"
-    ],
+    "LowMACA": [],
     "lumi": [
         "methylumi"
     ],
