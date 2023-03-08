@@ -246,7 +246,6 @@
     ],
     "dagLogo": [],
     "DAMEfinder": [],
-    "DaMiRseq": [],
     "deconvR": [
         "minfi"
     ],
@@ -385,9 +384,7 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "GA4GHshiny": [],
-    "GARS": [
-        "DaMiRseq"
-    ],
+    "GARS": [],
     "generegulation": [],
     "GeneStructureTools": [
         "Gviz"
