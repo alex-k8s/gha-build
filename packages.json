@@ -78,7 +78,6 @@
     "CAGEfightR": [
         "GenomicInteractions"
     ],
-    "cageminer": [],
     "CAGEWorkflow": [
         "CAGEfightR",
         "GenomicInteractions"

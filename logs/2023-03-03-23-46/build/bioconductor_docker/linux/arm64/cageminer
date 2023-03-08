@@ -1,0 +1,210 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''cageminer'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'cageminer'
+also installing the dependencies ‘forcats’, ‘reshape’, ‘markdown’, ‘GGally’, ‘gridtext’, ‘ggbio’, ‘ggtext’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/forcats_1.0.0.tar.gz'
+Content type 'binary/octet-stream' length 296123 bytes (289 KB)
+==================================================
+downloaded 289 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/reshape_0.8.9.tar.gz'
+Content type 'binary/octet-stream' length 42583 bytes (41 KB)
+==================================================
+downloaded 41 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/markdown_1.5.tar.gz'
+Content type 'binary/octet-stream' length 41775 bytes (40 KB)
+==================================================
+downloaded 40 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/GGally_2.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1432754 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gridtext_0.1.5.tar.gz'
+Content type 'binary/octet-stream' length 386869 bytes (377 KB)
+==================================================
+downloaded 377 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/ggbio_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 3235737 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggtext_0.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1211275 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/cageminer_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 1250805 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘forcats’ ...
+** package ‘forcats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘forcats’ as ‘forcats_1.0.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (forcats)
+* installing *source* package ‘reshape’ ...
+** package ‘reshape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reshape’ as ‘reshape_0.8.9_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (reshape)
+* installing *source* package ‘markdown’ ...
+** package ‘markdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *source* package ‘GGally’ ...
+** package ‘GGally’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GGally’ as ‘GGally_2.1.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (GGally)
+* installing *source* package ‘gridtext’ ...
+** package ‘gridtext’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bl-r-bindings.cpp -o bl-r-bindings.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c grid-renderer.cpp -o grid-renderer.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c grid.cpp -o grid.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gridtext.so RcppExports.o bl-r-bindings.o grid-renderer.o grid.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-gridtext/00new/gridtext/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridtext’ as ‘gridtext_0.1.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gridtext)
+* installing *source* package ‘ggbio’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for 'rescale' in package 'ggbio'
+Creating a new generic function for 'xlim' in package 'ggbio'
+Creating a new generic function for 'geom_rect' in package 'ggbio'
+Creating a new generic function for 'geom_segment' in package 'ggbio'
+Creating a new generic function for 'geom_bar' in package 'ggbio'
+Creating a new generic function for 'stat_identity' in package 'ggbio'
+Creating a new generic function for 'stat_bin' in package 'ggbio'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggbio’ as ‘ggbio_1.46.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggbio)
+* installing *source* package ‘ggtext’ ...
+** package ‘ggtext’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggtext’ as ‘ggtext_0.1.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggtext)
+* installing *source* package ‘cageminer’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cageminer’ as ‘cageminer_1.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (cageminer)
+
+The downloaded source packages are in
+	‘/tmp/RtmpkXaVwv/downloaded_packages’
+Old packages: 'ggnetwork', 'triebeard', 'BiocManager', 'cachem', 'fastmap',
+  'fs', 'gh', 'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun',
+  'codetools', 'mgcv', 'nlme', 'survival'
+
+real	18m46.792s
+user	18m26.069s
+sys	0m16.390s
