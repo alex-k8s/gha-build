@@ -452,19 +452,12 @@
     "Rhisat2": [],
     "RIPAT": [],
     "RNAAgeCalc": [],
-    "RNAmodR": [],
-    "RNAmodR.AlkAnilineSeq": [
-        "RNAmodR"
-    ],
+    "RNAmodR.AlkAnilineSeq": [],
     "RNAmodR.Data": [
         "ExperimentHubData"
     ],
-    "RNAmodR.ML": [
-        "RNAmodR"
-    ],
-    "RNAmodR.RiboMethSeq": [
-        "RNAmodR"
-    ],
+    "RNAmodR.ML": [],
+    "RNAmodR.RiboMethSeq": [],
     "RNAseq123": [],
     "rnaseqGene": [],
     "RnaSeqSampleSize": [],
