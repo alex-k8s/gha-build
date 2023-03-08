@@ -1,0 +1,102 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''funtooNorm'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'funtooNorm'
+also installing the dependencies ‘pls’, ‘IlluminaHumanMethylation450kmanifest’, ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/pls_2.8-1.tar.gz'
+Content type 'binary/octet-stream' length 4368270 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/IlluminaHumanMethylation450kmanifest_0.4.0.tar.gz'
+Content type 'application/x-gzip' length 8726870 bytes (8.3 MB)
+==================================================
+downloaded 8.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/IlluminaHumanMethylation450kanno.ilmn12.hg19_0.6.1.tar.gz'
+Content type 'application/x-gzip' length 57892521 bytes (55.2 MB)
+==================================================
+downloaded 55.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/funtooNorm_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 2577801 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+* installing *source* package ‘pls’ ...
+** package ‘pls’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pls’ as ‘pls_2.8-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pls)
+* installing *source* package ‘IlluminaHumanMethylation450kmanifest’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylation450kmanifest’ as ‘IlluminaHumanMethylation450kmanifest_0.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylation450kmanifest)
+* installing *source* package ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’ as ‘IlluminaHumanMethylation450kanno.ilmn12.hg19_0.6.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylation450kanno.ilmn12.hg19)
+* installing *source* package ‘funtooNorm’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘funtooNorm’ as ‘funtooNorm_1.22.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (funtooNorm)
+
+The downloaded source packages are in
+	‘/tmp/RtmppTxsPw/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'MASS', 'mgcv', 'nlme', 'survival'
+
+real	20m18.263s
+user	20m6.629s
+sys	0m9.087s

@@ -128,7 +128,6 @@
     "flowTrans": [
         "flowClust"
     ],
-    "funtooNorm": [],
     "GeneStructureTools": [],
     "GenProSeq": [
         "DeepPINCS",
