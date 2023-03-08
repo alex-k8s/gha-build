@@ -1,10 +1,7 @@
 {
-    "affycoretools": [
-        "ReportingTools"
-    ],
+    "affycoretools": [],
     "AgiMicroRna": [
-        "affycoretools",
-        "ReportingTools"
+        "affycoretools"
     ],
     "AneuFinder": [],
     "annotation": [],
@@ -453,7 +450,6 @@
         "derfinderPlot"
     ],
     "REMP": [],
-    "ReportingTools": [],
     "Rhisat2": [],
     "RIPAT": [],
     "RNAAgeCalc": [],
@@ -471,9 +467,7 @@
         "RNAmodR"
     ],
     "RNAseq123": [],
-    "rnaseqGene": [
-        "ReportingTools"
-    ],
+    "rnaseqGene": [],
     "RnaSeqSampleSize": [],
     "RnBeads": [
         "methylumi"
