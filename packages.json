@@ -239,9 +239,7 @@
     "MafDb.gnomAD.r2.1.GRCh38": [],
     "MafDb.gnomAD.r2.1.hs37d5": [],
     "MafH5.gnomAD.v3.1.2.GRCh38": [],
-    "MAGAR": [
-        "RnBeads"
-    ],
+    "MAGAR": [],
     "mAPKL": [
         "reactome.db"
     ],
@@ -368,7 +366,6 @@
     "RNAmodR.Data": [
         "ExperimentHubData"
     ],
-    "RnBeads": [],
     "sccomp": [],
     "scTensor": [
         "reactome.db",
