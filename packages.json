@@ -285,7 +285,6 @@
     "MAQCsubsetILM": [
         "lumi"
     ],
-    "mCSEA": [],
     "MEAL": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
