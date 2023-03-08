@@ -872,7 +872,6 @@
         "minfi",
         "IlluminaHumanMethylation450kmanifest"
     ],
-    "SIFT.Hsapiens.dbSNP132": [],
     "signatureSearch": [
         "reactome.db"
     ],
