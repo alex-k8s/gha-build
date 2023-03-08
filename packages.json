@@ -289,16 +289,10 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
-    "epivizr": [
-        "epivizrData"
-    ],
-    "epivizrChart": [
-        "epivizrData"
-    ],
-    "epivizrData": [],
+    "epivizr": [],
+    "epivizrChart": [],
     "epivizrStandalone": [
-        "epivizr",
-        "epivizrData"
+        "epivizr"
     ],
     "erma": [
         "Homo.sapiens"
@@ -537,7 +531,6 @@
     "metaseqR2": [],
     "metavizr": [
         "epivizr",
-        "epivizrData",
         "epivizrStandalone"
     ],
     "MethCP": [],
@@ -824,8 +817,7 @@
     ],
     "scTGIF": [],
     "scTreeViz": [
-        "epivizr",
-        "epivizrData"
+        "epivizr"
     ],
     "segmenter": [],
     "selectKSigs": [],
