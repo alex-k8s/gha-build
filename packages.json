@@ -189,9 +189,7 @@
     "crisprBwa": [
         "Rbwa"
     ],
-    "crisprseekplus": [
-        "GUIDEseq"
-    ],
+    "crisprseekplus": [],
     "crisprVerse": [
         "crisprViz",
         "Gviz"
@@ -320,7 +318,6 @@
     "ggbio": [],
     "gmapR": [],
     "GSReg": [],
-    "GUIDEseq": [],
     "Gviz": [],
     "HiCDCPlus": [
         "GenomicInteractions",
