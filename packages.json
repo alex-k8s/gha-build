@@ -339,9 +339,7 @@
     "NADfinder": [],
     "NBSplice": [],
     "NetPathMiner": [],
-    "netZooR": [
-        "yarn"
-    ],
+    "netZooR": [],
     "NoRCE": [
         "reactome.db"
     ],
@@ -445,6 +443,5 @@
     "wateRmelon": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
-    "YAPSA": [],
-    "yarn": []
+    "YAPSA": []
 }
