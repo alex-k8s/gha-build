@@ -8,9 +8,7 @@
         "ReportingTools",
         "ggbio"
     ],
-    "AHEnsDbs": [
-        "AnnotationHubData"
-    ],
+    "AHEnsDbs": [],
     "AllelicImbalance": [
         "Gviz"
     ],
@@ -18,7 +16,6 @@
     "annotation": [
         "Homo.sapiens"
     ],
-    "AnnotationHubData": [],
     "appreci8R": [
         "Homo.sapiens",
         "MafDb.1Kgenomes.phase3.hs37d5"
@@ -317,12 +314,8 @@
         "Homo.sapiens"
     ],
     "esATAC": [],
-    "EuPathDB": [
-        "AnnotationHubData"
-    ],
-    "ExperimentHubData": [
-        "AnnotationHubData"
-    ],
+    "EuPathDB": [],
+    "ExperimentHubData": [],
     "extraChIPs": [
         "GenomicInteractions",
         "Gviz"
@@ -588,12 +581,10 @@
     "methylclock": [
         "methylclockData",
         "minfi",
-        "ExperimentHubData",
-        "AnnotationHubData"
+        "ExperimentHubData"
     ],
     "methylclockData": [
-        "ExperimentHubData",
-        "AnnotationHubData"
+        "ExperimentHubData"
     ],
     "methylGSA": [
         "missMethyl",
@@ -807,8 +798,7 @@
         "Gviz"
     ],
     "RNAmodR.Data": [
-        "ExperimentHubData",
-        "AnnotationHubData"
+        "ExperimentHubData"
     ],
     "RNAmodR.ML": [
         "RNAmodR",
