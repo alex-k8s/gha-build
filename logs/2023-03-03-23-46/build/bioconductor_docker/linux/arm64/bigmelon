@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''bigmelon'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'bigmelon'
+also installing the dependency ‘wateRmelon’
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/wateRmelon_2.4.0.tar.gz'
+Content type 'application/x-gzip' length 3408427 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/bigmelon_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 910678 bytes (889 KB)
+==================================================
+downloaded 889 KB
+
+* installing *source* package ‘wateRmelon’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Creating a generic function from function ‘as.methylumi’ in package ‘wateRmelon’
+Creating a generic function from function ‘adjustedDasen’ in package ‘wateRmelon’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘wateRmelon’ as ‘wateRmelon_2.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (wateRmelon)
+* installing *source* package ‘bigmelon’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Creating a new generic function for ‘fot’ in package ‘bigmelon’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bigmelon’ as ‘bigmelon_1.24.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (bigmelon)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBQbZmY/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'MASS', 'mgcv', 'nlme', 'survival'
+
+real	11m28.223s
+user	11m20.250s
+sys	0m6.936s
