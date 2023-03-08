@@ -373,9 +373,7 @@
     "mvoutData": [
         "lumi"
     ],
-    "NADfinder": [
-        "trackViewer"
-    ],
+    "NADfinder": [],
     "NBSplice": [],
     "NetPathMiner": [],
     "netZooR": [
@@ -475,7 +473,6 @@
     "TDARACNE": [],
     "TileDBArray": [],
     "timeOmics": [],
-    "trackViewer": [],
     "TraRe": [],
     "Travel": [],
     "trena": [
