@@ -462,7 +462,6 @@
     "SNPlocs.Hsapiens.dbSNP155.GRCh37": [],
     "SNPlocs.Hsapiens.dbSNP155.GRCh38": [],
     "sojourner": [],
-    "SomaticSignatures": [],
     "spatzie": [
         "GenomicInteractions"
     ],
@@ -500,8 +499,6 @@
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
-    "YAPSA": [
-        "SomaticSignatures"
-    ],
+    "YAPSA": [],
     "yarn": []
 }
