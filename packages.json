@@ -10,8 +10,7 @@
     ],
     "ArrayExpressHTS": [],
     "arrayMvout": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "ASpediaFI": [],
     "ATACCoGAPS": [],
@@ -22,7 +21,6 @@
     "bgx": [],
     "bigmelon": [
         "wateRmelon",
-        "methylumi",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
@@ -88,7 +86,6 @@
         "wateRmelon",
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "methylumi",
         "lumi"
     ],
     "ChIC": [],
@@ -149,8 +146,7 @@
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "methylumi"
+        "IlluminaHumanMethylation450kmanifest"
     ],
     "DMRcatedata": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -188,12 +184,10 @@
         "reactome.db"
     ],
     "ffpe": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "ffpeExampleData": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "FLAMES": [],
     "flowCL": [],
@@ -238,8 +232,7 @@
         "gmapR"
     ],
     "iCheck": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "IlluminaHumanMethylation27kanno.ilmn12.hg19": [],
     "IlluminaHumanMethylation27kmanifest": [],
@@ -257,24 +250,18 @@
     "liftOver": [],
     "ListerEtAlBSseq": [],
     "LowMACA": [],
-    "lumi": [
-        "methylumi"
-    ],
+    "lumi": [],
     "lumiBarnes": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "lumiHumanIDMapping": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "lumiMouseIDMapping": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "lumiRatIDMapping": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "LymphoSeq": [
         "msa"
@@ -288,31 +275,26 @@
     "MafDb.gnomAD.r2.1.hs37d5": [],
     "MafH5.gnomAD.v3.1.2.GRCh38": [],
     "MAGAR": [
-        "RnBeads",
-        "methylumi"
+        "RnBeads"
     ],
     "mAPKL": [
         "reactome.db"
     ],
     "MAQCsubset": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "MAQCsubsetILM": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "mCSEA": [],
     "MEAL": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "methylumi"
+        "IlluminaHumanMethylation450kmanifest"
     ],
     "MEAT": [
         "wateRmelon",
-        "methylumi",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
@@ -331,8 +313,7 @@
         "minfiData",
         "DMRcate",
         "FlowSorted.Blood.450k",
-        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "methylumi"
+        "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "methylCC": [
         "FlowSorted.Blood.450k",
@@ -351,13 +332,10 @@
         "reactome.db",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "methylumi"
+        "IlluminaHumanMethylation450kmanifest"
     ],
-    "methylumi": [],
     "MineICA": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "minfiData": [
         "IlluminaHumanMethylation450kmanifest",
@@ -379,8 +357,7 @@
     "missMethyl": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylation450kmanifest",
-        "methylumi"
+        "IlluminaHumanMethylation450kmanifest"
     ],
     "MMAPPR2": [
         "gmapR"
@@ -398,8 +375,7 @@
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
     "mvoutData": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "NADfinder": [
         "trackViewer"
@@ -460,9 +436,7 @@
     "RNAseq123": [],
     "rnaseqGene": [],
     "RnaSeqSampleSize": [],
-    "RnBeads": [
-        "methylumi"
-    ],
+    "RnBeads": [],
     "sccomp": [],
     "scruff": [],
     "scTensor": [
@@ -483,7 +457,6 @@
     "singleCellTK": [],
     "SingleMoleculeFootprinting": [],
     "skewr": [
-        "methylumi",
         "wateRmelon",
         "IlluminaHumanMethylation450kmanifest",
         "lumi",
@@ -532,7 +505,6 @@
     "variants": [],
     "Voyager": [],
     "wateRmelon": [
-        "methylumi",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
