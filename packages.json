@@ -160,7 +160,6 @@
     ],
     "GeneStructureTools": [],
     "GenomicInteractions": [],
-    "GenomicOZone": [],
     "GenProSeq": [
         "DeepPINCS",
         "ttgsea"
