@@ -484,9 +484,7 @@
         "reactome.db"
     ],
     "PING": [],
-    "preciseTAD": [
-        "rCGH"
-    ],
+    "preciseTAD": [],
     "primirTSS": [],
     "profileplyr": [],
     "proteasy": [],
@@ -499,7 +497,6 @@
     "RareVariantVis": [],
     "Rbec": [],
     "Rbwa": [],
-    "rCGH": [],
     "RcisTarget": [],
     "reactome.db": [],
     "ReactomePA": [
