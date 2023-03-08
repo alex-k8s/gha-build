@@ -21,9 +21,7 @@
         "ReactomePA"
     ],
     "BitSeq": [],
-    "brainflowprobes": [
-        "GenomicState"
-    ],
+    "brainflowprobes": [],
     "BSgenome.Btaurus.UCSC.bosTau3": [],
     "BSgenome.Btaurus.UCSC.bosTau3.masked": [
         "BSgenome.Btaurus.UCSC.bosTau3"
@@ -172,7 +170,6 @@
     "GeneStructureTools": [],
     "GenomicInteractions": [],
     "GenomicOZone": [],
-    "GenomicState": [],
     "GenProSeq": [
         "DeepPINCS",
         "ttgsea"
@@ -321,9 +318,7 @@
     "recountmethylation": [
         "IlluminaHumanMethylation450kmanifest"
     ],
-    "recountWorkflow": [
-        "GenomicState"
-    ],
+    "recountWorkflow": [],
     "Rhisat2": [],
     "RNAmodR.Data": [],
     "sccomp": [],
