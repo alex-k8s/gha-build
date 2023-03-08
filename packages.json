@@ -27,7 +27,6 @@
     "arrayMvout": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "ASpediaFI": [
@@ -57,7 +56,6 @@
         "wateRmelon",
         "minfi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
@@ -161,8 +159,7 @@
         "Gviz",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "methylumi",
-        "lumi",
-        "FDb.InfiniumMethylation.hg19"
+        "lumi"
     ],
     "ChIC": [],
     "chimeraviz": [
@@ -274,8 +271,7 @@
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "DMRcatedata": [
         "Gviz",
@@ -345,17 +341,14 @@
     ],
     "fCCAC": [],
     "FDb.InfiniumMethylation.hg18": [],
-    "FDb.InfiniumMethylation.hg19": [],
     "ffpe": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "ffpeExampleData": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "FLAMES": [
@@ -443,7 +436,6 @@
     "iCheck": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "iCNV": [],
@@ -503,31 +495,26 @@
     ],
     "lumi": [
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "lumiBarnes": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "lumiHumanIDMapping": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "lumiMouseIDMapping": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "lumiRatIDMapping": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "LymphoSeq": [
@@ -545,7 +532,6 @@
     "MAGAR": [
         "RnBeads",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "mAPKL": [
@@ -554,13 +540,11 @@
     "MAQCsubset": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "MAQCsubsetILM": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "maser": [
@@ -579,16 +563,14 @@
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "MEAT": [
         "minfi",
         "wateRmelon",
         "methylumi",
         "lumi",
-        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "FDb.InfiniumMethylation.hg19"
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "MetaboSignal": [],
     "metagene": [],
@@ -617,8 +599,7 @@
         "FlowSorted.Blood.450k",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylationEPICmanifest",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "methylCC": [
         "FlowSorted.Blood.450k",
@@ -644,21 +625,18 @@
         "minfi",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
-        "methylumi",
-        "FDb.InfiniumMethylation.hg19"
+        "methylumi"
     ],
     "methylPipe": [
         "Gviz"
     ],
     "methylSig": [],
     "methylumi": [
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "MineICA": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "minfi": [],
@@ -690,8 +668,7 @@
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
         "methylumi",
-        "minfi",
-        "FDb.InfiniumMethylation.hg19"
+        "minfi"
     ],
     "mitoClone2": [],
     "MMAPPR2": [
@@ -720,7 +697,6 @@
     "mvoutData": [
         "lumi",
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "NADfinder": [
@@ -883,7 +859,6 @@
     ],
     "RnBeads": [
         "methylumi",
-        "FDb.InfiniumMethylation.hg19",
         "minfi"
     ],
     "Rqc": [],
@@ -931,7 +906,6 @@
         "wateRmelon",
         "IlluminaHumanMethylation450kmanifest",
         "minfi",
-        "FDb.InfiniumMethylation.hg19",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
@@ -1013,8 +987,7 @@
         "methylumi",
         "lumi",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
-        "minfi",
-        "FDb.InfiniumMethylation.hg19"
+        "minfi"
     ],
     "YAPSA": [
         "SomaticSignatures",
