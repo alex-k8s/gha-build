@@ -30,8 +30,7 @@
         "Gviz"
     ],
     "ATACCoGAPS": [
-        "rGREAT",
-        "Mus.musculus"
+        "rGREAT"
     ],
     "attract": [
         "reactome.db"
@@ -58,9 +57,7 @@
     "biomvRCNS": [
         "Gviz"
     ],
-    "biscuiteer": [
-        "Mus.musculus"
-    ],
+    "biscuiteer": [],
     "BitSeq": [],
     "BOBaFIT": [
         "ggbio"
@@ -605,7 +602,6 @@
         "ReactomePA",
         "reactome.db"
     ],
-    "Mus.musculus": [],
     "musicatk": [
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
@@ -744,9 +740,7 @@
         "RNAmodR",
         "Gviz"
     ],
-    "RNAseq123": [
-        "Mus.musculus"
-    ],
+    "RNAseq123": [],
     "rnaseqGene": [
         "ReportingTools",
         "Gviz",
