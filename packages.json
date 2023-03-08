@@ -561,7 +561,6 @@
     "scTreeViz": [
         "epivizr"
     ],
-    "segmenter": [],
     "selectKSigs": [],
     "shinyepico": [],
     "shinyMethyl": [
