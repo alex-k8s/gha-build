@@ -305,7 +305,6 @@
     "famat": [
         "reactome.db"
     ],
-    "FDb.InfiniumMethylation.hg18": [],
     "ffpe": [
         "lumi",
         "methylumi",
