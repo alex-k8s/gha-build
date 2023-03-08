@@ -1,0 +1,15 @@
+IsoformSwitchAnalyzeR
+svaNUMT
+DeMixT
+GARS
+MetaboSignal
+MethCP
+proteasy
+GA4GHshiny
+methylSig
+metaseqR2
+kissDE
+COCOA
+svaRetro
+borealis
+MinimumDistance
