@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''srnadiff'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'srnadiff'
+also installing the dependency ‘Gviz’
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/Gviz_1.42.1.tar.gz'
+Content type 'application/x-gzip' length 7139051 bytes (6.8 MB)
+==================================================
+downloaded 6.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/srnadiff_1.18.0.tar.gz'
+Content type 'application/x-gzip' length 2388701 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘Gviz’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Gviz’ as ‘Gviz_1.42.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Gviz)
+* installing *source* package ‘srnadiff’ ...
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcpp_hmm.cpp -o rcpp_hmm.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcpp_ir.cpp -o rcpp_ir.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcpp_main.cpp -o rcpp_main.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcpp_utils.cpp -o rcpp_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c srnadiff_init.c -o srnadiff_init.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o srnadiff.so RcppExports.o rcpp_hmm.o rcpp_ir.o rcpp_main.o rcpp_utils.o srnadiff_init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-srnadiff/00new/srnadiff/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘srnadiff’ as ‘srnadiff_1.18.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (srnadiff)
+
+The downloaded source packages are in
+	‘/tmp/RtmpwZGEcv/downloaded_packages’
+Old packages: 'bookdown', 'triebeard', 'BiocManager', 'cachem', 'fastmap',
+  'fs', 'gh', 'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun',
+  'codetools', 'MASS', 'mgcv', 'nlme', 'survival'
+
+real	15m24.870s
+user	15m15.539s
+sys	0m8.008s
