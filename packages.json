@@ -231,7 +231,6 @@
         "openCyto",
         "flowClust"
     ],
-    "dagLogo": [],
     "DAMEfinder": [],
     "deconvR": [
         "minfi"
