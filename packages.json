@@ -532,7 +532,6 @@
         "methylumi"
     ],
     "sccomp": [],
-    "scone": [],
     "scruff": [],
     "scTensor": [
         "reactome.db",
