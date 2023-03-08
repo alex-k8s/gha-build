@@ -86,7 +86,6 @@
     "cbaf": [],
     "ChAMP": [
         "DMRcate",
-        "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "wateRmelon",
@@ -125,8 +124,7 @@
     "conumee": [
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICanno.ilm10b2.hg19",
-        "IlluminaHumanMethylationEPICmanifest"
+        "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
     "CopyNumberPlots": [],
     "crisprBwa": [
@@ -155,7 +153,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi"
     ],
     "DMRcatedata": [
@@ -176,7 +173,6 @@
     ],
     "epimutacions": [
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
@@ -255,7 +251,6 @@
     "IlluminaHumanMethylationEPICanno.ilm10b2.hg19": [],
     "IlluminaHumanMethylationEPICanno.ilm10b3.hg19": [],
     "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [],
-    "IlluminaHumanMethylationEPICmanifest": [],
     "ipdDb": [],
     "IRISFGM": [],
     "ISAnalytics": [],
@@ -316,7 +311,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi"
     ],
     "MEAT": [
@@ -341,7 +335,6 @@
         "DMRcate",
         "FlowSorted.Blood.450k",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi"
     ],
     "methylCC": [
@@ -362,7 +355,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi"
     ],
     "methylumi": [],
@@ -375,7 +367,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "minfiDataEPIC": [
-        "IlluminaHumanMethylationEPICmanifest",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
     "miRSM": [
@@ -392,7 +383,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
         "IlluminaHumanMethylation450kmanifest",
-        "IlluminaHumanMethylationEPICmanifest",
         "methylumi"
     ],
     "MMAPPR2": [
