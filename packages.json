@@ -1,12 +1,10 @@
 {
     "affycoretools": [
-        "ReportingTools",
-        "ggbio"
+        "ReportingTools"
     ],
     "AgiMicroRna": [
         "affycoretools",
-        "ReportingTools",
-        "ggbio"
+        "ReportingTools"
     ],
     "AHEnsDbs": [],
     "AllelicImbalance": [
@@ -55,14 +53,11 @@
     ],
     "biscuiteer": [],
     "BitSeq": [],
-    "BOBaFIT": [
-        "ggbio"
-    ],
+    "BOBaFIT": [],
     "borealis": [],
     "brainflowprobes": [
         "derfinderPlot",
-        "GenomicState",
-        "ggbio"
+        "GenomicState"
     ],
     "BSgenome.Btaurus.UCSC.bosTau3": [],
     "BSgenome.Btaurus.UCSC.bosTau3.masked": [
@@ -101,16 +96,12 @@
     "BSgenome.Sscrofa.UCSC.susScr3.masked": [
         "BSgenome.Sscrofa.UCSC.susScr3"
     ],
-    "CAFE": [
-        "ggbio"
-    ],
+    "CAFE": [],
     "CAGEfightR": [
         "Gviz",
         "GenomicInteractions"
     ],
-    "cageminer": [
-        "ggbio"
-    ],
+    "cageminer": [],
     "CAGEWorkflow": [
         "CAGEfightR",
         "Gviz",
@@ -212,9 +203,7 @@
         "ttgsea"
     ],
     "DeMixT": [],
-    "derfinderPlot": [
-        "ggbio"
-    ],
+    "derfinderPlot": [],
     "DMRcate": [
         "missMethyl",
         "Gviz",
@@ -275,9 +264,7 @@
         "lumi",
         "methylumi"
     ],
-    "FLAMES": [
-        "ggbio"
-    ],
+    "FLAMES": [],
     "flowCL": [],
     "flowClust": [],
     "flowMerge": [
@@ -307,15 +294,12 @@
     "GenomicInteractions": [
         "Gviz"
     ],
-    "GenomicOZone": [
-        "ggbio"
-    ],
+    "GenomicOZone": [],
     "GenomicState": [],
     "GenProSeq": [
         "DeepPINCS",
         "ttgsea"
     ],
-    "ggbio": [],
     "gmapR": [],
     "GSReg": [],
     "Gviz": [],
@@ -344,9 +328,7 @@
     "IlluminaHumanMethylationEPICmanifest": [],
     "imcRtools": [],
     "InPAS": [],
-    "intansv": [
-        "ggbio"
-    ],
+    "intansv": [],
     "ipdDb": [],
     "IRISFGM": [],
     "ISAnalytics": [],
@@ -517,9 +499,7 @@
         "Gviz"
     ],
     "msa": [],
-    "msgbsR": [
-        "ggbio"
-    ],
+    "msgbsR": [],
     "Mu22v3.db": [],
     "multicrispr": [
         "karyoploteR"
@@ -591,9 +571,7 @@
     ],
     "qrqc": [],
     "quantro": [],
-    "R3CPET": [
-        "ggbio"
-    ],
+    "R3CPET": [],
     "RareVariantVis": [],
     "Rbec": [],
     "Rbwa": [],
@@ -612,8 +590,7 @@
         "recount",
         "regionReport",
         "GenomicState",
-        "derfinderPlot",
-        "ggbio"
+        "derfinderPlot"
     ],
     "REDseq": [],
     "regionReport": [],
@@ -621,15 +598,11 @@
         "Gviz"
     ],
     "REMP": [],
-    "ReportingTools": [
-        "ggbio"
-    ],
+    "ReportingTools": [],
     "rGREAT": [],
     "rgsepd": [],
     "Rhisat2": [],
-    "RiboProfiling": [
-        "ggbio"
-    ],
+    "RiboProfiling": [],
     "ribosomeProfilingQC": [],
     "RIPAT": [
         "karyoploteR"
@@ -660,8 +633,7 @@
     "RNAseq123": [],
     "rnaseqGene": [
         "ReportingTools",
-        "Gviz",
-        "ggbio"
+        "Gviz"
     ],
     "RnaSeqSampleSize": [
         "recount"
@@ -673,9 +645,7 @@
     "sccomp": [],
     "scmeth": [],
     "scone": [],
-    "scruff": [
-        "ggbio"
-    ],
+    "scruff": [],
     "scTensor": [
         "reactome.db",
         "ReactomePA"
@@ -711,9 +681,7 @@
     "SNPlocs.Hsapiens.dbSNP155.GRCh37": [],
     "SNPlocs.Hsapiens.dbSNP155.GRCh38": [],
     "sojourner": [],
-    "SomaticSignatures": [
-        "ggbio"
-    ],
+    "SomaticSignatures": [],
     "spatzie": [
         "GenomicInteractions",
         "Gviz"
@@ -776,8 +744,7 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "YAPSA": [
-        "SomaticSignatures",
-        "ggbio"
+        "SomaticSignatures"
     ],
     "yarn": [
         "quantro"
