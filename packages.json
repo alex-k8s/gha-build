@@ -302,7 +302,6 @@
         "minfi"
     ],
     "enrichTF": [],
-    "EnsDb.Hsapiens.v75": [],
     "EpiCompare": [],
     "epigraHMM": [],
     "epihet": [
@@ -593,9 +592,7 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "FDb.InfiniumMethylation.hg19"
     ],
-    "MetaboSignal": [
-        "EnsDb.Hsapiens.v75"
-    ],
+    "MetaboSignal": [],
     "metagene": [],
     "metaseqR2": [],
     "metavizr": [
@@ -998,8 +995,7 @@
     "UMI4Cats": [],
     "uncoverappLib": [
         "Gviz",
-        "Homo.sapiens",
-        "EnsDb.Hsapiens.v75"
+        "Homo.sapiens"
     ],
     "VAExprs": [
         "DeepPINCS",
