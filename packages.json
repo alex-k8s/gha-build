@@ -163,7 +163,6 @@
         "epivizr"
     ],
     "erma": [],
-    "ExperimentHubData": [],
     "extraChIPs": [
         "GenomicInteractions"
     ],
@@ -269,12 +268,9 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "methylclock": [
-        "methylclockData",
-        "ExperimentHubData"
+        "methylclockData"
     ],
-    "methylclockData": [
-        "ExperimentHubData"
-    ],
+    "methylclockData": [],
     "methylGSA": [
         "missMethyl",
         "reactome.db",
@@ -356,9 +352,7 @@
         "derfinderPlot"
     ],
     "Rhisat2": [],
-    "RNAmodR.Data": [
-        "ExperimentHubData"
-    ],
+    "RNAmodR.Data": [],
     "sccomp": [],
     "scTensor": [
         "reactome.db",
