@@ -450,11 +450,9 @@
         "IlluminaHumanMethylation450kmanifest"
     ],
     "recountWorkflow": [
-        "regionReport",
         "GenomicState",
         "derfinderPlot"
     ],
-    "regionReport": [],
     "REMP": [],
     "ReportingTools": [],
     "Rhisat2": [],
