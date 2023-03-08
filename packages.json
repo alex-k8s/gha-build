@@ -20,9 +20,7 @@
     ],
     "ASpediaFI": [],
     "ASpli": [],
-    "ATACCoGAPS": [
-        "rGREAT"
-    ],
+    "ATACCoGAPS": [],
     "attract": [
         "reactome.db"
     ],
@@ -492,9 +490,7 @@
         "rCGH"
     ],
     "primirTSS": [],
-    "profileplyr": [
-        "rGREAT"
-    ],
+    "profileplyr": [],
     "proteasy": [],
     "psichomics": [
         "recount"
@@ -528,7 +524,6 @@
     "regutools": [],
     "REMP": [],
     "ReportingTools": [],
-    "rGREAT": [],
     "rgsepd": [],
     "Rhisat2": [],
     "RiboProfiling": [],
