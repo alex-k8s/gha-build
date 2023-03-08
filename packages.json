@@ -115,7 +115,6 @@
         "reactome.db"
     ],
     "epimutacions": [],
-    "epivizrStandalone": [],
     "extraChIPs": [],
     "famat": [
         "reactome.db"
@@ -165,9 +164,7 @@
     "MEAT": [
         "wateRmelon"
     ],
-    "metavizr": [
-        "epivizrStandalone"
-    ],
+    "metavizr": [],
     "methylationArrayAnalysis": [
         "missMethyl",
         "minfiData",
