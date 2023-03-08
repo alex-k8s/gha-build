@@ -382,7 +382,6 @@
     "RNAmodR.Data": [
         "ExperimentHubData"
     ],
-    "RNAmodR.ML": [],
     "rnaseqGene": [],
     "RnaSeqSampleSize": [],
     "RnBeads": [],
