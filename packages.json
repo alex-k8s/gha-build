@@ -22,7 +22,6 @@
     ],
     "BitSeq": [],
     "brainflowprobes": [
-        "derfinderPlot",
         "GenomicState"
     ],
     "BSgenome.Btaurus.UCSC.bosTau3": [],
@@ -121,7 +120,6 @@
     "DeepPINCS": [
         "ttgsea"
     ],
-    "derfinderPlot": [],
     "DMRcate": [
         "missMethyl",
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
@@ -328,8 +326,7 @@
         "IlluminaHumanMethylation450kmanifest"
     ],
     "recountWorkflow": [
-        "GenomicState",
-        "derfinderPlot"
+        "GenomicState"
     ],
     "Rhisat2": [],
     "RNAmodR.Data": [],
