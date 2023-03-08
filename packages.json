@@ -12,9 +12,7 @@
     ],
     "bandle": [],
     "bgx": [],
-    "bigmelon": [
-        "wateRmelon"
-    ],
+    "bigmelon": [],
     "bioCancer": [
         "reactome.db",
         "ReactomePA"
@@ -65,7 +63,6 @@
     "CancerInSilico": [],
     "ChAMP": [
         "DMRcate",
-        "wateRmelon",
         "missMethyl"
     ],
     "ChIC": [],
@@ -159,9 +156,7 @@
     "MEAL": [
         "missMethyl"
     ],
-    "MEAT": [
-        "wateRmelon"
-    ],
+    "MEAT": [],
     "metavizr": [],
     "methylationArrayAnalysis": [
         "missMethyl",
@@ -237,9 +232,7 @@
         "reactome.db"
     ],
     "singleCellTK": [],
-    "skewr": [
-        "wateRmelon"
-    ],
+    "skewr": [],
     "SMITE": [
         "reactome.db"
     ],
@@ -270,6 +263,5 @@
         "DeepPINCS",
         "ttgsea"
     ],
-    "variants": [],
-    "wateRmelon": []
+    "variants": []
 }
