@@ -58,12 +58,9 @@
     "BSgenome.Sscrofa.UCSC.susScr3.masked": [
         "BSgenome.Sscrofa.UCSC.susScr3"
     ],
-    "CAGEfightR": [
-        "GenomicInteractions"
-    ],
+    "CAGEfightR": [],
     "CAGEWorkflow": [
-        "CAGEfightR",
-        "GenomicInteractions"
+        "CAGEfightR"
     ],
     "CancerInSilico": [],
     "ChAMP": [
@@ -121,9 +118,7 @@
     ],
     "epimutacions": [],
     "epivizrStandalone": [],
-    "extraChIPs": [
-        "GenomicInteractions"
-    ],
+    "extraChIPs": [],
     "famat": [
         "reactome.db"
     ],
@@ -139,18 +134,13 @@
     ],
     "funtooNorm": [],
     "GeneStructureTools": [],
-    "GenomicInteractions": [],
     "GenProSeq": [
         "DeepPINCS",
         "ttgsea"
     ],
     "gmapR": [],
-    "HiCDCPlus": [
-        "GenomicInteractions"
-    ],
-    "HiContacts": [
-        "GenomicInteractions"
-    ],
+    "HiCDCPlus": [],
+    "HiContacts": [],
     "HTSeqGenie": [
         "gmapR"
     ],
@@ -273,9 +263,7 @@
     "SNPlocs.Hsapiens.dbSNP155.GRCh37": [],
     "SNPlocs.Hsapiens.dbSNP155.GRCh38": [],
     "sojourner": [],
-    "spatzie": [
-        "GenomicInteractions"
-    ],
+    "spatzie": [],
     "SPLINTER": [
         "BSgenome.Mmusculus.UCSC.mm9"
     ],
