@@ -258,7 +258,6 @@
     "ENmix": [
         "minfi"
     ],
-    "enrichTF": [],
     "epihet": [
         "ReactomePA",
         "reactome.db"
