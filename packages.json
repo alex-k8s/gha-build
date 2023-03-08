@@ -157,11 +157,8 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19",
         "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
     ],
-    "epivizr": [],
     "epivizrChart": [],
-    "epivizrStandalone": [
-        "epivizr"
-    ],
+    "epivizrStandalone": [],
     "erma": [],
     "extraChIPs": [
         "GenomicInteractions"
@@ -250,7 +247,6 @@
         "IlluminaHumanMethylation450kanno.ilmn12.hg19"
     ],
     "metavizr": [
-        "epivizr",
         "epivizrStandalone"
     ],
     "methylationArrayAnalysis": [
@@ -359,9 +355,7 @@
         "ReactomePA"
     ],
     "scTGIF": [],
-    "scTreeViz": [
-        "epivizr"
-    ],
+    "scTreeViz": [],
     "shinyMethyl": [
         "IlluminaHumanMethylation450kmanifest"
     ],
