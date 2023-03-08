@@ -174,10 +174,7 @@
         "DMRcate"
     ],
     "methylCC": [],
-    "methylclock": [
-        "methylclockData"
-    ],
-    "methylclockData": [],
+    "methylclock": [],
     "methylGSA": [
         "missMethyl",
         "reactome.db"
