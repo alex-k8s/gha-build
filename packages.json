@@ -13,11 +13,8 @@
         "Gviz"
     ],
     "AneuFinder": [],
-    "annotation": [
-        "Homo.sapiens"
-    ],
+    "annotation": [],
     "appreci8R": [
-        "Homo.sapiens",
         "MafDb.1Kgenomes.phase3.hs37d5"
     ],
     "ArrayExpressHTS": [],
@@ -34,7 +31,6 @@
     ],
     "ATACCoGAPS": [
         "rGREAT",
-        "Homo.sapiens",
         "Mus.musculus"
     ],
     "attract": [
@@ -63,8 +59,7 @@
         "Gviz"
     ],
     "biscuiteer": [
-        "Mus.musculus",
-        "Homo.sapiens"
+        "Mus.musculus"
     ],
     "BitSeq": [],
     "BOBaFIT": [
@@ -272,7 +267,6 @@
     ],
     "epimutacions": [
         "minfi",
-        "Homo.sapiens",
         "Gviz",
         "IlluminaHumanMethylation450kmanifest",
         "IlluminaHumanMethylationEPICmanifest",
@@ -284,9 +278,7 @@
     "epivizrStandalone": [
         "epivizr"
     ],
-    "erma": [
-        "Homo.sapiens"
-    ],
+    "erma": [],
     "esATAC": [],
     "EuPathDB": [],
     "ExperimentHubData": [],
@@ -362,9 +354,7 @@
     ],
     "ggbio": [],
     "gmapR": [],
-    "GSReg": [
-        "Homo.sapiens"
-    ],
+    "GSReg": [],
     "GUIDEseq": [],
     "Gviz": [],
     "HiCDCPlus": [
@@ -375,7 +365,6 @@
         "GenomicInteractions",
         "Gviz"
     ],
-    "Homo.sapiens": [],
     "HTSeqGenie": [
         "gmapR"
     ],
@@ -425,9 +414,7 @@
     "kissDE": [],
     "LEA": [],
     "LiebermanAidenHiC2009": [],
-    "liftOver": [
-        "Homo.sapiens"
-    ],
+    "liftOver": [],
     "lisaClust": [],
     "ListerEtAlBSseq": [
         "methylPipe",
@@ -493,7 +480,6 @@
         "Gviz"
     ],
     "mCSEA": [
-        "Homo.sapiens",
         "Gviz"
     ],
     "MEAL": [
@@ -876,8 +862,7 @@
         "Gviz"
     ],
     "uncoverappLib": [
-        "Gviz",
-        "Homo.sapiens"
+        "Gviz"
     ],
     "VAExprs": [
         "DeepPINCS",
