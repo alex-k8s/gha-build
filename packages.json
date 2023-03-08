@@ -414,8 +414,7 @@
     ],
     "Homo.sapiens": [],
     "HTSeqGenie": [
-        "gmapR",
-        "VariantTools"
+        "gmapR"
     ],
     "iCheck": [
         "lumi",
@@ -651,8 +650,7 @@
     ],
     "mitoClone2": [],
     "MMAPPR2": [
-        "gmapR",
-        "VariantTools"
+        "gmapR"
     ],
     "motifbreakR": [
         "Gviz"
@@ -947,7 +945,6 @@
         "Gviz"
     ],
     "variants": [],
-    "VariantTools": [],
     "VariantToolsData": [],
     "VCFArray": [],
     "Voyager": [],
