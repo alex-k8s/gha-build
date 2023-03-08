@@ -1,0 +1,225 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''rnaseqGene'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'rnaseqGene'
+also installing the dependencies ‘beeswarm’, ‘vipor’, ‘hexbin’, ‘pheatmap’, ‘PoiClaClu’, ‘glmpca’, ‘ggbeeswarm’, ‘ReportingTools’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/beeswarm_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 24720 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/vipor_0.4.5.tar.gz'
+Content type 'application/x-tar' length 4733253 bytes (4.5 MB)
+==================================================
+downloaded 4.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/hexbin_1.28.2.tar.gz'
+Content type 'binary/octet-stream' length 1071886 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/pheatmap_1.0.12.tar.gz'
+Content type 'application/x-tar' length 14895 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/PoiClaClu_1.0.2.1.tar.gz'
+Content type 'application/x-tar' length 11354 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/glmpca_0.2.0.tar.gz'
+Content type 'binary/octet-stream' length 167372 bytes (163 KB)
+==================================================
+downloaded 163 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggbeeswarm_0.7.1.tar.gz'
+Content type 'binary/octet-stream' length 1726551 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/ReportingTools_2.38.0.tar.gz'
+Content type 'application/x-gzip' length 2090043 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.16/workflows/src/contrib/rnaseqGene_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 1290427 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘beeswarm’ ...
+** package ‘beeswarm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c beeswarm.c -o beeswarm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o beeswarm.so beeswarm.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-beeswarm/00new/beeswarm/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘beeswarm’ as ‘beeswarm_0.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (beeswarm)
+* installing *source* package ‘vipor’ ...
+** package ‘vipor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘vipor’ as ‘vipor_0.4.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (vipor)
+* installing *source* package ‘hexbin’ ...
+** package ‘hexbin’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c hbin.f -o hbin.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c hcell.f -o hcell.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c herode.f -o herode.o
+gfortran -fno-optimize-sibling-calls  -fpic  -g -O2  -c hsm.f -o hsm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hexbin.so hbin.o hcell.o herode.o hsm.o reg.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-hexbin/00new/hexbin/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hexbin’ as ‘hexbin_1.28.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (hexbin)
+* installing *source* package ‘pheatmap’ ...
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pheatmap’ as ‘pheatmap_1.0.12_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pheatmap)
+* installing *source* package ‘PoiClaClu’ ...
+** package ‘PoiClaClu’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘PoiClaClu’ as ‘PoiClaClu_1.0.2.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (PoiClaClu)
+* installing *source* package ‘glmpca’ ...
+** package ‘glmpca’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘glmpca’ as ‘glmpca_0.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (glmpca)
+* installing *source* package ‘ReportingTools’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for 'objectToHTML' with signature 'object="ggbio"': no definition for class "ggbio"
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ReportingTools’ as ‘ReportingTools_2.38.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ReportingTools)
+* installing *source* package ‘ggbeeswarm’ ...
+** package ‘ggbeeswarm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggbeeswarm’ as ‘ggbeeswarm_0.7.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggbeeswarm)
+* installing *source* package ‘rnaseqGene’ ...
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘rnaseqGene’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import 'dplyr::select' by 'AnnotationDbi::select' when loading 'rnaseqGene'
+** testing if installed package can be loaded from final location
+Warning: replacing previous import 'dplyr::select' by 'AnnotationDbi::select' when loading 'rnaseqGene'
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rnaseqGene’ as ‘rnaseqGene_1.22.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (rnaseqGene)
+
+The downloaded source packages are in
+	‘/tmp/RtmpnxfDvX/downloaded_packages’
+Old packages: 'bookdown', 'triebeard', 'BiocManager', 'cachem', 'fastmap',
+  'fs', 'gh', 'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun',
+  'codetools', 'MASS', 'mgcv', 'nlme', 'survival'
+
+real	22m31.597s
+user	22m3.836s
+sys	0m19.677s
