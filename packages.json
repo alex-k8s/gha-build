@@ -252,7 +252,6 @@
     "openCyto": [
         "flowClust"
     ],
-    "pd.ecoli.asv2": [],
     "pd.genomewidesnp.5": [],
     "pd.genomewidesnp.6": [],
     "phastCons7way.UCSC.hg38": [],
