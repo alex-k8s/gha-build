@@ -93,9 +93,7 @@
         "flowClust",
         "flowMerge"
     ],
-    "conumee": [
-        "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
-    ],
+    "conumee": [],
     "crisprBwa": [
         "Rbwa"
     ],
@@ -126,9 +124,7 @@
         "ReactomePA",
         "reactome.db"
     ],
-    "epimutacions": [
-        "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
-    ],
+    "epimutacions": [],
     "epivizrStandalone": [],
     "extraChIPs": [
         "GenomicInteractions"
@@ -165,7 +161,6 @@
     "HTSeqGenie": [
         "gmapR"
     ],
-    "IlluminaHumanMethylationEPICanno.ilm10b2.hg19": [],
     "IlluminaHumanMethylationEPICanno.ilm10b3.hg19": [],
     "IlluminaHumanMethylationEPICanno.ilm10b4.hg19": [],
     "IRISFGM": [],
@@ -212,9 +207,7 @@
         "IlluminaHumanMethylationEPICanno.ilm10b4.hg19"
     ],
     "minfiData": [],
-    "minfiDataEPIC": [
-        "IlluminaHumanMethylationEPICanno.ilm10b2.hg19"
-    ],
+    "minfiDataEPIC": [],
     "miRSM": [
         "miRspongeR",
         "ReactomePA",
