@@ -460,7 +460,6 @@
     "NoRCE": [
         "reactome.db"
     ],
-    "octad": [],
     "ODER": [],
     "odseq": [
         "msa"
