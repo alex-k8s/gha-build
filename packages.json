@@ -73,7 +73,6 @@
     ],
     "borealis": [],
     "brainflowprobes": [
-        "derfinder",
         "derfinderPlot",
         "GenomicState",
         "ggbio"
@@ -234,9 +233,7 @@
         "ttgsea"
     ],
     "DeMixT": [],
-    "derfinder": [],
     "derfinderPlot": [
-        "derfinder",
         "ggbio"
     ],
     "DMRcate": [
@@ -362,9 +359,7 @@
     "GenomicOZone": [
         "ggbio"
     ],
-    "GenomicState": [
-        "derfinder"
-    ],
+    "GenomicState": [],
     "GenProSeq": [
         "DeepPINCS",
         "ttgsea"
@@ -660,9 +655,7 @@
         "reactome.db"
     ],
     "octad": [],
-    "ODER": [
-        "derfinder"
-    ],
+    "ODER": [],
     "odseq": [
         "msa"
     ],
@@ -696,8 +689,7 @@
     ],
     "proteasy": [],
     "psichomics": [
-        "recount",
-        "derfinder"
+        "recount"
     ],
     "Pviz": [
         "Gviz"
@@ -721,9 +713,7 @@
         "reactome.db"
     ],
     "rebook": [],
-    "recount": [
-        "derfinder"
-    ],
+    "recount": [],
     "recountmethylation": [
         "minfi",
         "IlluminaHumanMethylation450kmanifest"
@@ -731,15 +721,12 @@
     "recountWorkflow": [
         "recount",
         "regionReport",
-        "derfinder",
         "GenomicState",
         "derfinderPlot",
         "ggbio"
     ],
     "REDseq": [],
-    "regionReport": [
-        "derfinder"
-    ],
+    "regionReport": [],
     "regutools": [
         "Gviz"
     ],
@@ -762,8 +749,7 @@
     "RITAN": [],
     "RLSeq": [],
     "RNAAgeCalc": [
-        "recount",
-        "derfinder"
+        "recount"
     ],
     "rnaEditr": [],
     "RNAmodR": [
@@ -793,8 +779,7 @@
         "ggbio"
     ],
     "RnaSeqSampleSize": [
-        "recount",
-        "derfinder"
+        "recount"
     ],
     "RnBeads": [
         "methylumi",
