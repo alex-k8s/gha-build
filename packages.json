@@ -303,7 +303,6 @@
     ],
     "enrichTF": [],
     "EnsDb.Hsapiens.v75": [],
-    "EnsDb.Mmusculus.v79": [],
     "EpiCompare": [],
     "epigraHMM": [],
     "epihet": [
@@ -781,9 +780,7 @@
     "profileplyr": [
         "rGREAT"
     ],
-    "proteasy": [
-        "EnsDb.Mmusculus.v79"
-    ],
+    "proteasy": [],
     "ProteoDisco": [],
     "psichomics": [
         "recount",
