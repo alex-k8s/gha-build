@@ -37,7 +37,6 @@
         "Homo.sapiens",
         "Mus.musculus"
     ],
-    "ATACseqQC": [],
     "attract": [
         "reactome.db"
     ],
@@ -662,7 +661,6 @@
     ],
     "NADfinder": [
         "trackViewer",
-        "ATACseqQC",
         "Gviz"
     ],
     "NBSplice": [],
