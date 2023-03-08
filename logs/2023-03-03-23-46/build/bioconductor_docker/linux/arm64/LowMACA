@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''LowMACA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'LowMACA'
+also installing the dependencies ‘cBioPortalData’, ‘gridBase’
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/cBioPortalData_2.10.3.tar.gz'
+Content type 'application/x-gzip' length 1037383 bytes (1013 KB)
+==================================================
+downloaded 1013 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gridBase_0.4-7.tar.gz'
+Content type 'application/x-tar' length 154082 bytes (150 KB)
+==================================================
+downloaded 150 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/LowMACA_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 130492 bytes (127 KB)
+==================================================
+downloaded 127 KB
+
+* installing *source* package ‘cBioPortalData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cBioPortalData’ as ‘cBioPortalData_2.10.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (cBioPortalData)
+* installing *source* package ‘gridBase’ ...
+** package ‘gridBase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridBase’ as ‘gridBase_0.4-7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gridBase)
+* installing *source* package ‘LowMACA’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Checking if clustalo is in the PATH...
+Warning in .ClustalChecks(ClustalCommand = "clustalo") :
+  Clustal Omega is not in the PATH:
+You can either change clustalo command using lmParams function or use the web service. See ?setup
+Checking perl installation...
+Checking perl modules XML::Simple and LWP...
+** testing if installed package can be loaded from final location
+Checking if clustalo is in the PATH...
+Warning in .ClustalChecks(ClustalCommand = "clustalo") :
+  Clustal Omega is not in the PATH:
+You can either change clustalo command using lmParams function or use the web service. See ?setup
+Checking perl installation...
+Checking perl modules XML::Simple and LWP...
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘LowMACA’ as ‘LowMACA_1.28.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (LowMACA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpa9HZxH/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'MASS', 'mgcv', 'nlme', 'survival'
+
+real	10m11.769s
+user	10m3.071s
+sys	0m6.252s
