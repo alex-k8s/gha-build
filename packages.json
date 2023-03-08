@@ -410,8 +410,7 @@
     "NBSplice": [],
     "NetPathMiner": [],
     "netZooR": [
-        "yarn",
-        "quantro"
+        "yarn"
     ],
     "NoRCE": [
         "reactome.db"
@@ -439,7 +438,6 @@
         "recount"
     ],
     "Pviz": [],
-    "quantro": [],
     "R3CPET": [],
     "RareVariantVis": [],
     "Rbec": [],
@@ -568,7 +566,5 @@
     "YAPSA": [
         "SomaticSignatures"
     ],
-    "yarn": [
-        "quantro"
-    ]
+    "yarn": []
 }
