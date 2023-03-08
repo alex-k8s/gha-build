@@ -1,0 +1,133 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''VariantFiltering'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'VariantFiltering'
+also installing the dependencies ‘Gviz’, ‘shinythemes’, ‘shinyjs’, ‘shinyTree’
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/Gviz_1.42.1.tar.gz'
+Content type 'application/x-gzip' length 7139051 bytes (6.8 MB)
+==================================================
+downloaded 6.8 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/shinythemes_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 978127 bytes (955 KB)
+==================================================
+downloaded 955 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/shinyjs_2.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1023958 bytes (999 KB)
+==================================================
+downloaded 999 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/shinyTree_0.2.7.tar.gz'
+Content type 'application/x-tar' length 539255 bytes (526 KB)
+==================================================
+downloaded 526 KB
+
+trying URL 'https://bioconductor.org/packages/3.16/bioc/src/contrib/VariantFiltering_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 3745940 bytes (3.6 MB)
+==================================================
+downloaded 3.6 MB
+
+* installing *source* package ‘Gviz’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Gviz’ as ‘Gviz_1.42.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Gviz)
+* installing *source* package ‘shinythemes’ ...
+** package ‘shinythemes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinythemes’ as ‘shinythemes_1.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shinythemes)
+* installing *source* package ‘shinyjs’ ...
+** package ‘shinyjs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinyjs’ as ‘shinyjs_2.1.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shinyjs)
+* installing *source* package ‘shinyTree’ ...
+** package ‘shinyTree’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinyTree’ as ‘shinyTree_0.2.7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shinyTree)
+* installing *source* package ‘VariantFiltering’ ...
+** using staged installation
+** libs
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_VariantFiltering.c -o R_init_VariantFiltering.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/built/S4Vectors/include' -I'/tmp/built/IRanges/include' -I'/tmp/built/XVector/include' -I'/tmp/built/Biostrings/include' -I/usr/local/include   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c methods-WeightMatrix.c -o methods-WeightMatrix.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o VariantFiltering.so Biostrings_stubs.o R_init_VariantFiltering.o methods-WeightMatrix.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/built/00LOCK-VariantFiltering/00new/VariantFiltering/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package 'GenomeInfoDb' for request: 'releaseName' when loading 'VariantFiltering'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package 'GenomeInfoDb' for request: 'releaseName' when loading 'VariantFiltering'
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+No methods found in package 'GenomeInfoDb' for request: 'releaseName' when loading 'VariantFiltering'
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VariantFiltering’ as ‘VariantFiltering_1.34.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (VariantFiltering)
+
+The downloaded source packages are in
+	‘/tmp/RtmprchQCi/downloaded_packages’
+Old packages: 'triebeard', 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh',
+  'httpuv', 'httr', 'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools',
+  'MASS', 'mgcv', 'nlme', 'survival'
+
+real	14m51.649s
+user	14m38.005s
+sys	0m10.708s
