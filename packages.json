@@ -269,7 +269,6 @@
         "minfi"
     ],
     "enrichTF": [],
-    "EpiCompare": [],
     "epihet": [
         "ReactomePA",
         "reactome.db"
