@@ -1,4 +1,0 @@
-SNPlocs.Hsapiens.dbSNP155.GRCh37
-SNPlocs.Hsapiens.dbSNP155.GRCh38
-rebook
-MafDb.gnomAD.r2.1.GRCh38
