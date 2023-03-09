@@ -211,7 +211,6 @@
         "reactome.db",
         "ReactomePA"
     ],
-    "scTreeViz": [],
     "signatureSearch": [
         "reactome.db"
     ],
