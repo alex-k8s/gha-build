@@ -149,7 +149,6 @@
         "missMethyl",
         "DMRcate"
     ],
-    "methylclock": [],
     "methylGSA": [
         "missMethyl",
         "reactome.db"
