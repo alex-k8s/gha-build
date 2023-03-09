@@ -205,7 +205,6 @@
     ],
     "rebook": [],
     "Rhisat2": [],
-    "sccomp": [],
     "scTensor": [
         "reactome.db",
         "ReactomePA"
