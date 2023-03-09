@@ -1,0 +1,30 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MafDb.gnomAD.r2.1.hs37d5'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'MafDb.gnomAD.r2.1.hs37d5'
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/MafDb.gnomAD.r2.1.hs37d5_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 6046874367 bytes (5766.7 MB)
+=========================================
+downloaded 4778.4 MB
+
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  download from 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/MafDb.gnomAD.r2.1.hs37d5_3.10.0.tar.gz' failed
+In addition: Warning messages:
+1: In download.file(url, destfile, method, mode = "wb", ...) :
+  downloaded length 5010489344 != reported length 6046874367
+2: In download.file(url, destfile, method, mode = "wb", ...) :
+  URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/MafDb.gnomAD.r2.1.hs37d5_3.10.0.tar.gz': Timeout of 600 seconds was reached
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘MafDb.gnomAD.r2.1.hs37d5’ failed
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tinytex', 'utf8', 'xfun', 'codetools', 'MASS', 'mgcv',
+  'nlme', 'survival'
+
+real	10m54.222s
+user	10m0.578s
+sys	0m29.012s
