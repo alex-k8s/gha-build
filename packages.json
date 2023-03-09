@@ -145,7 +145,6 @@
     "MEAL": [
         "missMethyl"
     ],
-    "MEAT": [],
     "methylationArrayAnalysis": [
         "missMethyl",
         "DMRcate"
