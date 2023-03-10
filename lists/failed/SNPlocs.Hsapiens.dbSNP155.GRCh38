@@ -1,0 +1,30 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SNPlocs.Hsapiens.dbSNP155.GRCh38'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'?repositories' for details
+
+replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+
+Bioconductor version 3.16 (BiocManager 1.30.19), R 4.2.2 (2022-10-31)
+Installing package(s) 'SNPlocs.Hsapiens.dbSNP155.GRCh38'
+trying URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP155.GRCh38_0.99.23.tar.gz'
+Content type 'application/x-gzip' length 6166219985 bytes (5880.6 MB)
+============================================
+downloaded 5231.2 MB
+
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  download from 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP155.GRCh38_0.99.23.tar.gz' failed
+In addition: Warning messages:
+1: In download.file(url, destfile, method, mode = "wb", ...) :
+  downloaded length 5485312026 != reported length 6166219985
+2: In download.file(url, destfile, method, mode = "wb", ...) :
+  URL 'https://bioconductor.org/packages/3.16/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP155.GRCh38_0.99.23.tar.gz': Timeout of 600 seconds was reached
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘SNPlocs.Hsapiens.dbSNP155.GRCh38’ failed
+Old packages: 'BiocManager', 'cachem', 'fastmap', 'fs', 'gh', 'httpuv', 'httr',
+  'sourcetools', 'tibble', 'tinytex', 'utf8', 'xfun', 'codetools', 'MASS',
+  'mgcv', 'nlme', 'survival'
+
+real	10m49.735s
+user	10m11.268s
+sys	0m24.584s
